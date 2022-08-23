@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+
+<superEntry>
+	<orth>낙후되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/27</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/27</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/10/04</mod_date>
+				<mod_writer>김선영</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">낙후가 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<org lg="si">落後_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>악화</sem_class>
+				<trans>fall behind</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(기술|생활|문화)</sel_rst>
+					<eg>현재 우리나라에는 기술이 낙후된 영역이 많다.</eg>
+					<eg>문화가 낙후된 지역에는 질병이 큰 문제이다.</eg>
+					<eg>일본의 웹문화는 국내에 비해 많이 낙후되었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>악화</sem_class>
+				<trans>drop out</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">건물|다리|시설물</sel_rst>
+					<eg>이 극장은 낙후되어 사용할 수 없다.</eg>
+					<eg>안전이 문제시되기 때문에 낙후된 모든 다리를 보수해야만 한다.</eg>
+					<eg>오래된 유치원은 시설이 낙후되어 교육적인 기능을 하기가 어렵다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

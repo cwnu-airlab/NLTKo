@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>내놓다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>VV</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>탈퇴</sem_class>
+				<trans>quit</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(직위|자리)</sel_rst>
+					<eg>그는 국회의원에 출마하기 위해 장관자리를 내놓았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>방향성행위</sem_class>
+				<trans>let go outside</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(자식|아이)|(닭|염소)</sel_rst>
+					<eg>자식을 내놓고 키운다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에|에게|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Z" tht="GOL">장소(밖)</sel_rst>
+					<eg>기온이 떨어지자 밖에 내놓았던 화분을 급히 집안으로 들여놓았다.</eg>
+					<eg>너무 더워서 내의를 밖으로 내놓은 채 부채질을 하고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>방향성행위</sem_class>
+				<trans>extract</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|구체물</sel_rst>
+					<eg>영희는 내놓고 너만 오너라.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>방향성행위</sem_class>
+				<trans>sell in the market</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에|에게|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(상품|제품|집|아파트)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">장소(시장|복덕방)</sel_rst>
+					<eg>이 냉장고는 우리 회사에서 시장에 새로 내놓은 신제품입니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>수여</sem_class>
+				<trans>give</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에|에게|로 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|추상적대상(돈)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간</sel_rst>
+					<eg>그는 불쑥 나에게 자신의 이력서를 내놓았다.</eg>
+					<eg>그는 우리들에게 그가 만든 요리를 자랑스럽게 내놓았다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에서 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(돈)</sel_rst>
+					<sel_rst arg="Z" tht="SRC">장소(지갑)</sel_rst>
+					<eg>그는 지갑에서 돈을 몇 푼 내놓았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="06">
+			<sem_grp>
+				<sem_class>수여</sem_class>
+				<trans>donate</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에|에게|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(돈)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간</sel_rst>
+					<eg>그 기업은 불우이웃들에게 성금을 10억원이나 내놓았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>VV</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>소통행위</sem_class>
+				<trans>give</trans>
+			</sem_grp>
+			<frame_grp type="STR">
+				<frame>X=N0-이 Z=N3-에게|에 Y=S2-고 Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="Npr1">(의견|견해|생각|공약)</sel_rst>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="CNT"/>
+					<sel_rst arg="Z" tht="GOL">인간|인간집단</sel_rst>
+					<eg>철수는 선생님께 그렇게 하자고 자신의 견해를 내놓았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>VV</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>소통행위</sem_class>
+				<trans>give</trans>
+			</sem_grp>
+			<frame_grp type="CTR">
+				<frame>X=N0-이 Y=N2-에게 C1-을 V</frame>
+				<subsense>
+					<sel_rst arg="C1">(속)</sel_rst>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간</sel_rst>
+					<eg>속을 내놓고 말씀드리기가 힘들군요.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

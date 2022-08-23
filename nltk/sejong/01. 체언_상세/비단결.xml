@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>비단결</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/06/30</cre_date>
+				<cre_writer>권우진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/05</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/06</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>예문 형식 수정</mod_note>
+				<mod_note>n_v 형식 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1의 의미부류르 '속성'에서 '촉감속성값'으로 수정;동사정보에 '~이다' 추가;논항 의미부류 정보 추가;센스2의 의미부류를 '부분'에서 '모양'으로 수정;센스2에 맥스엔, 논항 의미부류 정보 추가</mod_note>
+			</mod>
+			<note></note>
+			<add>~을 만지다|살피다|보다(sens2)</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">비단+결</str>
+			<org lg="si">緋緞_</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc">~같은 마음씨</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>요즘 세상에 그렇게 ~같은 마음씨를 가진 아가씨가 흔하지 않은 법이죠.</eg>
+				<eg>넌 어쩌면 이렇게 살결이 ~처럼 곱니?</eg>
+				<trans>soft as a silk</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>촉감속성값</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>나뭇결</coord>
+					<coord>머릿결</coord>
+					<coord>살결</coord>
+					<holo>비단</holo>
+					<rel>피부</rel>
+					<rel>마음</rel>
+					<rel>마음씨</rel>
+					<rel>심성</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~처럼 곱다</comb_aj>
+				<comb_aj type="appr">~처럼 매끄럽다</comb_aj>
+				<comb_aj type="appr">~처럼 부드럽다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 ~이다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|품격속성|신체부위(피부)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>국내산 비단은 중국산보다 ~이 곱고 색이 선명한 것이 특징입니다.</eg>
+				<trans>texture of silk</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>모양</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 부드럽다</comb_aj>
+				<comb_aj type="appr">~이 매끄럽다</comb_aj>
+				<comb_aj type="appr">~이 곱다</comb_aj>
+				<comb_aj type="appr">~이 거칠다</comb_aj>
+				<comb_aj type="appr">~이 투박하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 만지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 살피다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 보다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">천</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

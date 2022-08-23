@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>사용료</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2006/05/29</cre_date>
+				<cre_writer>이홍식</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2006/12/09</mod_date>
+				<mod_writer>신서인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>명사연어에 '추가 ~' 추가;동사정보에 '징수하다, 인상하다, 할인하다, 면제하다' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/08</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>단위표현 정보 추가</mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_R">사용+료</str>
+			<org lg="si">使用料</org>
+		
+			<hom exist="temp"/>
+			<der  pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 시설은 회원 자격이 없어도 ~만 지불하면 이용할 수 있다.</eg>
+				<trans>rental fee</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>비용</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">추가 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 지불하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 내다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 물다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 지급하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 지급하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 받다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 걷다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 징수하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 인상하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 할인하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 면제하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">구체물|장소|물리학적대상</sel_rst>
+				<cl type="qnt">원</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

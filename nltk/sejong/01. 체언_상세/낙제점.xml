@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>낙제점</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/15</cre_date>
+				<cre_writer>이상규</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/03</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/03</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 속성값 수정</mod_note>
+				<mod_note>예문 형식 수정</mod_note>
+				<mod_note>n_v 형식 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/06</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note>통사정보 수정</mod_note>
+			</mod>
+			<note></note>
+			<add>~을 주다|받다</add>
+			<add>~을 주다|받다</add>
+			<add>~이|으로 나오다</add>
+			<add>~을 주다|받다</add>
+			<add>~이|으로 나오다</add>
+			<add>~으로 평가하다|평가되다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<str type="N_S">낙제+점</str>
+			<org lg="si">落第點</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 요리 솜씨를 한 번 발휘해보겠노라고 장담했지만 결과는 ~이었다.</eg>
+				<eg>솔직히 말해서 당신은 가장으로서는 ~을 줄 수밖에 없어요.</eg>
+				<trans>failing mark</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성</sem_class>
+				<lr>
+					<hyper>점수</hyper>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 주다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 받다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 평가하다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 평가되다</form>
+					<frame></frame>	
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이번 시험은 잘 봤다고 생각했는데 예상외로 ~이 나오고 말았다.</eg>
+				<trans></trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>크기</sem_class>
+				<lr>
+					<rel>시험</rel>
+					<rel>고시</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+			   	
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="qnt">점</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

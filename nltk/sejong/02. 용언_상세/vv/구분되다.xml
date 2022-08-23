@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>구분되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/10</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/23</mod_date>
+				<mod_writer>목정수</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/10/07</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>형태정보, 의미정보, 격틀 조정</mod_note>
+				<mod_note>엔트리 구분된 것을 센스로 구분</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">구분이 되다</var>
+			<cntr opt="opt" type="i"/>
+			<str>N.되</str>
+			<org lg="si">區分_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be distinguished from</trans>
+				<lr>
+					<syn type="perfect">구별되다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN" cor="sym" n="01">
+				<frame>X=N0-이 Y=N1-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">온</sel_rst>
+					<sel_rst arg="Y" tht="COM">온</sel_rst>
+					<eg>유니폼 색깔이 비슷해서 한국팀이 일본 팀과 잘 구분되지 않는다.</eg>
+					<eg>진품이 가짜와 잘 구분되지 않는다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="sym" n="01">
+				<frame>X+Y=N0-이 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">온</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<eg>유니폼 색깔이 비슷해서 한국팀과 일본팀이 잘 구분되지 않는다.</eg>
+					<eg>진품과 가짜가 잘 구분되지 않는다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be classified</trans>
+				<lr>
+					<syn type="perfect">분류되다</syn>
+					<syn type="perfect">구별되다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">온</sel_rst>
+					<sel_rst arg="Y" tht="FNS">온|(가지|종류|부류)</sel_rst>
+					<eg>주거지는 세대수에 따라 네 유형으로 구분된다.</eg>
+					<eg>삼은 장삼, 산삼, 인삼으로 크게 구분된다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

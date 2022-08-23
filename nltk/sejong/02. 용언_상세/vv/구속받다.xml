@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>구속받다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/04</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>유경민</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/04</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/10/07</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>형태정보, 의미정보, 격틀 조정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">구속을 받다</var>
+			<cntr opt="opt" type="oi"/>
+			<str>NV</str>
+			<org lg="si">拘束_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01"><!--각 논항 자리에 "S것", "Q"가 실현될 수 있음.-->
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be bound</trans>
+				<lr>
+					<syn type="perfect">속박되다</syn>
+					<ant type="compl">방임되다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="AGT">인간|인간집단</sel_rst>
+					<n_appr arg="X">행동</n_appr>
+					<n_appr arg="Y">생각</n_appr>
+					<eg>사춘기 시절에는 누구나 다른 사람에게 구속받기를 싫어한다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|인간집단|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="EFF">추상적대상</sel_rst>
+					<eg>사람은 어른이나 애나 모두 어떠한 사상에 구속받는 상황을 원하지 않는다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

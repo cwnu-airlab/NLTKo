@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>연원</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/01</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/25</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/20</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>예문 추가</mod_note>			
+				<mod_note>s_n 기술</mod_note>				
+				<mod_note>n_aj 수정</mod_note>
+				<mod_note>add 정보를 n_v에 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>오타 수정</mod_note>
+			</mod>
+			<note>2002/07/25(고길수)의미부류를 '원인'에서 '계통'으로 수정</note>
+			<note>comb_aj의 '~이 깊다'는 magn로 조정</note>
+			<note>comb_v의 '~을 캐다|찾다|밝히다'는 add로 조정</note>
+			<note>항상 'X-의 ~' 꼴로 쓰이는 듯하고 이를 밝혀줄 필요가 있음</note>
+			<note>2002/08/02(이성헌)</note>
+			<note>2003/09/17(송인욱)</note>
+			<note>2003/09/25(김미현)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">淵源</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 유적의 ~은 밝혀지지 않았다.</eg> 
+				<eg>향수가 생겨난 ~에는 참 많은 이야기들이 존재해 왔다.</eg> <!--송근영 추가-->
+				<trans>origin</trans>
+				<trans>source</trans>
+				<trans>beginning</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>계통</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 깊다</comb_aj> <!--유형값 수정(송근영)-->
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 찾다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 밝히다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 캐다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 따지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 더듬다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S은 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

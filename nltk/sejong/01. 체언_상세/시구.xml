@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>시구</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/20</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/20</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/01</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>의미부류 텍스트의부분에서 언어요소로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/09</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>본디말 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/26</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/26</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="xx">싯구</var>
+			<var type="lng">시구절</var>
+			<org lg="si">詩句</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 구절은 앞의 ~와 대응이 되어, 폭포의 흐름과 지은이의 심정을 비교하고 있다.</eg>
+				<trans>verse</trans>
+				<trans>stanza</trans>
+				<sem_class>언어요소</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 쓰다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사용하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 외다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/20</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/20</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/01</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>영어대역어 수정;의미부류 단독행위에서 몸짓및동작으로 수정;센스 2 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/09</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>선택제약 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/26</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/26</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/10/20(기영인)추후 전문영역 상세화(운동/야구) 필요</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">始球</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>올해 한국 시리즈에서는 백혈병에 걸린 어린이가 ~를 했다.</eg>
+				<trans>throwing the first ball</trans>
+				<domain>운동</domain>
+				<sem_class>몸짓및동작</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>포수는 대통령이 던진 ~에 사인을 받고 있었다.</eg>
+				<trans>the first ball</trans><!--김성용(2004/10/01)영어 대역어 확인 요망-->
+				<domain>운동</domain>
+				<sem_class>기구</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 던지다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

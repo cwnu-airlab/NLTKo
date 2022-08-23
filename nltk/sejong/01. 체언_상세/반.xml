@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>반</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/20</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/24</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>comp 추가(위ㅅ~, 아래ㅅ~)</mod_note>
+				<mod_note>센스1, lexfunc 기술</mod_note>
+				<mod_note>센스1, n_n 기술</mod_note>
+				<mod_note>센스3, pred_d의 '수사/기수' 기입 보류</mod_note>
+			</mod>
+			<note>2000/09/22(정유진)</note>
+			<note>2000/09/27(정유진)</note>
+			<note>2001/01/22(백인애,강범모)</note>
+			<note>2003/03/17(기영인)센스1 의미부류 수정</note>
+			<note>2003/03/23(박동호)</note>
+			<note>2003/03/24(기영인)</note>
+			<note>combv 정보삭제, 일부 add로 이동</note>
+			<note>combv 정보삭제</note>
+			<note>pre_n 정보입력</note>
+			<note>관련어 정보삭제</note>
+			<note>센스2 대역어 정보수정</note>
+			<note>센스3 대역어 수정</note>
+			<note>의미부류 수정</note>
+			<add>(sense2) ~에 가입하다|들어가다</add>
+			<add>(sense2) ~에서 활동하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">班</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~장</comp>
+			<comp pos="n" type="prefix">방송~</comp>
+			<comp pos="n" type="prefix">연극~</comp>
+			<comp pos="n" type="prefix">신문~</comp>
+			<comp pos="n" type="prefix">판소리~</comp>
+			<comp pos="n" type="prefix">합창~</comp>
+			<comp pos="n" type="prefix">연구~</comp>
+			<comp pos="n" type="prefix">수사~</comp>
+			<comp pos="n" type="prefix">내무~</comp>
+			<comp pos="n" type="prefix">위ㅅ~</comp>
+			<comp pos="n" type="prefix">아래ㅅ~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>영이하고는 초등학교 6년 동안 계속 같은 ~을 해 왔다.</eg>
+				<trans>class</trans>
+				<domain>학습</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>단체의부서</sem_class>
+				<lr>
+					<syn type="etc">학급</syn>
+					<ant type="temp"></ant>
+					<mero>학생</mero>
+					<rel>학교</rel>
+					<rel>학년</rel>
+					<rel>교실</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="lexfunc">같은 ~</comb_n>
+				<comb_n type="lexfunc">다른 ~</comb_n>
+				<comb_n type="lexfunc">한 ~</comb_n>
+				<comb_n type="compound">옆 ~</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>올해에는 특별활동시간에 연극을 하는 ~에 가입하고 싶다.</eg>
+				<trans>circleclassteam</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>취미단체</sem_class>
+				<lr>
+					<syn type="etc">부</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N</pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>신청서에 주소를 적을 때 통과 ~을 밝혀 적으시오.</eg>
+				<eg>우리 집 주소는 은평구 신사동 2통 3~ 23-1번지이다.</eg>
+				<trans>ban</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>행정구역</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>통</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/20</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/24</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>add, n_v로 옮김</mod_note>
+			</mod>
+			<note>2000/09/22(정유진)</note>
+			<note>2000/09/27(정유진)</note>
+			<note>2001/01/22(백인애,강범모)</note>
+			<note>2003/03/17(기영인)센스1 대역어 정보수정</note>
+			<note>2003/03/23(박동호)</note>
+			<note>2003/03/24(기영인)</note>
+			<note>combn 정보삭제</note>
+			<note>combv 정보삭제, 일부 add로 이동</note>
+			<note>센스 삭제</note>
+			<note>센스2 의미부류 수정</note>
+			<note>의미부류 수정</note>
+			<add>(sense1) ~으로 나누다|썰다|쪼개다|줄이다</add>
+			<add>(sense2) ~으로 접다|자르다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">半</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="prefix">절~</der>
+			<comp pos="n" type="suffix">~나절</comp>
+			<comp pos="n" type="suffix">~쪽</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">시작이 ~이다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 과자를 동생이랑 똑같이 ~으로 나누어서 먹어라.</eg>
+				<eg>그 곳에 가는 데에 여기서 2시간 ~쯤 걸린다.</eg>
+				<trans>half</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>추상적부분</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 나누다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 가르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 자르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 쪼개다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>편지를 ~으로 접어서 주머니에 살며시 넣어 두었다.</eg>
+				<trans>halfwaymiddle</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>추상적부분</sem_class>
+				<lr>
+					<syn type="etc">가운데</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/20</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/24</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>lng 기술</mod_note>
+			</mod>
+			<note>2000/09/22(정유진)</note>
+			<note>2000/09/27(정유진)</note>
+			<note>2001/01/22(백인애,강범모)</note>
+			<note>2003/03/17(기영인)예문 수정</note>
+			<note>2003/03/23(박동호)</note>
+			<note>2003/03/24(기영인)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="lng">반정립</var>
+			<str type="temp"></str>
+			<org lg="si">反</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>세상은 정과 ~과 그리고 그 둘의 조화인 합의 순환을 통해 변해간다.</eg>
+				<trans>antithesis</trans>
+				<domain>철학</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="grad">정</ant>
+					<coord>합</coord>
+					<rel>변증법</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>되풀이되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/23</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/22</mod_date>
+				<mod_writer>목정수</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/10/10</mod_date>
+				<mod_writer>김선영</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">되풀이가 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>repeat</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">사건|행위(말|노래|이야기|거짓말|실수)</sel_rst>
+					<eg>같은 얘기가 계속 되풀이되었다.</eg>
+					<eg>실수가 계속 되풀이되었다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+					<end_rst1></end_rst1>
+				</morph_rst>
+				<col_grp>
+					<col type="magn">계속</col>
+					<col type="magn">자꾸</col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>repeat</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상</sel_rst>
+					<eg>역사는 되풀이된다.</eg>
+					<eg>혼란이 되풀이된다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+					<end_rst1></end_rst1>
+				</morph_rst>
+				<col_grp>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+	</entry>
+</superEntry>

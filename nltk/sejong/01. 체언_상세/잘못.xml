@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>잘못</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/06/30</cre_date>
+				<cre_writer>신중진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/04</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/29</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note>add이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/28</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>동형어 정보 수정;의미부류를 '추상적대상'에서 수정;동사결합 정보 수정;논항 명사구, 의미정보 수정 및 보완</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/09/07(김종명)</note>
+			<note>2001/02/10(이호영)동형어 삭제</note>
+			<note>2003/02/18(기영인)예문 추가</note>
+			<note>2003/03/02(박동호)comb_v의 일부내용을 add로 이동</note>
+			<note>2003/03/04(기영인)</note>
+			<note>combaj 정보수정</note>
+			<note>combv 정보수정</note>
+			<note>magn 정보추가</note>
+			<note>가산/비가산/관계/대칭 수정</note>
+			<note>기능동사구문 수정</note>
+			<note>단위표현 추가</note>
+			<note>동의어 추가</note>
+			<note>선택제약 정보수정</note>
+			<note>수식어-문장 추가</note>
+			<note>의미부류 수정</note>
+			<note>의미하위부류 추가</note>
+			<note>한정사 제약 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="prefix">잘~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>불량학생이 ~을 뉘우치고 열심히 공부한다.</eg>
+				<eg>이번 일에 내가 ~이 없었다는 것이 아니라, 우리가 저지른 ~을 똑바로 보자는 거다.</eg>
+				<trans>mistake</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>범죄및비행</sem_class>
+				<lr>
+					<syn type="etc">오류</syn>
+					<ant type="temp"></ant>
+					<rel>반성</rel>
+					<rel>처벌</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 많다</comb_aj>
+				<comb_aj type="appr">~이 없다</comb_aj>
+				<comb_aj type="magn">~이 크다</comb_aj>
+				<comb_aj type="magn">엄청난 ~</comb_aj>
+				<comb_aj type="magn">사소한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 저지르다</form>
+					<frame>X-이 Y-을 ~을 저지르다</frame>
+					<frame>X-이 Y-에대해 ~을 저지르다</frame>
+					<frame>X-이 S것-에대해 ~을 저지르다</frame>
+					<frame>X-이 Z-에 ~을 저지르다</frame>
+					<frame>X-이 Z-에게 ~을 저지르다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 뉘우치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 고치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+					<frame>X-이 Y-에대해 ~을 하다</frame>
+					<frame>X-이 S것-에대해 ~을 하다</frame>
+					<frame>X-이 Z-에 ~을 하다</frame>
+					<frame>X-이 Z-에게 ~을 하다</frame>
+				</comb_v>
+				<!-- max_n>Y-에대한 X-의 S는 ~</max_n -->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>Z-에대한 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">행위|계획사건</sel_rst>
+				<sel_rst arg="Z">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+				<s_n>S은 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

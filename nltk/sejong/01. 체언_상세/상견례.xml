@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>상견례</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/21</cre_date>
+				<cre_writer>김진형</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/07</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/28</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>최대논항구조정보추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/27</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_v 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/07</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>대칭적행위에서 만남으로 수정;명사연어에 '가족, 양가 ~, ~ 자리, 장소' 추가;'치르다, 가지다' 유형값 수정 및 프레임 정보 추가;맥스엔 정보 수정</mod_note>
+			</mod>
+			<note>2002/10/08(고길수)comb_v에 '~를 가지다' 추가</note>
+			<note>2003/05/26(한동훈)예문 추가</note>
+			<note>2003/07/07(김미현)기능동사에서 사역동사 '시키다' 삭제</note>
+			<note>sel_res 정보 추가</note>
+			<note>기능동사'~시키다' 구문을 추가했는데 검토가 필요하다고 생각됨</note>
+			<note>기능동사, 논항정보에서 장소의 Z 논항 삭제</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">相見禮</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>양가의 부모님들이 ~를 하고 혼인 날짜를 잡기로 하였다.</eg>
+				<eg>곧 신랑 신부의 ~가 있겠습니다.</eg>
+				<trans>meeting</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>만남</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">가족 ~</comb_n>
+				<comb_n type="compound">양가 ~</comb_n>
+				<comb_n type="compound">~ 자리</comb_n>
+				<comb_n type="compound">~ 장소</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-와 ~를 하다</frame>
+					<frame>X-와 Y-이 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 치르다</form>
+					<frame>X-이 Y-와 ~를 치르다</frame>
+					<frame>X-와 Y-이 ~를 치르다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 가지다</form>
+					<frame>X-이 Y-와 ~를 가지다</frame>
+					<frame>X-와 Y-이 ~를 가지다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 Y-와의 ~</max_n_str>
+				<max_n_str>X-와 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">차</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

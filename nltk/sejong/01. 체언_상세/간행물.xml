@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>간행물</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/24</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/07</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/26</mod_date>
+				<mod_writer>목정수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/12/21(이하영)간행물도 텍스트담지물과 텍스트로 sense구분해야 하나요? 일단은 그렇게 해 놓았습니다</note>
+			<note>2003/01/07(고길수)'텍스트'의 의미를 삭제하고 '텍스트담지물'로 통합함</note>
+			<note>동사자유구성을 add로 옮김</note>
+			<note>예문 추가</note>
+			<note>의미부류 수정</note>
+			<add>sense1 동사자유구성 '~을 보다|읽다, ~에 기고하다|발표하다|기재하다|내다'</add>
+			<add>sense2 동사자유구성 '~을 집다|찢다|넣다|두다|발간하다|만들다|사다|팔다'</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_R">간행+물</str>
+			<org lg="si">刊行物</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="prefix">정기~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>새로 발행한 ~이 사람들로부터 좋은 호응을 얻고 있다.</eg>
+				<eg>그 ~을 읽은 사람들은 모두 그 사실에 대해 놀라움을 금치 못하고 있다.</eg>
+				<eg>그 신문사는 신문 외에 시사 잡지와 여성지 등의 ~을 발간한다.</eg>
+				<trans>publication</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>텍스트담지물</sem_class>
+				<lr>
+					<syn type="etc">출판물</syn>
+					<syn type="etc">인쇄물</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 새롭다</comb_aj>
+				<comb_aj type="appr">~이 무겁다</comb_aj>
+				<comb_aj type="appr">~이 가볍다</comb_aj>
+				<comb_aj type="appr">~이 두껍다</comb_aj>
+				<comb_aj type="appr">~이 얇다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 읽다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 구독하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 발간하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">편</cl>
+				<cl type="uni">권</cl>
+				<cl type="grp">질</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

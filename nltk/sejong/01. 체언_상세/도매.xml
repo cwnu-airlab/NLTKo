@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>도매</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/08/03</cre_date>
+				<cre_writer>안근종</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/30</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/26</mod_date>
+				<mod_writer>신서인</mod_writer>
+				<mod_note>동사 결합 정보 추가</mod_note>
+			</mod>
+			<note>1999/09/07</note>
+			<note>2003/02/06(김미현)예문 추가</note>
+			<note>2003/05/30(이성헌)</note>
+			<note>max_n 수정</note>
+			<note>sel_res 수정</note>
+			<note>supv 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">都賣</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~인</der>
+			<der pos="n" type="suffix">~점</der>
+			<der pos="n" type="suffix">~상</der>
+			<der pos="n" type="suffix">~업</der>
+			<comp pos="n" type="suffix">~업자</comp>
+			<comp pos="n" type="suffix">~상점</comp>
+			<comp pos="n" type="suffix">~상인</comp>
+			<comp pos="n" type="suffix">~ㅅ값</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 아주머니는 사과를 ~로 파는 일을 하신다.그는 청과류 ~ 일을 한다.</eg>
+				<trans>wholesale</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>방향성행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">소매</ant>
+					<hyper>판매</hyper>
+					<coord>소매</coord>
+					<rel>거래</rel>
+					<rel>상업</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Z-에게 Y-을 ~를 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<comb_v type="narg_vpred">
+					<form vcompound="yes">~로 팔다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="yes">~로 넘기다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-에의한 Y(-의) ~</max_n_str>
+				<max_n_str>Z-에대한 X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">구체물</sel_rst>
+				<sel_rst arg="Z">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

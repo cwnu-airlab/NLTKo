@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>합숙</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/01</cre_date>
+				<cre_writer>이하영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/15</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/12</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2005/10/09</mod_date>
+                                <mod_writer>박만규</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+             <mod>
+				<mod_date>2007/09/15</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>           
+			<note>'학교에서 ~을 하다' 예문 추가</note>
+			<note>2002/09/05(박동호)</note>
+			<note>2002/10/05(고길수)의미부류를 '대칭적행위'에서 '행위'로 수정, '합창'은 '행위'로 분류하고 '합숙'은 '대칭적행위'로 분류하는 근거는?</note>
+			<note>2003/07/02(서진숙)</note>
+			<note>2003/09/15(이성헌)</note>
+			<note>comb_v를 add로 옮김</note>
+			<note>comb_v에 '~을 갖다' 추가</note>
+			<note>단위표현 추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">合宿</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~을 통해 협동심을 다질 수 있다.</eg>
+				<eg>우리 팀은 방학 내내 학교에서 ~을 하며 전력 강화를 위한 훈련을 갖기로 했다.</eg>
+				<trans>joint billet</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 훈련</comb_n>
+				<comb_n type="compound">~ 교육</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>Y-이 X-을 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+						<form vcompound="no">~을 갖다</form>
+						<frame></frame>
+					</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간집단</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

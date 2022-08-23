@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>산화하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/19</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/19</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/22</mod_date>
+				<mod_writer>음두은</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">산화를 하다</var>
+			<str>N.하</str>
+			<org lg="si">酸化_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>물리화학현상</sem_class>
+				<trans>oxidize</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(몸|토양|금속)</sel_rst>
+					<eg>나이가 들면서 몸이 아픈 것은, 신체가 산화하여 양이온화 하고 있다는 것을 나타낸다.</eg>
+					<eg>하수중의 유기물이 감소되면 미생물은 자기 세포물질을 산화하여 에냐지를 얻는다.</eg>
+					<eg>토양이 산화하면 농작물을 기를 수가 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/19</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/19</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">산화를 하다</var>
+			<cntr opt="obl" type="VDelCCon"/>
+			<org lg="si">散華_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>소멸</sem_class>
+				<trans>die a glorious death</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<eg>동경지하철에서 산화한 이수현씨를 추모하는 행사가 열렸다.</eg>
+					<eg>서해교전에서 산화한 국군의 추모는 언제 하는가?</eg>
+					<eg>거기에는 조국을 수호하다가 장렬히 산화한 영령을 위로하는 충혼탑이 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

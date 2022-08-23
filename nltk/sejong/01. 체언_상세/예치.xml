@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>예치</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/05</cre_date>
+				<cre_writer>최지임</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/05</mod_date>
+				<mod_writer>최지임</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/23</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note>를 하다, 를 시키다 보충</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note>frame조사수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/30</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>의미부류 수정, 검토요</mod_note>
+				<mod_note>격틀정보 분리기술</mod_note>
+				<mod_note>합성어 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어, 분류사 추가</mod_note>
+			</mod>
+			<note>2003/11/05(최지임)의미부류검토요망</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">預置</org>
+			<comp pos="n" type="suffix">~금</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 월급 전체를 은행에 ~를 했다.</eg>
+				<trans>making a deposit</trans>
+				<sem_class>결과행위</sem_class> <!--'지속적활동'을 '물리적행위'로 수정 (송근영) -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 Z-에 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>X-이 Y-을 Z-에 ~를 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 Z-에 ~가 되다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">돈</sel_rst>
+				<sel_rst arg="Z">금융기관</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

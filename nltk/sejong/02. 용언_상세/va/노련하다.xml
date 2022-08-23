@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>노련하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">노련을 하다</var>
+			<str>R.하</str>
+			<org lg="si">老練_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be experienced</trans>
+				<lr>
+					<ant type="grad">서툴다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<n_appr arg="X">재주</n_appr>
+					<n_appr arg="X">솜씨</n_appr>
+					<n_appr arg="X">몸짓</n_appr>
+					<n_appr arg="X">태도</n_appr>
+					<eg>그의 손재주는 예전보다 더 노련하다.</eg>
+					<eg>칼을 다루는 솜씨가 여전히 노련하다.</eg>
+					<eg>처음이라고는 했지만 스텝을 밟아 가는 그의 몸짓은 너무도 노련했다.</eg>
+					<eg>여자 앞에서 그는 언제나 노련하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(솜씨)|행위</sel_rst>
+					<eg>그는 노련한 솜씨로 순식간에 일을 해치웠다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<eg>그는 다른 사람을 속이는 것이 여간 노련하지 않다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-에 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="LOC">추상적대상</sel_rst>
+					<eg>그 친구는 그런 일에는 여간 노련한 것이 아니다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="LOC">S데</sel_rst>
+					<eg>그 친구는 여자를 유혹하는 데 노련하다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

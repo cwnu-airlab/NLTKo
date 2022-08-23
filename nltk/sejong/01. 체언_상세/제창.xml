@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>제창</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/20</cre_date>
+				<cre_writer>권오희</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/21</mod_date>
+				<mod_writer>권오희</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/24</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>새 형식에 맞게 동사 결합 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>max_n 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/22</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">提唱</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>1944년 미국의 ~으로 열린 국제 회의에서 44개국이 국제통화기금과 세계은행의 설립에 동의하였다.</eg>
+				<eg>파델은 이날 연설에서 세계적인 소비자 운동을 ~을 하였다.</eg>
+				<trans>proposal</trans>
+				<sem_class>보고제안</sem_class>
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+					<frame>X-이 S자고 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 S자는 ~</max_n_str><!--추가하였음.(권오희)-->
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">생각</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/20</cre_date>
+				<cre_writer>권오희</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/21</mod_date>
+				<mod_writer>권오희</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/24</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>새 형식에 맞게 동사 결합 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>센스2의 Y논항 보충</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/22</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">齊唱</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>졸업식을 시작하기 전에 모두 일어나 애국가를 ~을 하였다.</eg>
+				<trans>singing in unison</trans>
+				<sem_class>물리적행위</sem_class>
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에의해 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">성악곡</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>시위대는 구호 ~을 하면서 서서히 앞으로 나아갔다.</eg>
+				<trans>shouting in unison</trans>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에의해 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">일시적집단</sel_rst>
+				<sel_rst arg="Y">언어요소(구호)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

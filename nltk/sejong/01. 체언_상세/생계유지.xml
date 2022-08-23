@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>생계유지</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/07</cre_date>
+				<cre_writer>권우진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/06</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/08</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>예문 분할 표기;행위를 결과행위로 수정;형용사정보에서 (*필요한), (*중요한), (불)가능하다 표기법 수정;'쉽다, 어렵다, 곤란하다, 빠듯하다, 힘들다' 유형값을 magn에서 appr로 수정;동사정보에서 '하다, 되다'를 별도 항목으로 표기;'(Y-로)' 삭제;맥스엔, 논항 명사구 정보 추가</mod_note>
+			</mod>
+			<note></note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">생계+유지</str>
+			<org lg="si">生計維持</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리 식구 ~는 제가 책임질테니 걱정마십시요.</eg>
+				<eg>막노동을 누가 좋아서 하나요? ~를 위해 어쩔 수없이 버티는 거죠.</eg>
+				<trans>living maintenance</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" mod="no">~에 필요하다</comb_aj>
+				<comb_aj type="appr" mod="no">~에 중요하다</comb_aj>
+				<comb_aj type="appr">~가 가능하다</comb_aj>
+				<comb_aj type="appr">~가 불가능하다</comb_aj>
+				<comb_aj type="appr">~가 쉽다</comb_aj>
+				<comb_aj type="appr">~가 어렵다</comb_aj>
+				<comb_aj type="appr">~가 곤란하다</comb_aj>
+				<comb_aj type="appr">~가 빠듯하다</comb_aj>
+				<comb_aj type="appr">~가 힘들다</comb_aj>
+				<comb_n type="compound">~의 터전</comb_n>
+				<comb_n type="compound">~의 방법</comb_n>
+				<comb_n type="compound">~의 수단</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-이 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|국가|종족|계층계급|혈연집단|지역집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>임무</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/16</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/28</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/21</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>comb_v '~를 수행하다','~에 돌입하다' 추가</mod_note>
+			</mod>
+			<mod>
+			<mod_date>2007/07/30</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/21(송근영|이성헌)</note>
+			<note>2003/02/25(김이정)uni 기술</note>
+			<note>2003/02/26(남길임)</note>
+			<note>2003/02/28(김이정)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">任務</org>
+		
+			<hom exist="yes"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~감</comp>
+			<comp pos="n" type="suffix">~완수</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 적의 보급로를 차단하라는 ~를 부여받았다.</eg>
+				<trans>duty</trans>
+				<trans>task</trans>
+				<trans>mission</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>의무</sem_class>
+				<lr>
+					<syn type="etc">책무</syn>
+					<syn type="etc">사명</syn>
+					<ant type="temp"></ant>
+					<rel>명령</rel>
+					<rel>책임</rel>
+					<rel>과업</rel>
+					<rel>역할</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 어렵다</comb_aj>
+				<comb_aj type="appr">~가 쉽다</comb_aj>
+				<comb_aj type="appr">~가 과하다</comb_aj>
+				<comb_aj type="appr">~가 과중하다</comb_aj>
+				<comb_aj type="magn">~가 막중하다</comb_aj>
+				<comb_aj type="magn">~가 중차대하다</comb_aj>
+				<comb_aj type="magn">~가 무겁다</comb_aj>
+				<comb_aj type="magn">~가 가볍다</comb_aj>
+				<comb_n type="compound">~의 완수</comb_n>
+				<comb_n type="compound">~의 부과</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 맡다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 떠맡다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 띠다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 부과하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 부여하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 지우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 수행하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 돌입하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S라는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>흑백</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/16</cre_date>
+				<cre_writer>서진숙</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/30</mod_date>
+				<mod_writer>서진숙</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add를 센스2 n_v로 이동, 센스1 n_n 기술, 센스2 의미부류 '사실명제'를 '추상적대상'으로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/02/04</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>'흑백사진'을 n_n type에서 합성어로</mod_note>
+			</mod>
+			<note>sense2추가</note>
+			<add>~을 가리다|따지다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">黑白</org>
+		
+			<comp pos="n" type="suffix">~사진</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~의 모티터는 다양한 추억들을 연상시켰다.</eg>
+				<trans>black and white</trans>
+				<sem_class>색속성값</sem_class>
+				<lr>
+					<ant type="compl">컬러</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 화면</comb_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>무엇이 옳고 그른지 ~을 가려 봅시다.</eg>
+				<trans>right and wrong</trans>
+				<trans>good and bad</trans>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 가리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 따지다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

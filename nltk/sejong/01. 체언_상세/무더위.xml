@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>무더위</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/06/26</cre_date>
+				<cre_writer>이병규</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/21</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/01</mod_date>
+				<mod_writer>김천학</mod_writer>
+				<mod_note>add 옮김</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/21</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>'찌는듯한'을 add에서 n_aj로 이동</mod_note>
+				<mod_note>n_v 수정</mod_note>
+				<mod_note>최대논항구조, 선택제약, 분류사 기술</mod_note>
+			</mod>
+			<note>2002/06/26(남길임)</note>
+			<note>2002/08/19(이성헌)note에 상호교열자와 일자 기재(주의: mdd난은 최종교열자와 일자로 자동변경되니 일차 및 상호교열자 관련 정보를 노트에 기재할 것)</note>
+			<note>org에 ko기재</note>
+			<note>comb_v에 '~가 닥치다'기재</note>
+			<note>add에 '찌는듯한 ~' 추가</note>
+			<note>2003/06/13(김미현)고유어인 경우, 어원표현을 따로 명시하지 않음.</note>
+			<note>2003/08/21(고길수)의미부류를 '속성'에서 '날씨'로 수정</note>
+			<add>찌는듯한 ~</add>
+			<add>~가 기승을 부리다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>유럽은 연일 계속되는 ~로 인명피해가 크다.</eg>
+				<trans>sultriness</trans>
+				<trans>humidity</trans>
+				<trans>sultry weather</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>날씨</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn" pred="no">찌는듯한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 닥치다</form>
+					<frame>X-에 ~가 닥치다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 기승부리다</form>
+					<frame>X-에 ~가 기승부리다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">지역</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

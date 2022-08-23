@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>철도</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/19</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/24</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/06</mod_date>
+				<mod_writer>백고운</mod_writer>
+				<mod_note>add의 동사정보를 comb_v로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/15</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/05</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<note>2000/09/30(박동호)</note>
+			<note>2003/02/13(서진숙)</note>
+			<note>2003/03/24(이성헌)org의 내용 기재</note>
+			<note>comb_v를 add로 수정</note>
+			<note>sem을 '시설물'에서 '철로'로 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">鐵道</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~원</der>
+			<der pos="n" type="suffix">~청</der>
+			<der pos="n" type="suffix">~편</der>
+			<comp pos="n" type="suffix">~망</comp>
+			<comp pos="n" type="suffix">~법</comp>
+			<comp pos="n" type="suffix">~역</comp>
+			<comp pos="n" type="suffix">~회사</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>귀경길에는 ~를 이용하는 것이 보다 안전하고 빠르다.</eg>
+				<eg>서울에서 천안까지 구간별로 ~를 놓고 있다.</eg>
+				<trans>railroad</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>철로</sem_class>
+				<lr>
+					<syn type="etc">기찻길</syn>
+					<syn type="etc">철로</syn>
+					<syn type="etc">철길</syn>
+					<syn type="etc">레일</syn>
+					<ant type="temp"></ant>
+					<hyper>길</hyper>
+					<coord>도로</coord>
+					<rel>기차</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 빠르다</comb_aj>
+				<comb_aj type="appr">~가 편리하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 놓다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 이용하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 부설하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 타다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

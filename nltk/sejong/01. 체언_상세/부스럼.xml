@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>부스럼</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/22</cre_date>
+				<cre_writer>송길룡</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/02</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/25</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>서술성명사로 처리하여 그에 따른 정보 기입</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/12/07</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>1999/07/22</note>
+			<note>2001/03/09(류희선)속담 추가</note>
+			<note>2003/03/29(김현승)영어대역어 'boil|ulcer|abscess|tumor' 추가|의미부류를 '질병'에서 '질병및증세'로 수정</note>
+			<note>2003/04/02(고길수)전문영역 정보 삭제</note>
+			<note>comb_v 정보 추가</note>
+			<note>magn정보 추가</note>
+			<note>전문 분야 입력</note>
+			<add>동사결합으로 '~이 나다|돋다|생기다|가라앉다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~떡</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~이 살 될까?</idm>
+			<idm type="etc">긁어 ~</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>몸에 ~이 나는 경우 혹시 다른 질병이 있지 않은가 살펴보십시오.</eg>
+				<trans>swelling</trans>
+				<trans>boil</trans>
+				<trans>rising</trans>
+				<trans>tumor</trans>
+				<trans>abscess</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>질병및증세</sem_class>
+				<lr>
+					<syn type="etc">종기</syn>
+					<ant type="temp"></ant>
+					<hyper>병</hyper>
+					<hyper>피부병</hyper>
+					<rel>피부</rel>
+					<rel>수두</rel>
+					<rel>천연두</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 심하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 나다</form>
+					<frame>X-이 ~이 나다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 생기다</form>
+					<frame>X-이 ~이 생기다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 돋다</form>
+					<frame>X-이 ~이 돋다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

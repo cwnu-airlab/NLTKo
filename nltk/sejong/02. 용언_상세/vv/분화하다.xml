@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>분화하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/24</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김미영</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/24</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/08/08</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">분화를 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<org lg="si">分化_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">사태|장소</sel_rst>
+					<sel_rst arg="Z" tht="FNS">부분</sel_rst>
+					<eg>전문화는 사회를 여러 계층으로 분화한다.</eg>
+					<eg>자본주의는 사람들을 부자와 가난한 자로 분화하였다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">사태|장소</sel_rst>
+					<eg>전문화로 인해 사회가 점점 더 분화하고 있다.</eg>
+					<eg>직업이 분화할 수록 전문화된 기술을 요구한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/24</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김미영</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/24</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/08/08</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">분화를 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<org lg="si">噴火_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>지질현상</sem_class>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(화산)</sel_rst>
+					<eg>우리 나라 화산은 자고 있는 휴화산들로 언제 분화할 지 모른다고 한다.</eg>
+					<eg>분화하는 화산을 멀리에서 구경하는 것도 장관일 것이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/24</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김미영</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/24</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/08/08</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">분화를 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<org lg="si">焚火_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물</sel_rst>
+					<eg>엄마는 평소 할머니가 쓰시던 물건을 분화하셨다.</eg>
+					<eg>학창 시절 우리는 장작불을 분화해서 모박불을 피워 놓고 놀곤 했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

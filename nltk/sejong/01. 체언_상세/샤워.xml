@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>샤워</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/06</cre_date>
+				<cre_writer>김미순</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/14</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/28</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/06</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 정보 태그 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/20</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/10</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>지속적활동을 결과행위로 수정;명사연어 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">shower</org>
+			<comp pos="n" type="suffix">~실</comp>
+			<comp pos="n" type="suffix">~기</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>찬물로 ~를 하면 감기에 걸릴 위험이 있으니 미지근한 물로 하세요.</eg>
+				<trans>shower</trans>
+				<sem_class>결과행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 커튼</comb_n>
+				<comb_n type="compound">~ 가운</comb_n>
+				<comb_n type="compound">~ 장면</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

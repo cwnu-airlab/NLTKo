@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>식용</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/11</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/21</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/28</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미부류 수정;명사결합 정보 추가;논항명사구 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/15</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/07/11(이호영)</note>
+			<note>2002/08/27(김종명)대역어정보수정</note>
+			<note>2002/10/10(박만규)</note>
+			<note>2003/07/14(최지임);대역어수정;형용사자유구성정보 입력;의미부류(속성값) 수정;예문추가입력;기능동사 및 논항선택제약 입력</note>
+			<note>2003/09/07(최지임)</note>
+			<note>2003/09/21(고길수)의미부류를 '속성'에서 '지속적활동'으로 수정;Y 논항에 '자연음식물|음식' 추가;add에 명사구 정보 추가</note>
+			<add>명사구? 복합어로 '~(의) X(구체물)' 가능</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">食用</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 마을에서는 ~으로 양과 염소를 기르고 있다.</eg>
+				<eg>이 지역에서는 개구리를 ~을 한다.</eg>
+				<trans>edibility</trans>
+				<trans>table use</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>단독행위</sem_class> <!-- 지속적활동 수정 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~에 적합하다</comb_aj>
+				<comb_n type="compound">~ 식물</comb_n>
+				<comb_n type="compound">~ 색소</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-의 ~</max_n_str>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">동물|식물|자연음식물|음식</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

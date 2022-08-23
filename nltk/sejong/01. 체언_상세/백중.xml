@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>백중</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/30</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/30</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/25</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_v, 선택제약 기술</mod_note>
+			</mod>
+			<add>2003/10/30(송인욱)동사자유구성으로 '~을 다투다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">伯仲</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~지세</der>
+			<comp pos="v" type="suffix">~하다</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>수학에 있어서만큼은 나와 그녀가 ~을 다퉜다.</eg>
+				<eg>1위와 2위 사이에 벌어지는 ~의 경쟁이 관중들의 손에 땀을 쥐게 했다.</eg>
+				<trans>being equally matched</trans>
+				<sem_class>동등</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 이루다</form>
+					<frame>X-이 Y-와 ~을 이루다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 다투다</form>
+					<frame>X-이 Y-와 ~을 다투다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/30</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/30</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/25</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_v 기술</mod_note>
+			</mod>
+			<add>2003/10/30(송인욱)동사자유구성으로 '~이 되다</add>
+			<add>~을 맞다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">百中</org>
+		
+			<hom exist="yes"/>
+			<comp pos="n" type="suffix">~날</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>매년 ~이면 우리 가족은 다함께 절을 찾는다.</eg>
+				<eg>요즘 큰스님께서는 ~에 있을 행사를 준비하느라 여념이 없으시다.</eg>
+				<trans>Buddist All Soul's day</trans>
+				<domain>종교</domain>
+				<sem_class>기념일명절</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 돌아오다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>멀다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/11</cre_date>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/11</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/05</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<infl type="l"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>질병및증세</sem_class>
+				<trans>go blind or deaf</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(눈|귀)</sel_rst>
+					<eg>그 전쟁미망인은 남편의 전사소식을 듣고 크게 충격을 받아 눈이 멀었다.</eg>
+					<eg>헬렌 켈러는 유아시절 앓았던 열병으로 눈과 귀가 멀고 말도 할 수 없는 삼중고에 시달렸으나 본인의 의지와 훌륭한 선생님의 도움으로 극복했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>외향적심리상태</sem_class>
+				<trans>lose one's judgment</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(눈|귀)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">온</sel_rst>
+					<eg>지금 현재 그 남자는 새로 생긴 여자 친구에게 눈이 멀어 제대로 된 판단을 하지 못한다.</eg>
+					<eg>로미오와 줄리엣은 첫눈에 반해 사랑에 눈이 멀어 결국 비극적인 죽음을 맞이한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

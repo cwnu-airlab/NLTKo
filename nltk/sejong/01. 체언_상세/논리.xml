@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>논리</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/15</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/22</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/12</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>태그 내 나열된 정보 분할</mod_note>
+				<mod_note>합성어, 명사 결합, 동사 결합 추가</mod_note>
+				<mod_note>센스 3의 의미부류 수정(방법에서 속성으로:연세사전의 2번 뜻풀이에 따른 '방법' 의미는 모호)</mod_note>
+				<mod_note>'~성, 학'을 파생어에서 합성어로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/27</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스3 '로 설명하다' etc를 수정</mod_note>
+			</mod>
+			<note>2000/09/03(백인애)</note>
+			<note>2001/01/30(정유진</note>
+			<note>2003/04/08(이호영)센스1 예문 추가|의미부류 수정|동사연어구성을 향후 추가정보로 이동</note>
+			<note>2003/05/22(박만규)센스2(수학적대상) 삭제 후 센스1에 통합</note>
+			<note>센스2 의미부류 수정|동사연어구성을 향후 추가정보로 이동</note>
+			<note>센스3 예문 추가|의미부류 수정|동사연어구성을 향후 추가정보로 이동</note>
+			<note>센스4 추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">論理</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~적</der>
+			<comp pos="n" type="suffix">~성</comp>
+			<comp pos="n" type="suffix">~학</comp>
+			<comp pos="n" type="suffix">~주의</comp>
+			<comp pos="n" type="suffix">~합</comp>
+			<comp pos="n" type="prefix">명제~</comp>
+			<comp pos="n" type="prefix">술어~</comp>
+			<comp pos="n" type="prefix">형식~</comp>
+			<comp pos="n" type="prefix">흑백~</comp>
+			<comp pos="n" type="prefix">연역적~</comp>
+			<comp pos="n" type="prefix">귀납적~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 사람의 말은 ~에 맞지가 않다.</eg>
+				<eg>양쪽 모두 나름대로의 ~가 정연하였다.</eg>
+				<eg>수학은 수와 ~로 이루어진 학문이다.</eg>
+				<trans>logic</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">비논리</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 맞다</comb_aj>
+				<comb_aj type="appr">~가 옳다</comb_aj>
+				<comb_aj type="appr">~가 틀리다</comb_aj>
+				<comb_aj type="appr">~가 그르다</comb_aj>
+				<comb_aj type="appr">~에 맞다</comb_aj>
+				<comb_n type="compound">~의 비약</comb_n>
+				<comb_n type="compound">~의 전개</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 닿다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 따지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 펴다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 내세우다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>지난 번 들었던 ~에서 A를 받았다.</eg>
+				<eg>나는 이번 학기에 ~에 많은 시간을 투자했다.</eg>
+				<trans>logic</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>학문과목</sem_class>
+				<lr>
+					<syn type="etc">논리학</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 어렵다</comb_aj>
+				<comb_aj type="appr">~가 재미있다</comb_aj>
+				<comb_aj type="appr">~가 흥미있다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 수강하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 듣다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 배우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 전공하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 연구하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 공부하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>그 현상은 힘의 ~로 설명을 할 수 있다.</eg>
+				<eg>자연계에는 엄연한 약육강식의 ~가 존재한다.</eg>
+				<trans>logic</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">힘의 ~</comb_n>
+				<comb_n type="compound">약육강식의 ~</comb_n>
+				<comb_n type="compound">적자생존의 ~</comb_n>
+				<comb_n type="compound">기업 ~</comb_n>
+				<comb_n type="compound">자본주의 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 따르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 무시하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 배우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 설명하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

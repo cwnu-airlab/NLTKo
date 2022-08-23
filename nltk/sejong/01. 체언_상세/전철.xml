@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>전철</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/09/15</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/15</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/13</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note>add이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/30</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/15</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/08/18</note>
+			<note>2003/04/12(김현승)의미부류를 '교통기관'에서 '철도교통기관'으로 수정</note>
+			<note>2003/04/15(고길수)add에 동사정보 추가</note>
+			<note>comb_aj정보 기술</note>
+			<note>comb_b정보 add항목으로 이전</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="lng">전기철도</var>
+			<str type="temp"></str>
+			<org lg="si">電鐵</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~역</comp>
+			<comp pos="n" type="prefix">고속~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 언제나 ~로 출퇴근한다.</eg>
+				<trans>electric railway</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>철도교통기관</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>차</hyper>
+					<rel>전기</rel>
+					<rel>지하철</rel>
+					<rel>선로</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 빠르다</comb_aj>
+				<comb_aj type="appr">~이 느리다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 끊기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 다니다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 출발하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 서다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 출발하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 출퇴근하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">대</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/09/15</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/15</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/13</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note>add이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/30</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>명사 수식어 정보 삭제, 그 내용이 무엇인지 불분명</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/15</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/08/18</note>
+			<note>2003/04/12(김현승)의미부류를 '행위?'에서 '추상적대상'으로 수정</note>
+			<note>2003/04/15(고길수)예문 수정</note>
+			<note>comb_aj 정보 추가</note>
+			<note>comb_v정보 add항목으로 이전</note>
+			<note>pre_n, pre_s 정보 추가</note>
+			<note>경험의 의미를 가지는 것으로 보이는데 적절한 의미부류를 찾을 수 없음</note>
+			<note>의미부류를 '추상적대상'에서 '경로'로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">前轍</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~을 밟다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>또다시 과거의 잘못된 ~을 되풀이하지 않기 위해서는 의식의 개혁이 절대적으로 필요하다.</eg>
+				<trans>precedent</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>경로</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>실수</rel>
+					<rel>과오</rel>
+					<rel>잘못</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 되풀이하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 반복되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<!-- pre_n>N-의</pre_n -->
+				<s_n>S은 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

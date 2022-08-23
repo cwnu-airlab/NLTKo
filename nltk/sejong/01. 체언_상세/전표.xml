@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>전표</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/09</cre_date>
+				<cre_writer>권오희</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/20</mod_date>
+				<mod_writer>권오희</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/23</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>add내용옮김</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/27</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note>수정보완한정보없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<add>동사결합 : ~에 기장하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">傳票</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>검찰은 이중으로 작성된 ~를 유통시켜 거액을 탈세한 나이트 클럽 사장을 구속 기소하였다.</eg>
+				<trans>chit</trans>
+				<trans>slip</trans>
+				<sem_class>텍스트담지물</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 끊다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 떼다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/09</cre_date>
+				<cre_writer>권오희</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/20</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>idect 검토바람</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/09/23</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>add내용옮김</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/27</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note>idm 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<add>동사결합 : ~를 팔다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">錢票</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>아버지는 천 원짜리 ~를 삼 할 공제를 하고 샀다.</eg>
+				<trans>bearer cheque</trans>
+				<sem_class>텍스트담지물</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 바꾸다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">장</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

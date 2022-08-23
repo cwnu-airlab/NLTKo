@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>행동거지</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/29</cre_date>
+				<cre_writer>유영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/29</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/27</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>str 수정</mod_note>
+				<mod_note>n_v npred 결합 유형으로 수정</mod_note>
+				<mod_note>add 정보 일부를 n_v에 추가</mod_note>
+				<mod_note>max_n, sel_res 기술</mod_note>
+				<mod_note>eg 분리</mod_note>
+			</mod>
+			<note></note>
+			<add>~가 합당하다|조신하다|흐트러지다</add>
+			<add>~를 고치다|알아보다|살피다|따라하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="abb">거지</var>
+			<var type="abb">동지</var>
+			<var type="abb">행지</var>
+			<str type="N_N">행동+거지</str> <!--'거지'를 R에서 N으로 수정:어근목록에 없고 표준사전에 명사로 등재(송근영)-->
+			<org lg="si">行動擧止</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>요조숙녀라면 우선 ~를 올바르게 가져야한다.</eg>
+				<eg>~를 보면 그 사람의 됨됨이를 알 수 있다.</eg>
+				<trans>manners</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>행위</sem_class>
+				<lr>
+					<syn type="etc">동용주선</syn>
+					<ant type="temp"></ant>
+					<hyper>행동</hyper>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 시원시원하다</comb_aj>
+				<comb_aj type="appr">~가 수상하다</comb_aj>
+				<comb_aj type="appr">~가 의심스럽다</comb_aj>
+				<comb_aj type="appr">~가 바르다</comb_aj>
+				<comb_aj type="appr">~가 의젖하다</comb_aj>
+				<comb_aj type="magn">~가 출중하다</comb_aj>
+				<comb_aj type="magn">~가 빼어나다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 고치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 따라하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 살피다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

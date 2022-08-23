@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>연료</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/10/02</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/28</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/15</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미부류 수정;상위어 정보 삭제;동사결합 정보 추가;</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/07</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어, 동사결합, 형용사결합 추가</mod_note>
+				<mod_note>복합어 수정</mod_note>
+			</mod>
+			<note>2000/10/08(김종명)</note>
+			<note>2001/01/31(고길수)</note>
+			<note>2003/03/23(류병률)</note>
+			<note>2003/03/28(김종명)</note>
+			<note>comb_v를 add의 값으로 변환</note>
+			<note>entry하위의 sense별 구분은 세미콜론 | 로</note>
+			<note>예문 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">燃料</org>
+			<comp pos="n" type="suffix">~가스</comp>
+			<comp pos="n" type="suffix">~공업</comp>
+			<comp pos="n" type="suffix">~밸브</comp>
+			<comp pos="n" type="suffix">~난</comp>
+			<comp pos="n" type="suffix">~비</comp>
+			<comp pos="n" type="suffix">~봉</comp>
+			<comp pos="n" type="suffix">~소비율</comp>
+			<comp pos="n" type="suffix">~펌프</comp>
+			<comp pos="n" type="prefix">기체~</comp>
+			<comp pos="n" type="prefix">디젤~</comp>
+			<comp pos="n" type="prefix">액체~</comp>
+			<comp pos="n" type="prefix">알코올~</comp>
+			<comp pos="n" type="prefix">핵~</comp>
+			<comp pos="n" type="prefix">화석~</comp>
+			<comp pos="n" type="prefix">천연~</comp>
+			<comp pos="n" type="prefix">혼합~</comp>
+			<comp pos="n" type="prefix">화학~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>장비를 운전하기 전에 ~가 충분한지 확인했다.</eg>
+				<trans>fuel</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>연료</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper></hyper>
+					<hypo>기름</hypo>
+					<hypo>석탄</hypo>
+					<hypo>석유</hypo>
+					<hypo>나무</hypo>
+					<hypo>핵</hypo>
+					<rel>불</rel>
+					<rel>에너지</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 충분하다</comb_aj>
+				<comb_n type="compound">대체 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 소모하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 소비하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 절약하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 공급하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 넣다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 채우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 보충하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 떨어지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 모자라다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 바닥나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 소모되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="qnt">드럼</cl>
+				<cl type="qnt">통</cl>
+				<cl type="qnt">리터</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

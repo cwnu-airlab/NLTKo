@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>부피</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/23</cre_date>
+				<cre_writer>한동훈</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/24</mod_date>
+				<mod_writer>한동훈</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>영어대역어, 동사결합 추가</mod_note>
+				<mod_note>논항명사구, 의미정보 추가</mod_note>
+				<mod_note>단위표현 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/27</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>최대논항구조, 선택제약 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>책의 ~가 너무 커서 들지를 못하겠다.</eg>
+				<trans>bulk</trans>
+				<trans>size</trans>
+				<trans>volume</trans> <!-- 추가함 -->
+				<sem_class>크기</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 작다</comb_aj>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~를 구하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~가 늘다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~가 즐다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~가 증가하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~가 감소하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~가 커지다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str> <!-- 추가함 -->
+				<sel_rst arg="X"></sel_rst> <!-- 추가함 -->
+				<cl type="qnt">입방미터</cl> <!-- 추가함 -->
+				<cl type="qnt">리터</cl> <!-- 추가함 -->
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>성취감</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2006/06/02</cre_date>
+				<cre_writer>박진희</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2006/06/25</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/16</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note>narg, npred로 수정, frame 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/15</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>심리상태를 내재적심리상태로 수정;선택제약에 인간집단 추가;수식어절을 'S는'에서 'S다는'으로 수정;동사에 '얻다, 맛보다, 주다' 추가;형용사에 '큰, 작은 ~' 추가</mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_S">성취+감</str>
+			<org lg="si">成就感</org>
+			<hom exist="temp"/>
+			<der  pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>아이의 의사가 확실히 나타나는 것일수록 ~을 기를 수 있다.</eg>
+				<eg>목표 세워 스스로 ~을 느끼도록 가르쳐야 한다.</eg>
+				<trans>sense of more accomplishment</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>내재적심리상태</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">큰 ~</comb_aj>
+				<comb_aj type="min">작은 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 얻다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 맛보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 주다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 느끼다</form>
+					<frame>X-이 ~을 느끼다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 들다</form>
+					<frame>X-이 ~이 들다</frame>
+					<frame>X-에게 ~이 들다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 생기다</form>
+					<frame>X-이 ~이 생기다</frame>
+					<frame>X-에게 ~이 생기다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n>S다는 ~</s_n><!--금메달을 땄다는 성취감-->
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

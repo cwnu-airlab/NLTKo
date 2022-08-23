@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>논평</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/06/01</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/02</mod_date>
+				<mod_writer>박동호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인j</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/06</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>org 정보 추가</mod_note>
+				<mod_note>예문 형식 수정</mod_note>
+				<mod_note>n_v 형식 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/19</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note>통사정보 수정</mod_note>
+			</mod>
+			<note>2001/07/04 (강범모,백인애)-일차교정</note>
+			<note>2001/07/04 (강범모,백인애)-일차교정</note>
+			<note>2001/07/18 (백인애)-이차교정</note>
+			<note>2001/07/04 (강범모,백인애)-일차교정</note>
+			<note>2001/07/18 (백인애)-이차교정</note>
+			<note>2003/02/07(박만규)comb_v정보를 add에 옮김</note>
+			<note>2001/07/04 (강범모,백인애)-일차교정</note>
+			<note>2001/07/18 (백인애)-이차교정</note>
+			<note>2003/02/07(박만규)comb_v정보를 add에 옮김</note>
+			<note>의미부류, 기능동사, 최대구조 수정</note>
+			<note>2001/07/04 (강범모,백인애)-일차교정</note>
+			<note>2001/07/18 (백인애)-이차교정</note>
+			<note>2003/02/07(박만규)comb_v정보를 add에 옮김</note>
+			<note>의미부류, 기능동사, 최대구조 수정</note>
+			<note>2003/03/02(박동호)</note>
+			<add>~을 가하다|삼가다|피하다</add>
+			<add>~을 가하다|삼가다|피하다</add>
+			<add>~을 읽다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<org lg="si">論評</org>
+		
+			<comp pos="n" type="suffix">~하다</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이번 정부의 행동에 대해 야당은 신랄한 ~을 가했다.</eg>
+				<trans>criticism</trans>
+				<trans>comment</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>연설</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 신랄하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-를|에대해 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 가하다</form>
+					<frame>X-이 Y-를|에대해 ~을 가하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 삼가다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 피하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 읽다</form>
+					<frame></frame>		
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>S것|Y-에대한 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+			</syn_grp>	
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이 책은 몇 편의 작품과 ~을 묶은 것이다.</eg>
+				<trans>criticism</trans>
+				<trans>comment</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>텍스트</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+			    
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">비난 ~</comb_n>
+				<comb_n type="compound">신문 ~</comb_n>
+				<comb_n type="compound">작품(의) ~</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">편</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

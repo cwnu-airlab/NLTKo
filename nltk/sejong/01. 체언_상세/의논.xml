@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>의논</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/21</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/15</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/27</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/10/08(박동호)</note>
+			<note>2003/01/06(한동훈)의미부류를 '행위'에서 '대화'로 수정</note>
+			<note>2003/01/15(고길수)예문 수정</note>
+			<note>add에 '~이 이루어지다' 추가</note>
+			<note>comb_aj 불확실</note>
+			<note>comb_v에 '~을 나누다' 추가</note>
+			<note>comb_v의 '~을 거듭하다'는 add로 수정</note>
+			<note>max_n 정보 수정</note>
+			<note>pre_d에서 '~' 삭제</note>
+			<note>기능동사 수정</note>
+			<note>기능동사 정보 수정</note>
+			<note>논항 의미정보 수정</note>
+			<note>단위표현에서 '번|차례'를 물질단위에서 개체단위로 수정</note>
+			<note>명사연어에 '~ 상대' 추가</note>
+			<note>예문 추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">議論</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~적</der>
+			<comp pos="n" type="suffix">~조</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~이 맞으면 부처도 앙군다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~도 없이 결정을 하는 것은 합당치 못하다.그는 무슨 일이든지 아내와의 ~을 통해서 결정한다.</eg>
+				<trans>consultation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>대화</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>논의</coord>
+					<coord>대화</coord>
+					<coord>상의</coord>
+					<coord>타협</coord>
+					<coord>토론</coord>
+					<coord>협상</coord>
+					<coord>협의</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 있다</comb_aj>
+				<comb_aj type="appr">~이 없다</comb_aj>
+				<comb_n type="compound">~ 상대</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 나누다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-와|에게 Z|S것|S데|S지|S을까|S는가-를|에대해서 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Z|S것|S데|S지-가 X-와 Y-에게서 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~을 거듭하다</form>
+					<frame>Z|S것|S데|S지-가 X-와 Y-이 ~을 거듭하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 이루어지다</form>
+					<frame>Z|S것|S데|S지-가 X-와 Y-에게서 ~이 이루어지다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>Z|S것|S데|S지|S을까|S는가-에대한 X-와 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">추상적대상(문제|해결책)|사행(처리)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

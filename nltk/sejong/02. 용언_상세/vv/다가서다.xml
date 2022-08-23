@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+
+<superEntry>
+	<orth>다가서다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V-어V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>접근</sem_class>
+				<trans>approche</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=S2-러 Y=N1-에게|에|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|동물</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간|장소</sel_rst>
+					<sel_rst arg="Z" tht="PUR"/>
+					<eg>그가 소리없이 나에게 나가섰다.</eg>
+					<eg>그는 그녀에게 다가서기 위해서 많은 노력을 했다.</eg>
+					<eg>고객에게 더욱 가까이 다가서기 위해서는 친절을 중시해야 한다.</eg>
+					<eg>그는 들어가기 위해 문으로 나가섰다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>접근</sem_class>
+				<trans>approche</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에게|에|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(사랑|죽음|절망감)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간</sel_rst>
+					<eg>사랑이 소리없이 그녀에게 다가섰다.</eg>
+					<eg>죽음이 다가서자 그는 절망했다.</eg>
+					<eg>일이 수포로 돌아가자 절망감이 그녀에게 다가섰다.</eg>
+					<eg>그는 말을 걸러 그녀에게 다가섰다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>외향적심리행위</sem_class>
+				<trans>become closer</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에게 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|추상적대상(만남|시간)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간</sel_rst>
+					<sel_rst arg="Z" tht="FNS">인간|추상적대상(느낌)</sel_rst>
+					<eg>그는 나에게 새로운 사람으로 다가선다.</eg>
+					<eg>그는 나에게 점점 소중한 친구로 다가섰다.</eg>
+					<eg>그 남자가 나에게 포근한 느낌으로 다가서기 시작한다.</eg>
+					<eg>그와의 만남은 나에게 새로운 느낌으로 다가선다.</eg>
+					<eg>봄은 나에게 새로운 빛깔로 다가선다.</eg>
+					<eg>이번 주말은 나에게 안락한 느낌으로 나가선다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

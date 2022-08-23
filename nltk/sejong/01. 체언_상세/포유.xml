@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>포유</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/20</cre_date>
+				<cre_writer>김성용</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/02</mod_date>
+				<mod_writer>이홍식</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/26</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>의미부류 '단독행위'를 '방향성행위'로 수정</mod_note>
+				<mod_note>분류사 기술</mod_note>
+				<mod_note>syn_grp_b 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/01</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/2/15</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>예문 보완</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">哺乳</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>어미의 ~가 부족한 동물들 때문에 동물원 관계자들이 걱정을 하고 있다.</eg>
+				<trans>lactation</trans>
+				<trans>suckling</trans>
+				<trans>nursing</trans>
+				<sem_class>방향성행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">자연 ~</comb_n>
+				<comb_n type="compound">인공 ~</comb_n>
+				<comb_n type="compound">~ 동물</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-에게|을 ~를 하다</frame>
+					<frame>X-이 Y-에게 Z-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>X-이 Y-에게|을 ~를 시키다</frame>
+					<frame>X-이 Y-에게 Z-을 ~를 시키다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|짐승</sel_rst>
+				<sel_rst arg="Y">짐승</sel_rst>
+				<sel_rst arg="Z">분비물(젖)|음료(우유)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

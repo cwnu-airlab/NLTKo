@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>꺼림칙하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/15</mod_date>
+				<mod_writer>강정연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/10/10</mod_date>
+				<mod_writer>김선영</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>R.하</str>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>인지상태</sem_class>
+				<trans>make feel uneasy</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>Y=N1-에게는|이 X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|추상적대상|사건|행위</sel_rst>
+					<sel_rst arg="Y" tht="EXP">인간</sel_rst>
+					<eg>나에게는 그 낯선 사람이 웬지 꺼림칙했다.</eg>
+					<eg>그는 하루 종일 그 일이 꺼림칙해서 마음이 편치 못했다.</eg>
+					<eg>수미에게는 민수의 지나친 친절이 꺼림칙했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>Y=N1-에게는|이 X=S것|S기0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM"></sel_rst>
+					<sel_rst arg="Y" tht="EXP">인간</sel_rst>
+					<eg>수미에게는 아버지가 난데 없이 그런 말씀을 하시는 것이 꺼림칙했다.</eg>
+					<eg>나는 어머니 몰래 친구들과 여행을 떠나는 것이 꺼림칙하다.</eg>
+					<eg>준오는 낯선 사람의 말을 믿고 따라나서기가 꺼림칙했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>인지상태</sem_class>
+				<trans>feel uneasy</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<eg>그는 하루 종일 그 일로 꺼림칙해서 마음이 편치 못했다.</eg>
+					<eg>수미는 웬지 꺼림칙했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

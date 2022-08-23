@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>총칭</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/21</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>2003/08/23(김이정)</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/07</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>sem을 '이름'에서 '단독행위'로 수정;supv의 Z에 '-로'추가하고 '되다'구문 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/03</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>동사결합 정보 수정;센스2에 '이름'을 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>frame 검토바람</mod_note>
+				<mod_note>syn 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/01/28</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 frame 수정</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/07</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">總稱</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>특이한 향기와 효능을 가진 식물을 ~을 해서 허브라고 한다.</eg>
+				<eg>러너스 니란 달리기에 의해 일어나는 모든 무릎 부상을 ~을 한다.</eg>
+				<trans>general name</trans>
+				<trans>generic term</trans>
+				<trans>overall designation</trans>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="perfect">총명</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 Z-로 ~을 하다</frame>
+					<frame>X-이 Y-을 Z-이라고 ~을 하다</frame>
+					<frame>Z-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 Z-로 ~이 되다</frame>
+					<frame>Y-이 Z-이라고 ~이 되다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<sel_rst arg="Z">이름</sel_rst>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>워크맨은 휴대용 카세트플레이어의 ~으로 사용된다.</eg>
+				<trans>general name</trans>
+				<trans>generic term</trans>
+				<sem_class>이름</sem_class>
+				<lr>
+					<ant type="compl">총명</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 부르다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

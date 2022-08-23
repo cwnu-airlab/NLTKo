@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>박스</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/08</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>의미부류수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/08/08(송인욱)센스2의 타당성 여부 검토 요망(현재 '전화 박스'의 형태로만 쓰이는 것으로 보임)</note>
+			<note>센스3의 대역어 의문</note>
+			<note>2003/10/14(박진호)센스2,3 의미부류 수정</note>
+			<note>2003/10/28(송인욱)센스2의 의미부류를 '설치물'에서 수정, 그런 의미부류는 없음</note>
+			<note>센스3의 대역어 기술</note>
+			<add>2003/08/08(송인욱)센스1의 동사자유구성으로 '~를 열다|만들다</add>
+			<add>~에 담다|넣다</add>
+			<add>~에서 꺼내다' 추가</add>
+			<add>2003/08/08(송인욱)센스2의 동사자유구성으로 '~를 설치하다</add>
+			<add>~에 들어가다</add>
+			<add>~에서 나오다' 추가</add>
+			<add>2003/08/08(송인욱)센스3의 동사자유구성으로 '~를 두르다</add>
+			<add>~에 넣다</add>
+			<add>~로 처리하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">box</org>
+		
+			<comp pos="n" type="suffix">~기사</comp>
+			<comp pos="n" type="prefix">라면~</comp>
+			<comp pos="n" type="prefix">전화~</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 ~를 열어서 그 안에 있던 물건들을 하나하나 꺼냈다.</eg>
+				<eg>그것을 다 넣기에는 우리가 가져온 ~가 너무 작았다.</eg>
+				<trans>box</trans>
+				<sem_class>용기</sem_class>
+				<lr>
+					<syn type="kor">상자</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 작다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 넣다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 담다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 열다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 만들다</form>
+				</comb_v>
+				<cl type="uni">개</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>한 여름의 전화 ~ 속은 찜통 같아서 들어가면 순식간에 땀범벅이 된다.</eg>
+				<eg>이 근처에는 전화 ~가 한 개밖에 없어서 너무 불편하다.</eg>
+				<trans>booth</trans>
+				<sem_class>설치물</sem_class><!--시설물을 설치물로 재수정-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 작다</comb_aj>
+				<comb_aj type="appr">~가 넓다</comb_aj>
+				<comb_aj type="appr">~가 좁다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 설치하다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 들어가다</form>
+				</comb_v>
+				<cl type="uni">개</cl>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>이 기사는 1면 하단에 ~로 처리하는 것이 좋을 것 같다.</eg>
+				<eg>~ 기사는 독자에게 정돈된 느낌을 주어서 가독성을 높인다.</eg>
+				<eg>그 부분은 기사 내용을 줄이고 ~의 크기를 축소시키기로 했다.</eg>
+				<trans>square</trans>
+				<sem_class>도형</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 작다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 두르다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 처리하다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 넣다</form>
+				</comb_v>
+				<cl type="uni">개</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

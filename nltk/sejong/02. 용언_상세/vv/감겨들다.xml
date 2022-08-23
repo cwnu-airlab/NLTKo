@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>감겨들다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/18</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김미영</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/18</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/11/12</mod_date>
+				<mod_writer>박영준</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="lng">감기어들다</var>
+			<cntr opt="opt" type="i"/>
+			<infl type="l"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>현상</sem_class>
+				<trans>cling to</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체자연물</sel_rst>
+					<eg>그의 목소리가 흐물흐물 감겨들었다.</eg>
+					<eg>바람이 감겨들 듯 불고 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>현상</sem_class>
+				<trans>cling to</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">구체자연물</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간|신체부위</sel_rst>
+					<eg>차가운 바람이 내 몸에 감싸듯 감겨들었다.</eg>
+					<eg>줄같은 것이 내 다리에 감겨드는 것 같은 기분이었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

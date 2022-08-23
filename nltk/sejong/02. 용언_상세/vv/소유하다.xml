@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>소유하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/10/20</mod_date>
+				<mod_writer>음두은</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">소유를 하다</var>
+			<str>N.하</str>
+			<org lg="si">所有_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>관계상태</sem_class>
+				<trans>own</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(집|건물|땅|토지|자동차)|유가증권(주식|채권)</sel_rst>
+					<eg>우리 아버지는 지방에 건물을 두 채 소유하고 계신다.</eg>
+					<eg>우리가 이 땅을 소유한 지도 이제 오래되었다.</eg>
+					<eg>자기 명의로 집을 두 채 이상 소유한 사람은 중과세를 물게 되어 있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(권리|권한|기술)</sel_rst>
+					<eg>아버지는 특허권을 소유하고 계신다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>관계상태</sem_class>
+				<trans>have</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(성격|행복|건강|인격|미모)</sel_rst>
+					<eg>행복을 소유한 사람은 그 중요성을 모르게 마련이다.</eg>
+					<eg>그녀는 빼어난 미모를 소유하고 있었으나 인격은 그에 따라가지 못했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

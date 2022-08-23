@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>원년</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/27</cre_date>
+				<cre_writer>이지현</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/11</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/26</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_n, n_v에 기술</mod_note>
+				<mod_note>센스1 예문 기존사전의 예와 같아 수정</mod_note>
+				<mod_note>의미부류 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/01</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/04/30(고길수)센스1의 의미부류를 '시간'에서 '단계'로 수정</note>
+			<note>센스1에 '~이 되다,~으로 삼다' 등을 추가</note>
+			<note>센스1에서 'N(프로야구) ~', '올해는 부정부패 추방의 ~이 되었다', '건국 ~' 등의 명사 수식어에 대한 정보 필요</note>
+			<note>센스2의 의미부류를 '시간'에서 '단계'로 수정</note>
+			<note>센스2에 '세종 ~' 등의 명사구 형태 정보 추가</note>
+			<note>2002/05/23(한선혜)</note>
+			<note>2003/07/04(권오희)add에 명사구정보추가</note>
+			<note>2003/08/11(이은경) 센스1의 수식어 문장에 있던 'S는|S은 ~' 삭제(필수적이라고 보기 어려움)</note>
+			<add>센스1의 명사구 : X-(의) ~ 가능, X=운동경기|행사|행위 등</add>
+			<add>센스2의 명사구 : X-(의) ~ 가능, X=왕명|국명 등</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">元年</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 프로야구 ~ 멤버이다.</eg>
+				<trans>the first year of the event</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>속성시간</sem_class> <!--'단계'를 '속성시간'으로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">건국 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 삼다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 세종 ~에 재상의 자리에 올랐다.</eg>
+				<trans>the first year of a king's reign</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>속성시간</sem_class> <!--'단계'를 '속성시간'으로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">세종 ~</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

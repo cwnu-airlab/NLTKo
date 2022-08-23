@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>발정</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/04</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/04</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_v 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">發情</org>
+		
+			<der pos="n" type="suffix">~기</der>
+			<der pos="n" type="suffix">~주기</der>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>소나 돼지는 보통 20일마다 한 번씩 ~을 한다.</eg>
+				<eg>아버지는 ~이 난 개를 끌고 동네 뒷산으로 올라가셨다.</eg>
+				<eg>그녀는 ~이라도 났는지 평소에 안 하던 교태를 다 부리는 것이었다.</eg>
+				<trans>sexual excitement</trans>
+				<sem_class>생물생리현상</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 나다</form>
+					<frame>X-이 ~이 나다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="X">동물</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

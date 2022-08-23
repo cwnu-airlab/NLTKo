@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>이제</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/15</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/17</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/20</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>부사 추가</mod_note>
+			</mod>
+			<note>2001/09/15(이성헌)</note>
+			<note>부사 '이제'의 기술</note>
+			<note>2001/09/21(고길수|이성헌)</note>
+			<note>synt_b|c 항목 수정보완</note>
+			<note>2003/01/22(유영) sem수정, 동형어수정, der에 부터|까지 추가?</note>
+			<note>2003/06/17(이성헌)sem을 '관계시간'에서 '현재'로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="yes"></hom>
+			<der pos="av" type="suffix">~야</der>
+			<der pos="av" type="suffix">~서야</der>
+			<der pos="av" type="suffix">~껏</der>
+			<der pos="av" type="suffix">~부터</der>
+			<der pos="av" type="suffix">~까지</der>
+			<comp pos="av" type="suffix">~나저제나</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~부터라도 지난 과거는 모두 잊고 새롭게 시작해야 한다.</eg>
+				<eg>그 친구에게 직접 말을 하고나니 ~까지 쌓였던 울분이 모두 가시는 듯 했다.</eg>
+				<trans>now</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>현재</sem_class>
+				<lr>
+					<syn type="etc">지금</syn>
+					<syn type="etc">현재</syn>
+					<syn type="etc">현금</syn>
+					<ant type="temp"></ant>
+					<hyper>시기</hyper>
+					<coord>이전</coord>
+					<coord>과거</coord>
+					<coord>미래</coord>
+					<coord>장래</coord>
+					<rel>시간</rel>
+					<rel>시기</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">바로 ~</comb_n>
+				<comb_n type="compound">~ 바로</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av>~</av>
+				<av>~부터</av>
+				<pre_d>바로</pre_d>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>스키</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/06/01</cre_date>
+				<cre_writer>송길룡;홍재성</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/04</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/09</mod_date>
+				<mod_writer>김천학</mod_writer>
+				<mod_note>add 옮김</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/15</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>센스 2의 의미부류 수정(추상적대상에서 운동경기로)</mod_note>
+				<mod_note>합성어 추가</mod_note>
+				<mod_note>복합어 및 명사결합 수정, 형용사결합 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스2 운동경기를 추상적대상으로 수정;동사정보 유형값 수정</mod_note>
+			</mod>
+			<note>1999/06/17</note>
+			<note>2001/03/13(김미순)가산/비가산/관계/대칭 수정</note>
+			<note>2003/03/30(김현승)센스1의 의미부류를 '경기'에서 '추상적대상'으로 수정</note>
+			<note>2003/04/04(고길수)센스1(운동경기명)과 센스2(신)의 순서를 조정</note>
+			<note>comb_aj정보 추가</note>
+			<note>comb_v정보 add항목으로 이전</note>
+			<note>센스1의 예문 수정</note>
+			<note>센스2의 pre_d에서 '~' 삭제</note>
+			<note>센스2의 단위표현에서 '게임|경기' 삭제</note>
+			<note>센스2의 예문 수정</note>
+			<note>센스2의 의미부류를 '제조물'에서 '신'으로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="en">ski</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~광</comp>
+			<comp pos="n" type="suffix">~복</comp>
+			<comp pos="n" type="suffix">~장</comp>
+			<comp pos="n" type="suffix">~경기</comp>
+			<comp pos="n" type="prefix">등산~</comp>
+			<comp pos="n" type="prefix">모노~</comp>
+			<comp pos="n" type="prefix">수상~</comp>
+			<comp pos="n" type="prefix">제트~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>사람들은 스키장에 도착하자마자 바로 ~로 갈아 신었다.</eg>
+				<trans>ski</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>신</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>운동기구</hyper>
+					<hypo>나왕스키</hypo>
+					<coord>스케이트</coord>
+					<mero>스키밑판</mero>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 비싸다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 타다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 신다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">벌</cl>
+				<cl type="div">짝</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>우리들은 이번 겨울 휴가를 이용해 ~를 배울 계획이다.</eg>
+				<trans>skiing</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>추상적대상</sem_class> <!--(호정은) '운동경기'라는 의미부류에 적합한지 확실하지 않음-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>경기</hyper>
+					<hyper>운동</hyper>
+					<hypo>노르딕</hypo>
+					<hypo>알파인</hypo>
+					<hypo>점프</hypo>
+					<hypo>회전</hypo>
+					<coord>수영</coord>
+					<coord>스케이트</coord>
+					<coord>축구</coord>
+					<rel>눈</rel>
+					<rel>리프트</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 어렵다</comb_aj>
+				<comb_aj type="appr">~가 재미있다</comb_aj>
+				<comb_aj type="appr">~가 쉽다</comb_aj>
+				<comb_n type="compound">~ 선수</comb_n>
+				<comb_n type="compound">~ 시합</comb_n>
+				<comb_n type="compound">~ 철</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 배우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 즐기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 좋아하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

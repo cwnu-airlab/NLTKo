@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>토벌되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/24</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>곽새라</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/09/01</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">토벌이 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<org lg="si">討伐_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be subjugated</trans>
+				<trans>be subdued</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">반사회적직업인간|부정적속성인간|인종|사회계급인간|직업인간</sel_rst>
+					<sel_rst arg="Y" tht="AGT">국가기관|군대</sel_rst>
+					<eg>6.25당시 빨치산들은 정부군에 완전히 토벌되었다.</eg>
+					<eg>오랑캐들은 강감찬 장군의 군대에 완전히 토벌되었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">반사회적직업인간|부정적속성인간|인종|사회계급인간|직업인간</sel_rst>
+					<sel_rst arg="Y" tht="AGT">직업인간|직위인간|계급인간</sel_rst>
+					<eg>6.25당시 빨치산들은 정부군의 병사들에게 완전히 토벌되었다.</eg>
+					<eg>오랑캐들은 강감찬 장군에게 완전히 토벌되었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

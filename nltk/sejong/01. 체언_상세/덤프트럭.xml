@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>덤프트럭</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/07</cre_date>
+				<cre_writer>유영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/14</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/30</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>내부구성정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/15</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>n_v 기술</mod_note>
+			</mod>
+			<note></note>
+			<add>~에 싣다|올리다</add>
+			<add>~에서 내리다|부리다</add>
+			<add>~으로 나르다|옮기다|운반하다</add>
+			<add>~을 이용하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">덤프+트럭</str>
+			<org lg="en">dump truck</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 곳의 쓰레기를 오늘 중으로 모두 치우려면 ~이 3대는 있어야 할 것 같다.공사장으로 가는 도로에는 흙을 실어나르는 ~들의 행렬이 줄을 이었다.</eg>
+				<trans>dump truck</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>육상교통기관</sem_class>
+				<lr>
+					<syn type="etc">덤프차</syn>
+					<syn type="etc">덤프카</syn>
+					<syn type="etc">전도차</syn>
+					<ant type="temp"></ant>
+					<hyper>트럭</hyper>
+					<rel>모래</rel>
+					<rel>흙</rel>
+					<rel>공사장</rel>
+					<rel>쓰레기</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 육중하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 몰다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">대</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

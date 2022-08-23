@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>새싹</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/27</cre_date>
+				<cre_writer>이지영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/09</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/28</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>add정보이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/30</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스2 의미부류 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/08</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1의 동사정보에 '나다' 추가;맥스엔, 논항 의미부류 정보 추가;센스3에 '기반'의 의미 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/08</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1에 단위표현 추가</mod_note>
+			</mod>
+			<note>2002/05/13(김진형)</note>
+			<note>2002/05/24(이성헌)%note에 1차 교정자 기재</note>
+			<note>2003/07/02(한동훈)add에 동사 자유결합 정보 '~이 돋다'추가</note>
+			<note>2003/07/09(김미현)</note>
+			<note>@comb_aj기재</note>
+			<note>@org에 ko 기재</note>
+			<note>@sem을 논의에 부칠 것 권고 '풀'?</note>
+			<note>@sense2의 @sem수정('속성'에서 '긍정적 속성 인간'으로)</note>
+			<note>궁극적으로는 '연령인간'으로 볼 수 있을 지 여부 등을 논의에 부칠 것을 권고</note>
+			<add>~이 돋다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>봄이 되니 땅에서 ~이 돋아났다.</eg>
+				<trans>bud</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>식물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 푸르다</comb_aj>
+				<comb_aj type="appr">~이 파릇파릇하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 돋다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 나다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">식물</sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>아이들은 자라나는 ~이다.</eg>
+				<trans>bud</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>연령인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 자라다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>많은 투자를 유치하여 지역 경제 발전의 ~이 돋았다.</eg>
+				<trans>bud</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>원인</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 틔우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 꺾다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 돋다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">추상적대상|사태</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

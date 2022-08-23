@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>저분저분하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/22</cre_date>
+				<cre_writer>박철우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/22</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/07/03</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>긍정적품격속성값</sem_class>
+				<trans>be pliable</trans>
+				<trans>be gentle</trans>
+				<trans>be sociable</trans>
+				<trans>be amiable</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<n_appr arg="X">성품</n_appr>
+					<eg>그 친구는 성격이 저분저분해서 사람들이 다들 좋아한다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(말투|어투)</sel_rst>
+					<eg>그는 저분저분한 어투로 이야기를 이어 갔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>모양속성값</sem_class>
+				<trans>be soft and chewy</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">음식(가루|나물)</sel_rst>
+					<eg>나물에 갖은 양념하여 냄비에 담고, 약간의 기름을 두르고 볶다가 물을 조금 두르고 뚜껑을 덮어 폭 뜸을 들여 저분저분한 나물이 되도록 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

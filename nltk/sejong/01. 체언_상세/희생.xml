@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>희생</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/04/06</cre_date>
+				<cre_writer>류희선</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/28</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/15</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note>동사구성 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/30</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 n_v type 수정</mod_note>
+				<mod_note>센스2 n_v 기술</mod_note>
+			</mod>
+			<note>2001/07/16(류희선)</note>
+			<note>2001/07/20(고길수)</note>
+			<note>2001/08/03</note>
+			<note>2003/02/23(김진형)sense1 예문 추가</note>
+			<note>2003/02/28(이지영)</note>
+			<note>comb_n 기입</note>
+			<note>comb_v 정보 add로 이동</note>
+			<note>sense2 예문 및 의미부류 수정</note>
+			<note>supv 및 sel_res 수정</note>
+			<note>센스1 예문 수정</note>
+			<note>의미부류 수정</note>
+			<add>sense1-~을 감수하다|무릅쓰다|당하다|강요하다|줄이다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">犧牲</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~성</der>
+			<der pos="n" type="suffix">~자</der>
+			<comp pos="n" type="suffix">~구</comp>
+			<comp pos="n" type="suffix">~물</comp>
+			<comp pos="n" type="suffix">~양</comp>
+			<comp pos="n" type="suffix">~정신</comp>
+			<comp pos="n" type="suffix">~타</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>어머니는 자신을 ~을 하며 자식을 구해 냈다.</eg>
+				<eg>이번 전쟁으로 여러 나라 젊은이들의 ~이 막대하였다.</eg>
+				<eg>그는 어떤 ~을 치르더라도 목표한 바를 꼭 이루려 한다.</eg>
+				<trans>sacrifice</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>전쟁</rel>
+					<rel>소수</rel>
+					<rel>포기</rel>
+					<rel>개인</rel>
+					<rel>국가</rel>
+					<rel>집단</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 엄청나다</comb_aj>
+				<comb_aj type="magn">~이 막대하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 치르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 감수하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 무릅쓰다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 당하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 강요하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 줄이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 Z-에 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>X-이 Y-을 Z-에 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 Z-에 ~이 되다</frame>
+					<frame>Y-이 Z-로 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 당하다</form>
+					<frame>Y-이 Z-에 ~을 당하다</frame>
+					<frame>Y-이 Z-로 ~을 당하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<!--vcompound: ~시키다-->
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">구체물|집단|장소|추상적대상</sel_rst>
+				<sel_rst arg="Z">사행</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>구약시대 신에게 제사 지낼 때 이스라엘 사람들은 산짐승을 ~으로 바쳤다.</eg>
+				<trans>sacrifice</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>속성구체물</sem_class>
+				<lr>
+					<syn type="etc">뇌생</syn>
+					<syn type="etc">생뢰</syn>
+					<syn type="etc">전희</syn>
+					<ant type="temp"></ant>
+					<rel>제물</rel>
+					<rel>산짐승</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 제물</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 바치다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

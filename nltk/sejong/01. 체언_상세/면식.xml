@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>면식</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/18</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/18</mod_date>
+				<mod_writer>류희선</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/02</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>예문 보완, 기능동사구문으로 기술, n_v기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/24</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>있다|없다를 n_v에서 n_aj로 이동, 선택제약 삭제, 동의어 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/31</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/10/18(류희선)의미부류검토요망</note>
+			<note>기능동사구문인지검토요망(~이 있다|없다)</note>
+			<add>~을 익히다</add>
+			<add>~이 있다|없다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">面識</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그와는 전혀 ~이 없다.</eg>
+				<eg>그녀와는 ~이 있지만 자세히 알지는 못한다.</eg>
+				<eg>그는 사장과의 ~을 익히기 위해 노력했다.</eg>
+				<trans>acquaintance</trans>
+				<sem_class>관계</sem_class><!--추상적대상을 수정(서)-->
+				<lr>
+					<syn type="perfect">안면</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 있다</comb_aj>
+				<comb_aj type="appr">~이 없다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 익히다</form>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

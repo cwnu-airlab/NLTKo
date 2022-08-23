@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>곤욕</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/18</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/19</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/06</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>n_aj 수정</mod_note>
+				<mod_note>의미부류 검토요</mod_note>
+			</mod>
+			<note>2002/09/18(이성헌)'곤욕|욕|곤란|어려움|고통' 등과 같은 어휘의 의미부류 설정 필요 ex'고통'</note>
+			<note>2002/09/28(고길수)예문 수정</note>
+			<note>2003/09/19(이성헌)</note>
+			<note>magn에 '큰|심한 ~' 추가</note>
+			<note>magn의 '갖은|온갖 ~'은 comb_aj로 수정</note>
+			<note>기능동사의 논항 표기법 수정</note>
+			<note>우선은 이를 행위로 보아야 할지, 사건으로 보아야 할지 결정이 필요</note>
+			<note>이때 '방향성행위'가 적절할지...</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">困辱</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>전과자인 그는 툭하면 경찰서로 끌려가 ~을 치르곤 한다.</eg>
+				<trans>insult</trans>
+				<trans>affront</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>방향성행위</sem_class> <!--의미부류 적절한지?-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">갖은 ~</comb_aj> <!--서술형 불가능 표시(송근영)-->
+				<comb_aj type="appr" pred="no">온갖 ~</comb_aj> <!--서술형 불가능 표시(송근영)-->
+				<comb_aj type="appr" pred="no">큰 ~</comb_aj>  <!--appr로 수정, 서술형 불가능 표시(송근영)-->
+				<comb_aj type="appr" pred="no">심한 ~</comb_aj> <!--appr로 수정, 서술형 불가능 표시(송근영)-->
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 치르다</form>
+					<frame>X-이 Y-에게 ~을 치르다</frame>
+					<frame>X-이 Y-에서 ~을 치르다</frame>
+					<frame>X-이 Y-에게서 ~을 치르다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 겪다</form>
+					<frame>X-이 Y-에게 ~을 겪다</frame>
+					<frame>X-이 Y-에게서 ~을 겪다</frame>
+					<frame>X-이 Y-에서 ~을 겪다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~을 당하다</form>
+					<frame>X-이 Y-에게 ~을 당하다</frame>
+					<frame>X-이 Y-에게서 ~을 당하다</frame>
+					<frame>X-이 Y-에서 ~을 당하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|기관건물</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

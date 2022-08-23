@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>심증</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/26</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/30</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/01</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미부류 수정;동사결합 정보 이동 및 추가;논항명사구, 선택제약 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/23</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/08/26(이호영)~을 굳히다</note>
+			<note>2002/08/26(김종명)조사제약.pre_s정보수정</note>
+			<note>2003/09/16(최지임)외래어원어수정</note>
+			<note>의미부류수정</note>
+			<note>형용사자유구성정보입력</note>
+			<note>수식어문장입력</note>
+			<note>2003/09/30(고길수)의미부류 재검토 필요, '상태'의 '감정'과 유사한 것이 아닌지...</note>
+			<note>comb_aj 정보를 관형형에서 서술형으로 수정</note>
+			<add>~을 갖다|굳히다|얻다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">心證</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>막연한 ~만 있을 뿐 물증이 없다.</eg>
+				<eg>그에게 ~이 가는데, 확실한 증거가 없다.</eg>
+				<eg>점차 배심원들은 피의자의 혐의에 대해 ~을 굳히고 있었다.</eg>
+				<trans>strong belief</trans>
+				<trans>impression</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>의견</sem_class>
+				<!-- 생각 수정 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 막연하다</comb_aj>
+				<comb_aj type="appr">~이 확실하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 굳히다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 얻다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 가지다</form>
+					<frame>X-이 Y-에대해 ~을 가지다</frame>
+					<frame>X-이 S것-에대해 ~을 가지다</frame>
+					<frame>X-이 S음-에대해 ~을 가지다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 가다</form>
+					<frame>X-이 Y-에대해 ~이 가다</frame>
+					<frame>X-이 S것-에대해 ~이 가다</frame>
+					<frame>X-이 S음-에대해 ~이 가다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 있다</form>
+					<frame>X-이 Y-에대해 ~이 있다</frame>
+					<frame>X-이 S것-에대해 ~이 있다</frame>
+					<frame>X-이 S음-에대해 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 없다</form>
+					<frame>X-이 Y-에대해 ~이 없다</frame>
+					<frame>X-이 S것-에대해 ~이 없다</frame>
+					<frame>X-이 S음-에대해 ~이 없다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 S것-에대한 ~</max_n_str>
+				<max_n_str>S것-에대한 ~</max_n_str>
+				<max_n_str>X-의 S음-에대한 ~</max_n_str>
+				<max_n_str>S음-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">사태</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S다는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>할인</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/13</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/04</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/28</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note>형태정보구획 b의 합성어 정보를 n_n으로 이동. n_v와 중복되는 것은 삭제</mod_note>
+				<mod_note>센스 1,2의 최대논항구조와 선택제약 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/14</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note>동사결합정보수정</mod_note>
+			</mod>
+			<note>2001/08/13(이성헌,김종명)</note>
+			<note>2003/10/04(박진호)센스1,2 의미부류, 격틀, 선택제약 수정</note>
+			<note>선택 논항 제약 수정</note>
+			<note>최대논항구조 수정</note>
+			<note>합성어 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">割引</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~가</der>
+			<der pos="n" type="suffix">~율</der>
+			<der pos="n" type="suffix">~료</der>
+			<der pos="n" type="suffix">~세</der>
+			<der pos="n" type="suffix">~점</der>
+			<der pos="n" type="suffix">~채</der>
+			<der pos="temp" type="temp"></der>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>대형 점포들이 상품의 가격을 대폭 ~을 했다</eg>
+				<trans>discount</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>감소행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>염가</rel>
+					<rel>헐값</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">대대적인 ~</comb_aj>
+				<comb_aj type="magn">대폭(적인) ~</comb_aj>
+				<comb_n type="compound">원가 ~</comb_n>
+				<comb_n type="compound">항공권 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 Z-에서 W-로 ~을 하다</frame>
+					<frame>X-이 Y-를 U-를 ~을 하다</frame>
+					<frame>X-이 Y-에대해 U-를 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 Y-에서 W-로 ~이 되다</frame>
+					<frame>X-이 Y-를|에대해 U-를 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>T-가 X-에게서 Y-을 W-에서 Z-로 ~을 받다</frame>
+					<frame>T-가 X-에게서 Y-를 U-를 ~을 받다</frame>
+					<frame>T-가 X-에게서 Y-에대해 U-를 ~을 받다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>Y-에대한 X-의 ~</max_n_str>
+				<max_n_str>Y-에대한 Z ~</max_n_str>
+				<max_n_str>Y-의 Z ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단(가게|백화점|기업)</sel_rst>
+				<sel_rst arg="Y">값(가격)|비율(이자)|구체물|추상적대상</sel_rst>
+				<sel_rst arg="Z">단위(원|퍼센트|퍼센트포인트)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 어음을 1부5리에 ~을 했다</eg>
+				<trans>bill discounting</trans>
+				<domain>경제</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="etc">어음할인</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">어음 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 Z-로 ~을 하다</frame>
+					<frame>X-이 Y-을 Z-에 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>X-이 Y-을 Z-에 ~을 받다</frame>
+					<frame>X-이 Y-을 Z-로 ~을 받다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">유가증권(어음|채권)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

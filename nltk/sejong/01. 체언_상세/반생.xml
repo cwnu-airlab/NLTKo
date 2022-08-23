@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>반생</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/13</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>의미부류재수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>'지나다' n_v에 기술</mod_note>
+			</mod>
+			<note>2003/10/15(박진호)의미부류 수정</note>
+			<note>2003/10/28(송인욱)의미부류를 '부분시간'에서 수정, 그런 의미부류는 없음</note>
+			<add>2003/08/13(송인욱)동사자유구성으로 '~을 살다</add>
+			<add>~이 지나다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">半生</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>동생과 나는 지난 ~을 되돌아 보며 회한의 눈물을 흘렸다.</eg>
+				<eg>우리는 그녀의 남은 ~이 부디 행복하기만를 빌었다.</eg>
+				<trans>half a lifetime</trans>
+				<sem_class>부분시간</sem_class><!--속성시간을 수정-->
+				<lr>
+					<syn type="perfect">반생애</syn>
+					<syn type="perfect">반평생</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 살다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 지나다</form>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

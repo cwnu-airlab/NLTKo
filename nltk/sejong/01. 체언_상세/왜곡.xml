@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>왜곡</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/14</cre_date>
+				<cre_writer>한선혜</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/04</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/14</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+				<mod_note>add를 comp로 이동</mod_note>
+				<mod_note>comp '진실~','사실~','역사~','~교과서' 추가</mod_note>
+				<mod_note>comb_v '~을 왜곡하다' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>명사결합, 분류사 추가</mod_note>
+				<mod_note>복합어, 동사 문형 수정</mod_note>
+			</mod>
+			<note>2003/01/14(유영) sem수정, 예문추가, sel_res수정</note>
+			<note>2003/02/04(이성헌)센스1의 예문 표제어에 조사 추가</note>
+			<note>comb_n의 '진실의 ~'을 add로 이동하고 '사실' 추가(술어와 논항 간의 결합일 경우에는 comb_n에 기재하지 않음)</note>
+			<note>sel_res Y항 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">歪曲</org>
+			<hom exist="yes"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~선</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>진실의 ~과 은폐는 그리 오래갈 수 없다.</eg>
+				<eg>그의 진심을 ~을 하지 말기 바랍니다.</eg>
+				<trans>distortion</trans>
+				<trans>falsification</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>변형행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>거짓</coord>
+					<coord>은폐</coord>
+					<coord>말살</coord>
+					<rel>사실</rel>
+					<rel>진실</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 심하다</comb_aj>
+				<comb_n type="compound">진실 ~</comb_n>
+				<comb_n type="compound">역사 ~</comb_n>
+				<comb_n type="compound">사실 ~</comb_n>
+				<comb_n type="compound">~ 기사</comb_n>
+				<comb_n type="compound">~ 보도</comb_n>
+				<comb_n type="compound">~ 교과서</comb_n>
+				<comb_n type="compound">~ 기사</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+					<frame>X-이 Y-에대해 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>X-이 Y-을 ~을 시키다</frame>
+					<frame>X-이 Y-에대해 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 당하다</form>
+					<frame>Y-이 X-에의해 ~을 당하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에의해 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 바로잡다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 일삼다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 비판하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 Y(-의) ~</max_n_str>
+				<max_n_str>X-에의한 Y(-의) ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>Y(-의) ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">사실명제|생각</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

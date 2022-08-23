@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>데이터베이스</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2006/05/21</cre_date>
+				<cre_writer>전미현</cre_writer>
+				<cre_note>의미부류 검토요망</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2006/07/25</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="abb">디비</var>
+			<str type="temp"></str><!-- 전미현(2006/05/21) 외래어 복합명사도 구조 정보 기입해야 하나요? !--><!--(이민우)삭제-->
+			<org lg="en">database</org>
+		
+			<hom exist="yes"/>
+			<der  pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>철수는 ~에 대한 전문가가 되기 위해 교육과정을 이수하고 있다.</eg>
+				<trans>database</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>소프트웨어</sem_class><!--(이민우)'컴퓨터'는 의미부류 목록에 없음. 텍스트담지물의 성격을 가지고 있으나 컴퓨터 내에 설치되는 것으로 소프트웨어로 설정.-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 함수</comb_n>
+				<comb_n type="compound">~ 마케팅</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 구축하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

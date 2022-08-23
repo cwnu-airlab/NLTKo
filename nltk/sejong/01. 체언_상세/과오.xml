@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>과오</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/19</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/04</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/07</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/17</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_v에 기술</mod_note>
+				<mod_note>센스1,2 max_n 기술</mod_note>
+			</mod>
+			<note>2002/09/19(이성헌)</note>
+			<note>2002/09/30(고길수)magn의 '~가 돌이킬 수 없다'는 add의 수정</note>
+			<note>2003/05/27(이홍식)add의 '~가 돌이킬 수 없다'를 '~를 돌이킬 수 없다'로 수정</note>
+			<note>2003/07/01(고길수)pre_s에 'S는 ~' 추가</note>
+			<note>2003/08/04(이홍식)</note>
+			<note>magn 정보 추가</note>
+			<add>~를 돌이킬 수 없다</add>
+			<add>~를 지적하다|지적받다|고치다|수정하다|뉘우치다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">過誤</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 큰 ~를 범하여 회사를 그만두었다.</eg>
+				<trans>fault</trans>
+				<trans>mistake</trans>
+				<trans>error</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>비의도적행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 중대하다</comb_aj>
+				<comb_aj type="appr">~가 사소하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 범하다</form>
+					<frame>X-이 ~를 범하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 저지르다</form>
+					<frame>X-이 ~를 저지르다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 ~를 뉘우치고 새사람이 되었다.</eg>
+				<trans>fault</trans>
+				<trans>mistake</trans>
+				<trans>error</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>속성값</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 중대하다</comb_aj>
+				<comb_aj type="appr">~가 사소하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 지적하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 지적받다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

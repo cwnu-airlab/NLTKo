@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>전수</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/06</cre_date>
+				<cre_writer>권오희</cre_writer>
+				<cre_note>2003/10/09 '전수받다'는 한자의 의미를 고려할 때 엔트리2에만 해당하는 것으로 보았음. 검토바람.</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/11/03</mod_date>
+				<mod_writer>권오희</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/23</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>를 하다 보충</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/27</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note>수정보완한정보없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/15</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">傳受</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>초기의 대학은 지식과 그 ~를 독점하고 있었다.</eg>
+				<eg>이 요리법은 내가 시집 오기 전 친정 어머니에게서 ~를 한 비법이다.</eg>
+				<trans>being handed down</trans>
+				<trans>being instructed</trans>
+				<sem_class>결과행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 Z-에서 ~를 하다</frame>
+					<frame>X-이 Y-을 Z-에게서 ~를 하다</frame>
+					<frame>X-이 Y-을 Z-로부터 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">방법|생각(지식)</sel_rst>
+				<sel_rst arg="Z">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/06</cre_date>
+				<cre_writer>권오희</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/03</mod_date>
+				<mod_writer>권오희</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/23</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>를 하다/를 받다/를 시키다 보충</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/22</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note>frame 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/15</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">傳授</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그분은 판소리를 ~를 하기 위해서 후계자를 찾고 있다.</eg>
+				<trans>handing down</trans>
+				<trans>instruction</trans>
+				<sem_class>수여</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 Z-에게 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~를 시키다</form>
+					<frame>X-이 Y-을 Z-에게 ~를 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 받다</form>
+					<frame>Z-이 Y-을 X-에게 ~를 받다</frame>
+					<frame>Z-이 Y-을 X-에게서 ~를 받다</frame>
+					<frame>Z-이 Y-을 X-로부터 ~를 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 X-에게서 Z-에게 ~가 되다</frame>
+					<frame>Y-이 X-로부터 Z-에게 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">방법|생각(지식)</sel_rst>
+				<sel_rst arg="Z">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>북측</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/23</cre_date>
+				<cre_writer>한동훈</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/24</mod_date>
+				<mod_writer>한동훈</mod_writer>
+				<mod_note>2003/10/24(한동훈)센스 2,3의 영어 대역어 검토 요망</mod_note>
+				<mod_note>센스 2의 의미부류 검토 요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/23</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1에 논항명사구, 의미정보 추가</mod_note>
+				<mod_note></mod_note>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/27</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">北側</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 집은 정원의 ~에 자리잡고 있다.</eg>
+				<trans>north</trans>
+				<sem_class>방향</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가함 -->
+				<sel_rst arg="X">구체물|장소</sel_rst> <!-- 추가함 -->
+				<cl type="uni"></cl>
+			</syn_grp>
+		</sense>
+		<sense n="2"> <!-- 유형값을 3에서 수정 -->
+			<sem_grp>
+				<eg>남측과 ~의 협상이 결렬되었다.</eg>
+				<trans>North Korea</trans>
+				<sem_class>국가</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<cl type="uni"></cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

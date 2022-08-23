@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>벼</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/08/30</cre_date>
+				<cre_writer>김미란2</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/02</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/19</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>comp 기술</mod_note>
+				<mod_note>예문수정</mod_note>
+				<mod_note>n_n 기술</mod_note>
+				<mod_note>add 이동</mod_note>
+				<mod_note>센스 분할(열매)</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/15</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add정보를 n_v로 이동</mod_note>
+				<mod_note>센스1,2 domain 삭제</mod_note>
+				<mod_note>센스2 의미부류 '풀'을 수정</mod_note>
+			</mod>
+			<note>1999/09/17(김미란2)</note>
+			<note>2000/04/24(김미란2)</note>
+			<note>2000/04/28(김미란2)</note>
+			<note>2000/05/06(김미란2)</note>
+			<note>2003/01/16(김미순)domain 입력</note>
+			<note>2003/02/02(이성헌)센스1의 sem을 '식물'에서 '풀'로 수정</note>
+			<note>comb_v 삭제</note>
+			<add>~가 익다</add>
+			<add>~를 심다|베다|키우다|수확하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~ㅅ가락</comp>
+			<comp pos="n" type="suffix">~ㅅ가리</comp>
+			<comp pos="n" type="suffix">~ㅅ가을</comp>
+			<comp pos="n" type="suffix">~ㅅ갈</comp>
+			<comp pos="n" type="suffix">~ㅅ겨</comp>
+			<comp pos="n" type="suffix">~ㅅ논</comp>
+			<comp pos="n" type="suffix">~ㅅ단</comp>
+			<comp pos="n" type="suffix">~ㅅ모</comp>
+			<comp pos="n" type="suffix">~ㅅ목</comp>
+			<comp pos="n" type="suffix">~ㅅ섬</comp>
+			<comp pos="n" type="suffix">~ㅅ술</comp>
+			<comp pos="n" type="suffix">~ㅅ짐</comp>
+			<comp pos="n" type="suffix">~ㅅ짚</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>지난해에는 저 너른 논에  혼자서 ~를 심었다.</eg>
+				<trans>rice plant</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>풀</sem_class>
+				<lr>
+					<syn type="etc">가화</syn>
+					<ant type="temp"></ant>
+					<rel>논</rel>
+					<rel>쌀</rel>
+					<rel>모내기</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 이삭</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 심다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 키우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 베다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">포기</cl>
+				<cl type="grp">단</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>~를 금방 찧어서 밥을 해 먹으면 밥맛이 참 좋다.</eg>
+				<trans>kernel of rice</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>열매</sem_class>
+				<lr>
+					<syn type="sino">정조</syn>
+					<ant type="temp"></ant>
+					<rel>논</rel>
+					<rel>쌀</rel>
+					<rel>모내기</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 모개</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 익다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 영글다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 찧다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 수확하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">알</cl>
+				<cl type="uni">톨</cl>
+				<cl type="grp">가마</cl>
+				<cl type="grp">가마니</cl>
+				<cl type="grp">섬</cl>
+				<cl type="grp">석</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

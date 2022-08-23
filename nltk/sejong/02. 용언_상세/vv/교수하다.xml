@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>교수하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/25</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김미영</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/22</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/11/12</mod_date>
+				<mod_writer>박영준</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/10/05</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>형태정보, 의미정보, 격틀 조정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">교수를 하다</var>
+			<str>N.하</str>
+			<org lg="si">敎授_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>방향성행위</sem_class>
+				<trans>instruct</trans>
+				<lr>
+					<syn type="kor">가르치다</syn>
+					<ant type="dir">배우다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상</sel_rst><!--"S법" 정도의 명사구가 같은 자리에 오기도 함.-->
+					<sel_rst arg="Z" tht="GOL">인간|인간집단</sel_rst>
+					<eg>학생들에게 물리학을 교수하는 김 강사는 실력있는 과학자이다.</eg>
+					<eg>어린 아이들에게 외국어를 교수하는 선생님은 특히 이러한 점에 유의해야 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/25</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김미영</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/22</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/11/12</mod_date>
+				<mod_writer>박영준</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/10/05</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>형태정보, 의미정보, 격틀 조정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">교수를 하다</var>
+			<str>N.하</str>
+			<org lg="si">絞首_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>처벌</sem_class>
+				<trans>strangle</trans>
+				<lr>
+					<syn type="perfect">교륙하다</syn>
+					<syn type="perfect">교살하다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<eg>옛날에는 대역죄를 범한 죄인을 교수하는 벌을 자주 내렸다.</eg>
+					<eg>요즘에도 간간이 강력범들을 교수하는 형벌이 내려지곤 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

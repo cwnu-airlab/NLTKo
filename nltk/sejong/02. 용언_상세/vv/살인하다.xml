@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>살인하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/14</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/14</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/22</mod_date>
+				<mod_writer>음두은</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">살인을 하다</var>
+			<str>N.하</str>
+			<org lg="si">殺人_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>범죄및비행</sem_class>
+				<trans>murder</trans>
+				<trans>kill</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<eg>어제 밤에 강도가 옆집남자를 살인하고 도망쳤다.</eg>
+					<eg>얼마나 많은 태어나지 않은 아기들을 살인하는지는 오직 하느님만이 아실 것입니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>모심기노래</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/18</cre_date>
+				<cre_writer>이지영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/18</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/27</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>표준사전에 따르면 '모심기소리'의 잘못임. see 정보를 추가하고 내용까지 모두 수정함</mod_note>
+				<mod_note>내부 구조, 동의어 타입 수정</mod_note>
+				<mod_note>변이형, 동사 결합 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/24</mod_date>
+				<mod_writer>신서인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/06/18(이지영)예문, sem, comb_v, supv수정</note>
+			<note>2007/08/17(정아름)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see>모심기소리</see>
+		<morph_grp>
+			<var type="xs">모심기소리</var>
+			<var type="spr">모심기 노래</var>
+			<str type="N_N">모심기+노래</str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>모를 심으면서 ~로 흥을 돋웠다.</eg>
+				<trans>rice-planter's song</trans>
+				<domain>민속</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>성악곡</sem_class>
+				<lr>
+					<syn type="perfect">모내기노래</syn>
+					<syn type="sino">이앙가</syn>
+					<ant type="temp"></ant>
+					<hyper>노래</hyper>
+					<rel>농사</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 부르다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">곡</cl>
+				<cl type="div">곡조</cl>
+				<cl type="div">가락</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>명세</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/06/15</cre_date>
+				<cre_writer>이병규</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/19</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/01</mod_date>
+				<mod_writer>김천학</mod_writer>
+				<mod_note>add 옮김</mod_note>
+			</mod>
+			<note>2002/06/15(남길임)</note>
+			<note>2002/06/22(이성헌)</note>
+			<note>2003/05/27(김미현)기존의 의미부류가 '텍스트의 부분'으로 되어 있었는데...명세는 텍스트의 부분은 아닌 것 같습니다. 내역과 동의어로 어떤 일에 대한 자세한 내용이라는 뜻인데, 추상적대상 안에서 어떤 하위 부류에 줄 수 있을지...</note>
+			<note>동사자유구성을 add에 기술</note>
+			<note>2003/08/13(고길수)예문을 완전문 형태의 용례로 수정</note>
+			<note>의미부류를 '추상적대상'에서 '텍스트'로 수정, 단 '사실명제'와 유사한 측면도 있는 듯</note>
+			<note>예문에 제시된 기존 용례와 '경비 ~'는 명사 연어에 추가함</note>
+			<note>보다 근본적으로 이 어휘를 어근으로 처리하는 것이 적절할 수도 있을 듯...</note>
+			<note>2003/08/19(김미현)</note>
+			<add>2003/05/27(김미현)~를 공개하다|알려 주다|밝히다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">明細</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>언론을 통해 고위 공직자들의 재산 ~가 공개되었다.</eg>
+				<trans>particulars</trans>
+				<trans>details</trans>
+				<trans>specifics</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>텍스트</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">신상 ~</comb_n>
+				<comb_n type="compound">재산 ~</comb_n>
+				<comb_n type="compound">경비 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 공개하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 알려주다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 밝히다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

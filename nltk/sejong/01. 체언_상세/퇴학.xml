@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>퇴학</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/19</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/01</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/23</mod_date>
+				<mod_writer>정아름</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/16</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/08/14(고길수</note>
+			<note>2003/10/01(박진호)센스1,2 의미부류, 격틀, 선택제약 수정</note>
+			<note>sense1동의어,하위어 추가</note>
+			<note>sense2의미부류 수정</note>
+			<note>관련어 수정</note>
+			<note>김종명</note>
+			<note>동의어,동위어,관련어 추가</note>
+			<note>이성헌)</note>
+			<note>2006/07/23(정아름) 예문 마침표 추가, 합성어 추가, sense 2 동사 결합 정보 추가, 의미부류 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">退學</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~생</der>
+			<comp pos="n" type="suffix">~수속</comp>
+			<comp pos="n" type="suffix">~조치</comp>
+			<comp pos="n" type="suffix">~처분</comp>
+			<comp pos="n" type="prefix">중도~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~당하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이민을 가게 되어 정든 학교에서 ~을 하게 되었다.</eg>
+				<trans>leaving school (before graduation)</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>탈퇴</sem_class>
+				<lr>
+					<syn type="etc">퇴교</syn>
+					<ant type="etc">입학</ant>
+					<hypo>자퇴</hypo>
+					<coord>입학</coord>
+					<coord>전학</coord>
+					<rel>학적</rel>
+					<rel>학교</rel>
+					<rel>학력</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에서 ~을 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">교육기관</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 학교 규정을 어겨서 ~을 당했다.</eg>
+				<trans>expulsion from school</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>처벌</sem_class>
+				<lr>
+					<syn type="etc">퇴교</syn>
+					<ant type="temp"></ant>
+					<hyper>징계</hyper>
+					<coord>근신</coord>
+					<coord>무기정학</coord>
+					<coord>유기정학</coord>
+					<rel>불량학생</rel>
+					<rel>학칙</rel>
+					<rel>징계</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 당하다</form>
+					<frame>X-이 Y-에서 ~을 당하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 Y-에서 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>Z-이 X-를 Y-에서 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 맞다</form>
+					<frame>Z-이 ~을 맞다</frame>
+				</comb_v>
+				<!--vcompound: ~당하다-->
+				<!--vcompound: ~되다-->
+				<!--vcompound: ~시키다-->
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">교육기관</sel_rst>
+				<sel_rst arg="Z">인간|인간집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

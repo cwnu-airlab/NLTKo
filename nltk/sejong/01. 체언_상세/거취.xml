@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>거취</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/07</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/22</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/15</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/10</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_v에 기술 및 정보 추가</mod_note>
+				<mod_note>센스1 max_n, sel_res 기술</mod_note>
+				<mod_note>센스2 sem 수정</mod_note>
+				<mod_note>센스2 max_n, sel_res 기술</mod_note>
+				<mod_note>센스1, 2 부류가 사태이므로 n_v를 술어명사 결합으로 유형 수정</mod_note>
+			</mod>
+			<note>2002/09/08(김종명)</note>
+			<note>2002/10/08(한선혜)센스1 추가 기술</note>
+			<note>2003/07/17(김종명)</note>
+			<note>2003/07/22(이민우)</note>
+			<note>센스2의 pre_s 기술</note>
+			<note>센스2의 형용사연어구성 보충</note>
+			<add>~를 밝히다|결정하다|망설이다(센스2)</add>
+			<add>~를 살피다|감시하다(센스1)</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">去就</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>지난 연말 이후 그의 ~를 알 수 없다.</eg>
+				<trans>one's course of action</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 불분명하다</comb_aj>
+				<comb_aj type="appr">~가 수상하다</comb_aj>
+				<comb_aj type="appr">~가 의심스럽다</comb_aj>
+				<comb_n type="temp">~ 불명</comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 살피다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 감시하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 묻다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 모르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 알다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이제 당신의 ~를 분명히 밝힐 때가 되었습니다.</eg>
+				<eg>이번 계획의 성사 여부는 그들의 ~ 여하에 달려 있다.</eg>
+				<trans>one's course of action</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>의견</sem_class> <!--'인지상태'를 '의견'으로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 분명하다</comb_aj>
+				<comb_aj type="appr">~가 확실하다</comb_aj>
+				<comb_aj type="appr">~가 불분명하다</comb_aj>
+				<comb_aj type="appr">~가 모호하다</comb_aj>
+				<comb_n type="compound">향후의 ~</comb_n>
+				<comb_n type="compound">~의 결정</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 모르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 알다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 밝히다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 표명하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 결정하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 거취</max_n_str> 
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

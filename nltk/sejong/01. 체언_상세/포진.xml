@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>포진</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/23</cre_date>
+				<cre_writer>김미현</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/18</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/31</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2005/10/06</mod_date>
+                                <mod_writer>박만규</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+                        <mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/09/09(박동호).2002/10/11(김종명)선택제약정보수정</note>
+			<note>2003/05/06(서진숙)</note>
+			<note>2003/06/18(이성헌)</note>
+			<note>sel_res수정</note>
+			<note>syn추가, supv수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">布陳</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>장군은 병사들에게 적군 진영에 동그랗게 ~을 취하라고 명령을 내렸다.</eg>
+				<eg>미국은 전투기들을 이라크 주변에 ~을 시키고 정찰을 강화하였다.</eg>
+				<eg>사막에는 아군의 어마어마한 화력이 ~이 되어 있었다.</eg>
+				<eg>몇몇 대학이 학교 주요보직에 친인척을 ~을 시켜 운영권을 완전 장악하였다고 한다.</eg>
+				<eg>미드필드의 중앙에 두명의 선수를 ~을 시켜서 수비를 안정시켰다.</eg>
+				<eg>우리 회장 곁에는 쟁쟁한 전문 경영인들이 ~을 하고 있다.</eg>
+				<trans>lineup</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>배치</sem_class>
+				<lr>
+					<syn>포열</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 Z-에 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>X-이 Y-을 Z-에 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 Z-에 ~이 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~시키다-->
+				<!--vcompound: ~되다-->
+				<comb_v type="npred_vpred">
+						<form vcompound="no">~을 취하다</form>
+						<frame></frame>
+					</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|무기</sel_rst>
+				<sel_rst arg="Z">장소</sel_rst>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/23</cre_date>
+				<cre_writer>김미현</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/18</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/31</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2005/10/06</mod_date>
+                                <mod_writer>박만규</mod_writer>
+                                <mod_note>narg를 npred로 수정, vpred를 vsupvar로</mod_note>
+                        </mod>
+                        <mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/09/09(박동호)</note>
+			<note>2002/10/11(김종명)</note>
+			<note>2003/05/06(서진숙)</note>
+			<note>2003/06/18(이성헌)comb_v에 '나다|생기다'기재</note>
+			<note>domain추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">疱疹</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>누나는 한여름에 ~으로 병원에 다녔다.</eg>
+				<eg>입술에 ~이 생겨서 간지럽다.</eg>
+				<trans>skin disease</trans>
+				<trans>cutaneous disease</trans>
+				<domain>의학</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>질병및증세</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 증세</comb_n>
+				<comb_n type="compound">대상 ~</comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 생기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+						<form vcompound="no">~에 걸리다</form>
+						<frame></frame>
+					</comb_v>
+				<comb_v type="npred_vpred">
+						<form vcompound="no">~으로 판명되다</form>
+						<frame></frame>
+					</comb_v>
+				<comb_v type="npred_vpred">
+						<form vcompound="no">~을 치료하다</form>
+						<frame></frame>
+					</comb_v>
+				<comb_v type="npred_vpred">
+						<form vcompound="no">~이 낫다</form>
+						<frame></frame>
+					</comb_v>
+				<comb_v type="npred_vpred">
+						<form vcompound="no">~이 치유되다</form>
+						<frame></frame>
+					</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

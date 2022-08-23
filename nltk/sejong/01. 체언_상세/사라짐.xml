@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>사라짐</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/06/13</cre_date>
+				<cre_writer>안근종</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/31</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/27</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>nng_c로 수정하고 구조정보 수정, 의미부류 상태변화에서 소멸로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/12/07</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>맥스엔에 보문 정보 추가;논항 의미부류 정보 추가</mod_note>
+			</mod>
+			<note>2003/02/25(이호영)예문 기술</note>
+			<note>2003/03/31(박만규)의미부류 수정</note>
+			<note>대역어 오류 수정</note>
+			<note>의미부류 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="V_S">사라지+ㅁ</str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그의 갑작스러운 ~은 우리를 당황하게 하였다.</eg>
+				<trans>disappearance</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>소멸</sem_class>
+				<lr>
+					<syn type="etc">소멸</syn>
+					<syn type="etc">실종</syn>
+					<ant type="etc">출현</ant>
+					<ant type="etc">나타남</ant>
+					<hyper>과정</hyper>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str><!--김성용(2006/07/27)분명 서술성이 있어 보이는데 기능동사를 찾기 어렵다. 그래서 사라짐은 명사로 보기보다는 동사의 명사형으로 처리하는 것이 나을 것 같다.-->
+				<max_n_str>S것-의 ~</max_n_str>
+				<sel_rst arg="X">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

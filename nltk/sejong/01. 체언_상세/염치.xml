@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>염치</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/17</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/31</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/09</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>comb_v '~를 모르다' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>문형 분리</mod_note>
+				<mod_note>동사결합 타입 수정</mod_note>
+			</mod>
+			<note>2001/09/21(김종명)</note>
+			<note>합성어 추가</note>
+			<note>속담/격언 수정</note>
+			<note>기타유형 수정</note>
+			<note>반의어 입력</note>
+			<note>관련어 추가</note>
+			<note>형용사-자유구성 추가</note>
+			<note>동사-자유구성 수정</note>
+			<note>2003/01/26(남길임)</note>
+			<note>supv구성 추가</note>
+			<note>2003/01/31(김이정)의미부류 '감정'을 '태도'로 수정</note>
+			<note>comb_v'~을 차리다'재고 요망</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">廉恥</org>
+			<hom exist="yes"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~머리</comp>
+			<comp pos="n" type="prefix">몰~</comp>
+			<comp pos="a" type="suffix">~불구하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~ 없는 조 발막이다</idm>
+			<idm type="etc">~와 담을 쌓은 놈</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>도박으로 큰 빚을 진 그는 식구들을 볼 ~가 없었다.</eg>
+				<trans>sense of shame</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>외향적심리상태</sem_class>
+				<lr>
+					<syn type="etc">염우</syn>
+					<ant type="etc">몰염치</ant>
+					<rel>부끄러움</rel>
+					<rel>체면</rel>
+					<rel>파렴치</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 좋다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 차리다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="npred_vpred">
+					<form vcompound="no">~를 모르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 있다</form>
+					<frame>X-이 ~가 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 없다</form>
+					<frame>X-이 ~가 없다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

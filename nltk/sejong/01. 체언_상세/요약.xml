@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>요약</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/15</cre_date>
+				<cre_writer>한선혜</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/05</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/15</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+				<mod_note>comp '~보고서' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>명사결합 추가</mod_note>
+				<mod_note>복합어, 동사결합 수정</mod_note>
+			</mod>
+			<note>2003/01/13(유영) der추가, cl추가, sem수정, comb_v를 add로 이동</note>
+			<note>2003/02/05(이성헌)센스1의 sem을 '텍스트'에서 '텍스트의부분'으로 수정</note>
+			<note>센스2의 cl에 '번|차례|회'기재</note>
+			<note>센스2의 sem 수정</note>
+			<note>sel_res의 X,Y항 보완</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">要約</org>
+			<hom exist="yes"></hom>
+			<der pos="n" type="suffix">~적</der>
+			<comp pos="n" type="suffix">~문</comp>
+			<comp pos="n" type="suffix">~집</comp>
+			<comp pos="n" type="suffix">~본</comp>
+			<comp pos="n" type="suffix">~정리</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 논문에는 ~을 붙여야 합니다.</eg>
+				<trans>summary</trans>
+				<trans>condensed version</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>텍스트의부분</sem_class>
+				<lr>
+					<syn type="etc">개요</syn>
+					<ant type="etc">원문</ant>
+					<rel>글</rel>
+					<rel>논문</rel>
+					<rel>연설</rel>
+					<rel>이야기</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 짧다</comb_aj>
+				<comb_aj type="appr">~이 길다</comb_aj>
+				<comb_aj type="appr">~이 명료하다</comb_aj>
+				<comb_aj type="appr">~이 논리적이다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 붙이다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="narg_vpred">
+					<form vcompound="no">~을 쓰다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="narg_vpred">
+					<form vcompound="no">~을 읽다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="narg_vpred">
+					<form vcompound="no">~을 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">장</cl>
+				<cl type="uni">편</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N-의</pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>상황의 지나친 ~은 오해를 불러일으킬 수 있다.</eg>
+				<trans>summation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>추상적행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">상술</ant>
+					<coord>상술</coord>
+					<rel>사건</rel>
+					<rel>상황</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">줄거리 ~</comb_n>
+				<comb_n type="compound">논문 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 S다고 ~을 하다</frame>
+					<frame>X-이 Y-에대해 S다고 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 S다고 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-에의한 Y(-의) ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">생각|사실명제|텍스트|사건</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

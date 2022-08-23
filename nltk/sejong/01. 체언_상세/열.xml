@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>열</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/10/02</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/28</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/15</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1에 동사결합 정보 추가;단위표현 정보 추가;센스2의 의미부류 수정;동사결합, 논항명사구, 논항 의미정보, 단위표현 정보 추가;센스3의 의미부류 수정;동사결합, 논항 의미정보 추가;센스4의 의미부류 수정;동사결합, 논항 의미정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/05</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>복합어 수정</mod_note>
+			</mod>
+			<note>2000/10/08(김종명)</note>
+			<note>2001/01/31(고길수)</note>
+			<note>2003/03/23(류병률)</note>
+			<note>2003/03/28(김종명)</note>
+			<note>comb_v를 add의 값으로 변환</note>
+			<note>entry하위의 sense별 구분은 세미콜론 | 로</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">熱</org>
+			<hom exist="yes"/>
+			<comp pos="n" type="suffix">~가소성</comp>
+			<comp pos="n" type="suffix">~관리</comp>
+			<comp pos="n" type="suffix">~기관</comp>
+			<comp pos="n" type="suffix">~기구</comp>
+			<comp pos="n" type="suffix">~꽃</comp>
+			<comp pos="n" type="suffix">~량</comp>
+			<comp pos="n" type="suffix">~처리</comp>
+			<comp pos="n" type="prefix">기화~</comp>
+			<comp pos="n" type="prefix">태양~</comp>
+			<comp pos="v" type="suffix">~나다</comp>
+			<comp pos="v" type="suffix">~내다</comp>
+			<comp pos="a" type="suffix">~띠다</comp>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~이 삭다</idm>
+			<idm type="nv">~이 식다</idm>
+			<idm type="nv">~(이) 오르다</idm>
+			<idm type="nv">~이 올랐다 내렸다 하다</idm>
+			<idm type="nv">~(을) 받다</idm>
+			<idm type="nv">~(을) 올리다</idm>
+			<idm type="nv">~(을) 내다</idm>
+			<idm type="nv">~에 뜨다</idm>
+			<idm type="nv">~에 받히다</idm>
+			<idm type="etc">~이 상투 끝까지 오르다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~을 가해 물을 끓였다.</eg>
+				<trans>heat</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>물리학적대상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>물리학적대상</hyper>
+					<rel>온도</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 높다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 가하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 식다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 발생하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="qnt">도</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그의 몸에서는 굉장한 ~이 났다.</eg>
+				<trans>heatfever heat</trans>
+				<domain>의학</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>질병및증세</sem_class>
+				<!-- 질병및증상 수정 -->
+				<lr>
+					<syn type="etc">신열</syn>
+					<ant type="temp"></ant>
+					<hyper>질병</hyper>
+					<coord>땀</coord>
+					<coord>오한</coord>
+					<rel>체온</rel>
+					<rel>병</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 높다</comb_aj>
+				<comb_aj type="magn">~이 많다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 있다</form>
+					<frame>X-이 Y-이 ~이 있다</frame>
+					<frame>X-이 Y-에 ~이 있다</frame>
+					<frame>X-이 ~이 있다</frame>
+					<frame>Y-이 ~이 있다</frame>
+					<frame>Y-에 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 없다</form>
+					<frame>X-이 Y-이 ~이 없다</frame>
+					<frame>X-이 Y-에 ~이 없다</frame>
+					<frame>X-이 ~이 없다</frame>
+					<frame>Y-이 ~이 없다</frame>
+					<frame>Y-에 ~이 없다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 나다</form>
+					<frame>X-이 Y-이 ~이 나다</frame>
+					<frame>X-이 Y-에 ~이 나다</frame>
+					<frame>X-이 ~이 나다</frame>
+					<frame>Y-이 ~이 나다</frame>
+					<frame>Y-에 ~이 나다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 내리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|짐승</sel_rst>
+				<sel_rst arg="Y">신체부위</sel_rst>
+				<cl type="qnt">도</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>그는 ~을 내며 일에 달려들었다.</eg>
+				<trans>enthousiasm</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>외향적심리행위</sem_class>
+				<!-- 태도 수정 -->
+				<lr>
+					<syn type="etc">열성</syn>
+					<syn type="etc">열의</syn>
+					<ant type="etc">냉담</ant>
+					<hyper>태도</hyper>
+					<rel>감정</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="yes">~을 내다</form>
+					<frame>X-이 Y-에 ~을 내다</frame>
+					<frame>X-이 Y-에대해 ~을 내다</frame>
+					<frame>X-이 S는것-에 ~을 내다</frame>
+					<frame>X-이 S는것-에대해 ~을 내다</frame>
+					<frame>X-이 S는데-에 ~을 내다</frame>
+					<frame>X-이 S는데-에대해 ~을 내다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="yes">~을 다하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="4">
+			<sem_grp>
+				<eg>나의 말에 그는 ~을 내며 달려들었다.</eg>
+				<trans>fever</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>외향적심리행위</sem_class>
+				<!-- 감정 수정 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>감정</hyper>
+					<rel>화</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="yes">~을 내다</form>
+					<frame>X-이 Y-에 ~을 내다</frame>
+					<frame>X-이 Y-에대해 ~을 내다</frame>
+					<frame>X-이 S는것-에 ~을 내다</frame>
+					<frame>X-이 S는것-에대해 ~을 내다</frame>
+					<frame>X-이 S는데-에 ~을 내다</frame>
+					<frame>X-이 S는데-에대해 ~을 내다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="yes">~이 오르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="yes">~이 받다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="yes">~이 식히다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/10/02</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/28</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/15</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>예문 수정;동사결합 추가;한정사 제약 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/07</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정 없음</mod_note>
+			</mod>
+			<note>2000/10/08(김종명)</note>
+			<note>2001/01/31(고길수)</note>
+			<note>2003/03/23(류병률)</note>
+			<note>2003/03/28(김종명)</note>
+			<note>comb_v를 add의 값으로 변환</note>
+			<note>entry하위의 sense별 구분은 세미콜론 | 로</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">列</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~병식</comp>
+			<comp pos="n" type="suffix">~차</comp>
+			<comp pos="n" type="prefix">오~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc">~중셧!</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>병사들은 연병장에서 오와 ~을 맞춰 섰다.</eg>
+				<trans>rowline</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">오</ant>
+					<hyper>부분</hyper>
+					<coord>오</coord>
+					<holo>줄</holo>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 길다</comb_aj>
+				<comb_aj type="appr">~이 짧다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 맞추다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 짓다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<!--- 이, 그, 저 삭제 -->
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

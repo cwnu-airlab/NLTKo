@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>관계없다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/04/09</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/26</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>형태정보, 격틀, 의미 조정</mod_note>
+			</mod>
+			<note>2003/04/09(김현권)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">관계가 없다</var>
+			<str>NA</str>
+			<org lg="si">關係_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>관계속성값</sem_class>
+				<trans>be irrelevant</trans>
+			</sem_grp>
+			<frame_grp type="FA" cor="sym" n="01">
+				<frame>X=N0-이 Y=N1-와 (서로) A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="COM">온</sel_rst>
+					<eg>그녀는 나와 관계없으니 신경쓰지 말아라.</eg>
+					<eg>헌혈은 건강과 관계없다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="COM">S것</sel_rst>
+					<eg>나는 그 사람이 그러는 것과 관계없다.</eg>
+					<eg>건강은 헌혈하는 것과 관계없다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<sel_rst arg="Y" tht="COM">인간|추상적대상</sel_rst>
+					<eg>그 사람이 그러는 것은 나와 관계없다.</eg>
+					<eg>헌혈하는 것은 건강과 관계없다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA" cor="sym" n="01">
+				<frame>X+Y=N0-이 (서로) A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<eg>그녀와 나는 관계없으니 신경쓰지 말아라.</eg>
+					<eg>헌혈과 건강은 관계없다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것</sel_rst>
+					<eg>나와 그 사람이 그러는 것은 관계없다.</eg>
+					<eg>건강과 헌혈하는 것은 관계없다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|추상적대상</sel_rst>
+					<eg>그 사람이 그러는 것과 나는 관계없다.</eg>
+					<eg>헌혈하는 것과 건강은 관계없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

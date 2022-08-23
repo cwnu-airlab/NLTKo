@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>결말짓다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/28</cre_date>
+				<cre_writer>곽새라</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/15</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/09/09</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>형태정보, 의미정보 추가</mod_note>
+				<mod_note>격틀 조정</mod_note>
+				<mod_note>센스를 둘로 구분</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">결말을 짓다</var>
+			<str>NV</str>
+			<org lg="si">結末_</org>
+			<infl type="s"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>종료행위</sem_class>
+				<trans>put an end to</trans>
+				<lr>
+					<syn type="perfect">결론짓다</syn>
+					<hyper>끝내다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-에대해|을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">행위|추상적대상</sel_rst>
+					<eg>그들은 악수로서 그 논쟁을 결말지었다.</eg>
+					<eg>김 과장은 신속하게 일을 결말지었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">Q</sel_rst>
+					<eg>그들은 언제 그 일을 끝낼지를 결말지었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>종료행위</sem_class>
+				<trans>put an end to</trans>
+				<lr>
+					<syn type="perfect">결론짓다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-에대해|을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<sel_rst arg="Z" tht="FNS">온</sel_rst>
+					<eg>그들은 그 사건을 그런 쪽으로 결말지었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<sel_rst arg="Y" tht="FNS">S기|S것</sel_rst>
+					<eg>그들은 협회를 안 만들기로 결말지었다.</eg>
+					<eg>그들은 협회를 안 만드는 것으로 결말지었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

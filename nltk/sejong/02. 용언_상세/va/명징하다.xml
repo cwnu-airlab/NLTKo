@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>명징하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/23</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+			  	<mod_date>2005/09/10</mod_date>
+				<mod_writer>박보연</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<org lg="si">明澄_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be clear</trans>
+				<trans>lucid</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|인간집단|추상적대상(논리|생각)|행위(행동)</sel_rst>
+					<eg>그 시인의 시어는 가볍고 명징하며 일정한 리듬의 효과를 가지고 있다.</eg>
+					<eg>그 철학자의 결론은 늘 명징하고 압축적이다.</eg>
+					<eg>그 학생은 늘 논문의 내용이 명징하지 못하고 난삽하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">텍스트담지물|추상적대상(논리|내용)</sel_rst>
+					<eg>나는 그 질문에 대한 구체적이고 명징한 답을 가지고 있지 않아서 매우 당황했다.</eg>
+					<eg>그 논문은 주장하는 내용이 명징하지도 않고 구체적이지도 않다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

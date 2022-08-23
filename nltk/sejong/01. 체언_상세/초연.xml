@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>초연</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/20</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>2002/08/22(김이정)</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2002/09/07</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>supv 구문들 분리 기재</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2002/10/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<!-- 작성일과 수정일이 원파일에는 2002년으로 되어 있으나, 변환된 파일에는 2003으로 표기되어 있었음 -->
+			<mod>
+				<mod_date>2004/09/01</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>형태정보 추가;논항 명사구 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/02/23</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/07</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">初演</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 작품은 브로드웨이에서 ~이 되었다.</eg>
+				<trans>first (public) performance</trans>
+				<trans>first (public) showing</trans>
+				<trans>one's debut on the stage</trans>
+				<sem_class>공연</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form> <!-- 형태정보 추가 -->
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form> <!-- 형태정보 추가 -->
+					<frame>Y-이 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str> <!-- 추가함 -->
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">음악|무용|문학작품|음악작품|공연</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/20</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>2002/08/22(김이정) 의미부류 확인 요망</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2002/09/07</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>2002/09/07(이성헌)sem을 '구체물의부분'에서 '기체'로 수정;궁극적으로는 '연기|김|포연'등을 다른 기체와 구별하는 부류 설정 건의;이와 함께 '불|화염'등도 설정요망</mod_note>
+			</mod>
+			<!-- 작성일과 수정일이 원파일에는 2002년으로 되어 있으나, 변환된 파일에는 2003으로 표기되어 있었음 -->
+			<mod>
+				<mod_date>2004/09/01</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미부류 수정;형용사결합 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>n_v 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/02/23</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/07</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">硝煙</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>마을에는 아직도 ~이 자욱하다.</eg>
+				<trans>gunsmoke</trans>
+				<trans>smoke of battle</trans>
+				<sem_class>연기</sem_class> <!-- 기체 수정 -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 자욱하다</comb_aj> <!-- 추가함 -->
+				<comb_aj type="appr">~이 짙다</comb_aj> <!-- 추가함 -->
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 그을다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

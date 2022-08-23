@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>날아오다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/26</mod_date>
+				<mod_writer>김윤신</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>V-어V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>도착</sem_class>
+				<trans>fly into</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=N2-에서 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(먼지|휴지|풍선|돌멩이|책)</sel_rst>
+					<sel_rst arg="Y" tht="DIR">장소</sel_rst>
+					<sel_rst arg="Z" tht="SRC">장소</sel_rst>
+					<eg>풍선이 누나 방에서 내 방으로 날아왔다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(총알|포탄|미사일)</sel_rst>
+					<sel_rst arg="Y" tht="DIR">장소</sel_rst>
+					<sel_rst arg="Z" tht="SRC">장소</sel_rst>
+					<eg>주한 미군이 쏜 총알이 사격장에서 민가로 날아왔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>도착</sem_class>
+				<trans>fly into</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 W=S3-러 Z=N2-에서 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">동물(새|곤충)|인간|공중교통기관(비행기)|(미사일|포탄)</sel_rst>
+					<sel_rst arg="Y" tht="DIR">장소</sel_rst>
+					<sel_rst arg="Z" tht="SRC">장소</sel_rst>
+					<sel_rst arg="W" tht="PUR"/>
+					<eg>강남 갔던 제비가 새끼를 낳으러 강남에서 우리 나라로 날아온다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=S2-러 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">동물(새|곤충)|인간|공중교통기관(비행기)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<sel_rst arg="Z" tht="PUR"/>
+					<eg>그 전령은 급한 소식을 알리러 바다를 날아왔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/26</mod_date>
+				<mod_writer>김윤신</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>V-어V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>도착</sem_class>
+				<trans>be carried</trans>
+			</sem_grp>
+			<frame_grp type="SIN">
+				<frame>Y=N2-에게서|에서 X=S1-고 Npr0-이 V</frame>
+				<subsense>
+					<sel_rst arg="Npr0">(소식|연락|전갈|기별|부음)</sel_rst>
+					<sel_rst arg="X" tht="CNT"></sel_rst>
+					<sel_rst arg="Y" tht="SRC">인간|인간집단</sel_rst>
+					<eg>독일에서 큰딸이 박사학위를 받았다는 소식이 날아왔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>조사되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/03</cre_date>
+				<cre_writer>조원형</cre_writer>
+				<cre_writer>권재일</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>0000/00/00</mod_date>
+				<mod_writer>임동식</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<org lg="si">調査_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>be investigate</trans>
+				<trans>be researched</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에의해 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|동물|장소|구체물|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="AGT">인간|인간집단(경찰|당국)</sel_rst>
+					<eg>현재 많은 학자들에 의해 전국 각 지역의 방언이 조사되고 있다.</eg>
+					<eg>그 원숭이의 행동은 보통 원숭이들보다 좀더 발달한 형태라는 이유로 동물학자 여러 명에 의해 여러 날 동안 조사되었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>be investigate</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에의해 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|장소|추상적대상(현장|배후)|(원인)</sel_rst>
+					<sel_rst arg="Y" tht="AGT">인간|인간집단(경찰|당국)</sel_rst>
+					<eg>경찰에 의해 그 사건의 배후가 조사되었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

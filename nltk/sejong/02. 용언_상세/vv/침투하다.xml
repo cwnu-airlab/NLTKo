@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>침투하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/14</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/09/22</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">浸透_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>infiltrate</trans>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-에|을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="GOL">장소</sel_rst>
+					<eg>무장 간첩들이 야밤을 틈타 동해안을 침투했다.</eg>
+					<eg>특공대들은 안전하게 작전 지역으로 침투해 들어갔다.</eg>
+					<eg>해커가 우리 연구소 컴퓨터 시스템에 침투해 자료를 빼갔다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">교통기관(비행기|잠수함)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">장소</sel_rst>
+					<eg>적 비행기 한 대가 우리 영공에 침투하자, 아군 비행기들이 곧바로 출격해 추적했다.</eg>
+					<eg>동해안에 침투하다 좌초된 잠수함의 침투 목적은 무엇일까?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>be attacked by</trans>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-에|을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(세균|바이러스|방사능)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">(환부|컴퓨터시스템|몸)</sel_rst>
+					<eg>악질 컴퓨터 바이러스가 이메일을 통해 시스템에 침투하였다.</eg>
+					<eg>이 옷은 방사능이 우리 몸에 침투하는 것을 막아 준다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>percolate</trans>
+				<trans>permeate</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">액체(물|기름)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">장소(벽|바닥)</sel_rst>
+					<eg>물이 벽속까지 침투해서 무너질 위험이 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>spread</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">제도|인지상태|사실명제|기호체계|규범|종교|학문과목|예술|산업|역사|분야</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간집단</sel_rst>
+					<eg>일제 시대 동안 일본어는 자연스럽게 우리 민족의 삶 속에 깊이 침투하였다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

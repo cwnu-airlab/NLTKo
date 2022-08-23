@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>횡대</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/16</cre_date>
+				<cre_writer>서진숙</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>서진숙</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/01</mod_date>
+				<mod_writer>박만규</mod_writer>
+	            <mod_note>수정보완된정보없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/04/01</mod_date>
+				<mod_writer>김천학</mod_writer>
+				<mod_note>n_v type 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>백고운</mod_writer>
+	            <mod_note>합성어,동사결합 추가기술,</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">橫隊</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="prefix">일렬~</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>눈 위로 열 명의 병사들이 2열 ~로 서서 구보하며 갔다.</eg>
+				<trans>rank</trans>
+				<trans>line</trans>
+				<trans>line abreast</trans>
+				<sem_class>모양</sem_class>
+				<lr>
+					<ant>종대</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 짓다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 서다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 정렬하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 앉다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 늘어서다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>일반</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/16</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/28</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/10</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<note>2001/09/21(송근영|이성헌)</note>
+			<note>2003/02/24(김이정)센스1 의미부류 '추상적대상(범위)'를 '범주'로 수정, 확인요망</note>
+			<note>센스1과2 comb_v add로 이동</note>
+			<note>센스2 의미부류 '인물'을 '인간집단'으로 수정</note>
+			<note>센스2 uni 삭제(집합명사이므로)</note>
+			<note>comb_n의 '~을 대상(으로 하다)'를 add로 이동</note>
+			<note>2003/02/26(남길임)</note>
+			<note>2003/02/28(김이정)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">一般</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~가</der>
+			<der pos="n" type="suffix">~론</der>
+			<der pos="n" type="suffix">~성</der>
+			<der pos="n" type="suffix">~인</der>
+			<der pos="n" type="suffix">~화</der>
+			<der pos="n" type="suffix">~직</der>
+			<comp pos="n" type="suffix">~객</comp>
+			<comp pos="n" type="suffix">~각</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="da">~이다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 목사는 교회 일뿐 아니라 마을 주민의 생활 ~까지도 돌보고 있다.</eg>
+				<eg>대학은 전문지식 뿐만 아니라 교양 ~에 관한 교육도 책임져야 한다.</eg>
+				<trans>general</trans>
+				<trans>total</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>범주</sem_class>
+				<lr>
+					<syn type="etc">전체</syn>
+					<syn type="etc">보편</syn>
+					<ant type="etc">부분</ant>
+					<ant type="etc">특수</ant>
+					<ant type="etc">전문</ant>
+					<hyper>범위</hyper>
+					<hyper>영역</hyper>
+					<coord>전체</coord>
+					<coord>일반</coord>
+					<coord>부분</coord>
+					<coord>이상</coord>
+					<coord>이하</coord>
+					<coord>이외</coord>
+					<coord>이내</coord>
+					<rel>교양</rel>
+					<rel>지식</rel>
+					<rel>분야</rel>
+					<rel>기술</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 생활</comb_n>
+				<comb_n type="compound">~ 교육</comb_n>
+				<comb_n type="compound">~ 상식</comb_n>
+				<comb_n type="compound">~ 이론</comb_n>
+				<comb_n type="compound">생활 ~</comb_n>
+				<comb_n type="compound">교육 ~</comb_n>
+				<comb_n type="compound">교양 ~</comb_n>
+				<comb_n type="compound">지식 ~</comb_n>
+				<comb_n type="compound">문화 ~</comb_n>
+				<comb_n type="compound">기술(-의) ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 이르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 다루다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 돌보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 관장하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이 회사가 개발한 신세대 자동차는 기업과 전문가를 대상으로 하는 시사회 이후 ~에게 공개된다.</eg>
+				<trans>common people</trans>
+				<trans>public</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>인간집단</sem_class>
+				<lr>
+					<syn type="etc">일반인</syn>
+					<syn type="etc">대중</syn>
+					<syn type="etc">비전문가</syn>
+					<ant type="etc">전문가</ant>
+					<ant type="etc">관계자</ant>
+					<hyper>속성인간</hyper>
+					<coord>전문가</coord>
+					<coord>비전문가</coord>
+					<coord>대중</coord>
+					<coord>군중</coord>
+					<coord>관계자</coord>
+					<coord>외부인</coord>
+					<rel>전람회</rel>
+					<rel>시사회</rel>
+					<rel>문화행사</rel>
+					<rel>개방</rel>
+					<rel>공개</rel>
+					<rel>비공개</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~의 반응</comb_n>
+				<comb_n type="compound">~의 요구</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에게 공개되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에게 개방되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 대상으로 하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

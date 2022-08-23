@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>지글대다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/03</cre_date>
+				<cre_writer>김현권</cre_writer>
+				<cre_writer>조현경</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/09/11</mod_date>
+				<mod_writer>조원형</mod_writer>
+				<mod_note>정보확장</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc">지글거리다</var>
+			<cntr opt="obl" type="ai"/>
+			<str>I.대</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>sizzle</trans>
+				<trans>frizzle</trans>
+				<trans>simmer</trans>
+				<trans>bubble up</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">액체(기름)|요리(찌게|탕|국)</sel_rst>
+					<eg>부엌에서 찌게가 지글대며 끓고 있는데도 아무도 관심을 기울이지 않았다.</eg>
+					<eg>겨울에는 지글대는 오뎅탕을 먹는 재미가 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="etc"></col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>feel hot</trans>
+				<trans>warm</trans>
+				<trans>burn</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">신체부위(몸)</sel_rst>
+					<eg>한겨울이지만 몸이 지글댈 정도로 철수는 앓아누웠다.</eg>
+					<eg>민철이는 몸살이 심해지자 온 몸이 지글대고 신음소리를 냈다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="etc"></col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>be anxious</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">사태(분노|격노|울화|조바심)</sel_rst>
+					<eg>차사고를 내고도 큰 소리를 치는 가해자를 보니 운전사는 분노가 지글댔다.</eg>
+					<eg>우리 아빠는 분노가 지글댈 때는 담배를 피우신다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="etc"></col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+	</entry>
+</superEntry>

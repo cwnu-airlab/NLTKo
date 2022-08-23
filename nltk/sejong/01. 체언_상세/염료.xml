@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>염료</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/05</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/23</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/20</mod_date>
+				<mod_writer>송근영</mod_writer>				
+				<mod_note>부적절한 comp 정보 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어, 동의어, 명사결합, 동사결합 추가</mod_note>
+				<mod_note>복합어 수정</mod_note>
+			</mod>
+			<note>2002/08/06(김현승)원어정보 'si(染料)' 입력요망</note>
+			<note>2002/08/25(고길수)add 정보 수정, 복합어는 띄어쓰기가 가능해도 항상 붙여서 표기해둠</note>
+			<note>의미부류를 '재료|성분'에서 '칠감'으로 수정, 전자 부류에는 '재료, 원료, 성분' 등과 같은 명사만 포함, 그 이외 실제 대상물을 지칭하는 명사는 모두 구체자연물 아니며 구체인공물로 분류함</note>
+			<note>단위표현 추가</note>
+			<note>형용사자유구성 정보 수정</note>
+			<note>add 정보 추가</note>
+			<note>'염류(鹽類)'는 표제어에서 삭제</note>
+			<note>2002/10/04(이성헌)</note>
+			<note>2003/09/07(한동훈)</note>
+			<note>2003/09/23(김미현)</note>
+			<add>명사구로 'X(색) ~'이 가능</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">染料</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~식물</comp>
+			<comp pos="n" type="suffix">~작물</comp>
+			<comp pos="n" type="prefix">인조~</comp>
+			<comp pos="n" type="prefix">천연~</comp>
+			<comp pos="n" type="prefix">합성~</comp>
+			<comp pos="n" type="prefix">형광~</comp>
+			<comp pos="n" type="prefix">식물성~</comp>
+			<comp pos="n" type="prefix">동물성~</comp>
+			<comp pos="n" type="prefix">식물~</comp>
+			<comp pos="n" type="prefix">동물~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>전통 염색 방식에서는 천연 재료로 ~를 쓴다.</eg>
+				<trans>dye</trans>
+				<trans>dyestuff</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>칠감</sem_class>
+				<lr>
+					<syn type="etc">물감</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 짙다</comb_aj>
+				<comb_aj type="appr">~가 밝다</comb_aj>
+				<comb_aj type="appr">~가 옅다</comb_aj>
+				<comb_aj type="appr">~가 다양하다</comb_aj>
+				<comb_n type="compound">~ 공업</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 쓰다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사용하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 이용하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

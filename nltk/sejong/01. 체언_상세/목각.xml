@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>목각</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/18</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/18</mod_date>
+				<mod_writer>류희선</mod_writer>
+				<mod_note>의미부류검토요망(구체인공물로 해야 하는지..?)</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/10</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>sense분할, sense2의 동사부류 검토 요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 분류사 기술, 센스1 의미부류 '미술작품'을 '조소'로 수정, 센스2 의미부류 '창조행위'를 '지속적활동'으로 수정, 센스2 예문과 n_v 추가, 센스2 선택제약 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">木刻</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리 거실에는 ~의 장식품들이 진열되어 있다.</eg>
+				<eg>푸저우의 특산물로는 해삼,전복 등 해산물과 함께 표고버섯,칠기와 ~, 자스민차 등을 꼽을 수 있다.</eg>
+				<trans>wood carving</trans>
+				<sem_class>조소</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<cl type="uni">개</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그녀는 그림을 그릴 때보다 ~을 할 때가 마음이 더 편했다.</eg>
+				<eg>이번 시간에는 ~을 배우겠습니다.</eg>
+				<eg>덕수궁 중화전에는 쌍룡이 ~이 되어 있다.</eg>
+				<trans>wood carving</trans>
+				<sem_class>지속적활동</sem_class><!--단독행위로 하는 게 더 좋을지?(서)-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form><!--추가(김)-->
+					<frame>Y-이 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 배우다</form>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">구체물</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

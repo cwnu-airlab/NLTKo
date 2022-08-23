@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>불량하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/15</mod_date>
+				<mod_writer>강정연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>불량.하</str>
+			<org lg="si">不良_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be bad</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(성격|마음)|(행실|행동|품행)|인간</sel_rst>
+					<eg>저 남자는 우리 동네에서 제일 미남이지만 성격이 불량하니 조심해야 합니다.</eg>
+					<eg>그 집 아들은 행실이불량하다.</eg>
+					<eg>불량한 친구와 가까이 하지 마라.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(자세|말씨)</sel_rst>
+					<eg>이 반 아이들은 학습자세가 불량하다.</eg>
+					<eg>저 아이는 말씨가 아주 불량하구나.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(성적)</sel_rst>
+					<eg>방과 후 수미는 성적이 불량한 아이들을 따로 모아 공부를 가르쳤다.</eg>
+					<eg>이 아이는 성적이 불량해서 대학에 가기 어렵겠다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(품질|상태|환경)</sel_rst>
+					<eg>이 회사에서만든 정수기는 품질이 불량해서 곧잘 반품이 되곤 하다.</eg>
+					<eg>그 식당의 위생 상태는 극히 불량하다.</eg>
+					<eg>우리 동네는주거 환경이 불량해서 집값이 오르지 않는다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

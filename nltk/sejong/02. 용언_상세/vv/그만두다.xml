@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>그만두다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/09/04</mod_date>
+				<mod_writer>김선영</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="u"/>
+			<str>DV</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>중단행위</sem_class>
+				<trans>quit</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">행위(사업|직장|학업)</sel_rst>
+					<eg>그는 직장을 그만두고 쉬었다.</eg>
+					<eg>지병으로 지금껏 해오던 건축사업을 그만두었다.</eg>
+					<eg>그 일을 이제와서 그만두려고 하다니 한심하구나.</eg>
+					<eg>빚 때문에 10년째 열심히 가꿔오던 농장을 그만두자 병석에 드러누웠다.</eg>
+					<eg>옷 가게를 그만두고 노래방을 차릴까?</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S는것|S기</sel_rst>
+					<eg>불황으로 조그만 회사를 운영하는 것을 그만두고 말았다.</eg>
+					<eg>집 안에서 음악 듣기를 그만두고 밖으로 나왔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>중단행위</sem_class>
+				<trans>quit</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=S1-다가 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">행위</sel_rst>
+					<eg>책을 읽으려다가 그만두었어요.</eg>
+					<eg>찾아뵐까 하다가 그만두었어요.</eg>
+					<eg>노래방을 운영하다가 지난 여름에 그만두었어요.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

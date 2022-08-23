@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>연금술</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/03/22</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/08</mod_date>
+				<mod_writer>김현승</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/20</mod_date>
+				<mod_writer>송근영</mod_writer>				
+				<mod_note>comp 기술</mod_note>
+				<mod_note>nng_c로 고치고 str 기술</mod_note>
+				<mod_note>의미부류 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/04</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/04/16(고길수)원어정보 추가</note>
+			<note>예문 수정</note>
+			<note>의미부류를 방법에서 학문|과목으로 수정</note>
+			<note>부사적 용법의 '~로'는 부적절할 듯</note>
+			<note>'~을 배우다|가르치다'등은 동사연어구성의 정보 내용이 아님</note>
+			<note>2002/08/02(이성헌)의미부류 '학문|과목'을 다시 '방법'으로 환원수정</note>
+			<note>2003/10/08(김현승)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_R">연금+술</str>
+			<org lg="si">鍊金術</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~사</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>고대의 ~은 현대의 화학으로 계승되었다.</eg>
+				<trans>alchemy</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>기술</sem_class><!--'방법'을 '기술'로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 복잡하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

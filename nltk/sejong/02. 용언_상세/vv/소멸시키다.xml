@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>소멸시키다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/30</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/30</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/10/20</mod_date>
+				<mod_writer>음두은</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">소멸을 시키다</var>
+			<str>N.시</str>
+			<org lg="si">消滅__</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>사동적행위</sem_class>
+				<trans>sweep away</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단|생물</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체자연물</sel_rst>
+					<eg>기영이는 밭에 있는 나쁜 벌레들을 소멸시키기 위해서 약을 뿌렸다.</eg>
+					<eg>지구에 살면서 산소에 노출돼 있는 생물은 모두가 이 활성산소를 소멸시키는 능력을 지니고 있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간집단</sel_rst>
+					<eg>큰 비용없이 수맥파를 소멸시킬 수 있는 방법이 있습니다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상</sel_rst>
+					<eg>그 나라의 영향력을 소멸시키기 위해서 국내에서는 민족주의 운동이 벌어지고 있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상</sel_rst>
+					<eg>경기의 침체가 소비심리를 많이 소멸시키고 있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">S것|S음</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상</sel_rst>
+					<eg>경기가 석달 전부터 침체하고 있는 것이 소비심리를 많이 소멸시키고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

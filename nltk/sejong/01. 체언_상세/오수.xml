@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>오수</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/15</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/07</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/22</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 syn, n_v,comp 에 기술 및 정보 추가</mod_note>
+				<mod_note>n_n 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>명사결합 추가</mod_note>
+			</mod>
+			<note>2002/08/31(고길수)add에 동의어 추가, 합성어 정보에서 '~처리|처리시설' 삭제</note>
+			<note>2002/10/11(이성헌)</note>
+			<note>2003/09/09(류희선)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">汚水</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~에서 역한 냄새가 난다.</eg>
+				<eg>하수도에서 ~가 쏟아져 나왔다.</eg>
+				<trans>dirty water</trans>
+				<trans>waste water</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>액체</sem_class> <!--폐기물도 가능(송근영)-->
+				<lr>
+					<syn type="kor">구정물</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 더럽다</comb_aj>
+				<comb_aj type="appr">~가 많다</comb_aj>
+				<comb_aj type="appr">~가 적다</comb_aj>
+				<comb_aj type="appr">~가 새까맣다</comb_aj>
+				<comb_n type="compound">~ 처리</comb_n>
+				<comb_n type="compound">~ 처리장</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 흐르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 처리하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 버리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 배출하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 정화하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/15</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/07</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/22</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_v에 기술 및 필요시 격틀정보 기술</mod_note>
+				<mod_note>sel_res 기술</mod_note>
+				<mod_note>syn 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정 없음</mod_note>
+			</mod>
+			<note>2002/08/31(고길수)</note>
+			<note>2002/10/11(이성헌)cl에 '차례|회'추가</note>
+			<note>2003/09/09(류희선)사전종류수정</note>
+			<note>의미부류수정(지속적행위에서..지속적..활동으로)</note>
+			<add>동사결합구조로 '~를 즐기다</add>
+			<add>~에 빠지다|잠기다|취하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">午睡</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 날마다 ~를 즐긴다.</eg>
+				<eg>그는 피곤하여 ~에 빠졌다.</eg>
+				<trans>nap</trans>
+				<trans>siesta</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>지속적활동</sem_class>
+				<lr>
+					<syn type="kor">낮잠</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 취하다</form>
+					<frame>X-이 ~를 취하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~에 빠지다</form>
+					<frame>X-이 ~에 빠지다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~에 잠기다</form>
+					<frame>X-이 ~에 잠기다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 즐기다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

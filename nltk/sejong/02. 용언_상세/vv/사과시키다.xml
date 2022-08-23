@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>사과시키다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/01</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/01</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>음두은</mod_writer>
+				<mod_note>frame, subsense 추가, sense2 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">사과를 시키다</var>
+			<str>N.시</str>
+			<org lg="si">謝過_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>사동적행위</sem_class>
+				<trans>make</trans>
+				<trans>offer an apology</trans>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-에게|을 Z=N2-에대해 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간</sel_rst>
+					<sel_rst arg="Z" tht="THM">추상적대상</sel_rst>
+					<eg>김교수는 수진이를 그녀가 저지른 실수에 대해 사과시켰다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간</sel_rst>
+					<sel_rst arg="Z" tht="THM">S것|S음|S데</sel_rst>
+					<eg>김교수는 수진이에게 어제 실수한 것에 대해 사과시켰다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-에게 Z=N2-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간</sel_rst>
+					<sel_rst arg="Z" tht="THM">추상적대상</sel_rst>
+					<eg>김교수는 수진이에게 어제 저지른 실수를 사과시켰다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간</sel_rst>
+					<sel_rst arg="Z" tht="THM">S것|S음</sel_rst>
+					<eg>김교수는 수진이에게 어제 그녀가 막말 한것을 사과시켰다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+			<frame>X=N0-이 Y=N1-을 Z=N2-에게 W=N3-에대해 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간</sel_rst>
+					<sel_rst arg="W" tht="THM">추상적대상</sel_rst>
+					<eg>김교수는 박선생에게 수진이를 어제한 실수에 대해 사과시켰다.</eg>
+					<eg>정 후보는 이의원에게 대변인을 사과시키고 즉각 회담을 재개해 조속한 합의 도출을 모색한다는 방침을 세웠다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간</sel_rst>
+					<sel_rst arg="W" tht="THM">S음|S것|S데</sel_rst>
+					<eg>김교수는 정희를 그녀가 어제 지나치게 당돌했음에 대해 박선생에게 사과시켰다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

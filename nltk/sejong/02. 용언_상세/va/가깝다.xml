@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>가깝다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/04/09</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>김건희</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/08/06</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>A</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>관계속성값</sem_class>
+				<trans>be close</trans>
+				<trans>be near</trans>
+				<lr>
+					<ant type="grad">멀다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(거리)</sel_rst>
+					<eg>포항와 울산 사이의 거리는 가깝다.</eg>
+					<eg>두 곳의 거리가 서로 가깝다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA" cor="sym" n="01">
+				<frame>X=N0-이 Y=N1-와 (서로) A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소</sel_rst>
+					<sel_rst arg="Y" tht="COM">장소</sel_rst>
+					<eg>포항은 울산과 서로 가깝다.</eg>
+					<eg>국회의사당은 63빌딩과 서로 가깝다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA" cor="sym" n="01">
+				<frame>X+Y=N0-이 (서로) A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소</sel_rst>
+					<sel_rst arg="Y" tht="THM">장소</sel_rst>
+					<eg>포항과 울산은 서로 가깝다.</eg>
+					<eg>국회의사당과 63빌딩은 서로 가깝다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>관계속성값</sem_class>
+				<trans>be close</trans>
+				<trans>be near</trans>
+				<lr>
+					<syn type="sino">밀접하다</syn>
+					<syn type="sino">친근하다</syn>
+					<ant type="grad">멀다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(관계|사이)</sel_rst>
+					<eg>나와 아버지의 사이가 아주 가깝다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA" cor="sym" n="02">
+				<frame>X=N0-이 Y=N1-와 (서로) A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="COM">인간|인간집단</sel_rst>
+					<eg>영희는 철수와 가깝다.</eg>
+					<eg>나는 특히 아버지와 서로 가깝다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA" cor="sym" n="02">
+				<frame>X+Y=N0-이 (서로) A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|인간집단</sel_rst>
+					<eg>영희와 철수는 서로 가깝다.</eg>
+					<eg>나와 아버지는 특히 서로 가깝다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>관계속성값</sem_class>
+				<trans>be near</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-에서 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물|장소</sel_rst>
+					<sel_rst arg="Y" tht="SRC">구체물|장소</sel_rst>
+					<eg>교회는 국회의사당에서 가깝다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>관계속성값</sem_class>
+				<trans>be close</trans>
+				<trans>be near</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-에 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">온</sel_rst>
+					<sel_rst arg="Y" tht="CRT">온</sel_rst>
+					<eg>그의 재주는 신기에 가깝다.</eg>
+					<eg>그녀의 목소리는 비명에 가깝다.</eg>
+					<eg>그 차는 이제 고물에 가깝다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것|S기</sel_rst>
+					<sel_rst arg="Y" tht="GOL">추상적대상(신기|신비|불가능)</sel_rst>
+					<eg>장대로 그 정도의 높이를 뛰어넘는다는 것은 신기에 가깝다.</eg>
+					<eg>저 장벽을 뛰어넘기란 불가능에 가깝다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>시간상태</sem_class>
+				<trans>be near</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">시간</sel_rst>
+					<eg>입시철이 가까워 오니 어김없이 날씨가 추워진다.</eg>
+					<eg>이제 떠날 시간이 가까우니 채비를 해라.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

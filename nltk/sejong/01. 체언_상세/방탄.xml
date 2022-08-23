@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>방탄</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/30</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/30</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_aj 수정</mod_note>
+			</mod>
+			<note>2003/10/30(송인욱)표준대사전에 나온 '방탄하다'는 인정하지 않음</note>
+			<note>'방탄 국회'는 비유적 용법인데, 명사 연어에 같이 기술해줄 수 있을까?</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">防彈</org>
+		
+			<comp pos="n" type="suffix">~창</comp>
+			<comp pos="n" type="suffix">~실</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~이 제대로 되지 않는 창이 하나라도 있으면 큰일이니 철저한 점검이 필요하다.</eg>
+				<eg>제조사 측에선 이 차가 완벽하게 ~이 된다고 보장했다.</eg>
+				<trans>bulletproof</trans>
+				<sem_class>결과행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 완벽하다</comb_aj>
+				<comb_aj type="magn">~이 완전하다</comb_aj>
+				<comb_n type="compound">~ 유리</comb_n>
+				<comb_n type="compound">~ 조끼</comb_n>
+				<comb_n type="compound">~ 헬멧</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<sel_rst arg="X">육상교통기관(차)</sel_rst>
+				<sel_rst arg="X">옷(조끼)</sel_rst>
+				<sel_rst arg="X">모자(헬멧)</sel_rst>
+				<sel_rst arg="X">구체인공물(유리)</sel_rst>
+				<sel_rst arg="X">건물부분장소(방)</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

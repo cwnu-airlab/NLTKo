@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>반감</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/10</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/14</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>의미부류수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_aj, n_v 수정</mod_note>
+			</mod>
+			<note>2003/08/10(송인욱)기능동사 관련 기술 검토 요망</note>
+			<note>2003/10/14(박진호)의미부류, 격틀, 선택제약 수정</note>
+			<add>2003/08/10(송인욱)동사자유구성으로 '~을 버리다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">反感</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>수백 년동안 힘 없는 나라를 괴롭혀온 영국은 나에게 강한 ~을 주었다.</eg>
+				<eg>정부에 ~이 있는 사람들은 많았지만 아무도 그것을 입 밖에 내진 않았다.</eg>
+				<eg>그녀는 내가 짠 계획에 ~을 품고 회의 도중에 이의를 제기했다.</eg>
+				<trans>antipathy</trans>
+				<trans>feeling of revolt</trans>
+				<sem_class>외향적심리상태</sem_class><!--부정적감정을 외향적심리상태로 수정-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 작다</comb_aj>
+				<comb_aj type="appr">~이 강하다</comb_aj>
+				<comb_aj type="appr">~이 심하다</comb_aj>
+				<comb_aj type="appr">~이 약하다</comb_aj>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 있다</form>
+					<frame>X-이 Y-에 ~이 있다</frame>
+					<frame>X-이 Y-에게 ~이 있다</frame>
+					<frame>X-이 Y-에대해 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 생기다</form>
+					<frame>X-이 Y-에 ~이 생기다</frame>
+					<frame>X-이 Y-에게 ~이 생기다</frame>
+					<frame>X-이 Y-에대해 ~이 생기다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 느끼다</form>
+					<frame>X-이 Y-에게 ~을 느끼다</frame>
+					<frame>X-이 Y-에대해 ~을 느끼다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 품다</form>
+					<frame>X-이 Y-에게 ~을 품다</frame>
+					<frame>X-이 Y-에대해 ~을 품다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 사다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 갖다</form>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="X">인간집단</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/10</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/10/14(박진호)의미부류, 격틀 수정. 합성어에 있던 것을 파생어로 옮김</note>
+			<note>2003/10/28(송인욱)comb_v에서 '~이 이루어지다' 삭제</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">半減</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~기</der>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>절전형 신제품의 출시는 전기 수요를 ~시키는 결과를 낳았다.</eg>
+				<eg>현 정권에 대한 지지도가 ~이 된 까닭은 계속된 실정에 국민들이 실망한 탓이다.</eg>
+				<eg>탕약은 충분한 시간동안 달이지 않으면 약효가 ~을 하게 된다.</eg>
+				<trans>reduction by half</trans>
+				<sem_class>감소</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>Y-이 X-을 ~을 시키다</frame>
+				</comb_v>
+				<sel_rst arg="X">온</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

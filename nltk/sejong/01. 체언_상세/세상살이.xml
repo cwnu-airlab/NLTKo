@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>세상살이</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2006/05/31</cre_date>
+				<cre_writer>정아름</cre_writer>
+				<cre_note>의미부류 모호</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2006/08/07</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note>str 정보 수정;원어 정보 수정;형용사 구문 수정;복합동사 정보 수정;의미부류 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/17</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>맥스엔, 선택제약 정보 추가</mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_S">세상+살이</str> <!--'살이'를 R에서 S로 수정(미현)-->
+			<org lg="si">世上__</org> 
+			<hom exist="temp"/>
+			<der  pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>오랜만에 만난 그 친구는 ~가 고달프다며 푸념을 늘어놓았다.</eg>
+				<trans>way of living</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>지속적활동</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 힘들다</comb_aj> <!--타입값 수정(미현)-->
+				<comb_aj type="appr">~에 밝다</comb_aj> <!--추가(마현)-->
+				<comb_aj type="appr">~가 고달프다</comb_aj> <!--추가(마현)-->
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 지치다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|혈연집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

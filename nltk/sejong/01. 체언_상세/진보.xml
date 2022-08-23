@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>진보</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/14</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/28</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/05</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<note>'~성'을 합성어에서 파생어로 이동, 합성어 정보 추가, sense1의 형용사 연어 정보 제시, 기능동사 정보 추가, sense2의 유의어에서 '급진'을 하위어 구획으로 이동, 동위어 정보 추가</note>
+			<note>2001/09/20(고길수)</note>
+			<note>2003/02/21(김이정)sense1 의미부류 '과정'을 '상태변화'로 수정</note>
+			<note>2003/02/25(남길임)</note>
+			<note>2003/02/28(김이정)</note>
+			<note>sense2 의미부류 '과정'을 '속성'으로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">進步</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~성</der>
+			<comp pos="n" type="suffix">~주의</comp>
+			<comp pos="n" type="suffix">~세력</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>20세기에 이룩한 과학기술의 ~는 실로 엄청나다.</eg>
+				<trans>advance</trans>
+				<trans>improvement</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>개선</sem_class>
+				<lr>
+					<syn type="etc">발전</syn>
+					<ant type="etc">퇴보</ant>
+					<coord>퇴보</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">눈부신 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-이 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>Y-이 X-를 ~를 시키다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">(역사|기술|인류|인간)</sel_rst>
+				<sel_rst arg="Y">역사|기술|사건</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>~ 세력의 급진적 사상이 보수 세력에게는 위협이 되었다.</eg>
+				<trans>progression</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="etc">혁신</syn>
+					<ant type="etc">보수</ant>
+					<hypo>급진</hypo>
+					<coord>보수</coord>
+					<coord>중도</coord>
+					<rel>정치</rel>
+					<rel>역사</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 표방하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 꿈꾸다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

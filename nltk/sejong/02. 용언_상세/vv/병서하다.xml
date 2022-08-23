@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>병서하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/26</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김미영</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/26</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/08/04</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">병서를 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<org lg="si">竝書_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>대칭적행위</sem_class>
+				<trans>writing the same consonant characters laterally attached</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="sym" n="01">
+				<frame>X=N0-이 Y+Z=N1-을 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">기호(문자|단어|문장)</sel_rst>
+					<sel_rst arg="Z" tht="THM">기호(문자|단어|문장)</sel_rst>
+					<eg>옛날 사람들은 ㅂ과 ㅇ을 병서하여 사용했다.</eg>
+					<eg>자음과 자음을 병서하는 데에도 나름대로의 규칙이 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="01">
+				<frame>X=N0-이 Y=N1-을 Z=N2-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">기호(문자|단어|문장)</sel_rst>
+					<sel_rst arg="Z" tht="COM">기호(문자|단어|문장)</sel_rst>
+					<eg>사람들은 ㄱ을 ㅅ과 병서하여 사용한다.</eg>
+					<eg>과거에는 ㅂ과 ㅅ과 ㄱ을 병서하여 ㅄㄱ을 사용했다고 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

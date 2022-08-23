@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>큰형</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2006/07/01</cre_date>
+				<cre_writer>이현주</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2006/10/01</mod_date>
+				<mod_writer>임근석</mod_writer>
+				<mod_note>var 추가</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/16</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="xd">큰성</var>
+			<str type="Am_N">큰+형</str>
+			<org lg="si">_兄</org>
+		
+			<hom exist="yes"/>
+			<der  pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>서울에서 ~이 내려오면 우리집 밥상은 언제나 진수성찬이었다.</eg>
+				<trans>eldest brother</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>비대칭적친족</sem_class>
+				<lr>
+					<syn type="perfect">맏형</syn>
+					<syn type="sino">장형</syn>
+					<ant type="temp"></ant>
+					<rel>작은형</rel>
+					<rel>큰형수</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 만나다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">분</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

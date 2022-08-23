@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>보살피다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="i"/>
+			<str>V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>take care of</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|인간집단|동물</sel_rst>
+					<eg>순이는 요즘 병든 어머니를 보살피느라 정신이 없다.</eg>
+					<eg>내가 없는 동안 철수가 토끼를 잘 보살펴 주었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(생활|어려움)</sel_rst>
+					<eg>영수는 김 선생님의 어려운 생활을 보살피기 위해 가끔씩 집에 들르곤 했다.</eg>
+					<eg>학생들의 어려움을 일일이 보살피기란 쉬운 일이 아니었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">Q</sel_rst>
+					<eg>그녀는 장애아들이 잘 지내는지를 꼼꼼히 보살폈다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=S1-도록 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="FNS"/>
+					<eg>동회에서는 생활보호 대상자들이 어려움을 당하지 않도록 잘 보살펴 주었다.</eg>
+					<eg>내가 없는 동안 아이들이 끼니를 거르지 않도록 잘 보살펴 주세요.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>비디오</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/05/26</cre_date>
+				<cre_writer>차준경</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/06</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>n_v 형식 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1의 의미부류를 '구체인공물'에서 '영상'으로 수정;명사연어에 '~ 게임' 추가;센스2의 동사정보에 '끄다, 켜다' 추가;센스3의 동사정보에 '감다, 되감다, 돌리다' 추가;명사연어에 '중고 ~' 추가;센스4의 명사연어에 '뮤직 ~' 추가</mod_note>
+			</mod>
+			<note>2001/07/13(차준경</note>
+			<note>강범모)일차수정</note>
+			<note>2001/07/31(차준경)이차수정</note>
+			<note>2003/03/22(고길수)영어대역어 수정</note>
+			<note>센스1의 예문 수정</note>
+			<note>센스1의 영어대역어 수정</note>
+			<note>센스1의 의미부류를 '도상'에서 '구체인공물'로 수정, 단 재검토 필요</note>
+			<note>센스2의 예문 수정 및 추가</note>
+			<note>센스2의 영어대역어 수정</note>
+			<note>센스2의 의미부류 수정</note>
+			<note>센스3의 예문 수정</note>
+			<note>센스3의 의미부류 수정</note>
+			<note>센스4에 예문 추가</note>
+			<note>센스4의 의미부류 수정</note>
+			<note>동의어에서 '비디오 무비' 삭제</note>
+			<note>센스4의 comb_v 정보 add로 수정</note>
+			<add>동사결합으로 '~에 담다' 추가</add>
+			<add>센스2의 동사결합 '~를 사다|장만하다|갖추다|설치하다'</add>
+			<add>센스3의 동사결합 '~를 보다|빌리다|대여하다|돌려보다'</add>
+			<add>센스4의 동사결합 '~를 보다|찍다|시청하다|즐기다|상영하다|감상하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="en">video</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~형</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>요즈음에는 가수도 오디오 가수와 ~ 가수로 구별이 된다.</eg>
+				<eg>이 텔레비전은 ~가 선명하다.</eg>
+				<trans>video</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>영상</sem_class>
+				<lr>
+					<syn type="etc">화면</syn>
+					<ant type="etc">오디오</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 좋다</comb_aj>
+				<comb_aj type="appr">~가 선명하다</comb_aj>
+				<comb_aj type="appr">~가 깨끗하다</comb_aj>
+				<comb_n type="compound">~ 게임</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 담다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>새로 산 ~는 잘 돌아가니?</eg>
+				<eg>그는 즐겨보는 프로그램을 ~로 녹화해둔다.</eg>
+				<eg>이 제품은 텔레비전에 ~를 통합한 것입니다.</eg>
+				<trans>VCR</trans>
+				<trans>VTR</trans>
+				<trans>video tape recorder</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>전기전자기구</sem_class>
+				<lr>
+					<syn type="etc">비디오테이프리코더</syn>
+					<syn type="etc">녹화기</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 장만하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 갖추다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 설치하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 켜다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 끄다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">대</cl>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>아내는 근처 대여점에서 ~를 여러 개를 빌려왔다.</eg>
+				<trans>videotape</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>텍스트담지물</sem_class>
+				<lr>
+					<syn type="etc">비디오테이프</syn>
+					<ant type="temp"></ant>
+					<hyper>테이프</hyper>
+					<coord>카세트테이프</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 가게</comb_n>
+				<comb_n type="compound">~ 대여점</comb_n>
+				<comb_n type="compound">중고 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 빌리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 대여하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 돌려보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 감다다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 되감다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 돌리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="4">
+			<sem_grp>
+				<eg>청소년을 위해서 좋은 ~ 보기 운동이 활발히 전개되고 있다.</eg>
+				<eg>그는 주말에는 최신 ~를 빌려 보곤 한다.</eg>
+				<trans>video</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>작품</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>영화</hyper>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 재미있다</comb_aj>
+				<comb_aj type="appr">~가 지루하다</comb_aj>
+				<comb_n type="compound">음란 ~</comb_n>
+				<comb_n type="compound">예술 ~</comb_n>
+				<comb_n type="compound">뮤직 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 찍다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 시청하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 즐기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 상영하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 감상하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">편</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

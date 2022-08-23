@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>알아보다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/09</cre_date>
+				<cre_writer>노윤채</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/05/19</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/05/28</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/05</mod_date>
+				<mod_writer>임동식</mod_writer>
+				<mod_note>의미정보 확장 및 형태정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="eo"/>
+			<str>V-어.V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>examine</trans>
+				<lr>
+					<syn type="sino">조사하다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-을|에대해 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<eg>외계인들에게 그들이 온 이유를 알아봐야겠습니다.</eg>
+					<eg>이번 살인사건에 대해 좀 더 자세히 알아 본 다음에 기사를 쓰려고 합니다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것</sel_rst>
+					<eg>일본 정부에서 우리 나라의 어선들을 억류한 것을 알아보고 난 다음 대응책을 세우도록 하겠습니다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">Q</sel_rst>
+					<eg>그는 왜 그렇게 작년에 집값이 많이 올랐는지를 알아보려 했다.</eg>
+					<eg>이번 사건의 열쇠를 쥐고 있는 사람이 누구인가 즉시 알아보라.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>recognize</trans>
+				<lr>
+					<syn type="sino">인지하다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-을|에대해 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<n_appr>(얼굴)</n_appr>
+					<eg>할아버지는 이미 비몽사몽이라 손주의 얼굴도 알아보지 못했다.</eg>
+					<eg>선생님은 근 30년만에 만났는데도 즉시 제자를 알아보았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>judge</trans>
+				<lr>
+					<syn type="sino">평가하다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-을|에대해 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<eg>이곳에는 안목이 있는 사람이 나 같은 사람을 못 알아보다니.</eg>
+					<eg>이 적토마는 관운장을 태우는 걸 보니 영웅을 알아보는군.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>search</trans>
+				<lr>
+					<syn type="perfect">찾아보다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-을|에대해 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|장소|계획사건</sel_rst>
+					<eg>내가 나가기가 어려우니 내 대신 직장을 알아봐 주게.</eg>
+					<eg>직업소개소는 직장을 알아봐 준다고 하고 돈만 받았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

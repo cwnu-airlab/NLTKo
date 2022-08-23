@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>스모</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/01</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/01</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/01</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>분류사 추가;기능동사 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/21</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>격틀 추가</mod_note>
+				<mod_note>n_n 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/24</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>운동경기를 추상적대상으로 수정;동사 정보 유형값 수정;'하다' 프레임 정보 삭제;맥스엔, 선택제약 정보 삭제;단위표현 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="etc">相撲</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~는 한국의 씨름과는 달리 단판에 승부가 난다.</eg>
+				<trans>sumo</trans>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound">~ 선수</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 하다</form>
+					<!-- frame>X-이 Y-와 ~를 하다</frame -->
+					<!-- frame>X-와 Y-이 ~를 하다</frame -->
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 구경하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str> <!-- X-와 Y-의 ~ 삭제 -->
+				<sel_rst arg="X"></sel_rst> <!-- X, Y 운동경기역할인간 삭제 -->
+				<cl type="uni"></cl> <!-- 판 삭제 -->
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

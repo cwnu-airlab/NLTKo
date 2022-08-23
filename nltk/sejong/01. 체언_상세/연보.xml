@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>연보</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/06</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/08</mod_date>
+				<mod_writer>김현승</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/22</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>note 일부 정보를 n_v에 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정 없음</mod_note>
+			</mod>
+			<note>2002/05/17(고길수)의미부류를 구체인공물에서 텍스트로 수정</note>
+			<note>단위표현에서 uni=장에서 권|부로, grp=묶음을 삭제, div=장|쪽으로 수정</note>
+			<note>동사연어(comb_v)에서 '~를 간행하다'를 삭제</note>
+			<note>형용사자유구성에 '~가 상세하다|자세하다|두껍다'를 추가</note>
+			<note>향후 동사자유구성으로 '~를 간행하다|발간하다'를 추가</note>
+			<note>2002/05/22(박동호)</note>
+			<note>2003/10/08(김현승)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">年報</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>국회는 작년 한 해 동안의 의정 활동을 보고하는 ~를 간행하였다.</eg>
+				<trans>annual report</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>텍스트</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 상세하다</comb_aj>
+				<comb_aj type="appr">~가 자세하다</comb_aj>
+				<comb_aj type="appr">~가 두껍다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 간행하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 발간하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">권</cl>
+				<cl type="uni">부</cl>
+				<cl type="div">장</cl>
+				<cl type="div">쪽</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/06</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/08</mod_date>
+				<mod_writer>김현승</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/22</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>note 일부 정보 n_v에 기술</mod_note>
+				<mod_note>cl 수정</mod_note>
+				<mod_note>n_n 수정 및 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>형용사결합 추가</mod_note>
+			</mod>
+			<note>2002/05/17(고길수)품사범주 약호 수정</note>
+			<note>의미부류를 인공구체물에서 텍스트로 수정</note>
+			<note>단위표현에 '장|쪽'을 모두 uni로 수정</note>
+			<note>동사연어(comb_v)에서 '~를 실다(?, 싣다가 아닌지)|쓰다'를 삭제, 이 정보는 동사자유구성에 해당함</note>
+			<note>향후 동사자유구성으로 '~를 싣다|쓰다|따라가다' 등을 추가</note>
+			<note>2002/05/22(박동호)</note>
+			<note>2003/10/08(김현승)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">年譜</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>저자의 간략한 ~가 책의 마지막에 실려 있다.</eg>
+				<trans>chronological record</trans>
+				<trans>chronological history</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>텍스트</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 간단하다</comb_aj>
+				<comb_aj type="appr">~가 간략하다</comb_aj>
+				<comb_n type="compound">작가 ~</comb_n> <!-- 조사 '의' 삭제 (송근영)-->
+				<comb_n type="compound">저자 ~</comb_n> <!-- 송근영 추가-->
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 싣다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 쓰다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 따라가다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="qnt">장</cl> <!--uni를 qnt로 수정(송근영)-->
+				<cl type="qnt">쪽</cl> <!--uni를 qnt로 수정(송근영)-->
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/06</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/08</mod_date>
+				<mod_writer>김현승</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>추가</mod_note>
+				<mod_note>수정</mod_note>
+			</mod>
+			<note>2002/05/17(고길수)품사범주 약호 수정</note>
+			<note>참조표제어(see)에서 '헌금' 삭제</note>
+			<note>예문 수정</note>
+			<note>단위표현에서 '회|번' 삭제</note>
+			<note>2002/05/22(박동호)</note>
+			<note>2003/10/08(김현승)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">捐補</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>많은 사람들이 이재민들을 돕기 위한 ~에 참여했다.</eg>
+				<trans>contibuting</trans>
+				<trans>donating</trans>
+				<trans>offering</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>방향성행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-에게 ~를 하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

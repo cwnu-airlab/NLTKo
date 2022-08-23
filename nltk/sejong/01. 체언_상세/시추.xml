@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>시추</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/28</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/01</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>전문영역 공업에서 광업으로 수정;동의어정보 추가;엔트리 2 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/09</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정사항 없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/27</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/08</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">試錐</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 지역에 천연가스가 매설되어 있을 것이라는 조사 결과를 바탕으로 우리는 ~에 들어갔다.</eg>
+				<trans>boring</trans>
+				<domain>광업</domain>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="perfect">보링</syn>
+					<syn type="perfect">시찬</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-에 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 X-에의해 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 계획하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">국가기관|기업|학술단체|직업인간</sel_rst>
+				<sel_rst arg="Y">지상장소|물장소</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2004/10/01</cre_date>
+				<cre_writer>김성용</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2004/10/09</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>분류사 정보 및 격틀 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/27</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/08</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">時推</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>사또는 죄인의 ~를 지시했다.</eg>
+				<trans>interrogating a cirminal</trans>
+				<sem_class>지속적활동</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~를 당하다</form>
+					<frame>Y-이 X-에의해 ~를 당하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~를 받다</form>
+					<frame>Y-이 X-에의해 ~를 받다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">역할인간</sel_rst>
+				<sel_rst arg="Y">속성인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">차</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/28</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/01</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>사전에 등재되어 있지 않음, 확인 요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/09</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정사항 없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/27</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="etc">시추</org> <!--lg="zh"-->
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리 집의 새침데기 ~가 어쩐 일로 놀러온 아이들과 금새 친하게 놀았다.</eg>
+				<trans>shih-tzu</trans>
+				<sem_class>짐승</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 짖다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<cl type="uni">마리</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

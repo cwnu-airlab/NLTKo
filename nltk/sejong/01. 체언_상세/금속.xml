@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>금속</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/15</cre_date>
+				<cre_writer>박동호</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/05</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/12</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/22</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>der 정보를 comp로 이동</mod_note>
+				<mod_note>comp 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/12</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/09/23(박동호)</note>
+			<note>2002/09/28(이성헌)sense1 eg의 오류수정(~)</note>
+			<note>2003/06/26(이은경)</note>
+			<note>2003/06/30(이성헌)sem확인(차후 구체인공물 내 '자재>금속재'에 분류될 수 있음)</note>
+			<note>2003/07/05(이은경)</note>
+			<note>sem을 '광물'에서 '구체인공물'로 수정</note>
+			<add>~ 재료|가공|공업|공학|세공</add>
+			<add>귀|비|중|경~</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">金屬</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="prefix">귀~</comp>
+			<comp pos="n" type="prefix">비~</comp>
+			<comp pos="n" type="prefix">중~</comp>
+			<comp pos="n" type="prefix">경~</comp>
+			<comp pos="n" type="suffix">~성</comp> <!--송근영 추가-->
+			<comp pos="n" type="suffix">~제</comp> <!--송근영 추가-->
+			<comp pos="n" type="suffix">~판</comp> <!--송근영 추가-->
+			<comp pos="n" type="suffix">~재료</comp>
+			<comp pos="n" type="suffix">~가공</comp>
+			<comp pos="n" type="suffix">~공업</comp>
+			<comp pos="n" type="suffix">~공학</comp>
+			<comp pos="n" type="suffix">~공예</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 제품은 ~으로 되어 있다.</eg>
+				<trans>metal</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>금속재</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 단단하다</comb_aj>
+				<comb_n type="compound">~ 세공</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

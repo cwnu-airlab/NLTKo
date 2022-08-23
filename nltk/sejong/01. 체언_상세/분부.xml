@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>분부</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/25</cre_date>
+				<cre_writer>한동훈</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/25</mod_date>
+				<mod_writer>한동훈</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/23</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>어원정보에 吩咐 추가</mod_note>
+				<mod_note>동사결합 정보 수정 및 추가</mod_note>
+				<mod_note>논항명사구 수정</mod_note>
+				<mod_note>논항 의미정보 수정</mod_note>
+				<mod_note>단위표현 추가</mod_note>
+				<mod_note>수식어절 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/29</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">分付</org>
+			<org lg="si">吩咐</org> <!-- 추가 -->
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>저에게 즉각 ~를 내려 주십시오.</eg>
+				<trans>order</trans>
+				<trans>direction</trans>
+				<sem_class>명령</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form> <!-- ~을 하다 수정 -->
+					<frame>X-이 Z-에게 Y-을 ~를 하다</frame> <!-- X-이 Y-에게 Z-을 ~을 하다 수정 -->
+					<frame>X-이 Z-에게 S것-을 ~를 하다</frame> <!-- 별도로 되어 있는 것을 통합 -->
+					<frame>X-이 Z-에게 S라고 ~를 하다</frame> <!-- 별도로 되어 있는 것을 통합 -->
+					<frame>X-이 Z-에 Y-을 ~를 하다</frame>
+					<frame>X-이 Z-에 S것-을 ~를 하다</frame>
+					<frame>X-이 Z-에 S라고 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup"> <!-- 추가함 -->
+					<form vcompound="yes">~를 받다</form>
+					<frame>Z-이 X-에게 Y-을 ~를 받다</frame>
+					<frame>Z-이 X-에게 S것-을 ~를 받다</frame>
+					<frame>Z-이 X-에게 S라고 ~를 받다</frame>
+					<frame>Z-이 X-에게서 Y-을 ~를 받다</frame>
+					<frame>Z-이 X-에게서 S것-을 ~를 받다</frame>
+					<frame>Z-이 X-에게서 S라고 ~를 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> <!-- 추가함 -->
+					<form vcompound="yes">~를 내리다</form>
+					<frame>X-이 Z-에게 Y-을 ~를 내리다</frame>
+					<frame>X-이 Z-에게 S것-을 ~를 내리다</frame>
+					<frame>X-이 Z-에게 S라고 ~를 내리다</frame>
+				</comb_v>
+				<max_n_str>Z-에대한 X-의 Y ~</max_n_str> <!-- X-의 Y-에대한 S라는 ~ 수정함, 단 모든 논항이 다 쓰이는지 검토 필요 -->
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">행위</sel_rst> <!-- 제2, 3논항의 표기를 수정함 -->
+				<sel_rst arg="Z">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl> <!-- 추가함 -->
+				<cl type="uni">차례</cl> <!-- 추가함 -->
+				<cl type="uni">회</cl> <!-- 추가함 -->
+				<s_n>S라는 ~</s_n> <!-- 추가함 -->
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

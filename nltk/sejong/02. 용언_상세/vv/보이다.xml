@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>보이다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>1998/00/00</cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/13</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>2004년 형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/30</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="i"/>
+			<str>V.이2</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>be able to see</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(눈)</sel_rst>
+					<eg>기영이의 눈은 그 사고로 완전히 안 보이게 되었다.</eg>
+					<eg>내 눈은 아직도 잘 보여.</eg>
+					<eg>나는 눈이 잘 안 보인다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>get detected</trans>
+				<trans>get known</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(눈치|기회|징조|기미)</sel_rst>
+					<eg>많은 전문가들의 금년에는 인플레이션의 기미가 보인다고 우려했다.</eg>
+					<eg>정부가 잘못을 대충 넘어가려는 눈치가 보이자 시민들이 시위를 했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>Y=N1-에게|이 X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(희망|가능성)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">인간</sel_rst>
+					<eg>이제야 그에게 희망이 보인다.</eg>
+					<eg>그는 전혀 가능성이 안 보인다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>be seen</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물|장소</sel_rst>
+					<sel_rst arg="Y" tht="EXP">인간|동물</sel_rst>
+					<n_appr arg="Y">눈</n_appr>
+					<eg>영수는 그 후로 마을에서 사람들의 눈에 전혀 안 보였다.</eg>
+					<eg>헤어 밴드를 한 가무잡잡한 얼굴이 내 눈에 똑똑히 보이기 시작했다.</eg>
+					<eg>정면 안개 너머로 불빛이 보입니다.</eg>
+					<eg>한치 앞도 보이지 않는 거센 눈보라가 사나흘 계속되었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<sel_rst arg="Y" tht="EXP">인간</sel_rst>
+					<n_appr arg="Y">눈</n_appr>
+					<eg>회색 지붕의 민가가 밀집해 있는 것이 내 눈에 보였다.</eg>
+					<eg>경찰들이 학교로 몰려들어가는 것이 보였다.</eg>
+					<eg>날치가 뛰고 있는 것이 거기에서도 보입니까?</eg>
+					<eg>철수가 오는 것이 안 보이니?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>be considered as</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">온</sel_rst>
+					<sel_rst arg="Y" tht="EXP">인간|동물</sel_rst>
+					<sel_rst arg="Z" tht="FNS">온</sel_rst>
+					<eg>그 사람은 내게는 아직 30세 전으로 보였다.</eg>
+					<eg>나는 그 사람이 아직 30세 전으로 보였다.</eg>
+					<eg>외무부에서 온 수재형으로 보이는 부원이 빈정대는 투로 말했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 ADV V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">온</sel_rst>
+					<sel_rst arg="Y" tht="EXP">인간|동물</sel_rst>
+					<sel_rst arg="ADV">N-처럼|N-같이|Adj-게|Adv</sel_rst>
+					<eg>돌아가는 길처럼 보이나 그것이 유일한 지름길입니다.</eg>
+					<eg>일행의 리더같이 보이는 노인이 물었다.</eg>
+					<eg>이 사장이 가련하게 보였다.</eg>
+					<eg>갑자기 나 같은 사람의 눈에도 분명히 바다 색깔이 달리 보이기 시작했습니다.</eg>
+					<eg>그는 안정된 사회적 지위에 대한 집착이라는 게 전혀 없는 듯이 보였다.</eg>
+					<eg>물이 워낙 점잖아서 배는 수월하게 내 눈에는 미끄러져 가는 것처럼 보였다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>1998/00/00</cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/13</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/30</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="i"/>
+			<str>V.이1</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>방향성행위</sem_class>
+				<trans>show</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간</sel_rst>
+					<eg>엄마는 아이들에게 눈물을 보이지 않으려고 고개를 돌렸다.</eg>
+					<eg>그는 자기의 더러운 몸을 그 여자에게 보이고 싶지 않았다.</eg>
+					<eg>경비를 서는 경찰관에게 통행 허가증을 보였다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>방향성행위</sem_class>
+				<trans>let know</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="SRC">온</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(눈치|기미)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간</sel_rst>
+					<eg>물론 김 국장이 그 애한테 이상한 눈치를 보인 지 오래되었어.</eg>
+					<eg>젊은이는 아직 정신 차릴 기미를 보이지 않았다.</eg>
+					<eg>육군의 대형 수송기는 눈부신 활약을 보이기도 했다.</eg>
+					<eg>생활 필수품의 값은 전국적으로 상당한 오름세를 보이고 있습니다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">온</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것|S음|Q</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간</sel_rst>
+					<eg>그 사실은 우리들에게 어느 나라도 진정한 맹방이 될 수 없다는 것을 보여 주었다.</eg>
+					<eg>탈진한 산모의 모습은 세상에 공짜가 없다는 것을 보여 주었다.</eg>
+					<eg>공자의 삶은 우리에게 어떻게 살아가야 하는지를 잘 보여 준다.</eg>
+					<eg>이 논문은 기초의 이론이 어떻게 개선되어야 하는지를 분명히 보여 준다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<idm_grp>
+			<idm>다시 보이다</idm>
+			<idm>등을 보이다</idm>
+			<idm>잘 보이다</idm>
+			<idm>잘못 보이다</idm>
+			<idm>선(을)보이다</idm>
+		</idm_grp>
+	</entry>
+	<entry n="3" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>1998/00/00</cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/13</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/30</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="i"/>
+			<str>V.이1</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>방향성행위</sem_class>
+			</sem_grp>
+			<frame_grp type="STR">
+				<frame>X=N0-이 Y=N2-에|에게|에대해 Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Npr1">(의욕|애착|반응|관심|용기)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">온</sel_rst>
+					<eg>그 음악가는 연주 활동에 대해 왕성한 의욕을 보였다.</eg>
+					<eg>세계의 많은 나라들이 지구 환경을 살리기 위한 운동에 적극적인 반응을 보이고 있다.</eg>
+					<eg>그들은 이 신기한 침입자들에게 아무런 관심도 보이지 않고 유유히 스쳐 갔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="4" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>1998/00/00</cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/01/06</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/13</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/30</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="i"/>
+			<str>V.이2</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>0</sem_class>
+				<trans>seem</trans>
+			</sem_grp>
+			<frame_grp type="Vaux">
+				<frame>A-어 Vaux</frame>
+				<subsense>
+					<sel_rst arg="A">(좋다|옳다|있다|비싸다)</sel_rst>
+					<eg>아마 일본 사람들이 하는 짓이면 뭐든지 다 좋아 보이는 모양이야.</eg>
+					<eg>옳은 것과 옳아 보이는 것은 전혀 다르다.</eg>
+					<eg>고집이 있어 보이는 일본의 방위청 장관이 약간 눈물을 글썽거렸다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="Vaux">
+				<frame>V-어 Vaux</frame>
+				<subsense>
+					<sel_rst arg="V">(늙다|되다|넘다)</sel_rst>
+					<eg>그는 갑자기 무척 늙어 보였다.</eg>
+					<eg>그는 스물댓은 되어 보인다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>0</sem_class>
+				<trans>show</trans>
+			</sem_grp>
+			<frame_grp type="Vaux">
+				<frame>V-어 Vaux</frame>
+				<subsense>
+					<sel_rst arg="V">(먹다|웃다|누르다)</sel_rst>
+					<eg>그가 먼저 냉장고 안에 든 음식을 먹어 보이자 모두들 따라 먹기 시작했다.</eg>
+					<eg>그와 눈이 마주치자 그녀는 수줍은 듯 생긋 웃어 보였다.</eg>
+					<eg>그는 빙긋빙긋 웃으면서 차례로 단추를 눌러 보였다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

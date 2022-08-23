@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>예습</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/12</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/07</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/04</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 ant에 기술</mod_note>
+				<mod_note>n_aj magn을 appr로 수정</mod_note>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>sel_res 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 추가</mod_note>
+			</mod>
+			<note>2002/08/30(고길수)예문 수정</note>
+			<note>magn에 '~이 철저하다' 추가</note>
+			<note>명사연어에서 '~과 복습' 삭제</note>
+			<note>논항정보 수정</note>
+			<note>2002/10/11(이성헌)</note>
+			<note>2003/09/08(류희선)사전종류수정</note>
+			<note>형용사자유구성수정('~이 철저하다'를 '철저한 ~'으로 수정)</note>
+			<add>동위어로 '복습' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">豫習</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 철저한 ~과 복습을 해 둔다.</eg>
+				<eg>그는 매일 다음날 학교에서 배울 부분을 ~을 한다.</eg>
+				<trans>preparation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>지속적활동</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">복습</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 철저하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">학문과목|텍스트|관계추상적대상(부분)|(내용)</sel_rst> <!--'학문', '과목'을 '학문과목'으로 수정(송근영)-->
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

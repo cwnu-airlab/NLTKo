@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>추락</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/22</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>2003/08/23(김이정) sense2의 sel_res 확인 요망</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/07</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>sense1의 cl에'번|차례|회'기재;supv의 괄호제거;sense2의 sem을 '인지적|추상적행위'에서 '감소'로 수정(상태변화);sense1,2의 supv구문 들을 분리기재</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/07</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1의 예문 수정;의미부류 수정;명사결합 추가;동사결합 수정;논항명사구 추가;센스2의 예문 수정 및 추가;동사결합 수정;논항명사구 추가;논항 의미정보 수정 및 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/01/30</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 의미부류 수정</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/10</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">墜落</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>한 민간여객기가 근처 바다에 ~을 했다.</eg> <!-- '펜실베니아 근처에서' 수정 -->
+				<trans>fall</trans>
+				<trans>crash</trans>
+				<trans>plunge</trans>
+				<sem_class>교통사고</sem_class> <!-- '순간적행위' 수정 --><!--비의도적행위를 수정(김이정)-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 사고</comb_n> <!-- 추가함 -->
+				<comb_n type="lexfunc">~ 지점</comb_n> <!-- 추가함 -->
+				<comb_n type="lexfunc">~ 항공기</comb_n> <!-- 추가함 -->
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form> <!-- 형태정보 추가 -->
+					<frame>X-이 Y-에 ~을 하다</frame> <!-- 'Y-에|로' 수정 -->
+					<frame>X-이 Y-로 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form> <!-- 형태정보 추가 -->
+					<frame>X-이 Y-에 ~이 되다</frame> <!-- 'Y-에|로' 수정 -->
+					<frame>X-이 Y-로 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에의 ~</max_n_str> <!-- 추가함 -->
+				<max_n_str>X-의 Y-로의 ~</max_n_str>
+				<sel_rst arg="X">인간|생물|동물|육상교통수단|공중교통수단</sel_rst>
+				<sel_rst arg="Y">장소</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그에 대한 신뢰가 ~을 하고 있다.</eg> <!-- 미국 자본주의에 대한 수정 -->
+				<eg>각종 비리 사건이 밝혀지면서 회사 이미지의 ~은 불가피할 것으로 보인다.</eg> <!-- 추가 -->
+				<eg>경기가 나빠지면서 성장률이 1 퍼센트 밑으로 ~을 할 것이라는 예측이 지배적이다.</eg> <!-- 추가 -->
+				<trans>loss</trans>
+				<trans>fall</trans>
+				<sem_class>감소</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form> <!-- 'Y-에|로' 수정 -->
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form> <!-- 'Y-에|로' 수정 -->
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">속성(권위|자존심|위신)|긍정적인성속성값|품격속성값|인지상태</sel_rst> <!-- 긍정적태도 삭제, 속성 이외 부류 추가 -->
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

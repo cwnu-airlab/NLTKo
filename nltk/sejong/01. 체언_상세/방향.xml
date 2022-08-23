@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>방향</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/06</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/24</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>센스1,2 add일부를 n_v로 옮김</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add정보를 해당 n_n, n_v로 이동</mod_note>
+			</mod>
+			<note>2000/09/23(정유진)</note>
+			<note>2000/09/29(정유진)</note>
+			<note>2001/01/22(백인애,강범모)</note>
+			<note>2003/03/17(기영인)센스1 combaj 정보수정</note>
+			<note>2003/03/23(박동호)센스1의 comb_n을 add로 이동</note>
+			<note>2003/03/24(기영인)</note>
+			<note>add 정보입력</note>
+			<note>combaj 정보입력</note>
+			<note>combv 정보 add로 이동</note>
+			<note>combv 정보삭제</note>
+			<note>센스2 대역어 수정</note>
+			<add>(sense1) N-쪽 ~</add>
+			<add>(sense1) ~을 잃다, 조류|진행|반대(의) ~</add>
+			<add>(sense2) ~을 모색하다</add>
+			<add>~을 그르치다</add>
+			<add>~을 따르다</add>
+			<add>~을 바꾸다</add>
+			<add>~을 제시하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">方向</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~타</der>
+			<comp pos="n" type="suffix">~검사기</comp>
+			<comp pos="n" type="suffix">~측정기</comp>
+			<comp pos="n" type="suffix">~지시기</comp>
+			<comp pos="n" type="suffix">~탐지기</comp>
+			<comp pos="n" type="suffix">~감각</comp>
+			<comp pos="n" type="suffix">~전환</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 소리가 난 ~으로 발길을 돌렸다.</eg>
+				<trans>directionbearings</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>방향</sem_class>
+				<lr>
+					<syn type="etc">방위</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 같다</comb_aj>
+				<comb_aj type="appr">~이 다르다</comb_aj>
+				<comb_aj type="appr">~이 일정하다</comb_aj>
+				<comb_n type="compound">조류의 ~</comb_n>
+				<comb_n type="compound">진행 ~</comb_n>
+				<comb_n type="compound">반대 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 정하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 찾다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 잃다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 따르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 바꾸다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>학생들은 자신들의 진로에 대해 부모님이 원하시는 ~을 많이 따른다.</eg>
+				<trans>one's coursedirection</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="etc">방침</syn>
+					<syn type="etc">목표</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 맞다</comb_aj>
+				<comb_aj type="appr">~이 옳다</comb_aj>
+				<comb_aj type="appr">~이 그르다</comb_aj>
+				<comb_aj type="appr">~이 틀리다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 세우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 정하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 찾다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 잃다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 따르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 바꾸다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 제시하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 모색하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/06</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/24</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>기능동사구문(나다) 이하 기술</mod_note>
+				<mod_note>cl 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_v 수정</mod_note>
+			</mod>
+			<note>2000/09/23(정유진)</note>
+			<note>2000/09/29(정유진)</note>
+			<note>2001/01/22(백인애,강범모)</note>
+			<note>2003/03/17(기영인)의미부류 수정</note>
+			<note>2003/03/23(박동호)</note>
+			<note>2003/03/24(기영인)</note>
+			<note>combv 정보삭제, 일부 add로 이동</note>
+			<add>~을 풍기다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">芳香</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~성</der>
+			<der pos="n" type="suffix">~수</der>
+			<der pos="n" type="suffix">~유</der>
+			<der pos="n" type="suffix">~제</der>
+			<der pos="n" type="suffix">~족</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>머리가 아플 때 ~이 있는 식물을 머리 곁에 두고 자면 좋다.</eg>
+				<trans>perfumefragrance</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>냄새</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">미묘한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 나다</form>
+					<frame>X-이 ~이 나다</frame>
+					<frame>X-에게서 ~이 나다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 풍기다</form>
+					<frame>X-이 ~을 풍기다</frame>
+					<frame>X-에게서 ~을 풍기다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">구체물</sel_rst>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

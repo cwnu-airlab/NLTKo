@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>의미하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/10</cre_date>
+				<cre_writer>박소영</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/05/17</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/12/17</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<note>모든 논항이 절이 되니 의미역이 없는 문장이 나옴</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">의미를 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">意味_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>추상적행위</sem_class>
+				<trans>mean</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">온</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<eg>봉건주의 사회에서는 왕의 말은 곧 그 나라의 법률을 의미했다.</eg>
+					<eg>선생님의 설명이 무엇을 의미하는지 나는 도대체 이해하지 못하겠다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">S음|S것</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<eg>그 협상이 결렬된 것은 곧 외무부장관의 사임을 의미한다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">온</sel_rst>
+					<sel_rst arg="Y" tht="THM">S음|S것</sel_rst>
+					<eg>그의 죽음은 이제 이 나라에 미래가 사라졌음을 의미한다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">S음|S것</sel_rst>
+					<sel_rst arg="Y" tht="THM">S음|S것</sel_rst>
+					<eg>한국 팀이 약체 태국에게 진 것은 그 동안 훈련이 부족했음을 의미한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

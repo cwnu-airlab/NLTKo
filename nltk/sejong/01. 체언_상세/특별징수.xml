@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>특별징수</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/04/20</cre_date>
+				<cre_writer>유영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/20</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/01/18</mod_date>
+				<mod_writer>임근석</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/01</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/04/20(유영) sem, domain, supv수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="R_N">특별+징수</str><!-- 임근석: '특별'이 아직 어근 사전에 없지만..어근으로 기술함 -->
+			<org lg="si">特別徵收</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp> <!-- 임근석: '하다' 관련 내용을 n_v로 옮김-->
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~는 급여, 이자 등에 따른 세금을 일정한 세율에 따라 국가에 직접 납부하는 것이다.</eg>
+				<trans>especial collection</trans>
+				<domain>법률</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>방향성행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">보통징수</ant>
+					<rel>세금</rel>
+					<rel>세무</rel>
+					<rel>세법</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-에대해 ~를 하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간집단(국가기관)</sel_rst>
+				<sel_rst arg="Y">추상적대상(급여|이익|이자)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

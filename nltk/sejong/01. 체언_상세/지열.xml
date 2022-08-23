@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>지열</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/09</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/13</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/15</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>합성어 항목 추가</mod_note>
+				<mod_note>동사결합 항목 수정</mod_note>
+				<mod_note>최대논항구조 항목 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/19</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2004/12/30</mod_date>
+				<mod_writer>장원철</mod_writer>
+		        <mod_note>지혈제와 혼동한 듯 'comp pos="n"의 type=suffix> ~제 삭제</mod_note>
+	        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">止熱</org>
+		
+			<hom exist="yes"/>
+			<comp pos="n" type="suffix"></comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>의사는 우선 환자에게 ~을 했다.</eg>
+				<trans>the abatement of fever</trans>
+				<sem_class>단독행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+			<!-- 합성동사 정보를 새 기술형식에 맞게 수정하고, 논항 조사를 대표형으로 수정 (송근영) -->
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에 의해 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>감기로 앓다가 오늘 아침에서야 겨우 ~이 되었다.</eg>
+				<trans>dropping of temperature</trans>
+				<sem_class>감소</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 되다</form> <!-- 합성동사 정보를 새 기술형식에 맞게 수정(송근영) -->
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/09</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/13</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/03</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>센스2 동사결합 항목을 추가하고 add의 정보를 이 곳으로 이동</mod_note>
+				<mod_note>센스2 동사결합 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/19</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2004/12/30</mod_date>
+				<mod_writer>장원철</mod_writer>
+		        <mod_note></mod_note>
+	        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">地熱</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이곳은 ~을 이용하여 발전을 한다.</eg>
+				<eg>땅 속으로 들어갈수록 ~이 높아진다.</eg>
+				<trans>the subterranean heat</trans>
+				<sem_class>속성</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 높다</comb_aj>
+				<comb_aj type="appr">~이 낮다</comb_aj>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>밤이 되어도 ~이 식지 않는다.</eg>
+				<eg>태양이 이글거리고 ~이 들끓고 있다.</eg>
+				<eg>~을 식히려고 물을 뿌렸다.</eg>
+				<trans>the heat of the earth</trans>
+				<sem_class>기운</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 심하다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 들끓다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 식다</form> <!-- 송근영 추가 -->
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

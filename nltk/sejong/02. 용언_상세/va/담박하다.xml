@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>담박하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/22</cre_date>
+				<cre_writer>노윤채</cre_writer>
+				<cre_writer>신지원</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/22</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/08/18</mod_date>
+				<mod_writer>박보연</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/12/18</mod_date>
+				<mod_writer>김윤신</mod_writer>
+				<mod_note>격틀 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">澹泊_</org> <!--선택제약 수정하였음-->
+			<org lg="si">淡泊_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>맛속성값</sem_class>
+				<trans>be light</trans> <!--수정하였음-->
+				<trans>be plain</trans>
+				<trans>be simple</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">자연음식물|음식</sel_rst>
+					<n_appr arg="X">맛</n_appr> <!--적정명사 추가하였음-->
+					<eg>어제 구내식당에서 나온 음식이 무척이나 담박했지?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>색속성값</sem_class>
+				<trans>be light</trans> <!--수정하였음-->
+				<trans>be plain</trans>
+				<trans>be simple</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense> <!--추가하였음-->
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<n_appr arg="X">빛</n_appr> <!--적정명사 추가하였음-->
+					<n_appr arg="X">빛깔</n_appr>
+					<n_appr arg="X">색</n_appr>
+					<n_appr arg="X">색깔</n_appr>
+					<eg>빛깔이 담박한 것으로 골라 보세요.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>긍정적품격속성값</sem_class>
+				<trans>be indifferent</trans> <!--수정 및 추가하였음-->
+				<trans>be unselfish</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-에 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="LOC">돈(금전)</sel_rst>
+					<eg>그 친구는 돈에 담박한 사람이다.</eg>
+					<eg>금전적인 것에 담박해야지 크게 성공할 수 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

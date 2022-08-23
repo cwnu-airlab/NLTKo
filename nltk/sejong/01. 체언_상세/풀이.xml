@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>풀이</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/08/28</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/03</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/20(이성헌)</note>
+			<note>2003/02/20(남길임)</note>
+			<note>2003/02/24(김이정)</note>
+			<note>기능동사 구문, 선택제약 수정</note>
+			<note>기능동사 정보 수정</note>
+			<note>동사자유구성 정보 삭제</note>
+			<note>동의어 정보 추가</note>
+			<note>수식어문장 정보 추가</note>
+			<note>형용사 자유구성 수정 및 추가:수식어문장 정보 추가</note>
+			<note>센스2는 독자성이 없어 보이나 센스 수를 줄이는 것은 바람직하지 않아 놔둠(이선웅)</note>
+			<note>엔드리 품사 정보 수정(이선웅)</note>
+			<add>센스1: 뜻 ~</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~과정</comp>
+			<comp pos="n" type="suffix">~말</comp>
+			<comp pos="n" type="prefix">뜻~</comp>
+			<comp pos="n" type="prefix">문맥~</comp>
+			<comp pos="n" type="prefix">문제~</comp>
+			<comp pos="n" type="prefix">방정식~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>사전에는 그 단어가 항상 수동형으로 쓰인다고 ~가 되어 있다.</eg>
+				<trans>explanation</trans>
+				<trans>interpretation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>행위</sem_class>
+				<lr>
+					<syn type="etc">설명</syn>
+					<syn type="etc">해석</syn>
+					<ant type="temp"></ant>
+					<hyper>행위</hyper>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 자세하다</comb_aj>
+				<comb_aj type="appr">~가 상세하다</comb_aj>
+				<comb_aj type="appr">~가 어렵다</comb_aj>
+				<comb_aj type="appr">~가 쉽다</comb_aj>
+				<comb_aj type="appr">~가 복잡하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-를|에대해 Z-로 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-를|에대해 S고 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 S고 ~가 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>S-다는 X-의 Y ~</max_n_str>
+				<max_n_str>S-다는 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<sel_rst arg="Z">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+				<s_n>다는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>시간이 부족하니까 그 문제의 ~는 다음 시간에 해 줄게.</eg>
+				<trans>explanation</trans>
+				<trans>solution</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>행위</sem_class>
+				<lr>
+					<syn type="etc">해</syn>
+					<ant type="temp"></ant>
+					<hyper>설명</hyper>
+					<rel>문제</rel>
+					<rel>설명</rel>
+					<rel>수식</rel>
+					<rel>해법</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 자세하다</comb_aj>
+				<comb_aj type="appr">~가 상세하다</comb_aj>
+				<comb_aj type="appr">~가 복잡하다</comb_aj>
+				<comb_aj type="appr">~가 어렵다</comb_aj>
+				<comb_aj type="appr">~가 쉽다</comb_aj>
+				<comb_n type="compound">문제 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 ~가 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">추상적대상(수학적대상|물리학적대상|문제)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S다는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

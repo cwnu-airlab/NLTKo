@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>균</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/14</cre_date>
+				<cre_writer>박동호</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/08</mod_date>
+				<mod_writer>김현승</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/12</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/20</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>센스1,2 syn 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2008/08/11</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/09/14(박동호)</note>
+			<note>2002/09/28(이성헌)sense2 eg의 형식오류 수정(~)</note>
+			<note>2003/10/08(김현승)</note>
+			<add>~ 배양|보균자</add>
+			<add>~에 감염되다</add>
+			<add>~을 죽이다</add>
+			<add>결핵|콜레라 ~</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="lng">세균</var>
+			<str type="temp"></str>
+			<org lg="si">菌</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~류</comp>
+			<comp pos="n" type="prefix">콜레라~</comp>
+			<comp pos="n" type="prefix">결핵~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 나쁜 ~에 감염되어 병에 걸렸다.</eg>
+				<trans>disease-causing germs</trans>
+				<trans>disease-causing bacteria</trans>
+				<domain>의학</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>미생물</sem_class>
+				<lr>
+					<syn type="perfect">병균</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 감염되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">마리</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>박테리아는 부패를 일으키는 ~이다.</eg>
+				<trans>bacilli</trans>
+				<trans>bacteria</trans>
+				<trans>germ</trans>
+				<trans>microbe</trans>
+				<domain>생물</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>미생물</sem_class>
+				<lr>
+					<syn type="perfect">세균</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 배양</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">마리</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

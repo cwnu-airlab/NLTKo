@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>차단되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/22</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/09/11</mod_date>
+				<mod_writer>조원형</mod_writer>
+				<mod_note>정보확장</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">차단이 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<org lg="si">遮斷_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be intercepted</trans>
+				<trans>isolated</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">현상(햇빛|열|소음)|기체(연기|가스)|액체</sel_rst>
+					<sel_rst arg="Y" tht="INS">구체인공물(커튼|차단벽|문)</sel_rst>
+					<eg>강한 햇빛이 커텐으로 차단되었다.</eg>
+					<eg>집중을 하기 위해서 학교에는 차동차 소음이 차단되는 시설이 필요하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소(길|건물|지역)</sel_rst>
+					<sel_rst arg="Y" tht="INS">(바리케이트|차량)</sel_rst>
+					<eg>화재가 난 길은 교통순경에 의해 차단되었다.</eg>
+					<eg>중부지역이 핵물질로 오염된 이 지역은 차단된 지 오래다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">대칭적행위(연락|교류|접촉|교통)</sel_rst>
+					<sel_rst arg="Y" tht="INS">사태(방해|파업|사고|추락)</sel_rst>
+					<eg>부대장에 의해 외부와의 모든 연락이 차단되었다.</eg>
+					<eg>아무리 북한이라 하더라도 외국과의 교류가 더 이상 차단될 수 없을 것이다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-와 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="COM">(외부|바깥|주위)</sel_rst>
+					<eg>황씨는 안기부에 의해 외부와 차단됐다.</eg>
+					<eg>죄수들은 빈틈없이 바깥과 차단되어 불만이 쌓여갔다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">건물(아파트|빌딩|상가)</sel_rst>
+					<sel_rst arg="Y" tht="COM">건물(아파트|빌딩|상가)</sel_rst>
+					<eg>오염으로 인해 아파트와 빌딩이 차단되었다.</eg>
+					<eg>주차장과 공터가 문화행사때문에 차단됐다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">길(오솔길|지름길|도로)</sel_rst>
+					<sel_rst arg="Y" tht="COM">길(오솔길|지름길|도로)</sel_rst>
+					<eg>눈이 많이 쌓여 오솔길과 등산로가 차단되었다.</eg>
+					<eg>마라톤 경기 때문에 광화문 대로와 태평로가 차단되었다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="etc"></col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+	</entry>
+</superEntry>

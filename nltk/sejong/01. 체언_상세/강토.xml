@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>강토</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/05/13</cre_date>
+				<cre_writer>이홍식</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/30</mod_date>
+				<mod_writer>이홍식</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/21</mod_date>
+				<mod_writer>김천학</mod_writer>
+				<mod_note>syn type수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/30</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/25</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>잘못된 문형, 선택제약 삭제, 동사결합 추가</mod_note>
+				<mod_note>동사결합, 분류사 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/19</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_aj 기술</mod_note>
+				<mod_note>n_v 추가</mod_note>
+			</mod>
+			<note>2003/06/30(이홍식)cl의 '곳|군데' 정보 uni로 이동</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">疆土</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>아름다운 ~를 깨끗이 보호하자.</eg>
+				<trans>territory</trans>
+				<sem_class>지역</sem_class>
+				<lr>
+					<syn type="etc">강우</syn>
+					<syn type="etc">경토</syn>
+					<syn type="etc">양지</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" >~가 비옥하다</comb_aj>
+				<comb_aj type="appr" >~가 아름답다</comb_aj>
+				<comb_aj type="appr" >~가 광활하다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 가꾸다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 보호하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 지키다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 파괴하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

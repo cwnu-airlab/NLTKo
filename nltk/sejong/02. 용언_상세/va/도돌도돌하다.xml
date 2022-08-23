@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>도돌도돌하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/29</cre_date>
+				<cre_writer>김현권</cre_writer>
+				<cre_writer>조현경</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/08/29</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/08/18</mod_date>
+				<mod_writer>박보연</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc">두둘두둘하다</var>
+			<var type="etc">도톨도톨하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>촉감속성값</sem_class>
+				<trans>uneven</trans>
+				<trans>lumpy</trans>
+				<lr>
+					<syn type="perfect">올록볼록하다</syn>
+					<ant type="grad">고르다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">관계구체물(껍데기|표면|피부)</sel_rst>
+					<eg>순이는 뭘 잘못 먹엇는지 하룻밤 사이 얼굴이 도돌도돌해졌다.</eg>
+					<eg>도돌도돌한 마룻바닥재가 아이를 기르는 집에서는 안 좋다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

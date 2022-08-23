@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>명분</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/06/15</cre_date>
+				<cre_writer>이병규</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/20</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/01</mod_date>
+				<mod_writer>김천학</mod_writer>
+				<mod_note>add 옮김</mod_note>
+			</mod>
+			<note>2002/06/15(남길임)</note>
+			<note>2002/06/22(이성헌)note의 내용을 add로 이동</note>
+			<note>2002/08/02(김종명)</note>
+			<note>2003/06/05(김미현)add의 내용에 있던 동사자유구성들을 센스에 따라 분할하여 재기술 및 추가</note>
+			<note>센스 2</note>
+			<note>예문 추가</note>
+			<note>pre_s에 'S다는' 추가</note>
+			<note>센스 2에 기능동사 '있다|없다' 구문 기술</note>
+			<note>2003/08/20(고길수)add의 '</note>
+			<note>' 기호 수정</note>
+			<note>센스1의 예문 수정, 표준사전 예문이 그대로 들어있었음</note>
+			<note>영어대역어에서 'one's' 삭제함, 들어있을 필요가 없음</note>
+			<note>의미부류를 '속성'에서 '규범'으로 수정, '속성'부류는 '~을 지키다'와 같은 결합이 불가능함</note>
+			<note>센스2의 예문 수정</note>
+			<note>동의어 추가</note>
+			<note>단위표현 추가</note>
+			<note>comb_aj 정보 추가</note>
+			<note>센스2의 기능동사의 'X-는 Y-에대해 ~이 있다|없다, X-에게 S다는 ~이 있다|없다'는 삭제하고, '~이 있다|없다'는 comb_aj에 추가함</note>
+			<add>2003/06/05(김미현)센스 1, ~을 지키다|중요시하다, 센스 2, ~이 서다, ~을 내세우다|찾다|세우다</add>
+			<add>2003/06/05(김미현)센스 1, ~을 지키다|중요시하다, 센스 2, ~이 서다, ~을 내세우다|찾다|세우다</add>
+			<add>동사결합으로 '~을 찾다'</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">名分</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>예로부터 우리나라 사람들은 물질이나 이득보다는 ~을 중시하였다.</eg>
+				<trans>moral obligations</trans>
+				<trans>moral justification</trans>
+				<trans>moral duty</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>규범</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 찾다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그들은 공익을 추구한다는 ~으로 파업을 강행했다.</eg>
+				<eg>나는 선생님께 전화할 ~이 없었다.</eg>
+				<trans>excuse</trans>
+				<trans>pretext</trans>
+				<trans>pretense</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>이유</sem_class>
+				<lr>
+					<syn>이름</syn>
+					<syn>명목</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 있다</comb_aj>
+				<comb_aj type="appr">~이 없다</comb_aj>
+				<comb_aj type="appr">~이 합당하다</comb_aj>
+				<comb_aj type="appr">~이 적절하다</comb_aj>
+				<comb_aj type="appr">~이 온당하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S다는  ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

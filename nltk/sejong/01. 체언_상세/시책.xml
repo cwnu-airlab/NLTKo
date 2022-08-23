@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>시책</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/21</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/20</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/27</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>논항명사구, 선택제약 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/08</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/05/21(이호영)</note>
+			<note>2002/08/28(김종명)</note>
+			<note>2003/09/07(최지임)</note>
+			<note>2003/09/20(고길수)노트 표기법 수정;단위표현에 '개' 추가;명사 연어 정보 추가;pre_s 정보 추가</note>
+			<add>~에 동참하다|따르다|어긋나다</add>
+			<add>~을 마련하다|수행하다|펴다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">施策</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>중소기업의 육성을 위하여 시급히 ~을 마련해야 합니다.</eg>
+				<trans>policy</trans>
+				<trans>measure</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>방법</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">개발 ~</comb_n>
+				<comb_n type="compound">육성 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 마련하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 S것-에대한 ~</max_n_str>
+				<max_n_str>S것-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">사태</sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

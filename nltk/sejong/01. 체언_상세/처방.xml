@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>처방</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/19</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/13</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/04</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>동사결합 "~을 받다" 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/27</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1의 의미부류를 '언어행위'에서 수정;동사결합, 논항 명사구 정보 수정;센스3의 동사결합에서 '~을 하다' 삭제;논항 명사구 정보 수정;논항 의미정보 수정</mod_note>
+			</mod>
+			<note>2001/08/11(김종명, 이성헌, 고길수)</note>
+			<note>파생어 정보 제시, sense1 기능동사 정보, 최대논항 명사구 정보 수정, sense2 유의어 정보 수정, 단위표현 추가, sense3 의미부류 수정, 기능동사, 최대논항명사구 정보 수정, 선택제약 정보 추가, 수식어-문장 정보 제시</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">處方</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~전</der>
+			<comp pos="n" type="suffix">~조제</comp>
+			<comp pos="n" type="suffix">~약</comp>
+			<comp pos="n" type="prefix">임시~</comp>
+			<comp pos="n" type="prefix">응급~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~받다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>의사의 ~을 받아 약을 사러 갔다</eg>
+				<trans>prescripton</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>의사</rel>
+					<rel>약</rel>
+					<rel>약국</rel>
+					<rel>조제</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred -->
+					<form vcompound="no">~을 내리다</form>
+					<frame></frame>
+				</comb_v>
+				<!-- n_v type="narg_vpred">
+					<form vcompound="no">~을 받다</form>
+					<frame></frame>
+				</n_v -->
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred -->
+					<form vcompound="no">~을 따르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred -->
+					<form vcompound="no">~을 잘못하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Z-에게 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<!-- frame>Z-이 X-에게|에서|에게서 Y-을 ~을 받다</frame -->
+					<frame>Z-이 X-에게 Y-을 ~을 받다</frame>
+					<frame>Z-이 X-에게서 Y-을 ~을 받다</frame>
+					<frame>Z-이 X-에서 Y-을 ~을 받다</frame>
+				</comb_v>
+				<max_n_str>Z-에대한 X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>Z-에대한 Y-의 ~</max_n_str>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<sel_rst arg="X">인간(의사)|인간집단(병원)</sel_rst>
+				<sel_rst arg="Y">약</sel_rst>
+				<sel_rst arg="Z">인간(환자)|질병및증세|전염병</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>의사가 써준 ~을 들고 약국에 갔다</eg>
+				<trans>prescription</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>텍스트</sem_class>
+				<lr>
+					<syn type="etc">~전</syn>
+					<ant type="temp"></ant>
+					<rel>의사</rel>
+					<rel>약</rel>
+					<rel>약국</rel>
+					<rel>조제</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<!-- n_v type="narg_vpred">
+					<form vcompound="no">~대로 조제하다</form>
+					<frame></frame>
+				</n_v -->
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 적다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 읽다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 찢다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 쓰다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">장</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>그 사태에 대하여 그들은 기막힌 ~을 내놓았다</eg>
+				<trans>recipe</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>방법</sem_class>
+				<lr>
+					<syn type="etc">해결책</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<!-- n_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Z-에게 Y|S것-에대해 S라고 ~을 하다</frame>
+				</n_v -->
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 내다</form>
+					<frame></frame>
+				</comb_v>
+				<!-- max_n>Y|S것-에대한 X-의 S라는 ~</max_n -->
+				<max_n_str>Y-에대한 X-의 ~</max_n_str>
+				<max_n_str>S것-에대한 X-의 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>S것-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">행위|사건</sel_rst>
+				<!-- sel_rst arg="Z">인간|인간집단</sel_rst -->
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S라는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

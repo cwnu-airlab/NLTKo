@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>풍취</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/16</cre_date>
+				<cre_writer>서진숙</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/12</mod_date>
+				<mod_writer>서진숙</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>대역어 기술;의미부류 '구체자연물'을 '속성값'으로 수정;n_aj의 '있다'를 n_v로 이동;n_v 추가;max_n, sel_rst 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/01</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/02/15</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note>동의어 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>의미부류를 나누기가 어렵습니다. 상태로 할 지..자연물로 할 지..</note>
+			<add>~가 감돌다</add>
+			<add>~를 돋우다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">風趣</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>10월의 숲에서는 가을의 ~가 물씬 풍기고 있었다.</eg>
+				<trans>taste</trans>
+				<trans>flavor</trans>
+				<trans>elegance</trans>
+				<sem_class>속성값</sem_class>
+				<lr>
+					<syn type="etc">풍치</syn> <!--타입값 추가(미현)-->
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 멋스럽다</comb_aj><!--ㅡmagn에서 수정(김이정)-->
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 있다</form>
+					<frame>X-이 ~가 있다</frame>
+					<frame>X-에게 ~가 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 없다</form>
+					<frame>X-이 ~이 없다</frame>
+					<frame>X-에게 ~이 없다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 감돌다</form>
+					<frame>X-이 ~가 감돌다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 풍기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 느끼다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">온</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

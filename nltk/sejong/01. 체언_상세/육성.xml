@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>육성</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/09</cre_date>
+				<cre_writer>이성헌</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/09</mod_date>
+				<mod_writer>이성헌</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/23</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note>을 하다, 을 시키다, 이 되다 보충</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note>조사수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/29</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>합성어 제시</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">育成</org>
+		
+			<hom exist="yes"/>
+			<comp pos="n" type="suffix">~책</comp>
+			<comp pos="n" type="suffix">~회</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>교육부는 기초학문의 ~을 위한 대책을 시급히 마련해야 한다.</eg>
+				<trans>development</trans>
+				<sem_class>지속적활동</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>X-이 Y-을 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에의해 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">학문과목|제도|산업|분야</sel_rst>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>나라의 장래를 위해서는 학문후속 세대의 ~이 정말 중요하다.</eg>
+				<eg>강연에서 연사는 참된 시민의 ~을 누차 강조하였다.</eg>
+				<trans>upbringing</trans>
+				<sem_class>지속적활동</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 ~이 되다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">긍정적속성인간|역할인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/09</cre_date>
+				<cre_writer>이성헌</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/09</mod_date>
+				<mod_writer>이성헌</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/23</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note>수정보완된정보없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note>조사수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/29</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>n_n 추가</mod_note>
+				<mod_note>add 정보를 n_v 구획으로 옮긴 후 삭제</mod_note>
+				<mod_note>cl 수정</mod_note>
+			</mod>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">肉聲</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>피납자의 ~이 담긴 테이프가 경찰서로 배달되었다.</eg>
+				<trans>live voice</trans>
+				<sem_class>소리</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">힘찬 ~</comb_aj>
+				<comb_aj type="magn">굵은 ~</comb_aj>
+				<comb_aj type="magn">가는 ~</comb_aj>
+				<comb_n type="compound">~ 테이프</comb_n>
+				<comb_n type="compound">~ 증언</comb_n>
+				<comb_v type="narg_vpred">
+					<form>~을 듣다</form>
+				</comb_v>
+				<cl type="div">마디</cl> <!--uni를 div로 수정(송근영)-->
+				<av>~으로</av>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

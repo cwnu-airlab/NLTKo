@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>침식당하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/16</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>곽새라</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/07/10</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">침식을 당하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<org lg="si">侵蝕當_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be eroded</trans>
+				<trans>be worn out</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="EFF">약(산)</sel_rst>
+					<eg>실수로 염산을 쏟아서 염산에 반지가 침식당해 보기 싫어졌다.</eg>
+					<eg>대리석이 잘못 쏟은 산에 침식당해서 구멍까지 났다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">지상장소|광물</sel_rst>
+					<sel_rst arg="Y" tht="EFF">물장소|기상현상</sel_rst>
+					<eg>한려수도의 절경은 바위섬이 바닷물에 침식당해서 생겨난 것이다.</eg>
+					<eg>강가가 강물에 침식당해서 생겨난 것이 우각호다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be gloomy</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">심리상태</sel_rst>
+					<sel_rst arg="Y" tht="EFF">심리상태</sel_rst>
+					<eg>게으름에 정신이 침식당하니까 이런 일이 생기는 거다.</eg>
+					<eg>내 기분은 추억에 침식당해 우울해졌다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

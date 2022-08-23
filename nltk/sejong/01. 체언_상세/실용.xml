@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>실용</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/22</cre_date>
+				<cre_writer>박동호</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/13</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/26</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+				<mod_note>comp '~파'추가</mod_note>
+				<mod_note>eg '치레보다는 ~을 생각해서 물건을 사라.'</mod_note>
+				<mod_note>av '~적으로'추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/21</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/23</note>
+			<note>2003/01/10(김이정) 의미부류 '긍정적속성'을 '속성'으로 수정</note>
+			<note>comb_v의 내용 add로 이동</note>
+			<note>supv와 sel_res 기술</note>
+			<note>2003/01/13(남길임)</note>
+			<note>2003/01/13(김이정)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">實用</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~화</der>
+			<comp pos="n" type="suffix">~성</comp>
+			<comp pos="n" type="suffix">~주의</comp>
+			<comp pos="n" type="suffix">~품</comp>
+			<comp pos="n" type="suffix">~신안</comp>
+			<comp pos="n" type="suffix">~파</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~ 학문에 대한 관심이 나날이 증대되고 있다.</eg>
+				<eg>치레보다는 ~을 생각해서 물건을 사라.</eg>
+				<trans>practical use</trans>
+				<trans>utility</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">이론</ant>
+					<coord>이론</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 겸하다</form>
+					<frame>Y-이 ~을 겸하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">추상적대상</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av>~적으로</av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

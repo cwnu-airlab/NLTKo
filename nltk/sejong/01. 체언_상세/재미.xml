@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>재미</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/06/30</cre_date>
+				<cre_writer>신중진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/13</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/13</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note>n_v type 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/30</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>동형어정보 수정, 어근에 '在美'가 있음;센스1의 논항 명사구, 논항 의미정보 수정;수식어 명사 정보 삭제;센스2의 의미부류 수정;동사결합 정보 수정;논항 명사구 수정 및 보완;논항 의미정보 추가;명사 수식어 정보 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/15</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/09/07(김종명)</note>
+			<note>2003/01/10(서진숙)</note>
+			<note>2003/01/13(이성헌)센스를 '속성값(센스1)'과 '긍정적 감정(센스2)'으로 분할</note>
+			<note>add의 '~가 각별하다|좋다|적다|쏠쏠하다|톡톡하다'를 센스1과 2의 magn로 이동 기재</note>
+			<note>add의 '가  나다</note>
+			<note>sel_res항 보완</note>
+			<note>~를 느끼다'를 센스2의 comb_v로 이동</note>
+			<note>센스1의 'X가 Y가 있다|없다'를 X-이 ~가 있다|없다'로 수정</note>
+			<note>센스2 기술</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~ㅅ거리</der>
+			<der pos="a" type="suffix">~롭다</der>
+			<der pos="a" type="suffix">~스럽다</der>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~를 보다</idm>
+			<idm type="nv">~를 붙이다</idm>
+			<idm type="prv">~는 누가 보고 성은 누구한테 내느냐</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>조정래의 소설은 ~가 있다.</eg>
+				<eg>네가 유학을 가면 무슨 ~로 살지?</eg>
+				<trans>interest</trans>
+				<trans>satisfaction</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>속성값</sem_class>
+				<lr>
+					<syn type="etc">흥미</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 각별하다</comb_aj>
+				<comb_aj type="appr">~가 좋다</comb_aj>
+				<comb_aj type="min">~가 적다</comb_aj>
+				<comb_aj type="appr">~가 쏠쏠하다</comb_aj>
+				<comb_aj type="appr">~가 톡톡하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 있다</form>
+					<frame>X-이 S는 ~가 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 없다</form>
+					<frame>X-이 S는 ~가 없다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<!-- Y-에 대한 삭제 -->
+				<sel_rst arg="X">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av>~로</av>
+				<pre_d/>
+				<!-- pre_n>N-(의)</pre_n -->
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>영희가 공부에 ~를 느끼고 있다.</eg>
+				<trans>interest</trans>
+				<trans>satisfaction</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>외향적심리상태</sem_class>
+				<lr>
+					<syn type="etc">흥미</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~가 각별하다</comb_aj>
+				<comb_aj type="magn">~가 좋다</comb_aj>
+				<comb_aj type="magn">~가 적다</comb_aj>
+				<comb_aj type="magn">~가 쏠쏠하다</comb_aj>
+				<comb_aj type="magn">~가 톡톡하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+				<!-- narg_vpred -->
+					<form vcompound="no">~를 느끼다</form>
+					<frame>X-이 Y-에 S는 ~를 느끼다</frame>
+					<frame>X-이 S것-에 S는 ~를 느끼다</frame>
+					<frame>X-이 S기-에 S는 ~를 느끼다</frame>
+					<frame>X-이 S데-에 S는 ~를 느끼다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+				<!-- narg_vpred -->
+					<form vcompound="no">~가 나다</form>
+					<frame>X-이 Y-에 S는 ~가 나다</frame>
+					<frame>X-이 S것-에 S는 ~가 나다</frame>
+					<frame>X-이 S기-에 S는 ~가 나다</frame>
+					<frame>X-이 S데-에 S는 ~가 나다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 S는 ~</max_n_str>
+				<max_n_str>X-의 S것-에대한 S는 ~</max_n_str>
+				<max_n_str>X-의 S기-에대한 S는 ~</max_n_str>
+				<max_n_str>X-의 S데-에대한 S는 ~</max_n_str>
+				<max_n_str>Y-의 S는 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av>~로</av>
+				<pre_d/>
+				<!-- pre_n>N-(의)</pre_n -->
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

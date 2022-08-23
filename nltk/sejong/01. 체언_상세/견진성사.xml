@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>견진성사</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/05/08</cre_date>
+				<cre_writer>남길임</cre_writer>
+				<cre_note>복합어로서의 지위가 의심스러움</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/08</mod_date>
+				<mod_writer>남길임</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/22</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/22</mod_date>
+				<mod_writer>임근석</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/28</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="abb">견진</var>
+			<var type="spr">견진 성사</var>
+			<str type="N_N">견진+성사</str>
+			<org lg="si">堅振聖事</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 이번 주에 성당에서 ~를 받았다.</eg>
+				<trans>sacrament of confirmation</trans>
+				<domain>가톨릭</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>종교및의례행위</sem_class>
+				<lr>
+					<syn type="etc">견신(堅信)</syn>
+					<ant type="temp"></ant>
+					<hyper>성사(聖事)</hyper>
+					<hyper>칠성사(七聖事)</hyper>
+					<coord>성세성사</coord>
+					<coord>고백성사</coord>
+					<coord>병자성사</coord>
+					<coord>성체성사</coord>
+					<coord>신품성사</coord>
+					<coord>혼인성사</coord>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 엄숙하다</comb_aj>
+				<comb_aj type="appr">~가 경건하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 베풀다</form>
+					<frame>X-이 Y-에게 ~를 베풀다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~를 하다</form>
+					<frame>X-이 Y-에게 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~를 주다</form>
+					<frame>X-이 Y-에게 ~를 주다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~를 받다</form>
+					<frame>Y-이 ~를 받다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">종교역할인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

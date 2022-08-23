@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>강요받다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/18</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/18</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/09/18</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>빠진 선택제약 영역 삽입</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">강요를 받다</var>
+			<org lg="si">强要_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be subjected to enforcement</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="GOL">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(원칙|속성|의무|애국심)|사태(희생|경쟁|생활|침묵)</sel_rst>
+					<eg>대중의 불만을 공공연하게 말하는 사람은 제거되거나 정부로부터 침묵을 강요받았다.</eg>
+					<eg>신앙의 자유가 보장된 헌법하에서 대통령이라고 해서 종교생활에 부자유를 강요받는 것은 옳지 않다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="GOL">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것|S기</sel_rst>
+					<eg>물질적인 생활 방식을 향상시키기 위하여, 우리는 외부 세계에 대한 지식을 넓히기를 강요받는다.</eg>
+					<eg>전제군주제도 하에서는 모든 백성은 왕에게 목숨을 바쳐 충성을 다할 것을 강요받았다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=S1-도록 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="PUR">S것|S기</sel_rst>
+					<eg>나그네들도 샛길로 지나가도록 강요받았다.</eg>
+					<eg>우리는 집을 비우도록 강요받았지만 비워주지 않았다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=S1-라고 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="CNT"></sel_rst>
+					<eg>그 젊은 유산상속자는 아버지의 기업을 떠 맡으라고 강요받았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

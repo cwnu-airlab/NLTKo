@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>오염</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/10/07</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/28</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/06</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note>n_v 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/01/11</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>수정사항없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 수정, 동사결합 추가</mod_note>
+				<mod_note>문형 띄어쓰기 수정</mod_note>
+			</mod>
+			<note>2000/10/08(김종명)</note>
+			<note>2001/01/31(고길수)</note>
+			<note>2003/03/23(류병률)</note>
+			<note>2003/03/28(김종명)</note>
+			<note>comb_v를 add의 값으로 변환</note>
+			<note>entry하위의 sense별 구분은 세미콜론 | 로</note>
+			<note>기능동사에서 ‘하다’구문 삭제</note>
+			<note>최대논항구조 추가 수정</note>
+			<note>하위어 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">汚染</org>
+			<hom exist="temp"></hom>
+			<comp pos="n" type="suffix">~도</comp>
+			<comp pos="n" type="suffix">~물</comp>
+			<comp pos="n" type="suffix">~원</comp>
+			<comp pos="n" type="prefix">공기~</comp>
+			<comp pos="n" type="prefix">대기~</comp>
+			<comp pos="n" type="prefix">수질~</comp>
+			<comp pos="n" type="prefix">환경~</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>화석 연료로 인한 공기 ~이 심각한 상태이다.</eg>
+				<trans>polution</trans>
+				<trans>contamination</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>상태변화</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>상태</hyper>
+					<hypo>공기</hypo>
+					<hypo>토양</hypo>
+					<hypo>수질</hypo>
+					<hypo>환경</hypo>
+					<hypo>생태계~</hypo>
+					<rel>폐수</rel>
+					<rel>매연</rel>
+					<rel>쓰레기</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 심각하다</comb_aj>
+				<comb_n type="compound">~ 물질</comb_n>
+				<comb_n type="compound">~ 상태</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에의해 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>X-이 Y-을 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 막다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 예방하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-에의한 Y- ~</max_n_str>
+				<max_n_str>X-에의한 Y-의 ~</max_n_str>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|(매연|쓰레기|폐수|하수)</sel_rst>
+				<sel_rst arg="Y">구체자연물(공기|물|자연)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>눈꼴</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/15</cre_date>
+				<cre_writer>이상규</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/04</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/06</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>org 정보 추가</mod_note>
+				<mod_note>예문 형식 수정</mod_note>
+				<mod_note>syn 속성값 수정</mod_note>
+			</mod>
+			<note></note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<str type="N_N">눈+꼴</str>
+		
+			<comp pos="a" type="suffix">~사납다</comp>
+			<comp pos="a" type="suffix">~시다</comp>
+			<comp pos="a" type="suffix">~틀리다</comp>
+		</morph_grp>
+		<idm_grp>
+			<idm type="na">~이 사납다</idm>
+			<idm type="na">~이 시다</idm>
+			<idm type="nv">~이 나다</idm>
+			<idm type="nv">~이 틀리다</idm>
+			<idm type="etc">~ 사나이</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>돈 좀 벌었다고 우쭐대는 모습이라니, 정말 ~시어서 못봐주겠구나.</eg>
+				<eg>그 사람 ~을 보아 하니 성깔 꽤나 있어 보이더군.</eg>
+				<trans>looks of eye</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>모양속성값</sem_class>
+				<lr>
+					<syn type="sino">안상</syn>
+					<rel>성깔</rel>
+					<rel>인상</rel>
+					<rel>표정</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 험하다</comb_aj>
+				<comb_aj type="magn">~이 무섭다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

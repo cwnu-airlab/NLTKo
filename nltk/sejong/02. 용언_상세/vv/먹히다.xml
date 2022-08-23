@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>먹히다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/05/17</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/06</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note>센스 추가 및 재조정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>V.히2</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be eaten</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>Y=N1-에게는|이 X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">자연음식물|음식</sel_rst>
+					<sel_rst arg="Y" tht="EXP">인간</sel_rst>
+					<eg>더위를 먹었는지 나는 밥이 먹히지 않는다고 했다.</eg>
+					<eg>그는 죽은 겨우 조금 먹힌다고 한다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">액체</sel_rst>
+					<sel_rst arg="Y" tht="EXP">인간</sel_rst>
+					<eg>그는 지나친 스트레스로 물 한 모금 먹히지 않는다고 했다.</eg>
+					<eg>날씨 때문인지 물만 먹힌다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>get eaten</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">동물</sel_rst>
+					<sel_rst arg="Y" tht="AGT">동물</sel_rst>
+					<eg>약한 동물은 강한 동물에게 먹히게 마련이다.</eg>
+					<eg>달아나던 새앙쥐가 결국 고양이에게 먹혀 버렸다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>소멸</sem_class>
+				<trans>be taken away</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간집단</sel_rst>
+					<sel_rst arg="Y" tht="AGT">인간집단</sel_rst>
+					<eg>당시 선각자들 사이에는 이 나라가 강국에 먹혀 버리는 처지가 될 지도 모른다는 우려의 목소리가 높았다.</eg>
+					<eg>이런 경제 구조 하에서는 어쩔 도리 없이 중소기업들은 하나 둘 대기업들에게 먹혀 갈 것이다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N1-에|에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="GOL">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<sel_rst arg="Z" tht="AGT">인간집단</sel_rst>
+					<eg>결국 그는 재벌 기업에 회사를 먹히고 말았다.</eg>
+					<eg>조선은 일본에게 제 나라를 먹히고 말았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be defiled</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="AGT">인간</sel_rst>
+					<eg>그 여자는 결국 그 놈에게 먹히고 말았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>be consumed</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>Y=N1-에|이 X=N0-이 Adv V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(연료|전기|가스)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">교통기관|기기</sel_rst>
+					<sel_rst arg="Adv">(많이|제법|조금)</sel_rst>
+					<eg>저 차는 힘도 있고 보기도 좋지만 기름이 너무 많이 먹히는게 흠이다.</eg>
+					<eg>아내는 새로 사 들인 대형 냉장고에 전기료가 많이 먹힌다고 걱정이다.</eg>
+					<eg>이 프린터에는 생각보다 잉크가 많이 먹힌다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="06">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>cost</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>Y=N1-에|이 X=N0-이 Adv V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">비용</sel_rst>
+					<sel_rst arg="Y" tht="LOC">사태</sel_rst>
+					<sel_rst arg="Adv">(많이|제법|조금)</sel_rst>
+					<eg>이번 신제품 개발에 자금이 많이 먹혔습니다.</eg>
+					<eg>가능하다면 자본금이 조금 먹히는 사업을 시작해야겠지요.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">비용</sel_rst>
+					<sel_rst arg="Y" tht="LOC">S것|S데</sel_rst>
+					<sel_rst arg="Adv">(많이|제법|조금)</sel_rst>
+					<eg>아이들을 가르치는 데에 돈이 그렇게 많이 먹히는 줄 몰랐다.</eg>
+					<eg>이번 행사를 치르는 데에 비용이 얼마나 먹혔을 것 같습니까?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="07">
+			<sem_grp>
+				<sem_class>변형</sem_class>
+				<trans>be abosored</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 Adv V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">액체</sel_rst>
+					<sel_rst arg="Y" tht="LOC">(종이)</sel_rst>
+					<sel_rst arg="Adv">(잘)</sel_rst>
+					<eg>화선지에 먹물이 알맞게 먹혀 있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(화장)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">신체부위(얼굴|피부)</sel_rst>
+					<sel_rst arg="Adv">(잘)</sel_rst>
+					<eg>화장이 얼굴에 잘 먹혀 들었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="08">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>be accepted</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상|사태</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간|인간집단</sel_rst>
+					<eg>내 충고가 그에겐 전혀 먹히지 않은 듯 하다.</eg>
+					<eg>그런 식의 제안이 대기업들에 먹힐 리 없다.</eg>
+					<eg>네 속임수가 그들에게 먹히기나 할거라고 생각하니?</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간|인간집단</sel_rst>
+					<eg>간절히 사정하고 매달리는 것이 그에겐 전혀 먹히지 않을 듯 하다.</eg>
+					<eg>사회 평등을 강조하며 임금 인상을 요구하는 것이 대기업들에 먹힐 리 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="09">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>be hit wrong</trans>
+				<domain>운동</domain>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(타구|공)</sel_rst>
+					<eg>타구가 완전히 먹혔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<idm_grp>
+			<idm>씨|씨알이 먹히다</idm>
+		</idm_grp>
+	</entry>
+</superEntry>

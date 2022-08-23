@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>칠하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/14</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/05</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 정보 수정</mod_note>
+				<mod_note>trans 정보 추가</mod_note>
+			</mod>
+			<note>2003/03/15(박영준)</note>
+			<note>2003/10/14(한선혜)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">칠을 하다</var>
+			<str>N.하</str>
+			<org lg="si">漆_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>장식행위</sem_class>
+				<trans>paint</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체인공물(벽|자동차)</sel_rst>
+					<sel_rst arg="Z" tht="INS">(색|칠)</sel_rst>
+					<eg>철수는 벽을 붉은색으로 칠했다.</eg>
+					<eg>김씨는 칠이 벗겨진 부분을 같은 색으로 감쪽같이 칠했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(색|칠)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">구체인공물(벽|자동차)</sel_rst>
+					<eg>철수는 하얀색 벽에 붉은 색을 칠했다.</eg>
+					<eg>김씨는 주황색이 벗겨진 부분에 짙은 붉은색을 칠해 보았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>상극</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/21</cre_date>
+				<cre_writer>김진형</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/07</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/28</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>최대논항구조정보추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/27</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>최대논항구조 삭제;n_aj 수정;frame 추가</mod_note>
+			</mod>
+			<note>2002/10/09(고길수)예문에 '성격이 ~이다' 추가</note>
+			<note>2003/06/05(한동훈)어원 정보 수정</note>
+			<note>2003/07/07(김미현)</note>
+			<note>~이다' 구문 삭제</note>
+			<note>~이다'구문이 삭제가 되어있지 않아서 삭제</note>
+			<note>기능동사에서 'X-와 Y-이 ~이 되다</note>
+			<note>영어대역어 수정</note>
+			<note>의미부류를 '관계추상적대상'에서 '관계속성값'으로 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">相剋</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>개와 원숭이는 서로 ~이다.</eg>
+				<eg>그 둘은 성격이 ~이라 좀처럼 어울리지를 못한다.</eg>
+				<trans>incompatability</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>관계속성값</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">완전한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 Y-와 ~이 되다</frame>
+					<frame>X-와 Y-이 ~이 되다</frame>
+				</comb_v>
+				<!--vcompound: ~되다-->
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">구체자연물|추상적대상|장소</sel_rst>
+				<sel_rst arg="Y">구체자연물|추상적대상|장소</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>이월</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/09</cre_date>
+				<cre_writer>김현승</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/11</mod_date>
+				<mod_writer>김현승</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/28</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note>수정보완된정보없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/30</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_v 구획으로 옮긴 후 삭제</mod_note>
+				<mod_note>의미부류 수정</mod_note>
+				<mod_note>n_n 기술</mod_note>
+				<mod_note>동형어 정보 기술</mod_note>
+			</mod>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">二月</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~이 되면서 꽃샘 추위가 시작됐다.</eg>
+				<trans>February</trans>
+				<sem_class>달</sem_class> <!-- '시각단위'를 '달'로 수정(송근영)-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 초순</comb_n>
+				<comb_n type="compound">~ 중순</comb_n>
+				<comb_n type="compound">~ 하순</comb_n>
+				<comb_n type="compound">~ 초반</comb_n>
+				<comb_n type="compound">~ 중반</comb_n>
+				<comb_n type="compound">~ 후반</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 다가오다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 끝나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 시작되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 지나다</form>
+					<frame></frame>
+				</comb_v>
+				<av>~에</av>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/09</cre_date>
+				<cre_writer>김현승</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/11</mod_date>
+				<mod_writer>김현승</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/28</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note>을 하다/이 되다 보충, 최대논항구조추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note>frame분리;sel_rst"Z"추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/30</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>동사결합구획 정보 수정</mod_note>
+				<mod_note>최대논항구조 수정</mod_note>
+				<mod_note>선택제약정보 추가</mod_note>
+				<mod_note>합성어 기술</mod_note>
+				<mod_note>동형어 정보 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">移越</org>
+		
+			<hom exist="yes"/>
+			<comp pos="n" type="suffix">~액</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>업무의 ~을 원활하게 하기 위한 지침서가 만들어졌다.</eg>
+				<trans>carrying forward</trans>
+				<sem_class>방향성행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form><!--Z 논항 추가(송근영) -->
+					<frame>X-이 Y-을 Z-에게 ~을 하다</frame>
+					<frame>X-이 Y-을 Z-로 ~을 하다</frame>
+					<frame>Y-이 Y-을 Z-에 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 Z-로 ~이 되다</frame> <!--Z-으로 를 Z-로 로 수정(송근영) -->
+					<frame>Y-이 Z-에 ~이 되다</frame>
+					<frame>Y-이 Z-에게 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str> <!-- Y와 결합한 조사 삭제(송근영)-->
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">돈|역할|권리|사건</sel_rst>
+				<sel_rst arg="Z">인간|인간집단|미래</sel_rst> <!--'미래'부류 추가 -->
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

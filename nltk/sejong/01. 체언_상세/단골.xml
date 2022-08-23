@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>단골</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/06/11</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/22</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/04</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/22</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note>통사정보 삭제</mod_note>
+			</mod>
+			<note>2001/07/04(강범모,백인애)-일차교정</note>
+			<note>2001/07/04(강범모,백인애)-일차교정</note>
+			<note>2003/03/22(김종명)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="lng">~집</var>
+		
+			<comp pos="n" type="suffix">~집</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 사람은 우리 가게의 오랜 ~이다.</eg>
+				<trans>customer</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>인간</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+			   
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				  <cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+			</syn_grp>				
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>잘 가는 ~ 술집이 있는데, 가서 한 잔 하자.</eg>
+				<trans>favorite</trans>
+				<trans>frequent</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>상태</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+			</syn_grp>	
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>그 집은 우리와 늘 거래하는 ~이라, 물건을 싸게 준다.</eg>
+				<trans>customary</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>장소</sem_class>
+				<lr>
+					<syn type="etc">단골집</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+			    
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+			</syn_grp>			
+		</sense>
+	</entry>
+</superEntry>

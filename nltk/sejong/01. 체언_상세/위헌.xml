@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>위헌</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/17</cre_date>
+				<cre_writer>이지현</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/12</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/06</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_v에 기술</mod_note>
+				<mod_note>격틀정보 분리</mod_note>
+				<mod_note>ant 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/05/23(고길수)전문영역에 법률 추가</note>
+			<note>의미부류를 행위에서 상태로 수정</note>
+			<note>기능동사구문에 '~이 되다</note>
+			<note>~이다' 정보를 추가</note>
+			<note>2002/05/26(박동호)</note>
+			<note>2002/05/23(이지현)</note>
+			<note>2002/05/26(박동호)</note>
+			<note>2003/07/17(권오희)센스1의 comb_n을 add로 옮김</note>
+			<note>2003/08/12(이은경)</note>
+			<add>센스1의 명사결합 : ~ 여부|결정</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">違憲</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 법원의 판결은 ~ 판정을 받았다.</eg>
+				<trans>unconstitutionality</trans>
+				<domain>법률</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>상태</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="compl">합헌</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 결정</comb_n>
+				<comb_n type="compound">~ 여부</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+					<frame>S것-이 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 ~이다</frame>
+					<frame>S것-이 ~이다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">규범|행위</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

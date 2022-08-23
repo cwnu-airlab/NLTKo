@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>당하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/17</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/17</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/08/18</mod_date>
+				<mod_writer>박보연</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+				<mod_note>의미 정보 구획 내용 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">當_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>평가속성값</sem_class>
+				<trans>be suitable</trans>
+				<trans>be reasonable</trans>
+				<lr>
+					<syn type="perfect">합당하다</syn>
+					<syn type="kor">마땅하다</syn>
+					<ant type="compl">당치않다</ant>
+					<ant type="compl">부당하다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">온</sel_rst>
+					<eg>지금 그런 소리를 하는 것이 당하기나 한지 한번 생각해봐라.</eg>  <!--표제항에 맞게 예문 수정하였음-->
+					<eg>그런 당치도 않은 이야기를 하려면 당장 여기서 나가라.</eg>  <!--부정형이 축약되어 '당치않다'로 쓰이는 것도 가능한 것인지 검토 요망-->
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="manner3">않은</col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+	</entry>
+</superEntry>

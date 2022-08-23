@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>옥석</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/05</cre_date>
+				<cre_writer>최지임</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/06</mod_date>
+				<mod_writer>최지임</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/23</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note>수정및보충내용없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/03</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/29</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 유의어, 동사결합 정보 구획으로 이동 후 삭제</mod_note>
+				<mod_note>센스2 의미부류 수정</mod_note>
+				<mod_note>센스3 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>형용사결합, 동사결합 추가</mod_note>
+			</mod>
+			<note>2003/11/06(최지임)센스2 의미부류검토요망</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">玉石</org>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~도 닦아야 빛이 난다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이것은 이 근처에서는 찾아보기 힘든 ~이라오.</eg>
+				<trans>precious stones</trans>
+				<sem_class>광물</sem_class>
+				<lr>
+					<syn type="etc">옥돌</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 단단하다</comb_aj>
+				<comb_aj type="appr">~이 귀하다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 캐다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 다듬다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">개</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>할아버지께서는 ~을 고르는 방법을 내게 가르쳐 주셨다.</eg>
+				<trans>precious stones and pebble stones</trans>
+				<sem_class>광물</sem_class> <!-- '지속적활동'을 '광물'로 수정(송근영)-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 가리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 고르다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>요즘에는 하도 진짜 같은 가짜들이 많아 ~을 가리기가 힘들다.</eg>
+				<trans>the good and the bad</trans>
+				<trans>the real and the false</trans>
+				<sem_class>속성구체물</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 가리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 구분하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 구별하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 선별하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 고르다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

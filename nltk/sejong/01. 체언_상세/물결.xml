@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>물결</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/06/28</cre_date>
+				<cre_writer>이병규</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/02</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/03</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note>add 동사 결합 정보로 이동</mod_note>
+			</mod>
+			<note>2002/06/26(남길임)</note>
+			<note>2002/08/20(이성헌)note에 상호교열자와 일자 기재(주의: mdd난은 최종교열자와 일자로 자동변경되니 일차 및 상호교열자 관련 정보를 노트에 기재할 것)</note>
+			<note>org에 ko기재</note>
+			<note>idnv의 '~을 타다'를 add로 이동</note>
+			<note>sense1의 예문 수정</note>
+			<note>sense1의 sem을 '기상현상'에서 '사건|현상'으로 수정</note>
+			<note>sense2의 예문 보완</note>
+			<note>2003/05/29(이하영)add항목 정보표기방법 수정</note>
+			<note>원어정보 표기법 수정</note>
+			<note>의미부류를 '사건현상'에서 '현상'으로 수정</note>
+			<note>add에 '~이 치다' 추가</note>
+			<note>형용사자유구성에 '잔 ~' 추가</note>
+			<add>sense2 동사자유구성 ~을 타다</add>
+			<add>sense2 동사자유구성 ~을 타다</add>
+			<add>sense1 동사자유구성 ~에 휩쓸리다</add>
+			<add>sense2 동사자유구성 ~을 타다</add>
+			<add>sense1 동사자유구성 ~에 휩쓸리다</add>
+			<add>~이 일다|치다|일렁이다|일렁거리다|출렁거리다|출렁이다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>바람이 거세지자 ~도 점점 높아갔다.</eg>
+				<trans>wave</trans>
+				<trans>sea of waves</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>현상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 거세다</comb_aj>
+				<comb_aj type="appr">~이 높다</comb_aj>
+				<comb_aj type="appr">~이 잔잔하다</comb_aj>
+				<comb_aj type="appr">잔 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 일다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 일렁이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 일렁거리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 출렁이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 출렁거리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>시청 앞 광장은 붉은 옷을 입은 사람들의 ~로 커다란 용광로를 이뤘다.</eg>
+				<trans>stream</trans>
+				<trans>flow</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

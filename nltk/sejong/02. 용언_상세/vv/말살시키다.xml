@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>말살시키다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/21</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/21</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">말살을 시키다</var>
+			<cntr opt="opt" type="i"/>
+			<str>N.시</str>
+			<org lg="si">抹殺__</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>파괴행위</sem_class>
+				<trans>erase</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 X=N0-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|인간집단|종족|단체|동물</sel_rst>
+					<eg>범인은 그의 가족을 모두 말살시켰다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">사태(재앙|전쟁)</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|인간집단|종족|단체|동물</sel_rst>
+					<eg>이번 태풍은 그의 가족을 모두 말살시켰다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>파괴행위</sem_class>
+				<trans>erase</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 X=N0-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(정신|정기)</sel_rst>
+					<eg>일제는 민족 정기를 말살시키려 했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">추상적대상(사상)</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상|종교|역사|권리</sel_rst>
+					<eg>공산주의는 우리의 자유를 말살시켰다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

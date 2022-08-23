@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>증빙</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/05/26</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/03</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note>센스구분(센스2추가)</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2003/10/10</mod_date>
+				<mod_writer>이민우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/05</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>2004년 지침에 맞춰 정보 확장</mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2004/12/28</mod_date>
+				<mod_writer>장원철</mod_writer>
+		        <mod_note>센스 2 명사 결합정보 추가</mod_note>
+	        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str type="etc"></str>
+			<org lg="si">證憑</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>결백이 드러날 만한 ~이 있다.</eg>
+				<trans>evidence</trans>
+				<sem_class>속성값</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 넉넉하다</comb_aj>
+				<comb_aj type="appr">~이 확실하다</comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 있다</form>
+					<frame>X-이 ~이 있다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>정보가 정확하다는 사실이 ~이 되어야 한다.</eg>
+				<eg>통장은 예금계약사실을 ~을 하는 증표일 뿐이다.</eg>
+				<trans>prove</trans>
+				<sem_class>인지적행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound">~서류</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에 의해 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>Y-에의한 X-의 ~</max_n_str>
+				<sel_rst arg="X">온</sel_rst>
+				<sel_rst arg="Y">사실명제|사건|행위</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

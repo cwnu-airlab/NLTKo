@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>편하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/04/22</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/22</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/05</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>R.하</str>
+			<org lg="si">便_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>easy</trans>
+				<trans>convenient</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>Y=N1-에게 X=N0-이 Z=S기2-에 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|구체물|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Z" tht="CRT"/>
+					<eg>노인들한테는 그 책이 보기에 편하지 않다.</eg>
+					<eg>이 안경은 쓰기에 편하다.</eg>
+					<eg>그 사람은 상대하기에 아주 편하다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>Y=N1-에|에게 X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">방법(방법|기법|기술)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">인간|추상적대상|행위</sel_rst>
+					<eg>그런 일에는 이런 방법이 편하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<sel_rst arg="Y" tht="LOC">S데|S기</sel_rst>
+					<eg>거기를 가는 데에는 기차를 타는 것이 편하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S기|S것</sel_rst>
+					<sel_rst arg="Y" tht="EXP">인간</sel_rst>
+					<eg>노인들한테는 그런 일을 하기가 편하지 않다.</eg>
+					<eg>지하철이 생겨서 여기에서 거기를 가기가 편하다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>comfortable</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간|(몸|마음|속|뱃속)</sel_rst>
+					<eg>내가 철수와 함께 있으니까 마음이 편하다.</eg>
+					<eg>내가 몸은 편한데 마음은 불편하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">신체부위(발|허리|머리|고개)</sel_rst>
+					<eg>이 신발을 신으니까 내가 발이 얼마나 편한지 모르겠어.</eg>
+					<eg>그렇게 앉으니까 내가 고개는 편한데 허리가 아프다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

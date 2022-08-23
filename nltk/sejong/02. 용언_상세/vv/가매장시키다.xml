@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>가매장시키다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/14</cre_date>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/14</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/09/17</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>영어대역어, 원어정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/04/15</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note>예문수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">가매장을 시키다</var>
+			<cntr opt="opt" type="i"/>
+			<org lg="si">假埋葬_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>배치</sem_class>
+				<trans>make sb buried</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|(시신|유해)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">지상장소</sel_rst>
+					<eg>친척 노인들이 어머니의 시신을 옮겨와 아버지의 시신과 함께 불타 버린 집터의 텃밭에 가매장시켰다.</eg>
+					<eg>그들은 아직 체온이 식지 않은 철호를 가매장시키고 자리를 떠났다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

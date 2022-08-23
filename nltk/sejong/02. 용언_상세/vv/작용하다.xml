@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>작용하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/29</cre_date>
+				<cre_writer>박소영</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/15</mod_date>
+				<mod_writer>허용</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/15</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">작용을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">作用_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>act on</trans>
+				<trans>work on</trans>
+				<trans>affect</trans>
+				<trans>function</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상|사건|현상|행위</sel_rst>
+					<sel_rst arg="Y" tht="LOC">집단|추상적대상</sel_rst>
+					<eg>잔뼈가 굵은 젊은 신임 행장의 탄생은 주가에도 작용했다.</eg>
+					<eg>주가는 8.11% 상승했고 공격적인 자사 주 매입 발표도 주가에 긍정적으로 작용했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상|사건|현상|행위</sel_rst>
+					<sel_rst arg="Y" tht="FNS">추상적대상</sel_rst>
+					<eg>이런 과정을 통해 맺어진 돈독한 신뢰 관계는 월드컵의 성공적 개최를 이끈 배경으로 작용했다.</eg>
+					<eg>1895년 민비 시해 사건은 민중들에게까지 반일감정과 민족의식을 심어주는 계기로 작용했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<sel_rst arg="Y" tht="FNS">추상적대상</sel_rst>
+					<eg>회사의 인지도를 효과적으로 확대하지 못한 것도 수요층의 확대에 걸림돌로 작용했다.</eg>
+					<eg>이날 새벽에 마감된 나스닥 시장이 반도체주의 급락으로 3% 이상 하락한 것도 부담으로 작용했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

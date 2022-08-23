@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>도배</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/04/29</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/22</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/07</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/07/28(정유진</note>
+			<note>2001/07/28(정유진</note>
+			<note>강범모) 1차수정</note>
+			<note>2001/07/28(정유진</note>
+			<note>강범모) 1차수정</note>
+			<note>2001/08/03(정유진</note>
+			<note>2001/07/28(정유진</note>
+			<note>강범모) 1차수정</note>
+			<note>2001/08/03(정유진</note>
+			<note>강범모) 2차 수정</note>
+			<note>2001/07/28(정유진</note>
+			<note>강범모) 1차수정</note>
+			<note>2001/08/03(정유진</note>
+			<note>강범모) 2차 수정</note>
+			<note>2003/03/22(김종명)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<org lg="si">塗褙</org>
+		
+			<der pos="n" type="suffix">~지</der>
+			<der pos="n" type="suffix">~장이</der>
+			<comp pos="n" type="suffix">~장판</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 집으로 이사 가기 전에 새로 ~를 해야 한다.</eg>
+				<trans>papering</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<rel>벽지</rel>
+					<rel>장판지</rel>
+					<rel>벽</rel>
+					<rel>천장</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 깨끗하다</comb_aj>
+				<comb_aj type="appr">~가 지저분하다</comb_aj>
+				<comb_aj type="appr">~가 더럽다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 Z-로 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 Z-로 ~가 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">장소</sel_rst>
+				<sel_rst arg="Z">(벽지|장지)</sel_rst>
+		   </syn_grp>	
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그의 방은 상장으로 ~가 되어 있다.</eg>
+				<trans></trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>통합요망(6827로)</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-로 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-이 Y-로 ~가 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">장소|신체부위</sel_rst>
+				<sel_rst arg="Y">구체물(상장|진흙|흙|모래|게시물)</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

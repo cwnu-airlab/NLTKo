@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>녹슬다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/21</cre_date>
+				<cre_writer>임동식</cre_writer>
+				<cre_writer>권재일</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">녹이 슬다</var>
+			<str>NV</str>
+			<org lg="si">綠_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>악화</sem_class>
+				<trans>get rusty</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">금속재(철|쇠|쇠붙이)|기기(기계|장비)</sel_rst>
+					<eg>녹슨 쇠에 찔려서 파상풍 위험이 있다.</eg>
+					<eg>기계가 완전히 녹슬어서 사용할 수 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>악화</sem_class>
+				<trans>become dull</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(기능|솜씨|재능|기능|주먹)</sel_rst>
+					<eg>계속 개발하지 않는 재능은 녹슬 수밖에 없다.</eg>
+					<eg>그런 간단한 일을 실수하다니, 내 솜씨도 완전히 녹슬었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

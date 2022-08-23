@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>바닥나다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/11</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/11</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/05</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">바닥이 나다</var>
+			<cntr opt="obl" type="a"/>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>감소</sem_class>
+				<trans>give out</trans>
+				<trans>be all gone</trans>
+				<trans>be drained</trans>
+				<trans>exhausted</trans>
+				<lr>
+					<syn type="perfect">없어지다</syn>
+					<syn type="perfect">떨어지다</syn>
+					<syn type="perfect">동나다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">기체|액체</sel_rst>
+					<eg>휘발유가 곧 바닥날텐데 야단이야.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">음식</sel_rst>
+					<eg>손님이 너무 많이 와서 모든 음식이 바닥났다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">돈(자금|돈|생활비)</sel_rst>
+					<eg>회사자금이 바닥나서 월급을 줄 수 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>give out</trans>
+				<lr>
+					<syn type="perfect">헤지다</syn>
+					<syn type="perfect">떨어지다</syn>
+					<rel>구멍나다</rel>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체인공물</sel_rst>
+					<eg>신발 밑창이 바닥났어.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

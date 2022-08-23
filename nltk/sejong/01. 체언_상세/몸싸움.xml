@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>몸싸움</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/06/26</cre_date>
+				<cre_writer>이병규</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/20</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/01</mod_date>
+				<mod_writer>김천학</mod_writer>
+				<mod_note>str type 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/20</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_v 수정</mod_note>
+				<mod_note>최대논항구조 기술</mod_note>
+			</mod>
+			<note>2002/06/26(남길임)</note>
+			<note>2002/08/08(이성헌)note에 상호교열자와 일자 기재(주의: mdd난은 최종교열자와 일자로 자동변경되니 일차 및 상호교열자 관련 정보를 노트에 기재할 것)</note>
+			<note>org에 ko기재(주의:고유어일 경우에 ko만 기재)</note>
+			<note>sem을 '지속적행위'에서 '대칭적행위'로 수정</note>
+			<note>cl에 '차례|회' 추가</note>
+			<note>magn에 '치열하다'기재</note>
+			<note>comb_v의 '~을 치다' 삭제하고 '~을 벌이다' 기재</note>
+			<note>supv에서 '시키다'구문 삭제(이 항목에 기재되는 '시키다'는 논항 수의 변동없이 '하다'대체될 수 있는 기능동사 용법을 갖는 경우로 한정됨)</note>
+			<note>cor_v에서'~시키다'삭제</note>
+			<note>sel_res의 Z 삭제</note>
+			<note>2003/06/09(김미현)trans를 momssaum에서 fight로 수정</note>
+			<note>선택제약에 X, Y에 '인간집단' 추가</note>
+			<note>2003/08/20(고길수)어원정보에서 'ko' 삭제</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">몸+싸움</str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>양편 선수들의 ~은 시간이 지날수록 치열해졌다.</eg>
+				<trans>fight</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>물리적충돌행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 치열하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-와 ~을 하다</frame>
+					<frame>X-와 Y-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 벌이다</form>
+					<frame>X-이 Y-와 ~을 벌이다</frame>
+					<frame>X-와 Y-이 ~을 벌이다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-와 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

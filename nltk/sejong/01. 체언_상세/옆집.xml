@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>옆집</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/12</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/30</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/19</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>nng_c로 고치고 str 기술</mod_note>				
+				<mod_note>센스1 n_aj에서 '나쁘다' 삭제</mod_note>
+				<mod_note>센스1 n_v 기술</mod_note>
+				<mod_note>센스2 n_aj 기술</mod_note>
+				<mod_note>센스2 n_v 기술</mod_note>
+				<mod_note>센스2 의미부류 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>동사결합 추가</mod_note>
+			</mod>
+			<note>2002/08/26(고길수)의미를 '장소'와 '인간집단'으로 분할</note>
+			<note>센스1의 의미부류를 '관계장소'에서 '주택'으로 수정</note>
+			<note>센스1의 단위표현에 '곳|군데|개' 추가</note>
+			<note>센스1에 명사연어 추가</note>
+			<note>2002/10/04(이성헌)</note>
+			<note>2003/09/08(류희선)사전종류수정</note>
+			<note>센스1의 형용사 자유구성(나쁘다 삭제)</note>
+			<add>내적구성정보로 'n(옆)+n(집)' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">옆+집</str>
+			<org lg="temp"></org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~에 새로 이사가 왔다.</eg>
+				<eg>그 여자는 날마다 ~에 놀러 간다.</eg>
+				<trans>house next door</trans>
+				<trans>neighboring house</trans>
+				<trans>adjoining house</trans>
+				<trans>adjacent house</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>관계장소</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 작다</comb_aj>
+				<comb_aj type="appr">~이 넓다</comb_aj>
+				<comb_aj type="appr">~이 좁다</comb_aj>
+				<comb_aj type="appr">~이 좋다</comb_aj>
+				<comb_n type="compound">~ 사람</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 살다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 찾아가다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">집</cl>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이번 여름에 ~은 외국으로 여행을 갔다.</eg>
+				<trans>neighbor</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>인간집단</sem_class><!--'혈연집단'을 '인간집단'으로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 화목하다</comb_aj>
+				<comb_aj type="appr">~과 친하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~과 친해지다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

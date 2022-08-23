@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>예증되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/13</cre_date>
+				<cre_writer>강정연</cre_writer>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/06/27</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">예증이 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<org lg="si">例證_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be illustrated</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상</sel_rst>
+					<eg>그러한 사실은 이런 현상에 의해서 예증된다.</eg>
+					<eg>이런 사정은 갈릴레이와 종교재판, 국가 이익을 위한 전쟁과 핵 개발 등으로 간단하게 예증된다.</eg>
+					<eg>평등과 차이를 둘러싸고 얽혀 있는 논쟁들을 통해 서구 페미니스트 윤리학 담론의 몇 가지 특징적 모습이 예증된다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것|S음</sel_rst>
+					<eg>그 나라가 자신들의 국익을 위해서 움직인다는 것은 그 사실에 의해 충분히 예증된다.</eg>
+					<eg>이를 통해 다수계 품종들의 흡수량이 일반계 보다 높다는 것이 예증된 것이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

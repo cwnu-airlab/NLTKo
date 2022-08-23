@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>타이핑</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/20</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/13</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/02</mod_date>
+				<mod_writer>정아름</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/16</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/04</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note>동사결합정보 삭제(~을 잘하다)</mod_note>
+			</mod>
+			<note>2001/08/11(김종명, 이성헌, 고길수)</note>
+			<note>2003/01/13(박진호)</note>
+			<note>관련어 정보 구획 형식 오류 수정</note>
+			<note>2006/07/02(정아름) 동의어 추가, 명사 결합 추가,예문 오류 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="en">typing</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>영수는 ~ 속도가 매우 빠르다.</eg>
+				<trans>typing</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="sino">타자</syn>
+					<ant type="temp"></ant>
+					<rel>타자</rel>
+					<rel>타자기</rel>
+					<rel>타이프라이터</rel>
+					<rel>자판</rel>
+					<rel>타이피스트</rel>
+					<rel>키보드</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~에 능하다</comb_aj>
+				<comb_aj type="appr">~에 서투르다</comb_aj>
+				<comb_aj type="appr">~이 서투르다</comb_aj>
+				<comb_n type="compound">~ 속도</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>Z-이 X-에게 Y-을 ~을 시키다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~시키다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">텍스트</sel_rst>
+				<sel_rst arg="Z">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

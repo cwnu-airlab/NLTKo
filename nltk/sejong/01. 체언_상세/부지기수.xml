@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>부지기수</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2006/05/21</cre_date>
+				<cre_writer>전미현</cre_writer>
+				<cre_note>의미부류 확인요망</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2006/07/28</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">不知其數</org>
+		
+			<hom exist="yes"/>
+			<der  pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>오늘까지 제출하라고 내준 숙제를 안 해온 사람이 ~였다.</eg>
+				<eg>장마철에 집을 잃은 사람들이 ~로 많다.</eg>
+				<trans>being innumerable</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>높은정도</sem_class><!-- 전미현(2006/05/21) 일시적으로 같은 상태에 놓인 사람들의 숫자를 뜻하는 표현이라 '일시적집단'의 의미부류를 넣었는데, 과연...!--><!--(이민우)양을 나타내는 의미부류가 없으므로 속성값으로 분류하였음.-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~로 많다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-가 ~이다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">구체물|집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt>~로</prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

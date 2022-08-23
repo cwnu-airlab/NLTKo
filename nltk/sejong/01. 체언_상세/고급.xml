@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>고급</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/22</cre_date>
+				<cre_writer>차준경</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/04</mod_date>
+				<mod_writer>한선혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/07</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>syn, ant 속성값 수정</mod_note>
+			</mod>
+			<note>2000/09/20(차준경)</note>
+			<note>2001/01/22(조진현</note>
+			<note>2003/02/19(최지임)sense1 의미부류수정</note>
+			<note>2003/08/04(한선혜)센스 통합</note>
+			<note>pre_s 정보 삽입</note>
+			<note>sense2 예문 추가 및 수정</note>
+			<note>각 센스의 의미부류 검토요망</note>
+			<note>강범모)</note>
+			<note>기능동사 검토요망</note>
+			<note>논항선택제약 수정</note>
+			<note>대역어 수정</note>
+			<note>동사연어구성정보 add에 입력</note>
+			<note>동사연어구성정보 수정</note>
+			<note>어근사전의 "고급" 항목 반영, 동형어 정보 추가</note>
+			<note>예문 수정</note>
+			<note>예문수정</note>
+			<note>의미부류를 "상등급"으로 수정</note>
+			<add>~에 속하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">高級</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~품</der>
+			<der pos="n" type="suffix">~지</der>
+			<der pos="n" type="suffix">~화</der>
+			<der pos="a" type="suffix">~스럽다</der>
+			<der pos="a" type="suffix">~하다</der>
+			<comp pos="n" type="suffix">~공무원</comp>
+			<comp pos="n" type="suffix">~부관</comp>
+			<comp pos="n" type="suffix">~사원</comp>
+			<comp pos="n" type="suffix">~선원</comp>
+			<comp pos="n" type="suffix">~장교</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그가 소개한 음식점은 꽤나 ~에 속하는 듯 보였다.</eg>
+				<trans>high class</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>상등급</sem_class>
+				<lr>
+					<syn type="perfect">고품질</syn>
+					<ant type="grad">저급</ant>
+					<rel>특급</rel>
+					<rel>등급</rel>
+					<rel>최고급</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 ~이다</frame>
+				</comb_v>
+				<!--vcompound: ~이다-->
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">구체인공물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

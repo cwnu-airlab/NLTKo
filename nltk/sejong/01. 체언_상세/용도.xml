@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>용도</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/24</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/14</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/26</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_n, n_v에 기술 및 정보 추가</mod_note>
+				<mod_note>cl에서 '개' 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/01</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/09/01(고길수)의미부류를 '방법'에서 '속성'으로 수정</note>
+			<note>단위표현 추가</note>
+			<note>형용사자유구성에서 '~에 맞다'를 add로 수정</note>
+			<note>명사연어 정보 추가</note>
+			<note>add에 명사구 정보 추가</note>
+			<note>2002/10/11(이성헌)</note>
+			<note>2003/06/28(권오희)명사연어에 '~ 변경'추가</note>
+			<note>comb_n을 add로 옮김</note>
+			<note>2003/08/07(이은경)</note>
+			<note>2003/08/14(권오희)</note>
+			<add>명사구로 'X(구체물)-의 ~' 가능</add>
+			<add>동사결합구조로 '~를 변경하다|밝히다</add>
+			<add>~로 쓰다|사용하다</add>
+			<add>~에 맞다' 추가</add>
+			<add>명사결합 : '개인적인 ~</add>
+			<add>~ 불명|변경'</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">用途</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 기계의 ~가 다양하다.</eg>
+				<eg>그는 공금을 개인적인 ~로 사용하였다.</eg>
+				<trans>use</trans>
+				<trans>service</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 다양하다</comb_aj>
+				<comb_aj type="appr">~가 불분명하다</comb_aj>
+				<comb_aj type="appr">~가 분명하다</comb_aj>
+				<comb_n type="compound">~ 변경</comb_n>
+				<comb_n type="compound">~ 불명</comb_n>
+				<comb_n type="compound">개인적 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 변경하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 바꾸다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 밝히다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 쓰다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 사용하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 맞다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

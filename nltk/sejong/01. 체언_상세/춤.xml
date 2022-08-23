@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>춤</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/06/22</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/18</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/25</mod_date>
+				<mod_writer>백고운</mod_writer>
+				<mod_note>add동사결합정보를 comb_v로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/15</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/10</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<note>2000/07/04</note>
+			<note>2003/03/13(송인욱)관리정보구획 표기법 수정</note>
+			<note>2003/03/18(고길수)예문 추가</note>
+			<note>supv의 기술내용 삭제</note>
+			<note>논항 의미정보 추가</note>
+			<note>단위표현 정보 수정 및 추가</note>
+			<note>동사연어항목의 정보들을 add로 수정</note>
+			<note>형용사 자유구성 정보 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~꾼</der>
+			<der pos="n" type="prefix">막~</der>
+			<comp pos="n" type="suffix">~가락</comp>
+			<comp pos="n" type="suffix">~사위</comp>
+			<comp pos="n" type="suffix">~판</comp>
+			<comp pos="n" type="prefix">어깨~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 사람들 앞에서 ~을 출 용기가 나지 않는다.</eg>
+				<eg>그는 그녀에게 다가가 ~을 청했다.</eg>
+				<eg>그는 ~을 잘 춘다.</eg>
+				<trans>dance</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>몸짓및동작</sem_class>
+				<lr>
+					<syn type="etc">댄스</syn>
+					<ant type="temp"></ant>
+					<hypo>막춤</hypo>
+					<hypo>디스코</hypo>
+					<hypo>고고</hypo>
+					<hypo>트위스트</hypo>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 멋지다</comb_aj>
+				<comb_aj type="appr">~이 화려하다</comb_aj>
+				<comb_aj type="appr">~이 격렬하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="yes">~을 추다</form>
+					<frame> </frame>
+				</comb_v>
+					<comb_v type="npred_vpred">
+					<form vcompound="no">~을 보이다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="npred_vpred">
+					<form vcompound="no">~을 청하다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="npred_vpred">
+					<form vcompound="no">~을 선보이다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="npred_vpred">
+					<form vcompound="no">~을 가르치다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-와 Y-의 ~</max_n_str>
+				<max_n_str>X-의 Y-와의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">판</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

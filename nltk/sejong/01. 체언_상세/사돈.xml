@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>사돈</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/15</cre_date>
+				<cre_writer>김진형</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/06</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/27</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/20</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 의미부류, n_v 수정;센스1 선택제약 삭제;센스2 분류사 '분' 삭제;센스2 영어대역어, n_v 기술</mod_note>
+			</mod>
+			<note>'~댁'을 합성어에 추가</note>
+			<note>2002/04/30(김진형)품사범주기호 수정</note>
+			<note>2002/05/23(고길수)관용표현으로 '~의 팔촌'을 추가</note>
+			<note>2003/04/30(송인욱)comp_n에 '~ 어른|관계' 새로 기술</note>
+			<note>2003/05/06(김미현)'~ 관계'를 comb_n으로 이동</note>
+			<note>sense2의 단위표현에 '분' 추가</note>
+			<note>기능동사구문에 'X-이 Y-에게 ~이 되다'를 추가</note>
+			<note>센스1에 예문 추가</note>
+			<note>센스1의 예문 수정</note>
+			<note>센스1의 의미부류를 '대칭적관계인간'에서 수정</note>
+			<note>센스1의 의미부류에 X, Y 둘 다 '인간집단' 추가</note>
+			<note>센스2에 예문 추가</note>
+			<note>센스2의 단위표현에 '명|사람'을 새로 기술</note>
+			<note>센스2의 예문 2개를 모두 삭제하고 새로 기술</note>
+			<note>속담/격언에 '~과 뒷간은 멀수록 좋다' 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">査頓</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~어른</comp>
+			<comp pos="n" type="suffix">~어르신</comp>
+			<comp pos="n" type="suffix">~댁</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~과 뒷간은 멀수록 좋다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 집은 부유한 집안과 ~을 맺게 됐다.</eg>
+				<eg>아저씨는 우리 집과 ~이 되기를 무척이나 원하셨다.</eg>
+				<trans>relation by marriage</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>관계</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 관계</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 맺다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>회사에서 ~을 만나는 건 나에게 항상 부담스러운 일이었다.</eg>
+				<trans>member of the family of one's daughter-in-law</trans>
+				<trans>member of the family of one's son-in-law</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>대칭적관계인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 만나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

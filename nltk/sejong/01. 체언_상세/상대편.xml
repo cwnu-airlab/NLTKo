@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>상대편</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/23</cre_date>
+				<cre_writer>김진형</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/07</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/28</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>add정보이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/27</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>분류사 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/07</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>대칭적관계인간에서 비대칭적관계인간으로 수정;명사연어에 '~ 선수, 진영' 추가</mod_note>
+			</mod>
+			<note>2002/10/09(고길수)의미부류를 '관계추상적대상'에서 '대칭적관계인간'으로 수정, 단 이 부류의 적정술어 기준에 맞지 않고 그외 후보가 될 만한 부류가 없음. 예를 들어, '일시적역할인간'에도 넣기 어려움</note>
+			<note>2003/06/19(한동훈)add에 '~과 대치하다'정보 추가</note>
+			<note>2003/07/07(김미현)예문 추가</note>
+			<note>단위표현에 '명' 추가</note>
+			<add>~과 마주보다|맞서다|대치하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">相對便</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 늘 ~의 입장에서 생각해 보고 이야기한다.</eg>
+				<eg>그 선수는 ~의 움직임에 신속하게 반응했다.</eg>
+				<trans>other part</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>비대칭적관계인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 선수</comb_n>
+				<comb_n type="compound">~ 진영</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~과 마주보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~과 맞서다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~과 대치하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">인</cl>
+				<cl type="uni">사람</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

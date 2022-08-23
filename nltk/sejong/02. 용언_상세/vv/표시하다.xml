@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>표시하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/25</cre_date>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/22</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/07/30</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">表示_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>행위</sem_class>
+				<trans>indicate</trans>
+				<trans>show</trans>
+				<trans>manifest</trans>
+				<trans>express</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Z" tht="LOC">장소</sel_rst>
+					<sel_rst arg="Y" tht="THM">(상표|번호|글자|기호)</sel_rst>
+					<eg>좋은 포도주 병에는 원산지와 생산지를 표시하도록 되어 있다.</eg>
+					<eg>잃어버리지 않도록 네 물건에 이름을 표시해 놓아라.</eg>
+					<eg>상품에 가격을 표시하는 정찰표를 달도록 법으로 규정되어 있다.</eg>
+					<eg>이 국어사전에는 발음기호를 표시해 놓지 않아 불편하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Z" tht="LOC">장소</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것|S음|Q</sel_rst>
+					<eg>우리는 작전이 성공하면 횃불을 흔들어 작전이 성공했음을 표시하기로 약속했다.</eg>
+					<eg>이 주차 표시는 이 지역이 주차가 가능한지 아닌지를 표시한다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(의사|의견|승낙|존경심|불만|감사의마음|친밀감)</sel_rst>
+					<eg>영수는 머리를 끄떡여 승낙 의사를 표시했다.</eg>
+					<eg>학생들은 선생님께 머리를 숙여 존경심을 표시했다.</eg>
+					<eg>할머니는 두 손을 꼭 잡으시며 우리에게 고마움을 표시했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|장소</sel_rst>
+					<sel_rst arg="Z" tht="INS">(상품|글자)</sel_rst>
+					<eg>좋은 포도주병은 원산지로 표시해서 구별한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>모가지</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/06/10</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/04</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/21</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 n_v 기술;add 정보를 센스1 n_v로 이동;센스2 n_v 추가;센스2 영어대역어 수정;센스3 의미부류 수정;센스3 n_v 수정 및 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/01</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/10</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스3 n_v frame 수정</mod_note>
+				<mod_note>센스3 선택제약 기술</mod_note>
+			</mod>
+			<note>2000/09/21(정유진)</note>
+			<note>2000/09/25(정유진)</note>
+			<note>2001/01/22(백인애, 강범모)</note>
+			<note>2003/02/10(기영인)센스1 '목+아지'정보 표기필요(str 항목?)</note>
+			<note>2003/03/02(박동호)sense1의 comb_v의 내용을 add로 이동</note>
+			<note>2003/03/04(기영인)</note>
+			<note>add에 있던 sense3의 '~에 걸다'를 sense3의 comb_v로 이동</note>
+			<note>combv 정보삭제 일부 add로 이동</note>
+			<note>combv 정보수정</note>
+			<note>내포의미항목 정보삭제</note>
+			<note>대역어 정보추가</note>
+			<note>레지스터 정보입력</note>
+			<note>변이형에 '목' 정보입력 필요성 검토필요</note>
+			<note>센스2 예문 수정</note>
+			<note>센스3 의미부류 수정(표제어 독자적으로 '행위'인지 검토필요)</note>
+			<note>어휘관계구획 정보수정(동의어, 관련어)</note>
+			<note>의미부류 수정('목숨'이 '추상적대상'인지 검토필요!!)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~를 자르다</idm>
+			<idm type="etc">~가 열 개라도 모자라다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~가 길어 슬퍼 보이는 짐승은 사슴이다.</eg>
+				<trans>neck</trans>
+				<domain></domain>
+				<reg>속어</reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>신체부위</sem_class>
+				<lr>
+					<syn type="etc">목</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 길다</comb_aj>
+				<comb_aj type="appr">~가 짧다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 잡다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 쥐다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 자르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 걸다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>잘못하다가는 ~가 날아가겠다.</eg>
+				<trans>position</trans><!--headlife를 수정(김이정)-->
+				<domain></domain>
+				<reg>속어</reg>
+				<con></con>
+				<curs type="UR"/>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 날아가다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 달아나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 내걸다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>이번에도 실수하면 정말 ~다.</eg>
+				<trans>dismissal</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>탈퇴</sem_class>
+				<lr>
+					<syn type="etc">해고</syn>
+					<ant type="temp"></ant>
+					<rel>면직</rel>
+					<rel>파면</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 ~이다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 당하다</form><!--vsup으로 처리해야할지?(김이정)-->
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

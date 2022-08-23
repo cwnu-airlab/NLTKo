@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>병기시키다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/14</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>곽새라</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/08/04</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">병기를 시키다</var>
+			<cntr opt="obl" type="i"/>
+			<org lg="si">竝記__</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>write two kinds of characters at the same time</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="sym" n="01">
+				<frame>X=N0-이 W=N3-에 Y=N1-을 Z=N2-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">기호|기호체계</sel_rst>
+					<sel_rst arg="Z" tht="COM">기호|기호체계</sel_rst>
+					<sel_rst arg="W" tht="GOL">텍스트담지물</sel_rst>
+					<eg>정부는 모든 공문서에 한글을 한자와 병기시키기로 결정했다.</eg>
+					<eg>우리 회사는 책에 한글을 영어와 병기시킨다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="01">
+				<frame>X=N0-이 W=N2-에 Y+Z=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">기호|기호체계</sel_rst>
+					<sel_rst arg="Z" tht="THM">기호|기호체계</sel_rst>
+					<sel_rst arg="W" tht="GOL">텍스트담지물</sel_rst>
+					<eg>정부는 모든 공문서에 한글과 한자를 병기시키기로 결정했다.</eg>
+					<eg>우리 회사는 책에 한글과 영어를 병기시킨다.</eg>
+					<eg>정부는 한글에 한자를 병기시키기로 결정했다.</eg>
+					<eg>우리 회사는 한글에 영어를 병기시킨다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

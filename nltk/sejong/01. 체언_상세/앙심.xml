@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>앙심</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/15</cre_date>
+				<cre_writer>최지임</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/02</mod_date>
+				<mod_writer>고길수</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/02</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>syn기술</mod_note>
+				<mod_note>'~을 먹다|품다'는 숙어로 기술</mod_note>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>add옮김</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/01</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>frame분리, 추가 기술</mod_note>
+				<mod_note>s_n기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/6</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/07/15(최지임)add 검토요망</note>
+			<note>2003/09/02(고길수)add의 일부 동사정보를 comb_v로 수정</note>
+			<note>기능동사에 '~이 있다|없다' 정보 추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">怏心</org>
+		
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~(을) 먹다</idm>
+			<idm type="nv">~을 품다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>부인은 남편의 푸대접과 멸시에 ~을 품었다.</eg>
+				<eg>전쟁 이후 서로에 대한 ~이 깊어져 갔다.</eg>
+				<trans>enmity</trans>
+				<trans>malice</trans>
+				<sem_class>부정적감정</sem_class>
+				<lr>
+					<syn type="perfect">앙</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 깊다</comb_aj>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 있다</form>
+					<frame>X-이 Y-에게 ~이 있다</frame>
+					<frame>X-이 Y-에대해 ~이 있다</frame>
+					<frame>X-이 Z-에 ~이 있다</frame>
+					<frame>X-이 Z-에대해 ~이 있다</frame>
+					<frame>X-이 S것-에 ~이 있다</frame>
+					<frame>X-이 S것-에대해 ~이 있다</frame>
+					<frame>X-이 S데-에 ~이 있다</frame>
+					<frame>X-이 S데-에대해 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 없다</form>
+					<frame>X-이 Y-에게 ~이 없다</frame>
+					<frame>X-이 Y-에대해 ~이 없다</frame>
+					<frame>X-이 Z-에 ~이 없다</frame>
+					<frame>X-이 Z-에대해 ~이 없다</frame>
+					<frame>X-이 S것-에 ~이 없다</frame>
+					<frame>X-이 S것-에대해 ~이 없다</frame>
+					<frame>X-이 S데-에 ~이 없다</frame>
+					<frame>X-이 S데-에대해 ~이 없다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 나다</form>
+					<frame>X-이 Y-에게 ~이 나다</frame>
+					<frame>X-이 Y-에대해 ~이 나다</frame>
+					<frame>X-이 Z-에 ~이 나다</frame>
+					<frame>X-이 Z-에대해 ~이 나다</frame>
+					<frame>X-이 S것-에 ~이 나다</frame>
+					<frame>X-이 S것-에대해 ~이 나다</frame>
+					<frame>X-이 S데-에 ~이 나다</frame>
+					<frame>X-이 S데-에대해 ~이 나다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y|Z-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">행위</sel_rst>
+				<s_n>S는 ~</s_n>
+				<s_n>S은 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

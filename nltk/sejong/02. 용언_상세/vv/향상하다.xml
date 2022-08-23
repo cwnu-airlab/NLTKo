@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>향상하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/24</cre_date>
+				<cre_writer>노윤채</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/27</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/08/10</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">向上_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>증가</sem_class>
+				<trans>get elevated</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(지위|생활|수준|성적|실적|수지|관계)</sel_rst>
+					<eg>그 간에 교원의 지위가 별로 향상하지 못했다.</eg>
+					<eg>경제 발전에도 불구하고 국민들의 생활수준이 크게 향상한 것은 아니다.</eg>
+					<eg>밤낮으로 노력한 결과 그의 실력이 크게 향상했다.</eg>
+					<eg>올해와서 국제수지가 많이 향상할 것으로 전망된다.</eg>
+					<eg>농민들의 생활이 크게 향상했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>증가</sem_class>
+				<trans>improve</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">(지위|생활|수준|관계)|(성적|실력)</sel_rst>
+					<eg>실력을 향상하기 위해서는 노력하는 수밖에 없다.</eg>
+					<eg>교원의 지위를 향상하기 위한 방안들이 강구되고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

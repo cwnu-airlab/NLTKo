@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>믹스</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/11</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>syn_grp_b수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_v 수정</mod_note>
+			</mod>
+			<note>2003/07/11(송인욱)sel_res 검토 요망</note>
+			<note>2003/10/13(박진호)의미부류, 선택제약 수정</note>
+			<note>2003/10/28(송인욱)동의어 새로 기술</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">mix</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>칵테일을 만들 땐 각각의 술을 일정한 비율로 잘 ~하는 것이 중요하다.</eg>
+				<eg>여러 인종의 ~로 인해 인종차별주의는 자연히 사라지게 되었다.</eg>
+				<eg>산소와 수소를 적절히 ~를 시킬 수 있느냐에 이 실험의 성패가 달렸다.</eg>
+				<trans>mixture</trans>
+				<trans>blending</trans>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="etc">혼합</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 완전하다</comb_aj>
+				<comb_aj type="appr">~가 불완전하다</comb_aj>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-와 Z-을 ~를 하다</frame>
+					<frame>X-이 Y-을 Z-와 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+ 					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 Z-와 ~가 되다</frame>
+					<frame>Y-와 Z-이 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>X-이 Y-와 Z-을 ~를 시키다</frame>
+					<frame>X-이 Y-을 Z-와 ~를 시키다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">구체물|종족|추상적대상(요소|측면|특성)|모양속성값|색속성값</sel_rst>
+				<sel_rst arg="Z">인간|인간집단|구체물|종족|추상적대상(요소|측면|특성)|모양속성값|색속성값</sel_rst>
+				<cl type="uni">회</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

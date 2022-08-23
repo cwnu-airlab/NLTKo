@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+
+<superEntry>
+	<orth>논박하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/17</mod_date>
+				<mod_writer>김윤신</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/09</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/10/04</mod_date>
+				<mod_writer>김선영</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">논박을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">論駁_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>논쟁</sem_class>
+				<trans>argue against</trans>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Z=N2-에|에게 Y=N1-에대해|을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상|소통행위</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|인간집단</sel_rst>
+					<eg>김 교수는 언론의 비판에 대해 신랄하게 논박했다.</eg>
+					<eg>발표자는 날아온 질문 공세에 하나하나 논박하기 시작했다.</eg>
+					<eg>논문 발표에서 그는 기존의 오류를 논박할 예정이다.</eg>
+					<eg>그는 기존 학계의 주장들을 꼼꼼하게 논박하면서 이론을 전개시켰다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|인간집단</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|인간집단</sel_rst>
+					<eg>그는 상대방을 무턱대고 논박한다.</eg>
+					<eg>연장자에게 논박할 때는 신중해야 한다.</eg>
+					<eg>그를 논박할 것이 아니라 옹호해야 되지 않을까?</eg>
+					<eg>나를 그렇게 논박할 것까지는 없지 않느냐고 따졌다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것|S데</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|인간집단</sel_rst>
+					<eg>이 박사는 학계가 자신의 논문을 비평한 것에 대해 논박했다.</eg>
+					<eg>환경단체는 정부가 오염도를 조사한 것을 논박했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 W=N3-에|에게 Z=N2-에|에대해 Y=S1-다고 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="CNT"></sel_rst>
+					<sel_rst arg="Z" tht="THM">구체물|추상적대상</sel_rst>
+					<sel_rst arg="W" tht="GOL">인간|인간집단</sel_rst>
+					<eg>우리는 그 비판에 대해서 고려할 가치가 없다고 그에게 논박했다.</eg>
+					<eg>검찰은 야당에게 그 사건이 허위조작 되었다고 논박했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="CNT"></sel_rst>
+					<sel_rst arg="Z" tht="THM">S것|S데</sel_rst>
+					<sel_rst arg="W" tht="GOL">인간|인간집단</sel_rst>
+					<eg>학계는 정부가 조사한 것에 대해 조사과정이 잘못되었다고 논박했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=N2-에|에게 Y=S1-다고 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="CNT"></sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|인간집단</sel_rst>
+					<eg>우리는 그에게 그의 비판이 잘못되었다고 논박했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-에|에대해|을 Z=S것2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|추상적대상</sel_rst>
+					<sel_rst arg="Z" tht="FNS"/>
+					<eg>여당의 발표를 일고의 가치가 없는 것으로 논박했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=S것1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="FNS"/>
+					<eg>우리는 여당의 발표가 일고의 가치가 없는 것으로 논박했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>이론</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/25</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/04</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/27</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/10/08(박동호)</note>
+			<note>2003/01/03(한동훈)센스1,2예문 추가</note>
+			<note>2003/02/04(고길수)의미부류에서 '/' 삭제</note>
+			<note>add에 명사구 정보 추가</note>
+			<note>comb_n에 '첨단 ~' 추가</note>
+			<note>comb_n의 'N ~'은 pre_n으로 수정</note>
+			<note>센스 1,2의 의미부류를 '추상적 대상'에서 '사실/명제'로 수정</note>
+			<note>센스1,2 단위표현 추가</note>
+			<note>센스1,2의 pre_s에 'S다는 ~' 추가</note>
+			<note>센스1,2의 구분이 연세와 표준사전에 모두 이루어지고 있으나 그 구별이 분명치 않음</note>
+			<note>센스2의 영어대역어를 'a branch of learning or ism'에서 'theory'로 수정</note>
+			<note>센스2의 예문 수정</note>
+			<note>쎈스1,2의 동사자유구성을 add로 옮기고 '~을 설정하다'추가</note>
+			<add>~ 경제학|물리학' 등이 있음</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">理論</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~화</der>
+			<der pos="n" type="suffix">~상</der>
+			<der pos="n" type="suffix">~가</der>
+			<comp pos="n" type="suffix">~값</comp>
+			<comp pos="n" type="suffix">~과학</comp>
+			<comp pos="n" type="suffix">~식</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~에만 집착하는 것은 올바르지 못한 행동이다.그의 ~은 황당한 내용이 많다.</eg>
+				<trans>theory</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>사실명제</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">실천</ant>
+					<coord>가설</coord>
+					<coord>사상</coord>
+					<coord>이념</coord>
+					<coord>원리</coord>
+					<coord>학문</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 어렵다</comb_aj>
+				<comb_aj type="appr">~이 쉽다</comb_aj>
+				<comb_aj type="appr">~이 정당하다</comb_aj>
+				<comb_n type="temp">경제 ~</comb_n>
+				<comb_n type="temp">문학 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 세우다</form>
+					<frame>X-이 Y-에 대해 ~을 세우다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 구축하다</form>
+					<frame>X-이 Y-에 대해 ~을 구축하다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 설정하다</form>
+					<frame>X-이 Y-에 대해 ~을 설정하다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 실천하다</form>
+					<frame>X-이 Y-에 대해 ~을 실천하다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 전개하다</form>
+					<frame>X-이 Y-에 대해 ~을 전개하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">사상|학문</sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S다는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>학자들에게 가장 중요한 것은 정확한 ~을 설정하는 것이다.그는 최근에 벌어지고 있는 일련의 현상들에 대해 독창적인 ~을 내놓았다.</eg>
+				<trans>theory</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>사실명제</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>가설</coord>
+					<coord>사상</coord>
+					<coord>이념</coord>
+					<coord>원리</coord>
+					<coord>학문</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 어렵다</comb_aj>
+				<comb_aj type="appr">~이 쉽다</comb_aj>
+				<comb_aj type="appr">~이 정당하다</comb_aj>
+				<comb_n type="compound">첨단 ~</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N</pre_n>
+				<s_n>S다는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/25</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/04</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/27</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/10/08(박동호)</note>
+			<note>2003/01/22(한동훈)의미부류를 '추상적 대상'에서 '속성'으로 수정</note>
+			<note>2003/02/04(고길수)예문 수정</note>
+			<note>pre_d에서 '~' 삭제</note>
+			<note>단위표현 추가</note>
+			<note>동사자유구성을 add 로 옮김</note>
+			<note>영어대역어 수정</note>
+			<note>예문 추가</note>
+			<note>의미부류를 '속성'에서 '생각'으로 수정, 단 'X-에대한 ~'과 같은 구문이 가능한데 이 경우 '관계추상적대상'으로의 분류 가능성 검토 필요</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">異論</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그의 견해에 대해서는 별다른 ~이 없었다.그의 주장에 대해서는 여러가지 ~이 있을 수 있다.</eg>
+				<trans>different opiniondifferent viewobjectiondissent</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>생각</sem_class>
+				<lr>
+					<syn type="etc">이견</syn>
+					<syn type="etc">이의</syn>
+					<ant type="temp"></ant>
+					<coord>사상</coord>
+					<coord>이견</coord>
+					<coord>이의</coord>
+					<coord>학설</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 분분하다</comb_aj>
+				<comb_aj type="appr">~이 없다</comb_aj>
+				<comb_aj type="appr">~이 있다</comb_aj>
+				<comb_n type="compound">~의 여지</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 제기하다</form>
+					<frame>X-이 Y-에 대해 ~을 제기하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">사상|학문</sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

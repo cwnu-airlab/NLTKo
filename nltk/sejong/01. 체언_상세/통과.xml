@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>통과</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/05/03</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/13</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/13</mod_date>
+				<mod_writer>정아름</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/16</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/05/09(이호영)</note>
+			<note>2001/08/15(고길수</note>
+			<note>2003/01/13(박진호)</note>
+			<note>sense1 가산/비가산/관계/대칭,최대논항구조 수정</note>
+			<note>sense1합성어 수정</note>
+			<note>sense2 예문,대역어,가산/비가산/관계/대칭 수정</note>
+			<note>sense2예문,관련어 수정</note>
+			<note>sense3 가산/비가산/관계/대칭,예문 수정</note>
+			<note>sense3예문,상위어,관련어,최대논항명사구 추가</note>
+			<note>sense4 한정사제약,기능동사,최대논항구조,논항선택제약 수정</note>
+			<note>sense4반의어 추가</note>
+			<note>김종명</note>
+			<note>논항선택제약 수정</note>
+			<note>동위어,관련어 추가</note>
+			<note>동의어 추가</note>
+			<note>동의어,동위어 추가</note>
+			<note>이성헌</note>
+			<note>전문분야,동위어 추가</note>
+			<note>최대논항명사구,논항선택제약 수정</note>
+			<note>한선혜)</note>
+			<note>합성어 추가</note>
+			<note>2006/07/13(정아름)합성어 추가, 예문 마침표 추가, sense3 의미부류 우발사건에서 결과로 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">通過</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="prefix">무사~</comp>
+			<comp pos="n" type="suffix">~의례</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>차가 터널을 ~를 했다.</eg>
+				<trans>passage</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>이동행위</sem_class>
+				<lr>
+					<syn type="etc">관통</syn>
+					<ant type="temp"></ant>
+					<hyper>이동</hyper>
+					<rel>터널</rel>
+					<rel>길</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 경로</comb_n>
+				<comb_n type="compound">~ 지점</comb_n>
+				<comb_n type="compound">~ 횟수</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 막다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 방해하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 저지하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 승인하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 허가하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 허락하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 허용하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|교통기관</sel_rst>
+				<sel_rst arg="Y">장소</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>차가 검문소를 그냥 지나쳐 ~를 했다.</eg>
+				<trans>a pass</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>이동행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>정차</coord>
+					<rel>검문소</rel>
+					<rel>입구</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>Z-이 X-를 ~를 시키다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~시키다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|교통기관</sel_rst>
+				<sel_rst arg="Y">장소(검문소|정류장)</sel_rst>
+				<sel_rst arg="Z">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>그는 면접시험을 무사히 ~를 했다.</eg>
+				<trans>pass</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="etc">합격</syn>
+					<ant type="etc">탈락</ant>
+					<hyper>결과</hyper>
+					<coord>탈락</coord>
+					<rel>예선</rel>
+					<rel>시험</rel>
+					<rel>심사</rel>
+					<rel>면접</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 어렵다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-를|에 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-이 Y-에 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>Z-이 Y-에서 X-를 ~를 시키다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<!--vcompound: ~시키다-->
+				<max_n_str>X-의 Y(-에서의) ~</max_n_str>
+				<max_n_str>Y-(의) ~</max_n_str>
+				<sel_rst arg="X">온(논문|제품|연주)</sel_rst>
+				<sel_rst arg="Y">인지추상적행위(검사|검열|기준|시험|심사|예선)</sel_rst>
+				<sel_rst arg="Z">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="4">
+			<sem_grp>
+				<eg>새 법안이 국회를 무사히 ~를 했다.</eg>
+				<trans>pass</trans>
+				<domain>법률</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>이동행위</sem_class>
+				<lr>
+					<syn type="etc">채택</syn>
+					<ant type="temp"></ant>
+					<coord>입안</coord>
+					<coord>보류</coord>
+					<coord>기각</coord>
+					<rel>법률</rel>
+					<rel>승인</rel>
+					<rel>절차</rel>
+					<rel>찬성</rel>
+					<rel>반대</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">날치기 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 무산되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 성사되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 이루어지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 거부하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 막다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 무산시키다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 방해하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 보류하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 저지하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 성사시키다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-이 Y-에서 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>Y-이 X-를 ~를 시키다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<!--vcompound: ~시키다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">(법률|안건|의안|청원)</sel_rst>
+				<sel_rst arg="Y">인간집단(국회|위원회)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>초두</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/07</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/13</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/08/31</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미부류 수정;논항명사구, 논항 의미정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>센스분할</mod_note>
+				<mod_note>ant 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/02/23</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/07</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">初頭</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>20세기 ~에 일어난 대공황은 결국 전쟁으로 이어졌다.</eg>
+				<trans>the beginning</trans>
+				<sem_class>부분시간</sem_class> <!-- 단계 수정, 단, 부분시간과 추상적부분을 나눌 수도 있을 듯함 -->
+				<!--(권오희)추상적부분에서 수정-->
+				<lr>
+					<ant type="grad">말미</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<max_n_str>X ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가함 -->
+				<sel_rst arg="X">시간</sel_rst>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이 소설은 ~에 이미 주인공의 죽음이라는 결말이 예고되어 있다.</eg>
+				<trans>the beginning</trans>
+				<sem_class>추상적부분</sem_class>
+				<lr>
+					<ant type="grad">말미</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+ 				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 드러나다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">사조|텍스트|예술|작품|방송물|역사|상황|사행</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

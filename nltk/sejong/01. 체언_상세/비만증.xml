@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>비만증</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2006/05/21</cre_date>
+				<cre_writer>전미현</cre_writer>
+				<cre_note>의미부류 확인요망</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2006/07/28</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>형용사정보에 '심하다' 추가;명사연어에서 '~ 치료' 삭제;명사연어에 '~ 환자, 소아, 어린이 ~' 추가;동사정보에 '있다, 없다' 추가;'생기다'에 'X-에게 ~이 생기다' 프레임 정보 추가;맥스엔 정보 추가</mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_R">비만+증</str>
+			<org lg="si">肥滿症</org>
+		
+			<hom exist="yes"/>
+			<der  pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>요즘 아이들은 인스턴트 음식을 너무 좋아해서 ~이 우려된다.</eg>
+				<trans>obesity </trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>질병및증세</sem_class><!-- 전미현(2006/05/21) '인간관련현상'인 듯 한데, 그 하위에는 '경제현상'만 있어서 애매함!--><!--(이민우)의미부류수정-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 심각하다</comb_aj>
+				<comb_aj type="appr">~이 약하다</comb_aj>
+				<comb_aj type="appr">~이 심하다</comb_aj>
+				<comb_n type="compound">~ 환자</comb_n>
+				<comb_n type="compound">소아 ~</comb_n>
+				<comb_n type="compound">어린이 ~</comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 예방하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 우려되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 치료하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 있다</form>
+					<frame>X-이 ~이 있다</frame>
+					<frame>X-에게 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 없다</form>
+					<frame>X-이 ~이 없다</frame>
+					<frame>X-에게 ~이 없다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 생기다</form>
+					<frame>X-이 ~이 생기다</frame>
+					<frame>X-에게 ~이 생기다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~에 걸리다</form>
+					<frame>X-이 ~에 걸리다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

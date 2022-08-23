@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>이해</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/07</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/18</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/03</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/02/21(한동훈)예문 추가</note>
+			<note>2003/03/18(고길수)의미부류를 '관계추상적대상'에서 '추상적대상'으로 수정, 단 재검토 필요</note>
+			<note>pre_d의 '~'를 '#'로 수정</note>
+			<note>의미부류를 '기타'에서 '관계추상적 대상'으로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">利害</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~설</der>
+			<comp pos="n" type="suffix">~관계</comp>
+			<comp pos="n" type="suffix">~관두</comp>
+			<comp pos="n" type="suffix">~득실</comp>
+			<comp pos="n" type="suffix">~불계</comp>
+			<comp pos="n" type="suffix">~상반</comp>
+			<comp pos="n" type="suffix">~타산</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 둘은 ~를 따지지 않는 사이이다.서로의 입장과 ~가 맞아야 원만한 관계를 가질 수 있다.</eg>
+				<trans>interestsgain and loss</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>가부</coord>
+					<coord>공과</coord>
+					<coord>득실</coord>
+					<coord>시비</coord>
+					<coord>잘잘못</coord>
+					<coord>찬반</coord>
+					<mero>이익</mero>
+					<mero>손해</mero>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 맞아떨어지다</form>
+					<frame>Y-에 대해 ~가 맞아떨어지다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 같이하다</form>
+					<frame>Y-에 대해 ~를 같이하다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 따지다</form>
+					<frame>X-이 Y-에 대해 ~를 따지다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 떠나다</form>
+					<frame>Y-에 대해 ~를 떠나다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 초월하다</form>
+					<frame>Y-에 대해 ~를 초월하다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 관계되다</form>
+					<frame>Y-에 대해 ~에 관계되다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">사물|사건|행위</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/07</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/18</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/03</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/02/24(한동훈)예문 추가</note>
+			<note>2003/03/18(고길수)의미를 추가로 분할함</note>
+			<note>동사자유구성을 add 로 옮기고 comb_v에 '~가 가다' 추가</note>
+			<note>센스1의 comb_v에서 '~가 가다' 삭제</note>
+			<note>센스1의 magn에서 '~가 있다|없다'는 삭제, '~가 부족하다' 추가</note>
+			<note>센스1의 pre_s에 'S다는 ~' 추가</note>
+			<note>센스1의 기능동사, 논항의미정보 수정</note>
+			<note>센스1의 예문에 '~가 깊다' 추가</note>
+			<note>의미부류를 '인지'에서 '인지추상적행위'로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">理解</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~성</der>
+			<der pos="n" type="suffix">~도</der>
+			<der pos="n" type="suffix">~력</der>
+			<der pos="n" type="suffix">~심</der>
+			<der pos="n" type="prefix">몰~</der>
+			<comp pos="n" type="suffix">~어휘</comp>
+			<comp pos="n" type="suffix">~판단</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~받다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~가 가다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 아내의 투정도 사랑 표현의 하나라고 ~를 하였다.그의 작품들은 우리 민족의 역사에 대한 ~를 필요로 한다.</eg>
+				<trans>understandingcomprehension</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>인지추상적행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">오해</ant>
+					<ant type="etc">몰이해</ant>
+					<coord>오해</coord>
+					<coord>인식</coord>
+					<coord>파악</coord>
+					<coord>판단</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~가 깊다</comb_aj>
+				<comb_aj type="magn">~가 부족하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 가다</form>
+					<frame>X-이 Y-에 대해 ~가 가다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~</form>
+					<frame>X-이 Y|S것-을 Z|S것-으로 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~</form>
+					<frame>X-이 Y|S것-을 S다고 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~</form>
+					<frame>Y|S것-이 X-에게 Z|S것-으로 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~</form>
+					<frame>Y|S것-이 X-에게 S다고 ~가 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 요구하다</form>
+					<frame>X-이 Y-에 대해 ~를 요구하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y 이해</max_n_str>
+				<max_n_str>Y|S것-에대한 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<sel_rst arg="Z">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S다는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 부분은 몇 번을 읽어도 ~가 되지 않는다.그는 서양 음악에 ~가 깊다.</eg>
+				<trans>understandingcomprehension</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>인지추상적행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">오해</ant>
+					<ant type="etc">몰이해</ant>
+					<coord>오해</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 빠르다</comb_aj>
+				<comb_aj type="appr">~가 느리다</comb_aj>
+				<comb_aj type="magn">~가 깊다</comb_aj>
+				<comb_aj type="magn">~가 부족하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 가다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~</form>
+					<frame>X-이 Y|S것-을|에대해서 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~</form>
+					<frame>Y|S것-이 X-에게 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~</form>
+					<frame>X-이 Y|S것-에 ~가 있다|없다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-의 Y 이해</max_n_str>
+				<max_n_str>Y|S것-에대한 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>그는 먼저 주변 사람들의 ~를 구한 후에 공사를 시작했다.그는 참으로 ~가 없는 녀석이구나.사람들은 나의 처지를 ~를 하려 들지 않는다.</eg>
+				<trans>comprehension</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>인지추상적행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y|S것-을|에대해 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y|S것-이 X-에게|에게서 ~가 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 구하다</form>
+					<frame>X-이 Y|S것-을|에대해 ~를 구하다</frame>
+				</comb_v>
+				<max_n_str>Y|S것-에대한 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/07</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/18</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/03</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>'나는 1950년, ~를 잊지 못한다'와 같은 경우 대명사로 기술할 필요가 있을 듯</note>
+			<note>2003/02/24(한동훈)예문 추가</note>
+			<note>2003/03/18(고길수)예문 수정</note>
+			<note>pre_d, pre_n의 '~'를 '#'으로 수정</note>
+			<note>의미부류를 '시간'에서 '현재'로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">이+해</str>
+			<org lg="temp"></org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~를 잘 넘기면 사정이 좀 나아질 것이다.~도 이제 며칠이면 끝난다.</eg>
+				<trans>this year</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>현재</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>그해</coord>
+					<coord>금년</coord>
+					<coord>내년</coord>
+					<coord>만년</coord>
+					<coord>명년</coord>
+					<coord>올해</coord>
+					<coord>작년</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 가다</form>
+					<frame></frame>
+				</comb_v>
+			    <comb_v type="narg_vpred">
+					<form vcompound="no">~가 넘기다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n yn="no"/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

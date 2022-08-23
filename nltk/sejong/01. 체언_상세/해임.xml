@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>해임</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/16</cre_date>
+				<cre_writer>서진숙</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/19</mod_date>
+				<mod_writer>서진숙</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/02</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/16</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+				<mod>
+				<mod_date>2005/02/16</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>syn type 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/08</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">解任</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>대통령은 그가 공금횡령을 했다고 그를 ~을 하였다.</eg>
+				<trans>release from office</trans>
+				<trans>dismissal</trans>
+				<sem_class>처벌</sem_class>
+				<lr>
+				    <syn type="etc">해직</syn> 
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 S-다고 ~을 하다</frame>
+					<frame>X-이 Y-을 S-다고 Z-에서 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>X-이 Y-을 S-다고 ~을 시키다</frame>
+					<frame>X-이 Y-을 S-다고 Z-에서 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에게 S-다고 ~이 되다|당하다</frame>
+					<frame>Y-이 X-에게 S-다고 Z-에서 ~이 되다|당하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 당하다</form>
+					<frame>Y-이 X-에게 S-다고 ~을 당하다</frame>
+					<frame>Y-이 X-에게 S-다고 Z-에서 ~을 당하다</frame>
+				</comb_v>
+				<max_n_str>Y-에 의한 X-의 Z-로부터의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<sel_rst arg="Z">직위</sel_rst>
+				<sel_rst arg="Z">임무</sel_rst>
+				<sel_rst arg="Z">직무</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

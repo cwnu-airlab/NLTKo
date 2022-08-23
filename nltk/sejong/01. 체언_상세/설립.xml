@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>설립</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/25</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/13</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>명사연어에서 '재단|학교(의) ~' 삭제, '~ 목적, 배경, 비용' 추가;'~을 하다|시키다' 분할 표기;'~을 인가하다|추진하다' 분할 표기 및 narg_vpred 수정;맥스엔 보완;표준사전에 따라 Z 논항 추가;선택제약 정보 수정 및 보완</mod_note>
+			</mod>
+			<note>2003/01/13(이지영)예문추가|문장부호입력|sem수정|sel_res수정</note>
+			<note>2003/01/15(김진형)의미부류 수정</note>
+			<note>comb_v 정보 add로 이동</note>
+			<note>comb_n에서 '재단|학교(의) ~' add로 이동</note>
+			<note>sel_res의 Y논항 의미부류 수정</note>
+			<add>~을 인가하다|추진하다</add>
+			<add>재단|학교(의) ~</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">設立</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~자</der>
+			<comp pos="n" type="suffix">~일</comp>
+			<comp pos="n" type="suffix">~기금</comp>
+			<comp pos="n" type="suffix">~인가</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>주식회사의 ~을 위한 요건을 자세히 알아 와라.</eg>
+				<eg>이사장이 법인의 ~ 취지서를 낭독했다.</eg>
+				<trans>establishment</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>창조행위</sem_class>
+				<lr>
+					<syn type="etc">창립</syn>
+					<ant type="etc">해산</ant>
+					<ant type="etc">해체</ant>
+					<coord>해산</coord>
+					<coord>해체</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 이념</comb_n>
+				<comb_n type="compound">~ 목적</comb_n>
+				<comb_n type="compound">~ 배경</comb_n>
+				<comb_n type="compound">~ 비용</comb_n>
+				<!-- n_n type="compound">재단|학교(의) ~</n_n -->
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 인가하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 추진하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Z-에 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>X-이 Z-에 Y-을 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에의해 Z-에 ~이 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<!--vcompound: ~시키다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Z-에의 Y ~</max_n_str>
+				<max_n_str>Y-의 Z-에의 ~</max_n_str>
+				<max_n_str>X-에의한 Y-의 ~</max_n_str>
+				<max_n_str>X-에의한 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">국가|단체</sel_rst>
+				<sel_rst arg="Y">국가|종족|지역단체|단체|유파|지상장소|지역|건물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

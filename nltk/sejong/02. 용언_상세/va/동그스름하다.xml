@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>동그스름하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/20</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김미영</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/22</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc">둥그스름하다</var>
+			<var type="etc">똥그스름하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>모양속성값</sem_class>
+				<trans>be roundish</trans>
+				<lr>
+					<ant type="compl">모나다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<n_appr>모양</n_appr>
+					<eg>한복이 잘 어울리려면 어깨가 동그스름해야 한다.</eg>
+					<eg>넙적한 접시말고 선반 위에 놓인 동그스름한 것으로 가져 오너라.</eg>
+					<eg>각진 얼굴보다 동그스름한 얼굴의 사람이 첫인상이 좋다.</eg>
+					<eg>어깨가 동그스름한 여자가 한복선이 예쁘다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

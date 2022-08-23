@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>태클</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/20</cre_date>
+				<cre_writer>김성용</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/24</mod_date>
+				<mod_writer>이홍식</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/02</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note>n_v의 ~완성</mod_note>
+				<mod_note>add를 n_v로 옮김</mod_note>
+				<mod_note>n_n compound추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/03/03</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/10/24(이홍식)논항구조에 '누구를 태클을 하다'가 가능한 듯함</note>
+			<add>~이 들어오다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">tackle</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>축구를 할 때 선수들은 ~을 해서 상대방을 저지하려고 한다.</eg>
+				<trans>tackle</trans>
+				<domain>운동</domain>
+				<sem_class>방법</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="yes">~을 걸다</form>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에게 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 들어오다</form>
+					<frame>Y-에게 ~이 들어오다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>Y-이 X-에게(서) ~을 받다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">운동경기역할인간</sel_rst>
+				<sel_rst arg="Y">운동경기역할인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 친구는 나에게 사사건건 ~을 건다.</eg>
+				<trans>tackle</trans>
+				<sem_class>방법</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">슬라이딩~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="yes">~을 걸다</form>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에게 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>Y-이 X-에게(서) ~을 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 Y-에게 ~이다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

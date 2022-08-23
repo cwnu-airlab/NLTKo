@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>부침시키다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/22</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/22</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/08/08</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">부침을 시키다</var>
+			<cntr opt="obl" type="i"/>
+			<org lg="si">浮沈__</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>rise and fall</trans>
+				<trans>ebb and flow</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">액체(강물|급류|파도)</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(나무|가구|돼지|집|쓰레기)</sel_rst>
+					<eg>밀려드는 파도가 쓰레기들을 부침시키면서 해안으로 몰고 왔다.</eg>
+					<eg>급류가 떠내려오는 나무들을 부침시키면서 쏟아져왔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>fluctuate</trans>
+				<trans>have ups and downs</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">(환경|경제|정세)</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간집단(학교|은행|기업|국가)</sel_rst>
+					<eg>외부적인 환경이 기업들을 부침시키곤 한다.</eg>
+					<eg>급변하는 국제정세가 많은 은행들을 부침시킨다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

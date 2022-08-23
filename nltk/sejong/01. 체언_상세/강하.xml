@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>강하</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/07</cre_date>
+				<cre_writer>김종명</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/21</mod_date>
+				<mod_writer>이민우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/21</mod_date>
+				<mod_writer>목정수</mod_writer>
+				<mod_note>논항 선택 제약 정보 '교통기관'에서 '교통수단'으로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/17</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/30</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>최대논항구조정보추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/25</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어, 명사결합 추가</mod_note>
+				<mod_note>형용사결합 타입 수정, 의미부류 수정(센스 1은 단독행위에서 이동행위, 센스 2는 사건|현상에서 감소로)</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/20</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">降下</org>
+		
+			<comp pos="n" type="suffix">~부대</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>비행기가 급하게 ~를 했다.</eg>
+				<trans>falling</trans>
+				<sem_class>이동행위</sem_class>
+				<lr>
+					<syn type="perfect">하강</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">낙하산 ~</comb_n>
+				<comb_n type="compound">~ 시범</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">교통수단</sel_rst>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>갑작스런 기온의 ~로 수도관이 동파되었다.</eg>
+				<trans>falling</trans>
+				<sem_class>감소</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">갑작스런 ~</comb_aj>
+				<comb_n type="compound">기압(의) ~</comb_n>
+				<comb_n type="compound">기온(의) ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-이 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">기온|기압</sel_rst>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

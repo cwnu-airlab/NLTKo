@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>환불</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/16</cre_date>
+				<cre_writer>서진숙</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/27</mod_date>
+				<mod_writer>서진숙</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/01</mod_date>
+				<mod_writer>박만규</mod_writer>
+	            <mod_note>을 하다 추가, 최대논항구조추가</mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2005/02/18</mod_date>
+				<mod_writer>장원철</mod_writer>	
+		        <mod_note></mod_note>
+	        </mod>
+	        <mod>
+		    	<mod_date>2007/08/02</mod_date>
+				<mod_writer>백고운</mod_writer>	
+		        <mod_note>합성어, 동사결합정보 추가</mod_note>
+	        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+		     <var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">還拂</org>
+		    <hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~금</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>새로 산 물건이 고장나서 ~을 했다.</eg>
+				<trans>refundment</trans>
+				<trans>refund</trans>
+				<trans>rebate</trans>
+				<trans>drawback</trans>
+				<trans>repayment</trans>
+				<sem_class>대칭적행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>X-이 Y-을 ~을 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 요구하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에 대한 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">구체물</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

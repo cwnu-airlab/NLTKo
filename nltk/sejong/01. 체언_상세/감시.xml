@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>감시</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/04/29</cre_date>
+				<cre_writer>신지현</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/23</mod_date>
+				<mod_writer>박동호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/02</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/08/02(강범모,신지현)-일차교정</note>
+			<note>2001/08/03(신지현)-이차교정</note>
+			<note>2003/02/23(박동호)sense1의 uni에 '번|회|차례'를 추가</note>
+			<note>magn '~가 심하다|엄격하다|엄중하다'를 comb_aj에 기재</note>
+			<note>comb_v의 '~가 붙다'를 add에 기재</note>
+			<note>sel_res의 '인물'을 '인간'으로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">監視</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~단</der>
+			<der pos="n" type="suffix">~대</der>
+			<der pos="n" type="suffix">~원</der>
+			<der pos="n" type="suffix">~인</der>
+			<comp pos="n" type="suffix">~초소</comp>
+			<comp pos="n" type="suffix">~레이다</comp>
+			<comp pos="n" type="suffix">~체계</comp>
+			<comp pos="n" type="suffix">~탑</comp>
+			<comp pos="n" type="suffix">~병</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~받다</comp>
+			<comp pos="v" type="suffix">~당하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>마약범은 경찰들의 끊임없는 ~의 대상이다</eg>
+				<trans>watch</trans>
+				<trans>lookout</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>행위</sem_class>
+				<lr>
+					<syn type="etc">독시</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 소홀하다</comb_aj>
+				<comb_aj type="appr">~가 심하다</comb_aj>
+				<comb_aj type="appr">~가 엄격하다</comb_aj>
+				<comb_aj type="appr">~가 엄중하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 게을리하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 늦추다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 피하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 강화하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 받다|당하다</form>
+					<frame>Y-이 X-에게 ~를 받다|당하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>Z-이 X-에게 Y-을 ~를 시키다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 감시</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<sel_rst arg="Z">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

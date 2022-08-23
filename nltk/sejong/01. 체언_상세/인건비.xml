@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>인건비</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/26</cre_date>
+				<cre_writer>김미현</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/17</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/28</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>nng_c로 고치고 str 기술</mod_note>
+				<mod_note>add 정보를 n_n에 기술 및 정보 추가</mod_note>
+				<mod_note>n_v 기술</mod_note>
+				<mod_note>의미부류 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+			<mod_date>2007/07/25</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/09/09(박동호)</note>
+			<note>2002/10/12(김종명)</note>
+			<note>2003/07/22(권오희)전문영역 '경제'기술</note>
+			<note>2003/08/17(이은경)단위표현(양)에 '원' 추가</note>
+			<add>명사결합 : ~ 상승|삭감</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_R">인건+비</str>
+			<org lg="si">人件費</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~가 싸다는 이유로 기업들은 중국 시장에 진출하고 있는 추세이다.</eg>
+				<trans>personnel expenses</trans>
+				<trans>expenditure</trans>
+				<domain>경제</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>비용</sem_class> <!--'값비용'을 '비용'으로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 싸다</comb_aj>
+				<comb_aj type="appr">~가 비싸다</comb_aj>
+				<comb_n type="compound">~ 상승</comb_n>
+				<comb_n type="compound">~ 하락</comb_n>
+				<comb_n type="compound">~ 삭감</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 줄이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 삭감하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 늘다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="qnt">원</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

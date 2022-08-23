@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>상존하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/22</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/22</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/10/20</mod_date>
+				<mod_writer>음두은</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">상존을 하다</var>
+			<str>N.하</str>
+			<org lg="si">尙存_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상황값</sem_class>
+				<trans>still exist</trans>
+				<trans>be still in existence</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<eg>우리나라에 상존하는 신라의 유물로서 가장 오래된 것이다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(문화|잔재)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소(땅)|추상적대상(교육|정치권)</sel_rst>
+					<eg>이 땅에 상존하는 일제의 잔재를 청산해야 한다.</eg>
+					<eg>정치권에 상존하는 독재의 잔재를 제거해야 한다.</eg>
+					<eg>학교 교육에 상존하는 군사문화를 없애야 합니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/22</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/22</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">상존을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<org lg="si">常存_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상황값</sem_class>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N2-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(세균)|(의도|가능성)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">인간|(피부)|집단(기업|회사)</sel_rst>
+					<eg>교통사고의 가능성은 모두에게 상존하기 때문에 운전할 때는 늘 조심해야 한다.</eg>
+					<eg>모낭이 막히면 피부에 상존하는 세균이 염증을 일으켜 여드름을 생성시킵니다.</eg>
+					<eg>가입자의 권익은 어떤 형태로든 상존하는 범죄의도로부터 보호되어야 합니다.</eg>
+					<eg>현대기업내에 상존하는 예측불가능한 다양한 위험을 하나의 보험증권으로 종합하였습니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

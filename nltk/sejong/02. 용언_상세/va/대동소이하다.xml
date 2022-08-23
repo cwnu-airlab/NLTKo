@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>대동소이하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/13</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김미영</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/22</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/18</mod_date>
+				<mod_writer>박보연</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+				<mod_note>의미 정보 구획 내용 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/12/18</mod_date>
+				<mod_writer>김윤신</mod_writer>
+				<mod_note>격틀 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<org lg="si">大同小異_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>관계속성값</sem_class>
+				<trans>be almost identical</trans>
+				<lr>
+					<syn type="kor">비슷하다</syn>
+					<ant type="grad">다르다</ant>
+					<rel>거의 같다</rel>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA" cor="sym" n="01">
+				<frame>X=N0-이 Y=N1-와 Z=N2-이 (서로) A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">온</sel_rst>
+					<sel_rst arg="Y" tht="COM">온</sel_rst>
+					<sel_rst arg="Z" tht="CRT">온</sel_rst>
+					<eg>형은 동생과 수학 실력이 대동소이해서 우열을 가리기 힘들다.</eg>
+					<eg>이 유치원은 길 건너 유치원과 교육 과정이 대동소이해서 아이를 가까운 곳으로 보내는 편이 좋겠다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA" cor="sym" n="01"> <!--격틀 및 선택제약 수정-->
+				<frame>X+Y=N0-이 Z=N1-이 (서로) A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">온</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<sel_rst arg="Z" tht="CRT">온</sel_rst>
+					<eg>형과 동생은 수학 실력이 대동소이해서 우열을 가리기 힘들었다.</eg>
+					<eg>이 유치원과 길 건너 유치원은 교육 과정이 대동소이해서 가까운 곳으로 아이를 보내는 것이 좋겠다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

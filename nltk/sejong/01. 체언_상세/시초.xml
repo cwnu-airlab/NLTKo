@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>시초</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/21</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/20</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/27</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미부류 수정;논항명사구, 선택제약, 수식어절 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/08</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/05/21(이호영)</note>
+			<note>2002/08/28(김종명)</note>
+			<note>2003/09/07(최지임)</note>
+			<note>2003/09/20(고길수)예문 추가 및 수정;의미부류를 '관계시간'에서 '단계'로 수정;단 의미를 '단계'와 '원인'으로 구별해볼 수 있을 듯, 참고로 예문 1은 단계로 보이지만, 예문 2는 원인에 가까운 듯하고, 센스2의 경우에는 원인에 해당하는 '사소한 분쟁이 전쟁의 시초가 되었다, 전쟁의 시초는 사소한 분쟁이었다' 등과 같이 환원이 가능함</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">始初</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>작업 ~부터 여러 가지 문제들이 생겨났다.</eg>
+				<eg>사소한 분쟁이 두 나라 사이의 비극적인 전쟁의 ~가 되었다.</eg>
+				<trans>beginning</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>부분시간</sem_class> <!-- 단계 수정 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<max_n_str>S것-의 ~</max_n_str>
+				<sel_rst arg="X">행위|계획사건</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

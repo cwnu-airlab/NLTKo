@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>지학</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/11</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/13</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/06</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>동사결합 항목 추가</mod_note>
+				<mod_note>동위어 항목 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/19</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2004/12/30</mod_date>
+				<mod_writer>장원철</mod_writer>
+		        <mod_note></mod_note>
+	        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="lng">지구과학</var>
+			<org lg="si">地學</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>오늘 ~을 공부했다.</eg>
+				<eg>나는 ~이 제일 어려운 과목이다.</eg>
+				<trans>physical geography</trans>
+				<sem_class>학문과목</sem_class>
+				<lr>
+					<coord>수학</coord>
+					<coord>화학</coord>
+					<coord>지리</coord>
+					<coord>역사</coord>
+					<coord>국사</coord>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 배우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 공부하다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/11</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/13</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/06</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>센스1의 합성동사 정보를 명사동사 결합구획으로 이동</mod_note>
+				<mod_note>센스2 의미부류 수정</mod_note>
+				<mod_note>센스2 동사결합 항목 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/19</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2004/12/30</mod_date>
+				<mod_writer>장원철</mod_writer>
+		        <mod_note></mod_note>
+	        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">志學</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>대학원에 진학하여 ~을 결심했다.</eg>
+				<eg>공자는 열다섯 살에 ~을 했다고 한다.</eg>
+				<trans>have a fixed purpose to learning</trans>
+				<sem_class>추상적행위</sem_class> <!-- '인지추상적행위'부류가 존재하지 않아 '추상적행위'로 수정(송근영) -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>어느새 ~이 되었다.</eg>
+				<trans>fifteen</trans>
+				<sem_class>연령속성시간</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 되다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

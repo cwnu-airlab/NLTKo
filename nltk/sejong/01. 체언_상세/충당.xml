@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>충당</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/23</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>2003/08/24(김이정)</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/08</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>supv의 각 구문을 분리 기재하고 '시키다'를 추가,이를 cor_v에 반영</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/12</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>예문 추가;의미부류 수정;동사결합 수정;논항명사구 추가;논항 의미정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>n_n 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/03/04</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>기능동사구문의 ~시키다 삭제</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/10</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">充當</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>문화부는 국립극장의 복원비를 국고로 ~을 할 방침이다.</eg>
+				<eg>그는 부족한 여행비에 ~을 할 돈을 구하고 다녔다.</eg>
+				<trans>appropriation</trans>
+				<trans>making up</trans>
+				<trans>filling up</trans>
+				<trans>meeting</trans>
+				<trans>supplying</trans>
+				<sem_class>획득행위</sem_class> <!-- 단독행위 수정 -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">생계비 ~</comb_n>
+				<comb_n type="compound">생활비 ~</comb_n>
+				<comb_n type="compound">인력 ~</comb_n>
+				<comb_n type="compound">자금 ~</comb_n>
+				<comb_n type="compound">자원 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 Z-로 ~을 하다</frame>
+					<frame>X-이 Y-을 Z-에서 ~을 하다</frame>
+					<frame>X-이 Y-에 Z-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 Z-로 ~이 되다</frame>
+					<frame>Y-에 Z-이 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Z ~</max_n_str>
+				<max_n_str>Z-에서의 Y ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">구체물|추상적대상|단독행위</sel_rst>
+				<sel_rst arg="Z">구체인공물|금전|값</sel_rst>
+				<cl type="uni">차례</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

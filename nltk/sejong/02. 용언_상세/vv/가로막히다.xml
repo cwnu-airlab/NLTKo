@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>가로막히다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+				<mod>
+				<mod_date>2006/09/14</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>내부구조 수정, 예문 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/04/14</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note>의미역,예문수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="i"/>
+			<str>NVS</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>be obstructed</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">장소(산|바다)</sel_rst>
+					<eg>산이 가로막혀 더이상 길을 갈 수 없다.</eg>
+					<eg>실향민들은 휴전선이 가로막혀 고향에 돌아가지 못한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be blocked</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(앞길|출세|진로)</sel_rst>
+					<eg>성수대교의 붕괴로 그의 앞길도 가로막혔다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(진로)</sel_rst>
+					<sel_rst arg="Y" tht="AGT">인간|인간집단</sel_rst>
+					<eg>우리는 적군에게 진로가 가로막혀 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>be interrupted</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소(길|집|건물)</sel_rst>
+					<sel_rst arg="Y" tht="EFF">구체물(나무)|장소(건물|도서관|빌딩)</sel_rst>
+					<eg>이쪽 길은 큰 나무에 가로막혀 있어 다니지 못한다.</eg>
+					<eg>우리 교실은 도서관에 가로막혀 있어 거리를 내다볼 수 없다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(눈앞|시야)</sel_rst>
+					<sel_rst arg="Y" tht="EFF">구체물(산|나무|건물)</sel_rst>
+					<eg>큰 나무에 시야가 가로막혀 앞을 제대로 볼 수가 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>be obstructed</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(눈앞|시야)</sel_rst>
+					<sel_rst arg="Y" tht="EFF">추상적대상(욕심|이해)</sel_rst>
+					<eg>지나친 욕심에 눈앞이 가로막혀 진실을 볼 수 없었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>be blocked</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(말문)</sel_rst>
+					<sel_rst arg="Y" tht="EFF">(소식|이야기|말)</sel_rst>
+					<eg>나는 부모님이 돌아갔다는 소식에 갑자기 말문이 가로막혔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="06">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>be interrupted</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(승진)</sel_rst>
+					<sel_rst arg="Y" tht="AGT">인간|인간집단</sel_rst>
+					<eg>그는 나이먹은 상급자들에게 승진이 가로막혀 승진을 하지 못하고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

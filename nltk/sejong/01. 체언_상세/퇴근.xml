@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>퇴근</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/19</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/01</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/23</mod_date>
+				<mod_writer>정아름</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/16</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/08/14(고길수</note>
+			<note>2003/10/01(박진호)의미부류, 선택제약 수정</note>
+			<note>김종명</note>
+			<note>논항선택제약 추가</note>
+			<note>이성헌)</note>
+			<note>첩어및혼성어 추가</note>
+			<note>2006/07/23(정아름) 예문 마침표 추가, 중복 정보 삭제, 합성어 정보 추가 </note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">退勤</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~길</comp>
+			<comp pos="n" type="suffix">~시간</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<comp pos="n" type="prefix">칼~</comp>
+			<comp pos="n" type="prefix">출~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>업무가 많아서 ~이 늦어졌다.</eg>
+				<trans>leaving one's office</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>이동행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">출근</ant>
+					<coord>조퇴</coord>
+					<coord>출근</coord>
+					<rel>대중교통</rel>
+					<rel>업무</rel>
+					<rel>집</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 늦다</comb_aj>
+				<comb_aj type="appr">~이 빠르다</comb_aj>
+				<comb_aj type="appr">~이 이르다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 늦추다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에서 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>Z-이 X-를 Y-에서 ~을 시키다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~시키다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간집단(회사)|장소(사무실)</sel_rst>
+				<sel_rst arg="Z">인간(상사)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>방산되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/02</cre_date>
+				<cre_writer>노윤채</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">방산이 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<str>방산.되</str>
+			<org lg="si">放散_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>radiate</trans>
+				<lr>
+					<syn type="perfect">방사되다</syn>
+					<syn type="kor">내뿜어지다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">빛|(열|수증기)</sel_rst>
+					<eg>방사능은 일단 공기 중에 방산되면 큰 재앙을 초래할 수도 있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(통증)</sel_rst>
+					<eg>허리를 괴롭히던 통증은 요즘은 다리로까지 방산된 느낌이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

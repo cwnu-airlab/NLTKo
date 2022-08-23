@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>젖다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/14</cre_date>
+				<cre_writer>박철우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/05/26</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/12/22</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>형태 정보 구획 및 의미 정보 구획 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>get wet</trans>
+				<trans>be wet</trans>
+				<trans>be damp</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="EFF">기상관련물|액체</sel_rst>
+					<eg>노면이 비에 젖어 있을 때는 신속히 브레이크를 여러 차례 밟아 차를 멈춘다.</eg>
+					<eg>새로 산 옷이 갑자기 내린 소나기로 흠뻑 젖었다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="magn">흠뻑</col>
+					<col type="magn">함빡</col>
+					<col type="manner2">촉촉하게</col>
+					<col type="manner2">흥건하게</col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>be steeped</trans>
+				<trans>be immersed</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="EFF">심리상태(감정)|인지상태(생각)|방법|관습(타성)|규범|상태</sel_rst>
+					<eg>최고의 엘리트 코스만 밟아온 두 선수의 가장 큰 공통점은 스타 의식에 젖어 성실한 자세를 보이지 않았다는 것이다.</eg>
+					<eg>그 음식점은 음식 맛은 물론 실내 장식과 음악 등에서 이국적인 분위기에 흠뻑 젖어 볼 수 있기 때문에 외국인뿐만 아니라 내국인들에게도 큰 인기를 끌고 있습니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<idm_grp>
+			<idm>귀에 젖다</idm>
+		</idm_grp>
+	</entry>
+</superEntry>

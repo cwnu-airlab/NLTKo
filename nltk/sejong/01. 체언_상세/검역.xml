@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>검역</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/06/10</cre_date>
+				<cre_writer>차준경</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/03</mod_date>
+				<mod_writer>한선혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/22</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>예문 형식 수정, add를 n_v로, n_v 형식 수정</mod_note>
+			</mod>
+			<note>2000/09/03(차준경)</note>
+			<note>2001/01/22(조진현</note>
+			<note>2003/02/19(최지임)</note>
+			<note>2003/08/03(한선혜)</note>
+			<note>강범모)</note>
+			<note>기능동사수정</note>
+			<note>논항선택약 수정</note>
+			<note>단위표현입력</note>
+			<note>동사의 연어구성정보 add에 입력</note>
+			<note>예문삭제 및 입력</note>
+			<add>~을 강화하다|통과하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">檢疫</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~관</der>
+			<der pos="n" type="suffix">~선</der>
+			<der pos="n" type="suffix">~소</der>
+			<der pos="n" type="suffix">~항</der>
+			<comp pos="n" type="suffix">~전염병</comp>
+			<comp pos="n" type="suffix">~신호</comp>
+			<comp pos="n" type="suffix">~구역</comp>
+			<comp pos="n" type="suffix">~증명서</comp>
+			<comp pos="n" type="suffix">~필증</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>전염병의 확산을 막기 위해서는 여행객들 뿐만 아니라 모든 화물들에 대해서도 철저한 ~이 이루어져야 합니다.</eg>
+				<eg>수입된 농산물은 당국의 ~을 통과한 후 시장에 유통될 수 있습니다.</eg>
+				<trans>quarantine</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 철저하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 강화하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 통과하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>Y-에대한 X-의 검역</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">구체물</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

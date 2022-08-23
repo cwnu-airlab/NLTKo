@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>든든하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/15</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/11</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>R.하</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>평가속성값</sem_class>
+				<trans>be robust</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체인공물(건물|다리|책상|의자)</sel_rst>
+					<eg>이 건물은 든든하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(기초|기반|출발|관계)</sel_rst>
+					<eg>이 연구의 기초가 든든하니 좋은 결과가 나올 것이다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">군대(해군|공군)|(군사력)</sel_rst>
+					<eg>그 나라의 군사력은 생각만큼 든든하지 않습니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>신체상태</sem_class>
+				<trans>be full</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">(속|배)</sel_rst>
+					<eg>점심에 고기를 먹었더니 속이 든든하다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>내재적심리상태</sem_class>
+				<trans>be reassuring</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">(마음)</sel_rst>
+					<eg>아들을 둘이나 얻어서 마음이 든든합니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

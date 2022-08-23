@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>사법부</orth>
+	<entry n="1" pos="nng_c"> <!-- temp 수정 -->
+		<mnt_grp>
+			<cre>
+				<cre_date>2005/11/04</cre_date>
+				<cre_writer>서진숙</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2005/11/30</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>품사정보 수정;동형어정보 삭제;논항 의미정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/18</mod_date>
+				<mod_writer>임근석</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>명사 연어 추가</mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">사법+부</str>
+			<org lg="si">司法府</org>
+		
+			<!-- hom exist="yes"/ 삭제 --> 
+			<der  pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리는 이 사건의 결과를 ~에 맡기기로 하였다.</eg>
+				<trans>the judicature</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>국가기관</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>입법부</rel>
+					<rel>행정부</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp">일본(의) ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 맡기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 제출하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str><!-- 임근석: X(-의) ~ 삭제-->
+				<sel_rst arg="temp"></sel_rst> <!-- 국가기관 수정 --><!-- 임근석 국가 삭제--> 
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

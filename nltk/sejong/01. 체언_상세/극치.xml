@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>극치</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/15</cre_date>
+				<cre_writer>박동호</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/08</mod_date>
+				<mod_writer>김현승</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/12</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/22</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>n_v 수정</mod_note>
+				<mod_note>add 정보 일부 n_v에 추가</mod_note>
+				<mod_note>max_n 수정</mod_note>
+				<mod_note>sel_res 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/11</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/09/15(박동호)</note>
+			<note>2002/09/28(이성헌)sense1(상태),2(속성값)은 모두 '등급'에 속하는 것으로 보임</note>
+			<note>2003/10/08(김현승)센스1의 의미부류를 '등급'에서 '상등급'으로 수정</note>
+			<note>sense 통합하고 예문통합</note>
+			<add>~에 달하다|도달하다</add>
+			<add>센스1,2: ~이다</add>
+			<add>센스1: ~를 이루다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">極致</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 탑은 조화미의 ~를 보여주고 있다.</eg>
+				<eg>이 저작은 그의 학문의 ~의 경지를 보여준다.</eg>
+				<trans>culmination</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>높은정도</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 Y-의 ~이다</frame> <!--Y 논항 추가(송근영)-->
+				</comb_v>
+				<comb_v type="npred_vsupvar"> <!--술어명사 결합으로 고치고 격틀 기술,합성동사 불가능으로 수정(송근영)-->
+					<form vcompound="no">~를 이루다</form>
+					<frame>X-이 Y-의 ~를 이루다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> 
+					<form vcompound="no">~에 달하다</form>
+					<frame>X-이 Y-의 ~에 달하다</frame>
+				</comb_v>
+				<max_n_str>Y-의 ~</max_n_str> <!--Y-의 극치로 수정(송근영)-->
+				<sel_rst arg="X">구체인공물|추상적대상</sel_rst>
+				<sel_rst arg="Y">추상적대상|정적사태</sel_rst> <!--송근영 추가-->
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/15</cre_date>
+				<cre_writer>박동호</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/08</mod_date>
+				<mod_writer>김현승</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/12</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/22</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/11</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/09/15(박동호)</note>
+			<note>2002/09/28(이성헌)</note>
+			<note>2003/10/08(김현승)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">極値</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>다음 함수의 ~를 구하시오.</eg>
+				<trans>extreme value</trans>
+				<trans>extremum</trans>
+				<domain>수학</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>수학적대상</sem_class>
+				<lr>
+					<syn type="perfect">극값</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 구하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

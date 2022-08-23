@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>늙다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>인간의변화</sem_class>
+				<trans>become old</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<eg>어머니가 늙으시려는지, 허리가 자주 아프신단다.</eg>
+					<eg>아버지가 요즘 부쩍 늙으셨다.</eg>
+					<eg>여자가 남자보다 빨리 늙는다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">신체부위(얼굴|손|다리)|(마음)</sel_rst>
+					<eg>영희가 얼굴은 늙어 보이나, 실제 나이는 설흔도 안되었다.</eg>
+					<eg>배우가 마음까지 늙으면 끝장이야.</eg>
+					<eg>나는 몸은 늙었지만, 마음만큼은 그렇지 않아.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

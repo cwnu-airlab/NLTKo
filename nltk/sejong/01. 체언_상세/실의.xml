@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>실의</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/22</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/31</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미부류 수정;동사결합 정보 수정 및 이동추가;논항명사구 정보 추가;선택제약 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/21</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/08/22(이호영)</note>
+			<note>2002/08/27(김종명)동사연어정보추가</note>
+			<note>2003/09/14(최지임)add입력</note>
+			<note>예문수정</note>
+			<note>형용사자유구성정보 입력</note>
+			<note>2003/09/22(고길수)단위표현 정보 추가</note>
+			<note>'깊은 ~'를 형용사자유구성에서 형용사연어구성으로 수정</note>
+			<note>기능동사 구문, 논항 의미정보 추가</note>
+			<note>comb_v에 '~에 빠지다' 추가</note>
+			<add>~에 잠기다|젖다|차다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">失意</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>시험에 실패한 후 형은 한동안 ~에 빠져 있었다.</eg>
+				<trans>disappointment</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>내재적심리행위</sem_class> <!-- 부정적감정 수정 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~가 깊다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred"> <!-- narg_vpred 수정, 단 기능동사 변이형인지 검토 필요 -->
+					<form vcompound="no">~에 빠지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred"> <!-- 기능동사 변이형?? -->
+					<form vcompound="no">~에 잠기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred"> <!-- 기능동사 변이형?? -->
+					<form vcompound="no">~에 젖다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred"> <!-- 기능동사 변이형?? -->
+					<form vcompound="no">~에 차다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<!-- 인간집단 추가 -->
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

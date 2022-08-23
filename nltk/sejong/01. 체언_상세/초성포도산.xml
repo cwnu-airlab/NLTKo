@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>초성포도산</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/28</cre_date>
+				<cre_writer>유영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/28</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/11</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>내적구성정보 수정;예문 분할 표기</mod_note>
+			</mod>
+			<mod>
+				<mod_date></mod_date>
+				<mod_writer></mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note></note>
+			<add>~으로 만들어지다</add>
+			<add>~을 분해하다|만들다</add>
+			<add>~이 쌓이다|발생하다|분해되다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">초성+포도산</str>
+			<!-- n(초성)+n(포도)+n(산) 수정 -->
+			<org lg="si">焦性葡萄酸</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>포도당이 연소하면 ~이 생긴다.</eg>
+				<eg>유산이나 ~이 몸 속에 쌓이면 피로도 쌓이게 된다.</eg>
+				<trans>pyro-racemic acid</trans>
+				<domain>화학</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>액체</sem_class>
+				<lr>
+					<syn type="etc">피루브산</syn>
+					<ant type="temp"></ant>
+					<rel>에너지</rel>
+					<rel>연소</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

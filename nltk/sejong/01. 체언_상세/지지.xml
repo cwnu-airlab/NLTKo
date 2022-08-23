@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>지지</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/07</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/05</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/05</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>comb_v "~를 호소하다" 추가</mod_note>
+			</mod>
+			<note>2001/09/07(송근영)</note>
+			<note>2001/09/07</note>
+			<note>2001/09/20(김종명)</note>
+			<note>2003/01/28(김이정)sense1 comb_aj에 '강력한 ~' 추가</note>
+			<note>2003/02/04(남길임)</note>
+			<note>2003/02/05(김이정)</note>
+			<note>sense 1의 형용사 연어, 명사 연어 정보 추가, 기능동사 구획 및 최대논항명사구 정보 수정, sense2의 의미부류를 '상태'로 확정</note>
+			<note>sense 2의 의미부류 불명확</note>
+			<note>sense2 pre_s 기술</note>
+			<note>sense2 sel_res 추가 기술</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">支持</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~세력</comp>
+			<comp pos="n" type="suffix">~대</comp>
+			<comp pos="n" type="suffix">~율</comp>
+			<comp pos="n" type="suffix">~자</comp>
+			<comp pos="n" type="suffix">~물</comp>
+			<comp pos="n" type="suffix">~층</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~받다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그래도 나를 ~를 해주는 사람이 아직은 많이 있다.</eg>
+				<eg>이 학설은 많은 학자들에 의해 ~가 되고 있다.</eg>
+				<eg>이 후보는 대다수 국민의 ~를 받고 있다.</eg>
+				<trans>support</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>지원</rel>
+					<rel>성원</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">든든한 ~</comb_aj>
+				<comb_aj type="appr">강력한 ~</comb_aj>
+				<comb_aj type="magn">뜨거운 ~</comb_aj>
+				<comb_aj type="magn">전폭적(인) ~</comb_aj>
+				<comb_n type="compound">~ 기반</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 보내다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 얻다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 호소하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y|S것-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 받다</form>
+					<frame>Y-이 X-로부터|에게서 ~를 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 X-에의해 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y(-에 대한) ~</max_n_str>
+				<max_n_str>Y|S것-에대한 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간|(학설|이론|의견)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이 열 개의 기둥이 이 건물을 ~를 하고 있다.</eg>
+				<eg>이 건물은 이 열 개의 기둥에 의해 ~가 되고 있다.</eg>
+				<trans>support</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>상태</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 X-에의해 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>Y(-의) ~</max_n_str>
+				<sel_rst arg="X">구체물의부분(기둥)</sel_rst>
+				<sel_rst arg="Y">건물|다리|조형물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/07</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/05</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/05</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/07</note>
+			<note>2003/01/28(김이정)의미부류 확인했음</note>
+			<note>2003/02/04(남길임)</note>
+			<note>2003/02/05(김이정)</note>
+			<note>sense2 추가</note>
+			<note>의미부류 검토</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리 애기 착하지, 이거 ~니까 만지지 말자.</eg>
+				<trans>dirty</trans>
+				<domain></domain>
+				<reg>아어</reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>부정적속성구체물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		
+	</entry>
+</superEntry>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>모욕</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2005/06/27</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2005/08/22</mod_date>
+				<mod_writer>임근석</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/07</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">侮辱</org>
+		
+			<hom exist="temp"/>
+			<der  pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>검찰은 대선 후보자를 ~을 하는 메시지를 엄중히 단속할 방침이라고 전했다.</eg>
+				<eg>여론조사 결과 이 광고가 소비자들을 ~을 했다는 응답이 약 80%에 달했다.</eg>
+				<eg>그는 일부 선임병들로부터 잦은 질책 및 인격 ~을 당해왔다.</eg>
+				<eg>그의 행동은 내게 참을 수 없는 ~이었다.</eg>
+				<eg>이를 조작하는 행위는 인간존엄성을 ~을 하는 행위라고 보는 입장도 있다.</eg>
+				<trans>insult</trans>
+				<trans>affront</trans>
+				<trans>contempt</trans>
+				<trans>indignity</trans>
+				<trans>slight</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>외향적심리행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">심한 ~</comb_aj>
+				<comb_aj type="appr" pred="no">잦은 ~</comb_aj>
+				<comb_n type="compound">인격 ~</comb_n>
+				<comb_n type="compound">~ 행위</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 주다</form>
+					<frame>X-이 Y-에게 ~을 주다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 당하다</form>
+					<frame>Y-이 X-에게 ~을 당하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>Y-이 X-에게 ~을 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>Z-이 Y-에게 ~이다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 느끼다</form>
+					<frame>Y-이 X-에게 ~을 느끼다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 참다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 견디다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 겪다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 S는 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단|단독행위|사회갈등|피해|사실명제|예술|방송물|종교|텍스트|작품</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|권리</sel_rst>
+				<sel_rst arg="Z">단독행위|사회갈등|피해|사실명제|예술|방송물|종교|텍스트|작품</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">건</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

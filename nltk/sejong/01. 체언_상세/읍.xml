@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>읍</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/09</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/21</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note>sens1 sem수정, comb_v를 add로 이동, sens2 comb_v추가 및 수정, sens2 예문추가</mod_note>
+				<mod_note>센스2의 sem을 '지역집단'에서 '행정구역'으로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/19</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+				<mod_note>comb_v '~에 살다' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">邑</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~장</der>
+			<comp pos="n" type="suffix">~사무소</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 문제는 다른 ~의 소관이다.</eg>
+				<eg>아버지가 서류를 하러 ~에 다녀오셨다.</eg>
+				<trans>town office</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>국가기관</sem_class>
+				<lr>
+					<syn type="etc">읍사무소</syn>
+					<ant type="temp"></ant>
+					<hyper>행정기관</hyper>
+					<coord>면사무소</coord>
+					<coord>군청</coord>
+					<coord>도청</coord>
+					<coord>동사무소</coord>
+					<coord>구청</coord>
+					<coord>시청</coord>
+					<rel>읍장</rel>
+					<rel>행정관청</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 친절하다</comb_aj>
+				<comb_aj type="appr">~가 불친절하다</comb_aj>
+				<comb_n type="compound">~의 소관</comb_n>
+				<comb_n type="compound">~의 사무</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 다녀오다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 들르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 이르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 도착하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 이사하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에서 만나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에서 헤어지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 떠나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 지나가다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 살다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>매주 ~에서 장이 선다.</eg>
+				<eg>지난 달에 큰 종이공장이 우리 ~으로 이전해왔다.</eg>
+				<trans>town</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>행정구역</sem_class>
+				<lr>
+					<syn type="etc">읍내</syn>
+					<ant type="temp"></ant>
+					<hyper>행정구역</hyper>
+					<coord>면사무소</coord>
+					<coord>군</coord>
+					<coord>도</coord>
+					<coord>동</coord>
+					<coord>구</coord>
+					<coord>시</coord>
+					<coord>리</coord>
+					<rel>행정구역</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 작다</comb_aj>
+				<comb_aj type="appr">~이 넓다</comb_aj>
+				<comb_aj type="appr">~이 좁다</comb_aj>
+				<comb_n type="compound">~의 경계</comb_n>
+				<comb_n type="compound">~의 경계선</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/09</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/21</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note>sem수정, comb_v를 add로 이동</mod_note>
+				<mod_note>sem을 '몸짓및동작'에서 '언어행위'로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date></mod_date>
+				<mod_writer></mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/21(한선혜|이성헌)</note>
+			<add>~을 올리다|드리다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">揖</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>오빠가 ~을 하길래 나도 따라 그렇게 했다.</eg>
+				<trans>polite bow with ones hands in front</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>언어행위</sem_class>
+				<lr>
+					<syn type="etc">절</syn>
+					<syn type="etc">인사</syn>
+					<ant type="temp"></ant>
+					<hyper>절</hyper>
+					<hyper>인사</hyper>
+					<coord>큰절</coord>
+					<coord>목례</coord>
+					<coord>악수</coord>
+					<coord>재배</coord>
+					<rel>예절</rel>
+					<rel>인사</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">공손한 ~</comb_aj>
+				<comb_aj type="appr">경건한 ~</comb_aj>
+				<comb_aj type="appr">엄숙한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에게 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>Y-에대한 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

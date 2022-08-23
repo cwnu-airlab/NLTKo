@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>순위</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/06/29</cre_date>
+				<cre_writer>박동호</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>등급속성값을 관계추상적대상으로 수정</mod_note>
+			</mod>
+			<note>2001/07/28(고길수)</note>
+			<note>comb_v 추가, 2001/08/01(이성헌)</note>
+			<note>syn 추가</note>
+			<note>2003/01/13(이지영)sem수정|예문추가|문장부호입력</note>
+			<note>2003/01/15(김진형)comb_v 정보 add로 이동</note>
+			<add>~를 매기다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">順位</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="prefix">일~</comp>
+			<comp pos="n" type="prefix">우선~</comp>
+			<comp pos="n" type="prefix">최우선~</comp>
+			<comp pos="n" type="prefix">잠정~</comp>
+			<comp pos="n" type="prefix">최종~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>실적 ~에 따라 상여금의 액수가 결정된다.</eg>
+				<eg>~에는 별다른 변동이 없었다.</eg>
+				<eg>~가 뒤바뀌었다.</eg>
+				<trans>order</trans>
+				<trans>rank(ing)</trans>
+				<trans>standing</trans>
+				<trans>placing</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>관계추상적대상</sem_class> <!-- 재검토 필요 -->
+				<lr>
+					<syn type="etc">순서</syn>
+					<syn type="etc">차례</syn>
+					<syn type="etc">등수</syn>
+					<syn type="etc">등위</syn>
+					<ant type="temp"></ant>
+					<rel>순번</rel>
+					<rel>서열</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 매기다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

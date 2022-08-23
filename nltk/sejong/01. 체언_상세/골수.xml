@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>골수</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/18</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/19</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/06</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 센스2,3 n_v에 기술 및 정보 추가</mod_note>
+				<mod_note>센스4 n_n 기술</mod_note>
+			</mod>
+			<note>2002/09/18(이성헌)</note>
+			<note>2002/09/28(고길수)센스2의 예문 수정</note>
+			<note>2003/09/19(이성헌)</note>
+			<note>센스2에 prt, av 정보 추가</note>
+			<note>센스2의 영어대역어를 'marrow|medulla'에서 'heart'로 수정</note>
+			<note>센스4의 영어대역어 수정</note>
+			<add>~를 체득하다|이해하다</add>
+			<add>~에 스며들다(sense2)</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">骨髓</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~에 사무치다</idm>
+			<idm type="nv">~에 맺히다</idm>
+			<idm type="nv">~에 박히다</idm>
+			<idm type="nv">~에 새기다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 ~에 염증이 생겨 통증을 호소했다.</eg>
+				<trans>marrow</trans>
+				<trans>medulla</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>신체부위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="div">곳</cl>
+				<cl type="div">군데</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 집안에 대한 친구의 원한은 ~에 깊이 맺혀있는 듯 했다.</eg>
+				<trans>heart</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>추상적부분</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 스며들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 사무치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 맺히다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt>~에 (사무치다)</prt>
+				<av>~에</av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>짧은 시간의 강연이었지만 그가 현대 생명공학의 ~를 완벽하게 이해하고 있음이 잘 드러나는 강연이었다.</eg>
+				<trans>kernel</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>관계추상적대상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 체득하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 이해하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="4">
+			<sem_grp>
+				<eg>사회주의자들 중에서도 그가 제일 ~이다.</eg>
+				<eg>무정부주의자들 중에서 ~ 한 명을 고르라면 나는 주저없이 그를 선택하겠다.</eg>
+				<trans>hardcore</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>정치적추종자</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 사상</comb_n>
+				<comb_n type="compound">~ 단체</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

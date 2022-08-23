@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>누나</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/19</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/25</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/12</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>태그 내 나열된 정보 분할</mod_note>
+				<mod_note>합성어, 동의어, 동사 결합 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/29</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>1999/10/16(백인애)</note>
+			<note>2000/05/01(백인애)</note>
+			<note>2003/01/10(김미순)sense 1 sem '인물/친족관계'에서 '비대칭적친족'으로 수정</note>
+			<note>2003/01/25(이성헌)센스1의 cl에서 '분'삭제</note>
+			<note>2003/02/05(김미순)sense 1 supv 삭제</note>
+			<note>comb_aj 수정</note>
+			<note>comb_aj의 '큰|작은 ~'add로 이동(복합어 처리해야 함)</note>
+			<note>comb_v 삭제</note>
+			<note>max_n 삭제</note>
+			<note>sel_res 삭제</note>
+			<note>sel_res 입력</note>
+			<note>sense 2 sem '인물'에서 '비대칭적관계인간'으로 수정</note>
+			<note>sense 3 sem '인물/호칭'에서 '호칭'으로 수정</note>
+			<note>supv 수정</note>
+			<note>센스2의 cl에서 '분'삭제</note>
+			<note>호칭으로의 센스3 (~, 돈 좀 빌려줘)삭제</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="prefix">큰~</comp>
+			<comp pos="n" type="prefix">작은~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>어제 대전에 사는 큰 ~가 조카들을 데리고 집에 왔다.</eg>
+				<trans>older sister</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="CR"/>
+				<sem_class>비대칭적친족</sem_class>
+				<lr>
+					<syn type="honor">누님</syn>
+					<ant type="temp"></ant>
+					<hyper>친척</hyper>
+					<hypo>큰누나</hypo>
+					<hypo>작은누나</hypo>
+					<rel>언니</rel>
+					<rel>오빠</rel>
+					<rel>형</rel>
+					<rel>동생</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 부지런하다</comb_aj>
+				<comb_aj type="appr">~가 작다</comb_aj>
+				<comb_aj type="appr">~가 착하다</comb_aj>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 있다</comb_aj>
+				<comb_aj type="appr">~가 없다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~와 닮다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>옆집 ~는 나와도 잘 놀아 준다.</eg>
+				<trans>older woman</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>비대칭적관계인간</sem_class>
+				<lr>
+					<syn type="honor">누님</syn>
+					<ant type="temp"></ant>
+					<rel>언니</rel>
+					<rel>오빠</rel>
+					<rel>형</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 예쁘다</comb_aj>
+				<comb_aj type="appr">~가 좋다</comb_aj>
+				<comb_aj type="appr">~가 착하다</comb_aj>
+				<comb_aj type="appr">~가 친절하다</comb_aj>
+				<comb_aj type="appr">~와 가깝다</comb_aj>
+				<comb_aj type="appr">~와 친하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

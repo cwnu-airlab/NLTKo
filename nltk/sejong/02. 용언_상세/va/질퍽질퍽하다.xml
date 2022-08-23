@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>질퍽질퍽하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/15</cre_date>
+				<cre_writer>강정연</cre_writer>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2005/08/03</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc">잘팍잘팍하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str></str>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be muddy</trans>
+				<lr>
+					<syn type="perfect">질퍽지다</syn>
+					<syn type="perfect">질퍼덕하다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA" cor="cross" n="1">
+				<frame>X=N0-이 Y=N1-로 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소</sel_rst>
+					<sel_rst arg="Y" tht="INS">액체</sel_rst>
+					<eg>시장은 갑자기 내린 비로 질퍽질퍽했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA" cor="cross" n="1">
+				<frame>Y=N1-에 X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">액체</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<eg>교실 바닥에는 천장에 뚤려 있는 구멍에서 떨어진 물이 질퍽질퍽했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

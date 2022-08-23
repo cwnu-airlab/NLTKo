@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>반숙</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/16</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/08/16(송인욱)센스1의 의미부류가 '결과행위'일 가능성 검토 요망</note>
+			<note>센스2의 의미부류가 '속성값'일 가능성 검토 요망</note>
+			<note>2003/10/15(박진호)센스1,2 의미부류 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">半熟</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 냉면에 넣을 달걀을 두 번이나 ~을 해버려서 엄마한테 꾸지람을 들었다.</eg>
+				<eg>그녀는 완숙된 달걀보다는 ~된 달걀을 더 좋아한다.</eg>
+				<eg>계란을 ~시키기 위해서는 불 줄이는 타이밍을 잘 맞춰야 한다.</eg>
+				<trans>half-cooked</trans>
+				<trans>half-boiled</trans>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<rel>완숙</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">달걀 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에의해 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>X-이 Y-을 ~을 시키다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">자연음식물(달걀)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>~인 감은 텁텁하기만 할 뿐 전혀 맛이 없다.</eg>
+				<eg>추수할 때가 다 됐는데도 저 논의 벼는 아직 ~이라서 걱정이다.</eg>
+				<trans>half-ripe</trans>
+				<sem_class>상태</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 ~이다</frame>
+				</comb_v>
+				<sel_rst arg="X">열매</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

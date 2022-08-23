@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>옮겨오다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/12/15</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="o"/>
+			<str>V-어V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>사동적이동행위</sem_class>
+				<trans>move</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 W=N3-에서 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상|장소</sel_rst>
+					<sel_rst arg="Z" tht="DIR">장소</sel_rst>
+					<sel_rst arg="W" tht="SRC">장소</sel_rst>
+					<eg>주최측은 개최지를 부산으로 옮겨왔다.</eg>
+					<eg>그 친구는 직장을 서울로 옮겨왔어요.</eg>
+					<eg>이 환자가 태국에서 이 몹쓸 병을 옮겨왔어요.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>운반</sem_class>
+				<trans>bring</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 W=N3-에서 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(나무|짐|장농)</sel_rst>
+					<sel_rst arg="Z" tht="DIR">장소</sel_rst>
+					<sel_rst arg="W" tht="SRC">장소</sel_rst>
+					<eg>꽃나무를 산에서 집으로 옮겨왔어요.</eg>
+					<eg>장농을 먼저 방 안으로 옮겨오는 것이 좋겠어요.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>제부</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/20</cre_date>
+				<cre_writer>권오희</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/21</mod_date>
+				<mod_writer>권오희</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/24</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>새 형식에 맞게 동사 결합 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>max_n기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/30</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<add>관련어 : 형부</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">弟夫</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>오늘 나의 여동생과 ~가 우리집에 놀러 왔다.</eg>
+				<trans>husband of a girl's younger sister</trans>
+				<sem_class>비대칭적친족</sem_class>
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup"> <!--(호정은) 관계인간이라 격틀 기술을 하지만 논항을 narg로 줄지 npred로 줄지 애매함. 일단 npred로 기술-->
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-이 Y-의 ~가 되다</frame>
+					<frame>X-이 Y-에게 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간(남자)</sel_rst>
+				<sel_rst arg="Y">인간(여자)</sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

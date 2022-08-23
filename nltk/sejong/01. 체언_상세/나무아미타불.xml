@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>나무아미타불</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/05</cre_date>
+				<cre_writer>류희선</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/11/05</mod_date>
+				<mod_writer>류희선</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/09/30</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>대역어 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/01</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>참조 항목 기술</mod_note>
+				<mod_note>sense1의 의미부류 "언어행위"를 "종교및의례행위"로 수정, sense 2의 의미부류 "상태"를 "상태변화"로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/23</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1이 명사로서 적절한지 검토 필요;센스2의 의미부류 수정;동사결합 정보 수정;논항 명사구, 논항 의미정보 추가</mod_note>
+			</mod>
+			<note>2007/08/12(정아름)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see>나무아미타</see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">南無阿彌陀佛</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+		<!-- 명사로서의 용법이 맞는 것인지??? 감탄사 부류가 아닐까??? 명사로서의 용법이 불분명하여, 영어 대역어, 의미부류 정보가 모두 이상함 -->
+			<sem_grp>
+				<eg>그는 연신 ~을 외쳤다.</eg>
+				<trans>a sort of Buddhism's the word</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>종교및의례행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그것은 모두 ~이 되버렸다.</eg>
+				<trans>vain attempt</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>속성값</sem_class>
+				<!-- 상태변화 수정 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+					<frame>S것-이 ~이 되다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">추상적대상|사태</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>정류</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/17</cre_date>
+				<cre_writer>권오희</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/18</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>'이동을 전제로 하는 행위'라는 면에서 의미부류를 '이동행위'로 함. 검토 바람</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/09/23</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>를 하다 보충</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note>격틀 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/30</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">停留</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>버스는 휴게소 한 군데에서 잠깐 ~를 했을 뿐 내처 달리고 또 달렸다.</eg>
+				<trans>stop</trans>
+				<sem_class>체류</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-에 ~를 하다</frame>
+					<frame>X-이 Y-에서 ~를 하다</frame>
+				</comb_v>
+				<sel_rst arg="X">교통기관(자동차|철도|비행기)</sel_rst>
+				<sel_rst arg="Y">교통기관관련건물(역|정류장|정류소|정거장)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

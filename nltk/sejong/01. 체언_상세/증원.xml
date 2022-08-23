@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>증원</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/05/30</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/10</mod_date>
+				<mod_writer>이민우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/05</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>2004년 지침에 맞춰 정보 확장</mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2004/12/28</mod_date>
+				<mod_writer>장원철</mod_writer>
+		        <mod_note></mod_note>
+	        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str type="etc"></str>
+			<org lg="si">增員</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>올 상반기 기업 공채에서 신입사원이 약 20 퍼센트 ~이 되었다.</eg>
+				<eg>정부는 민원 담당 인원을 ~을 했다.</eg>
+				<trans>increase of the staff</trans>
+				<sem_class>증가</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>X-이 Y-을 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에의해 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/05/30</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/03</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note>기능동사정보수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2003/10/10</mod_date>
+				<mod_writer>이민우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/05</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>2004년 지침에 맞춰 정보 확장</mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2004/12/28</mod_date>
+				<mod_writer>장원철</mod_writer>
+		        <mod_note>add 이동</mod_note>
+	        </mod>
+			<add>~이 필요하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str type="etc"></str>
+			<org lg="si">增援</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>전투에 참가하는 병력이 ~이 되었다.</eg>
+				<eg>정부는 이번 사건 수사에 경찰력을 ~을 했다.</eg>
+				<trans>reinforcement</trans>
+				<sem_class>증가</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>Z-이 X-에게 Y-을 ~을 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 요구하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">인간|인간집단</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

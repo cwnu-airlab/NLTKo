@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>근력</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/06</cre_date>
+				<cre_writer>한동훈</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/11/08</mod_date>
+				<mod_writer>한동훈</mod_writer>
+				<mod_note>센스 2의 의미부류 검토 요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/02</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note>syn grp b수정</mod_note>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/15</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note>sense1 n_v type기술</mod_note>
+				<mod_note>sense2 의미부류수정</mod_note>
+				<mod_note>sense2 n_aj type 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/27</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1에 논항 명사구, 논항 의미정보 추가;센스2의 의미부류 '힘'에서 수정;동사결합 정보 추가;논항 명사구, 논항 의미정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/11</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">筋力</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>쌀 한 가마니를 번쩍 들어 올리시는 할아버지를 보니 아직도 ~이 남아 있으신것 같다.</eg>
+				<trans>physical strength</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>능력속성값</sem_class>
+				<lr>
+					<syn type="etc">기력</syn>
+					<syn type="etc">정력</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 좋다</comb_aj>
+				<comb_aj type="appr">~이 세다</comb_aj>
+				<comb_aj type="appr">~이 강하다</comb_aj>
+				<comb_aj type="appr">~이 약하다</comb_aj>
+				<!-- n_n type="compound">~</n_n -->
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 부치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 있다</form>
+					<frame>X-이 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 없다</form>
+					<frame>X-이 ~이 없다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이것은 허벅지의 ~을 단련시켜 줄 수 있는 운동입니다.</eg>
+				<trans>muscular strength</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>크기</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 좋다</comb_aj>
+				<comb_aj type="appr">~이 세다</comb_aj>
+				<comb_aj type="appr">~이 강하다</comb_aj>
+				<comb_aj type="min">~이 약하다</comb_aj>
+				<!-- n_n type="compound">~</n_n -->
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 측정하다</form>
+					<frame></frame>
+				</comb_v>
+				<!-- n_v type="narg_vpred">
+					<form vcompound="yes">~</form>
+					<frame></frame>
+				</n_v -->
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|신체부위</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>소망</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/06/26</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/28</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/24</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/17</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>외향적심리상태를 계획으로 수정;'갖다, 품다'에 'Y, S는것-에대한' 구문 추가;'이루다'를 일반동사로 수정;맥스엔에 'Y, S는것-에대한' 추가, 생략형 정보 추가;단위표현에 '가지' 추가;의미분할 가능성 검토 필요;형용사에 '간절하다', 명사에 '새해 ~', 동사에 '잃다, 실현하다' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/08</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>단위표현에 '개' 추가</mod_note>
+			</mod>
+			<note>2001/01/30(기영인)</note>
+			<note>2003/03/23(류병률)</note>
+			<note>2003/03/28(김종명)</note>
+			<note>comb_v를 add의 값으로 변환</note>
+			<note>entry하위의 sense별 구분은 세미콜론 | 로</note>
+			<note>관련어 정보 입력</note>
+			<note>단위표현 정보 수정</note>
+			<note>동사 자유구성 정보 수정</note>
+			<note>동의어 정보 수정</note>
+			<note>영어대역어 정보 수정</note>
+			<note>예문 수정</note>
+			<add>~을 이루다|갖다|품다</add>
+			<add>~이 실현되다|이루어지다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">所望</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>내 가장 큰 ~이 이루어졌다.</eg>
+				<trans>wish</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>계획</sem_class>
+				<lr>
+					<syn type="etc">원</syn>
+					<syn type="etc">소원</syn>
+					<syn type="etc">바람</syn>
+					<ant type="temp"></ant>
+					<rel>희망</rel>
+					<rel>염원</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 헛되다</comb_aj>
+				<comb_aj type="appr">~이 간절하다</comb_aj>
+				<comb_n type="compound">새해 ~</comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 이루다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 잃다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 실현하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+					<frame>X-이 S는것-을 ~을 하다</frame>
+					<frame>X-이 S기-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 갖다</form>
+					<frame>X-이 Y-에대한 ~을 갖다</frame>
+					<frame>X-이 S는것-에대한 ~을 갖다</frame>
+					<frame>X-이 S다는 ~을 갖다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 품다</form>
+					<frame>X-이 Y-에대한 ~을 품다</frame>
+					<frame>X-이 S는것-에대한 ~을 품다</frame>
+					<frame>X-이 S다는 ~을 품다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 S는것-에대한 ~</max_n_str>
+				<max_n_str>X-의 S다는 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>S는것-에대한 ~</max_n_str>
+				<max_n_str>S다는 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">사건|행위</sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl> <!-- '가지'는 비술어명사의 단위표현이므로 의미분할 가능성이 있음, 검토 필요 -->
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

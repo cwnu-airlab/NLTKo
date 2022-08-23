@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>욕망</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/18</cre_date>
+				<cre_writer>한선혜</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/05</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/15</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+				<mod_note>comb_v '~을 지니다','~을 표현하다' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>의미부류 수정(외향적심리행위에서 계획으로)</mod_note>
+				<mod_note>동형어 정보 수정, 동사결합 제시 방식 전면 수정</mod_note>
+			</mod>
+			<note>2003/01/13(유영) comb_v를 add로 이동, sel_res수정, 가산/불가산 판단?</note>
+			<note>2003/02/05(이성헌)센스1의 magn에 '불타는 ~'을 기재</note>
+			<note>comb_n에 '~의 늪'을 기재</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">慾望</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1"> <!--(호정은) '욕망하다'는 간혹 쓰이지만 '욕망을 하다'는 거의 쓰이지 않으므로 의미분할 따로 하지 않음 -->
+			<sem_grp>
+				<eg>명예에 대한 그 사람의 ~은 끝이 없어 보인다.</eg>
+				<trans>desire</trans>
+				<trans>appetite</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>계획</sem_class>
+				<lr>
+					<syn type="etc">욕구</syn>
+					<ant type="temp"></ant>
+					<hyper>감정</hyper>
+					<coord>욕구</coord>
+					<coord>욕심</coord>
+					<rel>만족</rel>
+					<rel>충족</rel>
+					<rel>번뇌</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 많다</comb_aj>
+				<comb_aj type="appr">~이 가득하다</comb_aj>
+				<comb_aj type="magn">~이 격렬하다</comb_aj>
+				<comb_n type="compound">동물적 ~</comb_n>
+				<comb_n type="compound">인간적 ~</comb_n>
+				<comb_n type="compound">~의 늪</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 있다</form>
+					<frame>X-이 S을|S는 ~이 있다</frame>
+					<frame>X-이 Y-에대해 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 없다</form>
+					<frame>X-이 S을|S는 ~이 없다</frame>
+					<frame>X-이 Y-에대해 ~이 없다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 느끼다</form>
+					<frame>X-이 Y-에대해 ~을 느끼다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 품다</form>
+					<frame>X-이 S을|S는 ~을 품다</frame>
+					<frame>X-이 Y-에대해 ~을 품다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 지니다</form>
+					<frame>X-이 S을|S는 ~을 지니다</frame>
+					<frame>X-이 Y-에대해 ~을 지니다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 채우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 충족시키다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 만족시키다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 일으키다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 참다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 억누르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 이기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 표현하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 빠지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 불타다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 사로잡히다</form>
+					<frame></frame>
+				</comb_v>
+                <comb_v type="npred_vpred">
+					<form vcompound="no">~에 시달리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|구체인공물|추상적대상|속성값|행위</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S을 ~</s_n>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

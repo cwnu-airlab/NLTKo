@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>안심</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/08</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/01</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/01</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미부류 수정;동사결합 정보 수정;논항명사구 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/02</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/05/22(박동호)</note>
+			<note>2003/09/16(최지임)예문일부수정</note>
+			<note>기능동사일부수정</note>
+			<note>논항선택제약검토요망</note>
+			<note>의미부류수정</note>
+			<note>의미부류검토요망</note>
+			<note>2003/10/01(고길수)영어대역어 수정</note>
+			<note>의미부류를 '인지추상적행위'에서 '긍정적태도'로 수정</note>
+			<note>Y 논항의 의미정보를 '행위|사건'에서 '온'으로 수정</note>
+			<note>명사연어 정보 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">安心</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그가 무사히 돌아오자 어머니는 ~을 했다.</eg>
+				<trans>relief</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>내재적심리행위</sem_class>
+				<!-- 긍정적태도 수정 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~의 빛</comb_n>
+				<comb_n type="compound">~의 기색</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에 ~을 하다</frame>
+					<!-- Y|S것-에|에대해 수정 -->
+					<frame>X-이 Y-에대해 ~을 하다</frame>
+					<frame>X-이 Y-에게 ~을 하다</frame> <!-- 추가 -->
+					<frame>X-이 S것-에 ~을 하다</frame>
+					<frame>X-이 S것-에대해 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 Y-에 ~이 되다</frame>
+					<!-- Y|S것-에|에대해 수정 -->
+					<frame>X-이 Y-에대해 ~이 되다</frame>
+					<frame>X-이 Y-에게 ~이 되다</frame> <!-- 추가 -->
+					<frame>X-이 S것-에 ~이 되다</frame>
+					<frame>X-이 S것-에대해 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 S것-에대한 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>S것-에대한 ~</max_n_str>
+				<!-- 'Y, S것'이 논항으로 적절한지?? -->
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/08</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/01</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/01</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>동사결합 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/02</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/05/19(김종명)</note>
+			<note>2002/05/22(박동호)</note>
+			<note>2003/09/23(최지임)각 센스의 예문일부수정</note>
+			<note>센스1 대역어일부수정</note>
+			<note>2003/10/01(고길수)의미부류를 '음식'에서 '자연음식물'로 수정</note>
+			<note>단위표현 정보 수정 및 추가</note>
+			<note>센스2를 센스1에 통합함</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리는 배가 고파서 한 시간 만에 9인분의 ~을 먹어치웠다.</eg>
+				<eg>전골요리에는 신선한 ~을 주로 사용합니다.</eg>
+				<trans>lean meat of short ribs</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>육류</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 신선하다</comb_aj>
+				<comb_aj type="appr">~이 상하다</comb_aj>
+				<comb_aj type="appr">~이 맛있다</comb_aj>
+				<comb_aj type="appr">~이 질기다</comb_aj>
+				<comb_aj type="appr">~이 연하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 먹다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="qnt">인분</cl>
+				<cl type="qnt">근</cl>
+				<cl type="qnt">그램</cl>
+				<cl type="qnt">킬로그램</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

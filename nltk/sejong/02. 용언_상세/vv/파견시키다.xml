@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>파견시키다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/27</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>곽새라</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/08/11</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see>파견하다</see>
+		<morph_grp>
+			<var type="spr">파견을 시키다</var>
+			<cntr opt="obl" type="i"/>
+			<org lg="si">派遣__</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>사동적이동행위</sem_class>
+				<trans>dispatch</trans>
+				<trans>detach</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|단체</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간(기자|특파원)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">장소</sel_rst>
+					<eg>우리 방송사는 김 기자를 이라크 전쟁에 종군기자로 파견시켰다.</eg>
+					<eg>편집장은 분쟁 전문 기자로 인정받는 그 친구를 보스니아에 취재기자로 파견시켰다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|단체</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|단체</sel_rst>
+					<sel_rst arg="Z" tht="GOL">장소</sel_rst>
+					<eg>고종은 이 준 열사를 포함한 3명의 한국인들을 헤이그에 한국의 입장을 대변하기 위한 특사로 파견시켰다.</eg>
+					<eg>UN은 동티모르 지역 치안군으로 대규모의 군대를 동티모르 내전에 파견시켰다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

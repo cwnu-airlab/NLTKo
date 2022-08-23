@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>눈총</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/22</cre_date>
+				<cre_writer>서보람</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/05</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/01</mod_date>
+				<mod_writer>김천학</mod_writer>
+				<mod_note>수정없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/20</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note>통사정보 수정</mod_note>
+			</mod>
+			<note>2002/07/24(고길수)내적구성정보에서 '총'은 무엇인지?</note>
+			<note>원어정보에서 'ko'를 삭제</note>
+			<note>의미부류를 '태도'에서 '방향성행위'로 수정</note>
+			<note>예문 수정</note>
+			<note>부사적 용법의 '~으로' 삭제</note>
+			<note>comb_aj에 '싸늘한 ~'을 추가</note>
+			<note>comb_v에 있는 정보들을 add로 조정</note>
+			<note>'~을 쏘다|맞다'를 일단 표준사전에 따라 관용표현에 추가, 관용표현인지 확인 필요</note>
+			<note>2002/07/29(박동호)sel_res의 X, Y의 분포를 '인간(집단)'에서 '인간|집단'으로 수정</note>
+			<note>2003/07/30(고길수)</note>
+			<note>2003/08/05(이홍식)</note>
+			<add>동사결합으로 '~을 맞다|피하다</add>
+			<add>동사결합으로 '~을 맞다|피하다</add>
+			<add>~이 쏠리다</add>
+			<add>동사결합으로 '~을 맞다|피하다</add>
+			<add>~이 쏠리다</add>
+			<add>~과 마주치다'를 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~을 쏘다</idm>
+			<idm type="nv">~을 맞다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 여러 차례 실수를 저질러 동료들의 따가운 ~을 받고 있다.</eg>
+				<trans>glare</trans>
+				<trans>sharp look</trans>
+				<trans>scowl</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>방향성행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">싸늘한 ~</comb_aj>
+				<comb_aj type="magn">~이 따갑다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 맞다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>Y-이 X-에게|에게서 ~을 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 주다</form>
+					<frame>X-이 Y-에게 ~을 주다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

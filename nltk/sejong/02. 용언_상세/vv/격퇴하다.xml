@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>격퇴하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/09/09</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>형태정보, 의미정보 추가</mod_note>
+				<mod_note>의도 개입 여부에 따라 격틀을 두 개로 분할</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">격퇴를 하다</var>
+			<str>N.하</str>
+			<org lg="si">擊退_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>파괴행위</sem_class>
+				<trans>repulse</trans>
+				<lr>
+					<syn type="perfect">격멸하다</syn>
+					<hyper>무찌르다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간(군인)|인간집단(군대)</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간(군인)|인간집단(군대)</sel_rst>
+					<eg>미국은 아프가니스탄을 격퇴하는 데 성공했다.</eg>
+					<eg>침략자들을 격퇴하고 국민을 보호하는 것이 군인의 의무이다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">무기(대포|미사일|어뢰)</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간(군인)|인간집단(군대)</sel_rst>
+					<eg>우리 쪽의 최첨단 무기가 침략자들을 격퇴했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">물리적행위(공격|습격)</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간(군인)|인간집단(군대)</sel_rst>
+					<eg>우리 쪽의 공세가 침략자들을 격퇴하는 데 일조했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

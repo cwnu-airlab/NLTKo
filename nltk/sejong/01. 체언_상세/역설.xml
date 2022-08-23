@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>역설</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/20</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/08</mod_date>
+				<mod_writer>김현승</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/02</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>n_v 형식 수정</mod_note>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>cl 기술</mod_note>
+				<mod_note>의미부류 수정</mod_note>
+				<mod_note>sel_res 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>분류사, 합성어 추가</mod_note>
+				<mod_note>오타 수정</mod_note>
+			</mod>
+			<note>2002/08/20(최지임)의미부류 검토</note>
+			<note>기능동사 및 논항선택제약 검토요망</note>
+			<note>2002/09/18(김종명)예문, 기능동사구문수정</note>
+			<note>2003/10/08(김현승)의미부류를 '행위'에서 '언어행위'로 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">力說</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>선생님은 학생들에게 저축의 필요성을 ~을 하였다.</eg>
+				<eg>요즘 우리 사회에서는 독서가 ~이 되고 있다.</eg>
+				<trans>emphasis</trans>
+				<trans>stress</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>소통행위</sem_class> <!--'언어행위'를 '소통행위'로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에게 Z-을 ~을 하다</frame>
+					<frame>X-이 Y-에게 S것-을 ~을 하다</frame>
+					<frame>X-이 Y-에게 S다고 ~을 하다</frame>
+					<frame>X-이 Y-에게 S자고 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Z-이 Y-에게 ~이 되다</frame>
+					<frame>S것-이 Y-에게 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>Z-에대한 X-의 ~</max_n_str>
+				<max_n_str>S자는 X-의 ~</max_n_str>
+				<max_n_str>S다는 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst> <!--'인물'을 '인간'으로 수정(송근영)-->
+				<sel_rst arg="Y">인간</sel_rst> <!--'인물'을 '인간'으로 수정(송근영)-->
+				<sel_rst arg="Z">행위|추상적대상</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/20</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/08</mod_date>
+				<mod_writer>김현승</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/02</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>eg 수정</mod_note>
+				<mod_note>der 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정 없음</mod_note>
+			</mod>
+			<note>2002/08/20(최지임)</note>
+			<note>2002/09/16(김종명)</note>
+			<note>2003/10/08(김현승)영어대역어 관사 삭제</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">逆說</org>
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~적</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>슬픔이 찬란하다고 말하는 것은 일종의 ~이다.</eg> <!--예문이 부자연스러워 수정(송근영)-->
+				<trans>paradox</trans>
+				<domain>논리</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>언어요소</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S다는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

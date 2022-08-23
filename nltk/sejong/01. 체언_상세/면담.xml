@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>면담</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/24</cre_date>
+				<cre_writer>이병규</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/17</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/01</mod_date>
+				<mod_writer>김천학</mod_writer>
+				<mod_note>add 옮김</mod_note>
+			</mod>
+			<note>2002/05/28(이성헌)</note>
+			<note>@writer수정('체언/명사'에서 '이병규')</note>
+			<note>@pos교정(nn을 nng로)</note>
+			<note>@cl의 uni에 '차례|회' 추가</note>
+			<note>@comb_n 기술</note>
+			<note>@supv와 @sel_res에 Z항 추가</note>
+			<note>2003/07/02(김진형)센스2 추가</note>
+			<note>센스1 의미부류 수정</note>
+			<note>예문 추가</note>
+			<note>선택제약 Z논항을 '추상적대상'에서 '온'으로 수정</note>
+			<note>동사연어구성 기입</note>
+			<note>add에 동사자유구성 기입</note>
+			<note>2003/09/17(박진호)센스1 의미부류, 격틀, 선택제약 수정. 센스2 설정 의심스러움</note>
+			<add>~을 요청하다|청하다|거절하다|실시하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">面談</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>시장은 ~을 통해 주민들의 의견을 수렴하였다.</eg>
+				<eg>그는 취직 문제 때문에 여러 번 지도교수와 ~을 하였다.</eg>
+				<trans>interview</trans>
+				<trans>talk</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>대화</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~(의) 일시</comb_n>
+				<comb_n type="compound">~(의) 주제</comb_n>
+				<comb_n type="compound">~(의) 내용</comb_n>
+				<comb_n type="compound">~(의) 성과</comb_n>
+				<comb_n type="compound">~(의) 소득</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 나누다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Z-와 Y-에대해 ~을 하다</frame>
+					<frame>X-이 Z-와 S것-에대해 ~을 하다</frame>
+					<frame>X-와 Z-가 Y-에 대해 ~을 하다</frame>
+					<frame>X-와 Z-가 S것-에 대해 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 요청하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 청하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 거절하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 실시하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-와 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<sel_rst arg="Z">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>기자들이 그를 ~을 하기 위해 밖에서 대기하고 있다.</eg>
+				<trans>interview</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>언어행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

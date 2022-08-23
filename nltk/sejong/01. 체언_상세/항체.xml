@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>항체</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/01</cre_date>
+				<cre_writer>이하영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/03</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/12</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2005/10/09</mod_date>
+                                <mod_writer>박만규</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+            <mod>
+				<mod_date>2007/09/15</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>            
+			<note>2002/09/05(박동호)</note>
+			<note>2002/10/05(고길수)어원정보 추가</note>
+			<note>2003/07/03(서진숙)</note>
+			<note>add에 동사결합정보 추가</note>
+			<note>ant추가</note>
+			<note>comb_aj에 '~가 없다' 추가</note>
+			<note>의미부류를 '관계생물'에서 '관계구체물'로 수정, 단 '신체부위'는 아닌지 재검토 필요</note>
+			<note>전문영역에 '의학' 추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">抗體</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>예방접종은 그 병에 대한 ~를 생성하는 기능을 한다.</eg>
+				<eg>모유는 다양한 ~를 형성하게 한다.</eg>
+				<eg>병원균에 대항하는 ~는 혈액 속에 존재한다.</eg>
+				<trans>antibody</trans>
+				<domain>의학</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>관계구체물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant>항원</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 없다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 생산하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 생기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 형성되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

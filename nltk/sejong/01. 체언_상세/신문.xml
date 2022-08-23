@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>신문</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/08/13</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/18</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/01</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/23</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>			
+			<note>2000/07/04</note>
+			<note>2003/05/20(이하영)'범인을 신문하다'의 의미를 지니는 entry 추가함</note>
+			<note>2003/06/18(고길수)합성어 정보 표기법 수정</note>
+			<note>sense1,2 예문 추가</note>
+			<note>sense1,2의 동사자유구성을 add로 옮김</note>
+			<note>sense2 의미부류 수정</note>
+			<note>센스1에 예문 추가</note>
+			<note>센스2의 단위표현 수정</note>
+			<add>sense1 동사자유구성 '~을 보다|읽다|편집하다|구독하다</add>
+			<add>sense2 동사자유구성 '~을 발행하다|발송하다|배달하다|창간하다|모으다|버리다|태우다</add>
+			<add>~에 나다|내다|싣다|쓰다|투고하다</add>
+			<add>~에서 다루다|공격하다|얻어맞다' 추가</add>
+			<add>~으로 싸다|닦다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">新聞</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~계</der>
+			<der pos="n" type="suffix">~사</der>
+			<der pos="n" type="suffix">~학</der>
+			<comp pos="n" type="suffix">~값</comp>
+			<comp pos="n" type="suffix">~광고</comp>
+			<comp pos="n" type="suffix">~구독</comp>
+			<comp pos="n" type="suffix">~기사</comp>
+			<comp pos="n" type="suffix">~기자</comp>
+			<comp pos="n" type="suffix">~발행인</comp>
+			<comp pos="n" type="suffix">~방송학과</comp>
+			<comp pos="n" type="suffix">~배달</comp>
+			<comp pos="n" type="suffix">~보급소</comp>
+			<comp pos="n" type="suffix">~용지</comp>
+			<comp pos="n" type="suffix">~팔이</comp>
+			<comp pos="n" type="suffix">~편집국</comp>
+			<comp pos="n" type="suffix">~협회</comp>
+			<comp pos="n" type="prefix">주간~</comp>
+			<comp pos="n" type="prefix">석간~</comp>
+			<comp pos="n" type="prefix">조간~</comp>
+			<comp pos="n" type="prefix">영자~</comp>
+			<comp pos="n" type="prefix">일간~</comp>
+			<comp pos="n" type="prefix">스포츠~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~에 지난 밤 화재에 대해 크게 났다.그는 아침에 일어나면 우선 ~부터 꼼꼼히 읽는다.집에서 무슨 ~을 보나요?한심한 작태를 보인 의원들은 여러 신문에서 호되게 얻어 맞았다.그 기사는 3월 8일자 ~을 보면 있다.</eg>
+				<trans>newspaper</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>텍스트</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">부</cl>
+				<cl type="uni">개</cl>
+				<cl type="div">장</cl>
+				<cl type="div">면</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>~은 재활용이 가능하므로 따로 수거하도록 한다.우리는 ~을 깔고 밥을 먹었다.</eg>
+				<trans>newspaper</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>텍스트담지물</sem_class>
+				<lr>
+					<syn type="etc">신문지</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">헌 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">장</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/05/20</cre_date>
+				<cre_writer>이하영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/18</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/01</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/23</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>			
+			<note>2003/05/20(이하영)</note>
+			<note>2003/06/18(고길수)작성자 정보 수정</note>
+			<note>기능동사에 'S데' 보문 논항 정보 추가</note>
+			<note>합성어 정보 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">訊問</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="prefix">유도~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>경찰이 이 사건의 공범이 누구냐며 그를 ~을 했다.</eg>
+				<trans>questioning</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>질문</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Z|S것|S데-에 대해 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 S냐고 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다|당하다</form>
+					<frame>Y-이 X-에게|에게서 Z|S것|S데-에 대해 ~을 받다|당하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다|당하다</form>
+					<frame>Y-이 X-에게|에게서 S냐고 ~을 받다|당하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">온</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

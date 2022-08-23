@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>왜군</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/17</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/28</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/18</mod_date>
+				<mod_writer>송근영</mod_writer>				
+				<mod_note>con 기술</mod_note>
+				<mod_note>add 정보를 n_v에 기술</mod_note>
+				<mod_note>개인과 군대로 센스를 분할하여야 하는지? 표제어 '왜병'의 기술을 따라 일단 센스를 둘로 구별, 개인의 의미를 센스1로 추가함, 검토요 </mod_note>				
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>동의어 추가</mod_note>
+			</mod>
+			<note>2002/08/31(고길수)예문 수정</note>
+			<note>의미부류를 '직업인간'에서 '군대'로 수정</note>
+			<note>add 정보 추가</note>
+			<note>'집단'과 '개인'의 의미가 모두 가능하며, 이들의 분할 가능성 검토 필요</note>
+			<note>2002/10/11(이성헌)분할 가능성은 충분함</note>
+			<note>단 이에 앞서 집단 중 이같은 성격을 갖는 유사부류들과 함께 규칙을 정한다음 적용할 것</note>
+			<note>2003/09/15(기영인)</note>
+			<note>2003/09/25(나윤희)</note>
+			<note>2003/09/28(기영인)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">倭軍</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~ 열 명이 포로로 잡혔다.</eg>
+				<trans>Japanese soldier</trans>
+				<domain></domain>
+				<reg></reg>
+				<con>경멸</con>
+				<sem_class>역할인간</sem_class>
+				<lr>
+					<syn type="etc">왜병</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~과 싸우다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl> 
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>수십 만의 ~이 쳐들어왔다.</eg>
+				<trans>Japanese armed forces</trans>
+				<domain></domain>
+				<reg></reg>
+				<con>경멸</con>
+				<sem_class>군대</sem_class>
+				<lr>
+					<syn type="etc">왜병</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 쳐들어오다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 물리치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 몰아내다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">부대</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

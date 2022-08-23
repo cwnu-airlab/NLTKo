@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>훈수</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/16</cre_date>
+				<cre_writer>서진숙</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/30</mod_date>
+				<mod_writer>서진숙</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/27</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1과 2 cl 기술, frame 수정, max_n 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/04/01</mod_date>
+				<mod_writer>김천학</mod_writer>
+				<mod_note>수정사항없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/09</mod_date>
+				<mod_writer>백고운</mod_writer>
+				<mod_note>sense2동사결합 정보추가</mod_note>
+			</mod>
+			<note>sense2추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">訓手</org>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 장기판이 벌어지면 어떻게 해야 하는지 안다면서 ~를 두는 것이 낙인 사람이었다.</eg>
+				<trans>help from an outsider</trans>
+				<sem_class>보고제안</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-에게 S라고 ~를 하다</frame>
+					<frame>X-이 Y-에게 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 받다</form>
+					<frame>Y-이 X-에게서 S라고 ~를 받다</frame>
+					<frame>Y-이 X-에게서 ~를 받다</frame>
+				</comb_v>
+				<max_n_str>Y-에대한 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">회</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<s_n>S라는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>젊은 정치인인 그는 대학생들을 만나 개혁에 대한 방향과 방법을 ~를 하였다.</eg>
+				<trans>hint</trans>
+				<trans>tip</trans>
+				<sem_class>보고제안</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-에게 S라고 ~를 하다</frame>
+					<frame>X-이 Y-에게 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 받다</form>
+					<frame>Y-이 X-에게서 S라고 ~를 받다</frame>
+					<frame>Y-이 X-에게서 ~를 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 주다</form>
+					<frame>X-이 Y-에게 S라고 ~를 주다</frame>
+					<frame>X-이 Y-에게 ~를 주다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="yes">~를 듣다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>Y-에대한 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간(선배)</sel_rst>
+				<sel_rst arg="Y">인간(후배)</sel_rst>
+				<cl type="uni">회</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<s_n>S라는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

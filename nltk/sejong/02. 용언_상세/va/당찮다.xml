@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>당찮다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/10/03</cre_date>
+				<cre_writer>김재욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/15</mod_date>
+				<mod_writer>허용</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>RS</str>
+			<org lg="si">當_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>평가속성값</sem_class>
+				<trans>be absurd</trans>
+				<trans>be preposterous</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">행위|사실명제|사건</sel_rst>
+					<eg>평소에 예의바른 영희가 그런 당찮은 말을 하다니 있을 수 없는 일이다.</eg>
+					<eg>한글이 당 시대 최고의 발명품이라는 사실은 당찮은 소리가 아니다.</eg>
+					<eg>오랜 중병으로 인한 마음이 그에게 당찮은 응석을 부리게 했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<eg>그가 대통령이 되는 것은 당찮다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

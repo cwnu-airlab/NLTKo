@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>이분법</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2005/08/15</cre_date>
+				<cre_writer>박재연</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2005/07/12</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note>센스1의 동의어가 가능할지 검토바람</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/16</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 동의어(흑백논리) 삭제;센스1,2 의미부류 수정;센스1,2 n_v 기술;센스1 n_n 기술;센스2 domain, 최대논항구조, 선택제약 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/20</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">이분+법</str>
+			<org lg="si">二分法</org>
+		
+			<hom exist="temp"/>
+			<der  pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~적</comp> <!-- 센스1에만 적용될 것 같은데, 검토바람; 장원철-->
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>인간과 자연, 문명과 야만, 남성과 여성, 빛과 어둠, 아군과 적군처럼 세상을 둘로 나누는 사고방식을 ~적 사고라 한다.</eg>
+				<eg>모 아니면 도라는 식의 ~적 사고는 지양해야 한다.</eg>
+				<trans>dichotomy</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>방법</sem_class><!--범주를 수정(김이정)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 구도</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 버리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 극복하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 나누다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>자신과 비슷한 크기의 두 개의 개체로 분열 생식하는 ~은 세균류나 원생동물과 같은 하등생물에게서 찾아볼 수 있다.</eg>
+			    <trans>binary fission</trans>
+				<domain>생물</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>생물생리현상</sem_class> <!-- 더 나은 의미부류가 있을지? 장원철--><!--출생을 수정. '방법'으로 기술해야할지?(김이정)-->
+				<lr>
+					<syn type="perfect">이분열</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 일어나다</form>
+					<frame>X-에게 ~이 일어나다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~으로 분열하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~으로 번식하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">생물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

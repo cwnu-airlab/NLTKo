@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>추계</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/07</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/13</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/07</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>엔트리1의 秋季는 삭제함, 어근 목록에 포함되어 있음;예문 추가;의미부류 수정;동사결합 정보 수정;논항 명사구 추가;논항 의미정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/01/30</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/07</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">推計</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>학교의 ~에 따르면 입학 지원자의 수가 사상 최대에 이를 것이라고 한다.</eg>
+				<eg>정부는 올해 경제성장률을 2 퍼센트 정도 감소할 것으로 ~를 하고 있다.</eg> <!-- 추가 -->
+				<trans>estimation</trans>
+				<sem_class>인지적행위</sem_class> <!-- 인지추상적행위 -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form> <!-- 형태정보 추가 -->
+					<frame>X-이 Y-을 Z-로 ~를 하다</frame> <!-- Z-로 추가, 표준사전 참조 -->
+					<frame>X-이 Y-을 S것-로 ~를 하다</frame> <!-- 추가 -->
+					<frame>X-이 S다고 ~를 하다</frame> <!-- 추가 -->
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단|기계</sel_rst> <!-- 인간집단 추가 -->
+				<sel_rst arg="Y">금전|크기|수량|상태변화|수</sel_rst> <!-- 금전|크기|수량 추가 -->
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

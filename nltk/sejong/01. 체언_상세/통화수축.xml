@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>통화수축</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/04/25</cre_date>
+				<cre_writer>유영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/25</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/01/18</mod_date>
+				<mod_writer>임근석</mod_writer>
+				<mod_note>sense2 나누어야 하는지 의심스러움. 그러나 수정하지는 않음.</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/08</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/04/25(유영) sem수정</note>
+			<note>comb_v를 add로 이동 및 추가</note>
+			<note>sens2기술</note>
+			<add>~을 단행하다|시행하다|유도하다|약속하다(sens1)</add>
+			<add>이 일어나다|생기다|막다(sens2)</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">통화+수축</str>
+			<org lg="si">通貨收縮</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~정책</comp>
+			<comp pos="n" type="suffix">~현상</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>정부는 인플레이션을 막기 위해 ~을 시행했다.</eg>
+				<trans>deflation of currency</trans>
+				<domain>경제</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="etc">디플레이션</syn>
+					<ant type="etc">통화팽창</ant>
+					<rel>화폐</rel>
+					<rel>경제</rel>
+					<rel>물가</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>~현상으로 물가가 하락학고 경기가 침체되고 있다.</eg>
+				<trans>deflation of currency</trans>
+				<domain>경제</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>경제현상</sem_class>
+				<lr>
+					<syn type="etc">통화축소</syn>
+					<syn type="etc">디플레이션</syn>
+					<ant type="etc">통화팽창</ant>
+					<rel>화페</rel>
+					<rel>경기</rel>
+					<rel>물가</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

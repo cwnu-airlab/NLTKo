@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>한시</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/01</cre_date>
+				<cre_writer>이하영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/15</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/02</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2005/10/08</mod_date>
+                                <mod_writer>박만규</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+            <mod>
+				<mod_date>2007/09/14</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>            
+			<note>2002/08/14(이하영)sense2의 의미부류값 불확실</note>
+			<note>2002/08/24(박동호)sense2에서 '한시'가 '짧은 시간'의 뜻이므로 의미부류를 '속성시간'으로 줌</note>
+			<note>2002/10/04(고길수)어원정보 표기법 수정</note>
+			<note>2003/05/31(서진숙)</note>
+			<note>2003/09/15(이성헌)</note>
+			<note>add에 조사결합 관련 정보 추가</note>
+			<note>바쁘다, 급하다, 새롭다가 형용사 자유구성인지 아니면 prv인지?</note>
+			<note>센스 순서 조정</note>
+			<note>센스1, 2의 pre_s에 # 추가</note>
+			<note>센스1에 예문 추가</note>
+			<note>센스1의 의미부류를 '속성시간'에서 '수량시간'으로 수정</note>
+			<note>센스2에 prt, av 정보 추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">_時</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~가 급하다|바쁘다|새롭다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 날 이후 ~라도 마음 편하게 잠들어 본 적이 없다.</eg>
+				<eg>지금은 ~가 급하니 말싸움은 그만 두기로 하자.</eg>
+				<eg>~가 바쁜데 걸어갈 참인가?</eg>
+				<trans>once</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>수량시간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 급하다</comb_aj>
+				<comb_aj type="appr">~가 바쁘다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~(라)도 잊지 못하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+						<form vcompound="no">~가 급하다</form>
+						<frame></frame>
+					</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그들은 ~에 태어난 쌍둥이다.</eg>
+				<eg>나와 내 친구는 한날 ~에 결혼을 했다.</eg>
+				<eg>우리학교와 옆 학교는 ~에 만우절 행사를 진행하였다.</eg>
+				<trans>the same time</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>관계시간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">한날 ~</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt>~에</prt>
+				<av>~에</av>
+				<pre_d/>
+				<pre_n/>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/01</cre_date>
+				<cre_writer>이하영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/15</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/02</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2005/10/08</mod_date>
+                                <mod_writer>박만규</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+            <mod>
+				<mod_date>2007/09/14</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>            
+			<note>2002/09/05(박동호)</note>
+			<note>2002/10/04(고길수)영어대역어 수정</note>
+			<note>2003/05/31(서진숙)</note>
+			<note>2003/09/15(이성헌)</note>
+			<note>단위표현에 '편' 추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">漢詩</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 어려서부터 ~에 능했다고 한다.</eg>
+				<eg>요즘에는 ~를 짓는 사람이 많이 없다.</eg>
+				<eg>날이 갈수록 ~에 대한 이해가 떨어지고 있다.</eg>
+				<trans>Chinese poem</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>문학작품</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 짓다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+						<form vcompound="no">~를 읊다</form>
+						<frame></frame>
+					</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">수</cl>
+				<cl type="uni">편</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

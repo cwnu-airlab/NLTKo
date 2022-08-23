@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>합본되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/26</cre_date>
+				<cre_writer>강정연</cre_writer>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/26</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/07/30</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">합본이 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<org lg="si">合本_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>get binded together</trans>
+			</sem_grp>
+			<frame_grp type="FIN" cor="sym" n="01">
+				<frame>X=N0-이 Y=N1-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">텍스트담지물</sel_rst>
+					<sel_rst arg="Y" tht="COM">텍스트담지물</sel_rst>
+					<eg>이 책은 그 책과 서로 합본되었다.</eg>
+					<eg>완판본은 소대성전과 합본된 동일 판본으로 연세대학교 도서관 소장본과 국립중앙 도서관 소장본이 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="sym" n="01">
+				<frame>X+Y=N0-이 (서로) V</frame> <!--Z=N1-로?-->
+				<subsense>
+					<sel_rst arg="X" tht="THM">텍스트담지물</sel_rst>
+					<sel_rst arg="Y" tht="THM">텍스트담지물</sel_rst>
+					<eg>두 책이 한 권으로 합본되었다.</eg>
+					<eg>고양이는 알고 있다의 경우, 일본 원서는 원래 두 장편이 합본돼 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

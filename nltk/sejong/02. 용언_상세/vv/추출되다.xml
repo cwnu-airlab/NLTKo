@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>추출되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/08</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>곽새라</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/07/20</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">추출이 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<org lg="si">抽出_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be distilled</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에서 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물의부분|재료성분|액체</sel_rst>
+					<sel_rst arg="Y" tht="SRC">구체자연물</sel_rst>
+					<eg>이전에 고무는 고무나무에서 추출되었지만, 요즘은 석유에서 추출된다.</eg>
+					<eg>폭약에 쓰이는 인은 전부 흙에서 추출되었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be chosen</trans>
+				<trans>be selected</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에서 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|단체|(표본)</sel_rst>
+					<sel_rst arg="Y" tht="SRC">인간집단</sel_rst>
+					<eg>이번 설문 표본은 전국 각 도에서 일정하게 추출되었다.</eg>
+					<eg>협상 대표는 10년 이상 근속한 노동자들에게서 추출되었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be abstracted</trans>
+				<trans>be extracted</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에서 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="SRC">구체물|사태</sel_rst>
+					<eg>그들의 행동에서는 도무지 규칙적인 패턴이 추출되지 않는다.</eg>
+					<eg>이런 잡다한 자료들에서 당시의 시대정신이 추출될 수 있을까?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

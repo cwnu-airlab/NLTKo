@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>술어</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/19</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/19</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/01</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>의미부류 언어단위에서 언어범주로 수정;동의어 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/21</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정사항 없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/24</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">述語</org>
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>'철수가 달린다.'라는 문장에서 '달린다'가 ~이다.</eg>
+				<trans>predicate</trans>
+				<domain>언어</domain>
+				<sem_class>언어범주</sem_class>
+				<lr>
+					<syn type="perfect">서술어</syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<cl type="uni">개</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/19</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/19</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/01</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>본디말 정보를 동의어 정보로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/21</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>see  정보 삭제(유의어이긴 하지만 명백한 동의어라 보기 어렵고 내용도 기술되었음)</mod_note>
+				<mod_note>잘못된 태그 위치 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/24</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>단위표현 추가</mod_note>
+			</mod>
+			<note>2003/10/19(기영인)'학술용어'(2003년 복합어), '전문어'(2003년 복합어) 참조</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<org lg="si">術語</org>
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>전공 서적이 일반인에게 어려운 이유는 ~가 많이 쓰였기 때문이다.</eg>
+				<trans>terminology</trans>
+				<sem_class>언어요소</sem_class>
+				<lr>
+					<syn type="perfect">학술어</syn>
+					<syn type="kor">갈말</syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사용하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<cl type="uni">개</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

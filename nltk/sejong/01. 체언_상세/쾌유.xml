@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>쾌유</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/18</cre_date>
+				<cre_writer>김성용</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/20</mod_date>
+				<mod_writer>이홍식</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/22</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note>n_v에 쾌유를 빌다 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/03/04</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>수정사항없음</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/16</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">快癒</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>앞으로 좋은 일만 있기를 바라며 빠른 ~를 빕니다.</eg>
+				<trans>complete recovery</trans>
+				<sem_class>개선</sem_class>
+				<lr>
+					<syn type="perfect">쾌차</syn>
+					<ant type="grad">악화</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">빠른 ~</comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-이 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="yes">~를 빌다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni"></cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

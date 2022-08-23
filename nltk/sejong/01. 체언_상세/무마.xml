@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>무마</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/06/26</cre_date>
+				<cre_writer>이병규</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/21</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/01</mod_date>
+				<mod_writer>김천학</mod_writer>
+				<mod_note>수정없음</mod_note>
+			</mod>
+			<note>2002/06/26(남길임)</note>
+			<note>2002/08/19(이성헌)note에 상호교열자와 일자 기재(주의: mdd난은 최종교열자와 일자로 자동변경되니 일차 및 상호교열자 관련 정보를 노트에 기재할 것)</note>
+			<note>cl에 '차례|회'기재</note>
+			<note>2003/06/13(김미현)</note>
+			<note>2003/08/21(고길수)기능동사에 Z, 보문 논항 추가</note>
+			<note>Y 논항에 '행위' 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">撫摩</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이젠 사건의 ~를 위해 무언가 우리가 할 수 있는 단계는 지난 것 같습니다.</eg>
+				<trans>soothing</trans>
+				<trans>coaxing</trans>
+				<trans>pacifying</trans>
+				<trans>appeasing</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>지속적행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다|시키다</form>
+					<frame>Z|S것-이 Y|S것-을 ~를 하다|시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다|시키다</form>
+					<frame>X-이 Y|S것-을 Z|S것-으로 ~를 하다|시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y|S것-이 X-에의해 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y|S것-이 Z|S것-으로 ~가 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<!--vcompound: ~시키다-->
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|단체</sel_rst>
+				<sel_rst arg="Y">인간|사건|현상|행위</sel_rst>
+				<sel_rst arg="Z">행위|사건|구체물</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

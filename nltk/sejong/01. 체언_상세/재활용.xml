@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>재활용</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/02</cre_date>
+				<cre_writer>유영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/23</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/28</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>내부구조정보 수정, 합성어 정보 '하다, 되다' 삭제, 의미부류 행위에서 변형행위로 수정, add정보 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/06</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/17</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note></note><!--김성용(2005/07/28)앞으로 add 정보는 필요한 경우에 n_v정보로 이동하고 나머지는 삭제함-->
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="R_N">재+활용</str>
+			<org lg="si">再活用</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~품</der>
+			<comp pos="n" type="suffix">~쓰레기</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>종이, 병, 캔 등 ~이 되는 물건들은 정해진 장소에 따로 모아 주십시오.</eg>
+				<eg>가정에서 생활 쓰레기를 ~을 하는 모습은 자녀들에게 살아 있는 환경교육이 될 것입니다.</eg>
+				<trans>recycling</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>변형행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 가능하다</comb_aj>
+				<comb_aj type="appr">~이 불가능하다</comb_aj>
+				<comb_aj type="appr">~이 필요하다(*필요한)</comb_aj>
+				<comb_n type="compound">고철 ~</comb_n>
+				<comb_n type="compound">병 ~</comb_n>
+				<comb_n type="compound">종이 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-가 X-에 의해서 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-에 의한 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">구체물(폐기물|부산물)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

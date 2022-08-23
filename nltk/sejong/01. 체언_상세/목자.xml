@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>목자</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/16</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/16</mod_date>
+				<mod_writer>류희선</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/10</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>sem수정, 예문 보완</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 분류사 수정, 센스2 의미부류 '종교적추종자'를 '종교역할인간'으로 수정, 센스2 분류사와 n_v 기술, 센스2 영어대역어 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">牧者</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>초원의 풀을 따라 ~는 양을 이끌고 이동하였다.</eg>
+				<eg>양들이 하나 둘 없어지자 ~들은 교대로 지키기로 하였다.</eg>
+				<trans>sheep raiser</trans>
+				<trans>shepherd</trans>
+				<sem_class>직업인간</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 아이는 새해에는 선한 ~가 될 것입니다.</eg>
+				<eg>신을 따르는 ~들이 모여 있습니다.</eg>
+				<trans>shepherd</trans>
+				<trans>pastor</trans>
+				<trans>clergyman</trans>
+				<trans>father</trans>
+				<sem_class>종교역할인간</sem_class><!--종교신자를 수정-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 일하다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

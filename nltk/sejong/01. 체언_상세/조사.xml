@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>조사</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/23</cre_date>
+				<cre_writer>신중진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/31</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/29</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/10/09(김종명)</note>
+			<note>2003/02/26(김성용)</note>
+			<note>2003/03/31(이성헌)sem을 '인지추상적행위'에서 '지속적활동'으로 수정</note>
+			<note>add의 '벌이다'를 comb_v로 이동기재</note>
+			<note>cor_v 보완</note>
+			<note>sel_res수정보완</note>
+			<note>supv의 전 구문에 S것|S데 추가</note>
+			<note>당하다 추가</note>
+			<add>~를 실시하다|진행시키다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">調査</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~구</der>
+			<der pos="n" type="suffix">~단</der>
+			<der pos="n" type="suffix">~량</der>
+			<der pos="n" type="suffix">~비</der>
+			<der pos="n" type="suffix">~서</der>
+			<der pos="n" type="suffix">~원</der>
+			<comp pos="n" type="suffix">~망</comp>
+			<comp pos="n" type="suffix">~표</comp>
+			<comp pos="n" type="prefix">정밀~</comp>
+			<comp pos="n" type="prefix">약식~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>검찰은 ~에 만전을 기하고 있다.</eg>
+				<trans>investigation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>조사</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 치밀하다</comb_aj>
+				<comb_aj type="appr">~가 정밀하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 벌이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Z-에대해 Y-을 ~를 하다</frame>
+					<frame>X-이 S것-에대해 Y-을 ~를 하다</frame>
+					<frame>X-이 S데-에대해 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 받다</form>
+					<frame>Y-이 Z-에대해 X-에게 ~를 받다</frame>
+					<frame>Y-이 S것-에대해 X-에게 ~를 받다</frame>
+					<frame>Y-이 S데-에대해 X-에게 ~를 받다</frame>
+					<frame>Y-이 Z-에대해 X-로부터 ~를 받다</frame>
+					<frame>Y-이 S것-에대해 X-로부터 ~를 받다</frame>
+					<frame>Y-이 S데-에대해 X-로부터 ~를 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~</form>
+					<frame>Z-이 X-에 의해 ~가 되다</frame>
+					<frame>S것-이 X-에 의해 ~가 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~받다-->
+				<!--vcompound: ~당하다-->
+				<!--vcompound: ~되다-->
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 실시하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 진행시키다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-에 의한 Y ~</max_n_str>
+				<max_n_str>Z-에대한 X-의 ~</max_n_str>
+				<max_n_str>S것-에대한 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">추상적대상|사건|행위</sel_rst>
+				<cl type="uni">차례</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">차</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/02</cre_date>
+				<cre_writer>신중진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/31</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/29</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/10/09(김종명)</note>
+			<note>2003/02/26(김성용)</note>
+			<note>2003/03/31(이성헌)</note>
+			<add>~가 발달하다</add>
+			<add>~를 생략하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">助詞</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="prefix">보~</der>
+			<comp pos="n" type="prefix">격~</comp>
+			<comp pos="n" type="prefix">접속~</comp>
+			<comp pos="n" type="prefix">특수~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>한국어에서 ~의 생략은 일반적이다.</eg>
+				<trans></trans>
+				<domain>언어</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>언어단위</sem_class>
+				<lr>
+					<syn type="etc">토씨</syn>
+					<ant type="temp"></ant>
+					<hyper>품사</hyper>
+					<hypo>격~</hypo>
+					<hypo>보~</hypo>
+					<coord>명사</coord>
+					<coord>대명사</coord>
+					<coord>수사</coord>
+					<coord>동사</coord>
+					<coord>형용사</coord>
+					<coord>부사</coord>
+					<coord>감탄사</coord>
+					<coord>관형사</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 발달하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 생략하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

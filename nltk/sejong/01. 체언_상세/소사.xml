@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>소사</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/16</cre_date>
+				<cre_writer>김미순</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/20</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/30</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/19</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>n_n 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/20</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정 사항 없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/17</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">小使</org>
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>김 선생은 편지를 써서 ~에게 들려 보냈다.</eg>
+				<trans>office boy</trans>
+				<sem_class>직업인간</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 부지런하다</comb_aj>
+				<comb_n type="compound">학교 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 일하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/16</cre_date>
+				<cre_writer>김미순</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/20</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/30</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/19</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>max_n 정보의 띄어쓰기 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/20</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정 사항 없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/17</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>단독행위를 방향성행위로 수정;맥스엔, 선택제약 정보 보완</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">掃射</org>
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>무장 군인들은 적의 식량 창고에 ~를 퍼부었다.</eg>
+				<trans>machine-gunning</trans>
+				<domain>군사</domain>
+				<sem_class>방향성행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-에 ~를 하다</frame>
+					<frame>X-이 Y-에게 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 퍼붓다</form>
+					<frame>X-이 Y-에 ~를 퍼붓다</frame>
+					<frame>X-이 Y-에게 ~를 퍼붓다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 멈추다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 Y-에의 ~</max_n_str>
+				<max_n_str>X-의 Y-에게의 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>Y-에의 ~</max_n_str>
+				<max_n_str>Y-에게의 ~</max_n_str>
+				<sel_rst arg="X">직업인간(군인)|군대</sel_rst>
+				<sel_rst arg="Y">구체인공물|장소|인간|군대</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/16</cre_date>
+				<cre_writer>김미순</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/20</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/30</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>기능동사 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/19</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정사항 없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/20</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정 사항 없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/17</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>유발사고를 죽음으로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">燒死</org>
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>어젯밤 공장에 난 불로 ~를 당한 사람은 모두 일곱이었다.</eg>
+				<trans>death by fire</trans>
+				<sem_class>죽음</sem_class>
+				<lr>
+					<syn type="perfect">분사</syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~를 당하다</form>
+					<frame>X-이 ~를 당하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-이 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단|동물</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="4" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/19</cre_date>
+				<cre_writer>김미순</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/21</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/30</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/19</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>반의어 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/20</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정 사항 없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/17</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">小事</org>
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~에 일일이 신경을 쓰다 보면 정작 중요한 일을 그르치게 된다.</eg>
+				<trans>small thing</trans>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<ant type="dir">대사</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 얽매이다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

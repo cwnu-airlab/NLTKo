@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>예사</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/10/06</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/28</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/15</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>상위어 삭제;동사결합 정보 수정 및 추가;논항명사구에서 '~ 사람|인물' 삭제;논항의미정보 수정;수식어명사에 '~ N' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/07</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정 없음</mod_note>
+			</mod>
+			<note>2000/10/08(김종명)</note>
+			<note>2001/01/31(고길수)</note>
+			<note>2003/03/23(류병률)</note>
+			<note>2003/03/28(김종명)</note>
+			<note>comb_v를 add의 값으로 변환</note>
+			<note>entry하위의 sense별 구분은 세미콜론 | 로</note>
+			<note>동의어, 반의어 추가</note>
+			<note>의미부류 수정</note>
+			<note>조사제약 추가</note>
+			<note>한정사 제약 추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">例事</org>
+			<der pos="a" type="suffix">~롭다</der>
+			<der pos="a" type="suffix">~스럽다</der>
+			<comp pos="n" type="suffix">~낮춤</comp>
+			<comp pos="n" type="suffix">~높임</comp>
+			<comp pos="n" type="suffix">~말</comp>
+			<comp pos="n" type="suffix">~소리</comp>
+			<comp pos="n" type="suffix">~ㅅ일</comp>
+			<comp pos="av" type="suffix">~로</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>기품을 보니 ~ 사람이 아닌 것 같다.</eg>
+				<trans>commonplace event</trans>
+				<trans>usage</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성값</sem_class>
+				<lr>
+					<syn type="etc">평범</syn>
+					<syn type="etc">보통</syn>
+					<ant type="etc">비범</ant>
+					<hyper></hyper>
+					<!-- 속성 삭제 -->
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 아니다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 Y-이 ~이다</frame>
+					<frame>X-이 S는것-이 ~이다</frame>
+					<frame>X-이 S기-이 ~이다</frame>
+					<frame>X-에게 Y-이 ~이다</frame>
+					<frame>X-에게 S는것-이 ~이다</frame>
+					<frame>X-에게 S기-이 ~이다</frame>
+					<frame>X-에서 Y-이 ~이다</frame>
+					<frame>X-에서 S는것-이 ~이다</frame>
+					<frame>X-에서 S기-이 ~이다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="yes">~로 여기다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단|지역</sel_rst>
+				<sel_rst arg="Y">사태</sel_rst>
+				<cl type="temp"></cl>
+				<prt>~로</prt>
+				<prt>~처럼</prt>
+				<!-- '처럼'은 조사제약 기술 목록에 없음 -->
+				<av></av>
+				<pre_d>~ N</pre_d>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

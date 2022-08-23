@@ -1,0 +1,389 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>경기</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/11</cre_date>
+				<cre_writer>차준경</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/04</mod_date>
+				<mod_writer>한선혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/12</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>trans 형식 수정, syn 속성값 수정, add를 n_v로</mod_note>
+			</mod>
+			<note>2000/09/20(차준경)</note>
+			<note>2001/01/22(조진현</note>
+			<note>2003/02/19(최지임)sense1 동사연어구성정보 add에 입력</note>
+			<note>2003/08/04(한선혜)</note>
+			<note>sense2 동사연어 구성정보 add에입력</note>
+			<note>강범모)</note>
+			<note>대역어 수정</note>
+			<note>의미부류 수정</note>
+			<add>sense1=~가 풀리다</add>
+			<add>sense2=~가 상승하다|회복되다|나빠지다|풀리다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">景氣</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="prefix">불~</der>
+			<der pos="n" type="prefix">호~</der>
+			<comp pos="n" type="suffix">~전망</comp>
+			<comp pos="n" type="suffix">~과열</comp>
+			<comp pos="n" type="suffix">~관측</comp>
+			<comp pos="n" type="suffix">~대책</comp>
+			<comp pos="n" type="suffix">~동향</comp>
+			<comp pos="n" type="suffix">~상승</comp>
+			<comp pos="n" type="suffix">~지수</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 친구는 요즘 ~가 좀 좋은 모양이다.</eg>
+				<trans>things</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>상태</sem_class>
+				<lr>
+					<syn type="perfect">형세</syn>
+					<syn type="perfect">형편</syn>
+					<ant type="temp"></ant>
+					<rel>매매</rel>
+					<rel>거래</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 좋다</comb_aj>
+				<comb_aj type="appr">~가 나쁘다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 풀리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>올 하반기에는 ~가 상승될 전망이다.</eg>
+				<trans>business condition</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>경제현상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>경제</rel>
+					<rel>호황</rel>
+					<rel>불황</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 좋다</comb_aj>
+				<comb_aj type="appr">~가 나쁘다</comb_aj>
+				<comb_aj type="appr">~가 호황이다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 상승하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 회복되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 나빠지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 풀리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/11</cre_date>
+				<cre_writer>차준경</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/04</mod_date>
+				<mod_writer>한선혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/12</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/29</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note>동사구 정보, 최대명사구 정보, 논항 의미부류 정보 수정</mod_note>
+			</mod>
+			<note>2000/09/20(차준경)</note>
+			<note>2001/01/22(조진현</note>
+			<note>2003/02/19(최지임)sense1삭제</note>
+			<note>2003/08/04(한선혜)</note>
+			<note>강범모)</note>
+			<note>논항선택제약 수정</note>
+			<note>동사연어구성정보 add에 입력</note>
+			<note>의미부류수정</note>
+			<note>형용사 자유구성정보 추가 입력</note>
+			<add>sense1=~에 참가하다|이기다|지다|도전하다|나가다|열중하다|참여하다|출전하다|이기다|우승하다|~에서 우승하다|이기다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">競技</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~자</der>
+			<der pos="n" type="suffix">~장</der>
+			<der pos="n" type="suffix">~력</der>
+			<comp pos="n" type="prefix">운동~</comp>
+			<comp pos="n" type="prefix">수영~</comp>
+			<comp pos="n" type="prefix">육상~</comp>
+			<comp pos="n" type="prefix">연습~</comp>
+			<comp pos="n" type="prefix">테니스~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>어제 한국과 일본 간의 월드컵 예선 ~가 벌어졌다.</eg>
+				<trans>sports game</trans>
+				<trans>match</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>단일경기</sem_class>
+				<lr>
+					<syn type="etc">시합</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 참가하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 이기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 도전하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 나가다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 열중하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 참여하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 출전하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 이기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 우승하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에서 우승하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에서 이기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~</form>
+					<frame>X-이 Y-와 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~</form>
+					<frame>X-와 Y-이 ~를 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 Y-와의 ~</max_n_str>
+				<max_n_str>X-와 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/11</cre_date>
+				<cre_writer>차준경</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/04</mod_date>
+				<mod_writer>한선혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/12</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/09/20(차준경)</note>
+			<note>2001/01/22(조진현</note>
+			<note>2003/02/19(최지임)의미부류수정</note>
+			<note>2003/08/04(한선혜)</note>
+			<note>강범모)</note>
+			<note>논항선택제약 수정</note>
+			<note>동사연어정보 add에 입력</note>
+			<note>형용사자유구성정보 삭제 및 입력</note>
+			<add>sense1=~를 일으키다</add>
+			<add>~가 일어나다|들리다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">驚氣</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>아기가 어제 밤에 ~를 일으켜서 병원에 갔다.</eg>
+				<trans>convulsions</trans>
+				<domain>의학</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>질병및증세</sem_class>
+				<lr>
+					<syn type="perfect">경풍</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">심한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 일어나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 들리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 일으키다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

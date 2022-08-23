@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>모상</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/14</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/14</mod_date>
+				<mod_writer>류희선</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/10</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>의미부류 '사건'을 '우발사건'으로 수정, 동의어 기술</mod_note>
+			</mod>
+			<note>2003/10/14(류희선)의미부류검토요망</note>
+			<add>~을 당하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">母喪</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 지난 겨울에 ~을 당했다.</eg>
+				<eg>갑작스러운 ~을 겪고 그녀는 슬픔에 빠져있다.</eg>
+				<trans>death of one's mother</trans>
+				<sem_class>우발사건</sem_class>
+				<lr>
+					<syn type="perfect">모친상</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+ 					<form vcompound="yes">~을 당하다</form>
+					<frame>X-이 ~을 당하다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 겪다</form>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/14</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/14</mod_date>
+				<mod_writer>류희선</mod_writer>
+				<mod_note>예문검토요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/10</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>예문 보완, n_v기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>의미부류 '추상적대상'을 '모양'으로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">模相</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 조형물은 신의 ~이라고 할 수 있겠다.</eg>
+				<eg>지혜의 ~이 아니라 참된 지혜를 아는 것이 중요하다.</eg>
+				<trans>reflection</trans>
+				<sem_class>모양</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

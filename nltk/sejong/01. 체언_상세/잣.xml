@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>잣</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/06/30</cre_date>
+				<cre_writer>신중진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2002/12/30</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/29</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note>add이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/28</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/09/07(김종명)</note>
+			<note>2002/12/30(서진숙)</note>
+			<note>2002/12/30(이성헌)최초수정자 앞 'mdd='삭제</note>
+			<note>comb_aj에 '고소하다'기재</note>
+			<note>comb_v의 '~이 열리다'와 '~을 먹다|까다|넣다|박다'를 add로 이동(이곳에는 표제어를 동족목적어로 취하는 동사나 기능동사 항목에 기술되지 않는 기능동사의 변이형들만을 기재</note>
+			<note>domain의 '식물'삭제 '전문영역'에서 고유한 의미를 가질 때만 기재</note>
+			<note>pre_s에 '#'기재</note>
+			<note>sem을 '식물'에서 '견과류'로 수정</note>
+			<note>sense1의 eg에 마침표 넣고 동사를 현재형으로 수정</note>
+			<note>sense2추가 기술</note>
+			<note>자연음식물 '견과류'(sense1)와 식물의 '열매'의 의미(sense2)를 분할</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~구리</der>
+			<der pos="n" type="suffix">~편</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>대추차에는 ~을 띄운다.</eg>
+				<trans>pine nuts</trans>
+				<domain></domain>
+				<reg></reg>
+				<con>C</con>
+				<curs type="C"/>
+				<sem_class>견과류</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>견과</hyper>
+					<coord>호두</coord>
+					<coord>땅콩</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 고소하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 까다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 먹다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">알</cl>
+				<cl type="qnt">흡</cl>
+				<cl type="qnt">되</cl>
+				<cl type="qnt">말</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>삼촌 댁에서는 ~을 재배해서 많은 이익을 냈다.</eg>
+				<trans>pine nuts</trans>
+				<domain></domain>
+				<reg></reg>
+				<con>C</con>
+				<curs type="C"/>
+				<sem_class>열매</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>견과</hyper>
+					<coord>호두</coord>
+					<coord>땅콩</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 열리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">알</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

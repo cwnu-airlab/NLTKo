@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>날치기</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/20</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/28</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/14</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/24</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>센스1 n_v 수정</mod_note>
+			</mod>
+			<note>2002/08/22(최지임)</note>
+			<note>2002/10/11(박동호)검토했음</note>
+			<note>2003/05/13(고길수)센스1의 예문 수정</note>
+			<note>2003/06/28(이홍식)</note>
+			<note>센스1에 prt 정보 추가</note>
+			<note>센스1에 단위표현 추가</note>
+			<note>센스1의 기능동사, 논항 의미정보 수정</note>
+			<note>센스1의 의미부류를 '행위'에서 '범죄'로 수정</note>
+			<note>센스2에 comb_aj 정보 추가</note>
+			<note>센스2에 단위표현 추가</note>
+			<note>센스2의 의미부류를 '부정적도덕속성인간'에서 '반사회적직업인간'으로 수정</note>
+			<note>센스3의 av 정보 추가</note>
+			<note>센스3의 prt 정보 표기법 수정</note>
+			<note>의미부류 검토요망</note>
+			<add>관련어로 '들치기|소매치기'</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>소매치기가 그녀의 주머니에서 지갑을 ~를 했다.</eg>
+				<eg>그녀는 지하철에서 가방을 ~를 당했다.</eg>
+				<trans>purse-snatching</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>범죄및비행</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Z-에게서 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup"> <!--Z논항 조사 '가'를 '이'로 수정(송근영)-->
+					<form vcompound="yes">~를 당하다</form>
+					<frame>Z-이 X-에게 Y-을 ~를 당하다</frame>
+					<frame>Z-이 X-에게서 Y-을 ~를 당하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~당하다-->
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">돈|구체인공물(가방|지갑)|속성구체물</sel_rst>
+				<sel_rst arg="Z">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>나는 버스에서 ~에게 지갑을 뺏겼다.</eg>
+				<trans>purse-snatcher</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>반사회적직업인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 재빠르다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>국회는 이 법안을 ~로 통과시켰다.</eg>
+				<trans>nalchigi</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt>~로</prt>
+				<av>~로</av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

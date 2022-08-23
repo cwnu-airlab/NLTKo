@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>지령</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/04</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/10</mod_date>
+				<mod_writer>이민우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/14</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/19</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2004/12/28</mod_date>
+				<mod_writer>장원철</mod_writer>
+		        <mod_note></mod_note>
+	        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">地靈</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">인걸은 ~이라</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>옛날부터 땅에는 ~이 있다고 생각했다.</eg>
+				<eg>그는 고구려 땅의 ~을 받고 태어나 늠름한 기상을 지니고 있다.</eg>
+				<trans>the spirit of land</trans>
+				<sem_class>상상적인간</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/04</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/10</mod_date>
+				<mod_writer>이민우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/07</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>단위사 항목 추가</mod_note>
+				<mod_note>add의 정보를 동사결합 항목으로 이동</mod_note>
+				<mod_note>합성어 항목 추가</mod_note>
+				<mod_note>동사결합 항목 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/19</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2004/12/28</mod_date>
+				<mod_writer>장원철</mod_writer>
+		        <mod_note></mod_note>
+	        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">指令</org>
+		
+			<hom exist="yes"/>
+			<comp pos="n" type="suffix">~서</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>상부에서 집결하라는 ~을 내렸다.</eg>
+				<eg>상부의 ~에 따라 우리는 모든 작업에서 손을 땠다.</eg>
+				<eg>그는 정부의 ~을 받아 첩보활동을 했다.</eg>
+				<trans>order</trans>
+				<sem_class>명령</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form> <!-- 합성동사 정보를 새 기술형식에 맞게 수정(송근영) -->
+					<frame>X-이 Y-에게 S라고 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 주다</form> <!-- 합성동사 정보를 새 기술형식에 맞게 수정(송근영) -->
+					<frame>X-이 Y-에게 S라고 ~을 주다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form> <!-- 합성동사 정보를 새 기술형식에 맞게 수정(송근영) -->
+					<frame>Y-이 X-에게 S라고 ~을 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> <!-- narg, vpred를 각각 npred, vsupvar로 수정하고 격틀정보 제시(송근영) -->
+					<form vcompound="no">~을 내리다</form>
+					<frame>X-이 Y-에게 S라고 ~을 내리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> <!-- narg, vpred를 각각 npred, vsupvar로 수정하고 격틀정보 제시(송근영) -->
+					<form vcompound="no">~이 떨어지다</form>
+					<frame>X-에게서 S라는 ~이 떨어지다</frame>
+					<frame>X-에서 S라는 ~이 떨어지다</frame>
+					<frame>Y-에|에게 S라는 ~이 떨어지다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 따르다</form> <!-- add의 정보를 이 곳으로 이동, 합성동사 불가능 정보 제시(송근영) -->
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 따르다</form> <!-- add의 정보를 이 곳으로 이동, 합성동사 불가능 정보 제시(송근영) -->
+				</comb_v>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<s_n>S라는  ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/04</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/10</mod_date>
+				<mod_writer>이민우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/14</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>엔트리4 추가</mod_note>
+				<mod_note>대역어 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/19</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2004/12/28</mod_date>
+				<mod_writer>장원철</mod_writer>
+		        <mod_note></mod_note>
+	        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">紙齡</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리 신문은 ~ 500호를 발간했다.</eg>
+				<trans>the issue number of a newspaper</trans> <!-- periodical을 newspaper로 수정(송근영) -->
+				<sem_class>속성</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="4" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2004/09/14</cre_date>
+				<cre_writer>송근영</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">誌齡</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리 잡지는 ~ 100호를 발간했다.</eg>
+				<trans>the issue number of a periodical</trans>
+				<sem_class>속성</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

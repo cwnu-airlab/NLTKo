@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>상속되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/27</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/27</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/30</mod_date>
+				<mod_writer>음두은</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">상속이 되다</var>
+			<str>N.되</str>
+			<org lg="si">相續__</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be succeeded</trans>
+				<trans>be inherited</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물|단위(원|달러)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간|집단</sel_rst>
+					<eg>토지가 아들에게 상속되다.</eg>
+					<eg>아버지가 죽으면 자연 유산이 내게로 상속된다 말씀이야.</eg>
+					<eg>상속이란 피상속인이 사망한 경우에 피상속인에게 속하였던 재산이 다른 일정한 상속인에게 상속되는 것을 말한다.</eg>
+					<eg>피상속인의 적극적 재산 뿐만 아니라 채무 등 소극적 재산도 상속된다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>불균형하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/15</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<org lg="si">不均衡_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be out of balance</trans>
+				<trans>be unequal</trans>
+				<trans>ill-balanced</trans>
+				<trans>disproportionate</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(상태)|(압력)|(분배)|(시각)</sel_rst>
+					<eg>지식과 정보의 불균형한 분배현상은 결과적으로 국가간 경제적 빈부격차를 악화시킬 것으로 전망됩니다.</eg>
+					<eg>물체 표면에서의 원자로부터 전자의 이동으로 인한 전자의 불균형한 상태를 정전기라 한다.</eg>
+					<eg>불균형한 압력으로 치아 전체의 균형이 깨져 어금이의 맞물림도 좋지 않게 됩니다.</eg>
+					<eg>노동문제에 대한 불균형한 시각을 바로잡도록 하는 것이 목적이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

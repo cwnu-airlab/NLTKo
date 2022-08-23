@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>건학하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/31</cre_date>
+				<cre_writer>박철우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/31</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/08/26</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>내부구조 제시방식 수정</mod_note>
+				<mod_note>영어대역어 수정</mod_note>
+				<mod_note>어휘의미관계 보충</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">건학을 하다</var>
+			<str>N.하</str>
+			<org lg="si">建學_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>창조행위</sem_class>
+				<trans>establish</trans>
+				<trans>found</trans>
+				<lr>
+					<syn type="perfect">건립하다</syn>
+					<syn type="kor">세우다</syn>
+					<syn type="kor">짓다</syn>
+					<hyper>만들다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">교육기관</sel_rst>
+					<eg>우리 학교는 일제의 침략이 세차게 밀어닥치던 1908년 구국일념의 정신으로 건학하여, 나라의 등불을 지켰으며, 현재 세계를 무대로 활동하는 3만의 인재를 배출한 학교입니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

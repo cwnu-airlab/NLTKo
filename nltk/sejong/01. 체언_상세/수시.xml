@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>수시</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/19</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/19</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/01</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>의미부류 수량시간에서 방법으로 수정;조사제약 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/21</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>복합명사구 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/24</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/21</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>방법을 방식속성값으로 수정;관형사, 명사, 절 수식어 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">隨時</org>
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>여기는 시설이 낙후하여 ~ 점검이 필요하다.</eg>
+				<eg>회사들은 사원을 ~로 채용하는 경우가 많으므로 여기저기 이력서를 많이 보내놓아라.</eg>
+				<trans>on demand</trans>
+				<trans>at any time</trans>
+				<sem_class>방식속성값</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound">~ 접수</comb_n>
+				<comb_n type="compound">~ 점검</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<prt>~로</prt>
+				<av>~로</av>
+				<pre_d yn="no"/>
+				<pre_n yn="no"/>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/19</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/19</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/01</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>논항정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/21</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>동사 결합 구성 오타 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/24</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/21</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>전문영역에서 민속 삭제;종교및의례행위를 변형행위로 수정;맥스엔 보완;선택제약 정보 수정</mod_note>
+			</mod>
+			<note>2003/10/19(기영인)표제어가 장례절차 관련 표현이므로 추후 전문영역(민속/관혼상제?상례?) 상세화 필요</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">收屍</org>
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~ 걷다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>사람이 죽은 뒤 ~를 하지 않고 방치를 해 두면 몸이 굳어서 뒤틀리기 쉽다.</eg>
+				<trans>laying out a body for burial</trans>
+				<domain></domain><!--김성용(2004/10/01)전문영역을 꼭 두어야 하는지 확인 요망-->
+				<sem_class>변형행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-의 ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간|신체부위</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

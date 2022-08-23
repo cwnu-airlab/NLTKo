@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>성음</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/19</cre_date>
+				<cre_writer>김미순</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/21</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/28</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>동의어 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/17</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>n_n 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/22</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 정보 추가</mod_note>
+				<mod_note>n_n 정보 합성어 정보로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/14</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>'듣다'의 유형값 수정;센스2 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/08</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>단위표현 정보 추가</mod_note>
+			</mod>
+			<add>~을 듣다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">聲音</org>
+			<comp pos="n" type="suffix">~문자</comp>
+			<comp pos="n" type="suffix">~학</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 한국어의 ~에 대해 연구하는 학자이다.</eg>
+				<trans>vocal sound</trans>
+				<sem_class>소리</sem_class>
+				<lr>
+					<syn type="kor">목소리</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 작다</comb_aj>
+				<comb_aj type="appr">~이 높다</comb_aj>
+				<comb_aj type="appr">~이 낮다</comb_aj>
+				<comb_aj type="appr">~이 아름답다</comb_aj>
+				<comb_aj type="appr">~이 이상하다</comb_aj>
+				<comb_n type="compound">~ 문자</comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 듣다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<cl type="uni">개</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>모든 ~을 자유자재로 구사할 수 있는 경지가 바로 득음의 경지이다.</eg>
+				<trans>vocal sound</trans>
+				<sem_class>소리</sem_class>
+				<lr>
+					<syn type="kor">목소리</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 내다</form>
+					<frame>X-이 ~을 내다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 구사하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|악기</sel_rst>
+				<cl type="uni">개</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

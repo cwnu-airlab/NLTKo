@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+
+<superEntry>
+	<orth>담기다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/02</mod_date>
+				<mod_writer>조원형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/04/07</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/09</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V.기2</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be put in</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="LOC">용기</sel_rst>
+					<eg>그릇에는 물이 반쯤 담겨 있었다.</eg>
+					<eg>나는 바구니에 담겨 있던 사과를 하나 집어 들었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be included</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(감정|정성|추억|얼|넋)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">추상적대상|구체물</sel_rst>
+					<eg>그가 보내 온 편지에는 고향에 대한 그리움과 친구에 대한 정이 담뿍 담겨 있었다.</eg>
+					<eg>그 사람은 어릴 적 추억이 담긴 빛 바랜 사진 한 장을 꺼내 들고서 하염없이 보고 있었다.</eg>
+					<eg>그가 놓고 간 선물에는 정성이 담뿍 담겨 있음을 금방 느낄 수 있었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(이름|사상|생각|내용)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">텍스트|미술작품|작품</sel_rst>
+					<eg>작가의 사상체계가 그의 글 속에 담긴다는 것을 늘 기억해야 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

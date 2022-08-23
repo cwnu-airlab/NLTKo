@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>가미시키다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/08</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/08</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/09/17</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>영어대역어 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/04/15</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note>예문수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">가미를 시키다</var>
+			<cntr opt="opt" type="i"/>
+			<org lg="si">加味_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>혼합행위</sem_class>
+				<trans>make st seasoned</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">양념|상태(단맛|쓴맛)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">자연음식물|음식</sel_rst>
+					<eg>소금이나 파 종류를 가미시킨 고기요리이다.</eg>
+					<eg>삼계탕에 황기를 가미시키면 보양식으로 더 효과가 좋다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>make st added</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">속성</sel_rst>
+					<sel_rst arg="Z" tht="LOC">추상적대상</sel_rst>
+					<eg>역사연구에 다른 일체의 가치를 가미시켜서는 안 된다.</eg>
+					<eg>퍼지 이론은 일어날 확률에 대한 주관의 감을 가미시킨다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

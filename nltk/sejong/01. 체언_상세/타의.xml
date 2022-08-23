@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>타의</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/18</cre_date>
+				<cre_writer>김성용</cre_writer>
+				<cre_note>센스2 영어대역어 확인 요망</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/20</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note>영어 대역어 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/09/22</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note>센스2반의어추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/03/04</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>센스2 idm 기술</mod_note>
+				<mod_note>센스1,2 sem 수정</mod_note>
+				<mod_note>센스1 기능동사구문(있다, 없다) 이하 기술</mod_note>
+				<mod_note>센스2 기능동사구문(이다) 이하 기술</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/20</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">他意</org>
+		
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc">자의 반 ~ 반</idm><!--(권오희)센스2의 관용구임-->
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 단지 그를 도와주려는 마음뿐이지 ~는 없었어.</eg>
+				<trans>another intention</trans>
+				<trans>ulterior motive</trans>
+				<trans>secret purpose</trans>
+				<sem_class>계획</sem_class><!--(권오희)생각에서 수정-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 있다</form>
+					<frame>X-이 ~가 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 없다</form>
+					<frame>X-이 ~가 없다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>~로 일을 하기보다는 자의로 일을 하는 것이 일의 능률을 위해서도 좋다.</eg>
+				<trans>another person's will</trans>
+				<sem_class>의견</sem_class><!--(권오희)생각에서 수정-->
+				<lr>
+					<ant type="compl">자의</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 ~이다</frame>
+					<frame>S것-이 ~이다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">사태</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

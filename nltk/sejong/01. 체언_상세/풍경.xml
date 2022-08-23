@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>풍경</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/12</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/03</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/20(이성헌)</note>
+			<note>2003/02/20(남길임)COMB_V구성 ADD로 이동</note>
+			<note>2003/02/24(김이정)</note>
+			<note>센스 통합</note>
+			<note>형용사자유구성 정보 추가</note>
+			<add>~을 그리다|둘러보다|묘사하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">風景</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~화</der>
+			<comp pos="n" type="suffix">~화가</comp>
+			<comp pos="n" type="prefix">마을~</comp>
+			<comp pos="n" type="prefix">시골~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>언덕을 넘자 허름한 바닷가 마을의 ~이 눈에 들어왔다.</eg>
+				<trans>landscape</trans>
+				<trans>scenery</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>모양</sem_class>
+				<lr>
+					<syn type="etc">경관</syn>
+					<syn type="etc">경치</syn>
+					<syn type="etc">정경</syn>
+					<syn type="etc">풍광</syn>
+					<ant type="temp"></ant>
+					<rel>모습</rel>
+					<rel>풍광</rel>
+					<rel>풍물</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 아름답다</comb_aj>
+				<comb_aj type="appr">~이 좋다</comb_aj>
+				<comb_aj type="appr">~이 멋지다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 그리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 둘러보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 묘사하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 감상하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/12</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/03</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/20(이성헌)</note>
+			<note>2001/09/23(기영인)</note>
+			<note>2003/02/20(남길임)</note>
+			<note>2003/02/24(김이정)add에 '~이 흔들리다' 추가</note>
+			<note>COMB_V정보 ADD로 이동</note>
+			<note>동사자유구성 정보 수정</note>
+			<note>수표현 입력</note>
+			<note>예문 수정</note>
+			<note>의미부류 수정</note>
+			<note>의미부류 재고 요망('기구'?)</note>
+			<note>의미부류 '구체인공물'에서 '설치물'로 수정했으나 확신 없음(이선웅)</note>
+			<note>형용사 자유 구성 입력</note>
+			<add>~을 달다</add>
+			<add>~이 울려퍼지다|녹슬다|흔들리다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">風磬</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~소리</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~ 치다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>처마 끝의 ~이 바람결에 흔들리며 은은한 소리를 낸다.</eg>
+				<trans>a wind-bell</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>설치물</sem_class>
+				<lr>
+					<syn type="etc">풍령</syn>
+					<syn type="etc">첨마</syn>
+					<ant type="temp"></ant>
+					<hyper>종</hyper>
+					<rel>처마</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 작다</comb_aj>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 예쁘다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 달다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 울려퍼지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 녹슬다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 흔들리</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

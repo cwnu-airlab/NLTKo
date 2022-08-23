@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>변색하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/26</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김미영</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/26</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/08/04</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">변색을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<org lg="si">變色_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>discolor</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체자연물(과일|생선|잔디)</sel_rst>
+					<sel_rst arg="Y" tht="FNS">속성(노란색|회색|갈색)</sel_rst>
+					<eg>기상이온으로 잔디들이 모두 누런색으로 변색하고 말았다.</eg>
+					<eg>생선이 싱싱하지 않았는지 하루도 안 지나서 회색으로 변색되어 요리할 수 없었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>change one's countenance</trans>
+				<trans>change color</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">신체부위(얼굴|피부)</sel_rst>
+					<sel_rst arg="Y" tht="FNS">속성(빨간색|푸른색)</sel_rst>
+					<eg>수영을 하고 나온 영호의 피부는 추워서인지 푸른색으로 변색했다.</eg>
+					<eg>화가 머리 끝까지 난 철수의 얼굴은 시뻘건색으로 변색했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>fade</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">동물(파충류|도마뱀)</sel_rst>
+					<sel_rst arg="Y" tht="FNS">속성(녹색|푸른색|갈색)</sel_rst>
+					<eg>파충류는 나무 속에서 녹색으로 변색한다.</eg>
+					<eg>도마뱀은 몸을 숨기기 위해서 나무에 있을 때는 갈색으로 변색한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

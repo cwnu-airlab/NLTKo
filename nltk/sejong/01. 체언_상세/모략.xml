@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>모략</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/14</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/14</mod_date>
+				<mod_writer>류희선</mod_writer>
+				<mod_note>의미부류검토요망(적당한 의미부류가 없는 것 같음)</mod_note>
+				<mod_note>~에 빠지다의 경우 comb_v?</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/10</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>예문보완, 의미부류 수정, n_n기술기능동사 틀 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/05</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">謀略</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그가 나를 ~을 한다는 이야기를 들었다.</eg>
+				<eg>그는 억울하게 ~을 받고 죽었다.</eg>
+				<eg>그들은 ~을 꾸미고 있었다.</eg>
+				<trans>intrigue</trans>
+				<sem_class>계획</sem_class><!--사회동요에서 계획으로 수정-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">중상 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 S-다고 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 받다</form>
+					<frame>Y-이 X-에게서 ~를 받다</frame>
+					<frame>Y-이 X-에게서 S-다고 ~를 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 꾸미다</form>
+					<frame>X-이 Y-을 S-다고 ~을 꾸미다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 빠지다</form>
+					<frame></frame>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>신기스럽다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/05/05</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>조원형</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2004/11/05</mod_date>
+				<mod_writer>임동식</mod_writer>
+				<mod_note>의미정보 확장 및 형태정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>N.S</str>
+			<org lg="si">新奇__</org>
+			<infl type="b"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>속성값</sem_class>
+				<trans>be novel</trans>
+				<lr>
+					<hyper>새롭다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>Y=N1-에게 X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">온</sel_rst>
+					<sel_rst arg="Y" tht="EXP">인간</sel_rst>
+					<eg>나는 네가 정말 신기스러워.</eg>
+					<eg>달이 지구 주위를 돈다는 사실이 정말 신기스럽지 않니?</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<sel_rst arg="Y" tht="EXP">인간</sel_rst>
+					<eg>나는 네가 하는 것들이 정말 신기스러워.</eg>
+					<eg>달이 지구 주위를 돈다는 것이 정말 신기스럽지 않니?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/05/05</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>조원형</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2004/11/05</mod_date>
+				<mod_writer>임동식</mod_writer>
+				<mod_note>의미정보 확장 및 형태정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>N.S</str>
+			<org lg="si">神奇__</org>
+			<infl type="b"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>속성값</sem_class>
+				<trans>be marvelous</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>Y=N1-에게 X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|추상적대상|사태</sel_rst>
+					<sel_rst arg="Y" tht="EXP">인간</sel_rst>
+					<eg>신의 섭리가 어찌나 신기스러운지 그대들은 아느냐?</eg>
+					<eg>부처님께서 고행 끝에 깨달음을 얻으셨다는 이야기가 너희들은 신기스럽지 않니?</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<sel_rst arg="Y" tht="EXP">인간</sel_rst>
+					<eg>나는 부처님이니 예수님이니 하는 것들이 정말 신기스러워.</eg>
+					<eg>신이 어딘가에 있으리라는 것이 신기스럽지 않니?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>아가씨</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/20</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/20</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>syn기술</mod_note>
+				<mod_note>n_aj기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/01</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>s_n기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>동사결합, 선택제약 추가</mod_note>
+			</mod>
+			<note>2003/10/20(기영인)센스3, 센스4, 센스5 레지스터 정보입력</note>
+			<note>센스5 '아씨'(2000년 단일어) 참조</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>너 어느새 천방지축 소녀에서 멋진 ~로 자랐구나!</eg>
+				<trans>young lady</trans>
+				<sem_class>연령인간</sem_class>
+				<lr>
+					<syn type="perfect">숙녀</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 멋지다</comb_aj>
+				<comb_aj type="appr">~가 예쁘다</comb_aj>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>~, 근처에 버스 정류장이 어디인지 아세요?</eg>
+				<trans>Miss</trans>
+				<sem_class>호칭</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="3"><!--존칭-->
+			<sem_grp>
+				<eg>막내 ~를 시집을 보내려니 시어머니께서 많이 섭섭하신 모양이다.</eg>
+				<trans>younger sister-in-law</trans>
+				<trans>one's husband's younger sister</trans>
+				<sem_class>비대칭적친족</sem_class>
+				<lr>
+					<syn type="perfect">아기씨</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-이 Y-에게 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간(여자)</sel_rst>
+				<sel_rst arg="Y">인간(여자)</sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="4"><!--존칭-->
+			<sem_grp>
+				<eg>영희 ~, 약혼 축하드려요!</eg>
+				<trans>younger sister-in-law</trans>
+				<sem_class>호칭</sem_class>
+				<lr>
+					<syn type="perfect">아기씨</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="5"><!--존칭-->
+			<sem_grp>
+				<eg>대감댁 ~는 시서화에 능하다고 소문이 자자하다.</eg>
+				<trans>lady</trans>
+				<trans>miss</trans>
+				<domain>역사</domain>
+				<sem_class>연령인간</sem_class>
+				<lr>
+					<syn type="perfect">아씨</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

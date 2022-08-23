@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>행정</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/24</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/17</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/17</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/09</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note>add(~을 감독하다|개혁하다|관리하다|책임지다) 삭제</mod_note>
+			</mod>
+			<note>2001/09/21(박동호)</note>
+			<note>2003/01/25(유영) sem수정, sens1 comp추가, 예문추가, comb_v를 add로 이동, 자동차의 '행정기관'에 대한 처리?</note>
+			<note>2003/06/17(이성헌)sem을 '지속적활동'에서 '역할'로 수정</note>
+			<note>센스2의 기능동사, 최대논항구조 및 논항선택제약 입력</note>
+			<note>차후 일|사무 부류로 수정할 것</note>
+			<note>최대논항 구조 및 논항 선택제약 입력</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">行政</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~가</der>
+			<der pos="n" type="suffix">~관</der>
+			<der pos="n" type="suffix">~권</der>
+			<der pos="n" type="suffix">~력</der>
+			<der pos="n" type="suffix">~부</der>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~직</der>
+			<der pos="n" type="suffix">~실</der>
+			<der pos="n" type="suffix">~과</der>
+			<comp pos="n" type="suffix">~경찰</comp>
+			<comp pos="n" type="suffix">~기관</comp>
+			<comp pos="n" type="suffix">~대학원</comp>
+			<comp pos="n" type="suffix">~소송</comp>
+			<comp pos="n" type="suffix">~사건</comp>
+			<comp pos="n" type="suffix">~사무</comp>
+			<comp pos="n" type="suffix">~재판소</comp>
+			<comp pos="n" type="suffix">~제도</comp>
+			<comp pos="n" type="suffix">~처분</comp>
+			<comp pos="n" type="suffix">~처벌</comp>
+			<comp pos="n" type="suffix">~질서</comp>
+			<comp pos="n" type="suffix">~법</comp>
+			<comp pos="n" type="suffix">~관료</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>새 국무총리는 ~ 경험이 풍부한 인물이다.</eg>
+				<trans>administration</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>역할</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>정치</rel>
+					<rel>사무</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">강력한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 맡다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

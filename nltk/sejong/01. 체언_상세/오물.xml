@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>오물</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/15</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/07</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/19</mod_date>
+				<mod_writer>송근영</mod_writer>				
+				<mod_note>add 정보를 n_v에 기술</mod_note>
+				<mod_note>센스1 의미부류 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 추가</mod_note>
+			</mod>
+			<note>2002/08/15(김현승)센스1에서 '쓰레기'에 해당하는 적절한 의미부류가 없음</note>
+			<note>2002/08/31(고길수)동형어 정보 수정, '오물거리다'의 '오물'이 어근으로 분류될 수 있음</note>
+			<note>센스1의 의미부류를 '구체인공물'에서 '부정적속성구체물'로 수정</note>
+			<note>센스2의 예문 수정</note>
+			<note>센스1과 2의 분할이 필요한지 검토 필요</note>
+			<note>2002/10/11(이성헌)</note>
+			<note>2003/09/09(류희선)사전종류수정</note>
+			<note>센스1의 의미부류 검토요망(적당한 것이 없기는..하지만..)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">汚物</org>
+			<hom exist="temp"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~통</comp>
+			<comp pos="n" type="suffix">~세</comp>
+			<comp pos="n" type="suffix">~장</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>홍수가 나자 강에 ~이 가득했다.</eg>
+				<eg>산에 등산객들이 버린 ~이 여기저기 널려있었다.</eg>
+				<trans>filth</trans>
+				<trans>dirt</trans>
+				<trans>sewage</trans>
+				<trans>garbage</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>폐기물</sem_class> <!--'부정적속성구체물'을 '폐기물'로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 더럽다</comb_aj>
+				<comb_aj type="appr">~이 많다</comb_aj>
+				<comb_aj type="appr">~이 적다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 처리하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 치우다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>화장실 주변에 ~이 여기저기 묻어 있다.</eg>
+				<eg>정기적으로 차가 와서 변소의 ~을 퍼 간다.</eg>
+				<trans>night soil</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>배설물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 더럽다</comb_aj>
+				<comb_aj type="appr">~이 많다</comb_aj>
+				<comb_aj type="appr">~이 적다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 처리하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 치우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 푸다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

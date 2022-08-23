@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>뒤집어쓰다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V-어V</str>
+			<infl type="eu"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>착용행위</sem_class>
+				<trans>put on</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(모자|두건|수건)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">(머리)</sel_rst>
+					<eg>날씨가 추워서 털모자를 머리에 깊이 뒤집어썼다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>비의도적행위</sem_class>
+				<trans>cover with</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(물|분가루|밀가루|먼지|이불)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">신체부위(몸|머리)</sel_rst>
+					<eg>청소를 하다 보니 몸에 먼지를 뒤집어쓴 것도 몰랐다.</eg>
+					<eg>실수로 물을 뒤집어써서 감기에 걸렸다.</eg>
+					<eg>추위에 이불을 온몸에 뒤집어썼다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V-어V</str>
+			<infl type="eu"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>비의도적행위</sem_class>
+				<trans></trans>
+			</sem_grp>
+			<frame_grp type="STR">
+				<frame>X=N0-이 Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Npr1">추상적대상(책임|누명|혐의|잘못|죄)</sel_rst>
+					<eg>그 친구 혼자 모든 책임을 뒤집어쓰고 사퇴하는 것은 부당하다.</eg>
+					<eg>잘못 뒤집어쓰게 된 혐의가 하루빨리 벗겨지기를 바랄 뿐이다.</eg>
+					<eg>그는 검찰로부터 억울한 누명을 뒤집어썼다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

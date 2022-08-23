@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>호전</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/06/07</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/15</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/26</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/10</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>n_n 기술</mod_note>
+			</mod>
+			<note>2002/06/07(고길수)'好戰'은 어근으로 생각되어 표제어에서 제외했음</note>
+			<note>2002/07/29(한선혜)cor_v에 '시키다' 추가</note>
+			<note>2002/07/30(박동호)어근으로 처리합시다</note>
+			<note>2003/07/08(서진숙)</note>
+			<note>2003/09/15(이성헌)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">好轉</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>시장 경기의 빠른 ~으로 우리 회사 매출이 크게 증가할 것으로 기대된다.</eg>
+				<eg>병의 통증이 약간은 ~이 되었으나 더이상 개선의 여지는 보이지 않았다.</eg>
+				<eg>영업환경 ~에 대한 기대 때문에 직원들은 더 열심히 일을 하였다.</eg>
+				<eg>이 사태를 어떠한 방법으로 ~을 시킬 수 있을 것인가?</eg>
+				<trans>favorable turn</trans>
+				<trans>improvement</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>개선</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">경기 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>Y|S것-이 X-을 ~을 시키다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">상태|속성(형세|상황|병세)|(주식시장|경제)</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

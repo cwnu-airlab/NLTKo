@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>반딧불</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/28</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 n_v 수정</mod_note>
+				<mod_note>센스1 선택제약 기술</mod_note>
+			</mod>
+			<add>2003/10/28(송인욱)센스1의 동사자유구성으로 '~이 빛나다|깜빡거리다' 추가</add>
+			<add>2003/10/28(송인욱)동사자유구성으로 '~가 살다|서식하다|죽다|멸종하다|날다|내려앉다</add>
+			<add>~를 발견하다|잡다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+		
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~로 별을 대적하랴</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>저 멀리 보이는 등대의 불빛이 ~처럼 깜빡거리고 있었다.</eg>
+				<eg>깊은 밤에 홀로 길을 걸을 때는 ~도 충분히 밝게 느껴진다.</eg>
+				<trans>glow of a firefly</trans>
+				<sem_class>빛</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 밝다</comb_aj>
+				<comb_aj type="appr">~이 희미하다</comb_aj>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 빛나다</form>
+					<frame>X-에서 ~이 빛나다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 깜박거리다</form>
+					<frame>X-에서 ~이 깜박거리다</frame>
+				</comb_v>
+				<sel_rst arg="X">장소</sel_rst>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>수십 마리의 ~이 열을 지어 나란히 날아가고 있었다.</eg>
+				<trans>lightning bug</trans>
+				<sem_class>벌레</sem_class>
+				<lr>
+					<syn type="perfect">반디</syn>
+					<syn type="perfect">반딧불이</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 많다</comb_aj>
+				<comb_aj type="min">~이 적다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 살다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 서식하다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 죽다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 멸종하다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 날다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 내려앉다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 잡다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 발견하다</form>
+				</comb_v>
+				<cl type="uni">마리</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>초청</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/20</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>2002/08/22(김이정)</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2002/09/07</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>supv의 Z항 괄호 제거;'받다','되다'구문에 X항 기술;add에 '~이 오다'기재</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2002/10/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<!-- 작성일과 수정일이 원파일에는 2002년으로 되어 있으나, 변환된 파일에는 2003으로 표기되어 있었음 -->
+			<mod>
+				<mod_date>2004/09/01</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>예문 추가;의미부류 수정;동사결합 정보 추가 및 수정;명사결합 정보 추가;논항 명사구 정보 추가;논항 의미정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/03/08</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>정보 확장 내용 교열</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/07</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<add>~이 오다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str type="N_N"></str>
+			<org lg="si">招請</org>
+		
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 고향 친구들을 목장으로 ~을 했다.</eg>
+				<eg>우리나라 영화가 여러 편이 외국의 유명한 영화제에 ~을 받았다.</eg> <!-- 추가함 -->
+				<trans>invitation</trans>
+				<sem_class>방향성행위</sem_class> <!-- '순간적 행위' 수정 -->
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+					<comb_aj type="appr"></comb_aj>
+					<comb_n type="compound">~ 연사</comb_n> <!-- 추가함 -->
+					<comb_n type="compound">~ 서류</comb_n> <!-- 추가함 -->
+					<comb_n type="compound">~ 강연</comb_n> <!-- 추가함 -->
+					<comb_n type="compound">~ 강연회</comb_n> <!-- 추가함 -->
+					<comb_n type="compound">~ 공연</comb_n> <!-- 추가함 -->
+					<comb_n type="compound">~ 이민</comb_n> <!-- 추가함 -->
+					<comb_v type="npred_vsup">
+						<form vcompound="yes">~을 하다</form> <!-- 형태 정보 추가 -->
+						<frame>X-이 Y-을 Z-에 ~을 하다</frame>
+					</comb_v>
+					<comb_v type="npred_vsup">
+						<form vcompound="yes">~을 받다</form> <!-- 형태 정보 추가 -->
+						<frame>Y-이 X-에게 Z-에 ~을 받다</frame> <!-- 'X-에게|로부터'를 분할 표기, 'X-에게서'를 추가함 -->
+						<frame>Y-이 X-에게서 Z-에 ~을 받다</frame>
+						<frame>Y-이 X-로부터 Z-에 ~을 받다</frame>
+					</comb_v>
+					<comb_v type="npred_vsup">
+						<form vcompound="yes">~이 되다</form> <!-- 형태 정보 추가 -->
+						<frame>Y-이 X-에게 Z-에 ~이 되다</frame> <!-- 'X-에게|에의해'를 분할 표기 -->
+						<frame>Y-이 X-에의해 Z-에 ~이 되다</frame>
+					</comb_v>
+					<comb_v type="npred_vpred"> <!-- 추가함 -->
+						<form vcompound="no">~이 오다</form>
+					</comb_v>
+					<comb_v type="npred_vpred"> <!-- 추가함 -->
+						<form vcompound="no">~에 응하다</form>
+					</comb_v>
+				<max_n_str>X-의 Y-에대한 Z ~</max_n_str> <!-- 추가함 -->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|예술|문학텍스트|작품</sel_rst> <!-- 인간 이외의 부류 추가 -->
+				<sel_rst arg="Z">장소|계획사건</sel_rst>
+				<cl type="uni">차례</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

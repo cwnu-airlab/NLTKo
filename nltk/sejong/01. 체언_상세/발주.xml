@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>발주</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/04</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/04</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>의미부류 '방향성행위'를 '결과행위'로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_v 수정</mod_note>
+			</mod>
+			<add>2003/11/04(송인욱)동사자유구성으로 '~를 준비하다|서두르다|미루다|의뢰하다|시행하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">發注</org>
+		
+			<der pos="n" type="suffix">~처</der>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>정부는 신도시 건설을 위해서 대규모 아파트 단지의 공사를 ~를 했다.</eg>
+				<eg>그 회사가 ~를 한 제품들은 이미 단종이 되었기 때문에 공급이 불가능한 상황이다.</eg>
+				<eg>우리 당은 당사를 새로 짓기로 결정하고 공사의 ~를 낼 준비를 하고 있다.</eg>
+				<trans>placing an order</trans>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<ant type="conv">수주</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 내다</form>
+					<frame>X-이 Y-을 ~를 내다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 시행하다</form>
+					<frame>X-이 Y-을 ~를 시행하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 준비하다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 서두르다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 미루다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 의뢰하다</form>
+				</comb_v>
+				<sel_rst arg="X">단체(정부|기업)</sel_rst>
+				<sel_rst arg="Y">구체인공물(제품)</sel_rst>
+				<sel_rst arg="Y">지속적활동(공사)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

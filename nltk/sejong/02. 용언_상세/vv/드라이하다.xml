@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>드라이하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/15</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/10/10</mod_date>
+				<mod_writer>김선영</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">드라이를 하다</var>
+			<str>N.하</str>
+			<org lg="en">dry___</org>
+			<infl type="leo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>개선행위</sem_class>
+				<trans>blow-dry</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(머리|머리카락)</sel_rst>
+					<eg>그 여자는 가끔 머리를 드라이하기 시작했고 손톱가위로 앞머리를 약간 짧게 자르고 머리칼을 옆으로 빗어내렸다.</eg>
+					<eg>머리를 파마하고 드라이해 봐요.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>개선행위</sem_class>
+				<trans>dry-clean</trans>
+				<trans>dry-cleanse</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">옷|신체착용물</sel_rst>
+					<eg>집에서 일하는 아이가 드라이해야 하는 옷을 잘못해서 손빨래 해버렸다.</eg>
+					<eg>모직으로 된 옷은 항상 드라이해야 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

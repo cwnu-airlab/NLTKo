@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>화면</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/17</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/08</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/12</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note>동사구성 추가,센스2 n_aj 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/21</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 전문영역(미술) 삭제</mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2007/08/18</mod_date>
+				<mod_writer>신선옥</mod_writer>	
+				<mod_note>합성어 "~보호기" 추가</mod_note>
+	        </mod>
+			<note>2001/07/23(고길수)</note>
+			<note>2003/02/04(김진형)예문 추가</note>
+			<note>2003/02/08(이지영)</note>
+			<note>comb_v 정보 add로 이동</note>
+			<note>sense1 cl 정보 삭제</note>
+			<note>센스1의 의미부류 재검토 요망</note>
+			<note>센스2의 명사연어 추가</note>
+			<note>의미부류 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">畵面</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~공간</comp>
+			<comp pos="n" type="suffix">~구도</comp>
+			<comp pos="n" type="suffix">~구성</comp>
+			<comp pos="n" type="suffix">~규격</comp>
+			<comp pos="n" type="suffix">~기교</comp>
+			<comp pos="n" type="suffix">~길이</comp>
+			<comp pos="n" type="suffix">~나누기</comp>
+			<comp pos="n" type="suffix">~뒤집기</comp>
+			<comp pos="n" type="suffix">~복사</comp>
+			<comp pos="n" type="suffix">~입자</comp>
+			<comp pos="n" type="suffix">~전환</comp>
+			<comp pos="n" type="suffix">~크기</comp>
+			<comp pos="n" type="suffix">~편집</comp>
+			<comp pos="n" type="suffix">~편집기</comp>
+			<comp pos="n" type="suffix">~보호기</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 화백의 작품은 ~이 늘 화사한 색들로 채워져 있다.</eg>
+				<eg>이 그림은 오래 전의 것이지만 ~의 질감이 생생하게 살아 있다.</eg>
+				<trans>picture</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>구체물의부분</sem_class>
+				<lr>
+					<syn type="etc">그림면</syn>
+					<ant type="temp"></ant>
+					<rel>그림</rel>
+					<rel>화가</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 예쁘다</comb_aj>
+				<comb_aj type="appr">~이 아름답다</comb_aj>
+				<comb_aj type="appr">~이 생생하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 칠하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 채우다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>우리 회사 제품의 광고가 TV ~에 나왔다.</eg>
+				<eg>HD TV는 손에 잡힐 듯이 생생한 ~이 특징이다.</eg>
+				<eg>저 자연 다큐멘터리는 뛰어난 ~의 구성으로 좋은 평을 받았다.</eg>
+				<trans>screen</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>구체물의부분</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>컴퓨터</rel>
+					<rel>TV</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 밝다</comb_aj>
+				<comb_aj type="appr">~이 어둡다</comb_aj>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 작다</comb_aj>
+				<comb_aj type="appr">~이 생생하다</comb_aj>
+				<comb_aj type="appr">~이 선명하다</comb_aj>
+				<comb_aj type="appr">~이 흐리다</comb_aj>
+				<comb_n type="compound">텔레비전 ~</comb_n>
+				<comb_n type="compound">컴퓨터 ~</comb_n>
+				<comb_n type="compound">모니터(의) ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 구성하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 가리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

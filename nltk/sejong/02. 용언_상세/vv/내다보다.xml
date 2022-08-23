@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>내다보다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">내다를 보다</var>
+			<str>V다V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>foresee</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(앞날|미래|운명)</sel_rst>
+					<eg>그는 앞날을 내다보는 특별한 힘을 가졌다.</eg>
+					<eg>먼 미래를 내다보면서 계획을 세워야지 그렇게 바로 앞의 일에만 집착해서는 큰 일을 할 수 없지.</eg>
+					<eg>누구도 운명을 정확하게 내다볼 수는 없는 것 아닙니까?</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="Y" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것</sel_rst>
+					<eg>경제 전문가들은 전쟁이 발발하기도 전에 이미 석유 값이 오르리라는 것을 내다보았다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=S1-고 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="CNT"></sel_rst>
+					<eg>대다수 사람들이 향후에 코스닥의 주가가 큰 폭으로 오른다고 내다보았었지만 결국 그 전망은 빗나가고 말았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>시각적행위</sem_class>
+				<trans>look out</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에서|로부터 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<sel_rst arg="Z" tht="SRC">장소(안)</sel_rst>
+					<eg>그는 방 안에서 창 밖을 내다보았다.</eg>
+					<eg>병원에 입원해 있는 동안 그의 유일한 낙은 창에서 지나가는 사람들을 내다보는 것이었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것</sel_rst>
+					<sel_rst arg="Z" tht="SRC">장소(안)</sel_rst>
+					<eg>그는 창에서 사람들이 지나가는 것을 내다보았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

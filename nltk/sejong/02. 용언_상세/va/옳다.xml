@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>옳다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/19</cre_date>
+				<cre_writer>유경민</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/15</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/04</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>평가속성값</sem_class>
+				<trans>be right</trans>
+				<lr>
+					<syn type="perfect">바르다</syn>
+					<ant type="grad">그르다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상</sel_rst>
+					<eg>문제에 너무 오래, 너무 깊이 빠져 있었던 탓에 이제 나는 뭐가 옳고 그른지 정말 모르겠다.</eg>
+					<eg>자신이 옳다고 생각하는 일이라면 어떠한 상황에서라도 소신을 가지고 행동하는 사람이 매력적이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>평가속성값</sem_class>
+				<trans>be correct</trans>
+				<trans>be right</trans>
+				<lr>
+					<syn type="perfect">바르다</syn>
+					<ant type="grad">틀리다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">텍스트</sel_rst>
+					<eg>글의 전체적인 내용은 좋지만 그의 글에는 옳지 않은 문장이 너무 많다.</eg>
+					<eg>다음 문장 중에서 옳은 답을 고르시오.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be righteous</trans>
+				<lr>
+					<syn type="perfect">바르다</syn>
+					<ant type="grad">그르다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">행위</sel_rst>
+					<eg>아무리 눈 먼 돈이라도 그렇게 슬쩍한다는 것은 옳은 행동이 아니다.</eg>
+					<eg>너무 옳은 말만 하는 사람은 주변에 사람이 별로 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

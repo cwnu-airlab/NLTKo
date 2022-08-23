@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>시커멓다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/10</cre_date>
+				<cre_writer>김현권</cre_writer>
+				<cre_writer>조현경</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/10</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/13</mod_date>
+				<mod_writer>최정진</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>PA</str>
+			<infl type="h"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>색속성값</sem_class>
+				<trans>be jet-black</trans>
+				<trans>be deep-black</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(먹물|얼굴|연기|구름)|장소</sel_rst>
+					<n_appr>색</n_appr>
+					<n_appr>색깔</n_appr>
+					<eg>시커먼 사람이 사무실에 갑자기 들어와서 놀랬다.</eg>
+					<eg>시커먼 구름들이 몰려오더니 폭우가 내리기 시작했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>부정적품격속성값</sem_class>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(마음|행실|속)</sel_rst>
+					<eg>이 부장의 시커먼 속이 이번 감사결과 드러나 버렸다.</eg>
+					<eg>내게 접근하는 당신의 시커먼 속셈을 이미 알고 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+				</col_grp>
+				<mor_rel>
+					<np_rel>시커먼</np_rel>
+				</mor_rel>
+			</com>
+		</sense>
+	</entry>
+</superEntry>

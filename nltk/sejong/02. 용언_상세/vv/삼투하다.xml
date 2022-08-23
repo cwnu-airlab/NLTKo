@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>삼투하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/22</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2005/09/25</mod_date>
+				<mod_writer>음두은</mod_writer>
+				<mod_note>frame 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">삼투를 하다</var>
+			<str>N.하</str>
+			<org lg="si">渗透</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>물리화학현상</sem_class>
+				<trans>permeate</trans>
+				<trans>infiltrate</trans>
+				<trans>pass into</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">액체(잉크|묵)|분비물</sel_rst>
+					<sel_rst arg="Y" tht="GOL">구체물(종이|화선지)</sel_rst>
+					<eg>낮은 쪽의 물분자가 높은 쪽으로 삼투하여 양쪽 물의 농도가 평형상태에 이른다.</eg>
+					<eg>투수성이 강한 부석의 쇄설물이 화구원을 이루고 있어 곧 삼투하여 버린다.</eg>
+					<eg>수분이나 지방이 삼투하여 연해져서 변통을 촉진한다.</eg>
+					<eg>지하수에 녹아있던 규산성분이나 탄산칼슘이 삼투하여 들어가 구멍을 메워 버립니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

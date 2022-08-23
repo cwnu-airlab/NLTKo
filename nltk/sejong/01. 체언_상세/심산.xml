@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>심산</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/03</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/03</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>sem수정</mod_note><!--'생각'에서 '인지적행위'로-->
+				<mod_note>prt기술</mod_note>
+				<mod_note>n_v 이하 기술</mod_note><!--서술성명사로 판단됨-->
+			</mod>
+			<mod>
+				<mod_date>2004/11/01</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>s_n기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/23</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/11/03(기영인)add 정보입력</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">心算</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>두 가지를 동시에 해낼 ~으로 일을 벌려놓았으나 수습하기 쉽지 않았다.</eg>
+				<eg>그가 무슨 ~인지 요즘 내게 갑자기 지나치게 잘 해준다.</eg>
+				<trans>intention</trans>
+				<trans>calculation</trans>
+				<sem_class>인지적행위</sem_class>
+				<lr>
+					<syn type="perfect">속셈</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 S을 ~이다</frame>
+				</comb_v>
+				<max_n_str>X-의 S을 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<prt>~에서</prt>
+				<prt>~으로</prt>
+				<s_n>S을 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/03</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/03</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>cl기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>comp기술</mod_note>
+				<mod_note>s_n기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">深山</org>
+		
+			<hom exist="yes"/>
+			<comp pos="n" type="suffix">~계곡</comp>
+			<comp pos="n" type="suffix">~궁곡</comp>
+			<comp pos="n" type="suffix">~맹호</comp>
+			<comp pos="n" type="suffix">~유곡</comp>
+			<comp pos="n" type="suffix">~협곡</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>은자는 찾아가기도 어려운 ~에 들어가 수행을 하였다.</eg>
+				<trans>deep mountains</trans>
+				<sem_class>산산맥</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

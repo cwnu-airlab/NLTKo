@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>학교</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/06/10</cre_date>
+				<cre_writer>안근종;송근영</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/05/15</mod_date>
+				<mod_writer>고길수</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/21</mod_date>
+				<mod_writer>목정수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/19</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/02/17</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note>morph_grp b '전문~' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/14</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>  
+			<note>2003/04/12(김현승)센스1과 '장소'로 구분된 센스5를 통합</note>
+			<note>센스1의 의미부류를 '건물'에서 '기관건물'로 수정</note>
+			<note>센스1의 comb_v정보 add항목으로 이전</note>
+			<note>센스2의 의미부류를 '기관'에서 '교육기관'으로 수정</note>
+			<note>센스2의 comb_v정보 add항목으로 이전</note>
+			<note>센스3의 의미부류를 '기타'에서 '사건'으로 수정</note>
+			<note>'수업'의 의미로 쓰이는 것으로 보이나 적절한 의미부류를 설정하기 힘듦</note>
+			<note>센스3의 comb_v정보 add항목으로 이전</note>
+			<note>센스4의 의미부류를 '인물'에서 '인간집단'으로 수정</note>
+			<note>2003/04/16(고길수)센스1의 단위표현 수정</note>
+			<note>센스3 분할이 적절한지 검토 필요, 모든 '기관'은 '시작하다|끝나다'류와 결합하고, 이때에만 '기관의 업무'의 의미가 나오게 되는데, 그렇다면 이를 분할할 필요성이 있을지?</note>
+			<note>센스4(우리나라는 종종 학교가 담담할 일을 가정에 떠맡긴다. 인간집단)의 의미를 삭제함</note>
+			<note>2003/05/15(고길수)센스3의 의미부류를 '사건'에서 '물리적행위'로 수정</note>
+			<add>센스3의 동사결합으로 '~가 시작하다|끝나다|파하다' 추가</add>
+			<add>센스1의 동사결합으로 '~에 가다|출근하다,~가 들어서다,~를 짓다|증축하다,~로 들어가다,~에서 나오다|퇴근하다|열리다' 추가</add>
+			<add>센스2의 동사결합으로 '~를 세우다|설립하다|나오다|졸업하다|마치다|쉬다|폐교하다, ~에 다니다|보내다|들어가다|입학하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="xd">핵교</var>
+			<org lg="si">學校</org>
+		
+			<der pos="n" type="suffix">~장</der>
+			<comp pos="n" type="suffix">~교육</comp>
+			<comp pos="n" type="suffix">~생활</comp>
+			<comp pos="n" type="suffix">~법인</comp>
+			<comp pos="n" type="suffix">~신문</comp>
+			<comp pos="n" type="prefix">주일~</comp>
+			<comp pos="n" type="prefix">문화~</comp>
+			<comp pos="n" type="prefix">미용~</comp>
+			<comp pos="n" type="prefix">대~</comp>
+			<comp pos="n" type="prefix">중~</comp>
+			<comp pos="n" type="prefix">고등~</comp>
+			<comp pos="n" type="prefix">초등~</comp>
+			<comp pos="n" type="prefix">전문~</comp>
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc">~ 근처에도 못|안 가보다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>정부는 ~를 더 많이 짓기 위해서 재원 마련을 하고 있다.</eg>
+				<eg>이번 학회는 우리 ~에서 열린다.</eg>
+				<trans>school</trans>
+				<curs type="C"/>
+				<sem_class>기관건물</sem_class>
+				<lr>
+					<mero>교실</mero>
+					<mero>교무실</mero>
+					<mero>복도</mero>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 작다</comb_aj>
+				<comb_aj type="appr">~가 깨끗하다</comb_aj>
+				<comb_aj type="appr">~가 더럽다</comb_aj>
+				<cl type="uni">개</cl>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 ~는 이사장이 직접 경영을 한다.</eg>
+				<eg>그는 ~를 졸업한 후에 신문사에 취직을 했다.</eg>
+				<trans>school</trans>
+				<curs type="C"/>
+				<sem_class>교육기관</sem_class>
+				<lr>
+					<coord>유치원</coord>
+					<coord>학원</coord>
+					<mero>학급</mero>
+					<mero>교원</mero>
+					<mero>학생</mero>
+					<rel>교육</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 좋다</comb_aj>
+				<comb_aj type="appr">~가 훌륭하다</comb_aj>
+				<comb_aj type="appr">~가 유명하다</comb_aj>
+				<cl type="uni">개</cl>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>~가 파하면 곧장 집으로 와라.</eg>
+				<trans>school</trans>
+				<curs type="U"/>
+				<sem_class>지속적활동</sem_class>
+				<lr>
+					<syn>수업</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

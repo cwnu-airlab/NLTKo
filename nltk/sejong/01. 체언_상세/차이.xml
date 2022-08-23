@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>차이</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/04</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/23</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/27</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+				<mod_note>동사결합 "~를 좁히다", "~를 확인하다" 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/27</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>영어대역어 표기법 수정;동사결합, 논항 명사구 정보 수정</mod_note>
+			</mod>
+			<note>2000/09/20(박동호)</note>
+			<note>2003/02/04(서진숙)</note>
+			<note>2003/03/23(이성헌)cl에 '가지'기재</note>
+			<note>comb_aj의 '분명하다'를 magn로 이동</note>
+			<note>comb_aj의 '있다|없다'를 supv로 이동 기재</note>
+			<note>comb_v의 내용 중 '극복하다|인정하다|받아들이다'를 add로 이동</note>
+			<note>pre_s에 'S는 ~'기재</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">差異</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~점</comp>
+			<comp pos="n" type="prefix">세대~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>가격은 조금씩 다르지만 두 제품의 질에는 별 ~가 없다.</eg>
+				<eg>그들은 세대의 ~를 뛰어 넘어 사랑했다.</eg>
+				<eg>둘은 견해의 ~가 컸지만 절친한 친구로 남았다.</eg>
+				<trans>difference</trans>
+				<trans>distinction</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>관계속성값</sem_class>
+				<lr>
+					<syn type="etc">차</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 적다</comb_aj>
+				<comb_aj type="appr">~가 많다</comb_aj>
+				<comb_aj type="magn">~가 엄청나다</comb_aj>
+				<comb_aj type="magn">~가 심하다</comb_aj>
+				<comb_aj type="magn">~가 현저하다</comb_aj>
+				<comb_aj type="magn">~가 분명하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred -->
+					<form vcompound="no">~가 나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred -->
+					<form vcompound="no">~가 지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred -->
+					<form vcompound="no">~가 생기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred -->
+					<form vcompound="no">~가 나타나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred -->
+					<form vcompound="no">~를 갖다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred -->
+					<form vcompound="no">~를 극복하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred -->
+					<form vcompound="no">~를 인정하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred -->
+					<form vcompound="no">~를 받아들이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred -->
+					<form vcompound="no">~를 좁히다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred -->
+					<form vcompound="no">~를 확인하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 있다</form>
+					<!-- X-이 Y-와 Z|S데|S것-에|에서 ~가 있다|없다 -->
+					<frame>X-이 Y-와 Z-에 ~가 있다</frame>
+					<frame>X-이 Y-와 Z-에서 ~가 있다</frame>
+					<frame>X-이 Y-와 S데-에 ~가 있다</frame>
+					<frame>X-이 Y-와 S데-에서 ~가 있다</frame>
+					<frame>X-이 Y-와 S것-에 ~가 있다</frame>
+					<frame>X-이 Y-와 S것-에서 ~가 있다</frame>
+					<!-- X-와 Y-이 Z|S데|S것-에|에서 ~가 있다|없다 -->
+					<frame>X-와 Y-이 Z-에 ~가 있다</frame>
+					<frame>X-와 Y-이 Z-에서 ~가 있다</frame>
+					<frame>X-와 Y-이 S데-에 ~가 있다</frame>
+					<frame>X-와 Y-이 S데-에서 ~가 있다</frame>
+					<frame>X-와 Y-이 S것-에 ~가 있다</frame>
+					<frame>X-와 Y-이 S것-에서 ~가 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 있다</form>
+					<!-- X-이 Y-와 Z|S데|S것-에|에서 ~가 있다|없다 -->
+					<frame>X-이 Y-와 Z-에 ~가 없다</frame>
+					<frame>X-이 Y-와 Z-에서 ~가 없다</frame>
+					<frame>X-이 Y-와 S데-에 ~가 없다</frame>
+					<frame>X-이 Y-와 S데-에서 ~가 없다</frame>
+					<frame>X-이 Y-와 S것-에 ~가 없다</frame>
+					<frame>X-이 Y-와 S것-에서 ~가 없다</frame>
+					<!-- X-와 Y-이 Z|S데|S것-에|에서 ~가 있다|없다 -->
+					<frame>X-와 Y-이 Z-에 ~가 없다</frame>
+					<frame>X-와 Y-이 Z-에서 ~가 없다</frame>
+					<frame>X-와 Y-이 S데-에 ~가 없다</frame>
+					<frame>X-와 Y-이 S데-에서 ~가 없다</frame>
+					<frame>X-와 Y-이 S것-에 ~가 없다</frame>
+					<frame>X-와 Y-이 S것-에서 ~가 없다</frame>
+				</comb_v>
+				<max_n_str>X-와 Y-의 ~</max_n_str>
+				<max_n_str>X-와 Y-의 Z-의 ~</max_n_str>
+				<max_n_str>X-와 Y-의 Z ~</max_n_str>
+				<max_n_str>X-의 Y-와의 Z-의 ~</max_n_str>
+				<sel_rst arg="X">인간|동물|추상적대상</sel_rst>
+				<sel_rst arg="Y">인간|동물|추상적대상</sel_rst>
+				<sel_rst arg="Z">추상적대상</sel_rst>
+				<!-- cl type="uni">가지</cl -->
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

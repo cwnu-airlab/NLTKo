@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>유행</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/08</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/17</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/18</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_n으로 이동</mod_note>
+				<mod_note>add를 comb_v로 이동</mod_note>
+				<mod_note>comp '~조류',~디자인','~정보' 추가</mod_note>
+				<mod_note>comb_v '~을 만들다' 추가</mod_note>
+			</mod>
+			<note>2001/09/21(한선혜|이성헌)</note>
+			<note>논항구조 수정보완</note>
+			<note>2003/01/21(유영) comb_v를 add로 이동, sens2 cl작성</note>
+			<note>2003/06/17(이성헌)add의 '~이 일다|지나가다|사라지다|오래가다|반짝하다'를 comb_v로 이동</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">流行</org>
+		
+			<hom exist="yes"></hom>
+			<der pos="n" type="suffix">~성</der>
+			<der pos="n" type="suffix">~가</der>
+			<der pos="n" type="suffix">~어</der>
+			<comp pos="n" type="suffix">~병</comp>
+			<comp pos="n" type="prefix">최신~</comp>
+			<comp pos="n" type="suffix">~조류</comp>
+			<comp pos="n" type="suffix">~디자인</comp>
+			<comp pos="n" type="suffix">~정보</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc">~의 첨단을 걷다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~을 따르는 것은 이제 젊은이들만의 특성이 아니다.</eg>
+				<eg>요즘 젊은이들 사이에서 머리염색이 ~이다.</eg>
+				<trans>fashion</trans>
+				<trans>mode</trans>
+				<trans>fade</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>현상</sem_class>
+				<lr>
+					<syn type="etc">경향</syn>
+					<syn type="etc">시류</syn>
+					<ant type="etc">전통</ant>
+					<hyper>현상</hyper>
+					<rel>패션</rel>
+					<rel>의복</rel>
+					<rel>대중가요</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 일시적이다</comb_aj>
+				<comb_aj type="appr">~이 지속적이다</comb_aj>
+				<comb_aj type="appr">~이 짧다</comb_aj>
+				<comb_aj type="magn">~이 한창이다</comb_aj>
+				<comb_n type="compound">~의 첨단</comb_n>
+				<comb_n type="compound">독감의 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 일다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 지나가다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 사라지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 오래가다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 반짝하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 시키다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 따르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 좇다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 앞서가다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 막다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 예방하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 뒤떨어지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 따르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 대처하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 대비하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X|S것|S기-가 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X|S것|S기-가 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">구체물(의복,장신구)|노래</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>남부지방에서 콜레라가 ~을 하기 시작했다.</eg>
+				<eg>전염성 눈병의 ~으로 실내수영장이 타격을 입었다.</eg>
+				<trans>prevalence</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>현상</sem_class>
+				<lr>
+					<syn type="etc">창궐</syn>
+					<syn type="etc">확산</syn>
+					<ant type="temp"></ant>
+					<rel>전염병</rel>
+					<rel>예방</rel>
+					<rel>감염</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 갑작스럽다</comb_aj>
+				<comb_aj type="appr">~이 급작스럽다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에서 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 Y-에서 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">전염병</sel_rst>
+				<sel_rst arg="Y">장소</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N(-의)</pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

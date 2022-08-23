@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>비치되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/29</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/29</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/08/18</mod_date>
+				<mod_writer>안소진</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">비치가 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<org lg="si">備置_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be installed</trans>
+				<trans>provided</trans>
+				<trans>furnished</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(책장|장|가전제품|난방기구|찻잔|그릇|총|칼)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">인간집단(학교|군대)|장소(백화점|기숙사|서점)</sel_rst>
+					<eg>그 백화점에는 책상들이 잘 비치되어 있었다.</eg>
+					<eg>식품매장에 비치된 주문 카드를 직접 작성한 후, 목록과 사진이 진열장에 비치돼 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">약(설사약|감기약)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">인간집단|장소(병원|학교)</sel_rst>
+					<eg>구급약이 그 학교에 비치되어 있지 않았다.</eg>
+					<eg>요즈음 병원에 약들이 비치되어 있지 않다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

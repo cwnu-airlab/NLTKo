@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>상충</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/27</cre_date>
+				<cre_writer>이지영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/11</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2003/09/28</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/30</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>의미부류, n_v, 선택제약 수정;n_n 기술;예문, frame 추가</mod_note>
+			</mod>
+			<note>2002/05/09(이지영)외래어 원어 정보 추가</note>
+			<note>2002/05/13(김진형)</note>
+			<note>2002/05/21(이성헌)%mdd기술방식수정comb_aj 기술 추가</note>
+			<note>2003/06/29(한동훈)기능동사 구문에서 'X-와 Y-이 Z|S것-에서 ~을 하다' 'X-와 Y-이 Z|S것-에서 ~이 되다' 삭제</note>
+			<note>2003/07/11(김미현)기능동사 구문의 위 삭제한 내용을 다시 복원</note>
+			<note>@sel_res보완</note>
+			<note>@supv수정보완</note>
+			<note>comb_v에 '~이 나타나다' 정보 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">相衝</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이해 관계의 ~으로 두 집단 간에 소송이 벌어졌다.</eg>
+				<eg>조직 안정과 개혁은 ~이 되는 듯 하다.</eg>
+				<trans>contradiction</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>상황값</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 불가피하다</comb_aj>
+				<comb_aj type="appr">~이 심각하다</comb_aj>
+				<comb_n type="compound">~ 관계</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-와 ~을 하다</frame>
+					<frame>X-이 Y-와 Z-에서 ~을 하다</frame>
+					<frame>X-이 Y-와 S것-에서 ~을 하다</frame>
+					<frame>X-와 Y-이 ~을 하다</frame>
+					<frame>X-와 Y-이 Z-에서 ~을 하다</frame>
+					<frame>X-와 Y-이 S것-에서 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 Y-와 ~이 되다</frame>
+					<frame>X-이 Y-와 Z-에서 ~이 되다</frame>
+					<frame>X-이 Y-와 S것-에서 ~이 되다</frame>
+					<frame>X-와 Y-이 ~이 되다</frame>
+					<frame>X-와 Y-이 Z-에서 ~이 되다</frame>
+					<frame>X-와 Y-이 S것-에서 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 보이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 나타내다</form>
+					<frame></frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~(이) 되다-->
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간집단|추상적대상|인지상태|행위</sel_rst>
+				<sel_rst arg="Y">인간집단|추상적대상|인지상태|행위</sel_rst>
+				<sel_rst arg="Z">인지상태|방법</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

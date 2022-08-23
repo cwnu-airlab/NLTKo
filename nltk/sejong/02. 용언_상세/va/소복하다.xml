@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>소복하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/21</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/06/22</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc">수북하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>I.하</str>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>방식속성값</sem_class>
+				<trans>be plentiful</trans>
+				<lr>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(눈)|(거품)|(채소)</sel_rst>
+					<eg>장독 위에 흰 눈이 소복하게 쌓였다.</eg>
+					<eg>컵 두 개에다가 거품이 소복하게 일어나도록 맥주를 따라 놓았다.</eg>
+					<eg>널따란 사발에 밥은 한 숟가락 붙인 둥 만 둥 하고 개떡 같은 고깃점과 채소가 소복하였다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체자연물(식물)</sel_rst>
+					<eg>잡초가 소복하게 자랐다.</eg>
+					<eg>나뭇가지에서는 파릇파릇 움이 돋고, 땅에서는 소복하게 귀여운 싹이 나왔다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">신체부위(살)</sel_rst>
+					<eg>얼마나 울었는지 눈두덩이 소복하게 부어 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

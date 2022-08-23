@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>손해</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/06/26</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/31</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/24</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/19</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>대역어 분할 표기;프레임 정보 수정;수식어절 정보 추가;센스2 추가</mod_note>
+			</mod>
+			<note>2001/01/31(기영인)</note>
+			<note>2003/02/04(이민우)</note>
+			<note>2003/03/28(김종명)</note>
+			<note>2003/03/31(이민우)</note>
+			<note>관련어 정보 입력</note>
+			<note>영어 대역어 정보 수정</note>
+			<note>예문 수정</note>
+			<note>합성어와 명사 연어 공동정보 수정 필요</note>
+			<add>~를 배상하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">損害</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~배상</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 일로 우리는 큰 ~를 보았다.</eg>
+				<trans>damage</trans>
+				<trans>loss</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>피해</sem_class>
+				<lr>
+					<syn type="etc">손실</syn>
+					<ant type="etc">이익</ant>
+					<rel>피해</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="magn">~가 막심하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 보상하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 나다</form>
+					<frame>Y-이 ~가 나다</frame>
+					<frame>Y-에게 ~가 나다</frame>
+					<frame>Y-에 ~가 나다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 입다</form>
+					<frame>Y-이 ~를 입다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 보다</form>
+					<frame>Y-이 ~를 보다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-이 Y-에게 ~가 되다</frame>
+					<frame>S는것-이 Y-에게 ~가 되다</frame>
+					<frame>X-이 Y-에 ~가 되다</frame>
+					<frame>S는것-이 Y-에 ~가 되다</frame>
+				</comb_v>
+				<!--vcompound: ~되다-->
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">추상적대상|사건|행위|현상|상태변화</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="uni">회</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>화재로 인한 ~를 계산해보니 수억원에 달했다.</eg>
+				<trans>loss</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>수량</sem_class>
+				<lr>
+					<syn type="etc">손실</syn>
+					<ant type="etc">이익</ant>
+					<rel>피해</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="magn">~가 막심하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 보상하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 계산하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<cl type="qnt">원</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

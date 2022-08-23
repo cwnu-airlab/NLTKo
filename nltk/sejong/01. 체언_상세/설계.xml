@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>설계</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/10/05</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/31</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/16</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/13</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1을 단독행위에서 창조행위로 수정;맥스엔 보완;X에 기업 추가;Y에 구체물의부분 추가;센스2에 '도표' 의미 추가;센스2를 3으로 수정;분할 표기된 '하다'의 프레임 정보 통합 표기;'되다' 정보 추가;맥스엔, 선택제약 정보 수정 및 보완</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/08</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>단위표현 정보 추가</mod_note>
+			</mod>
+			<note>2003/01/11(이민우)</note>
+			<note>2003/03/28(김종명)</note>
+			<note>2003/03/31(이민우)</note>
+			<add>~가 끝나다</add>
+			<add>~가 잘|잘못 되다</add>
+			<add>~를  꾸미다</add>
+			<add>~를 맡다|맡기다|마치다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">設計</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~사</der>
+			<der pos="n" type="suffix">~자</der>
+			<der pos="n" type="suffix">~도</der>
+			<der pos="n" type="suffix">~서</der>
+			<comp pos="n" type="suffix">~도면</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 건물의 ~는 어디에 맡길 예정이지요?</eg>
+				<eg>나는 이번 공사에서 ~를 맡았다.</eg>
+				<trans>design</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>창조행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 X-에의해 ~가 되다</frame>
+					<frame>Y-이 X-에게 ~가 되다</frame>
+					<frame>Y-이 X-에게서 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 맡다</form>
+					<frame></frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-에의한 Y-의 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<sel_rst arg="X">인간|기업</sel_rst>
+				<sel_rst arg="Y">구체인공물|구체물의부분|장소</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>검사관은 ~를 보면서 건물의 이곳 저곳을 꼼꼼하게 살펴보았다.</eg>
+				<trans>design</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>도표</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 보다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<sel_rst arg="X">인간|기업</sel_rst>
+				<sel_rst arg="Y">구체인공물|구체물의부분|장소</sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>결혼을 앞두고 우리의 미래에 대해 ~를 했다.</eg>
+				<eg>우리는 미래에 대한 ~가 없다.</eg>
+				<trans>plan</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>인지적행위</sem_class>
+				<lr>
+					<syn type="etc">계획</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">인생 ~</comb_n>
+				<comb_n type="compound">생활 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+					<frame>X-이 Y-에대해 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 ~가 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>X-에의한 Y-의 ~</max_n_str>
+				<max_n_str>X-에의한 Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">미래|현재|관계시간|속성시간|행위|계획사건</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>화</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1998/07/15</cre_date>
+				<cre_writer>홍재성;송길룡</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/29</mod_date>
+				<mod_writer>김미현</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/21</mod_date>
+				<mod_writer>목정수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/19</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2005/02/16</mod_date>
+				<mod_writer>장원철</mod_writer>	
+		        <mod_note></mod_note>
+	        </mod>
+	        <mod>
+		    	<mod_date>2007/08/18</mod_date>
+				<mod_writer>신선옥</mod_writer>	
+				<mod_note>add를 comb_v로 이동</mod_note>
+		        <mod_note>동사 결합 정보 수정</mod_note>
+	        </mod>
+	        <note>2003/03/27(김미현)의미부류를 '감정'에서 '부정적감정'으로 수정</note>
+			<note>2003/04/29(김미현)선택제약 수정</note>
+			<note>add의 일부 내용을 comb_v로 이동</note>
+			<note>prt에 '~가|를' 추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">火</org>
+			<hom exist="yes"/>
+			<comp pos="n" type="suffix">~풀이</comp>
+			<comp pos="n" type="suffix">~ㅅ김</comp>
+			<comp pos="n" type="suffix">~병</comp>
+			<comp pos="v" type="suffix">~나다</comp>
+			<comp pos="v" type="suffix">~내다</comp>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~를 끓이다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~가 난 그의 얼굴은 새빨개졌다</eg>
+				<eg>나는 그의 말에 잔뜩 ~가 났다.</eg>
+				<eg>그녀는 그에게 행동이 무례하다며 잔뜩 ~를 냈다.</eg>
+				<trans>anger</trans>
+				<curs type="U"/>
+				<sem_class>외향적심리상태</sem_class>
+				<lr>
+					<syn>분노</syn>
+					<syn>성</syn>
+					<syn>노여움</syn>
+					<hyper>감정</hyper>
+					<coord>기쁨</coord>
+					<coord>슬픔</coord>
+					<coord>놀람</coord>
+					<coord>절망</coord>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">불같은 ~</comb_aj>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="yes">~가 나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 치밀다</form>
+					<frame></frame>
+				</comb_v>
+				 <comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 솟구치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 폭발하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 풀리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 가라앉다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="yes">~를 내다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 부리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 터뜨리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 풀어주다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 가라앉히다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 억제하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 풀다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 참다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>Y|Z|S것|S데-에대한 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간|동물|인간집단</sel_rst>
+				<sel_rst arg="Z">온</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt>~가|를</prt>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1998/07/15</cre_date>
+				<cre_writer>홍재성;송길룡</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/29</mod_date>
+				<mod_writer>김미현</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/19</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2005/02/16</mod_date>
+				<mod_writer>장원철</mod_writer>	
+		        <mod_note></mod_note>
+	        </mod>
+	        <mod>
+		    	<mod_date>2007/08/18</mod_date>
+				<mod_writer>신선옥</mod_writer>	
+		        <mod_note></mod_note>
+	        </mod>
+	        <note>1998/10/09</note>
+			<note>예문 수정</note>
+			<note>형용사연어에 '큰' 추가</note>
+			<note>한정사제약 삭제</note>
+			<note>2003/03/27(김미현)예문 추가</note>
+			<note>2003/03/30(박동호)센스1의 magn의 내용을 add로 이동</note>
+			<note>2003/04/29(김미현)센스 1의 comb_aj를 magn로 이동</note>
+			<note>comb_v에 '~를 입다'를 추가</note>
+			<note>기능동사구문 수정</note>
+			<note>논항 선택제약 정보 수정</note>
+			<note>pre_s 추가</note>
+			<add>2003/03/27(김미현)~를 자초하다|부르다|초래하다|면하다|피하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">禍</org>
+			<hom exist="yes"/>
+			<comp pos="n" type="suffix">~복</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>전쟁으로 많은 사람들이 ~를 입었다</eg>
+				<eg>주민들은 전쟁의 ~를 피하기 위해서 피란길에 올랐다.</eg>
+				<trans>misfortune</trans>
+				<trans>disater</trans>
+				<curs type="C"/>
+				<sem_class>피해</sem_class>
+				<lr>
+					<syn>재난</syn>
+					<syn>재앙</syn>
+					<syn>화근</syn>
+					<ant>복</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~가 엄청나다</comb_aj>
+				<comb_aj type="magn">큰 ~</comb_aj>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 입다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 당하다</form>
+					<frame>X-이 Y|S것-에|에서|에게|에게서|으로 ~를 당하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y|S것-이 X-에게 ~가 되다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간|인간집단|동물|식물|(자연)</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|동물|사행</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

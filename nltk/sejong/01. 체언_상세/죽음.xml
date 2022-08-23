@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>죽음</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/06/13</cre_date>
+				<cre_writer>안근종</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/31</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/02/27(이호영)예문 추가</note>
+			<note>2003/03/31(박만규)</note>
+			<note>기존 동사연어구성의 정보를 향후 추가정보로 이동</note>
+			<note>논항 선택제약 수정</note>
+			<note>동사연어구성 새로이 기술</note>
+			<note>의미부류 수정</note>
+			<add>동사자유구성에 '~을 당하다|면하다|맞이하다|슬퍼하다|두려워하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">죽-음</str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~터</comp>
+			<comp pos="n" type="prefix">개~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~에는 급살이 제일이다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>모든 인간은 종국에는 ~을 맞이하게 된다.</eg>
+				<eg>우리들은 모두 ~을 각오하고 싸울 준비가 되어 있다.</eg>
+				<eg>그는 가까스로 ~을 면했다.그의 갑작스러운 ~으로 우리 모두는 실의에 빠졌다.</eg>
+				<trans>death</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>죽음</sem_class>
+				<lr>
+					<syn type="etc">사망</syn>
+					<syn type="etc">입몰</syn>
+					<syn type="etc">서거</syn>
+					<ant type="etc">삶</ant>
+					<ant type="etc">태어남</ant>
+					<ant type="etc">출생</ant>
+					<ant type="etc">탄생</ant>
+					<hyper>국면</hyper>
+					<coord>출생</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 헛되다</comb_aj>
+				<comb_aj type="magn">~이 처참하다</comb_aj>
+				<comb_aj type="magn">~이 용감하다</comb_aj>
+				<comb_n type="compound">~의 길</comb_n>
+				<comb_n type="compound">~의 재</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~을 당하다</form>
+					<frame>X-가 ~을 당하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 맞이하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 면하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 슬퍼하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 두려워하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">생물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>메우다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="u"/>
+			<str>V.우</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>fill up</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|구체물</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소(스탠드|극장)|(지면)</sel_rst>
+					<eg>공짜 손님들이 스탠드를 메우고 있다.</eg>
+					<eg>귀성객들이 대합실을 가득 메우고 있었다.</eg>
+					<eg>그 신문은 승마나 바둑 기사들이 지면의 반 이상을 메우고 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>결과행위</sem_class> <!--좀더 고민할 것-->
+				<trans>fill up</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-로 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(적자|공백|여백|지면|시간)</sel_rst>
+					<sel_rst arg="Z" tht="INS">(차입금|원조금)|추상적대상(말|글|기사)</sel_rst>
+					<eg>우리는 차입금으로 적자를 메웠다.</eg>
+					<eg>그 신문은 연예가 기사로 주로 지면을 메웠다.</eg>
+					<eg>다음 빈 칸을 적당한 단어로 메우시오.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(골|구멍|간극|틈)</sel_rst>
+					<sel_rst arg="Z" tht="INS">(무엇)</sel_rst>
+					<eg>우리가 두 사람 사이에 깊어진 감정의 골을 무엇으로 메울 수가 있을까?.</eg>
+					<eg>이 논문에 있는 커다란 논리적 구멍을 무엇으로 메워야 할 지 난감하다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>fill up</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(흙|솜)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">구체물(구멍|틈새|웅덩이)</sel_rst>
+					<eg>우리는 그 구멍에 흙을 메웠다.</eg>
+					<eg>나는 벌어진 틈새에 솜을 메웠다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-로 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(흙)</sel_rst>
+					<sel_rst arg="Z" tht="INS">구체물(구멍|틈새|웅덩이)</sel_rst>
+					<eg>우리는 그 구멍을 흙으로 메웠다.</eg>
+					<eg>우리는 벌어진 틈새를 솜으로 메웠다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

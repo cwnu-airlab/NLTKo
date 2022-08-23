@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>법</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/10</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/24</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>cl 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/10</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add정보를 해당 n_n, n_v로 이동</mod_note>
+				<mod_note>센스 1,2 n_v 추가</mod_note>
+			</mod>
+			<note>2000/09/23(정유진)</note>
+			<note>2000/09/29(정유진)</note>
+			<note>2001/01/22(백인애,강범모)</note>
+			<note>2003/03/20(기영인)센스1 관련어 정보수정</note>
+			<note>2003/03/23(박동호)센스1의 comb_n의 내용을 add로 이동</note>
+			<note>2003/03/24(기영인)</note>
+			<note>add 정보입력</note>
+			<note>combv 정보삭제, 일부 add로 이동</note>
+			<note>combv 정보삭제</note>
+			<note>관련어 정보수정</note>
+			<note>기존 센스를 여러 엔트리로 분화(엔트리 2개 추가)</note>
+			<note>대역어 수정</note>
+			<note>동의어 정보삭제</note>
+			<note>명사연어 정보수정</note>
+			<note>센스2 전문영역 입력</note>
+			<note>의미부류 수정</note>
+			<add>(sense1) ~에 따르다|합치하다</add>
+			<add>(sense1) ~을 시행하다</add>
+			<add>(sense1) ~을 지키다</add>
+			<add>(sense2) ~을 따르다|지키다</add>
+			<add>~에 벗어나다|저촉되다</add>
+			<add>~을 어기다</add>
+			<add>~을 제정하다|개정하다</add>
+			<add>~의 효력</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">法</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~과</der>
+			<der pos="n" type="suffix">~관</der>
+			<der pos="n" type="suffix">~규</der>
+			<der pos="n" type="suffix">~대</der>
+			<der pos="n" type="suffix">~령</der>
+			<der pos="n" type="suffix">~률</der>
+			<comp pos="n" type="suffix">~규정</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~에 저촉되지 않는 범위 내에서 새로운 조례를 만들어라.</eg>
+				<trans>law</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>법률</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hypo>사법</hypo>
+					<hypo>공법</hypo>
+					<rel>법전</rel>
+					<rel>사법부</rel>
+					<rel>입법부</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 무섭다</comb_aj>
+				<comb_aj type="appr">~이 엄정하다</comb_aj>
+				<comb_n type="compound">~의 효력</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 따르다</form>
+					<frame></frame>
+				</comb_v>	
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 지키다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 준수하다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 어기다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 위반하다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 정비하다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 시행하다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 제정하다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 개정하다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 따르다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 합치하다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 벗어나다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 저촉되다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 어긋나다</form>
+					<frame></frame>
+				</comb_v>	
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>모든 불자들은 살생을 금하라는 부처의 ~을 따라야 한다.</eg>
+				<trans>Buddhist canon</trans>
+				<domain>불교</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>규범</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>가르침</rel>
+					<rel>불법</rel>
+					<rel>설법</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 따르다</form>
+					<frame></frame>
+				</comb_v>	
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 가르치다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 설교하다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 설파하다</form>
+					<frame></frame>
+				</comb_v>	
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/10</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/24</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>수정사항없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/10</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_v 기술</mod_note>
+			</mod>
+			<note>2003/03/20(기영인)combv 정보삭제</note>
+			<note>2003/03/23(박동호)</note>
+			<note>2003/03/24(기영인)</note>
+			<note>combaj 정보수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">法</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>영어의 ~은 국어와 달라서 처음부터 쉽게 사용하기는 힘들다.</eg>
+				<trans>mood</trans>
+				<domain>언어</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>언어요소</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hypo>직설법</hypo>
+					<hypo>가정법</hypo>
+					<hypo>명령법</hypo>
+					<rel>문법</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 다르다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 따르다</form>
+					<frame></frame>
+				</comb_v>	
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 가르치다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 배우다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 사용하다</form>
+					<frame></frame>
+				</comb_v>	
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>마땅하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/04/22</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/22</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>마땅.하</str>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>평가속성값</sem_class>
+				<trans>be appropriate</trans>
+				<trans>be becoming</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-에|에게 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물|장소|인간</sel_rst>
+					<sel_rst arg="Y" tht="CRT">인간</sel_rst>
+					<eg>철수에게 마땅한 며느리감이 없을까?.</eg>
+					<eg>그 친구에게 마땅한 색시가 없을까?.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물|장소|인간</sel_rst>
+					<sel_rst arg="Y" tht="CRT">S기</sel_rst>
+					<eg>이 칼은 무를 썰기에 마땅한 것 같지 않다.</eg>
+					<eg>공원은 쉬기가 정말 마땅한 곳이구나.</eg>
+					<eg>학천이는 조교로 쓰기에는 마땅치 않아.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-로 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="CRT">인간|(감)</sel_rst>
+					<eg>영희는 며느리감으로는 마땅치 않다.</eg>
+					<eg>김교수는 총장감으로 마땅치 않다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>평가속성값</sem_class>
+				<trans>be right</trans>
+				<trans>be proper</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=S음0|S것0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM"/>
+					<eg>일주일을 일했으니 쉬어야 함이 마땅하다.</eg>
+					<eg>남은 돈을 모두 저축하는 것이 마땅하니라.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>X=S0-어야 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM"/>
+					<eg>너는 지금쯤 잤어야 마땅하다.</eg>
+					<eg>잘못했으니 당연히 벌을 받아야 마땅하지.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

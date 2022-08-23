@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>발부</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/28</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_v 수정</mod_note>
+			</mod>
+			<note>2003/10/15(박진호)의미부류, 격틀, 선택제약 수정</note>
+			<note>2003/10/28(송인욱)예문 수정</note>
+			<add>2003/08/28(송인욱)동사자유구성으로 '~를 요청하다|거부하다' 추가</add>
+			<add>2003/08/28(송인욱)센스2의 동사자유구성으로 '~를 아끼다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">發付</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그에 대한 체포 영장이 서너 차례나 ~가 되었음에도 불구하고 그는 여전히 거리를 활보하고 있다.</eg>
+				<eg>용의자가 도주할 가능성이 희박하기 때문에 법원은 검찰이 요청한 구속 영장을 ~를 하지 않았다.</eg>
+				<eg>검사는 법원으로부터 ~를 받은 압수 수색 영장을 내밀며 사무실을 뒤지기 시작했다.</eg>
+				<trans>issue</trans>
+				<sem_class>수여</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 시급하다</comb_aj>
+				<comb_aj type="appr">~가 필요하다</comb_aj>
+				<comb_n type="compound">영장(의) ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Z-에 Y-을 ~를 하다</frame>
+					<frame>X-이 Z-에게 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 받다</form>
+					<frame>Z-이 X-로부터 Y-을 ~를 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 X-에의해 Z-에 ~가 되다</frame>
+					<frame>Y-이 X-에의해 Z-에게 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 이루어지다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 요청하다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 거부하다</form>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="X">인간집단</sel_rst>
+				<sel_rst arg="Y">문서</sel_rst>
+				<sel_rst arg="Y">신분증</sel_rst>
+				<sel_rst arg="Y">텍스트담지물(영장)</sel_rst>
+				<sel_rst arg="Z">인간</sel_rst>
+				<sel_rst arg="Z">인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/28</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">髮膚</org>
+		
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">신체~는 수지부모라</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>옛날 사람들은 자신의 ~를 소중하게 여겨 남자도 머리를 기르는 일이 많았다.</eg>
+				<eg>~를 훼손하는 일은 해서는 안된다.</eg>
+				<trans>hair and skin</trans>
+				<sem_class>신체부위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 아끼다</form>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

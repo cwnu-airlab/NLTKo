@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>사증</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/06</cre_date>
+				<cre_writer>김미순</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/08/28</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>2003/08/28(김진형)예문 추가</mod_note>
+				<mod_note>분류사 '개'를 '장'으로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>'비자'를 참조하여 각종 정보를 추가함</mod_note>
+			</mod>
+			<add>~을 신청하다|발급하다|받다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">査證</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 미국에 유학을 가기 위해 ~을 신청했다.</eg>
+				<eg>그녀는 ~을 발급받기 위해 필요한 서류를 갖추어 대사관에 제출했다.</eg>
+				<trans>visa</trans>
+				<domain>법률</domain>
+				<sem_class>텍스트담지물</sem_class> <!-- 구체인공물 수정 -->
+				<lr>
+					<syn type="etc">비자</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">입국 ~</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">출국 ~</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">유학 ~</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">학생 ~</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">관광 ~</comb_n> <!-- 추가함 -->
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~를 발급하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~를 발급받다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~를 신청하다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">장</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

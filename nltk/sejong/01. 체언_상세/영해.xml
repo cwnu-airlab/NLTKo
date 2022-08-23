@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>영해</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/14</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/18</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/15</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>동사결합, 논항명사구, 논항 의미정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/07</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 추가</mod_note>
+				<mod_note>최대논항구조, 선택제약 삭제</mod_note>
+			</mod>
+			<note>2000/07/04</note>
+			<note>2003/05/20(이하영)의미부류 수정</note>
+			<note>2003/06/18(고길수)예문 수정 및 추가</note>
+			<note>add에 명사구 정보 추가</note>
+			<note>동사자유구성을 add항목으로 옮김</note>
+			<add>동사자유구성 '~를 침범하다|통과하다|지나다|항해하다|설정하다' 추가</add>
+			<add>명사구로 'X(국가명)-의 ~'</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="xs"></var>
+			<var type="xd"></var>
+			<var type="xx"></var>
+			<str type="temp"></str>
+			<org lg="si">領海</org>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~선</comp>
+			<comp pos="n" type="suffix">~권</comp>
+			<comp pos="n" type="suffix">~어업</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>두 나라는 ~를 분명하게 나누었음에도 조업권 설정에 마찰을 빚고 있다.</eg>
+				<eg>해군은 ~에 침입한 밀수선을 적발했다고 발표하였다.</eg>
+				<trans>territorial waters</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>바다</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">공해</ant>
+					<rel>바다</rel>
+					<rel>영토</rel>
+					<rel>영공</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 항해하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 지나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 통과하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 침범하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 침략하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

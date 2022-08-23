@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>이론화하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/25</mod_date>
+				<mod_writer>허용</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/08</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">이론화를 하다</var>
+			<str>N.하</str>
+			<org lg="si">理論化_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>theorize</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|단체</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(아이디어|주장|주의|연구성과)</sel_rst>
+					<eg>그의 역할은 한국 사회에 대한 경험적 분석을 통해 얻어진 결과를 종합하고 이론화하여 새로운 변혁 이론을 만들어내는 것이었다.</eg>
+					<eg>그런 식의 주장은 경험적으로 검증하기도 어렵고 이론화하기도 어렵다.</eg>
+					<eg>프라하 학파는 음운론의 기본 개념과 방법론을 이론화하는 데에 지대한 공헌을 하였다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">텍스트(논문|저작|연구물)</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(아이디어|주장|주의|연구성과)</sel_rst>
+					<eg>그의 논문은 지금까지 여러 언어의 음운론적 현상을 관찰하여 얻어진 결과를 이론화한 것이다.</eg>
+					<eg>그의 논문은 개념을 정의하고 이론화하는 데에 너무 집착하여 사실적 부분이 많이 희생되었다는 것이 약점이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

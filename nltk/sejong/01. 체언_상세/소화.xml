@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>소화</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/19</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/02</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/19</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1을 지속적활동을 결과행위로 수정;일반동사 결합 유형값 수정;중복 기술된 동사 정보 삭제;'하다, 시키다' 분할 표기;'되다'에 'X-에의해, 에게서, 에서' 추가;맥스엔, 선택제약 정보 보완;관형사 수식어에서 yn="no", 수식어 명사에서 N 삭제;센스2를 인지추상적행위에서 수정;'하다|시키다' 분할 표기;명사와 보문 교체 정보 분할 표기;맥스엔, 선택제약 정보 보완;센스3의 프레임의 논항 교체 정보 분할 표기;맥스엔, 선택제약 정보 보완;센스4의 맥스엔, 선택제약 정보 보완;센스2의 '옷을 ~를 하다'를 별도 의미로 분할</mod_note>
+			</mod>
+			<note>2001/09/21(박동호)</note>
+			<note>센스4의 예문 일부 삭제</note>
+			<note>2003/01/13</note>
+			<note>2003/01/13(유영)각 sens의 sem수정, sens2의 superv에서 'X가 Y|S것-을 Z-로 ~를 시키다'삭제, sel-res수정</note>
+			<note>2003/02/02(이성헌)센스1의 sem을 '생물생리현상'에서 '지속적활동'으로 수정</note>
+			<note>센스1의 supv에서 '하다'와 '시키다'병기</note>
+			<note>sel_res의 Y항 수정보완</note>
+			<note>센스2의 supv에서 '하다'와 '시키다'를 병기하고 각각의 2항논항구문과 3항논항구문을 통합 기술</note>
+			<add>~를 촉진하다</add>
+			<add>~가 시작되다|끝나다|진행되다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">消化</org>
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~계</der>
+			<der pos="n" type="suffix">~기</der>
+			<der pos="n" type="suffix">~물</der>
+			<der pos="n" type="suffix">~력</der>
+			<der pos="n" type="suffix">~성</der>
+			<der pos="n" type="suffix">~율</der>
+			<der pos="n" type="suffix">~제</der>
+			<comp pos="n" type="suffix">~관</comp>
+			<comp pos="n" type="suffix">~계통</comp>
+			<comp pos="n" type="suffix">~불량</comp>
+			<comp pos="n" type="suffix">~샘</comp>
+			<comp pos="n" type="suffix">~액</comp>
+			<comp pos="n" type="suffix">~작용</comp>
+			<comp pos="n" type="suffix">~효소</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리가 음식을 체내에서 ~를 하면 영양분이 생성된다.</eg>
+				<eg>위액은 단백질을 ~를 시킨다.</eg>
+				<eg>고기는 ~가 잘 되지 않는다.</eg>
+				<trans>digestion</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 빠르다</comb_aj>
+				<comb_aj type="appr">~가 느리다</comb_aj>
+				<comb_aj type="appr">~가 왕성하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 촉진하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 진행되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 시작되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 끝나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>X-이 Y-을 ~를 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 X-에의해 ~가 되다</frame>
+					<frame>Y-이 X-에게서 ~가 되다</frame>
+					<frame>Y-이 X-에서 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-에서의 Y-의 ~</max_n_str>
+				<max_n_str>X-에서의 Y ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<sel_rst arg="X">생물|내장</sel_rst>
+				<sel_rst arg="Y">음식|자연음식물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n></pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 어려운 원서를 자기 것으로 ~를 했다.</eg>
+				<eg>서양 문물이 우리 것으로 ~가 되었다.</eg>
+				<eg>그는 모든 종류의 서적을 ~를 시킨다.</eg>
+				<trans>absorption</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>인지적행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 Z-로 ~를 하다</frame>
+					<frame>X-이 S것-을 Z-로 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>X-이 Y-을 Z-로 ~를 시키다</frame>
+					<frame>X-이 S것-을 Z-로 ~를 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 Z-로 ~가 되다</frame>
+					<frame>S것-이 Z-로 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 S것-에대한 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>S것-에대한 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">추상적대상|계획사건</sel_rst>
+				<sel_rst arg="Z">추상적대상|계획사건|(자기 것|우리 것|그의 것)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>그는 아무리 어려운 곡이라도 척척 ~를 해낸다.</eg>
+				<eg>그는 이러한 어려운 상황을 잘 ~를 시켰다.</eg>
+				<eg>이러한 문제는 우리 사회에서 잘 ~가 되지 않는다.</eg>
+				<trans>solution</trans>
+				<trans>settlement</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+					<frame>X-이 S것-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 ~가 되다</frame>
+					<frame>S것-이 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>X-이 Y-을 ~를 시키다</frame>
+					<frame>X-이 S것-을 ~를 시키다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 S것-에대한 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>S것-에대한 ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">의무|역할|추상적장애물|예술|학문과목|행위|사건</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="4">
+			<sem_grp>
+				<eg>수요의 증가로 회사가 물량을 ~를 하지 못한다.</eg>
+				<eg>채권이 발매되자 마자 ~가 되었다.</eg>
+				<eg>이 일은 물건을 빠른 시간 내에 ~를 시킬 수 있다.</eg>
+				<trans>dealing</trans>
+				<trans>handling</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="etc">처리</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>X-이 Y-을 ~를 시키다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">구체인공물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="5">
+			<sem_grp>
+				<eg>그는 모든 옷을 ~를 잘 한다.</eg>
+				<trans>harmonization</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>X-이 Y-을 ~를 시키다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">신체착용물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/19</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/13</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note>sem수정, comb_v내용 add로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/19</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>결과행위를 파괴행위로 수정;'이루어지다' 유형값 수정;맥스엔, 선택제약 정보 보완;관형사 수식어에서 yn="no" 삭제</mod_note>
+			</mod>
+			<note>2001/09/21(박동호)</note>
+			<add>~가 이루어지다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">消火</org>
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~기</der>
+			<der pos="n" type="suffix">~력</der>
+			<der pos="n" type="suffix">~전</der>
+			<der pos="n" type="suffix">~탄</der>
+			<comp pos="n" type="suffix">~장치</comp>
+			<comp pos="n" type="suffix">~대책</comp>
+			<comp pos="n" type="suffix">~작업</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>마을 사람들 모두 화재를 ~를 하는데 열중했다.</eg>
+				<eg>소방대원들의 활약으로 불이 한 시간만에 ~가 되었다.</eg>
+				<trans>fire extinguishing</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>파괴행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">방화</ant>
+					<rel>소방서</rel>
+					<rel>소방관</rel>
+					<rel>화재진압</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 X-에의해 ~가 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 이루어지다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">불|유발사고</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>발신</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/01</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>최대논항구조 기술</mod_note>
+			</mod>
+			<note>2003/09/01(송인욱)기능동사 관련 기술 검토 요망</note>
+			<note>2003/10/15(박진호)격틀, 선택제약 수정</note>
+			<add>2003/09/01(송인욱)동사자유구성으로 '~이 멈추다|중단되다|재개되다</add>
+			<add>~을 시작하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">發信</org>
+		
+			<comp pos="n" type="suffix">~자</comp>
+			<comp pos="n" type="suffix">~음</comp>
+			<comp pos="n" type="suffix">~기</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>집에서는 나에게 여러 차례 전보를 ~했지만 어쩐 일인지 하나도 도착하지 않았다.</eg>
+				<eg>이 동네는 난시청지역이라서 방송국에서 ~이 된 전파가 잘 잡히지 않는다.</eg>
+				<eg>그녀는 전신기가 ~하는 모르스 부호를 눈 감고도 해독할 수 있을 정도였다.</eg>
+				<trans>dispatch of a message</trans>
+				<sem_class>방향성행위</sem_class>
+				<lr>
+					<syn type="perfect">송신</syn>
+					<ant type="conv">수신</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 쉽다</comb_aj>
+				<comb_aj type="appr">~이 어렵다</comb_aj>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Z-에 Y-을 ~을 하다</frame>
+					<frame>X-이 Z-에게 Y-을 ~을 하다</frame>
+					<frame>X-이 Z-로 Y-을 ~을 하다</frame>
+					<frame>X-이 Z-에게로 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에서 Z-에 ~이 되다</frame>
+					<frame>Y-이 X-에서 Z-에게 ~이 되다</frame>
+					<frame>Y-이 X-에서 Z-로 ~이 되다</frame>
+					<frame>Y-이 X-에서 Z-에게로 ~이 되다</frame>
+					<frame>Y-이 X-에게서 Z-에 ~이 되다</frame>
+					<frame>Y-이 X-에게서 Z-에게 ~이 되다</frame>
+					<frame>Y-이 X-에게서 Z-로 ~이 되다</frame>
+					<frame>Y-이 X-에게서 Z-에게로 ~이 되다</frame>
+					<frame>Y-이 X-로부터 Z-에 ~이 되다</frame>
+					<frame>Y-이 X-로부터 Z-에게 ~이 되다</frame>
+					<frame>Y-이 X-로부터 Z-로 ~이 되다</frame>
+					<frame>Y-이 X-로부터 Z-에게로 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 멈추다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 재개되다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 중단되다</form>
+				</comb_v>
+				<max_n_str>Z-에대한 X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="X">인간집단</sel_rst>
+				<sel_rst arg="X">전기전자기구(라디오)</sel_rst>
+				<sel_rst arg="X">기계(전화기|전신기)</sel_rst>
+				<sel_rst arg="Y">(메시지|소식|메일|이메일)</sel_rst>
+				<sel_rst arg="Y">텍스트담지물(편지)</sel_rst>
+				<sel_rst arg="Y">기호</sel_rst>
+				<sel_rst arg="Y">파동(전파)</sel_rst>
+				<sel_rst arg="Y">소리</sel_rst>
+				<sel_rst arg="Z">인간</sel_rst>
+				<sel_rst arg="Z">인간집단</sel_rst>
+				<sel_rst arg="Z">전기전자기구(라디오)</sel_rst>
+				<sel_rst arg="Z">기계(전화기|전신기)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

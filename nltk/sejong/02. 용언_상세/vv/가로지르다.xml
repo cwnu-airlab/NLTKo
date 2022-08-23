@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>가로지르다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/09/14</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>내부구조, 영어대역어 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">가로를 지르다</var>
+			<str>NV</str>
+			<infl type="leo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>이동행위</sem_class>
+				<trans>cross</trans>
+				<trans>traverse</trans>
+				<trans>cut across</trans>
+				<trans>intersect</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">장소(산길|숲속|도로|들판)|방향</sel_rst>
+					<eg>우리들은 9시 전에 도착하기 위해 험한 산길을 가로질렀다.</eg>
+					<eg>아이들은 아름다운 숲속을 가로질러 산너머로 갔다.</eg>
+					<eg>그 사람은 도로를 가로질러 반대편으로 건너갔다.</eg>
+					<eg>간첩들은 아군의 포위망을 피해 오대산을 가로질렀다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소(강|길)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<eg>섬진강은 평야를 가로질러 흐른다.</eg>
+					<eg>한강은 서울을 가로질러 서해안으로 흐른다.</eg>
+					<eg>서해안 고속도로는 강과 산을 가로질러 시원스레 뚫려 있다.</eg>
+					<eg>이 강은 계곡을 가로질러 흐른다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">교통기관|(빛|섬광)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소(하늘|대기|은하수)|(어둠|허공)|방향</sel_rst>
+					<eg>섬광이 어둠을 가로지르며 번쩍거렸다.</eg>
+					<eg>자동차가 밤의 한가운데를 가로지르며 달린다.</eg>
+					<eg>전투기 한대가 하늘을 가로지르며 날아갔다.</eg>
+					<eg>우리 고속전철은 남한의 남동쪽을 가로질러 갈 예정이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/09/14</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>내부구조 수정, 격틀 재검토 요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">가로를 지르다</var>
+			<str>NV</str>
+			<infl type="leo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>boldbar</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="cross" n="01">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(빗장|열쇠)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">(대문|자물통)</sel_rst>
+					<eg>시골집에서 우리는 아직도 대문에 빗장을 가로지르고 잔다.</eg>
+					<eg>옛날에는 큰자물통에 열쇠를 가로질러 잠구었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(비녀)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">(머리)</sel_rst>
+					<eg>옛 여인들은 쪽머리에 옥비녀를 가로지르고 예쁘게 단장했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="cross" n="01">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(대문|자물통)</sel_rst>
+					<sel_rst arg="Z" tht="INS">(빗장|열쇠)</sel_rst>
+					<eg>우리는 아직도 대문을 빗장으로 가로지른다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>장식행위</sem_class>
+				<trans>stick</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="cross" n="01">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(머리)</sel_rst>
+					<sel_rst arg="Z" tht="INS">(비녀)</sel_rst>
+					<eg>옛 여인들은 쪽머리를 옥비녀로 가로지르고 예쁘게 단장했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

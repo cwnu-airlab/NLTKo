@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>내려앉다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V-어V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>도착</sem_class>
+				<trans>come down to a lower seat</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=S2-러 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|동물</sel_rst>
+					<sel_rst arg="Y" tht="GOL">장소(아래|위)</sel_rst>
+					<sel_rst arg="Z" tht="PUR"/>
+					<eg>거기 혼자 의자에 앉아 있지 말고 이리로 내려앉아라.</eg>
+					<eg>수 많은 철새들이 호수 위에 내려앉기 시작했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>도착</sem_class>
+				<trans>fall</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">기상관련물(눈)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소(세상|땅)</sel_rst>
+					<eg>하얀 눈이 온 세상에 내려앉기 시작했다.</eg>
+					<eg>눈이 대지로 내려앉기 시작했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>이동행위</sem_class>
+				<trans>degrade</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(구들장)</sel_rst>
+					<eg>그 방의 구들장이 밑으로 내려앉았다.</eg>
+					<eg>그 방은 구들장이 밑으로 내려앉았다.</eg>
+					<eg>아이들이 마구 뛰자 마루가 내려앉아 버렸다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>실패</sem_class>
+				<trans>collapse</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=N2-에서 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="FNS">위계인간(차장)</sel_rst>
+					<sel_rst arg="Z" tht="SRC">위계인간(부장)</sel_rst>
+					<eg>그는 이번 인사에서 부장에서 차장으로 내려앉았다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="FNS">위계인간</sel_rst>
+					<sel_rst arg="Z" tht="SRC">위계인간(부장)</sel_rst>
+					<n_appr arg="X">추상적대상(직위|직책)</n_appr>
+					<eg>그의 직책이 지구당 위원장에서 평당원으로 내려앉았다.</eg>
+					<eg>그는 직책이 지구당 위원장에서 평당원으로 내려앉았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

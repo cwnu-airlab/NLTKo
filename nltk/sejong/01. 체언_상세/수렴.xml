@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>수렴</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/08</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/17</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/23</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1의 의미부류 수정;동사결합정보 수정;논항명사구 정보 추가;선택제약 정보 수정;센스2의 동사결합 정보 수정;논항명사구 정보 추가;선택제약 정보 수정;센스3의 의미부류 수정;논항 명사구 정보 추가;선택제약 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/21</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1의 프레임, 맥스엔 정보에서 'Z-로, 에, S는것, 는데-로, 에' 삭제;선택제약 정보 수정;단위표현 정보 추가;센스2의 예문 수정;프레임, 맥스엔, 선택제약 정보 수정;센스3을 자연현상에서 현상으로 수정;프레임, 맥스엔, 선택제약 정보 수정</mod_note>
+			</mod>
+			<note>2002/07/18(기영인)</note>
+			<note>2002/08/30(김종명)센스1의 기능동사정보 수정</note>
+			<note>2002/10/07(한선혜)센스2의 기능동사구문 수정</note>
+			<note>2003/09/12(기영인)add 정보추가</note>
+			<note>센스1과 센스2 의미부류 정보수정</note>
+			<note>2003/09/15(김진형)</note>
+			<note>2003/09/17(기영인)</note>
+			<add>(sense2) ~제</add>
+			<add>(sense2, sense3) ~ 광속|현상</add>
+			<add>(sense3) ~ 급수</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">收斂</org>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>정책 결정에는 각계의 의견 ~이 선행되어야 한다.</eg>
+				<trans>reflection</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>인지적행위</sem_class> <!-- 인지추상적행위 수정 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">여론 ~</comb_n>
+				<comb_n type="compound">의견 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 되다</frame> <!-- Z|S는것-으로 분할 표기 -->
+					<!-- Y-이 Z-로 ~이 되다, Y-이 S는것-로 ~이 되다, Y-이 Z-에 ~이 되다, Y-이 S는것-에 ~이 되다, Y-이 S는데-에 ~이 되다 삭제-->
+				</comb_v>
+				<max_n_str>X-의 Y-의 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>X-의 Y-에대한 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>X-의 Y ~</max_n_str> <!-- 추가 -->
+				<max_n_str>Y-의 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>Y-에대한 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>Y ~</max_n_str> <!-- 추가 -->
+				<!-- max_n>Y-의 Z-로의 ~</max_n 삭제 -->
+				<!-- max_n>Y-의 Z-에의 ~</max_n 삭제 -->
+				<!-- max_n>Y-의 S는것-로의 ~</max_n 삭제-->
+				<!-- max_n>Y-의 S는것-에의 ~</max_n 삭제-->
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">사실명제|인지상태</sel_rst> <!-- 생각(여론|의견) 수정 -->
+				<!-- sel_rst arg="Z">추상적대상|행위|사건</sel_rst 삭제-->
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>볼록 렌즈를 통과한 광선은 한 초점으로 ~을 하게 된다.</eg>
+				<!-- 본래 예문은 '볼록 렌즈는 그것을 통과하는 광선을 모아 한 초점으로 ~을 할 수 있다.' -->
+				<trans>convergence</trans>
+				<domain>물리</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>물리화학현상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form> <!-- 수정 전의 예문에 맞춰 'X-이 Y-을 ~을 하다', 'Y-이 ~이 되다' -->
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup"> <!-- 추가 -->
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">물리학적대상(전류)|빛|액체(유체)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>함수에서 ~은 어떤 일정한 수의 근방에 모든 함수값이 모여있는 것을 말한다.</eg>
+				<eg>표본을 추출하여 계산을 해보니, 결과치가 일정한 값을 중심으로 ~을 하고 있다.</eg>
+				<trans>convergence</trans>
+				<domain>수학</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>현상</sem_class> <!-- 수학적대상 수정 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-로 ~을 하다</frame>
+					<frame>X-이 Y-에 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 Y-로 ~이 되다</frame>
+					<frame>X-이 Y-에 ~이 되다</frame> <!-- 추가 -->
+				</comb_v>
+				<max_n_str>X-의 Y-로의 ~</max_n_str>
+				<max_n_str>X-의 Y-에의 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-로의 ~</max_n_str>
+				<max_n_str>Y-에의 ~</max_n_str>
+				<sel_rst arg="X">수|크기|수량</sel_rst> <!-- 크기|수량 수정 -->
+				<sel_rst arg="Y">수|크기|수량</sel_rst> <!-- 크기|수량 수정 -->
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

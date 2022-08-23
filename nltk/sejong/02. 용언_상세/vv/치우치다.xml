@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>치우치다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/13</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/05</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 정보 수정</mod_note>
+				<mod_note>trans 형식 수정</mod_note>
+			</mod>
+			<note>2003/10/13(한선혜)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="i"/>
+			<str>V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>단독행위</sem_class>
+				<trans>lean toward</trans>
+				<trans>slant toward</trans>
+				<trans>be biased</trans>
+				<trans>be partial to</trans>
+				<trans>have a partiality for</trans>
+				<trans>be prejudiced</trans>
+				<trans>be unfair</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로|에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|구체물|장소</sel_rst>
+					<sel_rst arg="Y" tht="DIR">장소(방향|쪽)</sel_rst>
+					<eg>한 쪽으로 너무 치우치지 말고 균형을 잘 잡아 보아라.</eg>
+					<eg>그림이 한 가운데 있지 않고 왼쪽으로 좀 치우친 것 같아요.</eg>
+					<eg>파리 교외인 메종 알포르는 파리에서 약간 동남쪽으로 치우친 곳에 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간|인간집단(편|당)</sel_rst>
+					<eg>김사장은 누구에게도 치우치지 않고 공평하게 대하는 사람이다.</eg>
+					<eg>대통령은 어느 당에도 치우치지 않고 대통령 선거에서 중립을 지키겠다고 선언했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="GOL">(감정|형식)</sel_rst>
+					<eg>감정에 너무 치우쳐서 일을 처리하지 마시오.</eg>
+					<eg>그는 형식에만 치우쳐 내용과 일의 과정을 중요시 하지 않는다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="GOL">추상적대상</sel_rst>
+					<eg>예산이 경제 분야에만 치우치지 않도록 잘 배분하도록 하라.</eg>
+					<eg>우리 학교는 입시교육에만 치우치지 않고 전인교육을 목표로 인성 교육을 실시하고 있다.</eg>
+					<eg>그의 사상은 극우에 치우쳐 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

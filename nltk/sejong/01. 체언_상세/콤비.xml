@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>콤비</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/18</cre_date>
+				<cre_writer>김성용</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/20</mod_date>
+				<mod_writer>이홍식</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/22</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/03/04</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>센스1 syn 기술</mod_note>
+				<mod_note>센스1 기능동사구문 기술</mod_note>
+				<mod_note>센스1 max_n이하 기술</mod_note>
+				<mod_note>센스1 cl 기술</mod_note>
+				<mod_note>센스2의 n_v 추가</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/16</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">combination</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>두 선수가 ~를 이루어 좌측과 우측에서 공격을 하고 있다.</eg>
+				<trans>combination</trans>
+				<sem_class>대칭적관계인간</sem_class>
+				<lr>
+					<syn type="etc">단짝</syn>
+					<syn type="perfect">짝</syn>
+					<ant type="compl"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+				<form vcompound="no">~를 이루다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>~를 입고 다니면 정장보다는 좀 더 활동적으로 보일 거야.</eg>
+				<trans>combination</trans>
+				<sem_class>옷</sem_class>
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="compl"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 입다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 갖추다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 차리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<cl type="uni">벌</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

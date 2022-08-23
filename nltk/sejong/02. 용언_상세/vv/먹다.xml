@@ -1,0 +1,688 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>먹다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/05/15</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/06</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/09</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note>센스 및 엔트리 구분 재조정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>섭취행위</sem_class>
+				<trans>eat</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">자연음식물|음식</sel_rst>
+					<eg>우리는 어머니가 해 주신 요리를 배불리 먹었다.</eg>
+					<eg>아이들이 학교 앞 작은 가게에 옹기종기 모여 앉아 떡볶이와 만두를 맛있게 먹고 있었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">액체</sel_rst>
+					<eg>그녀는 다이어트를 위해 물만 먹는다고 했다.</eg>
+					<eg>커피 한 잔만 먹고 가겠습니다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">동물</sel_rst>
+					<sel_rst arg="Y" tht="THM">생물|자연음식물|음식(먹이|사료|여물)</sel_rst>
+					<eg>아이는 토끼가 홍당무를 먹는 것을 재미있는 표정으로 바라보았다.</eg>
+					<eg>외양간에서는 소가 한가로이 여물을 먹고 있었다.</eg>
+					<eg>뱀은 개구리나 쥐를 먹고 산다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>섭취행위</sem_class>
+				<trans>take</trans>
+				<trans>have</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">마약|담배</sel_rst>
+					<eg>상습적으로 마약을 먹던 대학생들이 경찰이 구속되었다.</eg>
+					<eg>그는 식사 후에 담배 한 대를 먹는 그 기분은 뭐라 표현할 수 없다고 했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">약|독약</sel_rst>
+					<eg>우리 가족은 봄, 가을로 일 년에 두 차례씩 구충제를 먹는다.</eg>
+					<eg>그는 머리가 아프다며 진통제를 두 알 먹었다.</eg>
+					<eg>생활고를 비관한 삼십 대 주부가 독약을 먹고 사망했다는 기사가 신문에 났었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>섭취행위</sem_class>
+				<trans>inhale</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|동물</sel_rst>
+					<sel_rst arg="Y" tht="THM">기체(연탄가스|이산화탄소)</sel_rst>
+					<eg>예전에는 겨울이면 연탄 가스를 먹고 병원에 실려가는 사람들이 많았다.</eg>
+					<eg>사고 현장에서 유독 가스를 먹고 실신한 사람들도 여럿 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>get</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">돈(돈|이자|구전)|추상적대상(수익|이익|이문)</sel_rst>
+					<eg>김 영감은 동네 사람들에게 집을 소개해 주고 구전을 먹는 재미가 제법이라고 자랑했다.</eg>
+					<eg>저 사람은 아버지가 남겨 준 부동산에서 나오는 집세를 먹고 산다.</eg>
+					<eg>그는 이번 사업에서 남은 이익은 자본금을 빌려준 친구와 둘이서 반씩 먹기로 했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>take in an improper way</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|장소|추상적대상(수익|이익|이문)</sel_rst>
+					<eg>그는 동업자를 따돌리고 이익금을 혼자 먹을 욕심으로 일을 꾸몄다고 한다.</eg>
+					<eg>친구가 빌려 준 물건을 그냥 먹어 버리는 것은 옳지 않은 행동이다.</eg>
+					<eg>당시 일본은 한반도를 먹을 욕심으로 전쟁을 준비하고 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="06">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>defile</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<eg>바람둥이로 소문 난 그 사람은 자기가 먹은 여자만도 두 손으로는 모자란다고 자랑스레 떠벌리기까지 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="07">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>get</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="GOL">기계</sel_rst>
+					<sel_rst arg="Y" tht="THM">돈(동전|지폐)</sel_rst>
+					<eg>자판기가 고장이 났는지 동전만 먹어 버리고 커피는 안 나왔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="08">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>get (years of age)</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">수량시간(나이)</sel_rst>
+					<eg>저 친구는 일찍 결혼해서 벌써 스무 살 먹은 아들이 있다.</eg>
+					<eg>한 살 한 살 나이를 먹으면서 깨닫게 되는 일들이 많습니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="09">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>be nourished</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">연령인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(꿈|사랑)</sel_rst>
+					<eg>어린이는 꿈을 먹고 산다.</eg>
+					<eg>아이들은 부모님의 사랑을 먹으며 커 나간다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="10">
+			<sem_grp>
+				<sem_class>범죄및비행</sem_class>
+				<trans>take</trans>
+				<trans>accept</trans>
+				<lr>
+					<syn type="perfect">받다</syn>
+					<ant type="conv">주다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에게|에게서|에서 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="GOL">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">(뇌물|돈)</sel_rst>
+					<sel_rst arg="Z" tht="AGT">인간|인간집단</sel_rst>
+					<eg>김 실장은 하청업체 사장에게 뇌물을 먹고 뒤를 봐 주다 회사에 탄로가 났다.</eg>
+					<eg>기업들로부터 상습적으로 뇌물을 먹어 온 정치인들의 명단이 조만간 공개될 예정이라고 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="11">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>take</trans>
+				<lr>
+					<syn type="perfect">맞다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에게|에게서|에서 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="GOL">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(한방|한대|주먹|결정타)|(꿀밤|알밤)</sel_rst>
+					<sel_rst arg="Z" tht="AGT">인간</sel_rst>
+					<eg>그는 상대 선수에게 강력한 한 방을 먹은 후 링 위에 쓰러졌다.</eg>
+					<eg>나를 괴롭히던 녀석은 형에게 주먹을 한 대 먹고 나가떨어졌다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="12">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>allow</trans>
+				<lr>
+					<syn type="sino">실점하다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에게|에게서|에서 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="GOL">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">속성(골|점수)</sel_rst>
+					<sel_rst arg="Z" tht="AGT">인간|인간집단</sel_rst>
+					<eg>한국 팀은 일본 팀에 두 골을 먹고 다소 사기가 떨어진 듯 보였다.</eg>
+					<eg>어제 농구 대회에서 우리 팀은 초반에 상대에게 몇 점을 먹었지만 후반에 선전을 보여 우승의 영광을 안았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="13">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>undergo</trans>
+				<trans>suffer</trans>
+				<lr>
+					<syn type="perfect">받다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(구류|정지|벌점)</sel_rst>
+					<eg>그는 신호 위반으로 벌점을 먹었다.</eg>
+					<eg>그 가게는 청소년들에게 술을 팔다 적발되어 삼 개월 영업 정지를 먹었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="14">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>consume</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Adv V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">교통기관|기기</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(연료|전기|가스)</sel_rst>
+					<sel_rst arg="Adv">(많이|제법|조금)</sel_rst>
+					<eg>저 차는 힘도 있고 보기도 좋지만 기름을 너무 많이 먹는게 흠이다.</eg>
+					<eg>아내는 새로 사 들인 대형 냉장고가 전기료를 많이 먹는다고 걱정이다.</eg>
+					<eg>이 프린터는 생각보다 잉크를 많이 먹는다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="15">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>cost</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-에 Adv V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">비용</sel_rst>
+					<sel_rst arg="Y" tht="LOC">사태</sel_rst>
+					<sel_rst arg="Adv">(많이|제법|조금)</sel_rst>
+					<eg>이번 신제품 개발에 자금이 많이 먹었습니다.</eg>
+					<eg>가능하다면 자본금이 조금 먹는 사업을 시작해야겠지요.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">비용</sel_rst>
+					<sel_rst arg="Y" tht="LOC">S것|S데|S기</sel_rst>
+					<sel_rst arg="Adv">(많이|제법|조금)</sel_rst>
+					<eg>아이들을 가르치는 데에 돈이 그렇게 많이 먹는 줄 몰랐다.</eg>
+					<eg>이번 행사를 치르는 데에 비용이 얼마나 먹을 것 같습니까?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="16">
+			<sem_grp>
+				<sem_class>물리적행위</sem_class>
+				<trans>permeate</trans>
+				<trans>absorb</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="nut" n="1">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">구체물</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(왁스|풀)|액체</sel_rst>
+					<eg>이 종이는 기름을 잘 먹는다.</eg>
+					<eg>천이 풀을 제대로 먹어 빳빳하고 윤이 난다.</eg>
+					<eg>열심히 운동을 하고 난 후 그는 땀을 먹어 축축해진 티셔츠를 새 것으로 갈아 입었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">신체부위(얼굴|피부)</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(로션|분)|(화장)</sel_rst>
+					<eg>요즘 내 피부가 화장을 잘 먹지 않는다.</eg>
+					<eg>그녀는 곱게 분을 먹어 뽀얀 자신의 얼굴을 거울로 바라보며 흐뭇한 미소를 지었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="17">
+			<sem_grp>
+				<sem_class>0</sem_class>
+				<trans>be absorbed</trans>
+			</sem_grp>
+			<frame_grp type="FIN" cor="nut" n="1">
+				<frame>Y=N1-에|이 X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(왁스|풀)|액체</sel_rst>
+					<sel_rst arg="Y" tht="LOC">구체물</sel_rst>
+					<eg>이 종이에는 기름이 잘 먹는다.</eg>
+					<eg>천에 풀이 제대로 먹어 빳빳하고 윤이 난다.</eg>
+					<eg>열심히 운동을 하고 난 후 그는 땀이 먹어 축축해진 티셔츠를 새 것으로 갈아 입었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(로션|분)|(화장)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">신체부위(얼굴|피부)</sel_rst>
+					<eg>요즘 내 피부에 화장이 잘 먹지 않는다.</eg>
+					<eg>그녀는 곱게 분이 먹어 뽀얀 자신의 얼굴을 거울로 바라보며 흐뭇한 미소를 지었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="18">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>eat</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>Y=N1-에|이 X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">벌레|미생물</sel_rst>
+					<sel_rst arg="Y" tht="LOC">구체물</sel_rst>
+					<eg>그녀는 벌레가 먹은 복숭아를 먹으면 예뻐진다는 할머니 말씀에 입을 삐죽 내밀었다.</eg>
+					<eg>모직 코트에 좀이 먹어 구멍이 났다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="19">
+			<sem_grp>
+				<sem_class>속성값</sem_class>
+				<trans>cut well</trans>
+				<trans>be keen</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Adv V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">도구(칼|대패|톱)</sel_rst>
+					<sel_rst arg="Adv">(잘|제대로)</sel_rst>
+					<eg>녹이 슨 탓인지 대패가 잘 먹지 않는다.</eg>
+					<eg>칼만 잘 먹으면 일이 훨씬 쉬울 것 같아요.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<idm_grp>
+			<idm>간을 빼 먹다</idm>
+			<idm>콩밥을 먹다</idm>
+			<idm>국수를 먹다</idm>
+			<idm>꿀밤을 먹다</idm>
+			<idm>눈칫밥을 먹다</idm>
+			<idm>녹을 먹다</idm>
+			<idm>더위를 먹다</idm>
+			<idm>등을 쳐 먹다</idm>
+			<idm>물을 먹다</idm>
+			<idm>먹물을 먹다</idm>
+			<idm>미역국을 먹다</idm>
+			<idm>밥술이나|깨나 먹다</idm>
+			<idm>얼을 먹다</idm>
+			<idm>콩밥을 먹다</idm>
+			<idm>한솥밥을 먹다</idm>
+			<idm>먹고 들어가다</idm>
+			<idm>먹고 떨어지다</idm>
+			<idm>먹고 닮다</idm>
+			<idm>먹고 죽자 해도 없다</idm>
+			<idm>아는 것도 많으니 먹고 싶은 것도 많겠다</idm>
+			<idm>꿀 먹은 벙어리</idm>
+			<idm>냉수 먹고 속 차려라</idm>
+			<idm>누워서 떡 먹기다</idm>
+			<idm>떡|밥 먹듯이</idm>
+			<idm>식은 죽 먹기다</idm>
+			<idm>씨가|도 먹지 않다</idm>
+			<idm>씨알이|도 먹지 않다</idm>
+			<idm>엿 먹어라</idm>
+			<idm>잘 먹고 잘 살아라</idm>
+			<idm>골탕을 먹다</idm>
+			<idm>애를 먹다</idm>
+			<idm>밥 먹을 때는 개도 안 때린다</idm>
+			<idm>먹고 죽은 귀신이 때깔도 곱다</idm>
+		</idm_grp>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/05/15</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/06</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/06</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note>의미부류수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>be</trans>
+				<trans>get</trans>
+			</sem_grp>
+			<frame_grp type="STR">
+				<frame>X=N0-이 Y=N2-에서 Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Npr1">높은정도(일등|장원|수석|우승|만점|챔피온)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">운동경기|시험|경연대회</sel_rst>
+					<eg>우리 형이 이번 시험에서 만점을 먹었대요.</eg>
+					<eg>교내 합창 대회에서 우리 반이 일등을 먹었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="STR" cor="sym" n="01">
+				<frame>X=N0-이 Y=N2-와 (서로) Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Npr1">(편)</sel_rst>
+					<sel_rst arg="Y" tht="COM">인간|인간집단</sel_rst>
+					<eg>엄마는 언니와 한 편을 먹고, 나는 아빠와 한 편을 먹으면 되겠네.</eg>
+					<eg>기획실은 경리부와 한 편을 먹고 사내 축구대회에 나가기로 했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="STR" cor="sym" n="01">
+				<frame>X+Y=N0-이 (서로) Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Npr1">(편)</sel_rst>
+					<eg>엄마와 언니가 한 편을 먹고, 나랑 아빠가 한 편을 먹으면 되겠네.</eg>
+					<eg>기획실과 경리부가 한 편을 먹고 사내 축구대회에 나가기로 했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>take</trans>
+			</sem_grp>
+			<frame_grp type="STR">
+				<frame>X=N0-이 Y=S기2-로 Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Npr1">(마음)|(앙심|독심)</sel_rst>
+					<sel_rst arg="Y" tht="FNS"/>
+					<eg>그는 이번 기회에 담배를 끊기로 마음을 먹었다.</eg>
+					<eg>그녀는 다시는 그를 만나지 않기로 마음을 먹었다.</eg>
+					<eg>그는 언젠가는 그 모든 수모를 갚아 주기로 단단히 앙심을 먹고 준비를 해 왔다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="STR">
+				<frame>X=N0-이 Y=S2-고 Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Npr1">(마음)|(앙심|독심)</sel_rst>
+					<sel_rst arg="Y" tht="CNT"/>
+					<eg>그는 이번 기회에 담배를 끊겠다고 마음을 먹었다.</eg>
+					<eg>그녀는 다시는 그를 만나지 않겠다고 마음을 먹었다.</eg>
+					<eg>그는 언젠가는 그 모든 수모를 갚아 주겠다고 단단히 앙심을 먹고 준비를 해 왔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>get</trans>
+				<trans>have</trans>
+			</sem_grp>
+			<frame_grp type="STR">
+				<frame>X=N0-이 Y=N2-에|에게 Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Npr1">외향적심리상태(겁|쇼크|충격)</sel_rst>
+					<sel_rst arg="Y" tht="EFF">온</sel_rst>
+					<eg>아이는 이상한 차림을 한 아저씨에게 겁을 먹고 뒷걸음질을 쳤다.</eg>
+					<eg>그녀는 남편의 실직 사실에 상당히 충격을 먹은 모양이다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Npr1">외향적심리상태(겁|쇼크|충격)</sel_rst>
+					<sel_rst arg="Y" tht="EFF">S것|S데</sel_rst>
+					<eg>아이는 남자가 이상한 행동을 하는 것에 겁을 먹고 뒷걸음질을 쳤다.</eg>
+					<eg>그녀는 남편이 실직을 당했다는 데에 상당히 충격을 먹은 모양이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>get</trans>
+			</sem_grp>
+			<frame_grp type="STR">
+				<frame>X=N0-이 Z=N2-에게|에게서|에서 Y=S3-고 Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="GOL">인간|인간집단</sel_rst>
+					<sel_rst arg="Npr1">(욕|핀잔|꾸중)</sel_rst>
+					<sel_rst arg="Y" tht="CNT"/>
+					<sel_rst arg="Z" tht="AGT">인간|인간집단</sel_rst>
+					<eg>그는 친구들에게 곧잘 게으르다고 욕을 먹는다.</eg>
+					<eg>그녀는 맡은 일을 제대로 처리하지 못한다고 회사에서 욕을 먹었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/05/15</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/06</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/06</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note>센스구분</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>비의도적행위</sem_class>
+				<trans>do without intention</trans> <!-- 비의도적인 행위 -->
+			</sem_grp>
+			<frame_grp type="Vaux">
+				<frame>V-어 Vaux</frame>
+				<subsense>
+					<eg>남편은 또 전화하는 것을 잊어 먹은 모양이다.</eg>
+					<eg>그는 설거지를 하다 접시를 벌써 몇 개나 깨 먹었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>방향성행위</sem_class>
+				<trans>do willingly</trans> <!-- 부정적 가치를 지닌 의도적 행위에 대한 강조 -->
+			</sem_grp>
+			<frame_grp type="Vaux">
+				<frame>V-어 Vaux</frame>
+				<subsense>
+					<eg>그는 사람들을 제멋대로 부려 먹고 월급도 제대로 주지 않았다.</eg>
+					<eg>그는 아이들의 순진함을 이용해 먹는 장사꾼이었다.</eg>
+					<eg>그는 아내를 골려 먹는 재미로 사는 사람 같다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>do</trans> <!-- 비의도적 행위도 부정적 가치를 지닌 행위도 아닌 행위에 대한 강조 -->
+			</sem_grp>
+			<frame_grp type="Vaux">
+				<frame>V-어 Vaux</frame>
+				<subsense>
+					<eg>저 녀석은 도대체 써 먹을 데가 없다.</eg>
+					<eg>갈수록 힘이 들어 장사도 못 해 먹겠어요.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>definitely</trans> <!-- 부정적 가치를 지닌 상태에 대한 강조 -->
+			</sem_grp>
+			<frame_grp type="Vaux">
+				<frame>V-어 Vaux</frame>
+				<subsense>
+					<eg>그 아이는 영 글러 먹었다.</eg>
+					<eg>너는 영 틀려 먹었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="4" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2005/08/09</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_note>엔트리추가</cre_note>
+			</cre>
+			<mod>
+				<mod_date></mod_date>
+				<mod_writer></mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>신체상태</sem_class>
+				<trans>be deaf</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">신체부위(귀)</sel_rst>
+					<eg>철수는 귀가 먹은 모양이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>신체상태</sem_class>
+				<trans>have (ear) deaf</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간|동물</sel_rst>
+					<sel_rst arg="Y" tht="THM">신체부위(귀)</sel_rst>
+					<eg>할머니는 왼쪽 귀를 먹어서 크게 말하지 않으면 잘 못 들으신다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

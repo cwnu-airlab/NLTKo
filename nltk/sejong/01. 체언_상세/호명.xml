@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>호명</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/06/07</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/15</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/26</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/08</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>comb_v "~을 받다" 추가</mod_note>
+			</mod>
+			<note>2002/06/07(고길수)'선생님이 호돌이하고 ~을 하다'와 같은 정보는 어떻게 표상해야 하나요? 이 경우, 'X-이 N(고유명사)-하고|라고? ~을 하다'와 같이 되는데? 그리고 이에 대응되는 'N(고유명사)라는 ~'이 가능한 듯</note>
+			<note>2002/07/29(한선혜)현재로서는 직접화법에 해당하는 격틀은 제외되어 있습니다. 고려되어야 할 사항입니다</note>
+			<note>기능동사구문 수정</note>
+			<note>단위표현에 '번|차례' 기술</note>
+			<note>2002/07/30(박동호)pre_s에 'S라는' 추가</note>
+			<note>2003/07/08(서진숙)</note>
+			<note>2003/09/15(이성헌)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">號名</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 선생님의 ~을 받고 앞으로 나갔다.</eg>
+				<eg>~을 당한 아이들은 밖에서 벌을 섰다.</eg>
+				<eg>무대에서 ~을 기다리는 순간은 정말 길게 느껴졌다.</eg>
+				<eg>나의 이름이 ~이 되자 우리 가족은 뛸듯이 기뻐했다.</eg>
+				<trans>calling by name</trans>
+				<trans>roll call</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>소통행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 소리</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에게(서)|에의해 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>Y-이 X-에게(서)|에의해 ~을 받다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|이름(이름)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S라는  ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

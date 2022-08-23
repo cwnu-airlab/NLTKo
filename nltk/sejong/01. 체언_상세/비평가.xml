@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>비평가</orth>
+	<entry n="1" pos="nng_c"> <!-- temp 수정 -->
+		<mnt_grp>
+			<cre>
+				<cre_date>2005/11/01</cre_date>
+				<cre_writer>서진숙</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2005/11/30</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>품사정보 수정;동형어정보 삭제;논항의미부류 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/18</mod_date>
+				<mod_writer>임근석</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>맥스엔, 논하 의미부류 정보 다시 추가</mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_R">비평+가</str>
+			<org lg="si">批評家</org>
+		
+			<!-- hom exist="yes"/ 삭제 --> 
+			<der  pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>오늘은 두 분의 미술 ~를 모시고 이야기를 나누겠습니다.</eg>
+				<trans>critic</trans>
+				<trans>reviewer</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>직업인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~가 뛰어나다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 초청하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 초빙하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X ~</max_n_str><!-- 임근석: X(-의) ~ 삭제-->
+				<sel_rst arg="X">예술|방송물|문학텍스트</sel_rst> <!-- 경제, 문화, 미술, 음악, 소설, 시 등 --> <!-- 분야 수정 --><!-- 임근석 추상적대상 삭제-->
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+				<cl type="uni">분</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

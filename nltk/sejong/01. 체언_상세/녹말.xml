@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>녹말</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/15</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/22</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/12</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>태그 내 나열된 정보 분할</mod_note>
+				<mod_note>합성어, 명사 결합, 동사 결합 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/27</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 '에 묻히다' etc를 수정</mod_note>
+			</mod>
+			<note>2000/09/03(백인애)</note>
+			<note>2001/01/30(정유진</note>
+			<note>2003/04/08(이호영)센스1 예문 추가|의미부류 수정|동사연어구성을 향후 추가정보로 이동</note>
+			<note>2003/05/22(박만규)</note>
+			<note>센스2 예문 추가|의미부류 수정|동사연어구성을 향후 추가정보로 이동</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">綠末</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="prefix">감자~</comp>
+			<comp pos="n" type="suffix">~가루</comp>
+			<comp pos="n" type="suffix">~물</comp>
+			<comp pos="n" type="suffix">~풀</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>음식을 튀길 때, 밀가루 대신 ~을 이용하기도 한다.</eg>
+				<eg>~을 물에 개고, 파를 넣어라.</eg>
+				<trans>starch</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>음식</sem_class>
+				<lr>
+					<syn type="etc">전분</syn>
+					<ant type="temp"></ant>
+					<rel>감자</rel>
+					<rel>녹두</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 곱다</comb_aj>
+				<comb_aj type="appr">~이 하얗다</comb_aj>
+				<comb_n type="compound">고구마 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 개다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 풀다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 넣다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 묻히다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="qnt">스푼</cl>
+				<cl type="qnt">컵</cl>
+				<cl type="qnt">푸대</cl>
+				<cl type="qnt">봉지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>식물을 광합성 작용을 통해 잎에서 만들어진 ~을 뿌리와 줄기에 저장한다.</eg>
+				<eg>식물의 ~은 다른 동물들에게 영양분이 된다.</eg>
+				<trans>dextrin</trans>
+				<domain>화학</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>무생물</sem_class>
+				<lr>
+					<syn type="etc">탄수화물</syn>
+					<ant type="temp"></ant>
+					<rel>식물</rel>
+					<rel>광합성작용</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 저장하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

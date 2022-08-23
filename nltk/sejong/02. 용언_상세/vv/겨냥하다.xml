@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>겨냥하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/26</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>형태정보, 격틀, 의미 조정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">겨냥을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>시각적행위</sem_class>
+				<trans>aim</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="cross" n="01">
+				<frame>X=N0-이 Z=N2-로 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(목표물|과녁)</sel_rst>
+					<sel_rst arg="Z" tht="INS">무기(총|총부리|활|화살|칼|돌)</sel_rst>
+					<eg>청년은 총부리로 장관을 겨냥하고 숨을 몰아쉬었다.</eg>
+					<eg>그는 화살로 멧돼지를 겨냥했지만 결국 쏘지는 못했다.</eg>
+					<eg>아이는 작은 돌로 이웃집 창문을 겨냥하고 던졌지만 힘이 모자라 돌은 중간에 떨어지고 말았다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="cross" n="01">
+				<frame>X=N0-이 Z=N2-에|에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">무기(총|총부리|활|화살|칼|돌)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">구체물</sel_rst>
+					<eg>청년은 총부리를 장관에게 겨냥하고 숨을 몰아쉬었다.</eg>
+					<eg>그는 화살을 멧돼지에게 겨냥했지만 결국 쏘지는 못했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">무기(총|총부리|활|화살|칼|돌)|(책|재떨이)</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(목표물|과녁)</sel_rst>
+					<eg>커튼 밖으로 보이는 총부리가 그를 겨냥하고 있었다.</eg>
+					<eg>그가 쏜 화살은 사슴을 겨냥했었는데 결과적으로는 친구를 맞히고 말았다.</eg>
+					<eg>범인이 던진 칼은 그의 가슴을 겨냥하고 날아왔지만 그는 날쌘 동작으로 그것을 피했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>속성값</sem_class>
+				<trans>be related to</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">구체물|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|단체</sel_rst>
+					<eg>이번에 개발한 신제품 휴대전화는 주로 십대를 겨냥하여 만들어졌다.</eg>
+					<eg>신소재로 만들어진 이 운동화는 해외 시장을 겨냥하고 있다.</eg>
+					<eg>그 가수는 중장년층을 겨냥하고 활동을 재개했다.</eg>
+					<eg>그녀의 가시돋힌 말은 준오를 겨냥하고 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>measure</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-로 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(천|옷감|원목|나무)</sel_rst>
+					<sel_rst arg="Z" tht="CRT">(크기|넓이|치수)</sel_rst>
+					<eg>수미는 천을 본에 맞는 넓이로 겨냥해 잘랐다.</eg>
+					<eg>목수는 능숙한 솜씨로 원목을 막대 크기로 겨냥해 자르고 대패질했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

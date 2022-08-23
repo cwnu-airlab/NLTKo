@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>최악</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/21</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>2003/08/23(김이정)</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/07</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>sem을 '속성'에서 '등급'으로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>prt 정보 기재</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/09/05</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>예문 추가;의미부류 수정;조사제약 정보 추가;동사결합, 명사결합 정보 추가;논항 의미정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>명사결합정보 유형 수정</mod_note>
+				<mod_note>ant 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/01/30</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>의미부류 '정도속성값'을 수정</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/07</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">最惡</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>금융시장이 ~의 국면을 벗어나 안정을 되찾고 있다.</eg>
+				<eg>학교내 폭력이 역대 ~을 기록하고 있다.</eg> <!-- 추가함 -->
+				<eg>그 사람은 성격이 ~이다.</eg> <!-- 추가함 -->
+				<trans>the worst</trans>
+				<sem_class>낮은정도</sem_class> <!-- '등급' 수정 -->
+				<lr>
+					<ant type="compl">최선</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="lexfunc">사상 ~</comb_n>
+				<comb_n type="compound">~의 경우</comb_n>
+				<comb_n type="compound">~의 사태</comb_n>
+				<comb_n type="compound">~의 결과</comb_n>
+				<comb_n type="compound">~의 사고</comb_n>
+				<comb_n type="compound">~의 상황</comb_n>
+				<comb_n type="compound">~의 참패</comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~으로 치닫다</form>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이다</form>
+					<frame>X-이 ~이다</frame>
+					<frame>S것-이 ~이다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">온</sel_rst>
+				<prt>~의</prt>
+				<prt>~로</prt>
+				<prt>~을</prt>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

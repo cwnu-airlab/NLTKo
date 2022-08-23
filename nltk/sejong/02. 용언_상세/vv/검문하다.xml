@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>검문하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/04</mod_date>
+				<mod_writer>조원형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/04/09</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/08/31</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>내부구조 제시방식 수정</mod_note>
+				<mod_note>어휘의미관계 보충</mod_note>
+				<mod_note>하위센스 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">검문을 하다</var>
+			<str>N.하</str>
+			<org lg="si">檢問_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>조사</sem_class>
+				<trans>question</trans>
+				<trans>inspect</trans>
+				<trans>examine</trans>
+				<trans>check up</trans>
+				<lr>
+					<syn type="perfect">조사하다</syn>
+					<syn type="perfect">문초하다</syn>
+					<hyper>묻다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간(군인|경찰|경비원)|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|장소(도로|항만|공항)</sel_rst>
+					<eg>군인들이 지나가는 행인들을 검문하고 있다.</eg>
+					<eg>네가 학생들을 검문할 권리가있느냐.</eg>
+					<eg>경찰은 테러에 대비하여 전국의 공항과 항만을 검문하고 있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">교통기관</sel_rst>
+					<eg>탈주범 수색을 위해 경찰들이 모든 차량을 검문하였다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간(군인|경찰|경비원)|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">Q</sel_rst>
+					<eg>헌병들이 들어와서, 탈영병이 없는가 검문했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

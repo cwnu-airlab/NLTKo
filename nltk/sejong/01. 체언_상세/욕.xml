@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>욕</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/06/27</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/02</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/13</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note>센스2의 의미부류 및 max_n 확인 요망;센스3의 max_n 및 선택제약 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/01/11</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>센스 1 - frame, Z 논항 추가, max_n, sel_rst 추가</mod_note>
+				<mod_note>센스 2 - max_n 기술</mod_note>
+				<mod_note>센스 3,4 - max_n 삭제(X-의 ~ | Y-에의한 X-의 ~) - 구성이 불가능한 듯.</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>센스 셋으로 축소(욕설/수고/치욕)</mod_note>
+				<mod_note>동사결합 추가</mod_note>
+				<mod_note>복합어, 동사결합 관련 정보 수정</mod_note>
+			</mod>
+			<note>2000/08/01(박동호)</note>
+			<note>2002/12/30(김성용)</note>
+			<note>2003/01/02(이성헌)froz 내의 표제어들을 '~'로 수정</note>
+			<note>idnv의 '~을 먹다'를 sense1의 comb_v로 이동</note>
+			<note>sense1 comb_v에 '먹다'이동 기재</note>
+			<note>sense1 eg의 표제어를 '~'로 대체</note>
+			<note>sense1 magn에 '~이 심하다'기재</note>
+			<note>sense1 supv의 Y항 조사로 '에 대해'추가</note>
+			<note>sense1의 cl에 '번|차례|회'추가</note>
+			<note>sense1의 sel_res의 X에 '인간집단'추가</note>
+			<note>sense2의 comb_v에서 '당하다'를 supv로 이동 기술</note>
+			<note>sense2의 sel_res기재</note>
+			<note>sense3의 cl에 '회'추가</note>
+			<note>sense3의 pre_s에 #기재</note>
+			<note>sense4기술 추가</note>
+			<note>supv에서 'X|S것-이 ~이 되다'삭제하고 '당하다'구문 기재</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">辱</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~쟁이</der>
+			<der pos="n" type="suffix">~질</der>
+			<der pos="a" type="suffix">~스럽다</der>
+			<comp pos="n" type="suffix">~감태기</comp>
+			<comp pos="n" type="suffix">~바가지</comp>
+			<comp pos="n" type="suffix">~사발</comp>
+			<comp pos="n" type="suffix">~악담</comp>
+			<comp pos="n" type="suffix">~치레</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~먹다</comp>
+			<comp pos="v" type="suffix">~보다</comp>
+			<comp pos="v" type="suffix">~보이다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~을 벌다</idm>
+			<idm type="prv">~이 금인 줄 알아라</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>잘못한 일도 없는데 ~을 들었더니 분하다.</eg>
+				<eg>그 친구는 ~이 나오는 것을 참았다.</eg>
+				<trans>abuse</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>비난욕설</sem_class>
+				<lr>
+					<syn type="etc">욕설</syn>
+					<syn type="etc">비난</syn>
+					<ant type="etc">칭찬</ant>
+					<hyper>평가</hyper>
+					<coord>칭찬</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 심하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에|에게 S다고 ~을 하다</frame>
+					<frame>X-이 Y-에|에게 Z-에대해 S다고 ~을 하다</frame>
+					<frame>X-이 Z-을 S다고 ~을 하다</frame>
+					<frame>X-이 Y-에|에게 S라고 ~을 하다</frame>
+					<frame>X-이 Y-에|에게 Z-에대해 S라고 ~을 하다</frame>
+					<frame>X-이 Z-을 S라고 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 퍼붓다</form>
+					<frame>X-이 Y-에|에게 S다고 ~을 퍼붓다</frame>
+					<frame>X-이 Y-에|에게 Z-에대해 S다고 ~을 퍼붓다</frame>
+					<frame>X-이 Z-을 S다고 ~을 퍼붓다</frame>
+					<frame>X-이 Y-에|에게 S라고 ~을 퍼붓다</frame>
+					<frame>X-이 Y-에|에게 Z-에대해 S라고 ~을 퍼붓다</frame>
+					<frame>X-이 Z-을 S라고 ~을 퍼붓다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 듣다</form>
+					<frame>Y-이 X-에게 S다고 ~을 듣다</frame>
+					<frame>Y-이 X-에게 Z-에대해 S다고 ~을 듣다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="yes">~을 먹다</form>
+					<frame>Y-이 X-에게 S다고 ~을 먹다</frame>
+					<frame>Y-이 X-에게 Z-에대해 S다고 ~을 먹다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 내뱉다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 나오다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>S다는 Y-에대한 X-의 ~</max_n_str>
+				<max_n_str>S다는 Z-에대한 X-의 ~</max_n_str>
+				<max_n_str>S라는 Y-에대한 X-의 ~</max_n_str>
+				<max_n_str>S라는 Z-에대한 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">온</sel_rst>
+				<cl type="uni">마디</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이 무거운 물건을 들고 오느라고 무척 ~을 봤겠구나.</eg>
+				<trans>hardship</trans>
+				<domain></domain>
+				<reg>속어</reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="etc">수고</syn>
+					<syn type="etc">어려움</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 보다</form>
+					<frame>X-이 ~을 보다</frame>
+				</comb_v>
+				<max_n_str></max_n_str> 
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>나이 어린 사람에게 ~을 당한 것은 쉽게 잊혀지지 않는다.</eg>
+				<trans>violation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>피해</sem_class>
+				<lr>
+					<syn type="etc">치욕</syn>
+					<ant type="etc"></ant>
+					<coord>영광</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 당하다</form>
+					<frame>X가 Y-에게|에게서|로부터 ~을 당하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 보다</form>
+					<frame>X가 Y-에게|에게서|로부터 ~을 보다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

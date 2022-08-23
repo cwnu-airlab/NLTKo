@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>짓궂다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/15</mod_date>
+				<mod_writer>강정연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/12/24</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>형태 정보 구획 및 의미 정보 구획 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be ill-tempered</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(성격|행동|태도)|인간</sel_rst>
+					<eg>그는 성격이 짓궂어서 여사원들을 놀리기 좋아했다.</eg>
+					<eg>그아이는 행동이 아주 짓궂다.</eg>
+					<eg>은아는 짓궂은 철수가 못마땅했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(놀이|장난)|(미소|웃음|눈길|표정)|(말|질문|농담)</sel_rst>
+					<eg>아이들의 장난이 날이 갈수록 짓궂어진다.</eg>
+					<eg>사내 아이들은 짓궂은 놀이를 좋아한다.</eg>
+					<eg>준오는 그녀에게 짓궂은 눈길을 보냈다.</eg>
+					<eg>수미는 진오의 농담이 짓궂은 데 화가 났다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-에게 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간</sel_rst>
+					<eg>철수는 여학생들에게 너무 짓굿기 때문에 여학생들이 싫어한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

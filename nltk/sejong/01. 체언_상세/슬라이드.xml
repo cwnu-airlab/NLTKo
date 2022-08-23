@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>슬라이드</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/17</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/17</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/01</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>복합명사구 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/21</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>예문 띄어쓰기 수정</mod_note>
+				<mod_note>복합명사 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/26</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>compound 정보를 comp로</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/17</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/10/17(기영인)센스2의 본디말(슬라이드 글라스) 복합어사전에서 추후 다룰 필요 있을 듯</note>
+			<add>센스1 (combn?) ~상영</add>
+			<add>센스2 (syn) 깔유리|받침유리</add>
+			<add>센스1 (comp) ~영사기|필름</add>
+			<add>센스1 (rel) 환등기|마운트</add>
+			<add>센스2 (rel) 현미경|커버글라스</add>
+			<add>센스2 본디말(lng) 슬라이드 글라스</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">slide</org>
+		
+			<comp pos="n" type="suffix">~필름</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>조용한 음악 소리를 배경으로 스크린에는 그 당시 사람들의 ~가 하나씩 비치기 시작했다.</eg>
+				<eg>건축사 시간에 강사는 ~를 한 장씩 보이면서 건물에 대한 설명을 곁들였다.</eg>
+				<trans>slide</trans>
+				<sem_class>구체인공물</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound">~ 영사기</comb_n>
+				<comb_n type="compound">~ 상영</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 끼우다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<cl type="uni">장</cl>
+				<cl type="uni">점</cl>
+				<cl type="uni">컷</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>시료액을 ~에 한두 방울 떨어뜨린 다음 커버글라스를 덮어서 자세히 관찰한다.</eg>
+				<trans>slide</trans>
+				<sem_class>구체인공물</sem_class>
+				<lr>
+					<syn type="perfect">깔유리</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 얇다</comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 끼우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 말리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">판</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

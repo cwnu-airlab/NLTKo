@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>유쾌하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/15</mod_date>
+				<mod_writer>강정연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/06</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>R.하</str>
+			<org lg="si">愉快_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>긍정적품격속성값</sem_class>
+				<trans>be cheerful</trans>
+				<lr>
+					<ant type="grad">불쾌하다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<n_appr>기분</n_appr>
+					<eg>이른 아침 자전거로 거리를 달리니 기분이 유쾌하다.</eg>
+					<eg>오늘 아침 사장은 유쾌해 보였다.</eg>
+					<eg>아버지의 기분이 유쾌할 때 그 말씀을 드리기로 하자.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">사태</sel_rst>
+					<eg>그런 일은 유쾌하다.</eg>
+					<eg>오랜만의 산책이 유쾌하다.</eg>
+					<eg>그들 간의 대화는 유쾌했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<eg>마음 맞는 친구들과 여행을 떠나는 것은 유쾌하다.</eg>
+					<eg>산 정상에 올라 야호를 외치는 것은 참 유쾌합니다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>Y=N1-에게|이 X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">사태</sel_rst>
+					<sel_rst arg="Y" tht="EXP">인간</sel_rst>
+					<eg>수미에게는 그 일이 더 없이 유쾌했다.</eg>
+					<eg>나에게는 그와의 대화가 늘 유쾌하다.</eg>
+					<eg>민수는 친구들과 떠난 오랜만의 여행이 유쾌했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<sel_rst arg="Y" tht="EXP">인간</sel_rst>
+					<eg>나는 그 일을 하는 것이 유쾌하다.</eg>
+					<eg>수미에게는 민수를 만나 이야기하는 것이 유쾌했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

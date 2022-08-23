@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>면상</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/14</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/14</mod_date>
+				<mod_writer>류희선</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/02</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>n_v기술 검토요망, 예문 보완</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/24</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>원어 기술, n_v 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/31</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">面上</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 상대편의 ~에 주먹을 날렸다.</eg>
+				<eg>그들이 ~을 쳤지만 나는 용케 피했다.</eg>
+				<eg>불량배들이 그의 ~에 담배연기를 내뿜었다.</eg>
+				<trans>one's face</trans>
+				<sem_class>신체부위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 후려갈기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 때리다</form><!--추가(김이정)-->
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 갈기다</form><!--추가(김이정)-->
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/14</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/14</mod_date>
+				<mod_writer>류희선</mod_writer>
+				<mod_note>관상의 의미는 잘 쓰이지 않는것 같아 따로 센스구부하지 않았음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/24</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>의미부류 수정, n_aj 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/31</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">面相</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 배우치고는 ~이 그리 잘 생긴 편은 아니다.</eg>
+				<eg>그는 ~이 시원한 데다가 몸가짐도 점잖았다.</eg>
+				<trans>looks</trans>
+				<sem_class>모양</sem_class><!--신체부위에서 수정(김)-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 좋다</comb_aj><!--magn에서 수정(김)-->
+				<comb_aj type="appr">~이 나쁘다</comb_aj><!--magn에서 수정(김)-->
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

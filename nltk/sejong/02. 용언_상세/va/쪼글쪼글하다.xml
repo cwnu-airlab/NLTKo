@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>쪼글쪼글하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/20</cre_date>
+				<cre_writer>한선혜</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/09/21</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/03</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc">쭈글쭈글하다</var>
+			<var type="etc">조글조글하다</var>
+			<var type="etc">주글주글하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>II.하</str>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be withered</trans>
+				<trans>be wrinkled</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<eg>공기가 빠져 버린 공은 이제 작고 쪼글쪼글했다.</eg>
+					<eg>가방 속에 넣어 두었던 편지가 구겨져 쪼글쪼글했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA" cor="cross" n="01">
+				<frame>Y=N1-에 X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(주름|주름살)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">구체물|부분</sel_rst>
+					<eg>어느 새 아버지의 이마에도 주름살이 쪼글쪼글했다.</eg>
+					<eg>그녀의 치마에 주름이 쪼글쪼글했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA" cor="cross" n="01">
+				<frame>X=N0-이 Y=N1-로 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물|부분</sel_rst>
+					<sel_rst arg="Y" tht="INS">(주름|주름살)</sel_rst>
+					<eg>어느 새 아버지의 이마도 주름살로 쪼글쪼글했다.</eg>
+					<eg>그녀의 치마가 주름으로 쪼글쪼글했다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+				</col_grp>
+				<mor_rel>
+					<ad_rel>쪼글쪼글하게 주름지다</ad_rel>
+					<ad_rel>쪼글쪼글하게 구겨지다</ad_rel>
+				</mor_rel>
+			</com>
+		</sense>
+	</entry>
+</superEntry>

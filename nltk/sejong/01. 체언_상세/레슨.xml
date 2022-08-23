@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>레슨</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/09</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/21</mod_date>
+				<mod_writer>김미현</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/07</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note>예문 일부삭제</mod_note>
+				<mod_note>의미부류 수정</mod_note>
+				<mod_note>동사결합 형식수정</mod_note>
+				<mod_note>격틀 정보수정</mod_note>
+				<mod_note>논항선택제약 정보수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/14</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/29</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/10/21(김미현)선택제약 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">lesson</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>아이는 일주일에 두번씩 피아노 ~을 받는다.</eg>
+				<trans>lesson</trans>
+				<sem_class>일</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에게 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~을 받다</form>
+					<frame>Y-이 X-에게 ~을 받다</frame>
+					<frame>Y-이 X-로부터 ~을 받다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에 대한 ~</max_n_str>
+				<sel_rst arg="X">직업인간</sel_rst>
+				<sel_rst arg="X">비대칭적관계인간</sel_rst>
+				<sel_rst arg="Y">일시적역할인간</sel_rst>
+				<sel_rst arg="Y">비대칭적관계인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

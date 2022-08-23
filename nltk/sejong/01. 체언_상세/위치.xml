@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>위치</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/08/31</cre_date>
+				<cre_writer>김미란2</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/24</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/13</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note>동사구문 이동 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/01/11</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>센스3, max_n 기술</mod_note>
+			</mod>
+			<note>1999/09/17(김미란2)</note>
+			<note>2000/04/24(김미란2)</note>
+			<note>2000/04/28(김미란2)</note>
+			<note>2000/05/06(김미란2)</note>
+			<note>2003/02/27(김미순)sense 1 예문수정</note>
+			<note>2003/03/24(이성헌)센스1에서 '상태'로서의 센스3을 분할</note>
+			<note>comb_v add로 이동</note>
+			<note>sel_res 입력</note>
+			<note>sem '속성'에서 '장소'로 수정</note>
+			<note>sense 2 trans 수정</note>
+			<note>trans 수정</note>
+			<note>센스1의 cl에 '곳|군데'를 기재</note>
+			<note>센스1의 supv와 sel_res을 센스3으로 수정</note>
+			<add>sense 1 ~가 변하다</add>
+			<add>sense 2 ~가 바뀌다|흔들리다|약화되다|고정되다|차지하다</add>
+			<add>~를 바꾸다|차지하다|찾다|정하다</add>
+			<add>~를 부여하다</add>
+			<add>~에 오르다|도달하다|서다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">位置</org>
+		
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~각</comp>
+			<comp pos="n" type="suffix">~감각</comp>
+			<comp pos="n" type="suffix">~등</comp>
+			<comp pos="n" type="suffix">~벡터</comp>
+			<comp pos="n" type="suffix">~습성</comp>
+			<comp pos="n" type="suffix">~에너지</comp>
+			<comp pos="n" type="suffix">~천문학</comp>
+			<comp pos="n" type="prefix">기본~</comp>
+			<comp pos="n" type="prefix">대칭~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>경찰들은 범인의 ~를 추적하고 있었다.</eg>
+				<trans>location</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="UR"/>
+				<sem_class>장소</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 정확하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 추적하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 찾다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그들은 자신들의 ~가 흔들리는 것을 두려워하기 때문에 일찍 후계자를 키우지 않는다.</eg>
+				<trans>status</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="UR"/>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">곤란한 ~</comb_aj>
+				<comb_aj type="appr">높은 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 바뀌다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 흔들리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 약화되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 바꾸다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 차지하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 찾다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 정하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 오르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 도달하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 서다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>그의 집은 언덕 높은 곳에 ~를 한 덕에 이번 홍수에서 무사할 수 있었다.</eg>
+				<trans>location</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="UR"/>
+				<sem_class>상태</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-에 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|장소</sel_rst>
+				<sel_rst arg="Y">장소</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

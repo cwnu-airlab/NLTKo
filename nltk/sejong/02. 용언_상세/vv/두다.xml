@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>두다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2004/07/10</cre_date>
+				<cre_writer>박철우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2004/07/16</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>격틀수정, Vaux 격틀 검토 요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/31</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>엔트리 분리; 센스 확장 재기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>배치</sem_class>
+				<trans>put</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Z" tht="LOC">장소</sel_rst>
+					<eg>가져온 것은 그냥 책상 위에 두고 가거라.</eg>
+					<eg>이 화분은 어디에 두면 좋을까?</eg>
+					<eg>어머니는 돈을 항상 침대 매트리스 밑에 두신다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>접근</sem_class>
+				<trans>have</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">비의도적행위</sel_rst>
+					<sel_rst arg="Z" tht="LOC">미래(눈앞|목전)</sel_rst>
+					<eg>우리는 승리를 목전에 두고 있다.</eg>
+					<eg>사람은 언제나 죽음을 눈앞에 둔 것처럼 생각하고 살아야 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>배치</sem_class>
+				<trans>leave</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Z" tht="LOC">장소</sel_rst>
+					<eg>고향에 두고 온 자식들을 생각하면 죽어도 눈을 못 감을 것 같다.</eg>
+					<eg>두고 온 물건들을 누가 훔쳐 가면 어떡하지?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>bear</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">심리상태|인지상태</sel_rst>
+					<sel_rst arg="Z" tht="LOC">온</sel_rst>
+					<eg>앞으로 우리는 어디에 희망을 두고 살아가야 하는가?</eg>
+					<eg>항상 뜻을 둔 일을 위해 최선의 노력을 기울이며 살아야 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>배치</sem_class>
+				<trans>stuff</trans>
+				<trans>put into</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Z" tht="LOC">구체물</sel_rst>
+					<eg>어머니는 이불에 솜을 두셨다.</eg>
+					<eg>나는 밥에 팥을 둔 것을 좋아한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="06">
+			<sem_grp>
+				<sem_class>획득행위</sem_class>
+				<trans>have</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">비대칭적관계인간</sel_rst>
+					<sel_rst arg="Z" tht="LOC">장소</sel_rst>
+					<eg>집에 집사를 두고 사는 사람이 이 나라에 얼마나 되겠는가?</eg>
+					<eg>요즘에 도둑이 들끓는다고 하니 동네 초소에 경비원을 두어야겠다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="07">
+			<sem_grp>
+				<sem_class>획득행위</sem_class>
+				<trans>have</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">비대칭적친족(자식|아들|딸)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">(슬하)</sel_rst>
+					<eg>큰아버님은 슬하에 아들 둘과 딸 하나를 두셨다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<sel_rst arg="Z" tht="FNS">관계인간</sel_rst>
+					<eg>그런 여자를 며느리로 두었다간 늙어서 서러움 당하기 십상이다.</eg>
+					<eg>나보다 나은 사람을 친구로 두어야 발전이 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="08">
+			<sem_grp>
+				<sem_class>창조행위</sem_class>
+				<trans>set up</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">단체</sel_rst>
+					<sel_rst arg="Z" tht="LOC">집단</sel_rst>
+					<eg>이 정부에서는 대통령 직속으로 고위 공직자 비리를 전담하는 부서를 두려고 한다.</eg>
+					<eg>우리 은행은 전국에 백 개의 지점을 두고 있습니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="09">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>leave (an interval)</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단|교통기관</sel_rst>
+					<sel_rst arg="Y" tht="THM">시간|길이(간격)</sel_rst>
+					<eg>그 비행기는 한 시간씩 간격을 두고 출발한다.</eg>
+					<eg>우리 부대는 앞 부대와 300미터의 거리를 두고 행군을 시작했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단|교통기관</sel_rst>
+					<sel_rst arg="Y" tht="THM">시간|길이(간격)</sel_rst>
+					<sel_rst arg="Z" tht="CRT">수량시간|길이</sel_rst>
+					<eg>그 비행기는 간격을 한 시간씩 두고 출발한다.</eg>
+					<eg>우리 부대는 앞 부대와 거리를 약간씩 두고 행군을 시작했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단|교통기관</sel_rst>
+					<sel_rst arg="Y" tht="THM">수량시간|길이</sel_rst>
+					<eg>그 그 일 때문에 며칠을 두고 고민했다.</eg>
+					<eg>우리 한번 시간을 두고 생각해 봅시다.</eg>
+					<eg>어디 두고 보자.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="10">
+			<sem_grp>
+				<sem_class>획득행위</sem_class>
+				<trans>be at</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">(적)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">단체</sel_rst>
+					<eg>그는 아직 우리 학교에 적을 두고 있다.</eg>
+					<eg>그 간첩은 한 중소기업에 적을 두고 그와 같은 공작을 펴 왔던 것으로 알려졌다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="11">
+			<sem_grp>
+				<sem_class>평가</sem_class>
+				<trans>speakng of</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<eg>그들이 너를 두고 간첩이라고 하는 것을 너는 어떻게 생각하니?</eg>
+					<eg>그런 일을 두고 다 헛짓이라고 하는 거야.</eg>
+					<eg>그런 여자를 두고 헛똑똑이라고 하는 거야.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=S지1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM"></sel_rst>
+					<eg>그 일을 어떻게 처리할 것인지를 두고 아직 의견이 분분하다.</eg>
+					<eg>그의 사표를 수리할지 안 할지를 두고 임원진은 오랜 시간 회의를 했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="13">
+			<sem_grp>
+				<sem_class>배치</sem_class>
+				<trans>keep</trans>
+				<trans>leave</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<sel_rst arg="Y" tht="FNS">정적사태</sel_rst>
+					<eg>그 사람을 절대로 지금의 상태로 두어서는 안 된다.</eg>
+					<eg>그를 잠든 채 두면 체온이 내려가 목숨이 위태로워질 수도 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 ADV V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<sel_rst arg="ADV">(혼자|그냥)|V-게</sel_rst>
+					<eg>그 사람을 절대로 혼자 두어서는 안 된다.</eg>
+					<eg>그를 혼자 있게 두었다가는 어떤 일이 일어날지 모르겠다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="14">
+			<sem_grp>
+				<sem_class>중단행위</sem_class>
+				<trans>give up</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<eg>좋은 길을 두고 왜 그런 길로 가니?</eg>
+					<eg>그는 그렇게 좋은 아내를 두고 왜 그런 여자와 놀아난 것일까?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="13">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>keep</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="reci" n="1">
+				<frame>X=N0-이 Z=N2-와 서로 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="COM">인간|인간집단</sel_rst>
+					<sel_rst arg="Z" tht="LOC">(거리)</sel_rst>
+					<eg>나는 네가 그 친구와 일정한 거리를 두고 지냈으면 좋겠다.</eg>
+					<eg>처음에는 그 조직과 다소 거리를 두고 거래를 해 왔다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="reci" n="1">
+				<frame>X+Z=N0-이 서로 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Z" tht="LOC">(거리)</sel_rst>
+					<eg>우리는 만난 지 얼마 안 되었을 때는 서로 일정한 거리를 두고 사귀었다.</eg>
+					<eg>그 두 회사는 서로 거리를 두고 거래를 하는데 관계를 더 발전시키지 못하고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2004/07/10</cre_date>
+				<cre_writer>박철우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2004/07/16</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>격틀수정, Vaux 격틀 검토 요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/31</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>move</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">단일경기(바둑|장기)</sel_rst>
+					<eg>아버지는 자주 길 건너 부동산에서 바둑을 두곤 하신다.</eg>
+					<eg>형과 장기를 두면 내가 항상 이긴다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2004/07/10</cre_date>
+				<cre_writer>박철우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2004/07/16</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>격틀수정, Vaux 격틀 검토 요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/31</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>let</trans>
+			</sem_grp>
+			<frame_grp type="Vaux">
+				<frame>V-어 Vaux</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT"></sel_rst>
+					<eg>그 녀석을 꼼짝 못하게 거기에 묶어 두어라.</eg>
+					<eg>어렸을 때 배워 둔 것은 쉽사리 잊히지 않는다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>흑자</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/16</cre_date>
+				<cre_writer>서진숙</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/30</mod_date>
+				<mod_writer>서진숙</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스2 추가했으나 검토 요망, add를 센스1과 2 n_v로 이동, 센스1 영어대역어, n_v 추가, 최대논항구조 기술, 선택제약 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/02/03</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>npred_vsup의 form vcompound의 값을 no로</mod_note>
+			</mod>
+			<add>~가 나타나다</add>
+			<add>~를 기록하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">黑字</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>올해 무역수지는 ~를 기록했다.</eg>
+				<trans>black letters</trans>
+				<trans>black figures</trans>
+				<trans>showing a profit</trans>
+				<sem_class>경제현상</sem_class>
+				<lr>
+					<ant type="grad">적자</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 되다</form>
+					<frame>X-이 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~로 돌아서다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 기록하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">산업|분야|(수지)</sel_rst>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>우리 회사는 상반기에 731억원의 ~를 달성했다.</eg>
+				<trans>black letters</trans>
+				<trans>black figures</trans>
+				<sem_class>이익</sem_class>
+				<lr>
+					<ant type="grad">적자</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 나다</form>
+					<frame>X-이 ~가 나다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 나타나다</form>
+					<frame>X-이 ~가 나타나다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 내다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 올리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 기록하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">산업|분야|(수지)</sel_rst>
+				<cl type="uni">회</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

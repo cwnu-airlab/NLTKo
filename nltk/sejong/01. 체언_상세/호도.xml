@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>호도</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/06/03</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/15</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/26</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/08</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/06/03(고길수)의미1과 2의 구분이 적절한 지 검토 요망</note>
+			<note>2002/07/26(한선혜)센스1과 2의 기능동사구문 수정</note>
+			<note>2002/07/30(박동호)</note>
+			<note>2003/07/08(서진숙)</note>
+			<note>2003/09/15(이성헌)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">糊塗</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>언론의 지속적인 ~로 인해 많은 사람들이 나라의 위기를 인식하지 못하고 있다.</eg>
+				<eg>자신의 잘못을 ~를 하기 위해 정쟁을 유발하는 정치가들이 많다.</eg>
+				<eg>우리는 전쟁을 진보나 문명의 미명으로 ~ 하기를 부정한다.</eg>
+				<trans>temporizing</trans>
+				<trans>makeshift</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>추상적행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">철저한 ~</comb_aj>
+				<comb_aj type="magn">치밀한 ~</comb_aj>
+				<comb_aj type="magn">어설픈 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을  Z|S 것-로~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 X-에의해 ~가 되다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">상태|사건|현상|행위|추상적대상</sel_rst>
+				<sel_rst arg="Z">상태|사건|현상|행위|추상적대상</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>대부분의 사람들은 경제가 안정되고 있다는 정치가들의 ~를 믿지 않았다.</eg>
+				<eg>그들은 현실의 본질을 왜곡시키고 ~를 하고 있다.</eg>
+				<eg>그의 중간노선 표방은 기회주의적 행태를 ~를 한 것에 불과하다.</eg>
+				<trans>temporizing</trans>
+				<trans>makeshift</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>추상적행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Z-에게 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Z-에게 S다고 ~를 하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">상태|사건|현상|행위|추상적대상</sel_rst>
+				<sel_rst arg="Z">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S다는  ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/06/03</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/08</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/26</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/08</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>comb_v "~를 깨다" 추가</mod_note>
+			</mod>
+			<note>2002/07/29(한선혜)add 항목 기술</note>
+			<note>예문 수정</note>
+			<note>단위 표현에 '알|개', '조각' 등록</note>
+			<note>'호두'에서 기술될 내용을 잘못된 말에서도 하는 것인가요?</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see>호두</see>
+		<morph_grp>
+			<var type="xs">호두</var>
+			<str type="temp"></str>
+			<org lg="si">胡桃</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>할아버지는 망치로 ~를 까 속살을 손자의 입에 넣어 주셨다.</eg>
+				<eg>어머니는 ~나 잣을 좋아하셨다.</eg>
+				<eg>~를 따서 껍질을 벗기면 부드러운 알맹이가 나온다.</eg>
+				<trans>walnut</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>견과류</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 따다</form>
+					<frame></frame>				
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 먹다</form>
+					<frame></frame>				
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 까다</form>
+					<frame></frame>				
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 깨다</form>
+					<frame></frame>				
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">알</cl>
+				<cl type="uni">개</cl>
+				<cl type="div">조각</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

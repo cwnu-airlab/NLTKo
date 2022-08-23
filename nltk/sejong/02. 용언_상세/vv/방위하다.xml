@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>방위하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/14</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/14</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/05</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">방위를 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<org lg="si">防衛_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>defend</trans>
+				<trans>fortify</trans>
+				<trans>guard</trans>
+				<lr>
+					<syn type="kor">지키다</syn>
+					<syn type="kor">막다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|인간집단</sel_rst>
+					<eg>대한민국의 군대는 유사시 외부의 위협으로부터 대한민국을 방위하기 위하여 조직되었다.</eg>
+					<eg>농사를 천하의 대본으로 삼는 그 시대에 농사를 지음에 있어서 계획을 세우고 또 침략해 오는 적군으로부터 스스로를 방위하는 것은 중요한 행사였다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">지역</sel_rst>
+					<eg>해군으로서도 소극적으로 국토를 방위하는 외에 적극적인 대외 발전도 생각하고 있다.</eg>
+					<eg>우리는 외세에 대항하여 굳게 단결하여 국토를 방위하여야 한다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상|상태</sel_rst>
+					<eg>우리는 걸프지역의 친구들을 지원할 것이고 그들의 주권과 영토를 방위할 것입니다.</eg>
+					<eg>다른 나라들이 경제적으로 강해졌으므로 세계의 평화를 방위함에 있어 자신들의 몫을 책임져야 할 시기가 온 것이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>따다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/29</cre_date>
+				<cre_writer>박소영</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/17</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="a"/>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>사동적이동행위</sem_class>
+				<trans>open</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-로 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(마개|뚜껑|병|통조림)|(문|금고)</sel_rst>
+					<sel_rst arg="Z" tht="INS">(병따개|펜치|칼|열쇠)</sel_rst>
+					<eg>병마개를 병따개로 따야지 이빨로 따면 이가 상한다.</eg>
+					<eg>이제 통조림을 따서 요리를 해야지.</eg>
+					<eg>우리는 열쇠로 문을 따고 안으로 밀려 들어갔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>파괴행위</sem_class>
+				<trans>open</trans>
+				<trans>lance</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-로 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(종기|상처|곪은_데)|(배)|신체부위|생선</sel_rst>
+					<sel_rst arg="Z" tht="INS">(칼|식칼|회칼)</sel_rst>
+					<eg>의사는 날카로운 메스로 그의 종기를 따고 고름을 빼냈다.</eg>
+					<eg>잡은 고기가 상하지 않도록 배를 따서 말려라.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>파괴행위</sem_class>
+				<trans></trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-로 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(치마단|실밥|옷단)</sel_rst>
+					<sel_rst arg="Z" tht="INS">(칼|가위)</sel_rst>
+					<eg>치마단을 따서 좀 더 길게 만드는 것이 좋겠다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>follow</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(이름|성|제목)</sel_rst>
+					<eg>고아원에서 데려온 아이는 아버지의 성을 따서 이름을 지었다.</eg>
+					<eg>그 영화의 제목을 따라서 카페 이름을 짓자.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>획득행위</sem_class>
+				<trans>obtain</trans>
+				<trans>gain</trans>
+				<trans>receive</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(학위|학점|면허|메달|우승컵)|(돈|상금)</sel_rst>
+					<eg>철수는 이번 시험에서 A 학점을 땄다.</eg>
+					<eg>노름판에서는 절대로 돈을 딸 수 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="06">
+			<sem_grp>
+				<sem_class>획득행위</sem_class>
+				<trans>pick</trans>
+				<trans>pluck</trans>
+				<trans>nip</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에서 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(과일|채소|꽃|열매)</sel_rst>
+					<sel_rst arg="Z" tht="SRC">(나무|꽃)</sel_rst>
+					<eg>올해는 비가 많이 와서 복숭아를 제 때 따지 못하겠다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="07">
+			<sem_grp>
+				<sem_class>획득행위</sem_class>
+				<trans></trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에서 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(굴|전복|소라)</sel_rst>
+					<sel_rst arg="Z" tht="SRC">장소(바다|바위)</sel_rst>
+					<eg>해녀들이 바다에서 굴, 전복들을 따서 생계를 유지한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="08">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>quote</trans>
+				<trans>make selections</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에서 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(기사|요점|부분|구절)</sel_rst>
+					<sel_rst arg="Z" tht="SRC">(작품|책|글|신문)</sel_rst>
+					<eg>신문에서 중요한 기사만 따서 오려 붙여라.</eg>
+					<eg>이 글에서 요점만 따서 발표해라.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<idm_grp>
+			<idm>점수를 따다</idm>
+			<idm>꼭지를 따다</idm>
+		</idm_grp>
+	</entry>
+</superEntry>

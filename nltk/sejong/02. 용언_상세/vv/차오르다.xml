@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>차오르다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/20</cre_date>
+				<cre_writer>유경민</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/06</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/22</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 정보 수정</mod_note>
+			</mod>
+			<note>2002/10/15(허용)</note>
+			<note>2003/10/06(한선혜)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="a"/>
+			<str>V-어V</str>
+			<infl type="leu"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>증가</sem_class>
+				<trans>measure</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">물장소|(비|물)</sel_rst>
+					<sel_rst arg="Y" tht="CRT">관계구체물|장소</sel_rst>
+					<eg>소년은 소녀를 업고 개울을 건너려 했지만 갑자기 불어난 물이 소년의 어깨까지 차오르는 바람에 바위 위로 올라가 피신할 수밖에 없었다.</eg>
+					<eg>밤새 내린 비로 강물이 둑까지 차오르자 동네 사람들은 술렁이기 시작했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

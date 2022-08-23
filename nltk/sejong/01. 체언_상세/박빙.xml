@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>박빙</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/08</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/08/08(송인욱)의미부류 검토 요망</note>
+			<note>2003/10/14(박진호)격틀, 선택제약 추가. '살얼음'이라는 본래의 의미는 설정할 필요가 없는지?</note>
+			<note>2003/10/28(송인욱)본래의 의미로는 쓰이지 않는 것으로 보임</note>
+			<add>2003/08/08(송인욱)동사자유구성으로 '~으로 치닫다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">薄氷</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 항상 ~의 승부에서 느껴지는 짜릿한 긴장감을 즐긴다.</eg>
+				<eg>이번 대회에서 우리 팀은 ~의 차이로 2위에 머물렀다.</eg>
+				<eg>실력이 막상막하인 둘의 대결은 점점 ~으로 치닫고 있었다.</eg>
+				<trans>thin ice</trans>
+				<sem_class>속성값</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~의 차이</comb_n>
+				<comb_n type="compound">~의 우위</comb_n>
+				<comb_n type="compound">~의 승부</comb_n>
+				<comb_n type="compound">~의 대결</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 ~이다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 치닫다</form>
+				</comb_v>
+				<sel_rst arg="X">(승부)</sel_rst>
+				<sel_rst arg="X">(경기)</sel_rst>
+				<sel_rst arg="X">(게임)</sel_rst>
+				<sel_rst arg="X">(싸움)</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

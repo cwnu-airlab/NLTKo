@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>한가득하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/14</cre_date>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2005/08/15</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>D.하</str>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be full</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-에 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="LOC">용기|장소</sel_rst>
+					<eg>쟁반에 사과가 한가득했는데 금방 다 없어졌다.</eg>
+					<eg>연말연시에는 항상 거리에 사람들이 한가득하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">심리상태(걱정|근심|기쁨)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">인간|신체부위</sel_rst>
+					<eg>홍주의 눈에는 걱정이 한가득했지만 내가 어떻게 해줘야 할지는 정말 모르겠다.</eg>
+					<eg>어머니의 얼굴에는 자식에 대한 걱정이 한가득했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-로 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">용기|장소</sel_rst>
+					<sel_rst arg="Y" tht="INS">구체물</sel_rst>
+					<eg>쟁반이 사과로 한가득한 것을 보고 그 어린 아이들은 아주 좋아했다.</eg>
+					<eg>축제행사를 위해 유명한 가수가 왔다는 소식을 듣고 강당이 학생들로 한가득했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

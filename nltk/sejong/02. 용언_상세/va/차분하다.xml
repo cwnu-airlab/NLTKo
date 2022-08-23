@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>차분하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/06</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/12/24</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>형태 정보 구획 및 의미 정보 구획 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>R.하</str>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be calm</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|속성(성격|태도|행동)</sel_rst>
+					<eg>그 여자는 성격이 차분하고 정확하다.</eg>
+					<eg>그 아이는 나이답지 않게 행동이 차분하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">속성(말투|표정|목소리)</sel_rst>
+					<eg>상대의 거친 욕설에도 개의치 않고 그녀는 차분한 목소리로 자신의 상황을 설명했다.</eg>
+					<eg>그는 차분한 표정으로 연설을 계속했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">속성(분위기|방식)</sel_rst>
+					<eg>이 연구실의 분위기는 차분하다 못해 엄숙하다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>수험</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/19</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/19</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/01</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>의미부류 상태에서 지속적활동으로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/21</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>파생어, 복합명사 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/24</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>compound의 '수험표'를 comp로</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>'준비하다, 치르다' 추가;맥스엔, 선택제약 정보 추가;단위표현 추가</mod_note>
+			</mod>
+			<note>2003/10/19(기영인)'시험을 치르다'의 한자풀이로는 행위에 해당되나 독자적으로 거의 쓰이지 않는 단일명사이므로 의미부류 '상태'부여</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">受驗</org>
+		
+			<comp pos="n" type="suffix">~생</comp>
+			<comp pos="n" type="suffix">~서</comp>
+			<comp pos="n" type="suffix">~장</comp>
+			<comp pos="n" type="suffix">~표</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>짧은 기간이지만 ~을 철저하게 준비해라.</eg>
+				<trans>taking an exam</trans>
+				<sem_class>지속적활동</sem_class><!--김성용(2004/10/01)기능동사를 설정하기 힘듦, 하지만 의미부류를 상태로 보기는 힘듦, 의미부류 확인 요망-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound">~ 자격</comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 준비하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 치르다</form>
+					<frame>X-이 Y-을 ~을 치르다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">시험</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

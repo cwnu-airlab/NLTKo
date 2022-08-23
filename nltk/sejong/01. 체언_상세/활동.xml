@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>활동</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/13</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/12</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note>동사결합 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/21</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+				<mod>
+				<mod_date>2007/08/03</mod_date>
+				<mod_writer>백고운</mod_writer>
+				<mod_note>합성어추가</mod_note>
+			</mod>
+			<note>2000/07/21(김종명)</note>
+			<note>2001/02/10(이호영)합성어 수정</note>
+			<note>2003/01/30(기영인)센스1과 센스3 통합</note>
+			<note>2003/02/23(박동호)</note>
+			<note>2003/02/24(기영인)</note>
+			<note>combaj 수정</note>
+			<note>combv 정보 add로 이동(검토 필요)</note>
+			<note>combv 정보삭제</note>
+			<note>sense 1,예문 수정</note>
+			<note>sense 2,예문 수정</note>
+			<note>sense 3,예문 수정</note>
+			<note>가산/비가산/관계/대칭 수정</note>
+			<note>관련어 수정</note>
+			<note>기능동사 수정</note>
+			<note>논항 선택제약 수정</note>
+			<note>단위표현 정보삭제</note>
+			<note>단위표현 추가</note>
+			<note>동사-자유구성 추가</note>
+			<note>선택제약 정보수정</note>
+			<note>선텍제약 정보수정</note>
+			<note>센스1 예문 수정 및 추가(센스3의 예문 이동)</note>
+			<note>센스2 combaj 정보추가</note>
+			<note>수식어-명사 수정</note>
+			<note>수식어-문장 수정</note>
+			<note>의미부류 수정</note>
+			<note>최대논항-명사구 추가</note>
+			<note>하위어 추가</note>
+			<note>형용사-자유구성 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">活動</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~상</der>
+			<der pos="n" type="suffix">~성</der>
+			<der pos="n" type="suffix">~가</der>
+			<der pos="n" type="suffix">~력</der>
+			<der pos="n" type="suffix">~물</der>
+			<der pos="n" type="suffix">~복</der>
+			<der pos="n" type="suffix">~비</der>
+			<comp pos="n" type="suffix">~경력</comp>
+			<comp pos="n" type="suffix">~무대</comp>
+			<comp pos="n" type="suffix">~범위</comp>
+			<comp pos="n" type="prefix">봉사~</comp>
+			<comp pos="n" type="prefix">연구~</comp>
+			<comp pos="n" type="prefix">작품~</comp>
+			<comp pos="n" type="prefix">취미~</comp>
+			<comp pos="n" type="prefix">분비~</comp>
+			<comp pos="n" type="prefix">연예~</comp>
+			<comp pos="n" type="prefix">야외~</comp>
+			<comp pos="n" type="prefix">방송~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>야행성 동물은 밤에 주로 ~을 한다.</eg>
+				<eg>나는 항상 ~에 편한 옷을 입고 일한다.</eg>
+				<trans>activity</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>행동</rel>
+					<rel>움직임</rel>
+					<rel>노력</rel>
+					<rel>운동</rel>
+					<rel>손</rel>
+					<rel>몸</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 불편하다</comb_aj>
+				<comb_aj type="appr">~이 어렵다</comb_aj>
+				<comb_aj type="appr">~이 자유롭다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 자제하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 멈추다</form>
+					<frame></frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|동물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N</pre_n>
+				<s_n>S는 ~</s_n>
+				<s_n>ㄴ ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이 단체는 여러 분야에서 활발하게 ~을 한다.</eg>
+				<trans>activity</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hypo>봉사</hypo>
+					<hypo>연구</hypo>
+					<hypo>작품</hypo>
+					<hypo>취미~</hypo>
+					<rel>참여</rel>
+					<rel>단체</rel>
+					<rel>성과</rel>
+					<rel>목표</rel>
+					<rel>발전</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 다양하다</comb_aj>
+				<comb_aj type="appr">~이 왕성하다</comb_aj>
+				<comb_aj type="appr">~이 활발하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 개시하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 계속하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 시작하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 멈추다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 자제하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 중지하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|단체</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N</pre_n>
+				<s_n>S는 ~</s_n>
+				<s_n>ㄴ ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

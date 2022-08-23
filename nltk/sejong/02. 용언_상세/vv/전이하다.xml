@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>전이하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/03/30</cre_date>
+				<cre_writer>박철우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/05/26</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">전이를 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<org lg="si">轉移_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>spread</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=N2-에서 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">질병및증세</sel_rst>
+					<sel_rst arg="Y" tht="GOL">신체부위</sel_rst>
+					<sel_rst arg="Z" tht="SRC">신체부위</sel_rst>
+					<eg>뇌종양은 처음부터 뇌에 생기는 것도 있고 다른 부분에서 전이할 수도 있다.</eg>
+					<eg>암이 장으로 전이 되는 경우 혈변을 볼 수 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>change</trans>
+				<trans>transfer</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=N2-에서 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">온</sel_rst>
+					<sel_rst arg="Y" tht="GOL">상태|장소|부분시간|방향</sel_rst>
+					<sel_rst arg="Z" tht="SRC">상태|장소|부분시간|방향</sel_rst>
+					<eg>21세기를 맞아 한국은 산업화 사회에서 정보화 사회로 빠르게 전이하고 있다.</eg>
+					<eg>1단계에서 흔히 일어나는 혼란은 자율적 규칙 정하기 활동으로 전이해 가는 데 있어서 결정적인 주요 단서가 된다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

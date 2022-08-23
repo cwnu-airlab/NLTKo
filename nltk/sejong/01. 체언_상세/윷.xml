@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>윷</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/19</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/09</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/27</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note>단위정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/04</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/10/08(박동호)</note>
+			<note>2003/01/04(한동훈)sense1,2의 동사자유구성을add로 옮기고 의미부류수정</note>
+			<note>2003/01/09(고길수)'놀이'와 '기구'를 별도 의미로 분할</note>
+			<note>센스1의 pre_s에 '#' 정보 추가</note>
+			<note>센스2의 pre_d, pre_s에 '#' 정보 추가</note>
+			<note>센스2의 의미부류 재검토 필요, '운동경기, 놀이명'을 묶는 별도 부류 설정 필요</note>
+			<note>센스3의 단위표현에서 '번' 삭제</note>
+			<note>센스3의 영어대역어 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~꾼</der>
+			<comp pos="n" type="suffix">~가락</comp>
+			<comp pos="n" type="suffix">~노래</comp>
+			<comp pos="n" type="suffix">~놀이</comp>
+			<comp pos="n" type="suffix">~밭</comp>
+			<comp pos="n" type="suffix">~자리</comp>
+			<comp pos="n" type="suffix">~점</comp>
+			<comp pos="n" type="suffix">~짝</comp>
+			<comp pos="n" type="suffix">~판</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>삼촌은 기합을 넣으며 ~을 던지셨다.</eg>
+				<trans>yutfour-stick</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>기구</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>썰매</coord>
+					<coord>연</coord>
+					<coord>제기</coord>
+					<coord>팽이</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 던지다</form>
+					<frame>X-이 ~을 던지다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>나는 명절 때마다 ~을 논다.</eg>
+				<trans>yutfour-stick game</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hypo>말판</hypo>
+					<hypo>윷가락</hypo>
+					<hypo>윷짝</hypo>
+					<hypo>윷판</hypo>
+					<coord>썰매</coord>
+					<coord>연</coord>
+					<coord>제기</coord>
+					<coord>팽이</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 놀다</form>
+					<frame>X-는 ~을 놀다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>이번에 ~이 나오면 이길 수 있다.</eg>
+				<trans>yut</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>속성값</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>도</coord>
+					<coord>개</coord>
+					<coord>걸</coord>
+					<coord>모</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 나오다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

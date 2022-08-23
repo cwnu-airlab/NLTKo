@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>명승지</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/14</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/14</mod_date>
+				<mod_writer>류희선</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/02</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>예문 보완, n_v기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/24</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>의미부류 수정, n_v의 yes를 no로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/10</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>pos 수정</mod_note>
+				<mod_note>내부구조 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str type="N_R">명승+지</str>
+			<org lg="si">名勝地</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리는 ~를 둘러 보면서 이야기를 나누었다.</eg>
+				<eg>그곳에 가면 울창한 산림이 끝없이 전개되는 ~가 펼쳐진다.</eg>
+				<eg>우리 나라는 ~가 많기로 유명하다.</eg>
+				<trans>site of scenic beauty</trans>
+				<sem_class>속성기능장소</sem_class><!--장소에서 속성기능장소로 수정(김)-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 둘러보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 구경하다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

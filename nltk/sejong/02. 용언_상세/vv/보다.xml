@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>보다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>1998/00/00</cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/13</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/30</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="a"/>
+			<str>V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>시각적행위</sem_class>
+				<trans>see</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">동물|인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|장소(앞|뒤|옆)</sel_rst>
+					<eg>우리는 피아노를 치고 있는 영희를 보았다.</eg>
+					<eg>그가 나를 멀리서 보고 손짓을 했다.</eg>
+					<eg>혹시 우리 아이를 못 보셨나요?</eg>
+					<eg>우리는 풀밭에 앉아 저녁놀을 보았다.</eg>
+					<eg>네가 어제 하루 종일 찾던 책을 내가 서가에서 봤는데.</eg>
+					<eg>내 얼굴을 똑바로 봐라.</eg>
+					<eg>앞을 잘 보고 걸어라.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">동물|인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것|Q</sel_rst>
+					<eg>아이들은 커다란 비행기가 하늘을 날아가는 것을 보았다.</eg>
+					<eg>철수는 영희가 잠자는 것을 보았다.</eg>
+					<eg>철수는 누군가가 지나가는 것을 얼핏 보았다.</eg>
+					<eg>영희는 철수가 온 것을 보았다.</eg>
+					<eg>비가 오는지 봐라.</eg>
+					<eg>누가 떠들고 있는가를 좀 봐라.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>시각적행위</sem_class>
+				<trans>see</trans>
+				<trans>meet</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<eg>기환이는 그를 보러 회사로 찾아갔다.</eg>
+					<eg>나는 그를 본 지 몇 달이 되었을 거야.</eg>
+					<eg>이젠 그 여자를 볼 기회가 영영 없겠지.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="sym" n="01">
+				<frame>X=N0-이 Y=N1-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="COM">인간</sel_rst>
+					<eg>철수는 영희와 서로 본 지가 꽤 오래되었다.</eg>
+					<eg>이제 저는 당신과 다시는 서로 볼 필요가 없겠지요?</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="sym" n="01">
+				<frame>X+Y=N0-이 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="AGT">인간</sel_rst>
+					<eg>철수와 영희는 서로 본 지가 꽤 오래되었다.</eg>
+					<eg>그들은 서로 본 지가 꽤 오래되었다.</eg>
+					<eg>이제 우리는 다시는 서로 볼 필요가 없겠지요?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>consider</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|(얼굴)|추상적대상(처지|사정|이름|성격)</sel_rst>
+					<eg>제발 나를 봐서 그 문제는 더 이상 거론하지 말아 다오.</eg>
+					<eg>내 처지를 봐서라도 벌금만은 물리지 마십시오.</eg>
+					<eg>이름을 봐서는 프랑스 사람 같은데, 국적은 독일로 되어 있군.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>평가</sem_class>
+				<trans>appraise</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체자연물(땅|논|산)|구체인공물(집|아파트|건물|물건|상품)</sel_rst>
+					<eg>어머니는 땅을 보러 과천에 갔다.</eg>
+					<eg>어머니는 아파트를 보러 과천에 갔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>시각적행위</sem_class>
+				<trans>read</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">텍스트담지물(책|신문)|텍스트</sel_rst>
+					<eg>영희는 집에서 하루 종일 소설책을 봤다.</eg>
+					<eg>오늘 신문을 보니 암을 치료할 약이 개발되었다고 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="06">
+			<sem_grp>
+				<sem_class>시각적행위</sem_class>
+				<trans>watch (movie or television)</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">예술(영화|오페라)|(텔레비전)|공연|운동경기</sel_rst>
+					<eg>오늘 저녁에 나와 영화를 보러 가지 않을래?</eg>
+					<eg>텔레비전을 너무 많이 보다 보니 눈이 나빠졌다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="07">
+			<sem_grp>
+				<sem_class>시각적행위</sem_class>
+				<trans>consult</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(사전)</sel_rst>
+					<eg>모르는 단어가 있으면 사전을 봐야지 어휘 실력이 늘지.</eg>
+					<eg>이번 시험은 사전을 보면서 치러도 좋다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="08">
+			<sem_grp>
+				<sem_class>시각적행위</sem_class>
+				<trans>look (into sth)</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(거울|현미경|망원경)</sel_rst>
+					<eg>영희는 자기가 어떤 모습으로 비칠까 거울을 보았다.</eg>
+					<eg>현미경을 보니 수많은 세균들이 우글대고 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="09">
+			<sem_grp>
+				<sem_class>시각적행위</sem_class>
+				<trans>look at (the watch)</trans>
+				<trans>refer to (one's watch)</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(시계)</sel_rst>
+					<eg>나는 몇 시쯤 되었는지 시계를 보았다.</eg>
+					<eg>우리 아이는 네 살인데 벌써 시계를 볼 줄 알아요.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="10">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>take care of</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(아기|집|가게)</sel_rst>
+					<eg>휴일이라 모처럼 잠이나 실컷 자려고 했더니 아내가 외출하는 바람에 하루 종일 아기를 봤다.</eg>
+					<eg>어머니는 이웃집 아줌마에게 가게를 좀 봐 달라고 부탁했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="11">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>manage</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(일|사무|망|사회|회계|심판|내야)</sel_rst>
+					<eg>그는 휴일에도 일을 보느라 집에 없었다.</eg>
+					<eg>그는 볼일 보러 나갔다.</eg>
+					<eg>내가 그 친구 결혼식에서 사회를 봤지.</eg>
+					<eg>철수는 삼촌이 경영하는 회사에서 회계를 보고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="12">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>undergo (an examination)</trans>
+				<trans>take (an examination)</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(시험|고사|과거)</sel_rst>
+					<eg>영미는 일요일에 취직 시험을 보았다.</eg>
+					<eg>기말 고사는 잘 보았니?</eg>
+					<eg>옛날에는 벼슬을 하려면 과거를 보아야 했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="13">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>supervise (an examination)</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">(시험|고사|과거)</sel_rst>
+					<eg>우리 회사는 매월 승진 시험을 본다.</eg>
+					<eg>김 교수는 중간 시험은 보지 않고 보고서로 대체한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="14">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>set</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(상|술상|밥상|잠자리)</sel_rst>
+					<eg>손님이 오셨으니 빨리 술상을 봐 오너라.</eg>
+					<eg>아직도 우리집 아이들은 잠자리를 봐 주어야 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="15">
+			<sem_grp>
+				<sem_class>배설행위</sem_class>
+				<trans>urinate or excrement</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(변|대변|소변|대소변)</sel_rst>
+					<eg>참았던 대변을 보고 나니 이제야 살 것 같다.</eg>
+					<eg>대소변 보는 일이 얼마나 중요한 일인지 깨달았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="16">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>get (a grandchild or a concubine)</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">비대칭적친족(사위|며느리|아들|자손|시앗)</sel_rst>
+					<eg>김 진사네 댁은 사위를 본다고 집안이 온통 시끌벌적했다.</eg>
+					<eg>남편이 시앗을 본다는데 좋아할 여자가 어디 있겠어?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="17">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>take into consideration</trans>
+				<trans>see (the run of events)</trans>
+				<trans>see (which way the wind blows)</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(기회|형편|때|시기|틈)</sel_rst>
+					<eg>형편을 봐서 한번 방문하겠습니다.</eg>
+					<eg>아무리 좋은 말도 때를 봐서 해야 된다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="18">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>make tell (fortune)</trans>
+				<trans>consult divinations</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(점|사주|궁합|재수|관상|손금)</sel_rst>
+					<eg>김 의원은 이번 선거에서 당선될 수 있을지 점을 보러 갔다.</eg>
+					<eg>어머니는 사주를 보러 미아리에 나가셨다.</eg>
+					<eg>길거리에는 손금을 보는 사람들이 많이 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="19">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>tell (fortune)</trans>
+				<trans>practice divination</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간(점쟁이)</sel_rst>
+					<sel_rst arg="Y" tht="THM">(점|사주|궁합|재수|관상|손금)</sel_rst>
+					<eg>할아버지는 길거리에서 사람들의 손금을 봐 주면서 용돈을 벌어 쓰고 계셨다.</eg>
+					<eg>미아리의 처녀도사는 점을 잘 보기로 소문이 나 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="20">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>examine (a patient)</trans>
+				<trans>treat (a patient)</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간(의사)</sel_rst>
+					<sel_rst arg="Y" tht="THM">(환자)</sel_rst>
+					<eg>김 박사가 환자를 보는 시간은 오전 10시부터 정오까지이다.</eg>
+					<eg>지금 의사 선생님은 환자를 보고 계신다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="21">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>subscribe (for)</trans>
+				<trans>take in</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(신문|잡지)</sel_rst>
+					<eg>우리 집은 오랫 동안 동아일보를 보다가 이제 끊었다.</eg>
+					<eg>동생이 잡지사에 들어가는 바람에 그곳에는 발행하는 잡지를 보게 되었다</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="22">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>consider</trans>
+				<trans>think</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 ADV V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<sel_rst arg="ADV">A-게</sel_rst>
+					<eg>사람을 어떻게 보고 하는 수작이야.</eg>
+					<eg>농촌 사람들은 오히려 도시 사람들을 우습게 본다.</eg>
+					<eg>이번 프로젝트는 가볍게 보면 안돼.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=S1-고 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="CNT"></sel_rst>
+					<eg>나는 그가 옳다고 본다.</eg>
+					<eg>우리는 다음주쯤 이 일이 결말이 나리라고 본다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=S것1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="FNS"></sel_rst>
+					<eg>나는 철수가 내 계획에 적극적으로 찬성할 것으로 보았다.</eg>
+					<eg>기상대는 오늘 날씨가 좋을 것으로 보았다.</eg>
+					<eg>나는 여당도 결국은 이번의 획기적인 사회 복지 법안에 찬성할 것으로 본다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<sel_rst arg="Z" tht="FNS">인간</sel_rst>
+					<eg>사람을 뭘로 보고 하는 수작이야.</eg>
+					<eg>기영이는 태우를 처음부터 바보로 보았다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Z" tht="FNS">추상적대상</sel_rst>
+					<eg>나는 이 사태의 근본 원인을 내부 갈등으로 봅니다.</eg>
+					<eg>그는 현실을 무척 긍정적으로 본다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것</sel_rst>
+					<sel_rst arg="Z" tht="FNS">S것</sel_rst>
+					<eg>철수는 영희가 오지 않은 것을 자기를 무시한 것으로 보았다.</eg>
+					<eg>나는 그가 낙선한 게 진정한 민의가 반영된 것으로 보지 않는다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-을|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">온</sel_rst>
+					<eg>범인의 옷에 남겨진 혈흔으로 보아, 피해자는 격렬히 저항했음을 알 수 있다.</eg>
+					<eg>그의 태도를 보아 필사 무엇인가 숨기고 있는 것이 틀림없다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIT">
+				<frame>X=S것0-을|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="CNT">S것</sel_rst>
+					<eg>그가 잠적한 것으로 보아, 이번 사건에 관련되어 있음이 분명하다.</eg>
+					<eg>그가 허둥대는 것으로 보아 집에 무슨 일이 있는 것이 틀림없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<idm_grp>
+			<idm>장을 보다</idm>
+			<idm>볼 장(을) 다 보다</idm>
+			<idm>두고 보다</idm>
+			<idm>딴전을 보다</idm>
+			<idm>맛 좀 봐라</idm>
+			<idm>보기 좋게</idm>
+			<idm>보란 듯이</idm>
+			<idm>보아 하니</idm>
+			<idm>본을 보다</idm>
+			<idm>이것 봐라</idm>
+			<idm>그것 봐라</idm>
+			<idm>요것 봐라</idm>
+			<idm>어디 보자</idm>
+			<idm>어디 봅시다</idm>
+			<idm>욕(을) 보다</idm>
+			<idm>보십시요</idm>
+			<idm>어디 보자</idm>
+			<idm>쓴 맛 단 맛 다 보다</idm>
+			<idm>손(을)보다</idm>
+			<idm>불(을)보듯</idm>
+			<idm>빛(을)보다</idm>
+			<idm>A-고 볼 일이다</idm>
+			<idm>별 볼 일 없다</idm>
+			<idm>이 꼴 저 꼴 다 보다</idm>
+			<idm>보기 싫다</idm>
+			<idm>꼴 보기 싫다</idm>
+			<idm>봐 줄 만하다</idm>
+		</idm_grp>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>1998/00/00</cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/01/06</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/13</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/30</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="a"/>
+			<str>V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+			</sem_grp>
+			<frame_grp type="STR">
+				<frame>X=N0-이 Z=N2-에서 Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Npr1">(손해|피해|이익|재미)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">(사업|거래)</sel_rst>
+					<eg>회사는 이번 거래에서 상당한 손해를 보았다.</eg>
+					<eg>기영이는 주식에서 이익을 많이 보았다.</eg>
+					<eg>이번 사업에서는 누구도 아무런 재미도 보지 못했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="STR" cor="sym" n="01">
+				<frame>X+Z=N0-이 (서로) Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간|인간집단</sel_rst>
+					<sel_rst arg="Npr1">(합의)</sel_rst>
+					<sel_rst arg="Z" tht="EXP">인간|인간집단</sel_rst>
+					<eg>노조 대표와 회사 대표는 서로 임금 문제에 관해 끝내 합의를 보지 못했다.</eg>
+					<eg>사고 당사자들은 서로 합의를 보고 좋은 모습으로 헤어졌다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Npr1">(선|맞선)</sel_rst>
+					<sel_rst arg="Z" tht="AGT">인간|인간집단</sel_rst>
+					<eg>그녀와 내 조카가 나도 모르게 서로 맞선을 보았다고 한다.</eg>
+					<eg>그들 둘은 언젠가 선을 보았던 사이였다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="STR" cor="sym" n="01">
+				<frame>X=N0-이 Z=N2-와 (서로) Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Npr1">(합의)</sel_rst>
+					<sel_rst arg="Z" tht="COM">인간|인간집단</sel_rst>
+					<eg>노조 대표는 회사 대표와 임금 문제에 관해 끝내 서로 합의를 보지 못했다.</eg>
+					<eg>그는 가해자와 쉽게 합의를 볼 마음이 없었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Npr1">(선|맞선)</sel_rst>
+					<sel_rst arg="Z" tht="COM">인간</sel_rst>
+					<eg>그녀는 나의 조카와 나도 모르게 서로 맞선을 보았다고 한다.</eg>
+					<eg>내가 누구와 선을 보든 신경쓰지 마세요.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="STR">
+				<frame>X=N0-이 Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Npr1">(눈치)</sel_rst>
+					<eg>그는 남의 눈치를 너무 본다.</eg>
+					<eg>부장의 눈치를 보니 조금도 도와주지 않을 것 같다.</eg>
+					<eg>그런 발언을 해도 좋을지 다른 심사 위원들의 눈치를 보았다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Npr1">(결말|끝|끝장)</sel_rst>
+					<eg>그는 한 번 술을 마시면 끝장을 보는 성격이다.</eg>
+					<eg>동생은 매사에 끝을 보지 않으면 답답해서 아무 일도 못한다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="STR">
+				<frame>X=N0-이 Z=N2-을 Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Z" tht="THM">음식</sel_rst>
+					<sel_rst arg="Npr1">(맛)</sel_rst>
+					<eg>시어머니는 찌개를 맛을 본 다음 간장을 더 넣었다.</eg>
+					<eg>그는 아내가 만든 음식을 맛을 보고 감탄했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Z" tht="THM">온</sel_rst>
+					<sel_rst arg="Npr1">(흉)</sel_rst>
+					<eg>그녀는 이웃집 사람을 흉을 봤다.</eg>
+					<eg>그녀는 이웃집 사람이 노래 부르는 것을 흉을 봤다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Z" tht="THM">S것</sel_rst>
+					<sel_rst arg="Npr1">(흉)</sel_rst>
+					<eg>그녀는 이웃집 사람이 노래 부르는 것을 흉을 봤다.</eg>
+					<eg>그는 내가 우는 것을 흉을 봤다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="STR">
+				<frame>X=N0-이 Z=S2-고 Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Npr1">(흉)</sel_rst>
+					<sel_rst arg="Z" tht="CNT"></sel_rst>
+					<eg>그녀는 이웃 사람이 큰 소리로 노래를 부른다고 흉을 봤다.</eg>
+					<eg>그는 우리가 게으르다고 온 동네를 돌아다니며 흉을 봤다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>1998/00/00</cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/01/06</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/13</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/30</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="a"/>
+			<str>V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>0</sem_class>
+			</sem_grp>
+			<frame_grp type="Vaux">
+				<frame>V-어 Vaux</frame>
+				<subsense>
+					<sel_rst arg="V">(먹다|가다|하다)</sel_rst>
+					<eg>막상 음식을 먹어 보니 별로 맛이 없었다.</eg>
+					<eg>당신은 캐나다에 가 본 적이 있습니까?</eg>
+					<eg>나는 무슨 일이든 닥치는 대로 다 해 보았다.</eg>
+					<eg>너 정말 죽어 볼래?</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="Vaux">
+				<frame>V-고|다 Vaux</frame>
+				<subsense>
+					<sel_rst arg="V">(듣다|읽다|알다)</sel_rst>
+					<eg>나는 그 일을 막상 듣고 보니 가슴이 터질 것 같았습니다.</eg>
+					<eg>이 책을 읽으시다 보면 모든 의문점이 다 풀릴 것입니다.</eg>
+					<eg>알고 보면 수학도 재미있는 학문이다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="Vaux">
+				<frame>A-고|다 Vaux</frame>
+				<subsense>
+					<sel_rst arg="A">(예쁘다|많다)</sel_rst>
+					<eg>옆집 처녀는 워낙 예쁘다 보니 따라다니는 총각들이 많다.</eg>
+					<eg>워낙 쓸고 닦아야 할 곳이 많다 보면 어느 한 군데도 깨끗하게 할 수가 없게 된다.</eg>
+					<eg>사람은 좌우간 성실하고 볼 일이야.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="Vaux">
+				<frame>V|A-어 Vaux</frame>
+				<subsense>
+					<sel_rst arg="V">(가다)</sel_rst>
+					<sel_rst arg="A">(예쁘다)</sel_rst>
+					<eg>그 곳은 가 봤자 별 소득이 없을 겁니다.</eg>
+					<eg>그 책은 읽어 봐야 별 도움이 안 될 거야.</eg>
+					<eg>영희가 예뻐 봤자 얼마나 예쁘겠니?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

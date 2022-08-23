@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>순박하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/15</mod_date>
+				<mod_writer>강정연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>R.하</str>
+			<org lg="si">淳朴_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>긍정적품격속성값</sem_class>
+				<trans>be simple and honest</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<n_appr arg="X">성격</n_appr>
+					<n_appr arg="X">성품</n_appr>
+					<n_appr arg="X">마음</n_appr>
+					<eg>민수는 깐깐해 보이는 외모와는 달리 성격이 무척 순박하다.</eg>
+					<eg>우리 아이들은 순박합니다.</eg>
+					<eg>시골 아낙네들의 순박한 마음에 수미는 감동을 받았다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(모습|외모|표정|웃음|말씨)</sel_rst>
+					<eg>그녀의 표정과 웃음은 늘 순박하다.</eg>
+					<eg>그는 생김새가 순박하다.</eg>
+					<eg>민호는 우선 그녀의 순박한 말씨에 마음이 끌렸다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

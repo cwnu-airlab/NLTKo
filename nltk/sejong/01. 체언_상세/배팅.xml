@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>배팅</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/31</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/31</mod_date>
+				<mod_writer>송인욱</mod_writer>
+				<mod_note>2003/10/31(송인욱)의미부류가 '몸짓및동작'일 가능성 검토 요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/09/30</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_v 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">batting</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 선수는 수비는 잘하는데 ~이 좀 약하다.</eg>
+				<eg>물 흐르는 듯한 부드러운 ~이 그녀가 홈런을 잘 치는 비결이다.</eg>
+				<eg>나는 지난 경기에서 ~을 하다가 부상을 당했다.</eg>
+				<trans>batting</trans>
+				<domain>운동</domain>
+				<sem_class>몸짓및동작</sem_class>
+				<lr>
+					<syn type="etc">타격</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 부드럽다</comb_aj>
+				<comb_aj type="appr">~이 자연스럽다</comb_aj>
+				<comb_aj type="magn">~이 강하다</comb_aj>
+				<comb_aj type="min">~이 약하다</comb_aj>
+				<comb_n type="compound">~ 연습</comb_n>
+				<comb_n type="compound">~ 타이밍</comb_n>
+				<comb_n type="compound">팀 ~</comb_n>
+				<comb_n type="compound">프리 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/01</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/01</mod_date>
+				<mod_writer>송인욱</mod_writer>
+				<mod_note>2003/10/31(송인욱)어떤 사전에도 나와 있지 않지만 '베팅'이 표준형이고 '배팅'이 오표기일 가능성도 있음, 일단은 빈도로 미루어 '배팅'을 표준형으로 봄</mod_note>
+				<mod_note>기능동사와 선택제약 기술 내역에 대한 면밀한 검토 요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/09/30</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="xx">베팅</var>
+			<org lg="en">betting</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 2번 말에 내가 가진 돈 전부를 ~을 했다.</eg>
+				<eg>그녀의 과감한 ~에 모두들 혀를 내둘렀다.</eg>
+				<eg>이번 경기는 ~을 해봤자 배당이 크지 않을 것 같다.</eg>
+				<trans>bet</trans>
+				<sem_class>결과행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 무모하다</comb_aj>
+				<comb_aj type="appr">~이 과도하다</comb_aj>
+				<comb_aj type="appr">~이 신중하다</comb_aj>
+				<comb_n type="compound">~ 한도</comb_n>
+				<comb_n type="compound">거액의 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에 Z-을 ~을 하다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">짐승|인간|교통기관|사건</sel_rst>
+				<sel_rst arg="Z">돈</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

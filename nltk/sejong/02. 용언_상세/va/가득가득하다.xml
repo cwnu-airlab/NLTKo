@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>가득가득하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/25</cre_date>
+				<cre_writer>허용</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/25</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>교차구문 형식으로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc">그득그득하다</var>
+			<var type="etc">가뜩가뜩하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>be full of</trans>
+			</sem_grp>
+			<frame_grp type="FA" cor="cross" n="1">
+				<frame>X=N0-이 Y=N1-에 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물|건물</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소|용기</sel_rst>
+					<eg>버스 안에는 사람들이 가득가득했다.</eg>
+					<eg>그는 평생 금고에 돈이 가득가득하게 채워지는 즐거움으로 살았다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA" cor="cross" n="1">
+				<frame>X=N0-이 Y=N1-로 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소|용기</sel_rst>
+					<sel_rst arg="Y" tht="INS">구체물|건물</sel_rst>
+					<eg>버스는 사람들로 가득가득했다.</eg>
+					<eg>김 첨지의 곳간은 곡식으로 가득가득했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>be full up</trans>
+				<trans>be spread over</trans>
+			</sem_grp>
+			<frame_grp type="FA" cor="cross" n="2">
+				<frame>X=N0-이 Y=N1-에 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">빛|소리|냄새|기운|연기</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<eg>하늘에는 봄빛이 가득가득하다.</eg>
+					<eg>방안에는 고기 굽는 냄새가 가득가득해서 견딜 수가 없었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA" cor="cross" n="2">
+				<frame>X=N0-이 Y=N1-로 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소</sel_rst>
+					<sel_rst arg="Y" tht="INS">빛|소리|연기|기운|냄새</sel_rst>
+					<eg>하늘은 봄빛으로 가득가득했다.</eg>
+					<eg>방안은 고기 굽는 냄새로 가득가득하여 들어가기 싫었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>be filled</trans>
+				<trans>be occupied</trans>
+			</sem_grp>
+			<frame_grp type="FA" cor="cross" n="3">
+				<frame>X=N0-이 Y=N1-에 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">내재적심리상태</sel_rst>
+					<sel_rst arg="Y" tht="LOC">(얼굴|마음)</sel_rst>
+					<eg>아내의 얼굴에는 근심이 가득가득하였다.</eg>
+					<eg>행복이 가득가득한 그의 얼굴을 보면서 나도 기쁨을 느꼈다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA" cor="cross" n="3">
+				<frame>X=N0-이 Y=N1-로 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(얼굴|마음)</sel_rst>
+					<sel_rst arg="Y" tht="INS">내재적심리상태</sel_rst>
+					<eg>아내의 얼굴은 근심으로 가득가득했다.</eg>
+					<eg>행복으로 가득가득한 그의 얼굴을 보면서 나도 기쁨을 느꼈다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

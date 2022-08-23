@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>찌르다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/11</cre_date>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/17</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 정보 수정</mod_note>
+				<mod_note>trans 정보 추가, 확인 요망</mod_note>
+				<mod_note>예문 띄어쓰기</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/16</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V</str>
+			<infl type="leu"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>thrust</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간(어머니|검도선수)</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간(상대편)|음식(고구마|감자|무우)</sel_rst>
+					<sel_rst arg="Z" tht="INS">도구(꼬챙이|젓가락|칼)</sel_rst>
+					<eg>다 익었는지 보시려고 감자를 젓가락으로 찔러 보아라.</eg>
+					<eg>검도 선수는 날렵하게 칼 끝으로 상대편을 찔렀다.</eg>
+					<eg>우리 군사는 용맹하게 창으로 적병의 가슴을 찔렀다.</eg>
+					<eg>꼬마는 꼬챙이로 널부러져 있는 개구리를 찔렀다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>squash into</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간(직원)</sel_rst>
+					<sel_rst arg="Y" tht="THM">신체부위(손)|구체물(돈봉투|편지)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">구체물(주머니|가방|우체통)</sel_rst>
+					<eg>건설회사 직원은 잘 봐 달라며구청 직원 주머니에 돈봉투를 찔러 넣었다.</eg>
+					<eg>남자는 멋적은 듯 손을 바지 주머니에 찔러 넣고 휘적휘적 걸어갔다.</eg>
+					<eg>할머니께서는 먼길 떠나는 손자 주머니에 쌈지돈을 찔러 넣어 주셨다.</eg>
+					<eg>몇 일을 망설이던 끝에 남자는 절교하자는 편지를 우체통에 찔러 넣었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>thrust</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">구체물(가시|꼬챙이|못)</sel_rst>
+					<sel_rst arg="Y" tht="THM">신체부위(코)</sel_rst>
+					<eg>위로 튀어 나온 못이 엉덩이를 찔러서 앉을 수가 없었다.</eg>
+					<eg>바지 주머니에 넣어 둔 바늘이 허벅지를 찔러서 피가 났다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>비의도적행위</sem_class>
+				<trans>smell out</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">추상적대상(냄새)</sel_rst>
+					<sel_rst arg="Y" tht="THM">신체부위(코)</sel_rst>
+					<eg>역겨운 냄새가 코를 찌른다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>추상적행위</sem_class>
+				<trans>hit the nail on the head</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">추상적대상(논의|비판)</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(핵심|정곡)</sel_rst>
+					<eg>논의가 핵심을 찌르지 못하고 겉돌고 있다.</eg>
+					<eg>그의 발언은 정곡을 찔렀다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="06">
+			<sem_grp>
+				<sem_class>내재적심리행위</sem_class>
+				<trans>cause profound emotion</trans>
+				<trans>appeal to a person</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">인간|추상적대상(모습|장면|말)</sel_rst>
+					<sel_rst arg="Y" tht="THM">(가슴|폐부)</sel_rst>
+					<eg>자식을 잃고 비통한마음으로 눈물을 흘리는 그 어머니의 모습이 모든 사람들의 가슴을 찔렀다.</eg>
+					<eg>10년 간의 강제수용소 생활에서도 시심을 잃지 않으려 했던 그의 피눈물나는 이야기가 작은 일에도 어쩔 줄 모르고 사는 우리의 폐부를 찔렀다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<idm_grp>
+			<idm>아픈 데를 찌르다</idm>
+			<idm>옆구리를 찌르다</idm>
+		</idm_grp>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/11</cre_date>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/17</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 정보 수정</mod_note>
+				<mod_note>trans 정보 추가</mod_note>
+				<mod_note>예문 띄어쓰기 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/16</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<infl type="leu"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>이야기</sem_class>
+				<trans>tattle</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(비리|잘못|행동)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|단체(학교|회사|상부)</sel_rst>
+					<eg>그 사람이 회사의 비리를 경찰에 찔렀다는 소문이 파다하다.</eg>
+					<eg>아마도 내부 인물이 부서 내부의 잘못을 상부에 찌른 모양이다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|단체(학교|회사|상부)</sel_rst>
+					<eg>학생들은 담배 피운 것을 선생님께 찌르지 말라고 반장에게 부탁했다.</eg>
+					<eg>김과장은 이대리에게 공금을 횡령한 것을 회사에 찌르지 말라고 신신당부를 하였다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

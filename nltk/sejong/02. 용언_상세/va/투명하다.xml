@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>투명하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/01</cre_date>
+				<cre_writer>김현권</cre_writer>
+				<cre_writer>조현경</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2005/08/15</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>R.하</str>
+			<org lg="si">透明_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be limpid</trans>
+				<trans>be pellucid</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">액체(물|약수)</sel_rst>
+					<eg>산에서 흘러나오는 약수가 너무 투명해서 마시기 아깝다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">용기(그릇|병)|자재(유리)</sel_rst>
+					<eg>그릇이 투명해서 안에 든 내용물이 무엇인지 쉽게 알 수 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be transparent</trans>
+				<trans>be clear</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">속성(기준|방식|절차)|행위(행동)</sel_rst>
+					<eg>선발기준이 투명하였기에 심사위원들은 선수들의 원성을 사지 않았다.</eg>
+					<eg>그 학자의 논리전개방식은 투명하다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be clear</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">단체(은행|회사|기업)|(은행|회계)</sel_rst>
+					<eg>그 은행은 투명하다고 소문이 나서 고객들이 더 신뢰한다.</eg>
+					<eg>기업이 투명해야 발전할 수 있는 것이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

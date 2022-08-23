@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>인간미</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/30</cre_date>
+				<cre_writer>유영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/12</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/01</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>n_v 수정</mod_note>
+				<mod_note>n_v 추가</mod_note>
+				<mod_note>max_n, sel_rst 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/22</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>대역어 분리 및 수정</mod_note>
+			</mod>
+			<mod>
+			<mod_date>2007/07/25</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>기능동사 변이형 정보 추가, S 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">인간+미</str>
+			<org lg="si">人間味</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>밑바닥 인생을 그린 이 영화는 주인공이 보여주는 뜨거운 ~가 진한 감동으로 다가온다.</eg>
+				<trans>humanity</trans>
+				<trans>human touch</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>긍정적인성속성값</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 부족하다</comb_aj>
+				<comb_aj type="appr">~가 중요하다</comb_aj>
+				<comb_aj type="appr">~가 결여되다</comb_aj>
+				<comb_aj type="appr" pred="no">따뜻한 ~</comb_aj>
+				<comb_aj type="appr" pred="no">잔잔한 ~</comb_aj>
+				<comb_aj type="appr" pred="no">훈훈한 ~</comb_aj>
+				<comb_aj type="magn" pred="no">진한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 있다</form>
+					<frame>X-이 S는 ~가 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 없다</form>
+					<frame>X-이 S는 ~가 없다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 보이다</form>
+					<frame>X-이 S는 ~가 보이다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 흐르다</form>
+					<frame>>X-이 S는 ~가 흐르다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 묻어나다</form>
+					<frame>X-이 S는 ~가 묻어나다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 풍기다</form>
+					<frame>X-이 S는 ~가 풍기다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 갖추다</form>
+					<frame>X-이 S는 ~를 갖추다</frame>
+				</comb_v>				
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 느끼다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 S는 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

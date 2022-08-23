@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>넘치다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>overflow</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">용기(컵|냄비)|(도랑)</sel_rst>
+					<eg>냄비가 넘친다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>Y=N1-에서 X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">액체(물|술)</sel_rst>
+					<sel_rst arg="Y" tht="SRC">용기(컵|냄비)|(도랑)</sel_rst>
+					<eg>냄비에서 물이 넘친다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>증가</sem_class>
+				<trans>overflow</trans>
+			</sem_grp>
+			<frame_grp type="FIN" cor="cross" n="01">
+				<frame>Y=N1-에|이 X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<eg>마당에 문상객들이 넘친다.</eg>
+					<eg>대합실이 귀성객들이 넘친다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="cross" n="01">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소</sel_rst>
+					<sel_rst arg="Y" tht="INS">구체물</sel_rst>
+					<eg>마당이 문상객들로 넘친다.</eg>
+					<eg>대합실이 귀성객들로 넘친다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>증가</sem_class>
+				<trans>overflow</trans>
+			</sem_grp>
+			<frame_grp type="FIN" cor="cross" n="02">
+				<frame>Y=N1-에|에게|이 X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(생기|활력|활기|힘|생동감)|(기쁨|감사)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소|(행동|목소리|생활|삶)|인간</sel_rst>
+					<eg>거리에 활기가 넘친다.</eg>
+					<eg>그 거리가 생동감이 넘친다.</eg>
+					<eg>철수의 목소리에 활력이 넘친다.</eg>
+					<eg>철수가 행동이 힘이 넘친다.</eg>
+					<eg>철수가 인간미가 넘친다.</eg>
+					<eg>하루하루의 삶에 기쁨이 넘친다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="cross" n="02">
+				<frame>X=N0-이 Y=N1-에|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소|(행동|목소리|생활|삶)|인간</sel_rst>
+					<sel_rst arg="Y" tht="INS">(생동감|활기|활력|힘|생기)|(기쁨|감사)</sel_rst>
+					<eg>거리가 활기에 넘친다.</eg>
+					<eg>철수의 목소리가 활력으로 넘친다.</eg>
+					<eg>하루하루의 삶이 기쁨에 넘친다.</eg>
+					<eg>사실 나는 늘 감사에 넘쳐야 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>비의도적행위</sem_class>
+				<trans>overflow</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물|인간</sel_rst>
+					<sel_rst arg="Y" tht="CRT">(분|도|정도|능력)</sel_rst>
+					<eg>이런 대우는 저의 분에 넘칩니다.</eg>
+					<eg>저는 이런 대우가 분에 넘칩니다.</eg>
+					<eg>철수는 자기 분에 넘치는 여자와 결혼을 했다.</eg>
+					<eg>영희는 도에 넘치는 혼수를 해 갔다.</eg>
+					<eg>철수는 지금 자기 능력에 넘치는 일을 맡아서 절절 매고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

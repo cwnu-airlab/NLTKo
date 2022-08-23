@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>대리</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/06/28</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/22</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/05</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>syn 속성값 수정</mod_note>
+				<mod_note>trans 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/29</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note>통사정보 수정</mod_note>
+			</mod>
+			<note>sense2/trans</note>
+			<note>sense2/trans</note>
+			<note>2001/07/04(강범모,백인애)-일차교정</note>
+			<note>sense2/trans</note>
+			<note>2001/07/04(강범모,백인애)-일차교정</note>
+			<note>2003/03/22(김종명)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<org lg="si">代理</org>
+		
+			<der pos="n" type="suffix">~모</der>
+			<der pos="n" type="suffix">~업</der>
+			<der pos="n" type="suffix">~인</der>
+			<der pos="n" type="suffix">~자</der>
+			<der pos="n" type="suffix">~점</der>
+			<comp pos="n" type="suffix">~공사</comp>
+			<comp pos="n" type="suffix">~소송</comp>
+			<comp pos="n" type="suffix">~전쟁</comp>
+			<comp pos="n" type="suffix">~점유</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>수업 시간에 몇 학생이 ~로 출석을 하다가 걸렸다.</eg>
+				<trans>proxy</trans>
+				<trans>agency</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+			    <comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 운전</comb_n>
+				<comb_n type="compound">~ 시험</comb_n>
+				<comb_n type="compound">~ 출석</comb_n>
+				<comb_v type="etc">
+					<form vcompound="no">~로 운전하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="etc">
+					<form vcompound="no">~로 집무하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="etc">
+					<form vcompound="no">~로 출석하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="etc">
+					<form vcompound="no">~로 투표하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt>~로</prt>
+				<av>~로</av>
+			</syn_grp>	
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>송금자가 본인이 아닌 ~인 경우는 신분증을 제시해야 한다.</eg>
+				<trans>agent</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>관계인간</sem_class>
+				<lr>
+					<syn type="perfect">대리인</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 세우다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+							    <cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<prt></prt>
+				<av></av>
+			</syn_grp>				
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>나는 이번에 ~로 승진을 했다.</eg>
+				<trans>assiantance manager</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>직위인간</sem_class>
+				<lr>
+					<hyper>직급</hyper>
+					<coord>부장</coord>
+					<coord>과장</coord>
+					<rel>부서</rel>
+					<rel>회사</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 승진하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 발령받다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+							    <cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<prt></prt>
+				<av></av>
+			</syn_grp>	
+		</sense>
+	</entry>
+</superEntry>

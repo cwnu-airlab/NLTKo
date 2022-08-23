@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>침노</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/27</cre_date>
+				<cre_writer>김성용</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/03</mod_date>
+				<mod_writer>이홍식</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/28</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note>기능동사 구문 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/23</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note>합성동사 유무 수정</mod_note>
+				<mod_note>max_n 정보 추가</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/16</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<note>2003/09/03(이홍식)선택 제약에 장소나 관계장소 등의 정보 추가 요망(예문 참조)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">侵擄</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>적군은 우리의 국토를 ~를 하기 시작했다.</eg>
+				<trans>invade</trans>
+				<trans>encroach on</trans>
+				<trans>encroach upon</trans>
+				<trans>conquer</trans>
+				<trans>plunder</trans>
+				<sem_class>물리적충돌행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 입다</form>
+					<frame>Y-이 X-에게 ~를 입다</frame>
+					<frame>Y-이 X-로부터 ~를 입다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~를 받다</form>
+					<frame>Y-이 X-에 ~를 받다</frame>
+					<frame>Y-이 X-에의해 ~를 받다</frame>
+					<frame>Y-이 X-로부터 ~를 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~를 당하다</form>
+					<frame>Y-이 X-에 ~를 당하다</frame>
+					<frame>Y-이 X-에의해 ~를 당하다</frame>
+					<frame>Y-이 X-로부터 ~를 당하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str><!--추가 기술(미현)-->
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-에의한 Y ~</max_n_str>
+				<max_n_str>X-에의한 Y-의 ~</max_n_str>
+				<sel_rst arg="X">국가|군대</sel_rst>
+				<sel_rst arg="Y">국가|군대|장소</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">건</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>크다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/01</cre_date>
+				<cre_writer>한선혜</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2004/10/05</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/01/25</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/09/09</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note>센스추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/20</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>A</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be big</trans>
+				<trans>be tall</trans>
+				<lr>
+					<ant type="grad">작다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|크기(키|덩치)</sel_rst>
+					<eg>철수의 키가 아주 크다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be large</trans>
+				<lr>
+					<ant type="grad">작다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소|구체물|크기(규모|면적)|(부피|크기)</sel_rst>
+					<eg>가게의 규모가 아주 크군요.</eg>
+					<eg>방이 크다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be much</trans>
+				<lr>
+					<syn type="perfect">많다</syn>
+					<ant type="grad">작다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물|(양|액수)</sel_rst>
+					<eg>상금이 아주 크군요.</eg>
+					<eg>나는 그 돈의 액수가 너무 커서 놀랬다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be much</trans>
+				<lr>
+					<ant type="grad">작다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(실망|기대|포부|꿈|책임|능력|힘|영향|효과|고통|슬픔|괴로움)</sel_rst>
+					<eg>우리가 너에게 거는 기대가 크다.</eg>
+					<eg>남자가 포부가 커야 한다.</eg>
+					<eg>일이 그렇게 된 데에는 나의 책임이 크다.</eg>
+					<eg>예상했던 것보다 홍수의 피해가 무척 컸다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be loud</trans>
+				<lr>
+					<ant type="grad">작다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">소리(목소리|소음)</sel_rst>
+					<eg>음악 소리가 너무 커서 집중을 할 수가 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="06">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be probable</trans>
+				<lr>
+					<syn type="perfect">높다</syn>
+					<syn type="perfect">짙다</syn>
+					<ant type="grad">낮다</ant>
+					<ant type="grad">작다</ant>
+					<ant type="grad">옅다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(가능성|공산|확률)</sel_rst>
+					<eg>우리가 질 가능성이 더 크다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="07">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be too large</trans>
+				<lr>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>Y=N1-에게는|이 X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">신체착용물(옷|모자)|구체물의부분</sel_rst>
+					<sel_rst arg="Y" tht="CRT">인간</sel_rst>
+					<n_appr arg="X">치수</n_appr>
+					<eg>나에게 이 옷은 크다.</eg>
+					<eg>모자가 너한테 너무 크지 않나?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="08">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be great</trans>
+				<lr>
+					<syn type="perfect">훌륭하다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간(사람|인물)|(업적|일)</sel_rst>
+					<n_appr arg="X">치수</n_appr>
+					<eg>큰 사람이 되려면 그 정도 일에는 연연해 하지 말아야 한다.</eg>
+					<eg>그는 학계에 큰 업적을 남겼다.</eg>
+					<eg>그는 장차 큰 일을 할 사람이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="09">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be big</trans>
+				<lr>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(통|도량|담)</sel_rst>
+					<eg>그는 아주 도량이 큰 사람이다.</eg>
+					<eg>그는 나이는 어리지만 담이 아주 크다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="10">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be important and difficult</trans>
+				<lr>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(결심|결단)</sel_rst>
+					<eg>너는 이번에 아주 큰 결심을 했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<defect>
+			<infl_rst>크게</infl_rst>
+			<trans>be in a large scale</trans>
+			<sel_rst arg="X" tht="THM">온</sel_rst>
+			<defect_eg>크게 보면 결국 다 같은 부류에 속한다.</defect_eg>
+			<defect_eg>작게는 너 개인의 문제지만 크게는 우리 사회의 문제이기도 하다.</defect_eg>
+		</defect>
+		<defect>
+			<infl_rst>크게</infl_rst>
+			<trans>be approximately</trans>
+			<sel_rst arg="X" tht="THM">온</sel_rst>
+			<defect_eg>그런 유형의 사건은 크게 두 유형으로 나뉜다.</defect_eg>
+		</defect>
+		<idm_grp>
+			<idm>간이 크다</idm>
+			<idm>목소리가 크다</idm>
+			<idm>손이 크다</idm>
+		</idm_grp>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/01</cre_date>
+				<cre_writer>한선혜</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2004/10/05</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/01/25</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/09/09</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note>센스추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/20</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>A</str>
+		</morph_grp>
+		<sense n="1">
+			<sem_grp>
+				<sem_class>증가</sem_class>
+				<trans>grow</trans>
+				<lr>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|신체부위|(키)</sel_rst>
+					<eg>올해 내 키가 10센티미터나 컸다.</eg>
+					<eg>내 딸아이가 열두 살이 되더니 젖가슴이 크려고 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

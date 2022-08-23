@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>함께하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/23</cre_date>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/27</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/05</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>D.하</str>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>get along together</trans>
+			</sem_grp>
+			<frame_grp type="FIT" cor="sym" n="1">
+				<frame>X=N0-이 Z=N2-와 (서로) Y=N1-에|을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Z" tht="COM">인간</sel_rst>
+					<eg>우리는 동료들과 생사고락을 함께했다.</eg>
+					<eg>여직원들이 상사들과 술자리를 함께하기를 거부했어요.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIT" cor="sym" n="1">
+				<frame>X+Z=N0-이 (서로) Y=N1-에|을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Z" tht="AGT">인간</sel_rst>
+					<eg>우리는 생사고락을 함께했다.</eg>
+					<eg>여직원들과 남자 직원들이 술자리를 함께했어요.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>work together</trans>
+			</sem_grp>
+			<frame_grp type="FIN" cor="sym" n="2">
+				<frame>X=N0-이 Z=N2-와 (서로) Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">행위(작업|일)</sel_rst>
+					<sel_rst arg="Z" tht="COM">인간</sel_rst>
+					<eg>나는 그 작업에 철수와 함께했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S데</sel_rst>
+					<sel_rst arg="Z" tht="COM">인간</sel_rst>
+					<eg>군인들은 수재민을 돕는 데에 국민들과 함께했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="sym" n="2">
+				<frame>X+Z=N0-이 (서로) Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">행위(작업|일)</sel_rst>
+					<sel_rst arg="Z" tht="AGT">인간</sel_rst>
+					<eg>나와 철수는 그 작업에 함께했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S데</sel_rst>
+					<sel_rst arg="Z" tht="AGT">인간</sel_rst>
+					<eg>수재민을 돕는 데에 군관민이 함께했다.</eg>
+					<eg>학생들은 환자들을 수송하는 데에 모두 함께했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="3">
+				<frame>X=N0-이 W=N3-와 (서로) Z=N2-에|에대해 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">의견(뜻|의견|마음)|행위(행동|태도)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">추상적대상</sel_rst>
+					<sel_rst arg="W" tht="COM">인간</sel_rst>
+					<eg>나는 그와 이 문제에 대해 의견을 함께하고 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="3">
+				<frame>X+W=N0-이 (서로) Z=N2-에|에대해 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">의견(뜻|의견|마음)|행위(행동|태도)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">추상적대상</sel_rst>
+					<sel_rst arg="W" tht="AGT">인간</sel_rst>
+					<eg>이 작전에 모든 대원들이 행동을 함께하는 것이 중요하다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>agree on</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="sym" n="4">
+				<frame>X=N0-이 W=N3-와 (서로) Z=N2-에|에대해 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">의견(뜻|의견|마음)|행위(행동|태도)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">추상적대상</sel_rst>
+					<sel_rst arg="W" tht="COM">인간</sel_rst>
+					<eg>이 사항에 대해서는 너희들과 뜻을 함께하겠다.</eg>
+					<eg>북한 지원에 대해 급진주의자들은 보수주의자와 의견을 함께할 수 없다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="4">
+				<frame>X+W=N0-이 Z=N2-에|에대해 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">의견(뜻|의견|마음)|행위(행동|태도)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">S것|S데</sel_rst>
+					<sel_rst arg="W" tht="AGT">인간</sel_rst>
+					<eg>새로운 기술을 개발하는 데에 연구원들은 뜻을 함께하고 있습니다.</eg>
+					<eg>입시를 전면적으로 개혁하자는 것에 대해 대다수의 교사들이 의견을 함께하고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

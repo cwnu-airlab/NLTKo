@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>급상승하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/31</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>유경민</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/08/31</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/04</mod_date>
+				<mod_writer>김선영</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">급상승을 하다</var>
+			<str>N.하</str>
+			<org lg="si">急上昇_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>증가</sem_class>
+				<trans>rise suddenly</trans>
+				<lr>
+					<syn type="perfect">급등하다</syn>
+					<ant type="compl">급락하다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">온도|수량(물가|시세)</sel_rst>
+					<eg>유럽에서는 기온이 급상승하여 많은 이들이 죽기까지 하였다.</eg>
+					<eg>추석이 되어 물가가 급상승하면서 서민들의 한숨만 늘어간다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>이동행위</sem_class>
+				<trans>climb steeply</trans>
+				<trans>zoom</trans>
+				<lr>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">교통기관(비행기)</sel_rst>
+					<eg>비행기는 하늘을 향해 급상승하였다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

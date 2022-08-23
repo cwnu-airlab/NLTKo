@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>우의</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/22</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/08</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/05</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_v에 기술</mod_note>
+				<mod_note>기능동사 구획 수직바로 제시된 정보 분리 기술</mod_note>
+				<mod_note>n_aj magn을 appr로 수정</mod_note>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>der 기술</mod_note>
+				<mod_note>sem 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/01</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/09/03(고길수)comb_aj의 '두텁다|깊다'는 magn로 수정</note>
+			<note>기능동사에서 'X-사이에 ~가 있다</note>
+			<note>Y-와 Z-사이에 ~가 있다' 삭제, 적절한 표상 방법 필요</note>
+			<note>2002/10/12(이성헌)comb_aj의 '돈독하다'도 magn로 이동</note>
+			<note>2003/07/04(권오희)기능동사 구문 추가</note>
+			<note>2003/08/08(이은경)</note>
+			<add>동사결합구조로 '~를 다지다|쌓다|맺다|저버리다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">友誼</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~적</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그들은 친구 사이의 ~가 돈독하다.</eg>
+				<eg>그와 나는 ~가 깊다.</eg>
+				<trans>friendship</trans>
+				<trans>fellowship</trans>
+				<trans>fraternity</trans>
+				<trans>comradeship</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>외향적심리상태</sem_class> <!--'긍정적감정'을 '외향적심리상태'로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 깊다</comb_aj>
+				<comb_aj type="appr">~가 두텁다</comb_aj>
+				<comb_aj type="appr">~가 돈독하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 있다</form>
+					<frame>X-이 Y-와 ~가 있다</frame>
+					<frame>X-와 Y-이 ~가 있다</frame>
+					<frame>Z-이 ~가 있다</frame>
+					<frame>Z 사이에 ~가 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 없다</form>
+					<frame>X-이 Y-와 ~가 없다</frame>
+					<frame>X-와 Y-이 ~가 없다</frame>
+					<frame>Z-이 ~가 없다</frame>
+					<frame>Z 사이에 ~가 없다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 다지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 맺다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 쌓다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 저버리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-와 Y-의 ~</max_n_str>
+				<max_n_str>Z-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<sel_rst arg="Z">대칭적관계인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/22</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/08</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/05</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 syn, n_v에 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/09/03(고길수)</note>
+			<note>2002/10/12(이성헌)</note>
+			<note>2003/07/04(권오희)</note>
+			<note>2003/08/08(이은경) 단위명사에 '개' 추가</note>
+			<add>동사결합구조로 '~를 입다' 추가</add>
+			<add>동의어로 '우비, 비옷' 추가</add>
+			<add>'우비, 비옷'이 표제어로 등재 안 되어 있음</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">雨衣</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 비가 와서 ~를 입고 나갔다.</eg>
+				<trans>raincoat</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>옷</sem_class>
+				<lr>
+					<syn type="etc">우비</syn>
+					<syn type="kor">비옷</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크가</comb_aj>
+				<comb_aj type="appr">~가 작다</comb_aj>
+				<comb_aj type="appr">~가 예쁘다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 입다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">벌</cl>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/22</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/08</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/05</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>센스1,2 통합</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/09/03(고길수)의미부류 재검토 필요</note>
+			<note>2002/10/12(이성헌)sense1의 sem을 '단독행위'에서 '방법'으로 수정</note>
+			<note>2003/07/04(권오희)센스2의 cl에 '가지'추가</note>
+			<note>2003/08/08(이은경)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">寓意</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 작가는 ~를 통해 인생의 교훈을 알려주었다.</eg>
+				<eg>이 글에서 인생의 교훈에 대한 ~를 간파해야 한다.</eg> <!--센스2의 예문으로 기술되어 있었으나, 센스1과 같은 의미로 보여 통합(송근영)-->
+				<trans>allegory</trans>
+				<trans>hidden meaning</trans> <!--센스2에 있던 대역어 센스1로 통합(송근영)-->
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>방법</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

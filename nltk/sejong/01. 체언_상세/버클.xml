@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>버클</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/04</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/29</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/05</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add 정보를 n_v로 이동</mod_note>
+				<mod_note>분류사 기술</mod_note>
+			</mod>
+			<note>2003/10/15(박진호)변이형, 전체어 추가</note>
+			<note>2003/10/29(송인욱)전체어에 동일한 내용이 있으므로 관련어에서 '벨트|허리띠' 삭제</note>
+			<add>2003/09/04(송인욱)동사자유구성으로 '~을 채우다|잠그다|풀다|끄르다</add>
+			<add>~이 풀리다|고장나다|깨지다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="xx">바클</var>
+			<var type="xx">빠클</var>
+			<org lg="en">buckle</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>허리가 좀 조이는 것 같아서 나는 벨트의 ~을 평소보다 약간 느슨하게 채웠다.</eg>
+				<eg>복도에서 뛰다가 벽에 세게 부딪히는 바람에 그 튼튼했던 ~이 그만 깨지고 말았다.</eg>
+				<trans>buckle</trans>
+				<sem_class>구체물의부분</sem_class>
+				<lr>
+					<holo>허리띠</holo>
+					<holo>벨트</holo>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 튼튼하다</comb_aj>
+				<comb_aj type="appr">~이 단단하다</comb_aj>
+				<comb_aj type="appr">~이 약하다</comb_aj>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 작다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 채우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 잠그다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 풀다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 끄르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 풀리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 고장나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 깨지다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">개</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

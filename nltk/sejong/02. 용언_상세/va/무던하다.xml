@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>무던하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/10</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>무던.하</str>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>generous</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|추상적대상(성격|성품|고집|인상|사람)</sel_rst>
+					<eg>성격이 무던해서 누구와도 잘 지낸다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>enough</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(솜씨|고집|정성|날씨)</sel_rst>
+					<eg>칼질하는 솜씨는 무던한데, 과연 음식도 잘 할지는 모르겠네.</eg>
+					<eg>날씨가 참 무던하여 모내기하기에 어려움이 없다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S는것</sel_rst>
+					<eg>한 달 동안 공짜로 밥 먹여준 것도 무던한 것 아닌가?.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-에 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(날씨|솜씨)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">S기</sel_rst>
+					<eg>칼질 솜씨가 회를 요리하기에는 무던한데, 과연 양식에도 들어먹힐까?.</eg>
+					<eg>날씨가 모를 모판에 심기에 무던하다.</eg>
+					<eg>그는 이 일을 맡기에 무던하다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

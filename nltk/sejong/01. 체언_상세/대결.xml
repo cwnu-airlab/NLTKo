@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>대결</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/06/28</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/22</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/05</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/29</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note>통사정보 일부 삭제</mod_note>
+			</mod>
+			<note>'겨루기'의 일본식 용어</note>
+			<note>'겨루기'의 일본식 용어</note>
+			<note>2001/07/04(강범모,백인애)-일차교정</note>
+			<note>'겨루기'의 일본식 용어</note>
+			<note>2001/07/04(강범모,백인애)-일차교정</note>
+			<note>2003/03/22(김종명)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<org lg="si">對決</org>
+		
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이번 남미 축구팀과의 ~에서 우리팀이 비록 지기는 하였지만, 좋은 경기를 보여주었다.</eg>
+				<trans>confrontation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="US"/>
+				<sem_class>대칭적행위</sem_class>
+				<lr>
+					<syn type="etc">겨루기</syn>
+					<rel>승리</rel>
+					<rel>패배</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 막상막하하다</comb_aj>
+				<comb_aj type="appr">~이 팽팽하다</comb_aj>
+				<comb_aj type="appr">~이 흥미진진하다</comb_aj>
+				<comb_n type="compound">숙명의 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-와 Y-이 ~을 하다</frame>
+				</comb_v>				
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~시키다-->
+				<max_n_str>X-와 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">인간</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>완전무장</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/10</cre_date>
+				<cre_writer>박재연</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/10</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/02</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add의 내용을 n_v로 이동;var 기술;센스2 추가기술;센스1 동의어, n_n 기술;센스1 의미부류, n_v 수정;센스1 예문, n_v, 선택제약 Y 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/26</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/04</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/06/10(박재연)sem 수정</note>
+			<note>supv 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="spr">완전 무장</var>
+			<str type="N_N">완전+무장</str>
+			<org lg="si">完全武裝</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>무장탈영한 군인 때문에 시내에 ~한 군인이 쫙 깔렸다.</eg>
+				<eg>그들은 소총과 수류탄등으로 ~을 하고 보초를 서던 국군 4명과 마주쳤다.</eg>
+				<trans>full equipment</trans>
+				<trans>full armed</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="perfect">완전군장</syn>
+					<ant type="temp"></ant>
+					<hyper>무장</hyper>
+					<mero>총</mero>
+					<mero>철모</mero>
+					<mero>단도</mero>
+					<mero>군장</mero>
+					<mero>군복</mero>
+					<mero>군화</mero>
+					<mero>수통</mero>
+					<mero>수류탄</mero>
+					<mero>탄약</mero>
+					<rel>군인</rel>
+					<rel>군대</rel>
+					<rel>전투</rel>
+					<rel>전쟁</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 상태</comb_n>
+				<comb_n type="compound">~ 병력</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+					<frame>X-이 Y-로 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+					<frame>X-이 Y-로 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 갖추다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 지시하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 시키다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">신체착용물|무기|기기</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이곳은 일교차가 심해 해가 나면 따뜻했지만 해가 지면 파카로 ~을 해야 했다.</eg>
+				<eg>그는 소명의식으로 ~을 한 사람이다.</eg>
+				<eg>그들은 깨끗함과 친절함으로 ~을 했다.</eg>
+				<eg>군인정신으로 ~이 된 그는 배구팀도 투지와 끈기의 혼이 실린 팀으로 만들겠다고 다짐했다.</eg>
+				<trans>full armed</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="perfect"></syn>
+					<ant type="temp"></ant>
+					<hyper></hyper>
+					<mero></mero>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-로 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 Y-로 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">신체착용물|기기|추상적대상|정적사태</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

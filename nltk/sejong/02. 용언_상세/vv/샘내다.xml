@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>샘내다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/31</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/14</mod_date>
+				<mod_writer>김건희</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/10/17</mod_date>
+				<mod_writer>음두은</mod_writer>
+				<mod_note>frame 수정 및 추가, 의미역 추가, sense 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">샘을 내다</var>
+			<str>NV</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>be jealousy</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게|에대해 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<eg>너 영희에게 샘내는 거지?.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|건물|소득|역할|예술|텍스트|신체상태|외향적심리상태(사랑)|인지상태(열정)|성공|이익|공연|증가</sel_rst>
+					<eg>너 영희의 옷에 샘내고 있는 거구나.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것|S음|S데</sel_rst>
+					<eg>너 영희가 이쁜 옷을 입고 있는 것에 샘내고 있지?</eg>
+					<eg>너 기영이의 논문이 요즈음 높이 평가받고 있음에 샘내고 있는 거지?</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<eg>너 이번에 일등한 영희를 샘내는 거지?.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|건물|소득|역할|예술|텍스트|신체상태|외향적심리상태(사랑)|인지상태(열정)|성공|이익|공연|증가</sel_rst>
+					<eg>너 영희가 새로 산 집을 샘내고 있는 거구나.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것|S음</sel_rst>
+					<eg>영희가 모든 사람들에게 칭찬받는 것을 샘내고 있지?</eg>
+					<eg>기영이의 논문이 요즈음 높이 평가받고 있음을 샘내고 있는 것이 아니면 그게 뭐란 말이냐?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>envy</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+					<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|구체물|소득|역할|예술|텍스트|기호|비언어기호체계|직책|돌아다니기|일</sel_rst>
+					<eg>기준이가 샘냈던 책을 생일선물로 사주었다.</eg>
+					<eg>기준이는 이번에 공석이된 영업부장 자리를 샘내고 있다.</eg>
+					<eg>기여이은 이번 축제 파트너로 수진이보다 미영이를 샘냈다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것</sel_rst>
+					<eg>기영이는 영업부에서 일하는 것보다 기획실에서 하는 것을 샘내고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

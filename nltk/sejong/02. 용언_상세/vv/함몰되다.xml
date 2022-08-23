@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>함몰되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/23</cre_date>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/27</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/07/30</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<org lg="si">陷沒_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>sink</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소(땅|지반|도로)</sel_rst>
+					<eg>장마뒤에 땅들이 이곳 저곳 많이 함몰되었다.</eg>
+					<eg>이곳은 함몰될 위험이 있으니 통행하지 마십시오.</eg>
+					<eg>부실 공사로 인해 도로 여러 곳이 함몰되어 차가 다니지 못한다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">신체부위(머리|이마|눈자위)</sel_rst>
+					<eg>교통기관사고로 그는 머리가 함몰되어 뇌손상을 크게 입었다.</eg>
+					<eg>함몰된 이마를 수술하는데 6시간이나 걸렸다.</eg>
+					<eg>둔기로 맞아 함몰된 머리 부위의 손상으로 사인이 판명되었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">건물|길|다리</sel_rst>
+					<sel_rst arg="Y" tht="GOL">장소(땅속|물속)</sel_rst>
+					<eg>지진으로 많은 다리들이 땅 속으로 함몰되었다.</eg>
+					<eg>연못 지반이 함몰돼,지름 2미터 깊이 7미터 가량의 구멍이 생겼습니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>get depressed</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="GOL">추상적대상(생활|삶)</sel_rst>
+					<eg>서민들은 비참한 삶에 함몰되어 나날을 보낸다.</eg>
+					<eg>풍요롭고 소비적인 삶에 함몰돼 있는 현대인들이라면 사진 속 비극의 땅이 한 줄기 희망의 빛으로 다가올 것이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

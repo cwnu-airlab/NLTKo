@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>원본</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/14</cre_date>
+				<cre_writer>김현승</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>김현승</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/23</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note>수정보완된정보없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/03</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/29</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_v 구획으로 옮긴 후 삭제</mod_note>
+				<mod_note>센스4를 센스1과 통합</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/04</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<add>센스2의 동사결합으로 '~을 번역하다|개정하다' 추가</add>
+			<add>센스3의 동사결합으로 '~을 작성하다|보관하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">原本</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 책들은 ~을 복사한 것들이다.</eg>
+				<eg>모짜르트의 생가에 가면 그의 악보의 ~을 볼 수가 있다.</eg>
+				<trans>original copy</trans>
+				<sem_class>텍스트</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 베끼다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 복사하다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이 서간문의 ~은 남아있지 않고 번역본만 남아있다.</eg>
+				<trans>original text</trans>
+				<sem_class>텍스트</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 번역하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 개정하다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>이 계약서의 ~은 반드시 잘 보관하여야 한다.</eg>
+				<trans>script</trans>
+				<domain>법률</domain>
+				<sem_class>텍스트</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 작성하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 번역하다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

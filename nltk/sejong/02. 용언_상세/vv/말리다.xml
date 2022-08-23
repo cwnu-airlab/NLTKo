@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>말리다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/04/20</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/20</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/06</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/15</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>V.리2</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>변형</sem_class>
+				<trans>be rolled up</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(종이|신문지|카페트|멍석|이불)</sel_rst>
+					<eg>신문이 왜 이렇게 말렸냐?</eg>
+					<eg>치마가 말려서 올라갔다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="manner2">돌돌</col>
+					<col type="manner2">둘둘</col>
+					<col type="manner2">똘똘</col>
+					<col type="manner2">뚤뚤</col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>변형</sem_class>
+				<trans>be rolled up</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(꼬리)</sel_rst>
+					<eg>개 꼬리가 동그랗게 말려 올라갔다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="manner3">동그랗게</col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>생물생리현상</sem_class>
+				<trans>be rolled up</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(혀)</sel_rst>
+					<eg>너무 긴장했는지 내가 자꾸 혀가 말렸다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>악화</sem_class>
+				<trans>do not go well</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">사건</sel_rst>
+					<eg>게임이 안 풀리고 자꾸 말리는 것이 꼭 질 것 같다.</eg>
+					<eg>일이 왜 이리 말리지?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>변형</sem_class>
+				<trans>be rolled up</trans>
+			</sem_grp>
+			<frame_grp type="FIN" cor="cross" n="01">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(종이|옷감|헝겊|철사)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">구체물(막대|각목)</sel_rst>
+					<eg>구리선이 막대기에 동그랗게 말려 있다.</eg>
+					<eg>신문지가 각목에 돌돌 말려 있었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="cross" n="01">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(막대|각목)</sel_rst>
+					<sel_rst arg="Y" tht="INS">구체물(종이|헝겊|신문지)</sel_rst>
+					<eg>각목이 신문지로 잘 말리지 않으면 물을 좀 뿌려라.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="manner2">둘둘</col>
+					<col type="manner3">동그랗게</col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="06">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be rolled up</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체인공물(김밥|담배)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">구체인공물(김|발|종이|은박지)</sel_rst>
+					<eg>꼬들꼬들한 김밥이 발에 잘 말린다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체인공물(김밥|담배)</sel_rst>
+					<sel_rst arg="Y" tht="INS">구체인공물(김|발|종이|은박지)</sel_rst>
+					<eg>김밥은 발로 잘 말린다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="manner2">돌돌</col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="07">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be curled up</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(머리|머리카락)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">기구</sel_rst>
+					<eg>머리가 파마기에 잘 말리지 않으면 열을 좀 더 가해야 한다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(머리|머리카락)</sel_rst>
+					<sel_rst arg="Y" tht="INS">기구</sel_rst>
+					<eg>긴 머리카락이 파마기로 잘 말린다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="08">
+			<sem_grp>
+				<sem_class>장애</sem_class>
+				<trans>be rolled up</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|신체부위</sel_rst>
+					<sel_rst arg="Y" tht="LOC">구체물</sel_rst>
+					<eg>철수가 수초에 말려서 나오지 못하고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="09">
+			<sem_grp>
+				<sem_class>비의도적행위</sem_class>
+				<trans>be engaged</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="LOC">사건|행위</sel_rst>
+					<eg>너는 그 일에 절대 말려 들지 말아라.</eg>
+					<eg>우리 팀은 상대방의 밀집 수비 작전에 완전히 말려 들어 공격을 제대로 풀지 나가지 못했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/04/20</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/20</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/06</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/15</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>간섭</sem_class>
+				<trans>get</trans>
+				<trans>intervene between the two men</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|인간집단</sel_rst>
+					<eg>누가 저 사람을 좀 말려다오.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>간섭</sem_class>
+				<trans>stop a quarrel</trans>
+				<trans>put a stop to a quarrel</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">행위(싸움|행패|행동)</sel_rst>
+					<eg>싸움을 말려야지 보고만 있냐?</eg>
+					<eg>취객들의 행패를 도저히 말릴 수 없어서 경찰을 불러야 했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=S는것1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">행위</sel_rst>
+					<eg>너는 아이들이 싸우는 것을 말리지 않고 보고만 있었냐?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>간섭</sem_class>
+				<trans>stop</trans>
+				<trans>dissuade a person from</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=S1-게|도록 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="FNS"/>
+					<eg>그들은 우리가 돈을 투자하지 못하게 말렸다.</eg>
+					<eg>남편은 아내가 부산을 가지 못하도록 말리느라 정신없었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=S2-게|도록 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<sel_rst arg="Z" tht="FNS"/>
+					<eg>그들은 우리를 가지 못하게 말렸다.</eg>
+					<eg>남편은 아내를 부산에 가지 못하도록 말리느라 정신없었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/04/20</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/20</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/06</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/15</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>make dry</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(옷|빨래|책|명태)</sel_rst>
+					<sel_rst arg="Z" tht="INS">기기|(바람|햇볕)</sel_rst>
+					<n_appr arg="Y">습기</n_appr>
+					<n_appr arg="Y">물기</n_appr>
+					<eg>찬호는 젖은 옷을 햇볕에 말렸다.</eg>
+					<eg>명태를 바람과 햇볕에 바짝 말려 황태로 만들었다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="magn">바싹</col>
+					<col type="magn">바짝</col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>dry</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(땀|눈물)</sel_rst>
+					<eg>영희는 흐르는 땀을 말리려 잠시 그늘에 쉬었다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="magn">바짝</col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>dry</trans>
+				<trans>desiccate</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">(폭염|가뭄|산불)</sel_rst>
+					<sel_rst arg="Y" tht="THM">물장소(호수|강|연못)|액체</sel_rst>
+					<eg>극심한 가뭄이 강을 모두 말렸다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="magn">바짝바짝</col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>be distressed</trans>
+				<trans>be vexed</trans>
+				<trans>be harassed</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">인간|사건|행위|상태</sel_rst>
+					<sel_rst arg="Y" tht="THM">(심장|속|간)|인간</sel_rst>
+					<eg>네가 나를 바짝바짝 말리는구나.</eg>
+					<eg>입시가 어린 학생들을 바짝 말려 버렸다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">S것</sel_rst>
+					<sel_rst arg="Y" tht="THM">(심장|속|간)|인간</sel_rst>
+					<eg>남편이 도박하는 것이 아내의 간장을 바짝 말렸다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="magn">바짝</col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>파괴행위</sem_class>
+				<trans>make an insufficiency of funds</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">인간|사건|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="THM">(돈|자금)</sel_rst>
+					<eg>불황이 시중 자금을 모두 말렸다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="magn">바짝</col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<idm_grp>
+			<idm>그 일은 사람 피를 말리는 작업이다.</idm>
+			<idm>이씨 집안의 씨를 말리려고 한다.</idm>
+		</idm_grp>
+	</entry>
+</superEntry>

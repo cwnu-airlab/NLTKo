@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>파종</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/20</cre_date>
+				<cre_writer>김성용</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/31</mod_date>
+				<mod_writer>이홍식</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/06</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note>n_v의 ~완성</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/2/20</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>동의어 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/30</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">播種</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>농가에서는 ~을 하기 위해서 분주한 모습이다.</eg>
+				<trans>sowing</trans>
+				<trans>seeding</trans>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="perfect">부종</syn>
+					<syn type="perfect">종파</syn>
+					<syn type="kor">씨뿌리기</syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에 Z-을 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>Z-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">농경지</sel_rst>
+				<sel_rst arg="Z">식물(|씨|씨앗)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

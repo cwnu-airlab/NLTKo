@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>병용되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/27</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김미영</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/27</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/08/04</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">병용이 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<org lg="si">竝用_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>관계속성값</sem_class>
+				<trans>be used jointly</trans>
+				<trans>together</trans>
+			</sem_grp>
+			<frame_grp type="FIN" cor="sym" n="01">
+				<frame>X+Y=N0-이 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(화폐|현물|문자|프로그램)</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(화폐|현물|문자|프로그램)</sel_rst>
+					<eg>A프로그램과 B프로그램이 병용된다면 이러한 문제는 골칫거리도 안 된다.</eg>
+					<eg>영어와 일본어가 어떻게 병용될 수 있는가?</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="sym" n="01">
+				<frame>X=N0-이 Y=N1-와 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(화폐|현물|문자|프로그램)</sel_rst>
+					<sel_rst arg="Y" tht="COM">구체물(화폐|현물|문자|프로그램)</sel_rst>
+					<eg>A프로그램이 B프로그램과 병용된다면 이러한 문제는 골칫거리도 안 된다.</eg>
+					<eg>영어가 일본어와 어떻게 병용될 수 있는가?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

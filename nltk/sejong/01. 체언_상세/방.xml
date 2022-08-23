@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>방</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/12</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/17</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>n_v 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/07/04</note>
+			<note>2003/03/26(이하영)예문 추가</note>
+			<note>2003/04/17(고길수)var에서 () 삭제</note>
+			<note>cl에 '칸' 추가</note>
+			<note>comb_aj에 '크다|작다' 추가</note>
+			<note>comp 정보 표기법 수정</note>
+			<note>단위표현에 '곳|군데' 추가</note>
+			<note>동사자유구성 중 일부 삭제, 일부는 add항목으로 옮김</note>
+			<note>예문 수정</note>
+			<note>의미부류 수정</note>
+			<add>동사자유구성 ' ~을 세들다|세주다|예약하다|비우다|치우다|정리하다|닦다|빼다|들이다|내놓다|잡다|구하다|얻다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">房</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~문</comp>
+			<comp pos="n" type="suffix">~바닥</comp>
+			<comp pos="n" type="prefix">안~</comp>
+			<comp pos="n" type="prefix">건넌~</comp>
+			<comp pos="n" type="prefix">셋~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">부엌에 가면 더 먹을까 ~에 가면 더 먹을까</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 이 동네 저 동네 ~을 구하러 다니고 있다.</eg>
+				<eg>그 집에는 ~이 아홉 개나 있다.</eg>
+				<trans>room</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>건물부분장소</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hypo>안방</hypo>
+					<hypo>건넌방</hypo>
+					<hypo>문간방</hypo>
+					<hypo>사랑방</hypo>
+					<hypo>침실</hypo>
+					<holo>집</holo>
+					<mero>문</mero>
+					<mero>창</mero>
+					<mero>방바닥</mero>
+					<mero>천장</mero>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 넓다</comb_aj>
+				<comb_aj type="min">~이 좁다</comb_aj>
+				<comb_aj type="magn">~이 크다</comb_aj>
+				<comb_aj type="min">~이 작다</comb_aj>
+				<comb_aj type="appr">~이 깨끗하다</comb_aj>
+				<comb_aj type="appr">~이 더럽다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 들이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 꾸미다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">칸</cl>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/12</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/17</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>sem 수정</mod_note>
+				<mod_note>n_v 기술</mod_note>
+				<mod_note>cl(가지) 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/07/04</note>
+			<note>2003/03/26(이하영)텍스트와 텍스트담지물로 센스구분해야 할지? 별로 그렇지 않은 것 같아 일단 그냥 놔 두었습니다</note>
+			<note>2003/04/17(고길수)var에서 () 삭제</note>
+			<note>동사자유구성을 add항목으로 옮김</note>
+			<note>영어대역어 표기법 수정</note>
+			<note>예문 수정</note>
+			<note>예문 추가</note>
+			<add>~에 쓰다' 추가</add>
+			<add>~을 붙이다|읽다|보다</add>
+			<add>동사자유구성 '~이 붙다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="lng">방문</var>
+			<str type="temp"></str>
+			<org lg="si">榜</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>광장에 ~이 붙자 사람들이 삼삼오오 모여들기 시작했다.</eg>
+				<eg>관아에서는 곡식을 무료로 나눠준다는 내용을 ~에 써서 붙여 놓았다.</eg>
+				<trans>public noticeplacard</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>텍스트담지물</sem_class><!--(권오희)'텍스트'에서 수정-->
+				<lr>
+					<syn type="etc">방문</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 붙다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 쓰다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 붙이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 읽다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">장</cl>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

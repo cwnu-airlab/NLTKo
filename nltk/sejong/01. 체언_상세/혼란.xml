@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>혼란</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/17</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/08</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/12</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note>동사결합 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/21</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>'일어나다' add에서 n_v로 이동</mod_note>
+				<mod_note>의미부류 상태를 수정</mod_note>
+				<mod_note>동사 결합 정보 타입 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/12</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>comb_v "~을 초래하다" 추가</mod_note>
+			</mod>
+			<note>'사건'의 의미를 갖는 용법의 구분 문제 검토 요망</note>
+			<note>2001/07/23(고길수)</note>
+			<note>2001/08/05(이성헌)</note>
+			<note>2003/02/03(김진형)</note>
+			<note>2003/02/08(이지영)cl추가</note>
+			<note>기능동사, 최대논항구조 수정, 재검토 요망</note>
+			<note>단위표현 추가</note>
+			<note>동사-자유구성 추가</note>
+			<note>예문 수정</note>
+			<note>파생어 정보 추가</note>
+			<note>형용사연어 추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">混亂</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~기</der>
+			<der pos="n" type="prefix">대~</der>
+			<der pos="a" type="suffix">~스럽다</der>
+			<comp pos="n" type="suffix">~상</comp>
+			<comp pos="n" type="prefix">사회~</comp>
+			<comp pos="n" type="prefix">정치~</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="a" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>국가 경제가 대공황으로 인해 큰 ~을 겪었다.</eg>
+				<eg>오늘날에는 컴퓨터 바이러스 하나가 전세계의 정보망에 커다란 ~을 야기할 수 있다.</eg>
+				<eg>중동에 전쟁이 일어나면 국제적으로 큰 ~이 일어날 수 있다.</eg>
+				<trans>disorder</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>상황값</sem_class>
+				<lr>
+					<syn type="etc">효란</syn>
+					<ant type="etc">안정</ant>
+					<rel>혼잡</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 심하다</comb_aj>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 작다</comb_aj>
+				<comb_n type="compound">~ 상태</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 Y-에의해 ~이 되다</frame>
+					<frame>X-이 S것-에의해 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~에 빠지다</form>
+					<frame>X-이 Y-에의해 ~에 빠지다</frame>
+					<frame>X-이 S것-에의해 ~에 빠지다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~에 빠뜨리다</form>
+					<frame>Y-이 X-을 ~에 빠뜨리다</frame>
+					<frame>S것-이 X-을 ~에 빠뜨리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 일어나다</form>
+					<frame>X-이 Y-에의해 ~이 일어나다</frame>
+					<frame>X-이 S것-에의해 ~이 일어나다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 가져오다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 겪다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 수습하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 초래하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 발생하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>Y-에의한 X-의 ~</max_n_str>
+				<max_n_str>S것-에의한 X-의 ~</max_n_str>
+				<sel_rst arg="X">집단|(국가|사회)|추상적대상(생각|경제|정신)</sel_rst>
+				<sel_rst arg="Y">행위|사건</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

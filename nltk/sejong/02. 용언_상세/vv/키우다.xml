@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>키우다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/17</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/28</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 정보 수정</mod_note>
+				<mod_note>lr 정보 추가</mod_note>
+				<mod_note>trans 형식 수정</mod_note>
+			</mod>
+			<note>2003/10/17(한선혜)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="u"/>
+			<str>V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>bring up</trans>
+				<trans>rear</trans>
+				<trans>raise</trans>
+				<trans>nurse</trans>
+				<lr>
+					<syn type="perfect">기르다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간(자식|제자|선수)</sel_rst>
+					<eg>김 선생은 자식들을 한결같이 잘 키운 것 같아요.</eg>
+					<eg>요즘 엄마들을 예전처럼 아기를 모유로 키우려고 한다.</eg>
+					<eg>김 여사는 남편없이 혼자서 아이 셋을 키워 냈다.</eg>
+					<eg>경제가 어려울 때라도 인재를 키우는데 인색하면 안 된다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">동물|식물</sel_rst>
+					<eg>김씨는 돼지 300 마리를 키우고 있다.</eg>
+					<eg>영석이는 난초 300여 종을 키우고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>foster</trans>
+				<trans>rear</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">분야(산업)</sel_rst>
+					<eg>국내 자동차 산업을 키우기 위해 정부는 외국산 자동차 수입을 제한하였다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>foster</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">속성(담력|재능)</sel_rst>
+					<eg>영수는 담력을 키우기 위해 일부러 밤중에 공동묘지에 가곤 했다.</eg>
+					<eg>어린 아이들이 가진 다양한 소질을 키워 주면, 어느 아이라도 뛰어난 아이가 될 수 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<sel_rst arg="Z" tht="FNS">(발레리나|원수|영재|인재)</sel_rst>
+					<eg>우리 아이를 발레리나로 키우고 싶어요.</eg>
+					<eg>그는 유망한 어린 꿈나무들을 영재로 키우는 프로그램을 만들었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>악화행위</sem_class>
+				<trans>grow worse</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">질병및증세(병)</sel_rst>
+					<eg>그렇게 방에만 있다가 병을 키우면 고치기가 어렵다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

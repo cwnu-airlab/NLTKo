@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>미스터리</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/07</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/11</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>n_v기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>'가 풀리다 'n_v'로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/07/07(송인욱)의미부류가 '사실명제'일 가능성 검토 요망</note>
+			<note>2003/10/11(박진호)'미스터리 소설'을 합성어에서 명사연어로 옮김</note>
+			<add>2003/07/07(송인욱)동사자유구성으로 '~를 풀다</add>
+			<add>~가 풀리다</add>
+			<add>~로 남다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="xx">미스테리</var>
+			<org lg="en">mystery</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>누구도 해결하지 못한 이 연쇄살인사건은 어쩌면 영원한 ~로 남을 지도 모른다.</eg>
+				<eg>그 ~를 푼 것은 의외로 대학을 갓 졸업한 신출내기 탐정이었다.</eg>
+				<eg>그 형사가 오자 ~는 쉽게 풀렸다.</eg>
+				<trans>mystery</trans>
+				<sem_class>추상적대상</sem_class><!--속성?(김)-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">영원한 ~</comb_aj>
+				<comb_aj type="appr">~가 불가해하다</comb_aj>
+				<comb_n type="compound">~ 소설</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 풀리다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 풀다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 남다</form>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

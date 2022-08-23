@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>볶음</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/17</cre_date>
+				<cre_writer>한동훈</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/17</mod_date>
+				<mod_writer>한동훈</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/20</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1의 의미부류 수정</mod_note>
+				<mod_note>센스1에 명사결합 정보 추가</mod_note>
+				<mod_note>논항명사구 정보 추가</mod_note>
+				<mod_note>센스2에 형용사, 동사결합 정보 추가</mod_note>
+				<mod_note>add 정보 추가</mod_note>
+				<mod_note>합성어 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/22</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 의미부류 '변형행위'를 수정</mod_note>
+			</mod>
+			<add>'자연음식물 볶음'과 같은 사례를 어떻게? 모든 사례를 합성어나 명사구 정보로 등재할 수 없음</add> <!-- 추가함 -->
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+		
+			<comp pos="n" type="prefix">쇠고기|야채|낚지|제육|멸치~</comp> <!-- 추가함 -->
+			<comp pos="n" type="suffix">~밥|라면</comp> <!-- 추가함 -->
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>아내는 김치와 야채를 넣고 ~을 했다.</eg>
+				<trans>roast</trans>
+				<trans>broil</trans>
+				<sem_class>지속적활동</sem_class> <!-- '지속적활동' 수정 -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 양념</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">~ 요리</comb_n> <!-- 추가함 -->
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+					<!-- 음식 재료와 관련된 논항이 올 수 없는지?? -->
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가함 -->
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>나는 ~을 아저씨들에게 대접했다.</eg>
+				<trans>roasted food</trans>
+				<sem_class>요리</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 맛있다</comb_aj> <!-- 추가함 -->
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~을 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="qnt">접시</cl>
+				<cl type="qnt">그릇</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

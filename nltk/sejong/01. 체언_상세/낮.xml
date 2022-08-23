@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>낮</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/01</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/07</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/12</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>태그 내 나열된 정보 분할</mod_note>
+				<mod_note>관용 표현, 동사 결합 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/10</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>org 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/09/03(백인애)</note>
+			<note>2001/01/30(정유진</note>
+			<note>2003/03/17(이호영)센스1에 대해서 예문 추가|의미부류 수정|동사연어구성을 향후 추가정보로 이동</note>
+			<note>2003/04/07(박만규)</note>
+			<note>센스2에 대해서 예문 추가|의미부류 수정|동사연어구성을 향후 추가정보로 이동</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="etc"></org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="prefix">한~</der>
+			<der pos="n" type="prefix">대~</der>
+			<comp pos="n" type="suffix">~거리</comp>
+			<comp pos="n" type="suffix">~교대</comp>
+			<comp pos="n" type="suffix">~대거리</comp>
+			<comp pos="n" type="suffix">~도깨비</comp>
+			<comp pos="n" type="suffix">~도둑</comp>
+			<comp pos="n" type="suffix">~일</comp>
+			<comp pos="n" type="suffix">~잠</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc">~이고 밤이고</idm>
+			<idm type="etc">~이나 밤이나</idm>
+			<idm type="prv">~ 말은 새가 듣고 밤 말은 쥐가 듣는다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 프리랜서로서 주로 ~에 집에서 일한다.</eg>
+				<eg>여름이 되면서 점점 ~이 길어지고 있다.</eg>
+				<trans>day</trans>
+				<trans>daytime</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>하루중단계</sem_class>
+				<lr>
+					<syn type="etc">주간</syn>
+					<ant type="etc">밤</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 길다</comb_aj>
+				<comb_aj type="appr">~이 짧다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 길어지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 짧아지다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>아침은 서늘해도 ~에는 덥다.</eg>
+				<eg>~에 햇볕이 강렬해서 외출하기가 싫다.</eg>
+				<trans>noon</trans>
+				<trans>midday</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>하루중단계</sem_class>
+				<lr>
+					<syn type="etc">한낮</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 덥다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

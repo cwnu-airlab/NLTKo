@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>결핍되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/09/16</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>격틀 조정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">결핍이 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<org lg="si">缺乏_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>lack</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>Y=N1-에|이 X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(비타민|영양|염분)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">인간|생물</sel_rst>
+					<eg>사람에게 비타민이 결핍되면 호르몬 계통에 이상이 생긴다.</eg>
+					<eg>이 증상은 어린 아이들에게 영양이 결핍되면 생긴다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(사랑|애정|신의|성실성|허영심)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">인간</sel_rst>
+					<eg>너는 애정이 결핍된 것 같아.</eg>
+					<eg>성실성이 결핍된 사람은 우리에게 필요없다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">기체(공기|산소)|액체(물|수분)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">신체부위|장소</sel_rst>
+					<eg>밀폐된 공간에는 공기가 결핍되면 큰일난다.</eg>
+					<eg>하품이 자꾸 나오는 것을 보니 몸속에 산소가 결핍된 증거다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

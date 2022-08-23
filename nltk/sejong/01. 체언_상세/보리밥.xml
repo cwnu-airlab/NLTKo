@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>보리밥</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/06/20</cre_date>
+				<cre_writer>권우진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/04</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/07</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>syn 속성값 수정</mod_note>
+				<mod_note>n_v 형식 수정</mod_note>
+			</mod>
+			<note></note>
+			<add>~을 짓다|먹다|하다|익히다|대접하다|차리다|비비다</add>
+			<add>~을 짓다|먹다|하다|익히다|대접하다|차리다|비비다</add>
+			<add>~으로 내놓다|대접하다</add>
+			<add>~을 짓다|먹다|하다|익히다|대접하다|차리다|비비다</add>
+			<add>~으로 내놓다|대접하다</add>
+			<add>~이 익다|뜸들다|식다|되다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">보리+밥</str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="prefix">꽁~</der>
+			<der pos="n" type="prefix">깡~</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~ 한 솥 짓기</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>점심에 별식이라고 ~을 좀 많이 먹었더니 왠지 속이 더부룩하다.</eg>
+				<trans>boiled rice with barley</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>음식</sem_class>
+				<lr>
+					<syn type="sino">맥반</syn>
+					<syn type="sino">맥식</syn>
+					<ant type="temp"></ant>
+					<hyper>밥</hyper>
+					<hypo>꽁보리밥</hypo>
+					<coord>쌀밥</coord>
+					<coord>잡곡밥</coord>
+					<rel>혼식</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 까끌끌하다</comb_aj>
+				<comb_aj type="magn">시커먼 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 짓다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 먹다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 익히다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 대접하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 차리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 비비다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 내놓다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 대접하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 익다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 뜸들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 식다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="qnt">입</cl>
+				<cl type="qnt">숟가락</cl>
+				<cl type="qnt">술</cl>
+				<cl type="qnt">그릇</cl>
+				<cl type="qnt">솥</cl>
+				<cl type="qnt">덩어리</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

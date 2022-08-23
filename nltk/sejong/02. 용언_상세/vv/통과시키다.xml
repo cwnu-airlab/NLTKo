@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>통과시키다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/22</cre_date>
+				<cre_writer>임동식</cre_writer>
+				<cre_writer>권재일</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/18</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/08/31</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">통과를 시키다</var>
+			<cntr opt="obl" type="i"/>
+			<str>N.시키</str>
+			<org lg="si">通過__</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>사동적행위</sem_class>
+				<trans>make something pass</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에서 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(안건|주제|문제|의제|발제|제안)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">모임회의(회의|총회|위원회)</sel_rst>
+					<eg>의원들은 이번 정기국회에서 모성 보호법을 통과시켰다.</eg>
+					<eg>위원들은 이번 위원회에서 그 안건을 통과시켰다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>사동적행위</sem_class>
+				<trans>make someone or something pass the exam or the trial</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|모임회의</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(차|기계)|인간</sel_rst>
+					<sel_rst arg="Z" tht="CRT">(검사|시험)</sel_rst>
+					<eg>교수들은 그 학생을 이번 시험에 통과시켰다.</eg>
+					<eg>검사관들은 새로 만들어진 차를 검사에 통과시키지 않았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>사동적행위</sem_class>
+				<trans>penetrate</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">구체물(유리|천|막)</sel_rst>
+					<sel_rst arg="Y" tht="THM">(빛|물)|재료성분(소금기)</sel_rst>
+					<eg>유리는 빛을 통과시킨다.</eg>
+					<eg>세포막은 소금기만 통과시킨다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>사동적행위</sem_class>
+				<trans>make something pass or penetrate</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(빛|물)|재료성분(소금기)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">구체물(유리|천|막)</sel_rst>
+					<eg>그는 프리즘에 빛을 통과시켰다.</eg>
+					<eg>그는 체에 낱알을 통과시켰다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

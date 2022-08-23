@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>치솟다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/13</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/05</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 정보 수정</mod_note>
+				<mod_note>trans 형식 수정</mod_note>
+			</mod>
+			<note>2003/10/13(한선혜)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>PV</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>움직임</sem_class>
+				<trans>rise suddenly sky</trans>
+				<trans>rocket shoot up</trans>
+				<trans>zoom</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">불</sel_rst>
+					<sel_rst arg="Y" tht="DIR">장소(방향|위)</sel_rst>
+					<eg>공장 천장 위로 불길이 갑자기 치솟으며, 삽시간에 불은 공장 전체로 퍼져 나갔다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에서 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(불길|물길)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<eg>한달 이상 지속된 봄 가뭄 때문에 숲속에서 불길이 여기저기 치솟았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>증가</sem_class>
+				<trans>rise suddenly sky</trans>
+				<trans>rocket shoot up</trans>
+				<trans>zoom</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">값(물가|생활비|전세가)</sel_rst>
+					<eg>올들어 소매물가가 하늘 높은 줄 모르고 마냥 치솟고 있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(온도)</sel_rst>
+					<eg>작열하는 여름 태양 아래, 도심의 한낮 온도는 40도까지 치솟았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>push</trans>
+				<trans>shove</trans>
+				<trans>force up</trans>
+				<trans>raise up</trans>
+				<trans>surge</trans>
+				<trans>rages well</trans>
+				<trans>well up</trans>
+			</sem_grp>
+			<frame_grp type="SIN">
+				<frame>Npr0-이 V</frame>
+				<subsense>
+					<sel_rst arg="Npr0">(생각|욕구)</sel_rst>
+					<eg>체중감량 중인 영수는, 음식을 보자 먹고 싶은 욕구가 자꾸 치솟아 견디기가 무척 힘들었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="Npr0">심리상태(분노|화)</sel_rst>
+					<eg>철수는 친구들의 이기적인 행동에 대해 화가 머리 끝까지 치솟았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

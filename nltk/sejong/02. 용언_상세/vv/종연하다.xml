@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>종연하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/14</cre_date>
+				<cre_writer>김현권</cre_writer>
+				<cre_writer>조현경</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/08/14</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">종연을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<org lg="si">終演_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>end</trans>
+				<trans>finish a show</trans>
+			</sem_grp>
+			<frame_grp type="FIN" cor="nut" n="01">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">예술(연극|영화|미술)</sel_rst>
+					<eg>에술성이 높은 연극이었는데 종연하니 아쉽다.</eg>
+					<eg>미술전이 종연한 사실을 모른 채 서울까지 비싸게 비행기로 올라왔다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="nut" n="01">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">예술(연극|영화|미술전)</sel_rst>
+					<eg>김사장은 관객의 호응이 없자 연극을 3일 만에 종연하였다.</eg>
+					<eg>한국발레협회는 그 무용가가 폭력적으로 연출하는 공연을 종연시켰다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

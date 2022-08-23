@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>축성</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/23</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>2003/08/24(김이정)</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/08</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>supv의 '받다'구문 X항에 '로부터'추가;각 구문을 한 줄씩 배치</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/08</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미부류 수정;동사결합 수정;논항명사구 추가;논항 의미정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/02/12</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_n 기술</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/10</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">祝聖</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>성수는 사제가 특별히 ~을 한 깨끗한 물을 말한다.</eg>
+				<trans>benediction</trans>
+				<trans>consecration</trans>
+				<trans>sanctification</trans>
+				<domain>가톨</domain>
+				<sem_class>종교및의례행위</sem_class> <!-- 순간적행위 수정 -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">성물 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+					<frame>X-이 Y-에대해 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>X-에게 Y-이 ~을 받다</frame>
+					<frame>X-로부터 Y-이 ~을 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str> <!-- 추가함, 이렇게 쓰이는지?? -->
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">직업인간</sel_rst>
+				<sel_rst arg="Y">구체물|속성|장소</sel_rst> <!-- '인간|액체|구체인공물'을 구체물로 수정, 기능장소를 장소로 수정 -->
+				<cl type="uni">차례</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/23</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>2003/08/24(김이정)</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/08</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>cl에 '번|차례|회' 기술;sel_res의 Y를 '속성|기능장소'에서 '조형물'로 수정(현 트리패드 참조, 문제점은 '축대'의 note 참조)</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/08</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>예문 수정;의미부류 수정;동사결합 정보 수정;논항명사구 추가;논항 의미정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/02/12</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/10</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">築城</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 산성은 천 년 전에 토성으로 ~을 한 것이다.</eg> <!-- 남한산성은 신라 문무왕 12년에 토성으로 ~을 한 것이다 수정 -->
+				<trans>fortification</trans>
+				<trans>construction of a castle</trans>
+				<sem_class>창조행위</sem_class> <!-- '단독행위' 수정 -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form> <!-- 형태정보 추가 -->
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">담|제방|건물|조형물</sel_rst> <!-- '담, 제방, 건물' 추가 -->
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

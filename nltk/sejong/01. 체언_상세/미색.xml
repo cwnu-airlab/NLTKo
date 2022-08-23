@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>미색</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/07</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/10</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/10/10(박진호)격틀, 선택제약 추가</note>
+			<add>2003/07/07(송인욱)동사자유구성으로 '~을|으로 칠하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">米色</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리가 이사갈 새 집의 벽은 ~으로 칠해져 있었다.</eg>
+				<eg>~의 원피스를 입은 그의 뒷모습이 너무 아름다웠다.</eg>
+				<trans>pale yellow</trans>
+				<trans>straw yellow</trans>
+				<sem_class>색속성값</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">옅은 ~</comb_aj>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 ~이다</frame>
+				</comb_v>
+				<sel_rst arg="X">구체물</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/07</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/10</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>lr,n_v수정, cl추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스2 분류사 추가, 센스2 '추녀'를 동의어에서 반의어로 수정</mod_note>
+			</mod>
+			<note>2003/10/10(박진호)센스1 comb_v 추가. 센스2 반의어 수정</note>
+			<add>2003/07/07(송인욱)센스1의 동사자유구성으로 '~이 돋보이다' 추가</add>
+			<add>2003/07/07(송인욱)센스2의 동사자유구성으로 '~을 밝히다|찾다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">美色</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>출중한 ~에 지혜까지 겸비한 그녀에게 나는 상대조차 되지 않았다.</eg>
+				<eg>재능과 ~을 갖춘 그녀를 보자 우리는 그녀에게 한눈에 반했다.</eg>
+				<trans>beauty of a woman</trans>
+				<sem_class>긍정적인성속성값</sem_class><!--긍정적인성을 수정-->
+				<lr>
+					<syn type="perfect">미모</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 출중하다</comb_aj>
+				<comb_aj type="appr">~이 뛰어나다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 갖추다</form>
+				</comb_v>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>자기 주제도 모르고 ~만 밝히는 남자처럼 꼴불견인 것은 없다.</eg>
+				<eg>그는 ~을 얻기 위해 성공해야 한다고 말하는 남자였다.</eg>
+				<trans>beautiful woman</trans>
+				<sem_class>긍정적신체속성인간</sem_class>
+				<lr>
+					<syn type="perfect">미인</syn>
+					<syn type="perfect">미녀</syn>
+					<ant type="conv">추녀</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

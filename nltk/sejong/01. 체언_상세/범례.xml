@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>범례</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/24</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/05</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add정보를 n_v로 이동</mod_note>
+			</mod>
+			<note>2003/10/15(박진호)'본보기'라는 의미는 한자가 다르므로 별도 엔트리로 함</note>
+			<add>2003/09/24(송인욱)동사자유구성으로 '~를 쓰다|작성하다|읽다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">範例</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 책에는 자세한 ~가 나와 있어서 읽는 데 많은 도움이 된다.</eg>
+				<eg>이제 글을 다 썼으니 ~를 작성하는 일만 남았다.</eg>
+				<trans>introductory remarks</trans>
+				<trans>explanatory notes</trans>
+				<sem_class>텍스트의부분</sem_class>
+				<lr>
+					<syn type="kor">일러두기</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 자세하다</comb_aj>
+				<comb_aj type="appr">~가 간략하다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 작성하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 읽다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 쓰다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/24</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/29</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/05</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add정보를 n_v로 이동</mod_note>
+				<mod_note>의미부류 '관계추상적대상'을 수정</mod_note>
+				<mod_note>n_aj 수정</mod_note>
+			</mod>
+			<note>2003/10/15(박진호)기능동사 구문이 의심스러움</note>
+			<note>2003/10/29(송인욱)박진호 선생님의 견해와 마찬가지로 표제어의 술어성이 의심됨. 따라서 기능동사 기술을 삭제하고 일단 add에 넣어둠</note>
+			<add>2003/09/24(송인욱)동사자유구성으로 '~를 따르다</add>
+			<add>~로 삼다|채택하다' 추가</add>
+			<add>2003/10/29(송인욱)supv에 'X|S것-이 Y-에게 ~가 되다'는 기술이 가능할 지 검토 바람</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">範例</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그녀가 역경을 딛고 일어서 꿈을 이룬 것은 우리 모두에게 훌륭한 ~가 된다.</eg>
+				<eg>나는 이제껏 조직을 잘 운영해온 선배들의 ~를 따르고 싶다.</eg>
+				<eg>그의 삶은 인생에 있어 의지가 얼마나 중요한가를 보여주는 하나의 ~가 된다.</eg>
+				<eg>이곳은 현대의 환경오염의 심각성을 일깨워주는 좋은 ~이다.</eg>
+				<trans>model</trans>
+				<trans>example</trans>
+				<sem_class>관계추상적대상</sem_class><!--술어 '모범'으로 다의분할 가능성 있는지??(김이정)-->
+				<lr>
+					<syn type="kor">본</syn>
+					<syn type="kor">본보기</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">훌륭한 ~</comb_aj>
+				<comb_aj type="appr" pred="no">좋은 ~</comb_aj>
+				<comb_n type="compound">하나의 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 삼다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 채택하다</form>
+					<frame></frame>
+				</comb_v>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

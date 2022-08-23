@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>부패되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/05</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/05</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/08/08</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">부패가 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<org lg="si">腐敗_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>악화</sem_class>
+				<trans>go bad</trans>
+				<trans>be spoiled</trans>
+				<trans>be decomposed</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">생물(개|물고기|풀)|자연음식물(생선|고기|과일)</sel_rst>
+					<eg>오염된 호수는 죽은 물고기들이 부패되어서 심한 악취가 난다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>악화</sem_class>
+				<trans>become corrupt</trans>
+				<trans>be decayed</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간집단(사회|기업|군대|정당)</sel_rst>
+					<eg>오늘날 한국의 병폐는 기업, 정당등의 집단들이 부패되었다는 것이다.</eg>
+					<eg>나라가 이처럼 부패되면 젊은이들이 설땅이 없다.</eg>
+					<eg>현 정부가 부패되었기 때문에 시민들은 투표로 이를 몰아내려 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

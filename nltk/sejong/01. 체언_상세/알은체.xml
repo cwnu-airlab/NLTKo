@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>알은체</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/13</cre_date>
+				<cre_writer>이지영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/25</mod_date>
+				<mod_writer>남길임</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/27</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>다의 분할 후 전체 재기술;str 기술;org 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/06</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>문형, 합성어 추가</mod_note>
+			</mod>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="Vm_N">알은+체</str>
+			<org lg="etc"></org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>주식 이야기만 나오는 그는 ~를 하고 끼어든다.</eg>
+				<trans>interference</trans>
+				<trans>meddling</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>외향적심리행위</sem_class><!--단독행위를 수정(김이정)-->
+				<lr>
+					<syn type="perfect">알은척</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+					<frame>X-이 Y-에 ~를 하다</frame>
+					<frame>X-이 Y-에대해 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">사태|추상적대상</sel_rst>
+				<cl type="uni">차례</cl>
+				<cl type="uni">차</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">번</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 내게 ~도 안 했다.</eg>
+				<trans>show of recognition</trans>
+				<trans>gesture of recognition</trans>
+				<trans>recognition</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>방향성행위</sem_class><!--단독행위를 수정(김이정)-->
+				<lr>
+					<syn type="perfect">알은척</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+					<frame>X-이 Y-에게 ~를 하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="uni">차례</cl>
+				<cl type="uni">차</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">번</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

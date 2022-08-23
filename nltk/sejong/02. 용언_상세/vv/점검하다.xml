@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>점검하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/11</mod_date>
+				<mod_writer>박영준</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">점검을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>점검.하</str>
+			<org lg="si">點檢_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>행위</sem_class>
+				<trans></trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|단체</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체인공물(기기|교통기관)|사태(상태)</sel_rst>
+					<eg>특히 겨울철에는 자동차 상태를 매일 점검해야 안전사고를 막을 수 있다.</eg>
+					<eg>직원들이 매일 기계를 점검하는데도 자꾸 고장이 난다.</eg>
+					<eg>자꾸 피로하고 컨디션이 좋지 않으면 한 번 건강을 점검해 볼 필요가 있다.</eg>
+					<eg>고3 때에는 모의고사를 자주 실시하여 학생들의 실력을 수시로 점검할 필요가 있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">Q</sel_rst>
+					<eg>김 소위는 소대원들이 전투 태세가 잘 갖추어져 있는지를 점검하였다.</eg>
+					<eg>기계에 아무 이상이 없는지 다시 한 번 점검해 보아라.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>거추장스럽다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/09</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>김건희</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>RS</str>
+			<infl type="b"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>속성값</sem_class>
+				<trans>be burdensome</trans>
+				<trans>be cumbersome</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>Y=N1-에게는|이 X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">신체부위(수염|머리카락)|구체물(장신구|옷)</sel_rst>
+					<sel_rst arg="Y" tht="EXP">인간</sel_rst>
+					<eg>할아버지는 수염이 거추장스러우신가 봐요.</eg>
+					<eg>난 치마가 거추장스러워서 못 입겠어.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<sel_rst arg="Y" tht="EXP">인간</sel_rst>
+					<eg>난 너와 함께 있는 것이 너무 거추장스럽단 말이야.</eg>
+					<eg>너는 내가 자꾸 오는 것이 거추장스럽지?</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>Y=N1-에|에게 X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">상태</sel_rst>
+					<sel_rst arg="Y" tht="CRT">행위</sel_rst>
+					<eg>그 일에는 이런 옷차림이 거추장스럽다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<sel_rst arg="Y" tht="CRT">S데</sel_rst>
+					<eg>그런 일을 하는 데에는 이런 옷차림을 하는 것이 거추장스럽다</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것|S기</sel_rst>
+					<sel_rst arg="Y" tht="CRT">인간</sel_rst>
+					<eg>차가 없는 사람에게는 거기를 가기가 거추장스럽다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>외향적심리상태</sem_class>
+				<trans>be burdensome</trans>
+				<trans>be cumbersome</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>Y=N1-에게는|이 X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|(관심|잔소리)</sel_rst>
+					<sel_rst arg="Y" tht="EXP">인간</sel_rst>
+					<eg>집을 나올 때마다 듣게 되는 어머니의 잔소리가 이제 나에게는 거추장스럽다.</eg>
+					<eg>나에 대한 선생님의 관심이 이제는 거추장스럽다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

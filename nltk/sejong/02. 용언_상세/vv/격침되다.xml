@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>격침되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/18</cre_date>
+				<cre_writer>김현권</cre_writer>
+				<cre_writer>조현경</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2005/09/09</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>의미정보 추가</mod_note>
+				<mod_note>의미역 일부 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">격침이 되다</var>
+			<str>N.되</str>
+			<org lg="si">擊沈_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be sunk</trans>
+				<lr>
+					<hyper>가라앉다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">수상교통기관(잠수함|구축함)</sel_rst>
+					<sel_rst arg="Y" tht="EFF">무기(대포|미사일|어뢰)|공중교통기관(폭격기)|수상교통기관(구축함)</sel_rst>
+					<eg>민간 상선이 적 잠수함에 격침되자 미국인들은 격앙되었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">수상교통기관(잠수함|구축함)</sel_rst>
+					<sel_rst arg="Y" tht="EFF">방향성행위(포격|사격)</sel_rst>
+					<eg>적의 사격으로 우리 전함이 격침되었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에게|에게서 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">수상교통기관(잠수함|구축함)</sel_rst>
+					<sel_rst arg="Y" tht="AGT">인간(군인)|인간집단(군대)</sel_rst>
+					<eg>우리 군함이 적군에게 격침되었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

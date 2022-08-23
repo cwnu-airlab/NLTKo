@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>앞</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/20</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/23</mod_date>
+				<mod_writer>최지임</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/02</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스 배열 순서를 조정;센스1에 예문 추가;반의어, 논항명사구, 선택제약 정보 추가;센스2에 예문 추가;반의어, 논항명사구, 선택제약 정보 추가;센스3에 예문, 반의어, 조사제약 정보 추가;센스4에 예문 추가;동사결합 정보 추가;센스5에 논항명사구, 선택제약, 조사제약 정보 추가;센스6에 동사결합 정보 추가;센스7에 예문 추가;반의어, 논항명사구, 선택제약 정보 추가;센스8을 새로 추가;센스9에 예문 추가;동사결합, 논항명사구, 선택제약 정보 추가;센스10에 논항명사구, 선택제약, 조사제약 정보 추가;센스11에 논항명사구, 선택제약, 조사제약 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/6</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/05/20(최지임)센스 구별 및 의미부 철저히 검토 요망(특히, 대중 앞에서 혹은 현실 앞에서의 경우 앞을 의미부류를 어떻게 할 것인지 검토 요망)</note>
+			<note>sense 10검토 요망</note>
+			<note>2002/10/11(박동호)언급한 항목 모두 검토했음</note>
+			<note>2003/09/23(최지임)각 센스의 외래어수정 및 수식어문장 삭제</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~을 다투다</idm>
+			<idm type="nv">~을 내다보다</idm>
+			<idm type="nv">~을 가리다</idm>
+			<idm type="nv">~을 못 보다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 집 ~에서 그녀를 만났다.</eg>
+				<eg>법 ~에서 만인은 평등하다.</eg>
+				<!-- 아래 예문 추가 -->
+				<eg>~이 가려 무슨 일인지 잘 보이지 않는다.</eg>
+				<eg>하고 싶은 말이 있는 사람은 ~으로 나오시오.</eg>
+				<trans>front</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>관계장소</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="dir">뒤</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<!-- 'S는 ~' 가능한지?? -->
+				<sel_rst arg="X">구체물|장소</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>사람들은 ~에 서기 위해 서로 싸웠다.</eg>
+				<!-- 아래 예문 추가 -->
+				<eg>나는 동생을 내 ~에 세웠다.</eg>
+				<eg>~에는 아직도 십여 명의 사람들이 줄을 서있다.</eg>
+				<eg>우리 중에 번호가 제일 ~인 사람이 누구냐?</eg>
+				<eg>~에서 두번째 줄에 있는 사람들은 모두 일어서시오.</eg>
+				<trans>head</trans>
+				<trans>first</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>순서</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="dir">뒤</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>그는 ~에서 선배들이 구축한 정치노선을 그대로 따른다.</eg>
+				<!-- 아래 예문 추가 -->
+				<eg>~의 일로 그들의 처지는 더욱 어렵게 되었다.</eg>
+				<trans>past</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>과거</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="dir">뒤</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt>~에</prt>
+				<prt>~에서</prt>
+				<prt>~의</prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="4">
+			<sem_grp>
+				<eg>그는 ~을 내다볼 줄 안다.</eg>
+				<eg>나는 ~이 캄캄했다.</eg>
+				<!-- 아래 예문 추가 -->
+				<eg>누구도 ~으로 벌어질 일을 알 수 없었다.</eg>
+				<trans>future</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>미래</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 캄캄하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 내다보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 예견하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="5">
+			<sem_grp>
+				<eg>그는 물건의 ~을 열심히 닦았다.</eg>
+				<trans>front</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>구체물의부분</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">구체물|건물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="6">
+			<sem_grp>
+				<eg>그녀는 겨우 ~만 가렸다</eg>
+				<trans>private parts</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>신체부위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 가리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="7">
+			<sem_grp>
+				<eg>이 문제는 ~에서 간단히 언급을 하였다.</eg>
+				<!-- 아래 예문 추가 -->
+				<eg>~의 예문을 다시 들어보자.</eg>
+				<trans>preceding part</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>추상적부분</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="dir">뒤</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="8">
+			<sem_grp>
+				<eg>그도 냉혹한 현실 ~에서 어찌할 수가 없었다.</eg>
+				<trans>before</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>상황</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<max_n_str>S는 ~</max_n_str>
+				<sel_rst arg="X">사태</sel_rst>
+				<cl type="temp"></cl>
+				<prt>~에서</prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="9">
+			<sem_grp>
+				<eg>그는 제 ~만 차린다.</eg>
+				<!-- 아래 예문 추가 -->
+				<eg>오늘 먹은 것은 내 ~으로 달아두시오.</eg>
+				<trans>share</trans>
+				<trans>portion</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 차리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 챙기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 달다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 달다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="10">
+			<sem_grp>
+				<eg>그는 그의 어머니 ~으로 온 소포를 받았다.</eg>
+				<eg>그는 김씨 ~으로 어음을 발행했다.</eg>
+				<trans>being addressed to someone</trans>
+				<trans>being drawn in one's favor</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt>~으로</prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="11">
+			<sem_grp>
+				<eg>그는 한 사람 ~에 한 개씩 사과를 나눠주었다.</eg>
+				<trans>per</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">개체단위</sel_rst>
+				<cl type="temp"></cl>
+				<prt>~에</prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

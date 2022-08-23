@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>유산</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/15</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/25</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/13</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note>센스1 의미부류를 수정;센스2의 의미부류를 '긍정적속성구체물'에서 '시간속성구체물'로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/01/11</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>comp, 센스1의 n_n으로 이동</mod_note>
+				<mod_note>센스1, sem 수정</mod_note>
+			</mod>
+			<note>2000/10/08(박동호)</note>
+			<note>2003/02/03(김성용)</note>
+			<note>2003/03/25(이성헌)센스1의 sem을 '돈'에서 '속성구체물'로 수정</note>
+			<note>comb_aj에 '~이 많다|적다'기재</note>
+			<note>센스2 comb_aj에 있던 '~이 값지다|훌륭하다'를 magn로 이동</note>
+			<add>~을 계승하다|보존하다|청산하다</add>
+			<add>~을 남기다|물려받다|받다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">遺産</org>
+		
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~세</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 자식들에게 ~을 남기지 않을 생각이다.</eg>
+				<trans>property left by a deceased person</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성구체물</sem_class><!--(권오희)'시간속성구체물'에서 수정-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>건물</coord>
+					<coord>보석</coord>
+					<coord>재산</coord>
+					<coord>토지</coord>
+					<rel>상속</rel>
+					<rel>상속인</rel>
+					<rel>상속자</rel>
+					<rel>상속법</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 많다</comb_aj>
+				<comb_aj type="appr">~이 적다</comb_aj>
+				<comb_n type="compound">~ 분할</comb_n>
+				<comb_n type="compound">~ 상속</comb_n>
+				<comb_n type="compound">~ 상속인</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 남기다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="narg_vpred">
+					<form vcompound="no">~을 물려받다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="narg_vpred">
+					<form vcompound="no">~을 받다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그들은 고구려인들이 남긴 값진 ~을 계승하였다.</eg>
+				<trans>property or culture left by a ancestor</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>시간속성구체물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>인습</coord>
+					<coord>전통</coord>
+					<coord>풍습</coord>
+					<rel>계승</rel>
+					<rel>세대</rel>
+					<rel>민족</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 값지다</comb_aj>
+				<comb_aj type="magn">~이 훌륭하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 계승하다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="narg_vpred">
+					<form vcompound="no">~을 보존하다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="narg_vpred">
+					<form vcompound="no">~을 청산하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/15</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/25</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/13</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note>센스1, 2 의미부류를 '단독행위'에서 '실패'로 수정;대역어 분리 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/01/11</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>n_n 기술</mod_note>
+				<mod_note>max_n 수정</mod_note>
+			</mod>
+			<note>2000/10/08(박동호)</note>
+			<note>2003/02/03(김성용)</note>
+			<note>2003/03/25(이성헌)센스1의 sem을 '유발사고'에서 '단독행위'로 수정(차후 '비의도성행위'로 구분될 것임)</note>
+			<note>cl에서 '건|차'삭제</note>
+			<note>센스2의 cl에서 '건'삭제</note>
+			<add>~을 경험하다|막다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">流産</org>
+		
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~기</der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>너무 무리하면 ~이 될 수 있으니 조심해야 한다.</eg>
+				<trans>miscarriage</trans>
+				<trans>abortion</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>실패</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>낙태</coord>
+					<coord>사산</coord>
+					<coord>순산</coord>
+					<coord>임신</coord>
+					<coord>출산</coord>
+					<rel>아기</rel>
+					<rel>임산부</rel>
+					<rel>태아</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">인공 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>X-이 Y-을 ~을 시키다</frame>
+				</comb_v>
+				 <comb_v type="npred_vpred">
+					<form vcompound="no">~을 경험하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">연령인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 계획은 주변 상황의 악화로 ~이 되고 말았다.</eg>
+				<trans>miscarriage</trans>
+				<trans>abortion</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>실패</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>과정</hyper>
+					<coord>성공</coord>
+					<coord>실패</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">계획사건</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/15</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/25</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/13</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/01/11</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>수정사항없음</mod_note>
+			</mod>
+			<note>2000/10/08(박동호)</note>
+			<note>2003/02/03(김성용)</note>
+			<note>2003/03/25(이성헌)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">硫酸</org>
+		
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~은 대부분의 금속을 녹인다.</eg>
+				<trans>sulfuric acid</trans>
+				<domain>화학</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>액체</sem_class>
+				<lr>
+					<syn type="etc">황산</syn>
+					<ant type="temp"></ant>
+					<coord>알카리산</coord>
+					<coord>염산</coord>
+					<coord>올레산</coord>
+					<coord>위산</coord>
+					<coord>젖산</coord>
+					<coord>황산</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

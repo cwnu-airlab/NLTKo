@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>번뇌</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/06/24</cre_date>
+				<cre_writer>남길임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2002/03/09</mod_date>
+				<mod_writer>류희선</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/28</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note>센스 2에 동의어 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/05</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 의미부류 '내재적심리상태'를 수정</mod_note>
+				<mod_note>센스1 예문, n_v 추가</mod_note>
+				<mod_note>센스1 최대논항구조 기술</mod_note>
+				<mod_note>센스2 영어대역어 수정</mod_note>
+				<mod_note>센스2 n_aj, n_v, 최대논항구조, 선택제약 기술</mod_note>
+			</mod>
+			<note>2002/08/16(박동호)의미부류는 다 붙여쓸 것</note>
+			<note>2002/03/09(류희선)의미부류 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">煩惱</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나이를 먹으니, 젊은 날의 ~도 이제는 사소한 것이 되어 버렸다.</eg>
+				<eg>이들도 작품에 대한 예술성과 혼을 담기 위해 많은 ~를 했을까?</eg>
+				<trans>agony</trans>
+				<trans>anxiety</trans>
+				<trans>anguish</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>내재적심리행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 막다</form>
+					<frame></frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>불교에서는 모든 ~를 잊고 해탈해야 한다고 한다.</eg>
+				<trans>evil passions</trans>
+				<trans>earthly desires</trans>
+				<domain>불교</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>내재적심리상태</sem_class>
+				<lr>
+					<syn type="perfect">진구</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~가 많다</comb_aj>
+				<comb_aj type="magn">~가 심하다</comb_aj>
+				<comb_aj type="min">~이 적다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 있다</form>
+					<frame>X-이 ~가 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 없다</form>
+					<frame>X-이 ~가 없다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="yes">~가 일다</form>
+					<frame>X-이 ~가 일다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 잊다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 떨치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 끊다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 시달리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 사라지다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

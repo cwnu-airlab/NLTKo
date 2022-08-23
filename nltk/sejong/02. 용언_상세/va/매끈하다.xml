@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>매끈하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/15</cre_date>
+				<cre_writer>강정연</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/15</mod_date>
+				<mod_writer>강정연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>매끈.하</str>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>촉감속성값</sem_class>
+				<trans>be smooth</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물|(표면|거죽|바닥)</sel_rst>
+					<eg>이 널판지는 표면이 매끈하다.</eg>
+					<eg>방금 청소를 끝낸 목욕탕 바닥이 매끈하다.</eg>
+					<eg>이 나무는 거죽이 매끈한 것이 특징입니다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(피부|살갗)</sel_rst>
+					<eg>목욕을 끝낸 아이의 살갗이 매끈하다.</eg>
+					<eg>수미는 피부가 참 매끈하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(몸매)</sel_rst>
+					<eg>저 여자는 몸매가 매끈해서 남자들의 눈길을 끈다.</eg>
+					<eg>사슴은 매끈한 몸매를 지닌 동물이다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(문장|표현|글|말|말솜씨)</sel_rst>
+					<eg>민수의 글은 간결하고 매끈해서 별로 손댈 것이 없다.</eg>
+					<eg>저 사람은 말솜씨가 매끈한 게 강점이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

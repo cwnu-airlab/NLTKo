@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>장밋빛</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/02</cre_date>
+				<cre_writer>유영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/23</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/21</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>str수정</mod_note>
+				<mod_note>센스2, 예문추가</mod_note>
+				<mod_note>n_v 이하 기술</mod_note><!--sem을 '색속성값'으로 보았으므로 기능동사구문 기술-->
+			</mod>
+			<mod>
+				<mod_date>2006/01/22</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>'이다'기능동사 구문 삭제, 대역어 분리</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/08</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note></note>
+			<add>~을 띠다|나타내다</add>
+			<add>~을 띠다|나타내다</add>
+			<add>~으로 보다|예측하다|보이다|생각하다(sens2)</add>
+			<add>~을 띠다|나타내다</add>
+			<add>~으로 보다|예측하다|보이다|생각하다(sens2)</add>
+			<add>~이 바래다</add>
+			<add>~을 띠다|나타내다</add>
+			<add>~으로 보다|예측하다|보이다|생각하다(sens2)</add>
+			<add>~이 바래다</add>
+			<add>~으로 물들다|칠하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="NsN">장미+ㅅ+빛</str>
+			<org lg="si">薔薇__</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>자신를 칭찬하는 소리를 들었는지 소녀는 양 볼이 ~으로 물들고 상기된 표정이었다.</eg>
+				<trans>rosyrose-colored</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>색속성값</sem_class>
+				<lr>
+					<syn type="etc">장미색</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 연하다</comb_aj>
+				<comb_aj type="appr">~이 진하다</comb_aj>
+				<comb_n type="compound">~ 스카프</comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 띠다</form>
+					<frame>X-이 ~을 띠다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred"><!--(권오희)이 경우는 type값이 narg이어야 할 것 같으나 이미 서술성 명사로 분류했으므로 따라감-->
+					<form vcompound="no">~으로 물들다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">구체물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>전문가들이 일제히 경기 회복을 낙관한 가운데 새해 경제도 ~의 전망으로 출발했다.</eg>
+				<eg>후보들이 내세우는 공약은 늘 ~이다.</eg>
+				<trans>optimistic view</trans>
+				<trans>bright side</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>상태</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 인생</comb_n>
+				<comb_n type="compound">~ 청사진</comb_n>
+				<comb_n type="compound">~ 미래</comb_n>
+				<comb_n type="compound">~ 전망</comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 띠다</form>
+					<frame>X-이 ~을 띠다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">사태|추상적대상</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

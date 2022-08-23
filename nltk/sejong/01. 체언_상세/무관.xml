@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>무관</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/16</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/16</mod_date>
+				<mod_writer>류희선</mod_writer>
+				<mod_note>의미부류검토요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/10</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>의미부류 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1과 2의 n_v 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">武官</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>무과에 급제한 후 그는 ~이 되어 고향에 돌아왔다.</eg>
+				<eg>문관들이 내린 국방 정책에 대해 많은 ~들은 반발하였다.</eg>
+				<trans>military officer</trans>
+				<trans>naval officer</trans>
+				<domain>역사</domain>
+				<sem_class>직업인간</sem_class><!--역할인간을 직업인간으로 수정-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 일하다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>아버지께서는 군대에서 ~으로 재직중이시다.</eg>
+				<trans>military officer</trans>
+				<sem_class>직업인간</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 일하다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/16</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/16</mod_date>
+				<mod_writer>류희선</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/10</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>entry생략 요망 '무관하다'의 어근</mod_note><!--무관하다의 어근은 '無關'이므로 이 항목과는 무관함(김)-->
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add를 n_v로 이동</mod_note>
+			</mod>
+			<add>~으로 지내다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">無官</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 이제 ~으로 지내기로 했다.</eg>
+				<trans>not having a government position</trans>
+				<sem_class>상태</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 지내다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

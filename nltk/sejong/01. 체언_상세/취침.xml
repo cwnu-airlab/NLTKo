@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>취침</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/07</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/21</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/10</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미부류 수정;명사결합 추가;동사결합 수정;논항명사구 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>ant 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/02/18</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>der 기술</mod_note>
+				<mod_note>comp기술</mod_note>
+				<mod_note>syn 기술</mod_note>
+				<mod_note>n_n 추가</mod_note>
+				<mod_note>s_n기술</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/10</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">就寢</org>
+		
+			<der pos="n" type="suffix">~실</der>
+			<der pos="n" type="suffix">~용</der>
+			<comp pos="n" type="suffix">~나팔</comp>
+			<comp pos="n" type="suffix">~참모</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 하루에 8시간 이상 ~을 한다.</eg>
+				<trans>going to sleep</trans>
+				<sem_class>생리행위</sem_class> <!-- 지속적활동 수정 -->
+				<lr>
+					<syn type="perfect">취상</syn>
+					<ant type="compl">기상</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				
+				<comb_n type="compound">~ 공간</comb_n>
+				<comb_n type="compound">~ 시간</comb_n>
+				<comb_n type="compound">~ 시설</comb_n>
+				<comb_n type="compound">~ 점호</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

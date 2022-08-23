@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>중화되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/03</cre_date>
+				<cre_writer>김현권</cre_writer>
+				<cre_writer>조현경</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/09/11</mod_date>
+				<mod_writer>조원형</mod_writer>
+				<mod_note>정보확장</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">중화가 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<org lg="si">中和_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>counteract</trans>
+			</sem_grp>
+			<frame_grp type="FIN" cor="sym" n="01">
+				<frame>X+Y=N0-이 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(생각|사상|문화|제도)</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(생각|사상|문화|제도)</sel_rst>
+					<eg>이 도자기는 일본과 중국의 문화가 중화되어 나타나는 특색이 있다.</eg>
+					<eg>여러 의견들이 중화되어 하나의 공통된 의견을 만들어냈다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="sym" n="01">
+				<frame>X=N0-이 Y=N1-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(생각|사상|문화|제도)</sel_rst>
+					<sel_rst arg="Y" tht="COM">추상적대상(생각|사상|문화|제도)</sel_rst>
+					<eg>이 도자기는 일본의 문화가 중국의 문화와 중화되어 나타나는 특색이 있다.</eg>
+					<eg>1반 의견과 2반 의견이 중화되어 하나의 공통된 의견을 만들어냈다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="etc"></col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>neutralize</trans>
+			</sem_grp>
+			<frame_grp type="FIN" cor="sym" n="02">
+				<frame>X+Y=N0-이 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">무생물(전하|전류|산)</sel_rst>
+					<sel_rst arg="Y" tht="COM">무생물(전하|전류|산)</sel_rst>
+					<eg>(+)극전하와 (-)극전하가 중화되어 전류가 흐르지 않는다.</eg>
+					<eg>두 물질이 중화되어 독특한 반응을 일으키고 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="sym" n="02">
+				<frame>X=N0-이 Y=N1-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">무생물(전하|전류|산)</sel_rst>
+					<sel_rst arg="Y" tht="COM">무생물(전하|전류|산)</sel_rst>
+					<eg>(+)극전하는 (-)극전하와 중화되어 전류가 흐르지 않는다.</eg>
+					<eg>이 물질이 산과 중화되어 독특한 반응을 일으키고 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="etc"></col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>be mixed</trans>
+			</sem_grp>
+			<frame_grp type="FIN" cor="sym" n="03">
+				<frame>X+Y=N0-이 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(맛|색깔)</sel_rst>
+					<sel_rst arg="Y" tht="COM">(맛|색깔)</sel_rst>
+					<eg>이 음식은 매운 맛과 단 맛이 중화되어 맛을 잘 모르겠다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="sym" n="03">
+				<frame>X=N0-이 Y=N1-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(맛|색깔)</sel_rst>
+					<sel_rst arg="Y" tht="COM">(맛|색깔)</sel_rst>
+					<eg>이 음식은 매운 맛이 단 맛과 중화되어 맛을 잘 모르겠다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="etc"></col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>be mixed</trans>
+			</sem_grp>
+			<frame_grp type="FIN" cor="sym" n="04">
+				<frame>X+Y=N0-이 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(소리|음성)</sel_rst>
+					<sel_rst arg="Y" tht="COM">(소리|음성)</sel_rst>
+					<eg>선생님의 강의 소리와 창 밖 운동장에서 들려오는 아이들의 함성이 중화되어 도저히 강의에 집중할 수가 없다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="sym" n="04">
+				<frame>X=N0-이 Y=N1-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(소리|음성)</sel_rst>
+					<sel_rst arg="Y" tht="COM">(소리|음성)</sel_rst>
+					<eg>선생님의 강의 소리가 창 밖 운동장에서 들려오는 아이들의 함성과 중화되어 도저히 강의에 집중할 수가 없다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="etc"></col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+	</entry>
+</superEntry>

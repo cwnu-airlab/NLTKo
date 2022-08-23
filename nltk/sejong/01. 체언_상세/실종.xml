@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>실종</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/22</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/31</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1에 논항명사구 정보 추가;센스2의 의미부류 수정;논항명사구 정보 추가;선택제약 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/21</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/08/22(이호영)</note>
+			<note>2002/08/27(김종명)센스2추가</note>
+			<note>2003/09/14(최지임)센스 1 기능동사 및 논항선택제약 수정</note>
+			<note>센스2 의미부류수정</note>
+			<note>의미부류검토요망</note>
+			<note>예문수정</note>
+			<note>기능동사 및 논항선택제약 입력</note>
+			<note>논항선택제약수정요망!</note>
+			<note>외래어원어수정</note>
+			<note>2003/09/22(고길수)센스1에 단위표현 정보 추가</note>
+			<note>센스1의 기능동사에 '장소 논항' 추가</note>
+			<note>명사연어 정보 추가</note>
+			<note>센스2의 의미부류를 '현상'에서 '상태변화'로 수정</note>
+			<note>센스2의 기능동사에 'Y' 논항 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">失踪</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>복잡한 유원지에서는 아이들이 ~이 되지 않도록 조심해야 한다.</eg>
+				<trans>disappearance</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>사고</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 사건</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 Y-에서 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">장소</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>우리 사회에서는 시민의식이 점차 ~이 되고 있다.</eg>
+				<trans>disappearance</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>소멸</sem_class> <!-- 상태변화 수정 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 Y-에서 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">방법|기술|품격속성|능력|기호|기호체계|규범|관습|제도|긍정적인성속성값|품격속성값|인지상태</sel_rst> <!-- 생각|추상적대상 수정 -->
+				<sel_rst arg="Y">인간집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

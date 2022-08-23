@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>클레임</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/18</cre_date>
+				<cre_writer>김성용</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/20</mod_date>
+				<mod_writer>이홍식</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/22</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/03/04</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>술어명사로 보아 동사결합 정보 기능동사변이형 구문으로 수정함.</mod_note>
+				<mod_note>max_n 이하 기술(검토바람)</mod_note>
+				<mod_note>n_v 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/10</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">claim</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 회사가 이번 수출 품목에 대해 ~을 걸기 시작했다.</eg>
+				<trans>claim</trans>
+				<sem_class>추상적행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 걸다</form>
+					<frame>X-이 Y-에게 Z-에대해 ~을 걸다</frame>
+					<frame>X-이 Y-에 Z-에대해 ~을 걸다</frame>
+					<frame>X-이 Y-에게 Z-에대해 S다고 ~을 걸다</frame>
+					<frame>X-이 Y-에 Z-에대해 S다고 ~을 걸다</frame>
+					<frame>X-이 Y-에게 Z-에대해 S다는 ~을 걸다</frame>
+					<frame>X-이 Y-에 Z-에대해 S다는 ~을 걸다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 제기하다</form>
+					<frame>X-이 Y-에게 Z-에대해 ~을 제기하다</frame>
+					<frame>X-이 Y-에 Z-에대해 ~을 제기하다</frame>
+					<frame>X-이 Y-에게 Z-에대해 S다고 ~을 제기하다</frame>
+					<frame>X-이 Y-에 Z-에대해 S다고 ~을 제기하다</frame>
+					<frame>X-이 Y-에게 Z-에대해 S다는 ~을 제기하다</frame>
+					<frame>X-이 Y-에 Z-에대해 S다는 ~을 제기하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 걸리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Z-에대한 S다는 ~</max_n_str>
+				<max_n_str>X-의 Y-의 Z-에대한 S다는 ~</max_n_str><!--가능한지 검토바람(권오희)-->
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">구체물</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

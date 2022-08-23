@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>지론</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/04</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/10</mod_date>
+				<mod_writer>이민우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/03</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>통사정보 C의 관형절 정보 검토 바람</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/19</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2004/12/28</mod_date>
+				<mod_writer>장원철</mod_writer>
+		        <mod_note></mod_note>
+	        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">至論</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>현대 물리학에서 ~은 불확실성의 원리이다.</eg>
+				<eg>현대사회는 정보사회라는 것이 ~이다.</eg>
+				<trans>most reasonable opinion</trans>
+				<sem_class>사조</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<s_n>S다는  ~</s_n>
+				<!-- 기존 원고에 이 정보가 들어가 있으나 실제로 이런 관형절 정보가 가능한지 잘 모르겠음(송근영) -->
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/04</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/10</mod_date>
+				<mod_writer>이민우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/03</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>동사결합 항목 추가하여 add의 정보를 이 곳으로 이동</mod_note>
+				<mod_note>유의어 항목 추가</mod_note>
+				<mod_note>단위사 항목 추가</mod_note>
+				<mod_note>의미부류 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/19</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2004/12/28</mod_date>
+				<mod_writer>장원철</mod_writer>
+		        <mod_note></mod_note>
+	        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">持論</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 당당하게 움직여야 한다는 평소의 ~에 따라 누구보다 활발한 움직임을 펼쳤다.</eg>
+				<eg>교장선생님의 ~은 어릴 때부터 두 나라 말을 할 수 있어야 한다는 것이었다.</eg>
+				<eg>그는 인간이 제일이라는 ~을 폈다.</eg>
+				<trans>one's pet theory</trans>
+				<sem_class>의견</sem_class> <!-- '생각'이라는 부류가 존재하지 않아 '의견'으로 수정(송근영) -->
+				<lr>
+					<syn type="etc">지설</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 펴다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 펼치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 내세우다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">가지</cl>
+				<s_n>S다는  ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

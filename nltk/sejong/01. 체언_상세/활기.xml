@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>활기</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/04/06</cre_date>
+				<cre_writer>류희선</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/28</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/12</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/21</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>'있다|없다|넘치다|돌다'를 n_aj에서 n_v로 이동</mod_note>
+				<mod_note>n_v 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/03</mod_date>
+				<mod_writer>백고운</mod_writer>
+				<mod_note>의미부류수정('신체상태'를 '속성값'으로)</mod_note>
+			</mod>
+			<note>2001/05/03(고길수)</note>
+			<note>2003/02/14(김진형)예문 추가</note>
+			<note>2003/02/28(이지영)</note>
+			<note>comb_v 정보 add로 이동 및 수정</note>
+			<note>반의어 수정</note>
+			<note>의미부류 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">活氣</org>
+			<hom exist="temp"></hom>
+			<der pos="a" type="suffix">~차다</der>
+			<comp pos="n" type="suffix">~증진</comp>
+			<comp pos="a" type="suffix">~있다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>신학기가 되어 교실에 ~가 넘친다.</eg>
+				<eg>그들은 몇 번의 실패로 인해 늘 ~를 잃은 표정을 하고 있었다.</eg>
+				<trans>energy</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성값</sem_class>
+				<lr>
+					<syn type="etc">생기</syn>
+					<ant type="etc">침체</ant>
+					<hyper>기운</hyper>
+					<hyper>힘</hyper>
+					<coord>우울</coord>
+					<coord>침울</coord>
+					<rel>원기</rel>
+					<rel>활력</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="yes">~가 있다</form>
+					<frame>X-이 ~가 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="yes">~가 없다</form>
+					<frame>X-이 ~가 없다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 띠다</form>
+					<frame>X-이 ~를 띠다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 넘치다</form>
+					<frame>X-이 ~가 넘치다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 돌다</form>
+					<frame>X-이 ~가 돌다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 돋우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 되찾다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 잃다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 얻다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단|장소|추상적대상</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

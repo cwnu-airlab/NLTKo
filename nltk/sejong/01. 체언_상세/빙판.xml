@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>빙판</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/03</cre_date>
+				<cre_writer>김미순</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/06</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>2003/07/06(김진형)예문 수정 및 추가</mod_note>
+				<mod_note>형용사자유구성에서 '위험하다' 삭제</mod_note>
+				<mod_note>대역어 추가</mod_note>
+				<mod_note>의미부류 '길'에서 '지상장소'로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/27</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>동사결합 정보 추가</mod_note>
+			</mod>
+			<add>~에 미끄러지다</add>
+			<add>~에서 넘어지다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">氷板</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>할아버지는 ~에서 넘어져 허리를 다치셨다.</eg>
+				<eg>내린 눈이 얼어붙어 길이 온통 ~으로 변했다.</eg>
+				<trans>icy road</trans>
+				<trans>icy place</trans>
+				<sem_class>지상장소</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 미끄럽다</comb_aj>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~이 되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~으로 변하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~에서 넘어지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~에서 미끄러지다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni"></cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

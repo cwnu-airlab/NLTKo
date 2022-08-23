@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>총무</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/20</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/25</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/15</mod_date>
+				<mod_writer>백고운</mod_writer>
+				<mod_note>add동사정보를 comb_v로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/15</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/07</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<note>1999/09/26(백인애)</note>
+			<note>2000/05/01(백인애)</note>
+			<note>2003/03/08(김미순)sem '인물/직위'에서 '역할인간'으로 수정</note>
+			<note>2003/03/25(고길수)예문 추가</note>
+			<note>add에 동사정보 추가</note>
+			<note>cl에 '분' 삭제</note>
+			<note>comb_aj 정보 추가</note>
+			<note>comb_v add로 이동</note>
+			<note>센스2에 '원내 총무'를 추가</note>
+			<note>의미부류를 '역할인간'에서 '직위인간'으로 수정</note>
+			<add>~가 되다</add>
+			<add>~가 처리하다</add>
+			<add>~로 선출되다</add>
+			<add>~를 뽑다|선출하다|임명하다</add>
+			<add>~에 오르다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">總務</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~과</der>
+			<der pos="n" type="suffix">~부</der>
+			<der pos="n" type="suffix">~처</der>
+			<comp pos="n" type="prefix">원내~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이번 워크샵의 실무 책임자는 ~가 맡기로 했다.</eg>
+				<eg>위원들은 나이가 젊은 그를 ~로 뽑았다.</eg>
+				<trans>manager</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>직위인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>연구소;부서;학급</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 똑똑하다</comb_aj>
+				<comb_aj type="appr">~가 유능하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 선출하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>두 정당을 대표하여 ~들이 회동을 갖고 협의를 하기로 결정하였다.</eg>
+				<trans>floor leaderlegislative leader</trans>
+				<domain>정치</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>직위인간</sem_class>
+				<lr>
+					<syn type="etc">원내총무</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 회동하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

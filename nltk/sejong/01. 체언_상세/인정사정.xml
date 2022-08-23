@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>인정사정</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/30</cre_date>
+				<cre_writer>유영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/12</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/01</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>sem 수정</mod_note>
+				<mod_note>기능동사구문 기술</mod_note>
+				<mod_note>n_v 기술</mod_note>
+				<mod_note>max_n 기술-검토바람</mod_note>
+				<mod_note>sel_rst 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/22</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>대역어 분리</mod_note>
+			</mod>
+			<mod>
+			<mod_date>2007/07/25</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">인정+사정</str>
+			<org lg="si">人情事情</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="av" type="suffix">~없이</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~을 두지 않다</idm>
+			<idm type="nv">~을 봐주다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>승부의 세계는 ~도 없이 이겨야만 하는 비정한 싸움터와 같다.</eg>
+				<eg>그 구두쇠는 자기 친척에게도 ~을 봐주는 법이 없다.</eg>
+				<trans>circumstances</trans>
+				<trans>situation</trans>
+				<trans>state of things</trans>
+				<trans>state of affairs</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성값</sem_class><!--(권오희)'상태'에서 수정-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 없다</form>
+					<frame>X-이 Y-에게 ~이 없다</frame>
+					<frame>X-이 Y-에대해 ~이 없다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 살피다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 모르다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|사태</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

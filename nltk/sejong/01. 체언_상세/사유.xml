@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>사유</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/05/31</cre_date>
+				<cre_writer>홍재성;박치원</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/03</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/27</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>합성어 정보 '~하다' 삭제, 논항 정보 정리</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/12/07</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>1999/06/15</note>
+			<note>2003/03/30(김현승)동형어정보 추가</note>
+			<note>2003/04/03(고길수)예문 수정</note>
+			<note>magn 정보 추가</note>
+			<note>max_n 정보 추가</note>
+			<note>sel_res정보 기술</note>
+			<note>기능동사에 보문 논항 정보 추가</note>
+			<note>논항 의미정보 수정</note>
+			<note>단위표현 추가</note>
+			<note>영어대역어 'thinking|cogitation' 추가</note>
+			<note>의미부류를 '인지'에서 '인지추상적행위'로 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">思惟</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 ~를 통해 사물의 이치를 깨닫는 법을 터득했다.</eg>
+				<trans>speculation</trans>
+				<trans>thinking</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>인지적행위</sem_class>
+				<lr>
+					<syn type="etc">사고</syn>
+					<syn type="etc">생각</syn>
+					<ant type="temp"></ant>
+					<rel>사색</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">깊은 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+					<frame>X-이 S것-을 ~를 하다</frame>
+					<frame>X-이 S지-을 ~를 하다</frame>
+					<frame>X-이 S데-을 ~를 하다</frame>
+					<frame>X-이 Y-에대해 ~를 하다</frame>
+					<frame>X-이 S것-에대해 ~를 하다</frame>
+					<frame>X-이 S지-에대해 ~를 하다</frame>
+					<frame>X-이 S데-에대해 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 S것-에대한 ~</max_n_str>
+				<max_n_str>X-의 S지-에대한 ~</max_n_str>
+				<max_n_str>X-의 S데-에대한 ~</max_n_str>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/06/15</cre_date>
+				<cre_writer>박치원</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/03</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/27</mod_date>
+				<mod_writer>성용</mod_writer>
+				<mod_note>파생어 정보를 합성어 정보로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/12/07</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>1999/06/15</note>
+			<note>2003/03/30(김현승)동형어정보 추가</note>
+			<note>2003/04/03(고길수)예문 추가</note>
+			<note>comb_aj에 '특별한' 추가</note>
+			<note>comb_v정보 add항목으로 이전</note>
+			<note>magn의 '그럴듯하다'는 comb_aj로 수정</note>
+			<note>pre_s 정보 수정, 단 'S은|S는 ~'는 결과상태를, 'S다는 ~'는 내용을 표현하고 있어 둘의 구분이 필요함</note>
+			<note>단위표현 추가</note>
+			<add>동사결합으로 '~를 말하다|밝히다|대다|듣고 싶다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">事由</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~서</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>일이 이렇게 된 데에는 그럴 만한 ~가 있다.</eg>
+				<eg>그는 결석을 하게 된 ~를 선생님에게 말씀을 드렸다.</eg>
+				<trans>reason</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>이유</sem_class>
+				<lr>
+					<syn type="etc">이유</syn>
+					<syn type="etc">까닭</syn>
+					<syn type="etc">연유</syn>
+					<syn type="etc">곡절</syn>
+					<ant type="temp"></ant>
+					<rel>사정</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 그럴듯하다</comb_aj>
+				<comb_aj type="appr">~가 특별하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 말하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 대다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S은 ~</s_n>
+				<s_n>S는 ~</s_n>
+				<s_n>S다는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/06/15</cre_date>
+				<cre_writer>박치원</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/03</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/27</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>파생어 정보에서 '하다'를 삭제하고 나머지 정보는 합성어 정보로 이동, 의미부류 단독행위에서 결과행위로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/12/07</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>1999/06/15</note>
+			<note>2003/03/30(김현승)동형어정보 추가</note>
+			<note>2003/04/03(고길수)논항 의미정보 수정</note>
+			<note>pre_d의 '~'를 '#'로 수정</note>
+			<note>기능동사항목 기술</note>
+			<note>논항제약항목 기술</note>
+			<note>명사구 추가</note>
+			<note>영어대역어 수정</note>
+			<note>의미부류를 '기타'에서 '단독행위'로 수정</note>
+			<add>~ 재산' 추가</add>
+			<add>명사구로 '토지 ~</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">私有</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~물</comp>
+			<comp pos="n" type="suffix">~지</comp>
+			<comp pos="n" type="suffix">~권</comp>
+			<comp pos="n" type="suffix">~재산</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 당시에는 토지의 ~를 금하는 법이 있었다.</eg>
+				<trans>private ownership</trans>
+				<trans>private possesion</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">공유</ant>
+					<rel>민유</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">구체물|장소</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

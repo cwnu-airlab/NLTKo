@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>장방형</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/27</cre_date>
+				<cre_writer>박재연</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/27</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note>sem 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/21</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>예문추가</mod_note>
+				<mod_note>syn 추가</mod_note>
+				<mod_note>n_aj '~이 적당하다' 삭제</mod_note>
+				<mod_note>n_v 이하 기술</mod_note><!--sem을 '모양속성값'으로 보았으므로 기능동사구문 기술-->
+			</mod>
+			<mod>
+				<mod_date>2006/01/22</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/08</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">장방+형</str>
+			<org lg="si">長方形</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그들은 야외 예배를 준비하기 위하여 각목을 ~으로 짜고 있었다.</eg>
+				<eg>집터는 ~의 꼴이었다.</eg>
+				<trans>rectangle</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>모양속성값</sem_class>
+				<lr>
+					<syn type="perfect">직사각형</syn>
+					<syn type="kor">긴네모꼴</syn>
+					<ant type="temp"></ant>
+					<hyper>형</hyper>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 ~이다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">구체물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

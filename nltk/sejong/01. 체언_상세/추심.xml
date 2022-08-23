@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>추심</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/22</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>2003/08/24(김이정)</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/08</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>eg의 표제어에 조사 추가;domain에 경제 기재;sel_res의 X를 '인간|인간집단'에서 '금융기관'으로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/08</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>예문 수정;의미부류 수정;동사결합 정보 수정;논항 의미부류 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/01/30</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_n 기술;Y의 선택제약 수정</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/10</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">推尋</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>정부는 밤 9시 이후에는 카드사들이 채권의 ~을 할 수 없도록 했다.</eg> <!-- '금감원은'을 '정부는'으로 수정 -->
+				<trans>collection</trans>
+				<domain>경제</domain>
+				<sem_class>획득행위</sem_class> <!-- 순간적행위 수정 -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">채권 ~</comb_n>
+				<comb_n type="compound">~ 은행</comb_n>
+				<comb_n type="compound">~ 어음</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에대해 Z-을 ~을 하다</frame>
+					<frame>X-이 Z-에대해 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 당하다</form>
+					<frame>Y-이 Z-을 ~을 당하다</frame>
+					<frame>Y-이 Z-에대해 ~을 당하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 Z ~</max_n_str>
+				<max_n_str>Z-에대한 ~</max_n_str>
+				<sel_rst arg="X">금융기관</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">돈|금전|값</sel_rst> <!-- (물건) 삭제, 금전, 값, 구체물 추가 --><!--구체물 삭제(김이정)-->
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

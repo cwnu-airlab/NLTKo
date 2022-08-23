@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>출혈</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/19</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/27</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/25</mod_date>
+				<mod_writer>백고운</mod_writer>
+				<mod_note>add동사결합정보 comb_v로 이동(sense2동사정보추가)</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/15</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/10</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<note>2001/07/19(송근영)</note>
+			<note>2001/08/10(김종명, 고길수)</note>
+			<note>2003/02/16(이지영)예문추가,문장부호입력,sem수정,comb_v를 add로 이동,sel_res수정,sense2의 supv수정,cor_v수정,comb_aj추가,sense2의 cl추가</note>
+			<note>2003/02/24(김진형)sense1와 sense2 supv 및 sel_res에 Y논항 추가</note>
+			<note>2003/02/27(이지영)</note>
+			<note>sense2의 의미부류 검토</note>
+			<note>파생어, 합성어 정보 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">出血</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~성</der>
+			<der pos="n" type="prefix">과~</der>
+			<comp pos="n" type="suffix">~량</comp>
+			<comp pos="n" type="suffix">~경쟁</comp>
+			<comp pos="n" type="prefix">뇌~</comp>
+			<comp pos="n" type="prefix">내~</comp>
+			<comp pos="n" type="prefix">혈관~</comp>
+			<comp pos="n" type="prefix">과다~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~이 너무 심해서 환자의 상태가 위험하다.</eg>
+				<eg>어떠한 응급조치로도 그의 ~은 쉽게 멎지 않았다.</eg>
+				<trans>bleeding</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>질병및증세</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>피</rel>
+					<rel>지혈</rel>
+					<rel>수혈</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 심하다</comb_aj>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 작다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+					<frame>X-이 Y-에서 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 막다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 내다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 멈추다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에서의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">신체부위</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>올 상반기에 우리 회사는 ~이 아주 컸다.</eg>
+				<eg>우리 회사는 어떠한 ~도 감수하기로 했다.</eg>
+				<trans>sacrifice</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>감소행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>손실</rel>
+					<rel>손해</rel>
+					<rel>희생</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 작다</comb_aj>
+				<comb_aj type="appr">~이 심하다</comb_aj>
+				<comb_aj type="appr">~이 심각하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에서 ~을 하다</frame>
+					<frame>X-이 Y-로 ~을 하다</frame>
+				</comb_v>
+					<comb_v type="npred_vpred">
+					<form vcompound="no">~을 내다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="npred_vpred">
+					<form vcompound="no">~을 막다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 감안하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 감수하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 보다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에서의 ~</max_n_str>
+				<max_n_str>X-의 Y-로의 ~</max_n_str>
+				<sel_rst arg="X">인간집단</sel_rst>
+				<sel_rst arg="Y">분야|행위|사건</sel_rst>
+				<cl type="uni">차</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">번</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

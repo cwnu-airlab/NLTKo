@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>번식</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/06/24</cre_date>
+				<cre_writer>남길임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/14</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/28</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note>동의어 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/05</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>'시키다', 선택제약 Y 삭제</mod_note>
+				<mod_note>최대논항구조 기술</mod_note>
+				<mod_note>n_v 수정 및 추가</mod_note>
+				<mod_note>선택제약 X 수정</mod_note>
+			</mod>
+			<note>2002/06/25(이병규)의미부류: 번성(상태변화?)/번식(생물생리변화?)</note>
+			<note>2002/08/16(박동호)의미부류를 '생물|생리변화'로 바꿈</note>
+			<note>2002/03/11(류희선)의미부류(명칭)바꿈(생물생리현상으로)</note>
+			<note>예문추가</note>
+			<note>기능동사 표시형식 바꿈(X-이 ~을 하다를 Y-이 ~을 하다로)</note>
+			<note>형용사 자유구성추가</note>
+			<note>2003/09/14(박진호)선택제약 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">繁殖</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~력</der>
+			<der pos="n" type="suffix">~~기</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>여름철에는 세균의 ~을 막기 위해 도마를 청결히 해야 한다.</eg>
+				<eg>그 가축은 ~의 속도가 매우 빠르다.</eg>
+				<trans>increase</trans>
+				<trans>breeding</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>생물생리현상</sem_class>
+				<lr>
+					<syn type="perfect">산식</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 빠르다</comb_aj>
+				<comb_aj type="appr">~이 늦다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 막다</form>
+					<frame></frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">생물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

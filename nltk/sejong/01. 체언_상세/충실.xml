@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>충실</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/23</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>2003/08/24(김이정)'충실하다'는 용언에서 기술할 것</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/08</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>eg 수정보완;sem을 '상태'에서 '긍정적속성값'으로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>entry2 삭제,원어정보에서 한자 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/09/12</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>어근에 '충실' 추가 필요;어원정보 수정;예문 수정;의미부류 수정;동사결합 추가;논항 의미정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/03/04</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>der 기술</mod_note>
+				<mod_note>엔트리분할</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/10</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">忠實</org> <!-- 充實 수정, 영어대역어와 맞지 않음 -->
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~감</der>
+			<der pos="n" type="suffix">~하다</der>
+			<der pos="n" type="suffix">~히</der>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>사장은 신입사원들에게 회사에 ~을 다해 줄 것을 요구했다.</eg> <!-- 제작진은 촬영도 원작에 ~을 기하게 했다 수정 -->
+				<trans>faithfulness</trans>
+				<trans>devotion</trans>
+				<trans>honesty</trans>
+				<trans>fidelity</trans>
+				<trans>faith</trans>
+				<sem_class>외향적심리행위</sem_class> <!-- 긍정적태도 수정 -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 다하다</form>
+					<frame>X-이 Y-에 ~을 다하다</frame>
+					<frame>X-이 S것-에 ~을 다하다</frame>
+					<frame>X-이 S데-에 ~을 다하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|행위|계획사건</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2005/03/04</cre_date>
+				<cre_writer>권오희</cre_writer>
+				<cre_note>센스2로 다의 분할이 가능하나 이는 어근으로 보아 기술하지 않았음.</cre_note>
+			</cre>
+                        <mod>
+                                <mod_date>2007/08/10</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">充實</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~감</der>
+			<der pos="n" type="suffix">~하다</der>
+			<der pos="n" type="suffix">~히</der>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>제작진은 영화의 후반부 작업에 공을 들여 ~을 기하게 했다.</eg>
+				<trans>completeness</trans>
+				<trans>completion</trans>
+				<trans>perfection</trans>
+				<sem_class>상태</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 기하다</form>
+					<frame>X-이 Y-에 ~을 기하다</frame>
+					<frame>X-이 S것-에 ~을 기하다</frame>
+					<frame>X-이 S데-에 ~을 기하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|행위|계획사건</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

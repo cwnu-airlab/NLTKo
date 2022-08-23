@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>탄압</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/07</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/28</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/05</mod_date>
+				<mod_writer>정아름</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/16</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/20</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<note>2001/09/20</note>
+			<note>2003/01/28(김이정)uni 기술</note>
+			<note>2003/02/25(남길임)</note>
+			<note>2003/02/28(김이정)</note>
+			<note>comb_v 일부 add로 이동</note>
+			<note>sel_res Y에 '(자유)'삭제하고 '인간집단|권리|상태' 추가</note>
+			<note>2006/07/05(정아름)add 추가, 합성어 정보 추가 </note>
+			<note>의미부류 '행위'에서 '방향성행위'로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">彈壓</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~적</der>
+			<comp pos="n" type="suffix">~망</comp>
+			<comp pos="n" type="prefix">인권~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~받다</comp>
+			<comp pos="v" type="suffix">~당하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~을 당하는 백성들이 불쌍할 뿐이다.</eg>
+				<eg>그 나라는 수 십 년간 열강의 ~을 받았다.</eg>
+				<eg>기본적인 자유가 ~이 된다면 어떻게 살겠는가?</eg>
+				<eg>당국이 표현의 자유를 심하게 ~을 하는 바람에 하고 싶은 말을 할 수가 없다.</eg>
+				<eg>식민지 시대 일제의 ~은 매우 가혹했다.</eg>
+				<trans>oppression</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>제약</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 가혹하다</comb_aj>
+				<comb_aj type="magn">~이 극심하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 가하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+					<frame>X-이 Y-에대해 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>Y-이 X-에게 ~을 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 당하다</form>
+					<frame>Y-이 X-에게 ~을 당하다</frame>
+				</comb_v>
+
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에게 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 시달리다</form>
+					<frame></frame>
+				</comb_v>
+                <comb_v type="npred_vpred">
+					<form vcompound="no">~을 견디다</form>
+					<frame></frame>
+				</comb_v>
+                <!--vcompound: ~하다-->
+				<!--vcompound: ~받다-->
+				<!--vcompound: ~당하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-에의한 Y ~</max_n_str>
+				<max_n_str>X-에의한 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|권리|상태</sel_rst>
+				<cl type="uni">차례</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

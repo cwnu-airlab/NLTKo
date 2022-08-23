@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>위조</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/02</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/16</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+				<mod_note>comp '~상품','~화폐',~혐의' 추가</mod_note>
+				<mod_note>comb_v '~을 방지하다' 추가</mod_note>
+			</mod>
+			<note>2001/09/21(김종명|이성헌)</note>
+			<note>2003/01/13(유영) sem수정, comb_v를 add로 이동</note>
+			<note>2003/06/07(이성헌)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">僞造</org>
+		
+			<hom exist="yes"></hom>
+			<der pos="n" type="suffix">~품</der>
+			<comp pos="n" type="suffix">~지폐</comp>
+			<comp pos="n" type="suffix">~죄</comp>
+			<comp pos="n" type="suffix">~문서</comp>
+			<comp pos="n" type="suffix">~상품</comp>
+			<comp pos="n" type="suffix">~화폐</comp>
+			<comp pos="n" type="suffix">~혐의</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>타인의 신분증을 ~를 해서 부당이익을 취해온 한 범죄조직이 경찰에 검거되었다.</eg>
+				<trans>forgery</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>범죄및비행</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>제조</hyper>
+					<rel>모방</rel>
+					<rel>모조</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 감쪽같다</comb_aj>
+				<comb_aj type="appr">~가 그럴듯하다</comb_aj>
+				<comb_aj type="appr">~가 어설프다</comb_aj>
+				<comb_aj type="magn">~가 잦다</comb_aj>
+				<comb_aj type="magn">~가 흔하다</comb_aj>
+				<comb_aj type="magn">~가 많다</comb_aj>
+				<comb_aj type="magn">~가 빈번하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~하다</form>
+					<frame>X-이 Y-을 ~하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-에의해 Y-이 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 금지하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 금하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 행하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 방지하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">돈|구체인공물(증명서)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

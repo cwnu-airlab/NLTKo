@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>상사병</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/23</cre_date>
+				<cre_writer>김진형</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/07</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/28</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>add정보이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/29</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>단일어를 복합어로 수정;add 정보를 n_v로 이동;n_v 추가;선택제약, 최대논항구조 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/07</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>'나다, 생기다' 프레임 정보에 'X-에게' 추가;'앓다' 유형값 수정 및 프레임 정보 추가</mod_note>
+			</mod>
+			<note>2002/10/09(고길수)의미부류를 '사건'에서 '질병및증세'로 수정</note>
+			<note>2003/06/28(한동훈)단위표현 정보 추가</note>
+			<note>2003/07/07(김미현)</note>
+			<note>add의 '~이 나다|들다</note>
+			<note>~에 걸리다'는 comb_v로 수정</note>
+			<note>단위표현 추가</note>
+			<add>~을 앓다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">상사+병</str>
+			<org lg="si">相思病</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그와 헤어진 후 그녀는 몇 개월 동안 ~을 앓다가 겨우 진정을 하였다.</eg>
+				<trans>lovesickness</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>질병및증세</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 깊다</comb_aj>
+				<comb_aj type="appr">~이 심각하다</comb_aj>
+				<comb_aj type="appr">~이 심하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 나다</form>
+					<frame>X-이 ~이 나다</frame>
+					<frame>X-에게 ~이 나다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 들다</form>
+					<frame>X-이 ~이 들다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 생기다</form>
+					<frame>X-이 ~이 생기다</frame>
+					<frame>X-에게 ~이 생기다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~에 걸리다</form>
+					<frame>X-이 ~에 걸리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 앓다</form>
+					<frame>X-이 ~을 앓다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 치료하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 시달리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

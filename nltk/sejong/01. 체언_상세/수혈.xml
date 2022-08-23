@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>수혈</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/26</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/17</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/25</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>동사결합 정보 수정;논항명사구 정보 추가;선택제약 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>방향성행위를 수여로 수정;맥스엔, 선택제약 정보 수정</mod_note>
+			</mod>
+			<note>2002/08/27(김종명)기능동사구문정보 수정</note>
+			<note>2002/10/07(한선혜)단위표현 추가</note>
+			<note>2003/09/12(기영인)add 정보추가;기능동사구문 정보수정</note>
+			<note>2003/09/16(김진형)분류사 '회' 추가;의미부류 '단독행위'에서 '방향성행위'로 수정</note>
+			<note>2003/09/17(기영인)</note>
+			<add>~ 공급자|반응</add>
+			<add>(ant) 채혈</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">輸血</org>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>수술 중 환자의 출혈이 심해 ~을 해야 한다.</eg>
+				<trans>blood transfusion</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>수여</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 Z-에게 ~을 하다</frame>
+					<!-- '환자에게 모자란 피를 ~을 하다'가 가능하다면, 3개 논항으로 할 수 있을 듯 -->
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>Z-이 Y-을 ~을 받다</frame> <!-- X-에게서 삭제 -->
+				</comb_v>
+				<comb_v type="npred_vsup"> <!-- 추가 -->
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 Z-에게 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Z-에게의 Y-의 ~</max_n_str>
+				<max_n_str>X-의 Z-에게의 ~</max_n_str>
+				<max_n_str>X-의 Z-에대한 Y-의 ~</max_n_str>
+				<max_n_str>X-의 Z-에대한 ~</max_n_str>
+				<max_n_str>Z-에대한 Y-의 ~</max_n_str>
+				<max_n_str>Y-의 Z-에게의 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>Y-의 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>Y ~</max_n_str> <!-- 추가 -->
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<max_n_str>Z-에게의 ~</max_n_str>
+				<max_n_str>Z-에대한 ~</max_n_str>
+				<max_n_str>Z-의 ~</max_n_str>
+				<max_n_str>Z ~</max_n_str>
+				<sel_rst arg="X">인간(의사|간호사)|전기전자기구|기계</sel_rst> <!-- (의사|간호사) 추가 -->
+				<sel_rst arg="Y">분비물(피|혈액)</sel_rst>
+				<sel_rst arg="Z">인간(환자)|동물</sel_rst> <!-- 일시적역할인간 삭제, 동물 추가 -->
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

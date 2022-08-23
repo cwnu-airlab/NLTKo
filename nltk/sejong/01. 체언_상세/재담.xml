@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>재담</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/05/20</cre_date>
+				<cre_writer>권오희</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/03</mod_date>
+				<mod_writer>권오희</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/9/29</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>재담을 재난으로 기술하여 기술내용전체를 바꿈,add내용삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/22</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note>trans 수정;n_pred 구문 기재, frame, max, 선택제약 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/15</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>기능동사 정보 전체 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">才談</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 사람은 ~에 능해서 어디서나 웃음꽃을 피우며 다닌다.</eg>
+				<trans>wity talk</trans>
+				<sem_class>이야기</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~을 하다</form>
+					<frame>X-이 Y-에게 S다고 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 떨다</form>
+					<frame>X-이 Y-에게 S다고 ~을 떨다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 늘어놓다</form>
+					<frame>X-이 Y-에게 S다고 ~을 늘어놓다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 나누다</form>
+					<frame>X-이 Y-와 S다고 ~을 나누다</frame>
+					<frame>X-와 Y-이 S다고 ~을 나누다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 그치다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 S다는 ~</max_n_str>
+				<max_n_str>X-와 Y-의 S다는 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">가지</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

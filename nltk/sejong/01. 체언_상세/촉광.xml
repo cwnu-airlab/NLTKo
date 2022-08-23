@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>촉광</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/07</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/13</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/01</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>동형어 정보 추가, 분류사 사전에 기술되어 있음;형용사결합 정보 추가;센스2의 '이 전구는 30 ~ 이상의 밝은 빛을 낸다'는 분류사 용법이므로 삭제함</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>syn 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/03/11</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>정보 확장 내용 교열</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/07</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str type="N_N"></str>
+			<org lg="si">燭光</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>어두웠지만 ~으로 대충 윤곽을 알 수 있었다.</eg>
+				<trans>candlelight</trans>
+				<sem_class>빛</sem_class>
+				<lr>
+					<syn type="perfect">촉력</syn>
+					<syn type="etc"></syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 밝다</comb_aj>
+				<comb_aj type="appr">~이 어둡다</comb_aj>
+				<comb_aj type="appr">~이 환하다</comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 밝히다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<cl type="uni"></cl>
+				<prt></prt>
+				<av></av>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

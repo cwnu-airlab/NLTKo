@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>차별화되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/23</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/09/11</mod_date>
+				<mod_writer>조원형</mod_writer>
+				<mod_note>정보확장</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">차별화가 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<org lg="si">差別化_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be treated discriminatingly</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">속성(학력|학벌)</sel_rst>
+					<eg>우리반 학생들의 학력이 점차 차별화되고 있다.</eg>
+					<eg>학벌이 차별화되어서는 안 된다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="etc"></col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be distinguished</trans>
+			</sem_grp>
+			<frame_grp type="FIN" cor="sym" n="01">
+				<frame>X=N0-이 Y=N1-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체인공물(제춤|기기|악기)|정도속성값(품질|강도)</sel_rst>
+					<sel_rst arg="Y" tht="COM">구체인공물(제춤|기기|악기)|정도속성값(품질|강도)</sel_rst>
+					<eg>한국제품들이 중국제품들과 차별화되어야 해외시장에서 경쟁력이 있다.</eg>
+					<eg>국산 피아노는 일제와 차별화된다.</eg>
+					<eg>이 국산 자동차의 품질은 일본 자동차와 차별화되어야 한다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="sym" n="01">
+				<frame>X+Y=N0-이 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체인공물(제춤|기기|악기)|정도속성값(품질|강도)</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체인공물(제춤|기기|악기)|정도속성값(품질|강도)</sel_rst>
+					<eg>한국제품들과 중국제품들이 차별화되어야 해외시장에서 경쟁력이 있다.</eg>
+					<eg>이 국산 자동차의 품질과 일본 자동차의 품질은 차별화되어야 한다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="etc"></col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+	</entry>
+</superEntry>

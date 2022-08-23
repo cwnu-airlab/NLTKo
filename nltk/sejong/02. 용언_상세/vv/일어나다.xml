@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>일어나다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/15</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>곽새라</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2005/01/25</mod_date>
+				<mod_writer>김윤신</mod_writer>
+				<mod_note>형태정보 수정</mod_note>
+				<mod_note>대역어 수정 및 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/15</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/08/30</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="a"/>
+			<str>V-어V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>rise</trans>
+				<trans>get up</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">동물</sel_rst>
+					<eg>우주 괴물이 간신히 일어나기는 했는데 여전히 졸린 모양이다.</eg>
+					<eg>아이는 일어나기는 했지만 잠에 취한 듯 몸을 못 가눴다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>stand up</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<eg>우주 괴물은 놀라서 5개의 발로 벌떡 일어났다.</eg>
+					<eg>내 친구는 재빨리 일어나기는 했지만 곧 다시 주저앉았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>happen</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">사건|현상</sel_rst>
+					<eg>전쟁이 일어나면 어디로 피하는 것이 가장 안전할까?</eg>
+					<eg>우주 괴물의 지구 습격이라는, 우려하던 일이 일어나고 말았다.</eg>
+					<eg>과소비의 결과로 대공황 사태가 일어났다는 것이 말이 되니?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>revive</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간집단</sel_rst>
+					<eg>우주 괴물의 나라가 드디어 일어나기 시작했다.</eg>
+					<eg>우리 나라가 일어나려면 기초 학문을 중시해야 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>originate in</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간집단</sel_rst>
+					<eg>청나라가 일어난 것은 어느 연도지?</eg>
+					<eg>당시 이자겸의 난으로 민심이 흉흉한 데다 밖으로는 새로 일어난 금나라가 고려에 압력을 가해와 사회가 크게 불안하였다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="06">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>rise</trans>
+				<trans>blow</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">불|기상현상(바람|태풍|돌풍)</sel_rst>
+					<eg>불이 일어나자 우주 괴물은 놀란 눈치였다.</eg>
+					<eg>바람이 일어나면 사람들도 자리에서 일어났다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

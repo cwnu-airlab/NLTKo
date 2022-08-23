@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>축원</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/07</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/13</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/09</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1의 의미부류 수정;동사결합 정보 수정;논항 명사구 추가;논항 의미정보 수정;센스2의 의미부류 수정;단위표현 추가;동사결합 정보 수정;논항명사구 추가;논항 의미정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/02/12</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/10</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">祝願</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 부모님의 건강을 ~을 했다.</eg>
+				<trans>praying</trans>
+				<sem_class>인지적행위</sem_class> <!-- 인지추상적행위 수정 -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+					<frame>X-이 S기-을 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst> <!-- 인간집단 추가 -->
+				<sel_rst arg="Y">정적사태|행위|상태변화</sel_rst> <!-- '속성값|속성' 수정 -->
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>나는 부처님께 부모님의 건강을 ~을 했다.</eg>
+				<trans>prayer</trans>
+				<sem_class>종교및의례행위</sem_class> <!-- '인지추상적행위' 수정, 단 소통행위? -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form> <!-- 형태정보 추가 -->
+					<frame>X-이 Z-에게 Y-을 ~을 하다</frame> <!-- 'Y-에게 Z-을|S을것|S기-를' 논항 기호를 바꿈 -->
+					<!-- 'Y-을|S을것|S기-를' 분할 표기 -->
+					<frame>X-이 Z-에게 S을것-을 ~을 하다</frame>
+					<frame>X-이 Z-에게 S기-을 ~을 하다</frame>
+					<frame>X-이 Z-에게 S라고 ~을 하다</frame> <!-- 별도 항목으로 된 것을 통합함 -->
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 드리다</form>
+					<frame>X-이 Z-에게 Y-을 ~을 드리다</frame>
+					<frame>X-이 Z-에게 S을것-을 ~을 드리다</frame>
+					<frame>X-이 Z-에게 S기-을 ~을 드리다</frame>
+					<frame>X-이 Z-에게 S라고 ~을 드리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 올리다</form>
+					<frame>X-이 Z-에게 Y-을 ~을 올리다</frame>
+					<frame>X-이 Z-에게 S을것-을 ~을 올리다</frame>
+					<frame>X-이 Z-에게 S기-을 ~을 올리다</frame>
+					<frame>X-이 Z-에게 S라고 ~을 올리다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst> <!-- 인간집단 추가 -->
+				<sel_rst arg="Y">상상적인간</sel_rst>
+				<sel_rst arg="Z">속성|정적사태|행위|상태변화</sel_rst> <!-- '사행' 수정 -->
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<s_n>S라는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

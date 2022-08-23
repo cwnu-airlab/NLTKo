@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>모토</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/14</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/14</mod_date>
+				<mod_writer>류희선</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/10</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>sem수정, n_v기술, 예문 보완</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>의미부류 '의견'을 '언어요소'로 수정, 분류사 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">motto</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 정직을 삶의 ~로 삼고 있다.</eg>
+				<eg>실학은 실사구시를 ~로 내세운 학문이다.</eg>
+				<eg>개방을 ~로 건 경제 체제의 폐해가 드러나고 있다.</eg>
+				<trans>motto</trans>
+				<sem_class>언어요소</sem_class><!--생각에서 의견으로 수정-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 삼다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 내세우다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 걸다</form>
+				</comb_v>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

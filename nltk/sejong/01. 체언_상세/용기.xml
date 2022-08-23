@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>용기</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/25</cre_date>
+				<cre_writer>박치원</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/14</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/01/11</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>sense1 sem 수정, 기능동사구문 정리, n_v의 ~있다|없다 삭제, cl 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/01</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/03/31(김현승)의미부류를 '태도'에서 '긍정적태도'로 수정</note>
+			<note>2003/04/14(고길수)의미부류를 '긍정적태도'에서 '긍정적감정'으로 수정</note>
+			<note>comb_aj의 '있다|없다'는 기능동사 항목으로 수정</note>
+			<note>comb_v 정보 추가</note>
+			<note>comb_v정보 add항목으로 이전</note>
+			<note>entry n=2 '용기(容器)' 추가</note>
+			<note>pre_s 정보 추가</note>
+			<note>기능동사 정보 추가</note>
+			<note>논항 의미정보 추가</note>
+			<note>센스2를 추가함</note>
+			<note>영어대역어 'bravery'추가</note>
+			<add>~를 내다|북돋다|불어넣다|주다|얻다|잃다|기르다|꺾다' 추가</add>
+			<add>동사결합으로 '~가 나다|솟다|꺾이다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">勇氣</org>
+		
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc">~ 백배하여</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 감히 그 일을 거역할 ~가 없었다.</eg>
+				<trans>couragebravery</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>내재적심리행위</sem_class><!--(권오희)'긍정적감정'에서 수정-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>용감하다</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 가상하다</comb_aj>
+				<comb_aj type="magn">~가 대단하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 받다</form>
+					<frame>X-이 Y|S것-에서 ~를 받다</frame>
+					<frame>X-이 Y|S것-에게서 ~를 받다</frame>
+					<frame>X-이 Y|S것-로부터 ~를 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 주다</form>
+					<frame>Y|S것-이 X-에게 ~를 주다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 나다</form>
+					<frame>X-이 Y|S것-에 ~가 나다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 솟다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 생기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 일다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 내다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 S는 ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단|동물</sel_rst>
+				<sel_rst arg="Y">인간|동물|인간집단|행위|사건|태도|상태변화</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+				<s_n>S을 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 ~가 있는 사람이다.</eg>
+				<trans>courage</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>긍정적인성속성값</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 많다</comb_aj>
+				<comb_aj type="appr">~가 적다</comb_aj>
+				<comb_aj type="appr">~가 부족하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 있다</form>
+					<frame>X-이 ~가 있다</frame>
+					<frame>X-에게 ~가 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 없다</form>
+					<frame>X-이~가 없다</frame>
+					<frame>X-에게 ~가 없다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|동물|인간집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/31</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/14</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/01/11</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>add, n_v로 이동 기술</mod_note>
+			</mod>
+			<note>2003/03/31(김현승)</note>
+			<note>2003/04/14(고길수)</note>
+			<add>~를 비우다|채우다' 추가</add>
+			<add>동사결합으로 '~에 담다|넣다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">容器</org>
+		
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 김치를 ~에 담아 냉장고에 넣었다.</eg>
+				<trans>containervesselreceptacle</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>용기</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 튼튼하다</comb_aj>
+				<comb_aj type="appr">~가 무겁다</comb_aj>
+				<comb_aj type="appr">~가 가볍다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 담다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 넣다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

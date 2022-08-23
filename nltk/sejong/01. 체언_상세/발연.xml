@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>발연</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/28</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/29</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 n_v 수정하고 선택제약 Y 추가했으나 검토요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 의미부류 '현상'을 수정</mod_note>
+				<mod_note>센스1 '일어나다', 선택제약 Y 삭제</mod_note>
+				<mod_note>센스1 n_v, 선택제약 X 수정</mod_note>
+			</mod>
+			<note>2003/08/28(송인욱)센스1과 2의 구분 타당성 검토 요망</note>
+			<note>센스1의 경우 '발연이 되다'도 가능한 것으로 생각되나 인쇄사전에 그런 용법이 나와 있지 않아 일단 보류함</note>
+			<note>2003/10/15(박진호)합성어에 있던 것을 센스1의 명사연어로 옮김</note>
+			<note>2003/10/29(송인욱)센스1의 예문 수정</note>
+			<add>2003/09/01(송인욱)센스1의 동사자유구성으로 '~을 막다|피하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">發煙</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>다 타버린 줄 알았던 장작더미에서 연기가 두 차례나 ~을 했다.</eg>
+				<eg>~이 심한 화재 현장에서는 화상보다 질식사의 위험이 더 크다.</eg>
+				<eg>폐기장에서 ~을 한 것으로 추정되는 연기가 온 마을을 뒤덮었다.</eg>
+				<trans>fuming</trans>
+				<sem_class>생성</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 심하다</comb_aj>
+				<comb_aj type="min">~이 약하다</comb_aj>
+				<comb_n type="compound">~ 물질</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 막다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 피하다</form>
+				</comb_v>
+				<sel_rst arg="X">연기</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>산 속에서 길을 잃은 우리는 현재의 위치를 알리기 위해 모닥불을 피워 ~을 시켰다.</eg>
+				<eg>젖은 나무를 갖고 ~을 하기란 거의 불가능한 일이다.</eg>
+				<trans>emitting smoke</trans>
+				<sem_class>지속적활동</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>X-이 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 일으키다</form>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

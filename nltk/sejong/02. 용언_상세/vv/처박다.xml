@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>처박다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/27</cre_date>
+				<cre_writer>유경민</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/09</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/07</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 정보 수정</mod_note>
+			</mod>
+			<note>2002/10/15(허용)</note>
+			<note>2003/10/09(한선혜)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>PV</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>drive</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">교통기관|(못|말뚝|머리)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">구체인공물|장소</sel_rst>
+					<eg>그는 화가 나서 땅에 말뚝 수십 개를 처박았다.</eg>
+					<eg>그녀는 너무 창피해서 방구석에 머리를 처박고 싶었다.</eg>
+					<eg>그는 음주 운전을 하다가 결국엔 전봇대에 차를 처박았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>배치</sem_class>
+				<trans>put into</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체인공물|생물|자연음식물</sel_rst>
+					<sel_rst arg="Z" tht="LOC">장소|가구</sel_rst>
+					<eg>그는 항상 벗은 옷을 장롱에 처박아 놓는다.</eg>
+					<eg>그는 아침이면 술을 끊겠다고 창고에 술을 처박아 놓고, 저녁이면 어김없이 그것을 찾아 다시 마신다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>사동적이동행위</sem_class>
+				<trans>keep (a person) penned (in a place)</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">생물</sel_rst>
+					<sel_rst arg="Z" tht="LOC">장소</sel_rst>
+					<eg>그는 노모를 시골집에 처박아 놓고 아예 그 존재를 잊었다.</eg>
+					<eg>그녀는 하루종일 짖어대는 강아지를 지하실에 처박아버렸다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

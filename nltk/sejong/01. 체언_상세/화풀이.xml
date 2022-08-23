@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>화풀이</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2006/05/28</cre_date>
+				<cre_writer>신선옥</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2006/07/07</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>내적구성 정보 수정;어원정보 수정;의미를 단독행위과 방향성행위로 분할</mod_note>
+			</mod>
+			<mod>
+				<mod_date></mod_date>
+				<mod_writer></mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_Vn">화+풀이</str> <!-- N_N 수정 -->
+			<org lg="si">火__</org> <!-- _ 추가 -->
+		
+			<der  pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 나무를 걷어차며 ~를 해댔다.</eg>
+				<eg>그는 ~로 마구 먹어댔다.</eg>
+				<trans>satisfying resentment</trans>
+				<trans>letting off steam</trans>
+				<trans>venting one's wrath</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>어른들이 알게 모르게 준 상처들로 만신창이가 된 아이들은 어른들처럼 ~를 할 곳도 없다.</eg>
+				<eg>그는 애꿎은 친구에게 ~를 해댔다.</eg>
+				<trans>satisfying resentment</trans>
+				<trans>letting off steam</trans>
+				<trans>venting one's wrath</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>방향성행위</sem_class> <!-- 비난욕설 수정, 필연적으로 언술행위인지?? -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-가 Y-에게 ~를 하다</frame> <!-- X-가 Y-을 ~를 하다 수정 -->
+					<!-- X-이 Y-에게 Z-다고 ~을 하다, X-이 Y-에게 Z-을 ~을 하다 삭제 -->
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

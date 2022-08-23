@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>경보</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/11</cre_date>
+				<cre_writer>차준경</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/04</mod_date>
+				<mod_writer>한선혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/10</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>syn 속성값 수정</mod_note>
+			</mod>
+			<note>2000/09/20(차준경)</note>
+			<note>2001/01/22(조진현</note>
+			<note>2003/02/19(최지임)sense1의 의미부류수정</note>
+			<note>2003/08/04(한선혜)</note>
+			<note>sense1의미부류 검토요망</note>
+			<note>강범모)</note>
+			<note>기능동사수정</note>
+			<note>논항선택제약 수정</note>
+			<note>단위표현 입력</note>
+			<note>동사연어구성정보 add에 입력</note>
+			<note>동사의 연어구성정보 add에 입력</note>
+			<note>수식어문장 입력</note>
+			<note>예문수정</note>
+			<add>센스1 : ~가 울리다</add>
+			<add>센스2 : ~가 내리다</add>
+			<add>센스2 : ~를 내리다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">警報</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~망</der>
+			<der pos="n" type="suffix">~음</der>
+			<der pos="n" type="suffix">~기</der>
+			<comp pos="n" type="suffix">~장치</comp>
+			<comp pos="n" type="prefix">경계~</comp>
+			<comp pos="n" type="prefix">공습~</comp>
+			<comp pos="n" type="prefix">비상~</comp>
+			<comp pos="n" type="prefix">폭풍~</comp>
+			<comp pos="n" type="prefix">화재~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>학교에서 종종 불이 나지 않았는데도 ~가 울리곤 했다.</eg>
+				<trans>alarm</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>소리</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>신호</rel>
+					<rel>경보기</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>기상청은 이번 주 내로 태풍이 올 것이라고 ~를 했다.</eg>
+				<trans>give an alarm</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>행위</sem_class>
+				<lr>
+					<syn type="perfect">보도</syn>
+					<ant type="temp"></ant>
+					<rel>위험</rel>
+					<rel>재난</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~</form>
+					<frame>X-이 Y-를|S것-을 ~를 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">추상적대상|사행</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S다는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/11</cre_date>
+				<cre_writer>차준경</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/04</mod_date>
+				<mod_writer>한선혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/10</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>trans 형식 수정, syn 속성값 수정</mod_note>
+			</mod>
+			<note>2000/09/20(차준경)</note>
+			<note>2001/01/22(조진현</note>
+			<note>2003/02/19(최지임)의미부류수정</note>
+			<note>2003/08/04(한선혜)</note>
+			<note>강범모)</note>
+			<note>단위표현 입력</note>
+			<note>대역어 수정</note>
+			<note>동사연어구성정보 add에 입력</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">競步</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~경기</comp>
+			<comp pos="n" type="suffix">~선수</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 선수는 올림픽의 ~에 출전하여 금메달을 땄다.</eg>
+				<trans>walking race</trans>
+				<trans>walking marathon</trans>
+				<domain>체육</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>단일경기</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>경기</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

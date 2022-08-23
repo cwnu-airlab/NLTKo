@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>설정되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/28</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>곽새라</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2005/10/20</mod_date>
+				<mod_writer>음두은</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">설정이 되다</var>
+			<str>N.되</str>
+			<org lg="si">設定_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be established</trans>
+				<trans>be set</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="FNS">추상적대상</sel_rst>
+					<eg>특정한 방식으로 상황이 설정되면 그에 따라 이 시뮬레이션 기계는 움직이게 된다.</eg>
+					<eg>이 폭탄은 시간이 특정 시간으로 설정되어야 비로소 작동을 시작한다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">요점(주제|논지|구조)</sel_rst>
+					<sel_rst arg="Y" tht="FNS">추상적대상</sel_rst>
+					<eg>논문 주제가 도시 공해로 설정됐으면 빨리 관련 서적부터 읽어라.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">요점(주제|논지|구조)</sel_rst>
+					<sel_rst arg="Y" tht="FNS">S것</sel_rst>
+					<eg>주제는 가설을 증명할 수 있는 것으로 설정되어야 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be configured</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">기구|기계</sel_rst>
+					<sel_rst arg="Y" tht="FNS">방법|방향</sel_rst>
+					<eg>컴퓨터는 환경에 따라 다른 방식으로 설정되어야 한다.</eg>
+					<eg>기계가 어떤 식으로건 설정되어야 사용할 수 있는 것 아닌가?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be settled up</trans>
+			</sem_grp>
+			<frame_grp type="FIN" >
+				<frame>X=N0-이 Z=N2-에 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">건물|지상장소(땅|대지)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">금융기관</sel_rst>
+					<sel_rst arg="Z" tht="FNS">(근저당|담보|담보물)</sel_rst>
+					<eg>그는 은행에 집이 담보로 설정되어 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

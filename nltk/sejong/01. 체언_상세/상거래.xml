@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>상거래</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/04</cre_date>
+				<cre_writer>염신현</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/04</mod_date>
+				<mod_writer>염신현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/11</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note>str 수정, 의미부류 수정, max 작성, add를 n_v로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/24</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2007/08/07</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>전문영역에서 경제 삭제;의미부류를 '대칭적행위'에서 '교환'으로 수정;명사연어에 '전자 ~' 추가;프레임, 맥스엔 정보 수정;수식어 명사 정보 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/08</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>단위표현 정보 추가</mod_note>
+			</mod>
+			<note>2003/07/04(염신현)예문수정, comb_v를 add로 이동</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">상+거래</str>
+			<org lg="si">商去來</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그곳은 ~가 활발한 지역이다.</eg>
+				<trans>commercial transaction</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>교환</sem_class>
+				<lr>
+					<syn type="etc">장삿거래</syn>
+					<ant type="temp"></ant>
+					<hyper>거래</hyper>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 활발하다</comb_aj>
+				<comb_n type="compound">전자 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-와 ~를 하다</frame>
+					<frame>X-와 Y-이 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-와의 ~</max_n_str>
+				<max_n_str>X-와 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|단체</sel_rst>
+				<sel_rst arg="Y">인간|단체</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<!-- pre_n>N</pre_n -->
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

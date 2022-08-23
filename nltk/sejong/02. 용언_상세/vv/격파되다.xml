@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>격파되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/19</cre_date>
+				<cre_writer>김현권</cre_writer>
+				<cre_writer>조현경</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2005/09/09</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>의미정보 추가</mod_note>
+				<mod_note>의미역 일부 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">격파가 되다</var>
+			<str>N.되</str>
+			<org lg="si">擊破_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be repulsed</trans>
+				<lr>
+					<syn type="perfect">격퇴되다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">군대</sel_rst>
+					<sel_rst arg="Y" tht="AGT">군대</sel_rst>
+					<eg>적의 선봉 부대는 우리 부대에 격파되었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">군대</sel_rst>
+					<sel_rst arg="Y" tht="EFF">물리적행위(공격|습격)</sel_rst>
+					<eg>우리 군은 적의 공격에 격파되지 않을 자신이 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be broken</trans>
+				<lr>
+					<hyper>깨지다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체인공물(기와장|문짝|벽돌)|장소(건물|다리)</sel_rst>
+					<sel_rst arg="Y" tht="EFF">물리적행위</sel_rst>
+					<eg>기와장이 격파시범으로 산산조각나며 격파되었다.</eg>
+					<eg>한 대 치자 이미 썩어있었던 문짝은 완전히 격파되었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체인공물(기와장|문짝|벽돌)|장소(건물|다리)</sel_rst>
+					<sel_rst arg="Y" tht="AGT">인간</sel_rst>
+					<eg>벽돌이 차력사에 의해 격파되었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

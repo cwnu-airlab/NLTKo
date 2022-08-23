@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>용구</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/06/28</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/02</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/13</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note>add 이동 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/01/11</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>n_n 기술</mod_note>
+				<mod_note>cl 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/01</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/08/01(박동호)</note>
+			<note>2002/12/30(김성용)</note>
+			<note>2003/01/02(이성헌)sense1 eg의 표제어를 '~'로 수정</note>
+			<note>comb_v의 '~를 다루다|사용하다'를 add로 이동</note>
+			<note>sense1 pre_s에서 'S는 ~'삭제하고 #추가</note>
+			<add>~를 다루다|사용하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">用具</org>
+		
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이것은 나무를 자르는 데 사용하는 ~이다.</eg>
+				<eg>필기 ~의 모양이 참 예쁘다.</eg>
+				<trans>toolinstrument</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>도구</sem_class>
+				<lr>
+					<syn type="etc">도구</syn>
+					<syn type="etc">연장</syn>
+					<ant type="temp"></ant>
+					<hypo>도끼</hypo>
+					<hypo>대패</hypo>
+					<hypo>망치</hypo>
+					<hypo>톱</hypo>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">바느질 ~</comb_n>
+				<comb_n type="compound">제도 ~</comb_n>
+				<comb_n type="compound">청소 ~</comb_n>
+				<comb_n type="compound">필기 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 다루다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사용하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N</pre_n>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

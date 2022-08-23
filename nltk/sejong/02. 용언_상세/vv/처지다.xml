@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>처지다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/20</cre_date>
+				<cre_writer>유경민</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/09</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/07</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 정보 수정</mod_note>
+			</mod>
+			<note>2002/10/15(허용)</note>
+			<note>2003/10/09(한선혜)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="i"/>
+			<str>V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>droop</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(줄|천)|신체부위(볼|가슴|배|엉덩이|어깨|눈|살)</sel_rst>
+					<eg>무거운 이불을 널었더니 빨랫줄이 아래로 축 처져 있다.</eg>
+					<eg>여자는 나이가 들수록 배와 엉덩이가 처지지 않도록 신경을 써줘야 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>내재적심리상태</sem_class>
+				<trans>gloomy</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">(감정|기분)</sel_rst>
+					<eg>아침에 그의 전화를 받은 유경은 하루 종일 기분이 처져 있다.</eg>
+					<eg>너무 화려하고 잘나서 공연히 옆에 있는 사람의 감정을 처지게 만드는 사람이 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>비교</sem_class>
+				<trans>fall behind</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|인간집단</sel_rst>
+					<eg>이상하게도 시험을 보면 매번 3반이 처진다.</eg>
+					<eg>어느 면에서 보면 남자가 좀 처지는 것 같고, 또 어느 면에서 보면 여자가 더 처지는 것 같은데 그러고 보면 두 사람은 참 잘 어울린다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에서|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="CRT">인간집단</sel_rst>
+					<eg>어머니는 항상 다른 사람에게 처지지 않으려면 다른 사람보다 잠을 덜 자야 한다고 가르치셨다.</eg>
+					<eg>대열에서 혼자 처지지 않으려면 부지런히 움직여라.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>압박</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/23</cre_date>
+				<cre_writer>박동호</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/13</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/04</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+				<mod_note>n_aj type '~이 높아지다'</mod_note>
+				<mod_note>comb_v  sense 2'~을 해소하다' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/02</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/24</note>
+			<note>2003/01/11(김이정) sense구분(sense'행위'를 sense1'물리적행위'와 sense2'인지추상적행위'로 구분)</note>
+			<note>2003/01/13(남길임)'X-이 Y-을 S다고 ~을 하다' 삭제, SUPV기술 추가</note>
+			<note>2003/01/13(김이정)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">壓迫</org>
+		
+			<hom exist="yes"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~감</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~당하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 나를 점점 ~을 하기 시작했다.</eg>
+				<eg>붕대가 상처를 너무 세게 ~을 하고 있다.</eg>
+				<trans>pressure</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>물리적행위</sem_class>
+				<lr>
+					<syn type="etc">압력</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 가하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에서 벗어나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에서  해방하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에|에의해 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의|에 의한 Y  ~</max_n_str>
+				<sel_rst arg="X">인간|구체자연물|구체인공물</sel_rst>
+				<sel_rst arg="Y">인간|신체부위</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>북한은 특수지위를 최대한 활용해 미국을 ~을 하고 있다.</eg>
+				<eg>그동안 수많은 악재들이 증시를 ~을 해왔다.</eg>
+				<trans>pressure</trans>
+				<trans>oppression</trans>
+				<trans>tyranny</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>인지추상적행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">피압박</ant>
+					<coord>피압박</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 심하다</comb_aj>
+				<comb_aj type="appr">~이 높아지다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 가하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 강화하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 견디다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 해소다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다|당하다</form>
+					<frame>Y-이 X-에|에게|에의해 ~을 받다|당하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에|에의해 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의|에 의한 Y  ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단|사행|추상적대상</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|추상적대상</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

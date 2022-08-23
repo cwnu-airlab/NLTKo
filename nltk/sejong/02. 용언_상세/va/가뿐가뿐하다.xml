@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>가뿐가뿐하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/25</cre_date>
+				<cre_writer>허용</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/25</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>김건희</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc">가분가분하다</var>
+			<var type="etc">거뿐거뿐하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>심리상태</sem_class>
+				<trans>be light</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(마음)|(발걸음|걸음걸이)</sel_rst>
+					<eg>오랫동안 끌어오던 골치 아픈 일을 마치고 나니 마음이 가뿐가뿐한 것이 날아갈 것 같다.</eg>
+					<eg>승진을 한 그녀는 기분이 좋아 걸음걸이도 가뿐가뿐하게 걸었다.</eg>
+					<eg>학교에서 집으로 돌아오는 아이들의 발걸음이 모두 가뿐가뿐하다.</eg>
+					<eg>힘이 좋은 그는 무거운 소파를 가뿐가뿐하게 들어 옮겼다.</eg> <!--별도 센스로 해야 할 듯-->
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>신체상태</sem_class>
+				<trans>feel light</trans>
+				<trans>feel good</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(몸)</sel_rst> <!--EXP?-->
+					<eg>뜨거운 물 속에 몸을 푹 담그고 나니 몸이 가뿐가뿐해서 기분이 좋다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

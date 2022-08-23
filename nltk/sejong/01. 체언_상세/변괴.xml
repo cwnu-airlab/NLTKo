@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>변괴</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/14</cre_date>
+				<cre_writer>한동훈</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/14</mod_date>
+				<mod_writer>한동훈</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note>통사정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/15</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add정보를 n_v로 이동</mod_note>
+				<mod_note>n_v에서 '들다/부리다' 삭제</mod_note>
+				<mod_note>n_v 수정</mod_note>
+				<mod_note>예문 추가</mod_note>
+				<mod_note>선택제약 Y 삭제</mod_note>
+				<mod_note>분류사 추가</mod_note>
+			</mod>
+			<add>동사자유구성에'~가 나타나다|생기다|일어나다'추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">變怪</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>요즘 자꾸 나에게 심상치 않은 ~가 일어나고 있다.</eg>
+				<eg>나는 요새 집안에 ~가 있어 편치 못하네.</eg>
+				<trans>extraordinary calamity</trans>
+				<trans>extraordinary misdeed</trans>
+				<sem_class>우발사건</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 있다</form>
+					<frame>X-에 ~가 있다</frame>
+					<frame>X-에게 ~가 있다</frame>
+					<frame>X-에 S는 ~가 있다</frame>
+					<frame>X-에게 S는 ~가 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 생기다</form>
+					<frame>X-에 ~가 생기다</frame>
+					<frame>X-에게 ~가 생기다</frame>
+					<frame>X-에 S는 ~가 생기다</frame>
+					<frame>X-에게 S는 ~가 생기다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 일어나다</form>
+					<frame>X-에 ~가 일어나다</frame>
+					<frame>X-에게 ~가 일어나다</frame>
+					<frame>X-에 S는 ~가 일어나다</frame>
+					<frame>X-에게 S는 ~가 일어나다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 나타나다</form>
+					<frame>X-에 ~가 나타나다</frame>
+					<frame>X-에게 ~가 나타나다</frame>
+					<frame>X-에 S는 ~가 나타나다</frame>
+					<frame>X-에게 S는 ~가 나타나다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 나다</form>
+					<frame>X-에 ~이 나다</frame>
+					<frame>X-에게 S는 ~이 나다</frame>
+					<frame>X-에 ~이 나다</frame>
+					<frame>X-에게 S는 ~이 나다</frame>
+				</comb_v>
+					<sel_rst arg="X">인간|인간집단|천체|장소</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

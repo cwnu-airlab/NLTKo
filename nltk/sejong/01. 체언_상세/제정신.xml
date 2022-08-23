@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>제정신</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2005/06/22</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note>복합어 내적 구성 유형 정보 새로 체언사전 구조에 반영 가능</cre_note>			
+			</cre>
+			<mod>
+				<mod_date>2005/06/26</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/12</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>복합어내부구성정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/08</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정 없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/22</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">제+정신</str> <!-- 대명사_명사 의 결합유형이나 이 형태가 현재 구조에 반영되어 있지 않아 기타로 처리(송근영);회의결과 수렴 대명사를 N으로 처리(송근영) -->
+			<org lg="si">_精神</org>
+		
+			<hom exist="temp"/>
+			<der  pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 사람은 지금 ~이 아니다.</eg>
+				<eg>~을 가지고는 절대 그런 행동을 할 수가 없다.</eg>
+				<trans>consciousness</trans>
+				<trans>sanity</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>개체상황</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 아니다</comb_aj> <!--(호정은) '아니다' 구성을 여기 기술하는지 의문, 일단 그대로 둠-->
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 돌아오다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 잃다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 차리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 가지다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av>~으로</av>
+				<pre_d yn="no"/>
+				<pre_n yn="no"/>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

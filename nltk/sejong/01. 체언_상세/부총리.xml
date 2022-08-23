@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>부총리</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/23</cre_date>
+				<cre_writer>남길임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/16</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/01</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note>add 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/02</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>품사를 '단일명사'에서 '복합명사'로 수정;명사연어 정보 추가;동사결합에 '취임하다, 사임하다, 기용하다' 추가;맥스엔, 논항 의미정보 추가;단위표현에 '인, 사람' 추가</mod_note>
+			</mod>
+			<note>2002/07/23(이병규)</note>
+			<note>2002/08/08(고길수)형용사결합에서 '훌륭하다|뚱뚱하다|날씬하다...' 삭제</note>
+			<note>add 정보 추가</note>
+			<note>2003/05/29(류희선)예문추가</note>
+			<note>단위표현 '분'추가</note>
+			<note>2003/09/16(박진호)관련어, add 추가</note>
+			<add>내부구성정보로 'rt(부)+n(총리)'</add>
+			<add>내부구성정보로 'rt(부)+n(총리)'</add>
+			<add>명사구로 'X(나라)(-의) ~' 가능</add>
+			<add>내부구성정보로 'rt(부)+n(총리)'</add>
+			<add>명사구로 'X(나라)(-의) ~' 가능</add>
+			<add>동사결합으로 '~를 사임하다</add>
+			<add>내부구성정보로 'rt(부)+n(총리)'</add>
+			<add>명사구로 'X(나라)(-의) ~' 가능</add>
+			<add>동사결합으로 '~를 사임하다</add>
+			<add>~에 오르다</add>
+			<add>내부구성정보로 'rt(부)+n(총리)'</add>
+			<add>명사구로 'X(나라)(-의) ~' 가능</add>
+			<add>동사결합으로 '~를 사임하다</add>
+			<add>~에 오르다</add>
+			<add>~로 임명되다|선출되다'를 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="R_N">부+총리</str>
+			<org lg="si">副總理</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그녀는 이번 개각에서 역사상 최초의 여성 ~로 임명되었다.</eg>
+				<eg>그는 지난 주에 ~를 사임하겠다는 발표를 했다.</eg>
+				<trans>Deputy Prime Minister</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>직위인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>총리</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">경제 ~</comb_n>
+				<comb_n type="compound">교육 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사임하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 오르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 취임하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 기용하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 임명되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 선출되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 취임하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">국가|국가기관</sel_rst>
+				<cl type="uni">인</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">명</cl>
+				<cl type="uni">분</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

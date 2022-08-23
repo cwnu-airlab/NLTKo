@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>스케일</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/01</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/01</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/01</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/21</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>예문 띄어쓰기 수정</mod_note>
+				<mod_note>n_aj type 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/26</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/14</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			
+			<note>2003/10/01(기영인)센스2의 '스케일이 크다'는 관용표현적 성격을 보이는 듯도 함('그는 스케일이 작은 사람이다'?)</note>
+			<note>add 정보추가</note>
+			<add>센스1 (syn) 규모|크기</add>
+			<add>센스2 (syn) 도량|통</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">scale</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>부서에 비하여 너무 ~이 큰 행사를 기획해서 진행 인원이 모자란다.</eg>
+				<trans>scale</trans>
+				<sem_class>크기</sem_class>
+				<lr>
+					<syn type="kor">크기</syn>
+					<syn type="perfect">규모</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 크다</comb_aj>
+				<comb_aj type="min">~이 작다</comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 부인은 째째한 구석이라곤 없는 ~이 큰 사람이다.</eg>
+				<trans>caliber</trans>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="perfect">도량</syn>
+					<syn type="kor">통</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 크다</comb_aj>
+				<comb_aj type="min">~이 작다</comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

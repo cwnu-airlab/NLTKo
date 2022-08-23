@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>발현하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/30</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/30</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/05</mod_date>
+				<mod_writer>박보연</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">발현을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<org lg="si">發現_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>be manifested</trans>
+				<lr>
+					<syn type="perfect">드러나다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">상태|추상적대상</sel_rst>
+					<eg>월드컵 때 모든 한국 사람의 마음에서는 애국심이 발현하였다.</eg>
+					<eg>인간이 가장 아름다울 때는 사랑의 마음이 발현할 때이다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">상태|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="FNS">행위</sel_rst>
+					<eg>얼마나 수양을 해야 내 마음이 진정한 사랑으로 발현할 수 있을까?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>manifest</trans>
+				<lr>
+					<syn type="perfect">드러내다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">상태|추상적대상</sel_rst>
+					<sel_rst arg="Z" tht="FNS">행위</sel_rst>
+					<eg>우리의 마음 속에 들어 있는 선한 감정을 전정한 인간애로 발현하는 사람만이 천국에 갈 수 있다.</eg>
+					<eg>유관순은 자신의 애국심을 마음껏 발현하고는 세상을 떠났다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

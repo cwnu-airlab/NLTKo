@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>때우다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="u"/>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>개선행위</sem_class>
+				<trans></trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(지붕|구멍|타이어)</sel_rst>
+					<sel_rst arg="Z" tht="INS">구체물</sel_rst>
+					<eg>영수는 냄비 바닥에 난 구멍을 양철 조각으로 깜쪽같이 때웠다.</eg>
+					<eg>허구헌 날 구멍난 타이어나 때우고 사는 내 신세가 처량하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">식사(점심|저녁)</sel_rst>
+					<sel_rst arg="Z" tht="INS">음식</sel_rst>
+					<eg>점심을 라면으로 때웠더니 벌써 배가 고프다.</eg>
+					<eg>영국 사람들은 보통 흑맥주 한 잔으로 점심을 때우는 사람도 많다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(시간|세월)</sel_rst>
+					<sel_rst arg="Z" tht="INS">추상적대상|구체물</sel_rst>
+					<eg>오락이나 하면서 시간을 게임으로 때운다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(일|사건)</sel_rst>
+					<sel_rst arg="Z" tht="INS">추상적대상|구체물</sel_rst>
+					<eg>이런 경사를 술 한잔으로 때울 생각이냐?.</eg>
+					<eg>이번 일만 적당히 때우면 큰 고비는 넘긴다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="CTR">
+				<frame>X=N0-이 C1-로 V</frame>
+				<subsense>
+					<sel_rst arg="C1">(말)</sel_rst>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<eg>말로 때우는 것도 한두 번이지 이번에는 꼭 한턱 내셔야 합니다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="C1">(몸)</sel_rst>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<eg>모자라는 구석은 사장이 직접 나서서 몸으로 때웠습니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

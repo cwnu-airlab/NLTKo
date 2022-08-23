@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>크랭크</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/18</cre_date>
+				<cre_writer>김성용</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/20</mod_date>
+				<mod_writer>이홍식</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/22</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note>센스1의 n_v추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/03/04</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>comp기술</mod_note>
+				<mod_note>n_n 기술</mod_note>
+				<mod_note>센스2의 합성동사 구성을 불가한 것으로 수정</mod_note>
+				<mod_note>센스2의 max_n기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/10</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">crank</org>
+		
+			<comp pos="n" type="suffix">~샤프트</comp><!--센스1의 합성어-->
+			<comp pos="n" type="suffix">~축</comp><!--센스1의 합성어-->
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>한 사람이 조그만 ~를 손으로 돌리는 것이 아니라 ~에 연결되어 있는 페달을 밟는 방식도 고안되었다.</eg>
+				<trans>crank</trans>
+				<sem_class>기계</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 기구</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 돌리다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">대</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이번 작품은 주말에 ~를 할 예정이다.</eg>
+				<trans>crank</trans>
+				<sem_class>단독행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 업</comb_n>
+				<comb_n type="compound">~ 인</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">역할인간</sel_rst>
+				<sel_rst arg="Y">작품</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

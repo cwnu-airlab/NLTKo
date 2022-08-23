@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>영역</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/18</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/03</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/11</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>명사결합 추가</mod_note>
+				<mod_note>복합어 수정</mod_note>
+			</mod>
+			<note>2001/09/21(김종명)</note>
+			<note>entry n=1 파생어 입력</note>
+			<note>예문 수정</note>
+			<note>형용사 연어 입력</note>
+			<note>동사-자유구성 입력</note>
+			<note>관련동사 입력</note>
+			<note>entry n=2 합성어 추가</note>
+			<note>sense n=1 가산/비가산/관계/대칭 수정</note>
+			<note>단위 표현 삭제</note>
+			<note>동사-자유구성 추가</note>
+			<note>술어명사 논항 제약 수정</note>
+			<note>2003/01/26(남길임)의미부류 검토 요망</note>
+			<note>언어행위??</note>
+			<note>2003/02/03(김이정)의미부류 그대로 둘 것</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">英譯</org>
+			<hom exist="yes"/>
+			<comp pos="n" type="suffix">~본</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리나라의 시나 소설을 ~을 하는 것은 매우 어려운 일이다</eg>
+				<trans>english translation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>번역</hyper>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 성경</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에의해 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">텍스트</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/18</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/03</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/11</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 추가</mod_note>
+				<mod_note>sense2 명사 형용사 결합 추가</mod_note>
+				<mod_note>comb_v '~을 구축하다', '~을 넘다' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>복합어 추가</mod_note>
+				<mod_note>최대논항구조, 선택제약 삭제</mod_note>
+			</mod>
+			<note>2003/01/26(남길임)combaj기술 추가</note>
+			<note>의미부류 검토 요</note>
+			<note>2003/02/03(김이정)센스1 의미부류 '속성기능장소'를 '관계장소'로 수정</note>
+			<note>센스2 comb_v 기술</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">領域</org>
+			<hom exist="yes"/>
+			<comp pos="n" type="suffix">~권</comp>
+			<comp pos="n" type="suffix">~경제</comp>
+			<comp pos="n" type="prefix">관세~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>독도는 대한민국의 ~이다.</eg>
+				<trans>territory</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="US"/>
+				<sem_class>관계장소</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<mero>영토</mero>
+					<mero>영해</mero>
+					<mero>영공</mero>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 넓다</comb_aj>
+				<comb_aj type="appr">~이 좁다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 넓히다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="narg_vpred">
+					<form vcompound="no">~을 확대하다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="narg_vpred">
+					<form vcompound="no">~을 확장하다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="narg_vpred">
+					<form vcompound="no">~을 침범하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 구축하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 넘다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>방송 분야는 요즘에 인기 있는 활동 ~이다.</eg>
+				<trans>sphere</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>분야</sem_class>
+				<lr>
+					<syn type="etc">부문</syn>
+					<syn type="etc">분야</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 다르다</comb_aj>
+				<comb_aj type="appr">~이 같다</comb_aj>
+				<comb_n type="compound">고유 ~</comb_n>
+				<comb_n type="compound">활동 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 밝다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 진출하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 나가다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 넓히다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 확대하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 확장하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 구축하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 넘다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>똑바르다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/04/22</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/22</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<note>2003/04/22(김현권)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>PA</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>모양속성값</sem_class>
+				<trans>be straight</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(길|줄|선)</sel_rst>
+					<eg>이 길은 정말 똑바르구나.</eg>
+					<eg>이 줄이 제일 똑바르네.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">신체부위</sel_rst>
+					<eg>그 친구는 등이 똑바르지 못하고 굽었다.</eg>
+					<eg>그녀는 코가 얼마나 똑바르게 잘 섰는지.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>인성속성값</sem_class>
+				<trans>be right</trans>
+				<trans>be fair</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|(태도|행실|판단|정신|생각)</sel_rst>
+					<eg>요사이는 똑바른 생각을 가지고 살 수 없을 정도로 복잡해.</eg>
+					<eg>여자는 태도가 똑바르지 못하면 큰일난다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<eg>창수는 처신하는 것이 매우 똑바르다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>모양속성값</sem_class>
+				<trans>have a straight posture</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(자세)</sel_rst>
+					<eg>똑바른 자세를 가져야 허리가 굽지 않는다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

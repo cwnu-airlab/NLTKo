@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>연분</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/05</cre_date>
+				<cre_writer>최지임</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/05</mod_date>
+				<mod_writer>최지임</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/23</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note>add정보옮김</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/29</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>예문 보충</mod_note>
+				<mod_note>의미부류 수정</mod_note>
+				<mod_note>형용사결합 정보 수정 및 보충</mod_note>
+				<mod_note>동사결합 정보 보충</mod_note>
+				<mod_note>논항명사구, 의미정보 추가</mod_note>
+				<mod_note>속성값은 아닌지 검토 필요</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>동사결합, 형용사결합 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">緣分</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 우연한 ~으로 그 남자와 길에서 마주쳤다.</eg>
+				<eg>그와 ~이 있다면 언젠가 다시 만날 날이 있을 것입니다.</eg> <!-- 추가 -->
+				<!-- 두번째 예문은 속성이 아닌 속성값의 경우로 보임 -->
+				<trans>fate</trans>
+				<sem_class>관계</sem_class> <!-- 속성 수정 -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 있다</comb_aj>
+				<comb_aj type="appr">~이 없다</comb_aj>
+				<comb_aj type="appr" pred="no">아름다운 ~</comb_aj>
+				<comb_aj type="appr" pred="no">우연한 ~</comb_aj>
+				<comb_aj type="magn">~이 깊다</comb_aj>
+				<comb_aj type="min" mod="no">~이 멀다</comb_aj> <!-- appr 수정 -->
+				<comb_n type="compound">부부의 ~</comb_n> <!-- 추가함 -->
+				<comb_v type="narg_vpred">
+				  <form vcompound="yes">~을 맺다</form>
+			 		<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 닿다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>크림</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/18</cre_date>
+				<cre_writer>김성용</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/20</mod_date>
+				<mod_writer>이홍식</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/02/25</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>다의추가 - 센스1</mod_note>
+				<mod_note>der기술</mod_note>
+				<mod_note>comp기술</mod_note>
+				<mod_note>n_a 기술</mod_note>
+				<mod_note>n_n 기술</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/16</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">cream</org>
+		
+			<der pos="n" type="prefix">생~</der>
+			<comp pos="n" type="suffix">~빛</comp><!--센스1의 합성어-->
+			<comp pos="n" type="suffix">~빵</comp><!--센스1의 합성어-->
+			<comp pos="n" type="suffix">~색</comp><!--센스1의 합성어-->
+			<comp pos="n" type="suffix">~소다</comp><!--센스1의 합성어-->
+			<comp pos="n" type="suffix">~소스</comp><!--센스1의 합성어-->
+			<comp pos="n" type="suffix">~수프</comp><!--센스1의 합성어-->
+			<comp pos="n" type="suffix">~치즈</comp><!--센스1의 합성어-->
+			<comp pos="n" type="suffix">~통</comp><!--센스1의 합성어-->
+			<comp pos="n" type="prefix">버터~</comp><!--센스1의 합성어-->
+			<comp pos="n" type="prefix">사워~</comp><!--센스1의 합성어-->
+			<comp pos="n" type="prefix">소프트~</comp>
+			<comp pos="n" type="prefix">슈~</comp><!--센스1의 합성어-->
+			<comp pos="n" type="prefix">아이스~</comp>
+			<comp pos="n" type="prefix">휘핑~</comp><!--센스1의 합성어-->
+			<comp pos="n" type="prefix">립~</comp><!--센스3의 합성어-->
+			<comp pos="n" type="prefix">콜드~</comp><!--센스3의 합성어-->
+			<comp pos="n" type="prefix">클렌징~</comp><!--센스3의 합성어-->
+			<comp pos="n" type="prefix">하이지닉~</comp><!--센스3의 합성어-->
+			<comp pos="n" type="prefix">핸드~</comp><!--센스3의 합성어-->
+			<comp pos="n" type="prefix">헤어~</comp><!--센스3의 합성어-->
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그녀는 우유통 윗부분에 생긴 ~을 걷어 조그만 나무통에 옮겨 담았다.</eg>
+				<eg>나는 아침이면 구운 식빵에 ~을 듬뿍 발라 먹곤 했다.</eg>
+				<trans>cream</trans>
+				<sem_class>재료성분</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 걸쭉하다</comb_aj>
+				<comb_n type="compound">딸기 ~</comb_n>
+				<comb_n type="compound">외국산 ~</comb_n>
+				<comb_n type="compound">초콜릿 ~</comb_n>
+				<comb_n type="compound">~ 단지</comb_n>
+				<comb_n type="compound">~ 상태</comb_n>
+				<comb_n type="compound">~ 타입</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 생기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 걷다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 먹다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 바르다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>저는 커피에 ~을 넣어 주세요.</eg>
+				<trans>cream</trans>
+				<sem_class>재료성분</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 넣다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 타다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 먹다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>겨울에는 얼굴에 ~을 둠뿍 발라야 좋다.</eg>
+				<trans>cream</trans>
+				<sem_class>화장품</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 비싸다</comb_aj>
+				<comb_aj type="appr">~이 싸다</comb_aj>
+				<comb_n type="compound">~ 파운데이션</comb_n>
+				<comb_n type="compound">마사지 ~</comb_n>
+				<comb_n type="compound">싸구려 ~</comb_n>
+				<comb_n type="compound">알로에 ~</comb_n>
+				<comb_n type="compound">차단 ~</comb_n>
+				<comb_n type="compound">화장용 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 바르다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

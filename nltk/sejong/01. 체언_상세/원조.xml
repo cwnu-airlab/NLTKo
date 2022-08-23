@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>원조</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/14</cre_date>
+				<cre_writer>이지현</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/12</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/05</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>max_n 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/01</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/05/16(이지현) 원조 교제의 원조는?</note>
+			<note>2002/05/18(고길수)센스1의 의미부류를 계통에서 비대칭적 친족으로 수정</note>
+			<note>센스1의 기능동사구문에 'X-이 Y-에게 ~가 되다'와 이에 해당하는 논항정보 추가</note>
+			<note>센스2의 의미부류를 계통에서 행위인간으로 수정</note>
+			<note>기능동사구문에 'X-이 Y-에게 ~가 되다'와 이에 해당하는 논항정보 추가, 검토 요망</note>
+			<note>표준사전에 보면 '약 2,600년전에 중국에서 사용되던 수판이 현대 컴퓨터의 ~라고 할 수 있다'라는 유형의 의미를 구분하고 있는데, 이를 반영할 지 검토 요망, 참고로 센스1은 최초 조상(인간), 센스2는 창시자(인간)인데 반해 이 경우에는 구상물 또는 추상물의 최초의 형태를 지칭하는 듯</note>
+			<note>2002/05/26(박동호)</note>
+			<note>2003/07/04(권오희)센스2의 예문수정(한국을 한국인으로)</note>
+			<note>센스3구획 추가</note>
+			<note>2003/08/12(이은경) 센스1의 의미부류를 '비대칭적 친족'에서 '비대칭적관계인간'으로 수정(친족이라고 하기는 어려운 듯함), 센스3의 의미부류를 '구체인공물'에서 '관계구체물'로 수정, 센스2와 3의 기능동사구문에서 'Y-에게'를 'Y-에'로 수정(유정명사가 아니므로 '에게'를 쓸 수 없음)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">元祖</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>침팬지가 현생 인류의 ~라는 사실은 믿기 어렵다.</eg>
+				<eg>성경에는 아담이 인류의 ~라고 적고 있다.</eg>
+				<trans>origin</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>비대칭적관계인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 되다</form>
+					<frame>X-이 Y-에게 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>김치의 ~는 한국인이다.</eg>
+				<trans>originator</trans>
+				<trans>founder</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>행위인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 되다</form>
+					<frame>X-이 Y-에 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>라면의 ~는 중국의 건면이라는 설이 있다.</eg>
+				<trans>original thing</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>관계구체물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 되다</form>
+					<frame>X-이 Y-에 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">구체물</sel_rst>
+				<sel_rst arg="Y">구체물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/14</cre_date>
+				<cre_writer>이지현</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/12</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/05</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_n에 기술</mod_note>
+				<mod_note>격틀정보 분리</mod_note>
+				<mod_note>n_v 수정 및 격틀정보 추가</mod_note>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>sel_res 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/05/18(고길수)의미부류를 행위에서 방향성행위로 수정</note>
+			<note>명사연어에 '~ 기관|물자|사업'을 추가</note>
+			<note>동사연어에서 '~를 받다|요청하다'를 삭제, 받다는 supv에 기술되는 것이고, 요청하다는 기능동사 또는 변이형에 해당하지 않음</note>
+			<note>기능동사구문에서 Z논항을 추가하고, '~가 되다, ~를 받다'의 구문을 추가</note>
+			<note>논항선택제약정보 수정</note>
+			<note>2002/05/26(박동호)</note>
+			<note>2003/07/04(권오희)</note>
+			<note>센스1의 comb_n을 add로 옮김</note>
+			<note>2003/08/12(이은경) 단위표현에 '번|차례|회' 기입</note>
+			<add>센스1의 명사결합 : ~ 기관|물자|사업</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">援助</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 곤경에 처하자 친구들에게 경제적 ~를 요청했다.</eg>
+				<trans>support</trans>
+				<trans>help</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>방향성행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 기관</comb_n>
+				<comb_n type="compound">~ 물자</comb_n>
+				<comb_n type="compound">~ 사업</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 Z-에게 ~를 하다</frame>
+					<frame>X-이 Y-을 Z-에 대해 ~를 하다</frame>
+					<frame>X-이 Z-를 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 Z-에게 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~를 받다</form>
+					<frame>Z-이 X-에게서 Y-을 ~를 받다</frame> <!--Z조사를 '가'에서 '이'로 수정(송근영)-->
+					<frame>Z-이 X-에서 Y-을 ~를 받다</frame> <!--송근영 추가-->
+					<frame>Z-이 X-에게 Y-을 ~를 받다</frame> <!--송근영 추가-->
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">구체자연물|구체인공물|재료성분</sel_rst> <!--'재료', '성분'을 '재료성분'으로 수정(송근영)-->
+				<sel_rst arg="Z">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

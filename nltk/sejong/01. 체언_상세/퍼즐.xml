@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>퍼즐</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/20</cre_date>
+				<cre_writer>김성용</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/02</mod_date>
+				<mod_writer>이홍식</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/22</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스2 추가</mod_note>
+				<mod_note>센스1 의미부류 '계획사건'을 '추상적대상'으로 수정</mod_note>
+				<mod_note>센스1 syn 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/01</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/2/20</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>'~을 맞추다'에서 '~를 맞히다'로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/10/25(김성용)의미부류 확인 요망</note>
+			<note>2003/11/02(이홍식)적합한 의미부류를 찾기 어려운 듯함</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">puzzle</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>친구들은 ~을 풀면서 시간을 보내고 있었다.</eg>
+				<trans>puzzle</trans>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<syn type="etc">수수께끼</syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 풀다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>자원봉사자의 설명에 따라 할머니가 느린 손으로 ~을 맞춘다.</eg>
+				<trans>puzzle</trans>
+				<sem_class>도구</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 맞추다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>담당하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/08/26</cre_date>
+				<cre_writer>김현권</cre_writer>
+				<cre_writer>박정준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2001/09/03</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/03/21</mod_date>
+				<mod_writer>목정수</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>담당.하</str>
+			<org lg="si">擔當_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>일</sem_class>
+				<trans>take charge of</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(일|임무|역할)</sel_rst>
+					<eg>각자가 담당한 일을 열심히 하면 만사가 잘 될 것이다.</eg>
+					<eg>대외 업무는 김 부장이 담당하고 이 부장은 회사 안의 일을 담당하기로 했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|인간집단</sel_rst>
+					<eg>3학년을 담당한 선생님들은 입시 때문에 업무가 많은 편이다.</eg>
+					<eg>나를 담당한 의사는 이 분야의 베테랑이었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체인공물|장소</sel_rst>
+					<eg>우리집 베란다에 있는 화분들을 가족들이 각각 몇 개씩 담당해서 가꾸기로 했다.</eg>
+					<eg>제3국은 강남구를 담당한다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">S는것</sel_rst>
+					<eg>월, 수, 금에는 아이들을 어린이집에서 데려오는 것을 내가 담당하기로 했다.</eg>
+					<eg>집에서 밥을 해 먹을 때 밥 짓는 건 아내가 담당하고 설거지는 내가 담당하곤 했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>압승</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/15</cre_date>
+				<cre_writer>최지임</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/02</mod_date>
+				<mod_writer>고길수</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/02</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>add의 '거두다'를 기능동사변이형으로 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/01</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>s_n기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/6</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/07/15(최지임)기능동사 검토요망</note>
+			<note>"X-이 Z-을 ~을 하다"구문은 Z가 경기일 경우만 자연스럽게 연결되는 것 같음. 검토바람.</note>
+			<note>2003/09/02(고길수)예문 수정, '그들은 결승전에서 (상대팀에게) ~을 했다'</note>
+			<note>의미부류를 '행위'에서 '긍정적결과행위'로 수정, 가장 가까운 최소 부류로 표기</note>
+			<note>add의 '~을 거두다'는 comb_v로 수정</note>
+			<note>기능동사 입력법 수정, 'X-이 Z-에서 Y-에게(|를) ~을 하다', 'X-이 Z-을(에서) ~을 하다'로 수정, 예문 참조</note>
+			<note>논항 정보 수정, Y 논항 정보 추가, Z의 의미부류 정보를 상세하게 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">壓勝</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리는 세 경기를 모두 ~을 했다.</eg>
+				<eg>이번 게임에서 나는 그에게 ~을 했다.</eg>
+				<eg>여당이 대통령 선거에서 ~을 거두었다.</eg>
+				<eg>그들은 결승전에서 상대팀에게 ~을 했다.</eg>
+				<trans>overwhelming victory</trans>
+				<sem_class>긍정적결과행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Z-에서 Y-을|에|에게 ~을 하다</frame>
+					<frame>X-이 Z-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 거두다</form>
+					<frame>X-이 Z-에서 Y-을|에|에게 ~을 거두다</frame>
+					<frame>X-이 Z-을 ~을 거두다</frame>
+				</comb_v>
+				<max_n_str>X-의 Z-에서의 ~</max_n_str>
+				<max_n_str>X-의 Y-에의 ~</max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">물리적충돌|갈등상황|언어상의충돌|운동경기(경기)|경연대회|(선거)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

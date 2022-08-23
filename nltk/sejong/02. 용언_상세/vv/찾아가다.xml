@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>찾아가다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/04/02</cre_date>
+				<cre_writer>김종명</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/02</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/01</mod_date>
+				<mod_writer>김윤신</mod_writer>
+				<mod_note>격틀구획수정</mod_note>
+				<mod_note>격틀과 의미역 논항기호 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/02/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/21</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note>센스3삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/16</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>V-어V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>획득행위</sem_class>
+				<trans>pick up</trans>
+				<trans>draw back</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에서|에게서 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Z" tht="SRC">장소|인간</sel_rst>
+					<eg>그는 유실물센터에서 가방을 찾아갔다.</eg>
+					<eg>그는 저녁이 됐는데도 어린이집에서 아이를 찾아가지 않았다.</eg>
+					<eg>나는 은행에서 돈을 찾아갔다.</eg>
+					<eg>이모는 영희를 어머니에게서 저녁 늦게 찾아가셨다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst></morph_rst>
+				<col_grp></col_grp>
+				<mor_rel></mor_rel>
+			</com>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>이동행위</sem_class>
+				<trans>visit</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 W=S3-러 Z=N2-로 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<sel_rst arg="Z" tht="DIR">장소</sel_rst>
+					<sel_rst arg="W" tht="PUR"/>
+					<eg>우리는 그 문제를 상의하러 집으로 영수를 찾아갔다.</eg>
+					<eg>나는 학교로 아들의 담임 선생님을 찾아갔다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Z=S2-러 Y=N1-에|을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<sel_rst arg="Z" tht="PUR"/>
+					<eg>그는 동생의 사무실에 찾아갔다.</eg>
+					<eg>우리는 요리를 배우러 단체로 학원을 찾아갔다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst></morph_rst>
+				<col_grp></col_grp>
+				<mor_rel></mor_rel>
+			</com>
+		</sense>
+	</entry>
+</superEntry>

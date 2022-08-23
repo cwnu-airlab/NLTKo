@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>동질적이다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/19</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/19</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">同質的_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>관계상태</sem_class>
+				<trans>of the same quality</trans>
+				<lr>
+					<syn type="kor">같다</syn>
+					<ant type="compl">이질적이다</ant>
+					<ant type="compl">다르다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-와 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|집단|방법|인지적행위(생각)|상태|사건|현상</sel_rst>
+					<sel_rst arg="Y" tht="COM">인간|집단|방법|인지적행위(생각)|상태|사건|현상</sel_rst>
+					<eg>이 사건은 저번의 것과 동질적이다.</eg>
+					<eg>이것은 이름은 달라도 저것과 동질적인 물건이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

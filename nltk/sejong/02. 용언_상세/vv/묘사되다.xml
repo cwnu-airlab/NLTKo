@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+
+<superEntry>
+	<orth>묘사되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/08</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/08</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">묘사가 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<org lg="si">描寫_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>be depicted</trans>
+				<trans>described</trans>
+				<lr>
+					<syn type="etc">표현되다</syn>
+					<syn type="etc">서술되다</syn>
+					<syn type="etc">묘출되다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">온</sel_rst>
+					<sel_rst arg="Y" tht="FNS">온</sel_rst>
+					<eg>환상적인 그림에서는 성채가 주사위처럼 쓰러져 있고 동물들은 순결한 처녀에 의해 사로잡힌 용으로 묘사되어 있었다.</eg>
+					<eg>이러한 허탈한 평정상태는 흑은 죽음으로 묘사되기도 한다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">온</sel_rst>
+					<sel_rst arg="Y" tht="FNS">S것</sel_rst>
+					<eg>이 소설에서 수양대군은 영웅다운 이상을 가진 것으로 묘사되고 있다.</eg>
+					<eg>성인들이 긴 귀를 가진 것으로 묘사되는 점으로 미루어보아 늘어진 긴 귀는 장수(長壽) 또는 지혜의 의미를 묵시적으로 나타내는 것으로 볼 수 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 ADV V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">온</sel_rst>
+					<sel_rst arg="ADV">Adj-게</sel_rst>
+					<eg>모든 양떼의 모든 움직임이 꼼꼼하게 묘사되었다.</eg>
+					<eg>『양반전』을 제외한 그의 많은 작품들에서는 인간의 발전과정이 약하게 묘사되었으며 인간이란 역사의 산물이란 것을 약하게 보여 주었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

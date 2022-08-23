@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>하향</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/16</cre_date>
+				<cre_writer>이하영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/28</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/02</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2005/10/08</mod_date>
+                                <mod_writer>박만규</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+            <mod>
+				<mod_date>2007/09/14</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>              
+			<note>2002/05/23(이하영)논항 선택제약을 딱히 주기가 힘듭니다. 일단은 온이라고 주었는데, 어떻게 해야 할까요?</note>
+			<note>2002/08/20(박동호)sense1의 예문 수정</note>
+			<note>2002/10/03(고길수)논항 정보를 '온'에서 '크기|수량|능력|(경기)|산업|분야'로 수정</note>
+			<note>2003/05/31(서진숙)</note>
+			<note>2003/06/28(이성헌)</note>
+			<note>comb_n의 '~ 곡선|조정|지원'을 add에 게재함</note>
+			<note>sense1의 uni에 '차례' 추가함</note>
+			<note>일단 '온'으로 나눕시다</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">下向</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>경제가 계속 ~을 하는 추세이다.</eg>
+				<eg>~으로 곤두박치는 주식값을 올릴 방법이 없다.</eg>
+				<eg>재단은 등록금 인상분을 10%에서 8%로 ~ 조정하였다.</eg>
+				<trans>looking downward</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>감소</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">급격한 ~</comb_aj>
+				<comb_n type="compound">~ 곡선</comb_n>
+				<comb_n type="compound">~ 조정</comb_n>
+				<comb_n type="compound">~ 지원</comb_n>				
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">크기|수량|능력|(경기)|산업|분야</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/16</cre_date>
+				<cre_writer>이하영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/28</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/02</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2005/10/08</mod_date>
+                                <mod_writer>박만규</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+             <mod>
+				<mod_date>2007/09/14</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>             
+			<note>2002/08/24(박동호)uni에 '차례' 기재함</note>
+			<note>2002/10/03(고길수)단위표현에 '번' 추가</note>
+			<note>2003/05/31(서진숙)</note>
+			<note>2003/06/28(이성헌)sem을 '단독행위'에서 '이동행위'로 수정(차후체계에 따르면 이렇게 분류될 것이므로 미리 수정)</note>
+			<note>sel_res에서 '사람'이 아니라 '인간'임</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">下鄕</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 정년퇴임을 한 후 ~을 결심했다.</eg>
+				<eg>실직으로 ~을 한 그는 실의에 빠져있었다.</eg>
+				<eg>우리는 아이의 산 교육을 위하여 ~을 하였다.</eg>
+				<trans>going to one's country home</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>이동행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>협의</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/14</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/08</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/15</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note>n_v 정보 형식 수정</mod_note>
+				<mod_note>pre_n 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<note>2001/07/20(고길수)</note>
+			<note>2001/08/05(이성헌)</note>
+			<note>2003/02/03(김진형)sense2 삭제('사건'의 의미가 없다고 본 때문임)</note>
+			<note>2003/02/08(이지영)cl추가</note>
+			<note>comb_v 정보 add로 이동</note>
+			<note>entry n=1 숙어/관용구획 명사+조사 입력</note>
+			<note>entry n=2 sense 1 예문 수정</note>
+			<note>sel_res 수정</note>
+			<note>sense 1 동의어 입력</note>
+			<note>sense 2 동의어 입력</note>
+			<note>trans에 discussion 추가</note>
+			<note>관련어 수정</note>
+			<note>기능동사, 최대논항구조 수정,명사 수식어 정보 추가</note>
+			<note>대칭명사 정보 추가</note>
+			<note>상위어 입력</note>
+			<note>예문 수정</note>
+			<note>예문 추가</note>
+			<note>의미부류 수정</note>
+			<note>행위와 사건으로 센스 구분</note>
+			<note>형용사 자유구성 추가</note>
+			<note>형용사-연어 입력</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">協議</org>
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~원</der>
+			<der pos="n" type="suffix">~제</der>
+			<der pos="n" type="suffix">~회</der>
+			<comp pos="n" type="suffix">~권한</comp>
+			<comp pos="n" type="suffix">~안</comp>
+			<comp pos="n" type="suffix">~약관</comp>
+			<comp pos="n" type="suffix">~이혼</comp>
+			<comp pos="n" type="suffix">~조항</comp>
+			<comp pos="n" type="suffix">~진단</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>국회에서는 장시간의 ~를 거쳐 새로운 법안을 통과시켰다.</eg>
+				<eg>임원들 모두가 이번 ~의 결과에 대하여 큰 만족감을 표시하였다.</eg>
+				<eg>이사들은 사원의 채용에 대해 ~를 하였다.</eg>
+				<trans>conference</trans>
+				<trans>discussion</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="CS"/>
+				<sem_class>협정</sem_class>
+				<lr>
+					<syn type="etc">의논</syn>
+					<syn type="etc">논의</syn>
+					<ant type="temp"></ant>
+					<rel>토론</rel>
+					<rel>협상</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 길다</comb_aj>
+				<comb_aj type="appr">~가 짧다</comb_aj>
+				<comb_aj type="magn">긴 ~</comb_aj>
+				<comb_aj type="magn">오랜 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-와 Z|S것-을 ~를 하다</frame>
+					<frame>X-이 Y-와 Z|S것-에대해 ~를 하다</frame>
+					<frame>X-와 Y-이 Z|S것-을 ~를 하다</frame>
+					<frame>X-와 Y-이 Z|S것-에대해서 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Z|S것-이 X-와 Y-에의해 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 거치다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>Z|S것-에대한 X-와 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">추상적대상|행위|사건</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">건</cl>
+				<cl type="uni">차</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n></pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/14</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/03</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/10</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/07/20(고길수)</note>
+			<note>2003/02/03(김진형)예문 추가</note>
+			<note>의미부류 수정</note>
+			<note>의미부류 추가 검토 요망</note>
+			<note>조사 제약 추가</note>
+			<note>한정사 제약 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">狹義</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 단어는 보통 ~로만 해석된다.</eg>
+				<eg>~의 문법에는 음운에 관한 것이 포함되지 않는다.</eg>
+				<trans>narrow sense</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>개념</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">광의</ant>
+					<hyper>뜻</hyper>
+					<hyper>의미</hyper>
+					<rel>개념</rel>
+					<rel>정의</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~의 의미</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt>~의|로</prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

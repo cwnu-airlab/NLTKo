@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>답장</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/06/19</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/22</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/04</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>syn 속성값 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/28</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note>통사정보 추가</mod_note>
+			</mod>
+			<note>2001/07/04(강범모,백인애)-일차교정</note>
+			<note>2001/07/04(강범모,백인애)-일차교정</note>
+			<note>2003/03/22(김종명)</note>
+			<note>2001/07/04(강범모,백인애)-일차교정</note>
+			<note>2003/03/22(김종명)</note>
+			<note>2003/03/22(김종명)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<org lg="si">答狀</org>
+		
+			<comp pos="v" type="suffix">~하다</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>외국인 회사에 서류를 넣어 놓고, ~을 기다리고 있는 중이다.</eg>
+				<eg>한 달 전에 미국에 있는 친구에게 편지를 보냈는데, 아직 ~이 없다.</eg>
+				<trans>replay letter</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>편지</sem_class>
+				<lr>
+					<syn type="perfect">답서</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+			    
+				<comb_aj type="appr">~이 길다</comb_aj>
+				<comb_aj type="appr">~이 없다</comb_aj>
+				<comb_aj type="appr">~이 짧다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 오다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 쓰다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">통</cl>
+			</syn_grp>	
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>친구가 이메일로 몇 가지를 물어와서 곧 ~을 해 주었다.</eg>
+				<trans>answer</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>대답</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에게 Z-에대해 S다고 ~을 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>Z-에대한 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<sel_rst arg="Z">질문</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

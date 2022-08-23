@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>미온</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/07</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>의미부류 검토요망</mod_note>
+				<mod_note>'태도'의 의미분할이 필요하나 항상 '-적'으로만 쓰는 것 같아서 분할하지는 않음,검토요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스2 추가, add를 센스1 n_v로 이동, 센스1 의미부류 '속성값'을 '온도'로 수정</mod_note>
+			</mod>
+			<note>2003/10/11(박진호)의미부류 수정</note>
+			<note>2003/10/28(송인욱)의미부류를 '상태'에서 수정</note>
+			<add>2003/07/08(송인욱)동사자유구성으로 '~을 느끼다|~이 느껴지다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">微溫</org>
+		
+			<der pos="n" type="suffix">~적</der>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>오늘은 대기의 ~이 느껴질 정도로 포근한 날씨였다.</eg>
+				<eg>물은 목욕하기에 적당한 ~이었다.</eg>
+				<trans>tepidity</trans>
+				<sem_class>온도</sem_class><!--온도로 수정하는 것이 어떤지?-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 느껴지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 느끼다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>온라인 음악 시장에 대한 관계 당국의 ~ 대책이 없어져야 한다.</eg>
+				<eg>육군은 대대장을 사건의 ~ 처리에 대한 책임을 묻기 위해 군사령부 징계위원회에 회부한 상태다.</eg>
+				<trans>passivity</trans>
+				<trans>passiveness</trans>
+				<sem_class>부정적인성속성값</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 반응</comb_n>
+				<comb_n type="compound">~ 대책</comb_n>
+				<comb_n type="compound">~ 처리</comb_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

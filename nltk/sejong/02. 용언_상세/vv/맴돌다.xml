@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>맴돌다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/27</mod_date>
+				<mod_writer>김윤신</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>RV</str>
+			<infl type="l"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>돌아다니기</sem_class>
+				<trans>spin oneself around</trans>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-을|에|에서 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">구체물(비행기)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소(상공|허공|집|학교)</sel_rst>
+					<eg>비행기가 김포공항 상공을 맴돌았다.</eg>
+					<eg>나는 집 주위를 맴돌았다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소(주변|둘레|앞)</sel_rst>
+					<eg>어떤 이상한 사람이 영희의 주위를 맴돌았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>내재적심리상태</sem_class>
+				<trans>remain</trans>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-을|에|에서 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소|(머릿속|입안)|신체부위(머리|눈|귀)</sel_rst>
+					<eg>그녀의 웃음소리가 아직도 내 귓가를 맴돈다.</eg>
+					<eg>그 무서운 생각이 자꾸만 내 머릿속을 맴돈다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<eg>내가 그녀에게 말했던 것이 내 머릿속에서 어렴풋이 맴돈다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>유동</sem_class>
+				<trans>remain</trans>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-을|에|에서 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(사건|수사|조사|연구|성적)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소(원점|출발점|주변|상위권|꼴찌)</sel_rst>
+					<eg>무기 구입 로비 사건 수사가 원점에서 맴돌고 있다.</eg>
+					<eg>우리 연구는 출발점에서 맴돌고 있을 뿐 진전이 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

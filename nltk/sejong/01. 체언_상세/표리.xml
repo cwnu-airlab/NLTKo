@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>표리</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/23</cre_date>
+				<cre_writer>김미현</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/18</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/31</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2005/10/07</mod_date>
+                                <mod_writer>박만규</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+                        <mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/08/23(김미현)표리의 sem은 무엇일까요? 일단 sense1은 속성, sense2는 추상적대상으로 줬습니다만...</note>
+			<note>2002/09/09(박동호)센스1의 의미부류는 '속성'이 아니라 '관계추상적대상'으로 보는 것이 좋겠음</note>
+			<note>2003/05/27(서진숙)</note>
+			<note>2003/06/18(이성헌)</note>
+			<note>센스2역시 센스1의 은유라고 할 수 있으며 '마음'의 뜻을 가지므로 '감정'으로 보는 것이 좋겠음.2002/10/11(김종명)센스2의미부류정보수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">表裏</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~관계</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>언어학과 심리학은 ~의 관계에 있다.</eg>
+				<eg>경쟁력 강화는 세계화와 ~의 관계에 있고 세계화 그 자체라고 할 수 있다.</eg>
+				<eg>금융 실명제는 금융거래와 ~의 관계에 있는 실물거래의 신질서를 확립할 것이다.</eg>
+				<eg>정치적 개방성은 포용성과 ~를 이루는 것으로 생각할 수 있다.</eg>
+				<trans>inside and outside</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>관계추상적대상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 일치하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+						<form vcompound="no">~가 부동하다</form>
+						<frame></frame>
+					</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 정치인은 정말 ~가 다른 사람이다.</eg>
+				<eg>그는 본래 사람됨이 ~가 부동하여 음모를 꾸미고 아부 잘하기로 유명했다.</eg>
+				<eg>자국의 시장개방에 있어 일본이 ~가 부동한 태도를 취함으로써 많은 비난을 샀다.</eg>
+				<trans>double-dealing</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 다르다</comb_aj>
+				<comb_aj type="appr">~가 부동하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>거두어들이다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/01</mod_date>
+				<mod_writer>조원형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/09/19</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>내부구조, 영어대역어, 띄어쓰기 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="abb">거둬들이다</var>
+			<var type="spr">거두어를 들이다</var>
+			<cntr opt="obl" type="i"/>
+			<str>V-어V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>운반</sem_class>
+				<trans>get back</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에서|에게서|로부터 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Z" tht="SRC">장소</sel_rst>
+					<eg>날이 어둑어둑해지자 어머니는 얼른 마당에서 빨래를 거두어들였다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>획득행위</sem_class>
+				<trans>gather</trans>
+				<trans>raise</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에서|에게서|로부터 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단(정부)</sel_rst>
+					<sel_rst arg="Y" tht="THM">(돈|성금|세금)</sel_rst>
+					<sel_rst arg="Z" tht="SRC">인간(국민|학생)</sel_rst>
+					<eg>정부가 국민들에게서 세금을 많이 거두어들인다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>획득행위</sem_class>
+				<trans>harvest</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에서|에게서|로부터 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(수확|결실)</sel_rst>
+					<sel_rst arg="Z" tht="SRC">장소(논|밭)</sel_rst>
+					<eg>가을에 농부들이 밭에서 수확을 거두어들인다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>방향성행위</sem_class>
+				<trans>look after</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간(고아|자식|남매)|동물</sel_rst>
+					<eg>그 사람들은 많은 고아들을 친자식처럼 거두어들였다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>중단행위</sem_class>
+				<trans>withdraw</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">텍스트(제안|말|명령)|행위</sel_rst>
+					<eg>여론이 너무 안 좋자 야당은 그 제안을 거두어들였다.</eg>
+					<eg>일단 해 버린 말을 어떻게 다시 거두어들입니까?</eg>
+					<eg>그녀는 아들을 때리던 매질을 거두어들였다.</eg>
+					<eg>선생님은 바깥을 바라보던 눈길을 거두어들이시고 우리를 바라보셨다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

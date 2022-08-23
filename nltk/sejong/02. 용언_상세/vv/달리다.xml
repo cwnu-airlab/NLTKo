@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>달리다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/08/06</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>이동행위</sem_class>
+				<trans>run</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|교통기관</sel_rst>
+					<sel_rst arg="Y" tht="DIR">장소</sel_rst>
+					<eg>철수는 뒤도 돌아보지 않고 집 쪽으로 힘껏 달렸다.</eg>
+					<eg>화물칸에 힘겹게 몸을 실은 피난민들의 근심과 불안을 아는지 모르는지 기차는 대전으로 묵묵히 달렸다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(마음|생각)</sel_rst>
+					<sel_rst arg="Y" tht="DIR">장소</sel_rst>
+					<eg>아직 추석날까지는 일주일이나 남았건만 그리운 가족들을 보고 싶은 내 마음은 벌써 고향으로 달리고 있었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|교통기관</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소(행로|길)</sel_rst>
+					<eg>트랙을 달리는 선수들의 날렵한 동작에 내 마음까지 시원해지는 것 같았다.</eg>
+					<eg>고속도로를 달리는 화물차들이 너무 난폭하게 운전해서 위험한 상황이 벌어지곤 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>be in state of</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|단체</sel_rst>
+					<sel_rst arg="Y" tht="FNS">순서</sel_rst>
+					<eg>한국은 대회 10일째인 오늘 현재 금메달 20개로 종합 3위를 달리고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>이동행위</sem_class>
+				<trans>make run</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(말|차)</sel_rst>
+					<eg>김 장군은 적진을 향해 힘껏 말을 달려 나아갔다.</eg>
+					<eg>김 부장은 회의 시간에 대어 가야 한다는 생각에 차를 엄청난 속도로 달려서 본사까지 갔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/08/06</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>V.리2</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>생성</sem_class>
+				<trans>pend</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>Y=N1-에 X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소|구체물|신체부위</sel_rst>
+					<eg>나뭇가지에 포도송이가 탐스럽게 달려 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>방향성행위</sem_class>
+				<trans>depend on</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(운명|여하|여부)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">행위(결정|판단)|추상적대상(여하|여부)|인간|(손)</sel_rst>
+					<eg>우리의 운명은 그의 결정에 달려 있다.</eg>
+					<eg>여자의 행복이 남편과 자식들에게 달려 있다고 생각하는 사람이 아직도 많이 있다.</eg>
+					<eg>그의 운명은 보스의 명령 한 마디에 달려 있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(운명|여하|여부)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">Q</sel_rst>
+					<eg>김 장관의 진퇴 여부는 검찰 수사 결과가 어떻게 나오느냐에 달려 있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">Q</sel_rst>
+					<sel_rst arg="Y" tht="LOC">인간</sel_rst>
+					<eg>누가 희생양이 될 것인가는 보스의 말 한 마디에 달려 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/08/06</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>악화</sem_class>
+				<trans>run out of</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(식량|돈)|추상적대상(힘|기운|자본)</sel_rst>
+					<eg>우리 회사는 요즘 자금이 달려서 어려움을 겪고 있다.</eg>
+					<eg>김 선수는 여름이면 항상 힘이 달려서 성적이 저조해진다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>악화</sem_class>
+				<trans>be inferior</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=N2-에|에게 Y=N1-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|추상적대상(힘|기운|기술|자본)</sel_rst>
+					<sel_rst arg="Z" tht="CRT">인간|인간집단</sel_rst>
+					<eg>요즘은 한국 축구가 일본에게 기술이 많이 달리는 것 같다.</eg>
+					<eg>상대 선수에게 기술이 달리면 정신력으로라도 버텨야 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

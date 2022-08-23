@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>융자</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/02</cre_date>
+				<cre_writer>김진형</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/13</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/27</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_v에 기술</mod_note>
+				<mod_note>comp 기술</mod_note>
+				<mod_note>센스1 기능동사 및 격틀정보 분리</mod_note>
+				<mod_note>센스1 기능동사 및 격틀정보 분리</mod_note>
+				<mod_note>센스1 max_n 기술</mod_note>
+				<mod_note>센스2 syn 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>의미부류를 '방향성행위'에서 '단독행위'로 수정</note>
+			<note>기능동사 구문 정보 수정</note>
+			<note>'융자금'의 의미를 센스2로 추가</note>
+			<note>2003/07/22(권오희)의미부류를 '방향성행위'로 추가(~에게)</note>
+			<note>2003/08/13(이은경)</note>
+			<add>센스1의 동사결합으로 '~를 신청하다' 추가</add>
+			<add>센스2의 동사결합으로 '~를 갚다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">融資</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~금</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그들 부부는 은행에서 ~를 받아 새 집을 마련하고자 했다.</eg>
+				<eg>그는 은행에서 학자금을 ~를 받았다.</eg>
+				<eg>그는 은행에서 학자금으로 이백만원을 ~를 받았다.</eg>
+				<trans>financing</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>방향성행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">은행(의) ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 Z-에 ~를 하다</frame>
+					<frame>X-이 Y-을 Z-에게 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~를 주다</form>
+					<frame>X-이 Y-을 Z-에 ~를 주다</frame>
+					<frame>X-이 Y-을 Z-에게 ~를 주다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~를 받다</form>
+					<frame>Z-가 Y-을 X-에게 ~를 받다</frame>
+					<frame>Z-가 Y-을 X-에게서 ~를 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 X-에서 Z-에 ~가 되다</frame>
+					<frame>Y-이 X-에서 Z-에게 ~가 되다</frame>
+					<frame>Y-이 X-에게서 Z-에 ~가 되다</frame>
+					<frame>Y-이 X-에게서 Z-에게 ~가 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 신청하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|금융기관</sel_rst>
+				<sel_rst arg="Y">돈</sel_rst>
+				<sel_rst arg="Z">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 지난 달까지 해서 집을 사면서 받은 ~를 모두 갚았다.</eg>
+				<trans>loan</trans>
+				<trans>fund</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>돈</sem_class>
+				<lr>
+					<syn type="perfect">융자금</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 갚다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="qnt">원</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

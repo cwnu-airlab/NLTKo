@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>홍합</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/19</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/15</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/26</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2007/08/17</mod_date>
+				<mod_writer>신선옥</mod_writer>	
+		        <mod_note>단위표현 기술</mod_note>
+		        <mod_note>comb_v "~을 손질하다" 추가</mod_note>
+		        <mod_note>동의어 기술</mod_note>
+	        </mod>
+			<note>2002/08/19(고길수)의미부류 재검토 필요</note>
+			<note>2002/08/22(한선혜)센스1의 경우, '~을 양식하다'는 가능한 듯 한데, '기르다'는 어색한 듯, 재고 바람</note>
+			<note>센스1과 2의 단위 표현에서 패류를 '마리'로 셀 수 있을 지의 문제 검토 바람</note>
+			<note>2002/08/22(고길수)센스1의 예문과 add에서 '기르다'를 '양식하다'로 수정</note>
+			<note>센스1,2의 단위표현에서 '마리' 삭제</note>
+			<note>2003/07/17(서진숙)</note>
+			<note>2003/09/15(이성헌)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">紅蛤</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 근처 마을은 ~을 많이 양식한다.</eg>
+				<eg>섬마을에서는 ~을 까는 아낙들을 많이 보게 된다.</eg>
+				<eg>우리는 바닷가에서 굴과 ~을 캤다.</eg>
+				<trans>hard-shelled mussel</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>패류</sem_class>
+				<lr>
+					<syn type="etc">담채</syn>
+					<syn type="etc">이패</syn>
+					<syn type="etc">해폐</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 양식하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 손질하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 ~으로 우려낸 국물을 마셨다.</eg>
+				<eg>꼬들꼬들하고 시원한 ~은 술안주로 최고이다.</eg>
+				<eg>조개나 ~을 진하게 달여 마시면 여성들의 자궁에 좋다고 한다.</eg>
+				<eg>~은 날것으로도 먹지만 장아찌나 젓갈로 만들어 먹기도 한다.</eg>
+				<trans>hard-shelled messel</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>자연음식물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 싱싱하다</comb_aj>
+				<comb_aj type="appr">~이 상하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 넣다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

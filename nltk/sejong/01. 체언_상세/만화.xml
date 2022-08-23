@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>만화</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/06/19</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/05</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/23</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/07/04</note>
+			<note>2003/03/20(이하영)만화책과 만화영화로 sense 구분하고 만화책의 sense를 텍스트와 텍스트담지물로 구분함</note>
+			<note>2003/04/05(고길수)comp 표기법 수정</note>
+			<note>sense 1의 예문수정</note>
+			<note>sense1 영어대역어 수정</note>
+			<note>sense1의 cl에 ~질 추가</note>
+			<note>sense1의 동사자유구성 삭제</note>
+			<note>센스1에 동의어 추가</note>
+			<note>센스2에 예문 추가</note>
+			<note>센스2의 단위표현에서 '권|질' 삭제, '개' 추가</note>
+			<note>센스3의 단위표현에 '개' 추가</note>
+			<note>센스3의 의미부류를 '예술'에서 '작품'으로 수정</note>
+			<add>sense2 동사자유구성 '~를 그리다|읽다|보다' 추가</add>
+			<add>sense3 동사자유구성 '~를 보다|관람하다|상영하다|제작하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">漫畵</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~가</der>
+			<comp pos="n" type="suffix">~가게</comp>
+			<comp pos="n" type="suffix">~책</comp>
+			<comp pos="n" type="suffix">~영화</comp>
+			<comp pos="n" type="prefix">시사~</comp>
+			<comp pos="n" type="prefix">순정~</comp>
+			<comp pos="n" type="prefix">성인~</comp>
+			<comp pos="n" type="prefix">불량~</comp>
+			<comp pos="n" type="prefix">명랑~</comp>
+			<comp pos="n" type="prefix">무협~</comp>
+			<comp pos="n" type="prefix">시사~</comp>
+			<comp pos="n" type="prefix">풍자~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그의 ~는 언제나 출간되자마자 불티나게 팔린다.</eg>
+				<eg>그는 책방에 들러 ~ 한 권을 샀다.</eg>
+				<trans>comic book</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>텍스트담지물</sem_class>
+				<lr>
+					<syn type="etc">만화책</syn>
+					<ant type="temp"></ant>
+					<hypo>시사만화</hypo>
+					<hypo>순정만화</hypo>
+					<hypo>명랑만화</hypo>
+					<hypo>무협만화</hypo>
+					<hypo>성인만화</hypo>
+					<rel>만화가</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 출간하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 출판하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 간행하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">편</cl>
+				<cl type="uni">권</cl>
+				<cl type="grp">질</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 심심할 때마다 ~를 읽는다.</eg>
+				<eg>우리 아이는 동물이 나오는 ~를 좋아한다.</eg>
+				<trans>comic book</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>텍스트</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 재미있다</comb_aj>
+				<comb_aj type="appr">~가 지루하다</comb_aj>
+				<comb_aj type="appr">~가 길다</comb_aj>
+				<comb_aj type="appr">~가 짧다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 읽다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 그리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">편</cl>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>어린이 고객이 증가함에 따라 최근 많은 영화관에서 ~를 상영하고 있다.</eg>
+				<trans>animation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>작품</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 상영하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 제작하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 관람하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">편</cl>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>최대한</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/21</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>2003/08/23(김이정)</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>2003/10/15(김진형)예문 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/09/05</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미부류 수정;조사제약 정보 추가;명사결합, 동사결합, 논항 의미정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>ant 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/01/30</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">最大限</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>너희는 주어진 장비를 ~으로 이용하여 정해진 시간 내에 저 산을 넘어야 한다.</eg>
+				<trans>the greatest</trans>
+				<trans>the biggest</trans>
+				<trans>the largest</trans>
+				<trans>the maximum</trans>
+				<sem_class>높은정도</sem_class> <!-- '등급' 수정 -->
+				<lr>
+					<ant type="compl">최소한</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="lexfunc">~의 도움</comb_n> <!-- 추가함 -->
+				<comb_n type="lexfunc">~의 이익</comb_n> <!-- 추가함 -->
+				<comb_n type="lexfunc">~의 편의</comb_n> <!-- 추가함 -->
+				<comb_v type="npred_vsup"> <!-- 추가함 -->
+					<form vcompound="no">~이다</form>
+					<frame>X-이 ~이다</frame>
+					<frame>S것-이 ~이다</frame>
+				</comb_v>
+				<sel_rst arg="X">크기|수량|금전|수량시간</sel_rst> <!-- 추가함 -->
+				<prt>~의</prt>
+				<prt>~으로</prt>
+				<av>~</av>
+				<av>~으로</av>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

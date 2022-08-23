@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>이랑</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/25</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/04</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/27</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/10/08(박동호)</note>
+			<note>2003/01/13(한동훈)예문 추가</note>
+			<note>2003/02/04(고길수)예문의 '고추밭 다섯 ~을 맸다'는 의존명사 용법이므로 삭제함</note>
+			<note>동사자유구성을 add로 옮김</note>
+			<note>영어대역어 수정</note>
+			<note>의미부류를 '부분'에서 '부분장소'로 수정</note>
+			<note>의미부류를 '부분장소'에서 '부분'으로 수정, 단 장소 범주에 넣을 수 있을지 재검토 필요</note>
+			<add>단위표현에 '개'를 추가할 수 있는지 검토 필요</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~재배</comp>
+			<comp pos="v" type="suffix">~지다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~이 고랑 되고 고랑이 ~ 된다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 하루종일 ~을 따라 씨를 뿌렸다.</eg>
+				<trans>ridge and furrow</trans>
+				<domain>농업</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>부분</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>꼭대기</coord>
+					<coord>기슭</coord>
+					<coord>두렁</coord>
+					<coord>섶</coord>
+					<holo>밭</holo>
+					<mero>두둑</mero>
+					<mero>고랑</mero>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 길다</comb_aj>
+				<comb_aj type="appr">~이 짧다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 갈다</form>
+					<frame>X-이 ~을 갈다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 짓다</form>
+					<frame>X-이 ~을 짓다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

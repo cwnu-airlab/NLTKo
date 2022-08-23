@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>성분</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/22</cre_date>
+				<cre_writer>이지영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/19</mod_date>
+				<mod_writer>남길임</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/10</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/31</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/14</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1에 맥스엔, 선택제약 정보 추가;센스2를 속성에서 식별속성으로 수정;맥스엔, 선택제약 정보 추가;센스3을 언어요소에서 언어단위로 수정;맥스엔, 선택제약 정보 추가;센스4에 맥스엔, 선택제약 정보 추가</mod_note>
+			</mod>
+			<note>2002/07/22(이지영)</note>
+			<note>2002/08/12(고길수)센스1의 단위표현에 '개' 추가</note>
+			<note>2003/06/14(김미순)sense 2 sem '등급'에서 '속성'으로 수정</note>
+			<note>2003/06/19(남길임)</note>
+			<note>add 정보 추가</note>
+			<note>sense 3 sem '언어'에서 '언어요소'로 수정</note>
+			<note>센스1의 pre_s로 'S는 ~' 추가</note>
+			<note>센스1의 명사연어로 '주요 ~' 추가</note>
+			<note>센스1의 형용사자유결합으로 '중요한 ~' 추가</note>
+			<note>센스2의 명사연어로 '출신 ~' 추가</note>
+			<note>센스2의 형용사자유결합으로 '~이 좋다|나쁘다' 추가</note>
+			<note>센스3의 명사연어로 '구성 ~' 추가</note>
+			<note>센스4의 단위표현으로 '개|가지' 추가</note>
+			<note>센스4의 명사연어로 '주요|구성 ~' 추가</note>
+			<add>Y(재료, 물질) ~' 가능</add>
+			<add>~으로 나누다|이루어지다'를 추가</add>
+			<add>동사결합으로 '~을 분석하다|분류하다</add>
+			<add>명사구로 'X(구체물, 인간)-의 ~</add>
+			<add>센스1,3,4의 복합어로 '주|부~' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">成分</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="prefix"></der>
+			<comp pos="temp" type="temp">주~</comp>
+			<comp pos="temp" type="temp">부~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>수입 농산물에서 유해 ~이 검출되었다.</eg>
+				<trans>ingredient</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>재료성분</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">중요한 ~</comb_aj>
+				<comb_n type="compound">주요 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 분석하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 분류하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">자연음식물|약|독약|마약|도구|담배|음식|자재|연료|천|종이|화장품|부분</sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>출신 ~에 따라 직업이 결정되었다.</eg>
+				<trans>element</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>식별속성</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 좋다</comb_aj>
+				<comb_aj type="appr">~이 나쁘다</comb_aj>
+				<comb_n type="compound">출신 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 조사하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">인간|혈연집단</sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>문장을 ~으로 분석하라.</eg>
+				<trans>constituent</trans>
+				<domain>언어</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>언어단위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">구성 ~</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">언어단위|언어요소</sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="4">
+			<sem_grp>
+				<eg>새롭게 발견된 물질에 대한 ~ 분석이 한창 진행되고 있다.</eg>
+				<trans>component</trans>
+				<domain>화학</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>재료성분</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">주요 ~</comb_n>
+				<comb_n type="compound">구성 ~</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">무생물</sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

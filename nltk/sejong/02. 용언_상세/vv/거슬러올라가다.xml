@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>거슬러올라가다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/01</mod_date>
+				<mod_writer>조원형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/09/20</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>내부구조, 띄어쓰기 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">거슬러를 올라가다</var>
+			<cntr opt="obl" type="a"/>
+			<str>V-어V</str>
+			<infl type="geora"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>이동행위</sem_class>
+				<trans>go upstream</trans>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Z=S2-러 Y=N1-로|을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|교통기관</sel_rst>
+					<sel_rst arg="Y" tht="LOC">(강|상류|바람|산기슭|계곡)</sel_rst>
+					<sel_rst arg="W" tht="PUR"/>
+					<eg>우리는 생태계를 조사하러 강을 거슬러올라갔다.</eg>
+					<eg>우리는 정선동강을 거슬러올라가면서그 수려한 풍광에 도취되었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>사태</sem_class>
+				<trans>trace back</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">시간|(역사)</sel_rst>
+					<eg>역사를 거슬러올라가면 우리는 토기의 기원을 알 수 있다.</eg>
+					<eg>우리는 조선 도예가의 역사를 캐기 위해서 시간을 거슬러올라갔다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-로|을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">시간|(과거|기원)</sel_rst>
+					<eg>우리 민족의 과거로 거슬러올라가면 찬란한 문화를 발견할 수 있다.</eg>
+					<eg>한 언어의 기원을 거슬러올라가는 것은 쉽지 않다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>걸머지다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/04</mod_date>
+				<mod_writer>조원형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/04/09</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/08/29</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>영어대역어 수정</mod_note>
+				<mod_note>어휘의미관계 보충</mod_note>
+				<mod_note>엔트리 통일</mod_note>
+				<mod_note>"내부구조" 관련 메모</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">걸머를 지다</var>
+			<str>RV</str><!--확신하기는 힘듦.-->
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>대상성몸짓</sem_class>
+				<trans>carry</trans>
+				<lr>
+					<syn type="perfect">걸머메다</syn>
+					<syn type="perfect">짊어지다</syn>
+					<hyper>지다</hyper>
+					<hyper>메다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(쌀자루|소총)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">신체부위(어깨|등)</sel_rst>
+					<eg>아버지는 쌀자루를 등에 걸머지시고 장에 나가셨다.</eg>
+					<eg>포병들은 무꺼운 병기를 어깨에 걸머지고 다녀야 한다.</eg>
+					<eg>나는 골아떨어진 아들 녀석을 등에 걸머지고 갈 길을 재촉했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>획득행위</sem_class>
+				<trans>undertake</trans>
+				<lr>
+					<syn type="perfect">짊어지다</syn>
+					<syn type="perfect">떠맡다</syn>
+					<hyper>지다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(운명|미래)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">신체부위</sel_rst>
+					<eg>청소년 여러분은 조국의 운명을 양 어깨에 걸머져야 하는 미래의 주인공입니다.</eg>
+					<eg>가정의 미래를 걸머지고 나가고자 하니 걱정이 앞선다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>물리적행위</sem_class>
+				<trans>undertake</trans>
+				<lr>
+					<syn type="perfect">짊어지다</syn>
+					<syn type="perfect">떠맡다</syn>
+					<hyper>지다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="STR">
+				<frame>X=N0-이 Z=N2-에|에대해 Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="Npr1">추상적대상(책임|임무|의무|부담)</sel_rst>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Z" tht="THM">추상적대상</sel_rst>
+					<eg>김 의원은 국회 난동사태에 책임을 걸머지겠다고 했다.</eg>
+					<eg>사태가 이런데도 책임을 걸머지겠다는 사람이 없으니 원.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

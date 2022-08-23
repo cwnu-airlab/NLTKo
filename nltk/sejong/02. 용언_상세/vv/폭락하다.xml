@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>폭락하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/25</cre_date>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/22</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/07/30</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">暴落_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>감소</sem_class>
+				<trans>decline heavily</trans>
+				<trans>decline sharply</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에서 Z=N2-로 Adv V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">값(값|가격)|금전(물가|요금)</sel_rst>
+					<sel_rst arg="Y" tht="SRC">단위(원)</sel_rst>
+					<sel_rst arg="Z" tht="DIR">단위(원)</sel_rst>
+					<sel_rst arg="Adv">수|(배|퍼센트|폭)|(꽤|많이)</sel_rst>
+					<eg>예금 금리가 큰 폭으로 인상되자, 주식 시장의 주가는 폭락했다.</eg>
+					<eg>지난해 말에 비하면 첨단주의 가치가 많이 폭락했어요.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(인기|가치)</sel_rst>
+					<eg>그 가수는 새로 발표한 노래가 표절 시비에 휘말리자, 인기가 폭락했다.</eg>
+					<eg>달러의 가치가 폭락하여 미국 경제가 붕괴할 가능성은 낮다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

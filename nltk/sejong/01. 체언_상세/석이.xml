@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>석이</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/05</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note>2003/10/05(김미순)영어대역어 표현?</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/08</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>2003/10/08(김진형)대역어 기입</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/09/28</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>동의어 정보 기입</mod_note>
+				<mod_note>분류사 추가</mod_note>
+				<mod_note>센스 2 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/06</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>대역어 수정(학명으로 대체)</mod_note>
+				<mod_note>n_n 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/22</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정 사항 없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/12</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1, 2의 전문영역에서 식물 삭제;'~ 요리'를 센스2로 이동;센스1에 '재배하다' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">石耳</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>버섯들 중에서도 ~는 맛이 담백하여 튀김 요리에 많이 쓰인다.</eg>
+				<trans>Gyrophora esculenta</trans>
+				<domain></domain>
+				<sem_class>식물</sem_class>
+				<lr>
+					<syn type="perfect">석이버섯</syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 따다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 재배하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<cl type="uni">송이</cl>
+				<cl type="uni">개</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>오늘 아침 반찬이 ~였다.</eg>
+				<trans>seogi</trans>
+				<domain></domain>
+				<sem_class>자연음식물</sem_class>
+				<lr>
+					<syn type="perfect">석이버섯</syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound">~ 요리</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 먹다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<cl type="uni">송이</cl>
+				<cl type="uni">개</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

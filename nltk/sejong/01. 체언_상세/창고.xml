@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>창고</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/04</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/31</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/31</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v 로 이동</mod_note>
+				<mod_note>합성어 "보관~", "냉장~" , "물류~", "저장~" 추가</mod_note>
+				<mod_note>동사결합 "~를 빌리다" 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/27</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미부류를 '건물부분장소'에서 수정</mod_note>
+			</mod>
+			<note>2000/09/20(박동호)</note>
+			<note>2003/02/05(서진숙)sense를 두 개로 나눌 필요가 있는지? 보통 건물의 부분 장소가 아니라 '건물'로서의 창고를 의미하는 것이 아닌지? sense1과 2를 통합하는 것이 좋을듯.</note>
+			<note>2003/03/31(이성헌)[2000/09/20(박동호)</note>
+			<note>2003/03/31(이성헌)comb_v의 내용을 add로 이동</note>
+			<note>센스1과 2를 통합하되 sem은 '건물의 부분장소'로(현재 부류체계에 따라)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">倉庫</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~지기</der>
+			<comp pos="n" type="suffix">~업</comp>
+			<comp pos="n" type="suffix">~업자</comp>
+			<comp pos="n" type="suffix">~회사</comp>
+			<comp pos="n" type="suffix">~동</comp>
+			<comp pos="n" type="prefix">보물~</comp>
+			<comp pos="n" type="prefix">곡식~</comp>
+			<comp pos="n" type="prefix">화약~</comp>
+			<comp pos="n" type="prefix">병기~</comp>
+			<comp pos="n" type="prefix">보관~</comp>
+			<comp pos="n" type="prefix">냉장~</comp>
+			<comp pos="n" type="prefix">물류~</comp>
+			<comp pos="n" type="prefix">저장~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 아파트에는 조그만 ~가 두 개 있다.</eg>
+				<eg>그는 ~에 곡식을 쌓아 두었다.</eg>
+				<eg>우리집 ~에는 할머니께서 쓰시던 물건이 많이 있다.</eg>
+				<trans>warehouse</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>건물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<holo>건물</holo>
+					<rel>보관</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 작다</comb_aj>
+				<comb_aj type="appr">~가 넓다</comb_aj>
+				<comb_aj type="appr">~가 좁다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 쓰다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 사용하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 이용하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 개조하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 채우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 비우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 짓다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 부수다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 헐다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 넓히다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 보수하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 빌리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 넣다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 보관하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 저장하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

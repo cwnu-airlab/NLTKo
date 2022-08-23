@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>갖다주다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/20</cre_date>
+				<cre_writer>한선혜</cre_writer>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2001/09/20</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/03/26</mod_date>
+				<mod_writer>목정수</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/09/19</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>영어대역어, 띄어쓰기, 보문표시, 내부구조 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="lng">가져다주다</var>
+			<var type="spr">갖다를 주다</var>
+			<cntr opt="opt" type="u"/>
+			<str>V-어다V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>수여</sem_class>
+				<trans>give</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에|에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|인간집단</sel_rst>
+					<eg>어머니가 나에게 도시락을 갖다주셨다.</eg>
+					<eg>제게 물 한 잔 갖다주시겠어요?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>사태</sem_class>
+				<trans>bring about</trans>
+				<trans>cause</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에|에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">온</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(행운|불운|변화)|심리상태(기쁨)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|추상적대상(일|상황|행동)</sel_rst>
+					<eg>아이가 우리에게 기쁨을 갖다주었다.</eg>
+					<eg>이 목걸이는 당신에게 행운을 갖다줄 거예요.</eg>
+					<eg>그의 뜻밖의 방문이 이번 일에 새로운 변화를 갖다주었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">S것</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(행운|불운|기쁨|변화|이득)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|추상적대상(일|상황|행동)</sel_rst>
+					<eg>그가 우리를 찾아온 것이 이번 행사에 이득을 갖다주었다.</eg>
+					<eg>그녀가 울어버린 것이 상황에 큰 변화를 갖다주었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

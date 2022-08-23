@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>총계</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/20</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>2002/08/22(김이정)</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2002/09/07</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>sem을 '관계수학적대상'에서 '크기'로 수정;supv의 구문 분리 기재</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2002/10/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<!-- 작성일과 수정일이 원파일에는 2002년으로 되어 있으나, 변환된 파일에는 2003으로 표기되어 있었음 -->
+			<mod>
+				<mod_date>2004/09/03</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미를 '수량'과 '인지적행위'로 분할;센스1의 의미부류 수정;명사결합 정보, 논항 명사구, 논항 의미정보 추가;센스2에 예문 추가, 영어대역어 추가;동사결합 정보 수정;논항 명사구 추가;논항 의미정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>센스2의 max_n수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/03/23</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>정보 확장 내용 교열</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/07</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str type="N_N"></str>
+			<org lg="si">總計</org>
+		
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 회사의 올 상반기 자산의 ~는 지난해 같은 기간보다 10% 줄어들었다.</eg>
+				<trans>total</trans>
+				<trans>aggregate</trans>
+				<trans>gross</trans>
+				<trans>whole amount</trans>
+				<trans>whole sum</trans>
+				<trans>total amount</trans>
+				<trans>total sum</trans>
+				<sem_class>수량</sem_class> <!-- '크기'를 수정 -->
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound">매도 ~</comb_n> <!-- 추가함 -->
+				<comb_v type="narg_vpred">
+					<form>~를 내다</form> <!-- '기능동사 변이형?? -->
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가함 -->
+				<sel_rst arg="X">구체물|장소|금전|크기|수량</sel_rst> <!-- 추가함 -->
+				<cl type="uni"></cl>
+				<prt></prt>
+				<av></av>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>식비, 교통비 등을 ~를 하면 비용은 대략 10만원쯤 된다.</eg> <!-- 추가 -->
+				<trans>footing</trans> <!-- 추가 -->
+				<sem_class>인지적행위</sem_class>
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">구체물|장소|금전|크기|수량</sel_rst> <!-- '돈'을 수정 -->
+				<cl type="uni"></cl>
+				<prt></prt>
+				<av></av>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>유해</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/08</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/17</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/18</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_n으로 이동</mod_note>
+				<mod_note>동의어 '망해'추가</mod_note>
+				<mod_note>comb_v 추가</mod_note>
+			</mod>
+			<note>2001/09/08(이성헌)</note>
+			<note>어근 有害의 기술 확인 : ~성|물질</note>
+			<note>~하다</note>
+			<note>2001/09/21(한선혜|이성헌)</note>
+			<note>sem수정</note>
+			<note>2003/01/21(유영) sem수정, comb_v를 add로 이동</note>
+			<note>2003/06/17(이성헌)comb_n의 '~의 인수|안치'를 add로 이동</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">遺骸</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>지병으로 타계한 그 작가의 ~는 그가 자주 찾던 산골에 안치될 예정이다.</eg>
+				<trans>dead body</trans>
+				<trans>remains</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>신체부위</sem_class>
+				<lr>
+					<syn type="etc">유골</syn>
+					<syn type="etc">시신</syn>
+					<syn type="etc">망해</syn>
+					<ant type="temp"></ant>
+					<rel>죽음</rel>
+					<rel>장례</rel>
+					<rel>안치</rel>
+					<rel>무덤</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~의 인수</comb_n>
+				<comb_n type="compound">~의 안치</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 안치하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 인수하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 묻다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">구</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N(-의)</pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

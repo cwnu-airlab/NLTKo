@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>지배</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/06</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/30</mod_date>
+				<mod_writer>한선혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>20076/07/14</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/03</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1의 의미부류 수정;명사결합 정보 추가;동사결합, 논항명사구 정보 추가 및 수정;센스2의 동사결합, 논항명사구, 논항 의미정보 수정;센스3의 의미부류 수정;동사결합, 논항명사구 정보 수정;수식어절 정보 삭제</mod_note>
+			</mod>
+			<note>2000/07/25(박동호)</note>
+			<note>2003/03/29(권오희)</note>
+			<note>2003/05/30(한선혜)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">支配</org>
+		
+			<der pos="n" type="suffix">~자</der>
+			<der pos="n" type="suffix">~력</der>
+			<der pos="n" type="suffix">~인</der>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~층</der>
+			<der pos="n" type="prefix">피~</der>
+			<comp pos="n" type="suffix">~계급</comp>
+			<comp pos="n" type="suffix">~계층</comp>
+			<comp pos="n" type="suffix">~구조</comp>
+			<comp pos="n" type="suffix">~논리</comp>
+			<comp pos="n" type="suffix">~세력</comp>
+			<comp pos="n" type="suffix">~원리</comp>
+			<comp pos="n" type="suffix">~이념</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~당하다</comp>
+			<comp pos="v" type="suffix">~받다</comp>
+			<metc pos="n" type="temp">부~인</metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리나라는 한때 일본의 ~를 받았다.</eg>
+				<trans>domination</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>지속적활동</sem_class>
+				<!-- 행위 수정, 단 방향성행위인지 검토 필요 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">종속</ant>
+					<ant type="etc">피지배</ant>
+					<rel>복종</rel>
+					<rel>식민지</rel>
+					<rel>억압</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 계층</comb_n>
+				<comb_n type="compound">~ 세력</comb_n>
+				<comb_n type="compound">~ 수단</comb_n>
+				<!-- 명사 연어 정보 추가 -->
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~를 벗어나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~에서 해방되다</form>
+					<!-- '~로부터 행방되다' 수정 -->
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~에서 벗어나다</form>
+					<!-- '~로부터' 수정 -->
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<!-- ~ 수정 -->
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 받다</form>
+					<!-- ~ 수정 -->
+					<frame>Y-이 X-의 ~를 받다</frame>
+					<frame>Y-이 X-에의해 ~를 받다</frame>
+					<!-- X-의|에 의해 분할 표기 -->
+					<frame>Y-이 X-에게 ~를 받다</frame>
+					<frame>Y-이 X-에게서 ~를 받다</frame>
+					<!-- X-에게, 에게서 구문 추가 -->
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 당하다</form>
+					<!-- ~ 수정 -->
+					<frame>Y-이 X-에게 ~를 당하다</frame>
+					<frame>Y-이 X-에의해 ~를 당하다</frame>
+					<!-- X-에게|에 의해 분할 표기 -->
+					<frame>Y-이 X-에게서 ~를 당하다</frame>
+					<!-- 추가 -->
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<!-- Y- 수정, 이하 논항명사구 정보 추가 -->
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-에의한 Y-의 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+				<s_n>S은 ~</s_n>
+				<!-- 무슨 내용을 기술한 것인지?? -->
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>개인은 자신이 속한 사회제도의 ~를 받기 마련이다.</eg>
+				<trans>sway</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>방향성행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>영향</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~를 벗어나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~에서 해방되다</form>
+					<!-- '~로부터 행방되다' 수정 -->
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~에서 벗어나다</form>
+					<!-- '~로부터' 수정 -->
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<!-- ~ 수정 -->
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<!-- ~ 수정 -->
+					<frame>Y-이 X-에의해 ~가 되다</frame>
+					<frame>Y-이 X-에 ~가 되다</frame>
+					<!-- X-에 구문 추가, 표준사전 예문 참조 -->
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 받다</form>
+					<!-- ~ 수정 -->
+					<frame>Y-이 X-의 ~를 받다</frame>
+					<frame>Y-이 X-에의해 ~를 받다</frame>
+					<!-- X-의|에 의해 분할 표기 -->
+				</comb_v>
+				<comb_v type="npred_vsup">
+				<!-- 추가함 -->
+					<form vcompound="yes">~를 당하다</form>
+					<frame>Y-이 X-에의해 ~를 당하다</frame>
+					<frame>Y-이 X-에 ~를 당하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<!-- Y- 수정, 이하 논항명사구 정보 추가 -->
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-에의한 Y-의 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X-에의한 ~</max_n_str>
+				<sel_rst arg="X">온</sel_rst>
+				<!-- 인간|인간집단 수정 -->
+				<sel_rst arg="Y">인간|인간집단|동물|식물|추상적대상|행위</sel_rst>
+				<!-- 동물, 식물, 추상적대상, 행위 추가 -->
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+				<s_n>S은 ~</s_n>
+				<!-- 무슨 내용을 기술한 것인지?? -->
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>~와 결속 이론은 변형생성문법의 주요 개념이다.</eg>
+				<trans>goverment</trans>
+				<domain>언어</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>관계속성값</sem_class>
+				<!-- 속성 수정, 단 재검토 필요 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>결속</coord>
+					<rel>문법</rel>
+					<rel>언어학</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 관계</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<!-- ~ 수정 -->
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 받다</form>
+					<!-- ~ 수정 -->
+					<frame>Y-이 X-의 ~를 받다</frame>
+					<frame>Y-이 X-에의해 ~를 받다</frame>
+					<!-- X-의|에 의해 분할 표기 -->
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<!-- Y- 수정 -->
+				<sel_rst arg="X">언어단위</sel_rst>
+				<sel_rst arg="Y">언어단위</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<!-- s_n>S는 ~</s_n>
+				<s_n>S은 ~</s_n -->
+				<!-- 무엇을 기술한 것인지 모르겠음 -->
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

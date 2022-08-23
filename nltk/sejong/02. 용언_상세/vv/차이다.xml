@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>차이다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/20</cre_date>
+				<cre_writer>유경민</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/15</mod_date>
+				<mod_writer>허용</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/10/06</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/01</mod_date>
+				<mod_writer>김윤신</mod_writer>
+				<mod_note>구성정보첨가</mod_note>
+				<mod_note>격틀구획수정</mod_note>
+				<mod_note>격틀수정</mod_note>
+				<mod_note>의미역수정</mod_note>
+				<mod_note>격틀과 의미역 논항기호 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/02/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/01</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note>예문 및 선택제약 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/16</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>V.이2</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be kicked</trans>
+				<lr>
+					<syn type="etc">차이다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|신체부위</sel_rst>
+					<sel_rst arg="Y" tht="AGT">인간|동물|신체부위(발|발길)</sel_rst>
+					<eg>그는 무자비한 군인들에게 발로 차였다.</eg>
+					<eg>그녀의 아버지는 왜경의 구둣발에 차여 뼈가 부러진 적이 있었다.</eg>
+					<eg>그는 말의 뒷발질에 차여 나가 떨어졌는데도 다친 곳은 하나도 없었다.</eg>
+					<eg>마당에 엎드린 누렁이는 하루에도 몇 번씩 주인의 발길에 차이는데도 언제나 주인을 보면 꼬리를 흔들었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에|에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="GOL">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|신체부위(발)</sel_rst>
+					<sel_rst arg="Z" tht="AGT">신체부위</sel_rst>
+					<eg>그는 무자비한 군인들의 발에 허리를 차였다.</eg>
+					<eg>사내는 그들을 노려보다가 그들에게 배를 차이고는 땅바닥 위로 나뒹굴었다.</eg>
+					<eg>대부분의 사원들은 그녀에게 정강이를 차여 본 경험이 있다.</eg>
+					<eg>이 강아지는 사람들에게 배를 차여도 사납게 짖어 대지 않는다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst></morph_rst>
+				<col_grp></col_grp>
+				<mor_rel></mor_rel>
+			</com>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>stumble over sth and fall</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|동물</sel_rst>
+					<sel_rst arg="Y" tht="EFF">구체물(돌|돌부리)</sel_rst>
+					<eg>기호는 급히 산길을 내려오다 돌부리에 차여 넘어져서 크게 부상을 입었다.</eg>
+					<eg>그는 신발마저 벗어버린 차였으므로 발은 돌과 나무에 채여 피투성이었다.</eg>
+					<eg>신나게 산길을 달리던 아이는 돌에 차여 넘어지자 울상을 지었다.</eg>
+					<eg>발부리가 작은 돌에 차였을 뿐인데 아직도 통증이 심합니다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst></morph_rst>
+				<col_grp></col_grp>
+				<mor_rel></mor_rel>
+			</com>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be caught</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="LOC">신체부위(발|발부리)</sel_rst>
+					<eg>불이 꺼진 방에서 헤매다 보니 무언가 물컹한 것이 발에 차였다.</eg>
+					<eg>벌써 낙엽이 떨어져 발에 차였다.</eg>
+					<eg>방안이 너무 어두워 문이라도 열어 보려고 일어서다가 그는 물컹한 것이 발에 차여 깜짝 놀랐다.</eg>
+					<eg>말없이 걷고 있는 두 사람 뒤로 돌이 발길에 차여 구르는 소리만 울렸다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst></morph_rst>
+				<col_grp></col_grp>
+				<mor_rel></mor_rel>
+			</com>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be refused</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="AGT">인간</sel_rst>
+					<eg>그는 선을 봐서 만난 여자에게 사흘 만에 차였다.</eg>
+					<eg>이번에 또 차이면 도대체 너는 남자한테 채인 것이 몇 번째니?</eg>
+					<eg>콧대 높은 척하던 옆집 처녀가 애인에게 차였다고 한다.</eg>
+					<eg>대학 시절 첫사랑 여자에게 차인 삼촌은 마흔이 넘도록 독신으로 살고 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst></morph_rst>
+				<col_grp></col_grp>
+				<mor_rel></mor_rel>
+			</com>
+		</sense>
+		<idm_grp>
+			<idm>발에 차이다</idm>
+		</idm_grp>
+	</entry>
+</superEntry>

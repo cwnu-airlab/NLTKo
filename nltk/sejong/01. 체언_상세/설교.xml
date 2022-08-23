@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>설교</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/22</cre_date>
+				<cre_writer>이지영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/29</mod_date>
+				<mod_writer>남길임</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/10</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>파생어정보추가, 최대논항구조정보추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/31</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1,2 s_n 삭제;센스2 '당하다' 삭제;센스2 n_aj 기술;센스1,2 최대논항구조 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/13</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1의 전문영역에서 카톨릭|기독교 삭제;맥스엔 보완;선택제약 정보 수정;센스2의 맥스엔, 선택제약 정보 수정</mod_note>
+			</mod>
+			<note>2002/07/22(이지영)</note>
+			<note>2002/07/29(한선혜)센스1과 2의 기능동사구문 수정</note>
+			<note>2003/05/29(김미순)sense 1 comb_aj 기술</note>
+			<note>2003/05/29(남길임)</note>
+			<note>comb_v를 add로 이동</note>
+			<note>sel_res의 Y에 '행위' 추가</note>
+			<note>sense 2 comb_v를 add로 이동</note>
+			<note>논항제약 수정</note>
+			<note>동사연어구성 기술</note>
+			<add>sense 1 ~를 듣다</add>
+			<add>sense 2 ~를 듣다|늘어놓다|퍼붓다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">說敎</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">명~</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>목사님의 ~는 매우 감동적이었다.</eg>
+				<trans>sermon</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>연설</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 재미있다</comb_aj>
+				<comb_aj type="appr">~가 지루하다</comb_aj>
+				<comb_aj type="appr">~가 감동적이다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Z-에게 Y-을 ~를 하다</frame>
+					<frame>X-이 Z-에게 Y-에대해 ~를 하다</frame>
+					<frame>X-이 Z-에게 S것-을 ~를 하다</frame>
+					<frame>X-이 Z-에게 S것-에대해 ~를 하다</frame>
+					<frame>X-이 Z-에게 S다고 ~를 하다</frame>
+					<frame>X-이 Z-에게 S라고 ~를 하다</frame>
+					<frame>X-이 Z-에게 S자고 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 듣다</form>
+					<frame></frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 S것-에대한 ~</max_n_str>
+				<max_n_str>X-의 Z-에대한 S다는 ~</max_n_str>
+				<max_n_str>X-의 Z-에대한 S라는 ~</max_n_str>
+				<max_n_str>X-의 Z-에대한 S자는 ~</max_n_str>
+				<max_n_str>X-의 S다는 ~</max_n_str>
+				<max_n_str>X-의 S라는 ~</max_n_str>
+				<max_n_str>X-의 S자는 ~</max_n_str>
+				<max_n_str>X-의  ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>S것-에대한 ~</max_n_str>
+				<max_n_str>S다는 ~</max_n_str>
+				<max_n_str>S라는 ~</max_n_str>
+				<max_n_str>S자는 ~</max_n_str>
+				<sel_rst arg="X">종교역할인간</sel_rst>
+				<sel_rst arg="Y">추상적대상|사태</sel_rst>
+				<sel_rst arg="Z">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>나는 어머니의 ~가 이제는 지긋지긋하다.</eg>
+				<trans>moralizing</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>연설</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 지긋지긋하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Z-에게 Y-을 ~를 하다</frame>
+					<frame>X-이 Z-에게 Y-에대해 ~를 하다</frame>
+					<frame>X-이 Z-에게 S것-을 ~를 하다</frame>
+					<frame>X-이 Z-에게 S것-에대해 ~를 하다</frame>
+					<frame>X-이 Z-에게 S다고 ~를 하다</frame>
+					<frame>X-이 Z-에게 S라고 ~를 하다</frame>
+					<frame>X-이 Z-에게 S자고 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 늘어놓다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 퍼붓다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 듣다</form>
+					<frame></frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 S것-에대한 ~</max_n_str>
+				<max_n_str>X-의 Z-에대한 S다는 ~</max_n_str>
+				<max_n_str>X-의 Z-에대한 S라는 ~</max_n_str>
+				<max_n_str>X-의 Z-에대한 S자는 ~</max_n_str>
+				<max_n_str>X-의 S다는 ~</max_n_str>
+				<max_n_str>X-의 S라는 ~</max_n_str>
+				<max_n_str>X-의 S자는 ~</max_n_str>
+				<max_n_str>X-의  ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>S것-에대한 ~</max_n_str>
+				<max_n_str>S다는 ~</max_n_str>
+				<max_n_str>S라는 ~</max_n_str>
+				<max_n_str>S자는 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">추상적대상|행위</sel_rst>
+				<sel_rst arg="Z">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

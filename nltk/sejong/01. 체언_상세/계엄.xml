@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>계엄</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/18</cre_date>
+				<cre_writer>차준경</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/04</mod_date>
+				<mod_writer>한선혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/07</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>trans 형식 수정</mod_note>
+				<mod_note>add 정보를 n_v로</mod_note>
+			</mod>
+			<note>2000/09/20(차준경)</note>
+			<note>2001/01/22(조진현</note>
+			<note>2003/02/19(최지임)</note>
+			<note>2003/08/04(한선혜)의미부류를 "행위"에서 "상태"로 수정</note>
+			<note>강범모)</note>
+			<note>동사연어구성정보 add에 입력</note>
+			<note>예문수정</note>
+			<add>~을 선포하다|해제하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">戒嚴</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~령</der>
+			<comp pos="n" type="suffix">~사령관</comp>
+			<comp pos="n" type="suffix">~사령부</comp>
+			<comp pos="n" type="suffix">~군</comp>
+			<comp pos="n" type="suffix">~사</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>데모가 심해지자 대통령은 ~을 선포했다.</eg>
+				<trans>guarding against the threat of danger</trans>
+				<trans>exercising vigilance</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>상태</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 선포하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 해제하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

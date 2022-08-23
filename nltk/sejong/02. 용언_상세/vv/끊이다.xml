@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>끊이다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/13</mod_date>
+				<mod_writer>김윤신</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V.이2</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>소멸</sem_class>
+				<trans>stop</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간(손님|관객)</sel_rst>
+					<n_appr arg="X">(행렬)</n_appr>
+					<eg>병사들의 행렬이 끊이지 않고 몇 킬로나 계속되었다.</eg>
+					<eg>관객들이 끊이지 않고 계속 몰려드니 무슨 수로 막겠니?</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(비|바람)</sel_rst>
+					<eg>장마 때는 비가 끊이지 않고 내린다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(소음|노래|웃음)</sel_rst>
+					<eg>바깥의 노래소리가 끊이지 않고 하루 종일 들려온다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/13</mod_date>
+				<mod_writer>김윤신</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V.이2</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>소멸</sem_class>
+				<trans>stop</trans>
+			</sem_grp>
+			<frame_grp type="SIN">
+				<frame>X=N1-에 Npr0-이 V</frame>
+				<subsense>
+					<sel_rst arg="Npr0">(통행|발길)</sel_rst>
+					<sel_rst arg="X" tht="LOC">장소</sel_rst>
+					<eg>12시가 넘어서도 이 지역에는 사람들의 통행이 끊이지 않는다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="SIN">
+				<frame>Y=N2-에서|에게서 X=S1-고 Npr0-이 V</frame>
+				<subsense>
+					<sel_rst arg="Npr0">(주문|요청)</sel_rst>
+					<sel_rst arg="X" tht="CNT"/>
+					<sel_rst arg="Y" tht="SRC">인간|인간집단</sel_rst>
+					<eg>거래처에서 신제품을 보내 달라고 요청이 끊이지 않는다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="SIN">
+				<frame>X=N1-에게|에 Npr0-이 V</frame>
+				<subsense>
+					<sel_rst arg="Npr0">(공급|지원)</sel_rst>
+					<sel_rst arg="X" tht="GOL">인간|인간집단</sel_rst>
+					<eg>연구자들에게 충분한 연구비 지원이 끊이지 않도록 정책을 수립하라.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="SIN">
+				<frame>X=N1-이 Y=N2-와 Npr0-이 V</frame>
+				<subsense>
+					<sel_rst arg="Npr0">(이야기|대화|통화)</sel_rst>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="COM">인간</sel_rst>
+					<eg>그들과 대화가 끊이지 않도록 유의해라.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="Npr0">(연락|소식)</sel_rst>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="COM">인간</sel_rst>
+					<eg>아군과 연락이 끊이지 않고 계속되었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="Npr0">(거래|관계|접촉)</sel_rst>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="COM">인간</sel_rst>
+					<eg>모든 지사와 관계가 끊이지않게 철저를 기해야 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

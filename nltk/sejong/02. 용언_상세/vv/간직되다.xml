@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>간직되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/15</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">간직이 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be kept in</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<eg>그 국보급 청자는 현재 국립박물관의 특별전시실에 간직되어 있다.</eg>
+					<eg>외할머니가 물려주신 은장도는 어머니의 장롱 속에 고이 간직되어 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>0</sem_class>
+				<trans>be held in mind</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=N2-로 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">의견|계획|사태</sel_rst>
+					<sel_rst arg="Y" tht="LOC">(마음|정신|기억|가슴)</sel_rst>
+					<sel_rst arg="Z" tht="FNS">의견|계획|사태</sel_rst>
+					<eg>오늘 이날이 저희들에게는 먼 훗날에까지 아름다운 추억으로 간직될 것입니다.</eg>
+					<eg>첫사랑의 가슴 아픈 기억은 아직도 그 순진한 남자의 가슴 속에 깊이 간직되어 있다.</eg>
+					<eg>그 유서 깊은 집안의 전통은 소중하게 간직되고 있었고 가족들 사이의 애정도 매우 깊어 보였다.</eg>
+					<eg>통일에 대한 그의 간절한 소망은 우리들의 마음 속에 영원히 간직될 것이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

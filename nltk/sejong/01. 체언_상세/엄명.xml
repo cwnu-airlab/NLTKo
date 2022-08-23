@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>엄명</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/03</cre_date>
+				<cre_writer>최지임</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/04</mod_date>
+				<mod_writer>최지임</mod_writer>
+				<mod_note>논항선택제약수정요망</mod_note>
+			</mod>
+            			<mod>
+				<mod_date>2004/09/23</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note>form vcompound 영역에 '을 하다' 보충</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note>add를 n_v로 옮김</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/29</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>'~을 받다'의 vcompound="yes"를 no로</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어, 분류사 추가</mod_note>
+				<mod_note>동사결합수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">嚴命</org>
+			<comp pos="v" type="suffix">~하다</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그들은 절대 이 사건에 개입해서는 안 된다는 상부의 ~을 받았다.</eg>
+				<eg>선생님께서는 돈을 뺏는 학생들을 엄격하게 처벌하겠다고 ~을 하였다.</eg>
+				<eg>왕은 신하들에게 병을 낫게 할 약을 찾아오라고 ~을 내렸다.</eg>
+				<trans>strict order</trans>
+				<sem_class>명령</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Z-에게 Y-을 ~을 하다</frame>
+					<frame>X-이 Z-에게 S고 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 내리다</form>
+					<frame>X-이 Z-에게 S고 ~을 내리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~을 받다</form>
+					<frame>Z-이 X-에게서 S고 ~을 받다</frame>
+				</comb_v>
+				<max_n_str>X-의 Z-에대한 S라는 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">행위</sel_rst>
+				<sel_rst arg="Z">인간|인간집단</sel_rst>
+				<cl type="uni">차례</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<s_n>S라는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

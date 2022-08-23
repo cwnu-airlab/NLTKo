@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>양이온계면활성제</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/05/02</cre_date>
+				<cre_writer>박재연</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/02</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/18</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add의 내용을 해당 정보로 이동;var, 동의어, n_n 기술;분류사, n_v 추가;str, org, 의미부류 수정;'~가 쓸모있다' 삭제;영어대역어 수정 및 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/13</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/05/02(박재연)comb_aj와 comb_v를 add로 이동</note>
+			<note>sem 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="spr">양이온 계면활성제</var>
+			<str type="N_N">양이온+계면활성제</str><!--각각 더 분석할 수 있음(김이정)-->
+			<org lg="si">陽__界面活性劑</org>
+			<org lg="en">_ion_____</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>물에 녹아서 전리하여 생기는 양이온이 표면 활성작용을 가지는 물질을 ~라고 한다.</eg>
+				<trans>cationic surface active agent</trans>
+				<trans>cationic surfactant</trans>
+				<domain>화학</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>구체인공물</sem_class><!--무생물을 수정(김이정)-->
+				<lr>
+					<syn type="etc">카티온 계면활성제</syn>
+					<syn type="etc">양성비누</syn>
+					<syn type="etc">역성비누</syn>
+					<ant type="temp"></ant>
+					<hyper>계면활성제</hyper>
+					<rel>역성비누</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 유용하다</comb_aj>
+				<comb_n type="compound">~ 용액</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 뿌리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 섞다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 혼합하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사용하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 생산하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 작용하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="qnt">병</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>특파되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/27</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>곽새라</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/08/14</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">특파가 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<org lg="si">特派_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be dispatched specially</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간(기자)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">장소</sel_rst>
+					<sel_rst arg="Z" tht="FNS">역할인간(기자)</sel_rst> <!-- 의미역 논란은 있으나 유용한 정보라 생각되어 기술함. -->
+					<eg>그녀는 위험 지역에만 두 차례 종군기자로 특파된 경험이 있다.</eg>
+					<eg>그는 보스니아에 취재기자로 특파되었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|단체</sel_rst>
+					<sel_rst arg="Y" tht="GOL">장소</sel_rst>
+					<sel_rst arg="Z" tht="FNS">인간|단체</sel_rst> <!-- 의미역 논란은 있으나 유용한 정보라 생각되어 기술함. -->
+					<eg>이 준 열사를 포함한 3명의 한국인들이 헤이그에 한국의 입장을 대변하기 위한 특사로 특파되었다.</eg>
+					<eg>동티모르 지역 치안군으로 UN군이 동티모르 수도에 특파되었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

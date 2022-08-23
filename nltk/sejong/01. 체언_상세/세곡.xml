@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>세곡</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2005/06/23</cre_date>
+				<cre_writer>이민우</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2005/06/24</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>동형어 정보 수정</mod_note>
+				<mod_note>n_n 형식 수정</mod_note>
+				<mod_note>n_v 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/18</mod_date>
+				<mod_writer>임근석</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/15</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>속성구체물을 곡식으로 수정;수식어절에서 S는 ~ 삭제;동사에 '징수하다, 수납하다' 추가</mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">稅穀</org>
+			<hom exist="temp"/> <!-- 동형어 정보 없음으로 수정(송근영)-->
+			<der  pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~선</comp>
+			<comp pos="n" type="suffix">~바리</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 지역은 ~을 모아놓던 곳이다.</eg>
+				<trans>grain paid as a tax</trans>
+				<domain>역사</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>곡식</sem_class><!--추상적인 개념이 아니므로 '세금'이라할 수 없고, 단순한 '곡식'도 아님, 금전대용으로도 볼 수 있음-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 포탈</comb_n> <!-- ~ 추가 (송근영)-->
+				<comb_n type="compound">~ 밀매</comb_n> <!-- ~ 추가 (송근영)-->
+				<comb_n type="compound">~ 운반</comb_n> <!-- ~ 추가 (송근영)-->
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 걷다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 운반하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 바치다</form> <!-- 송근영 추가 -->
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 싣다</form> <!-- 송근영 추가 -->
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 징수하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 수납하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">알</cl>
+				<cl type="qnt">섬</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>선포되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/29</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/29</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/10/20</mod_date>
+				<mod_writer>음두은</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">선포가 되다</var>
+			<str>N.되</str>
+			<org lg="si">宣布_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be proclaimed</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="FNS">구체물|추상적대상</sel_rst>
+					<eg>대통령에 의해 `특별재해지역`으로 선포된 지역은 어떤 특별한 지원을 받을까.</eg>
+					<eg>병력동원 소집은 전시?사변 또는 동원령이 선포된 경우 부대편성이나 작전수요 병력을 신속히 충원하기 위한 제도이다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상</sel_rst>
+					<eg>병력동원 소집은 전시?사변 또는 동원령이 선포된 경우 부대편성이나 작전수요 병력을 신속히 충원하기 위한 제도이다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S음|S것</sel_rst>
+					<eg>군사지휘권이 우리나라에 있음이 마침내 선포되었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

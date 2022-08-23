@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>옮아가다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/12/15</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="a"/>
+			<str>V-어V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>이동행위</sem_class>
+				<trans>move</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">동물</sel_rst>
+					<sel_rst arg="Y" tht="DIR">구체물|장소</sel_rst>
+					<eg>짐승들은 먹이를 찾아 이 곳에서 다른 곳으로 옮아갔다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">구체물|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="DIR">구체물|장소</sel_rst>
+					<eg>본부는 보다 전방으로 옮아갔다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">구체물(불길|자연현상|전염병)</sel_rst>
+					<sel_rst arg="Y" tht="DIR">구체물|장소</sel_rst>
+					<eg>한랭전선이 북으로 옮아갔다.</eg>
+					<eg>불길이 건너 마을로 옮아갔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>이동행위</sem_class>
+				<trans>shift</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">추상적대상(분위기|관심|화제)</sel_rst>
+					<sel_rst arg="Y" tht="DIR">추상적대상|구체물|장소</sel_rst>
+					<eg>분위기가 그 쪽으로 옮아갔다.</eg>
+					<eg>구매자들의 관심이 이 가게에서 다른 곳으로 옮아갔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>이동행위</sem_class>
+				<trans>change</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=N2-에서 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">추상적대상(시간)</sel_rst>
+					<sel_rst arg="Y" tht="DIR">추상적대상(시간)</sel_rst>
+					<sel_rst arg="Z" tht="SRC">추상적대상(시간)</sel_rst>
+					<eg>날씨는 지금 봄에서 여름으로 옮아가는 모습을 보이고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

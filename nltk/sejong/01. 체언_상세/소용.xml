@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>소용</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/06/26</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/28</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/24</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/19</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>형용사에 '큰 ~' 추가;'있다, 없다'는 동사로 이동;'되다'의 별도 항목으로 분할 기술된 프레임 정보 통합;선택제약 정보 수정</mod_note>
+			</mod>
+			<note>2001/01/31(기영인)</note>
+			<note>2003/03/23(류병률)</note>
+			<note>2003/03/28(김종명)</note>
+			<note>comb_v를 add의 값으로 변환</note>
+			<note>entry하위의 sense별 구분은 세미콜론 | 로</note>
+			<note>관련어 정보 입력</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">所用</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~(에) 닿다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>지금 가도 아무런 ~이 없다.</eg>
+				<trans>use</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성값</sem_class>
+				<lr>
+					<syn type="etc">쓸모</syn>
+					<ant type="temp"></ant>
+					<rel>쓰임새</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">큰 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 Y-에 ~이 되다</frame>
+					<frame>X-이 Y-에게 ~이 되다</frame>
+					<frame>S는것-이 Y-에 ~이 되다</frame>
+					<frame>S는것-이 Y-에게 ~이 되다</frame>
+					<frame>X-이 S는것-에 ~이 되다</frame>
+					<frame>S는것-이 S는것-에 ~이 되다</frame>
+					<frame>X-이 S는데-에 ~이 되다</frame>
+					<frame>S는것-이 S는데-에 ~이 되다</frame>
+					<frame>X-이 S음-에 ~이 되다</frame>
+					<frame>S는것-이 S음-에 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 있다</form>
+					<frame>X-이 Y-에 ~이 있다</frame>
+					<frame>X-이 Y-에게 ~이 있다</frame>
+					<frame>S는것-이 Y-에 ~이 있다</frame>
+					<frame>S는것-이 Y-에게 ~이 있다</frame>
+					<frame>X-이 S는것-에 ~이 있다</frame>
+					<frame>S는것-이 S는것-에 ~이 있다</frame>
+					<frame>X-이 S는데-에 ~이 있다</frame>
+					<frame>S는것-이 S는데-에 ~이 있다</frame>
+					<frame>X-이 S음-에 ~이 있다</frame>
+					<frame>S는것-이 S음-에 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 없다</form>
+					<frame>X-이 Y-에 ~이 없다</frame>
+					<frame>X-이 Y-에게 ~이 없다</frame>
+					<frame>S는것-이 Y-에 ~이 없다</frame>
+					<frame>S는것-이 Y-에게 ~이 없다</frame>
+					<frame>X-이 S는것-에 ~이 없다</frame>
+					<frame>S는것-이 S는것-에 ~이 없다</frame>
+					<frame>X-이 S는데-에 ~이 없다</frame>
+					<frame>S는것-이 S는데-에 ~이 없다</frame>
+					<frame>X-이 S음-에 ~이 없다</frame>
+					<frame>S는것-이 S음-에 ~이 없다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">온</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|추상적대상|행위|계획사건</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n></pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

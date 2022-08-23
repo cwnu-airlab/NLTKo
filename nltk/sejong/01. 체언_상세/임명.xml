@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>임명</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/16</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/28</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/21</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+				<mod_note>metc 에 "피임명자" 는 접미사도 접두사도 아니기에 tmep으로 둠</mod_note>
+			</mod>
+			<mod>
+			<mod_date>2007/07/30</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/21(송근영|이성헌)</note>
+			<note>2003/02/25(김이정)comb_v add로 이동</note>
+			<note>2003/02/26(남길임)</note>
+			<note>2003/02/28(김이정)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">任命</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~제</der>
+			<der pos="n" type="suffix">~권</der>
+			<der pos="n" type="suffix">~자</der>
+			<der pos="n" type="suffix">~장</der>
+			<der pos="n" type="suffix">~권자</der>
+			<comp pos="n" type="suffix">~식</comp>
+			<comp pos="n" type="suffix">~동의</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~받다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="n" type="temp">피~자</metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>대통령은 현 비서실장을 당 총재로 ~을 했다.</eg>
+				<trans>appointment</trans>
+				<trans>nomination</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">면직</ant>
+					<ant type="etc">파면</ant>
+					<ant type="etc">해임</ant>
+					<rel>직위</rel>
+					<rel>직책</rel>
+					<rel>임명직</rel>
+					<rel>임면권</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 (부)적절하다</comb_aj>
+				<comb_aj type="appr">~이 적법하다</comb_aj>
+				<comb_aj type="appr">~이 정당하다</comb_aj>
+				<comb_aj type="appr">~이 변칙적이다</comb_aj>
+				<comb_aj type="appr">~이 위법이다</comb_aj>
+				<comb_aj type="appr">~이 의외이다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 Z-로 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~을 시키다</form>
+					<frame>X-이 Y-을 Z-로 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~을 받다</form>
+					<frame>X-에게 Y-이 Z-로 ~을 받다</frame>
+					<frame>X-에의해 Y-이 Z-로 ~을 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-에게 Y-이 Z-로 ~이 되다</frame>
+					<frame>X-에의해 Y-이 Z-로 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 추인하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 인준하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 발표하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 거부하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 반대하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 취소하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 취소되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 추인되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 인준되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 승인되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-에 의한 Y-의 Z ~</max_n_str>
+				<max_n_str>X-에 의한 Y-의 Z-로의 ~</max_n_str>
+				<sel_rst arg="X">인간(직위|직책)</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<sel_rst arg="Z">인간(직위|직책)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

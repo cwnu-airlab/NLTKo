@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>벌점</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/05</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/29</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note>통사정보구획 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/05</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add정보를 n_v로 이동</mod_note>
+			</mod>
+			<note>2003/09/05(송인욱)의미부류 검토 요망</note>
+			<note>2003/10/15(박진호)의미부류, 선택제약 수정</note>
+			<note>2003/10/29(송인욱)의미부류를 '벌'에서 수정, 그런 의미부류는 없음</note>
+			<add>2003/09/05(송인욱)동사자유구성으로 '~이 쌓이다|초과되다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">罰點</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>세계무역기구는 협약을 준수하지 않고 시장 개방에 소극적인 나라들에 ~을 부과했다.</eg>
+				<eg>그녀는 고속도로에서 과속을 했기 때문에 경찰로부터 ~을 받았다.</eg>
+				<eg>친구들을 괴롭히거나 서로 싸움을 한 학생들은 선생님에게서 ~을 받게 된다.</eg>
+				<eg>우리 회사는 너무 많은 ~이 쌓여서 결국 사업 면허가 취소되고 말았다.</eg>
+				<trans>demerit</trans>
+				<trans>black marks</trans>
+				<sem_class>값</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 많다</comb_aj>
+				<comb_aj type="appr">~이 적다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form>~을 매기다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form>~을 부과하다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form>~을 주다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form>~을 받다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 쌓이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 초과되다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">점</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

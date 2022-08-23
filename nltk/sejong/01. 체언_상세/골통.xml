@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>골통</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/18</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/19</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/06</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_v, n_n에 기술 및 정보 추가</mod_note>
+				<mod_note>센스2 n_aj 수정</mod_note>
+			</mod>
+			<note>2002/09/18(이성헌)</note>
+			<note>2002/09/29(고길수)add에 동의어 정보 추가</note>
+			<note>2003/09/19(이성헌)</note>
+			<note>comb_ida에서 '~이다' 삭제</note>
+			<note>단위표현에서 '인' 삭제</note>
+			<note>센스2에 magn 정보 추가</note>
+			<note>센스2에 의미부류 추가</note>
+			<note>영어대역어에서 'nunkhead' 삭제</note>
+			<add>~을 부수다</add>
+			<add>센스1의 동의어로 '머리' 추가</add>
+			<add>센스2의 동의어로 '꼴통' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>어떤 놈인지 나오기만 해봐, ~을 부숴뜨려 놓을테니!</eg>
+				<trans>head</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>신체부위</sem_class>
+				<lr>
+					<syn type="de_vulgar">머리</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 작다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 부수다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 쥐어박다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl> <!--자연스러운지?(송근영)-->
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이번에 우리 부대로 배치받은 신병은 어찌나 ~이던지 선임병들이 두 손을 번쩍들었다.</eg>
+				<trans>blockhead</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>부정적정신속성인간</sem_class>
+				<lr>
+					<syn type="perfect">꼴통</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">지독한 ~</comb_aj> <!--appr로 수정, 서술형 불가능 표시(송근영)-->
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

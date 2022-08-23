@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>수요</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/25</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/21</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>경제현상을 크기로 수정;동사의 narg 수정;'급증하다|밀리다|초과하다' 분할 표기;맥스엔, 선택제약 정보 추가;명사 수식어에서 N(-의) 삭제</mod_note>
+			</mod>
+			<note>2003/01/13(이지영)예문추가|문장부호입력|sem수정</note>
+			<note>2003/01/15(김진형)comb_v 정보 add로 이동</note>
+			<add>~가 급증하다|밀리다|초과하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">需要</org>
+			<hom exist="yes"/> <!-- 어근 사전 확인 필요 -->
+			<der pos="n" type="prefix">가~</der>
+			<der pos="n" type="prefix">실~</der>
+			<comp pos="n" type="suffix">~량</comp>
+			<comp pos="n" type="suffix">~조사</comp>
+			<comp pos="n" type="suffix">~초과</comp>
+			<comp pos="n" type="suffix">~공급곡선</comp>
+			<comp pos="n" type="prefix">초과~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>요즘 그 분야의 인력 ~가 증가하고 있다.</eg>
+				<eg>시장 가격에 의해서 ~와 공급이 결정된다.</eg>
+				<eg>요즘은 이 제품에 대한 ~가 없는 편이다.</eg>
+				<trans>demand</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>크기</sem_class>
+				<lr>
+					<syn type="etc">요구</syn>
+					<syn type="etc">주문</syn>
+					<ant type="etc">공급</ant>
+					<coord>공급</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 적다</comb_aj>
+				<comb_aj type="appr">~가 많다</comb_aj>
+				<comb_aj type="appr">~가 부족하다</comb_aj>
+				<comb_n type="compound">인력 ~</comb_n>
+				<comb_n type="compound">제품의 ~</comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 급증하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 밀리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 초과하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">구체인공물|구체물의부분|건물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n></pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

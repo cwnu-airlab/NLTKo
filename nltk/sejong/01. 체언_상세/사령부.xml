@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>사령부</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/15</cre_date>
+				<cre_writer>김진형</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/12</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/27</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>add 정보이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/25</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>domain 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>명사연어 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/08</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>단위표현에 '곳, 군데' 추가</mod_note>
+			</mod>
+			<note>2002/04/30(김진형)품사범주기호 수정</note>
+			<note>2002/05/23(고길수)'해군|육군 ~' 유형의 명사구 정보 추가 필요</note>
+			<note>2003/05/01(송인욱)단위표현 새로 기술</note>
+			<note>2003/05/12(김미현)</note>
+			<note>동사자유구성 새로 기술</note>
+			<note>예문 추가</note>
+			<add>~를 세우다|구축하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">司令部</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~에서 해안을 따라 진군하라는 명령이 떨어졌다.</eg>
+				<eg>전선이 축소됨에 따라 두 개의 ~를 하나로 통합하기로 했다.</eg>
+				<trans>headquarters</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>단체의부서</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">육군 ~</comb_n>
+				<comb_n type="compound">해군 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 세우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 구축하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

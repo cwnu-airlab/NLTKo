@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>모르핀</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/14</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/14</mod_date>
+				<mod_writer>류희선</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/10</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>domain추가, 의미부류 수정, 예문보완, n_v 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_n 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/0/15</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">morphine</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>사고 후의 통증으로 그녀는 현재 ~을 맞고 있다.</eg>
+				<eg>의사는 수술을 한 환자에게 ~을 처방했다.</eg>
+				<eg>~은 중독성이 있으니 신중하게 사용해야 한다.</eg>
+				<trans>morphine</trans>
+				<domain>약학</domain>
+				<sem_class>약</sem_class><!--무생물에서 마약으로 수정-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 주사</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 맞다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 처방하다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 중독되다</form>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

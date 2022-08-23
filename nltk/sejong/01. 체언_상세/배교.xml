@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>배교</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/30</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/30</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>선택제약 수정, 검토요망</mod_note><!--Y항 추가-->
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>의미부류 '부정적태도'를 수정, n_v 'Y-에대해'를 수정 및 frame 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_v 추가</mod_note>
+			</mod>
+			<add>2003/10/30(송인욱)동사자유구성으로 '~를 강요하다|선언하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">背敎</org>
+		
+			<comp pos="n" type="suffix">~자</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>내가 기독교에 대한 ~를 선언하자마자 그들은 나에게 온갖 저주를 퍼부어댔다.</eg>
+				<eg>차마 ~를 할 수는 없다는 생각으로  난 검사의 물음에 입을 다물었다.</eg>
+				<trans>apostasy</trans>
+				<sem_class>범죄및비행</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 행위</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 강요하다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 선언하다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~로 얼룩지다</form>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">종교</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>무계획</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/08</cre_date>
+				<cre_writer>이지영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/08</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/27</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>내부 구조 수정</mod_note>
+				<mod_note>분류사 정보 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/25</mod_date>
+				<mod_writer>신서인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/21</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_v, 최대논항구조, 선택제약 기술</mod_note>
+			</mod>
+			<note>2003/07/08(이지영)예문, sem수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="R_N">무+계획</str> <!--(호정은) '무'를 어근으로 봄-->
+			<org lg="si">無計劃</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~성</der>
+			<der pos="n" type="suffix">~적</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>환경 문제를 다루는 태도는 ~의 전형적인 모습이다.</eg>
+				<trans>planless</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>인지상태</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">계획</ant>
+					<rel>일</rel>
+					<rel>무책임</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이다</form>
+					<frame>X-이 ~이다</frame>
+				</comb_v>
+				<max_n_str>X_의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

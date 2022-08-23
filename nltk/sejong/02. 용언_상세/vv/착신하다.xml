@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>착신하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/28</cre_date>
+				<cre_writer>김현권</cre_writer>
+				<cre_writer>조현경</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/09/11</mod_date>
+				<mod_writer>조원형</mod_writer>
+				<mod_note>정보확장</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">착신을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">着信_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>획득행위</sem_class>
+				<trans>receive a message</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(우편물|편지|전보|전화)</sel_rst>
+					<eg>철수가 그녀의 전화를 착신한 곳은 학교 안 건물에서 였다.</eg>
+					<eg>그녀가 항상 그 아파트 전체 우편물을 착신한다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">장소(우체국|관리실)</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(우편물|편지|전보|전화)</sel_rst>
+					<eg>우표가 붙어있지 않은 편지들을 우체국이 착신하게 된다.</eg>
+					<eg>회사 관리실이 회사의 모든 우편물을 착신한다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">(라디오|수신기|안테나)</sel_rst>
+					<sel_rst arg="Y" tht="THM">(신호)</sel_rst>
+					<eg>FM 라디오가 신호를 더 잘 착신하는지 듣기 편하다.</eg>
+					<eg>안테나가 신호를 잘 착신해야 TV가 깨끗하게 나오는 거 아니냐?</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="etc"></col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+	</entry>
+</superEntry>

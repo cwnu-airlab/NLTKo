@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>예찬</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/12</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/07</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/04</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>격틀정보 분리</mod_note>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>s_n 삭제</mod_note>
+				<mod_note>comp 기술</mod_note>
+				<mod_note>sem 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 추가</mod_note>
+				<mod_note>문형 띄어쓰기 수정</mod_note>
+			</mod>
+			<note>2002/08/12(김현승)'자연'에 해당하는 적절한 의미부류가 없음</note>
+			<note>표제어 '옛' 삭제</note>
+			<note>2002/08/30(고길수)의미를 '태도'와 '언어행위'로 분할</note>
+			<note>av에서 '~을</note>
+			<note>~에 대해' 삭제</note>
+			<note>기능동사에 내용 논항, '~을 받다' 추가</note>
+			<note>Y 논항 정보를 '온'으로 수정</note>
+			<note>2002/10/11(이성헌)cl에 '회'추가</note>
+			<note>의미분할 유보</note>
+			<note>2003/09/08(류희선)사전종류수정</note>
+			<note>예문수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">禮讚</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~론</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>사람들은 그의 업적을 ~을 하였다.</eg>
+				<eg>많은 사람들이 그 작품에 ~의 글을 남겼다.</eg>
+				<trans>worship</trans>
+				<trans>admiration</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>이야기</sem_class> <!--'언어행위'를 '이야기'로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 S다고 ~을 하다</frame>
+					<frame>X-이 Y-에대해 S다고 ~을 하다</frame>
+					<frame>X-이 S것-을 S다고 ~을 하다</frame>
+					<frame>X-이 S것-에대해 S다고 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~을 받다</form>
+					<frame>Y-이 X-에게 S다고 ~을 받다</frame>
+					<frame>Y-이 X-에게서 S다고 ~을 받다</frame>
+					<frame>S것-이 X-에게 S다고 ~을 받다</frame>
+					<frame>S것-이 X-에게서 S다고 ~을 받다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>Y-에대한 X-의 ~</max_n_str>
+				<max_n_str>S다는 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

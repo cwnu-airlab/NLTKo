@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>문학작품</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/28</cre_date>
+				<cre_writer>이지영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/28</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/25</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>내부 구조, 예문 수정</mod_note>
+				<mod_note>동사 결합, 변이형 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/25</mod_date>
+				<mod_writer>신서인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_aj 기술</mod_note>
+			</mod>
+			<note>2003/07/28(이지영)예문, sem, cl수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="spr">문학 작품</var>
+			<str type="N_N">문학+작품</str>
+			<org lg="si">文學作品</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~만큼이나 우리 생각의 깊이와 높이를 더해 주는 것도 없다.</eg>
+				<trans>literary work</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>작품</sem_class>
+				<lr>
+					<syn type="etc">문예작품</syn>
+					<ant type="temp"></ant>
+					<hyper>작품</hyper>
+					<rel>시</rel>
+					<rel>소설</rel>
+					<rel>희곡</rel>
+					<rel>수필</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 어렵다</comb_aj>
+				<comb_aj type="appr">~이 쉽다</comb_aj>
+				<comb_aj type="magn">~이 방대하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 읽다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">편</cl>
+				<cl type="uni">권</cl>
+				<cl type="grp">질</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

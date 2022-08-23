@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>급여</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/27</cre_date>
+				<cre_writer>박동호</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/05</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/12</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/22</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_v에 추가</mod_note>
+				<mod_note>센스1 n_v 수정</mod_note>
+				<mod_note>센스1 max_n 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2008/08/18</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/10/01(박동호)</note>
+			<note>2002/10/12(고길수)센스1의 comb_v에서 '~가 이루어지다|실현되다</note>
+			<note>2003/06/26(이은경) add에 '센스2: ~ 인상|인하|향상|삭감</note>
+			<note>2003/06/30(이성헌)센스2의 comb_aj에 '많다|적다'만 남기고 '좋다|나쁘다|높다|낮다'는 magn로 이동</note>
+			<note>2003/07/05(이은경)</note>
+			<note>add에 센스2의 동사결합 정보 추가</note>
+			<note>~를 받다</note>
+			<note>~를 이루다|실현하다' 삭제</note>
+			<note>~를 책정하다' 추가</note>
+			<note>센스1의 Y 논항 정보에 '구체인공물' 추가</note>
+			<note>센스1의 기능동사에 '~를 받다' 추가</note>
+			<note>센스2 comb_aj에 '높다|낮다|많다|적다' 추가</note>
+			<note>센스2에 '~를 지급하다' 추가</note>
+			<note>센스2에 영어대역어 보충</note>
+			<add>~가 나오다' 추가</add>
+			<add>~를 받다</add>
+			<add>~를 책정하다</add>
+			<add>센스2: ~ 인상|인하|향상|삭감</add>
+			<add>센스2의 동사결합으로 '~를 지급하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">給與</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>회사는 전 직원들에게 상여금을 ~를 했다.</eg>
+				<trans>allowance</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>빙향성행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Z-에게 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 받다</form>
+					<frame>Z-이 Y-을 ~를 받다</frame> <!--Z 논항 '이'로 수정(송근영)-->
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 Z-에게 ~가 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-의 Z-에 대한 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">소득|구체인공물</sel_rst>
+				<sel_rst arg="Z">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>우리는 회사로부터 ~를 받았다.</eg>
+				<eg>회사는 ~를 직원들의 성과에 따라 차등을 두어 지급하고 있다.</eg>
+				<trans>pay</trans>
+				<trans>salary</trans>
+				<trans>wages</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>소득</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 많다</comb_aj>
+				<comb_aj type="appr">~가 적다</comb_aj>
+				<comb_aj type="appr">~가 좋다</comb_aj>
+				<comb_aj type="appr">~가 나쁘다</comb_aj>
+				<comb_aj type="appr">~가 높다</comb_aj>
+				<comb_aj type="appr">~가 낮다</comb_aj>
+				<comb_n type="compound">~ 지급</comb_n>
+				<comb_n type="compound">~ 인상</comb_n>
+				<comb_n type="compound">~ 인하</comb_n>
+				<comb_n type="compound">~ 삭감</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 지급하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 나오다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 책정하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="qnt">원</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

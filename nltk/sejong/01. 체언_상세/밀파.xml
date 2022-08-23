@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>밀파</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/11</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/13</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_v 수정</mod_note>
+			</mod>
+			<note>2003/07/18(송인욱)대역어 확인 요망</note>
+			<note>2003/10/13(박진호)선택제약 수정. 합성어에 있던 것을 명사연어로 옮김</note>
+			<add>2003/07/18(송인욱)동사자유구성으로 '~를 추진하다</add>
+			<add>~가 요구되다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">密派</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>각국의 정보기관들이 ~를 한 요원들이 현재 여기서 암약 중이다.</eg>
+				<eg>그녀는 쿠르드족에 의해 수차례나 터키에 ~가 된 스파이다.</eg>
+				<eg>신은 천사들을 인간 세상으로 ~를 해서 주기적으로 상황 보고를 하게 했다.</eg>
+				<trans>secret dispatch</trans>
+				<sem_class>단독행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 필요하다</comb_aj>
+				<comb_aj type="appr">~가 시급하다</comb_aj>
+				<comb_n type="compound">~ 간첩</comb_n>
+				<comb_n type="compound">~ 요원</comb_n>
+				<comb_n type="compound">~ 공작원</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 Z-에 ~를 하다</frame>
+					<frame>X-이 Y-을 Z-로 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 X-에의해 Z-에 ~가 되다</frame>
+					<frame>Y-이 X-에의해 Z-로 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 이루어지다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 추진하다</form>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="X">인간집단</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<sel_rst arg="Y">인간집단(대표단)</sel_rst>
+				<sel_rst arg="Z">장소</sel_rst>
+				<sel_rst arg="Z">계획사건</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

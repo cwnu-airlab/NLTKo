@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>작전</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/04/26</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/08</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/29</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+				<mod_note>comb_v '~을 개시하다' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/07/21(김종명)</note>
+			<note>센스1과 2의 최대논항구조에 'S는' 동격절 정보를 추가</note>
+			<note>센스3에 기능동사정보 추가</note>
+			<note>절수식어항목에서 동격절 정보 삭제</note>
+			<note>2001/07/30(김종명,이성헌)</note>
+			<note>센스1에 동의어 추가</note>
+			<note>센스2의 '전략, 전술'을 동위어에서 동의어로</note>
+			<note>센스2의 관련어에 '군대, 공격' 추가</note>
+			<note>센스2의 magn에 '치밀하다, 허술하다 ' 추가</note>
+			<note>2003/01/30(이지영)예문추가,문장부호입력,sem수정, sense1의 trans수정|comb_v를 add로 이동|max_n수정|sel_res수정|pre_s수정, sense2의 comb_v를 add로 이동|max_n수정|sel_res수정|pre_s수정, sense3의 cl추가|comb_v를 add로 이동|sel_res수정</note>
+			<note>2003/02/05(김진형)sense3 cl '건' 삭제</note>
+			<note>2003/02/08(이지영)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">作戰</org>
+		
+			<hom exist="yes"></hom>
+			<der pos="n" type="suffix">~가</der>
+			<der pos="n" type="suffix">~과</der>
+			<der pos="n" type="suffix">~도</der>
+			<der pos="n" type="suffix">~술</der>
+			<der pos="n" type="suffix">~지</der>
+			<der pos="n" type="suffix">~처</der>
+			<der pos="n" type="suffix">~상</der>
+			<comp pos="n" type="prefix">상륙~</comp>
+			<comp pos="n" type="prefix">수색~</comp>
+			<comp pos="n" type="prefix">합동~</comp>
+			<comp pos="n" type="prefix">해상~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리는 다음 시합을 위해 여러 가지 ~을 세웠다.</eg>
+				<eg>우리는 머리를 맞대고 ~을 세우느라 밤이 새는 줄도 몰랐다.</eg>
+				<eg>우리는 그의 ~대로 움직였다.</eg>
+				<trans>plan</trans>
+				<trans>tactics</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>방법</sem_class>
+				<lr>
+					<syn type="etc">전략</syn>
+					<syn type="etc">계책</syn>
+					<syn type="etc">책략</syn>
+					<ant type="temp"></ant>
+					<coord>계획</coord>
+					<coord>준비</coord>
+					<coord>대비</coord>
+					<coord>대책</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 잘못되다</comb_aj>
+				<comb_aj type="magn">~이 기발하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 짜다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 들어맞다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 세우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 바꾸다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 변경하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 지시하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 감행하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 수행하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 펼치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 투입되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 투입하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 개시하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|사행</sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+				<s_n>다는 ~</s_n>
+				<s_n>라는 ~</s_n>
+				<s_n>자는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>상부에서는 적을 공격하기 위한 ~을 짰다.</eg>
+				<eg>이번 군사 ~은 전쟁에서의 승리를 위한 토대를 마련하기 위한 것이다.</eg>
+				<trans>manoeuvres</trans>
+				<domain>군사</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>방법</sem_class>
+				<lr>
+					<syn type="etc">전략</syn>
+					<syn type="etc">전술</syn>
+					<ant type="temp"></ant>
+					<rel>군대</rel>
+					<rel>공격</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 어렵다</comb_aj>
+				<comb_aj type="magn">~이 치밀하다</comb_aj>
+				<comb_aj type="magn">~이 허술하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 짜다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">역할인간|군대(부대|중대|육군|아군|경찰)</sel_rst>
+				<sel_rst arg="Y">역할인간(적군)|군대|방향성행위(공격|공습)</sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+				<s_n>다는 ~</s_n>
+				<s_n>라는 ~</s_n>
+				<s_n>자는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>군부대가 근처 야산에서 ~을 수행한다</eg>
+				<trans>manoeuvres</trans>
+				<trans>operations</trans>
+				<domain>군사</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>지속적활동</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 길다</comb_aj>
+				<comb_aj type="appr">~이 힘들다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에대한 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">역할인간|군대(부대|중대|육군|아군|경찰)</sel_rst>
+				<sel_rst arg="Y">역할인간(적군)|군대|방향성행위(공격|공습)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

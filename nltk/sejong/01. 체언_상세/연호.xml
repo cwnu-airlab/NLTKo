@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>연호</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/10</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/25</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/03</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_v에 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>추가</mod_note>
+				<mod_note>수정</mod_note>
+			</mod>
+			<note>2002/07/29(김현승)</note>
+			<note>2002/08/11(고길수)의미부류를 '시간'에서 '이름'으로 수정</note>
+			<note>add 정보 추가</note>
+			<note>2002/10/04(이성헌)</note>
+			<note>2003/09/18(송인욱)단위표현 새로 기술</note>
+			<note>예문 추가</note>
+			<note>표준대사전보다는 연세사전에 나온 어의가 더 적당하다고 생각됨</note>
+			<note>2003/09/25(김미현)</note>
+			<add>동사결합으로 '~를 붙이다' 추가</add>
+			<add>2003/09/18(송인욱)동사자유구성으로 '~를 정하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">年號</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리나라에서는 ~로 서기를 쓰고 있다.</eg>
+				<eg>조정의 모든 대신들은 새 정부의 ~를 정하기 위해 머리를 싸매고 고심했다.</eg>
+				<trans>name of an era</trans>
+				<domain>역사</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>이름</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 붙이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 정하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/10</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/25</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/03</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>n_v 수정</mod_note>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>sem 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 추가</mod_note>
+				<mod_note>최대논항구조 수정</mod_note>
+			</mod>
+			<note>2002/07/29(김현승)</note>
+			<note>2002/08/11(고길수)예문 수정, '~하다'는 합성용언이므로 예문에 사용하지 않음</note>
+			<note>comb_v에 '~를 보내다' 추가</note>
+			<note>기능동사정보 수정, '.' 사용하지 않음, '~를 받다' 추가</note>
+			<note>Y 논항정보를 '언어요소|사실|명제'에서 '인간|이름'으로 수정</note>
+			<note>2002/10/04(이성헌)</note>
+			<note>2003/09/18(송인욱)예문 수정</note>
+			<note>기능동사의 보문 구조 두 번째 것에서 X 논항에 조사 '-로부터'를 추가</note>
+			<note>2003/09/25(김미현)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">連呼</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 시민들의 ~를 받으며 들어왔다.</eg>
+				<eg>관중들은 계속해서 우승자의 이름을 ~했다.</eg>
+				<trans>successive shouts</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>소통행위</sem_class> <!--'언어행위'를 '소통행위'로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 받다</form>
+					<frame>Y-이 X-에게 ~를 받다</frame> <!--'로부터' 삭제(송근영)-->
+				</comb_v>
+				<comb_v type="npred_vsupvar"> <!--기능동사변이형으로 유형값 수정, 격틀기술(송근영)-->
+					<form vcompound="no">~를 보내다</form>
+					<frame>X-이 Y-에게 ~를 보내다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간(우승자)|이름</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

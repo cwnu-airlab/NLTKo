@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>시나리오</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/08/13</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/18</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/09</mod_date>
+				<mod_writer>김천학</mod_writer>
+				<mod_note>add 옮김, 예문분리</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/15</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>명사 결합 추가</mod_note>
+				<mod_note>복합어 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/26</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/07/04</note>
+			<note>2003/05/20(이하영)sense1 예문 추가</note>
+			<note>2003/06/18(고길수)센스3 추가</note>
+			<note>sense1의 동사자유구성 중 일부를 삭제하고 일부를 add항목으로 옮김</note>
+			<note>sense2 예문 추가</note>
+			<note>sense2 의미부류 수정</note>
+			<note>sense2의 동사자유구성을 add항목으로 옮김</note>
+			<add>sense1 동사자유구성 '~가 나오다</add>
+			<add>sense2 동사자유구성 '~를 집다|찢다|넣다|두다|배포하다|보관하다' 추가</add>
+			<add>~를 보다|읽다|받다|배포하다|수정하다|고치다' 추가</add>
+			<add>센스3의 동사결합으로 '~를 짜다|꾸미다|세우다|변경하다|그리다'</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="en">scenario</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>감독은 출연진을 모아 놓고 새로 수정된 ~를 배부하였다.</eg>
+				<eg>그녀는 ~를 읽고 너무 슬퍼서 울음을 터뜨렸다.</eg>
+				<eg>감독은 작가에게 ~의 일부를 수정할 것을 요구했다.</eg>
+				<trans>scenario</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>텍스트</sem_class>
+				<lr>
+					<syn type="etc">각본</syn>
+					<ant type="temp"></ant>
+					<rel>영화</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 새롭다</comb_aj>
+				<comb_aj type="appr">~가 흥미롭다</comb_aj>
+				<comb_aj type="appr">~가 재미있다</comb_aj>
+				<comb_aj type="appr">~가 무섭다</comb_aj>
+				<comb_n type="compound">~ 작가</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 나오다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 읽다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 받다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 수정하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 고치다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">부</cl>
+				<cl type="uni">권</cl>
+				<cl type="div">장</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>줄거리가 새 나가지 않도록 하기 위해 작가는 ~를 몰래 감추었다.</eg>
+				<eg>그녀는 ~를 갈기갈기 찢어버렸다.</eg>
+				<trans>scenario</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>텍스트담지물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 무겁다</comb_aj>
+				<comb_aj type="appr">~가 가볍다</comb_aj>
+				<comb_aj type="appr">~가 두껍다</comb_aj>
+				<comb_aj type="appr">~가 얇다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 집다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 찢다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 넣다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 두다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 배포하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 보관하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>범인들은 사전에 그를 죽이기 위한 ~를 완벽하게 짜놓은 것으로 추정된다.</eg>
+				<trans>scenario</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>관계추상적대상</sem_class> <!--(호정은) 의미부류 애매함 '계획'의 비유로 생각하면 '추상적행위'일 수도 있음-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 짜다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 꾸미다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 세우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 변경하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 그리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

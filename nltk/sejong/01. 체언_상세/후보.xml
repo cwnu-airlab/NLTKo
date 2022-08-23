@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>후보</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/04/06</cre_date>
+				<cre_writer>류희선</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/28</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/12</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note>동사구성 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/27</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1, 2 n_aj 수정</mod_note>
+				<mod_note>센스1, 2 n_v 추가</mod_note>
+				<mod_note>센스3 전문영역(운동) 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/07</mod_date>
+				<mod_writer>백고운</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/07/16(류희선)</note>
+			<note>2001/07/20(고길수)</note>
+			<note>2001/07/31(김종명)</note>
+			<note>2001/08/03(한선혜)</note>
+			<note>2003/02/19(김진형)예문 추가</note>
+			<note>2003/02/28(이지영)sense1의 cl수정 및 추가,sense3의 sem수정,sense3의 cl추가</note>
+			<note>cl 정보 수정</note>
+			<note>comb_v 정보 add로 이동</note>
+			<note>센스 1의 한정사 제약 수정</note>
+			<note>센스 1의 형용사 연어 수정</note>
+			<note>센스 2의 동사 자유 구성 수정</note>
+			<note>센스 2의 합성어 수정</note>
+			<note>센스 3의 한정사 제약 수정</note>
+			<note>수식어-명사 수정</note>
+			<note>의미부류 수정</note>
+			<note>한정사 제약 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">候補</org>
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~생</der>
+			<der pos="n" type="suffix">~자</der>
+			<der pos="n" type="suffix">~작</der>
+			<der pos="n" type="suffix">~지</der>
+			<comp pos="n" type="suffix">~당원</comp>
+			<comp pos="n" type="suffix">~돼지</comp>
+			<comp pos="n" type="suffix">~닭</comp>
+			<comp pos="n" type="suffix">~먹이</comp>
+			<comp pos="n" type="suffix">~소</comp>
+			<comp pos="n" type="suffix">~우리</comp>
+			<comp pos="n" type="suffix">~선수</comp>
+			<comp pos="n" type="suffix">~명단</comp>
+			<comp pos="n" type="prefix">대통령~</comp>
+			<comp pos="n" type="prefix">의원~</comp>
+			<comp pos="n" type="prefix">임원~</comp>
+			<comp pos="n" type="prefix">우승~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 국회의원 선거에 ~로 등록을 했다.</eg>
+				<eg>그는 지난 대통령 선거에서 선거전이 달아오를 무렵에 갑자기 ~를 사퇴하였다.</eg>
+				<trans>candidate</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>일시적역할인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>사람</hyper>
+					<rel>선거</rel>
+					<rel>투표</rel>
+					<rel>자격</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">유력한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 선출되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 등록하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 나서다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 출마하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사퇴하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 지명되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">인</cl>
+				<cl type="uni">사람</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N</pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 이 종목에서 우승을 할 가장 유력한 ~로 지목되었다.</eg>
+				<eg>이 감독의 영화는 세계의 여러 영화제에서 작품상 ~에 오른 바 있다.</eg>
+				<trans>candidature</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>사람</hyper>
+					<rel>경쟁</rel>
+					<rel>우승</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">유력한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 오르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 되다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="narg_vpred">
+					<form vcompound="no">~에 지명되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>우리 팀은 부상자를 대신할 ~가 없다.</eg>
+				<eg>물러난 회장의 자리를 채울 ~가 누가 있을까?</eg>
+				<trans>substitution</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>일시적역할인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>사람</hyper>
+					<hypo>대타자</hypo>
+					<rel>경기</rel>
+					<rel>사고</rel>
+					<rel>질병</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 준비하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 기용하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 뽑다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 내보내다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 교체하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 뽑히다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="narg_vpred">
+					<form vcompound="no">~에 지명되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">인</cl>
+				<cl type="uni">사람</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/04/06</cre_date>
+				<cre_writer>류희선</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/28</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/12</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/27</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>영어대역어 관사 삭제</mod_note>
+				<mod_note>분류사 기술</mod_note>
+			</mod>
+				<mod>
+				<mod_date>2007/08/07</mod_date>
+				<mod_writer>백고운</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/07/16(류희선)</note>
+			<note>2001/07/20(고길수)</note>
+			<note>2001/08/03(한선혜)</note>
+			<note>2003/02/22(김진형)예문 추가</note>
+			<note>2003/02/28(이지영)sense1의 sem수정</note>
+			<note>comb_v 정보 add로 이동</note>
+			<note>수식어-문장 수정</note>
+			<note>의미부류 수정</note>
+			<note>형용사,동사 자유 구성 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">後報</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 ~를 듣고 매우 놀랐다.</eg>
+				<eg>그들은 이번 사고를 대수롭지 않게 여겼다가 자세한 ~를 전해 듣고는 모두 깜짝 놀랐다.</eg>
+				<trans>later report</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>사실명제</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>속보</rel>
+					<rel>보도</rel>
+					<rel>통지</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 상세하다</comb_aj>
+				<comb_aj type="appr">~가 자세하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 듣다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 전하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N(-의)</pre_n>
+				<s_n>S다는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>부작용</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/23</cre_date>
+				<cre_writer>남길임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/16</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/01</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note>add 이동</mod_note>
+			</mod>
+			<note>의미 부류 확인 요망</note>
+			<note>2002/07/22(이병규)</note>
+			<note>2002/08/08(고길수)센스1의 형용사결합에 '없다'를 추가</note>
+			<note>센스1의 magn로 '크다|심하다|심각하다</note>
+			<note>작다|가볍다'를 추가</note>
+			<note>센스1의 기능동사에 '~이 있다'를 추가</note>
+			<note>센스1의 논항정보 추가</note>
+			<note>센스1,2의 pre_s에 'S는 ~'을 추가</note>
+			<note>센스2에 기능동사 및 논항정보 추가</note>
+			<note>add 정보 추가</note>
+			<note>2003/05/30(류희선)센스1과 2의 의미부류수정(사겅|현상에어 현상으로)검토요망</note>
+			<note>센스1의 예문추가</note>
+			<note>2003/09/16(박진호)add 수정</note>
+			<add>내부구성정보에 'rt(부)+n(작용)' 추가</add>
+			<add>내부구성정보에 'rt(부)+n(작용)' 추가</add>
+			<add>동사결합으로 '~이 일어나다|생기다|발생하다</add>
+			<add>내부구성정보에 'rt(부)+n(작용)' 추가</add>
+			<add>동사결합으로 '~이 일어나다|생기다|발생하다</add>
+			<add>~을 일으키다'를 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">副作用</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 약의 ~으로는 두통과 오한이 있을 수 있다.</eg>
+				<eg>이 약은 ~이 특히 심하니 주의하세요!</eg>
+				<eg>그 약은 자주 ~을 일으켜 판매 금지가 되었다.</eg>
+				<trans>side effect</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>현상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 없다</comb_aj>
+				<comb_aj type="magn">~이 크다</comb_aj>
+				<comb_aj type="magn">~이 심하다</comb_aj>
+				<comb_aj type="magn">~이 심각하다</comb_aj>
+				<comb_aj type="magn">~이 작다</comb_aj>
+				<comb_aj type="magn">~이 가볍다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 있다</form>
+					<frame>X-이 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 일으키다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 생기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 발생하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">약</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는  ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>오늘날 인터넷의 ~은 어떤 것이 있는지 알아보자.</eg>
+				<trans>side effect</trans>
+				<trans>ill effect</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>현상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 심하다</comb_aj>
+				<comb_aj type="magn">~이 심각하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 있다</form>
+					<frame>X|S것-이 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 일으키다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 생기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 발생하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">사건|현상|행위</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는  ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

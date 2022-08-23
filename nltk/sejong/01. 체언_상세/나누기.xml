@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>나누기</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/06/24</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/07</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/12</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>내부 구조  및 동사 결합 추가</mod_note>
+				<mod_note>새 정보항에 맞추어 동사 결합 관련 정보 수정</mod_note>
+				<mod_note>품사 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>org 기술</mod_note>
+			</mod>
+			<note>2000/08/27(백인애)</note>
+			<note>2001/01/30(정유진</note>
+			<note>2003/03/07(이호영)의미부류 수정</note>
+			<note>2003/04/07(박만규)</note>
+			<note>동사연어구성을 향후 추가정보로 이동</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="V_S">나누+기</str>
+			<org lg="etc"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>20 ~ 5는 4입니다.</eg>
+				<trans>division</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>인지적행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">곱하기</ant>
+					<hyper>셈법</hyper>
+					<coord>곱하기</coord>
+					<coord>더하기</coord>
+					<coord>빼기</coord>
+					<rel>나눗셈</rel>
+					<rel>나눗셈 기호</rel>
+					<rel>제수</rel>
+					<rel>피제수</rel>
+					<rel>산수</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 어렵다</comb_aj>
+				<comb_aj type="appr">~가 쉽다</comb_aj>
+				<comb_aj type="appr">~가 재미있다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 배우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 연습하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 공부하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 틀리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

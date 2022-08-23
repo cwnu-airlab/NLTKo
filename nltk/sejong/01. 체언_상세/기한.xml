@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>기한</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/10/06</cre_date>
+				<cre_writer>박동호</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/15</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/14</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/24</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>n_n 누락된 유형 정보 compound로 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/19</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/10/06(박동호)</note>
+			<note>2002/10/11(고길수)영어대역어 표기법 수정</note>
+			<note>2003/07/05(이은경) 명사연어에 있던 '예정|유효|지불|납부|유통 ~'을 add로 옮김, add에 '~을 연장하다|준수하다|넘기다|주다|채우다</note>
+			<note>2003/09/15(이성헌)</note>
+			<note>add에 '~을 정하다|두다</note>
+			<note>add의 명사구 정보를 명사연어로 수정</note>
+			<note>~에 맞추다' 추가</note>
+			<note>~이 다가오다|가까와오다|차다|끝나다' 보충</note>
+			<note>~이 되다|지나다|넘다|만료되다</note>
+			<note>예문에 '~이 언제이다, 얼마를 ~으로. ~까지 얼마가 남다, ~이 끝나다' 추가</note>
+			<add>~에 맞추다</add>
+			<add>~을 어기다|넘다|잡다|정하다|두다|연장하다|준수하다|넘기다|주다|채우다</add>
+			<add>~이 지나다|다가오다|가까와오다|차다|끝나다|되다|지나다|넘다|만료되다</add>
+			<add>예정|유효|지불|납부|유통 ~</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">期限</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>납부하기로 한 ~을 넘기면 안 된다.</eg>
+				<eg>반납 ~은 다음 달 10일입니다.</eg>
+				<eg>친구는 일 년을 ~으로 은행에서 돈을 빌렸다.</eg>
+				<eg>이제 ~까지는 열흘 정도가 남았다.</eg>
+				<eg>이제 몇 시간이면 지불 ~이 끝난다.</eg>
+				<trans>time limit</trans>
+				<trans>term</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>시간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 촉박하다</comb_aj>
+				<comb_n type="compound">예정 ~</comb_n>
+				<comb_n type="compound">유효 ~</comb_n>
+				<comb_n type="compound">지불 ~</comb_n>
+				<comb_n type="compound">납부 ~</comb_n>
+				<comb_n type="compound">유통 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 어기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 넘기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 잡다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 정하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 두다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 준수하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 넘기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 주다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 채우다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/10/06</cre_date>
+				<cre_writer>박동호</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/15</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/14</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/24</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/19</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/10/06(박동호)</note>
+			<note>2002/10/11(고길수)</note>
+			<note>2003/07/05(이은경) 동사연어구성에 있던 '~을 느끼다'를 add로 옮김,add에 '~을 견디다' 추가</note>
+			<note>2003/09/15(이성헌)</note>
+			<add>~에 떨다</add>
+			<add>~에서 벗어나다</add>
+			<add>~으로 죽다</add>
+			<add>~을 느끼다</add>
+			<add>~을 면하다|견디다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">飢寒</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리는 겨우 ∼이나 면하고 산다.</eg>
+				<trans>hunger and cold</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>신체상태</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 떨다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 느끼다</form>
+					<frame>X-이 ~을 느끼다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

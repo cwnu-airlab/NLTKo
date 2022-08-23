@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>복선</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/17</cre_date>
+				<cre_writer>한동훈</cre_writer>
+				<cre_note>센스2의 영어대역어 검토 요망</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/17</mod_date>
+				<mod_writer>한동훈</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/17</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1에 예문 추가;의미부류 수정;형용사, 명사, 동사결합 정보 추가;센스2의 의미부류 수정;동사결합 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/20</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 n_aj 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">伏線</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>다음 사건이 뻔히 예상되면 ~이라 하기 어렵다.</eg> <!-- 추가함 -->
+				<eg>이 부분은 이 소설에서 ~의 역할을 한다.</eg>
+				<trans>underplot of a novel</trans>
+				<trans>subplot</trans> <!-- 추가함 -->
+				<sem_class>관계추상적대상</sem_class> <!-- 속성 수정, 단 추상적부분?? -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">좋은 ~</comb_aj> <!-- 추가함, 단 성상 형용사의 의미는 아닌듯 -->
+				<comb_n type="compound">~의 장치</comb_n> <!-- 추가함 -->
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~을 깔다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~을 흘리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~으로 작용하다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이 일을 성사시키기 위해 나는 미리 ~을 깔아 두었다.</eg>
+				<trans>preparation</trans>
+				<sem_class>추상적대상</sem_class> <!-- 속성 수정 -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~을 깔다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/17</cre_date>
+				<cre_writer>한동훈</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/17</mod_date>
+				<mod_writer>한동훈</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/12/17</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>동형어 정보 추가;의미부류 수정;명사, 동사결합 추가;센스2 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/20</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 의미부류 '시설물'을 수정</mod_note>
+				<mod_note>센스1 n_v 추가</mod_note>
+				<mod_note>센스2 n_v 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">複線</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~을 다시 해체하는 작업이 한찬 진행중이다.</eg>
+				<trans>two-track line</trans>
+				<sem_class>철로</sem_class> <!-- '철로' 수정, 단 검토 필요 -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 전철</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">~ 철도</comb_n> <!-- 추가함 -->
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~으로 건설하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> 
+					<form vcompound="no">~을 깔다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 설치하다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>도로 중에 노란색 ~이 그려진 곳에서는 앞지르기가 금지되어 있다.</eg>
+				<trans>double lines</trans>
+				<domain></domain>
+				<sem_class>경계</sem_class> <!-- 검토 필요한 듯 -->
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="grad">단선</ant> <!-- 유형값 확인 필요 -->
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred"> 
+					<form vcompound="no">~을 그리다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

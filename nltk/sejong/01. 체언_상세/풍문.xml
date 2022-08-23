@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>풍문</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/26</cre_date>
+				<cre_writer>김미현</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/18</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/31</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2005/10/07</mod_date>
+                                <mod_writer>박만규</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+                        <mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/10/12(김종명)</note>
+			<note>2003/05/28(서진숙)</note>
+			<note>2003/06/18(이성헌)sem확인 추후 사건 혹은 현상 하에 '소문'부류를 설정할 계획</note>
+			<note>comb_v에 '돌다|나돌다'기재</note>
+			<note>magn에 '~이 자자하다'기재</note>
+			<note>pre_s에 'S라는 ~'삭제</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그가 미국으로 갔다는 ~이 돌고 있다.</eg>
+				<eg>많은 사람들이 죽었다는 ~에 마을 사람들은 두려움에 떨었다.</eg>
+				<eg>그가 해외망명을 할 것이라는 ~이 떠돌았다.</eg>
+				<eg>그가 많은 재산을 줄이고 있다는 ~이 국회 주변에 떠다녔다.</eg>
+				<trans>rumor</trans>
+				<trans>report</trans>
+				<trans>hearsay</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>소문</sem_class>
+				<lr>
+					<syn>풍설</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 자자하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 돌다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 나돌다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+						<form vcompound="no">~에 시달리다</form>
+						<frame></frame>
+					</comb_v>
+				<comb_v type="narg_vpred">
+						<form vcompound="no">~으로 듣다</form>
+						<frame></frame>
+					</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S다는  ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

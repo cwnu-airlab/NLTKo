@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>밀려오다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/23</mod_date>
+				<mod_writer>허용</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="o"/>
+			<str>V-어V</str>
+			<infl type="neora"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>증가</sem_class>
+				<trans>get</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(감정|졸음)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간</sel_rst>
+					<eg>회한의 감정이 나에게 갑자기 밀려오기 시작했다.</eg>
+					<eg>점심 식사 후에는 꼭 졸음이 밀려와서 조금씩 낮잠을 잔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>증가</sem_class>
+				<trans>come</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(변화|풍조|추세)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간|장소</sel_rst>
+					<eg>앞으로 엄청난 변화가 우리에게 밀려올거야.</eg>
+					<eg>서구풍조가 조선에도 물밀듯이 밀려왔다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=N2-에서 Y=N1-로|에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간|장소</sel_rst>
+					<sel_rst arg="Z" tht="SRC">장소</sel_rst>
+					<eg>수입다변화제도의 해제 이후 일본상품이 밀물처럼 한국시장에 밀려올 것이다.</eg>
+					<eg>수입이 완전히 자유화가 되서 전 세계에서 경쟁력 있는 상품들은 모두 우리에게 밀려올 것이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>방향성행위</sem_class>
+				<trans>rush</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=N2-에서 Y=N1-로|에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간|장소</sel_rst>
+					<sel_rst arg="Z" tht="SRC">장소</sel_rst>
+					<eg>중공군이 우리 쪽으로 구름떼처럼 밀려온다.</eg>
+					<eg>강 저 편에서 적군이 새까맣게 밀려온다.</eg>
+					<eg>원근각처에서 빗장이들이 우리에게 밀려왔다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(주문|전화)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간|장소</sel_rst>
+					<sel_rst arg="Z" tht="SRC">장소</sel_rst>
+					<eg>이쪽 저쪽에서 주문이 우리에게 갑자기 밀려오기 시작했다.</eg>
+					<eg>온갖 군데에서 상담전화가 우리 회사에 밀려왔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>방향성행위</sem_class>
+				<trans>come</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=N2-에서 Y=N1-로|에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물|동물</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간|장소</sel_rst>
+					<sel_rst arg="Z" tht="SRC">장소</sel_rst>
+					<eg>파도가 우리 배 쪽으로 밀려온다.</eg>
+					<eg>하늘 저 편에서 갑자기 새떼가 우리에게 밀려왔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>서약</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/18</cre_date>
+				<cre_writer>이지영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/09</mod_date>
+				<mod_writer>남길임</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/02</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/31</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_v 수정;s_n 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/10</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>방향성행위를 약속으로 수정;'하다'에서 'X-이 Z-에게 S자고 ~을 하다' 삭제;맥스엔 수정;X, Z 선택제약에 인간집단 추가</mod_note>
+			</mod>
+			<note>2002/05/18</note>
+			<note>2002/10/04</note>
+			<note>2003/05/07(김미순)예문수정</note>
+			<note>2003/05/09(남길임)supv에 '받다' 구문 추가</note>
+			<note>add 기술</note>
+			<note>cl 기술</note>
+			<note>sem에 '대칭적행위'도 고려</note>
+			<note>supv 추가</note>
+			<note>trans에서 'an' 생략</note>
+			<add>~을 지키다|깨다|어기다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">誓約</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~서</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 사람들 앞에서 한 ~을 결국 깨고 말았다.</eg>
+				<trans>oath</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>약속</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Z-에게 Y-을 ~을 하다</frame>
+					<frame>X-이 Z-에게 S것-을 ~을 하다</frame>
+					<frame>X-이 Z-에게 S다고 ~을 하다</frame>
+					<frame>X-이 Z-와 Y-을 ~을 하다</frame>
+					<frame>X-이 Z-와 S것-을 ~을 하다</frame>
+					<frame>X-이 Z-와 S다고 ~을 하다</frame>
+					<frame>X-이 Z-와 S자고 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>Z-이 X-에게 Y-을 ~을 받다</frame>
+					<frame>Z-이 X-에게 S것-을 ~을 받다</frame>
+					<frame>Z-이 X-에게 S다고 ~을 받다</frame>
+					<frame>Z-이 X-에게 S자고 ~을 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 지키다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 깨다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 어기다</form>
+					<frame></frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 Z-에대한 Y-의 ~</max_n_str>
+				<max_n_str>X-의 Z-에대한 Y ~</max_n_str>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>Z-에대한 Y-의 ~</max_n_str>
+				<max_n_str>Z-에대한 Y ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Z-에대한 ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<max_n_str>X-의 Z-에대한 S다는 ~</max_n_str>
+				<max_n_str>X-의 S다는 ~</max_n_str>
+				<max_n_str>Z-에대한 S다는 ~</max_n_str>
+				<max_n_str>S다는 ~</max_n_str>
+				<max_n_str>X-와 Z-의 Y ~</max_n_str>
+				<max_n_str>X-의 Z-와의 Y ~</max_n_str>
+				<max_n_str>X-와 Z-의 S다는 ~</max_n_str>
+				<max_n_str>X-의 Z-와의 S다는 ~</max_n_str>
+				<max_n_str>X-와 Z-의 S자는 ~</max_n_str>
+				<max_n_str>X-의 Z-와의 S자는 ~</max_n_str>
+				<max_n_str>X-와 Z-의 ~</max_n_str>
+				<max_n_str>X-의 Z-와의 ~</max_n_str>
+				<max_n_str>S자는 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">행위</sel_rst>
+				<sel_rst arg="Z">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

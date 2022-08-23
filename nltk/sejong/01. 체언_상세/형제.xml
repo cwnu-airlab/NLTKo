@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>형제</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/19</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/26</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/05</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note>n_n, n_v 정보 기술</mod_note>
+				<mod_note>n_v 형식 수정</mod_note>
+				<mod_note>통사정보구획의 조사 '가'를 '이'로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/07</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<note>1999/10/16(백인애)</note>
+			<note>2000/05/01(백인애)</note>
+			<note>2003/03/12(김미순)sense 1 예문수정</note>
+			<note>2003/03/26(고길수)센스1에 예문 추가</note>
+			<note>add에 센스1과 관련된 정보 추가</note>
+			<note>cl에 '분' 삭제</note>
+			<note>comb_v add로 이동</note>
+			<note>sem '인물/친족관계'에서 '대칭적친족'으로 수정</note>
+			<note>sense 2 sem '인물'에서 '인간'으로 수정</note>
+			<note>supv 삭제</note>
+			<note>센스1에 기능동사, 최대논항명사구, 논항의미정보 추가</note>
+			<note>센스1 '그녀는 ~가 많은 집에서 자랐다(표준)'의 경우 센스 구분이 필요할 지 검토 필요</note>
+			<note>센스1 '피를 나눈 ~' magn?</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">兄弟</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~애</der>
+			<comp pos="n" type="suffix">~자매</comp>
+			<comp pos="n" type="suffix">~지국</comp>
+			<comp pos="n" type="suffix">~지의</comp>
+			<comp pos="n" type="prefix">사촌~</comp>
+			<comp pos="n" type="prefix">이복~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>철수와 영수는 사이가 좋은 ~로 온 동네에 소문이 자자하다.</eg>
+				<eg>그들은 아들 세 ~에게 큰 기대를 걸고 있다.</eg>
+				<eg>그들은 비록 남이지만 ~의 의를 맺었다.</eg>
+				<trans>brothers</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>대칭적친족</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">자매</ant>
+					<hyper>친척</hyper>
+					<rel>형</rel>
+					<rel>동생</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 게으르다</comb_aj>
+				<comb_aj type="appr">~이 성실하다</comb_aj>
+				<comb_aj type="appr">~이 잘생기다</comb_aj>
+				<comb_aj type="appr">~이 착하다</comb_aj>
+				<comb_n type="compound">부모 ~</comb_n>
+				<comb_n type="compound">아들 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 되다</form>
+					<frame>X-이 Y-에게 ~이 되다</frame>
+					<frame>X-이 Y-와 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 Y-와 ~이다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 공부하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 다투다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 싸우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 일하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 감싸다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 돌보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 우애하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~처럼 지내다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-와 Y ~</max_n_str>
+				<sel_rst arg="X">인간(남자)</sel_rst>
+				<sel_rst arg="Y">인간(남자)</sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>교회와 이웃의 ~와 자매를 사랑합시다.</eg>
+				<trans>fellow male Christian</trans>
+				<domain>기독교</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>종교적추종자</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">자매</ant>
+					<coord>자매</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 따뜻하다</comb_aj>
+				<comb_aj type="appr">~이 친절하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 인도하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 기도하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 봉사하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 만나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사랑하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~와 교제하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~와 찬양하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">인</cl>
+				<cl type="uni">사람</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

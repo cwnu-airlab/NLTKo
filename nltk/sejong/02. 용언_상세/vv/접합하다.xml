@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>접합하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/05</cre_date>
+				<cre_writer>박철우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/05/26</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<note>2002/05/14(노윤채)</note>
+			<note>2002/05/26(한선혜)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">접합을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<org lg="si">接合_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>conjugate</trans>
+			</sem_grp>
+			<frame_grp type="FIN" cor="sym" n="01">
+				<frame>X=N0-이 Y=N1-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">미생물</sel_rst>
+					<sel_rst arg="Y" tht="COM">미생물</sel_rst>
+					<eg>투명대를 통과한 정자 두부가 난자의 원형질막과 접합하면 정자 전체가 난자의 원형질 내로 끌려 들어간다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="sym" n="01">
+				<frame>X+Y=N0-이 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">미생물</sel_rst>
+					<sel_rst arg="Y" tht="THM">미생물</sel_rst>
+					<eg>두 세포가 접합해 하나의 세포가 되면 그 세포는 다른 세포에 비해 염색체 수가 두 배가 된다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>join</trans>
+				<trans>unite</trans>
+				<trans>put together</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="sym" n="02">
+				<frame>X=N0-이 Y=N1-을 Z=N2-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|추상적대상</sel_rst>
+					<sel_rst arg="Z" tht="COM">구체물|추상적대상</sel_rst>
+					<eg>그 의사는 수지접합술의 전문가로 잘라진 손가락의 혈관을 신경과 정확히 접합해 냈다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="02">
+				<frame>X=N0-이 Y+Z=N1-을 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|추상적대상</sel_rst>
+					<sel_rst arg="Z" tht="THM">구체물|추상적대상</sel_rst>
+					<eg>그 관광지에서 주로 많이 눈에 띄는 것으로는 곰, 여우 등 동물의 조각품과 재질과 색상이 다른 각종의 목재를 접합해 만든 목에 거는 장신구들이다.</eg>
+					<eg>그 의사는 수지접합술의 전문가로 잘라진 손가락의 혈관과 신경을 찾아 정확히 접합해 냈다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>blendmergeunite</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="sym" n="03">
+				<frame>X=N0-이 Y=N1-을 Z=N2-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Z" tht="COM">추상적대상</sel_rst>
+					<eg>저희 팀에서는 시비법 등 기존 육종법의 기술을 유전공학 기술과 접합해 증산폭을 더욱 늘릴 수 있는 신기술을 개발할 예정입니다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="etc" n="03">
+				<frame>X=N0-이 Y+Z=N1-을 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Z" tht="THM">추상적대상</sel_rst>
+					<eg>포크와 클래식을 절묘하게 접합한 세 곡은 그 음반을 더욱 빛내 주고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>oinunite</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|미생물</sel_rst>
+					<sel_rst arg="Z" tht="GOL">구체물|미생물</sel_rst>
+					<eg>원래의 위치로 손가락을 봉합하는 것이 불가능할 경우 신체의 다른 부위에 접합한 뒤 이식을 하는 방법이 이용된다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>fuseblendmerge</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Z" tht="GOL">추상적대상</sel_rst>
+					<eg>저희 학원은 다양한 문화 시설을 학습 프로그램에 접합하여 학생들의 향상된 언어를 현지에서 활용할 수 있게 하고 있습니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

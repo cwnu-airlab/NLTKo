@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>습격</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/09</cre_date>
+				<cre_writer>박동호</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/24</mod_date>
+				<mod_writer>한선혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/01/13(김미현)sense1 예문 추가</note>
+			<note>2003/01/13(김미현)sense1 예문 추가</note>
+			<note>sense2 예문 추가</note>
+			<note>2003/01/13(김미현)sense1 예문 추가</note>
+			<note>sense2 예문 추가</note>
+			<note>sense2 기능동사 삭제</note>
+			<note>2003/01/13(김미현)sense1 예문 추가</note>
+			<note>sense2 예문 추가</note>
+			<note>sense2 기능동사 삭제</note>
+			<note>2003/03/24(한선혜)센스1의 예문 수정</note>
+			<note>2003/01/13(김미현)sense1 예문 추가</note>
+			<note>sense2 예문 추가</note>
+			<note>sense2 기능동사 삭제</note>
+			<note>2003/03/24(한선혜)센스1의 예문 수정</note>
+			<note>센스2의 선택제약 수정</note>
+			<add>2003/01/13(김미현)~을 감행하다</add>
+			<add>2003/01/13(김미현)~을 감행하다</add>
+			<add>~이 감행되다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">襲擊</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~대</der>
+			<comp pos="n" type="prefix">야간~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~받다</comp>
+			<comp pos="v" type="suffix">~당하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>어둠을 틈타 적은 아군 기지의 ~을 감행했다.</eg>
+				<eg>흥분한 시민들이 시청을 ~을 했다.</eg>
+				<trans>attack</trans>
+				<trans>assault</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>행위</sem_class>
+				<lr>
+					<syn type="etc">기습</syn>
+					<ant type="temp"></ant>
+					<hyper>공격</hyper>
+					<hypo>야습</hypo>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 전광석화같다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을　하다</form>
+					<frame>X-이 Y-을 ~을　하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다|당하다</form>
+					<frame>Y-이 X-에게 ~을 받다|당하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~받다-->
+				<!--vcompound: ~당하다-->
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 감행되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 감행하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|장소</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>갑작스런 ~으로 마을은 순식간에 불바다가 되었다.</eg>
+				<eg>어젯밤 적의 ~이 있었다.</eg>
+				<trans>attack</trans>
+				<trans>assault</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>사건</sem_class>
+				<lr>
+					<syn type="etc">기습</syn>
+					<ant type="temp"></ant>
+					<hyper>공격</hyper>
+					<hypo>야습</hypo>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 전광석화같다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|장소</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>없다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/01/28</cre_date>
+				<cre_writer>김종명</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/02/28</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/01/12</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/15</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/09/10</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>A</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>속성값</sem_class>
+				<trans>not exist</trans>
+				<lr>
+					<ant type="dir">있다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<eg>귀신이란 원래 없다.</eg>
+					<eg>네모진 원은 없다.</eg>
+					<eg>그 일을 할 만한 사람이 없다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상</sel_rst>
+					<eg>내가 그런 말을 한 사실이 없다.</eg>
+					<eg>내가 그를 부를 마땅한 호칭이 없다.</eg>
+					<eg>최근에는 하루도 편안한 날이 없었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">사건</sel_rst>
+					<eg>그런 일은 없다.</eg>
+					<eg>그 동안 별일은 없었니?</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(필요)</sel_rst>
+					<eg>너는 올 필요 없다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>Y=N1-에 X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<eg>하늘에 구름 한 점 없다.</eg>
+					<eg>집안에 아무도 없었다.</eg>
+					<eg>영수는 지금 서울에 없다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소|추상적대상|행위</sel_rst>
+					<eg>그런 악습은 더 이상 이 마을에 없다.</eg>
+					<eg>합격자 명단에 네 이름이 없다.</eg>
+					<eg>그런 생활 속에는 기쁨이 없다.</eg>
+					<eg>학문에는 왕도가 없다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>Y=S데1-에 X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="LOC"></sel_rst>
+					<eg>그 일을 하는 데에는 편법이 없다.</eg>
+					<eg>그 카메라를 작동을 하는 데에 아무런 이상이 없었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>Y=S음1-에|이 X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(틀림)</sel_rst>
+					<sel_rst arg="Y" tht="LOC"></sel_rst>
+					<eg>그가 범인임에 틀림이 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>속성값</sem_class>
+				<trans>be bad</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">음식</sel_rst>
+					<eg>찬은 없지만 많이 드세요.</eg>
+					<eg>반찬이 많이 없지만 밥이라도 많이 드세요.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>X=S것0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM"></sel_rst>
+					<eg>차린 것이 없지만 많이 드세요.</eg>
+					<eg>입맛에 맞는 것이 없으시겠지만 많이 드세요.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>속성값</sem_class>
+				<trans>be poor</trans>
+				<lr>
+					<ant type="dir">있다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(돈|여유)</sel_rst>
+					<eg>그렇지 않아도 없는 살림을 꾸려 가느라 고생이 많다.</eg>
+					<eg>없다고 우습게 알다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>속성값</sem_class>
+				<trans>not work</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-에 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="LOC">인간집단</sel_rst>
+					<eg>나는 이제 그 회사에 없다.</eg>
+					<eg>얼마 전 부서 이동이 있어서 지금은 내가 그 사무실에 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>속성값</sem_class>
+				<trans>not have</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>Y=N1-이|에|에게 X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="LOC">구체물</sel_rst>
+					<eg>그는 불어사전이 없었다.</eg>
+					<eg>나는 돈이 없었다.</eg>
+					<eg>그 운동화에는 끈이 없다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="LOC">인간</sel_rst>
+					<eg>순이에게는 캐낼 만한 어두운 과거가 없었다.</eg>
+					<eg>순이는 아무런 잘못이 없었다.</eg>
+					<eg>내가 시간이 없다.</eg>
+					<eg>그는 여유가 없다.</eg>
+					<eg>내가 전혀 식욕이 없다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="LOC">구체물</sel_rst>
+					<eg>그 책에는 그림이 없다</eg>
+					<eg>카메라에는 아무런 이상이 없다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">관계인간</sel_rst>
+					<sel_rst arg="Y" tht="LOC">인간</sel_rst>
+					<eg>나는 형제가 없다.</eg>
+					<eg>그는 자식이 없다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Z=N2-에 Y=N1-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">장소|신체부위|추상적대상</sel_rst>
+					<sel_rst arg="Z" tht="LOC">부분장소|신체부위|추상적대상</sel_rst>
+					<eg>그는 학교에 자기 연구실이 있다.</eg>
+					<eg>그는 얼굴에 여드름이 하나도 없다.</eg>
+					<eg>그가 생활에 여유가 없다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Z=S기2-에 Y=N1-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(문제|하자|결함)</sel_rst>
+					<sel_rst arg="Z" tht="CRT"></sel_rst>
+					<eg>그는 대통령이 되기에 문제가 없다.</eg>
+					<eg>김 후보는 국회의원이 되기에 아무런 하자가 없다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Z=N2-로 Y=N1-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(문제|하자|결함)</sel_rst>
+					<sel_rst arg="Z" tht="CRT">역할인간</sel_rst>
+					<eg>그는 대통령으로 문제가 없다.</eg>
+					<eg>그녀는 그 부서의 장으로 아무런 결함이 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="06">
+			<sem_grp>
+				<sem_class>속성값</sem_class>
+				<trans>lack</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">온</sel_rst>
+					<sel_rst arg="Y" tht="THM">속성값</sel_rst>
+					<eg>철수는 의리가 없다.</eg>
+					<eg>그는 용기가 없다.</eg>
+					<eg>그 영화는 재미가 없다.</eg>
+					<eg>그 음식이 맛이 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="07">
+			<sem_grp>
+				<sem_class>속성값</sem_class>
+				<trans>do not need</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=S것1 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">온</sel_rst>
+					<sel_rst arg="Y" tht="THM"></sel_rst>
+					<eg>너까지는 갈 것 없다.</eg>
+					<eg>그럴 것 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<idm_grp>
+			<idm>볼품이 없다</idm>
+			<idm>바람 잘 날이 없다</idm>
+			<idm>천하에 없는 ...라도</idm>
+			<idm>없는 게 없다</idm>
+			<idm>짝이 없다</idm>
+			<idm>온데간데 없다</idm>
+			<idm>터무니(가) 없다</idm>
+			<idm>손색이 없다</idm>
+			<idm>S를 리가 없다</idm>
+			<idm>진배가 없다</idm>
+			<idm>어처구니가 없다</idm>
+			<idm>종잡을 수(가) 없다</idm>
+			<idm>두서(가) 없다</idm>
+			<idm>어쩔 수(가) 없다</idm>
+			<idm>말할 것도 없다</idm>
+			<idm>S을 까닭이 없다</idm>
+			<idm>이를 데 없다</idm>
+			<idm>이루 다 헤아릴 수가 없다</idm>
+			<idm>여념이 없다</idm>
+			<idm>입추의 여지가 없다</idm>
+			<idm>세상에 그런 (효녀 + 바보 + ....)는 없다.</idm>
+			<idm>이런 천하에 없는 후레자식 같으니라구</idm>
+			<idm>...리가 없다</idm>
+			<idm>...법은 없다</idm>
+			<idm>...수밖에 없다</idm>
+			<idm>...수가 없다</idm>
+			<idm>... 턱(이) 없다</idm>
+			<idm>턱(도) 없다</idm>
+		</idm_grp>
+	</entry>
+	<entry n="2" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/01/28</cre_date>
+				<cre_writer>김종명</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/02/28</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/01/12</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/15</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>A</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>속성값</sem_class>
+				<trans>not exist</trans>
+			</sem_grp>
+			<frame_grp type="SA" cor="sym" n="01">
+				<frame>X=N0-이 Y=N2-와 (서로) Npr1-이 A</frame>
+				<subsense>
+					<sel_rst arg="Npr1">(관련|관계|연관)</sel_rst>
+					<sel_rst arg="X" tht="THM">온</sel_rst>
+					<sel_rst arg="Y" tht="COM">온</sel_rst>
+					<eg>나는 그 일과는 아무런 관련이 없다.</eg>
+					<eg>내가 그와는 아무런 관계가 없다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="SA" cor="sym" n="01">
+				<frame>X+Y=N0-이 (서로) Npr1-이 A</frame>
+				<subsense>
+					<sel_rst arg="Npr1">(관련|관계|연관)</sel_rst>
+					<sel_rst arg="X" tht="THM">온</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<eg>나와 그 일은 서로 아무런 관련이 없다.</eg>
+					<eg>나와 그는 아무런 관계가 없다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="SA">
+				<frame>X=N0-이 Y=N2-에|에게|에대해 Npr1-이 A</frame>
+				<subsense>
+					<sel_rst arg="Npr1">(관심|흥미|미련|재주|취미)</sel_rst>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="LOC">온</sel_rst>
+					<eg>나는 그 일에 관심이 없다.</eg>
+					<eg>나는 그 여자에 대해 관심이 없다.</eg>
+					<eg>그는 그런 일에 재주가 없다.</eg>
+					<eg>나는 그 일에는 도통 흥미가 없다.</eg>
+					<eg>그는 그 일에 미련이 없다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="Npr1">(관심|흥미|미련|재주|취미)</sel_rst>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="LOC">S것|S데</sel_rst>
+					<eg>나는 그런 공부를 하는 것에 대해 관심이 없다.</eg>
+					<eg>나는 그런 일을 하는 데에 취미가 없다.</eg>
+					<eg>내가 그런 일을 하는 데에 뜻이 없다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="SA">
+				<frame>X=N0-에게는|이 Y=N2-이 Npr1-이 A</frame>
+				<subsense>
+					<sel_rst arg="Npr1">(관심|흥미)</sel_rst>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<eg>나에게는 그 일이 관심이 없다.</eg>
+					<eg>나에게는 그 여자가 관심이 없다.</eg>
+					<eg>나(에게)는 그 일이 도통 흥미가 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

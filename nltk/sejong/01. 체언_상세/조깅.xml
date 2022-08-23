@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>조깅</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/06/01</cre_date>
+				<cre_writer>송길룡;홍재성</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/15</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/29</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>1999/06/17</note>
+			<note>2003/04/12(김현승)의미부류를 '행위'에서 '지속적행위'로 수정</note>
+			<note>2003/04/15(고길수)예문 수정 및 추가</note>
+			<note>add에 동사결합 정보 추가</note>
+			<note>comb_v정보 add항목으로 이전</note>
+			<note>domain정보 '운동' 삭제</note>
+			<note>pre_d에서 '~' 삭제</note>
+			<note>sel_res정보 기술</note>
+			<note>단위표현 기술</note>
+			<add>동사결합 '~을 가다|다니다'</add>
+			<add>동사결합으로 '~을 좋아하다|즐기다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="en">jogging</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~광</der>
+			<der pos="n" type="suffix">~복</der>
+			<der pos="n" type="suffix">~화</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 건강을 위해 매일 아침에 근처 공원에서 ~을 한다.그는 산책로를 따라 ~을 한다.</eg>
+				<eg>그는 매일 아침 집에서 근처 공원까지 3 킬로미터를 ~을 한다.</eg>
+				<trans>jogging</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>몸짓및동작</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>스포츠</hyper>
+					<hyper>운동</hyper>
+					<coord>걷기</coord>
+					<coord>등산</coord>
+					<coord>산책</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 가다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 다니다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 좋아하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 즐기다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

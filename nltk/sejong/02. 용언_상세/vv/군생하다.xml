@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>군생하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/27</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>유경민</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/08/27</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/10/14</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>형태정보, 의미정보, 격틀 조정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">군생을 하다</var>
+			<str>N.하</str>
+			<org lg="si">群生_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>체류</sem_class>
+				<trans>live in stocks</trans>
+				<trans>grow in stocks</trans>
+				<lr>
+					<syn type="perfect">군서하다</syn>
+					<syn type="perfect">군거하다</syn>
+					<hyper>살다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">식물</sel_rst>
+					<eg>울창한 수풀 아래를 보니 이름을 알 수 없는 식물이 군생하고 있었다.</eg>
+					<eg>산의 높이에 따라 군생하는 식물의 종류가 확연히 달라지기 때문에 등산이 지겹지가 않다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

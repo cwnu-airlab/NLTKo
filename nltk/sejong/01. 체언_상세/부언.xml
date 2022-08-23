@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>부언</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/18</cre_date>
+				<cre_writer>한동훈</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/18</mod_date>
+				<mod_writer>한동훈</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>동형어 정보 추가</mod_note>
+				<mod_note>단위표현 추가</mod_note>
+				<mod_note>동사결합 정보 추가</mod_note>
+				<mod_note>논항명사구, 논항 의미정보 추가</mod_note>
+				<mod_note>단위표현 추가</mod_note>
+				<mod_note>수식어절 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/25</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>의미부류 '이야기'를 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">浮言</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~이 난무하여 도무지 뭐가 진실인지 갈피를 잡을 수가 없다.</eg>
+				<trans>rumor</trans>
+				<sem_class>소문</sem_class>
+				<lr>
+					<syn type="etc">유언비어</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vpred"> <!-- 추가 -->
+					<form vcompound="no">~을 듣다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred"> <!-- 추가 -->
+					<form vcompound="no">~이 떠돌다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-에 대한 ~</max_n_str> <!-- 추가함 -->
+				<max_n_str>S것-에 대한 ~</max_n_str> <!-- 추가함 -->
+				<max_n_str>S데-에 대한 ~</max_n_str> <!-- 추가함 -->
+				<sel_rst arg="X">온</sel_rst> <!-- 추가함 -->
+				<cl type="uni">개</cl> <!-- 추가 -->
+				<s_n>S다는 ~</s_n> <!-- 추가 -->
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/18</cre_date>
+				<cre_writer>한동훈</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/18</mod_date>
+				<mod_writer>한동훈</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/12/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>동형어 정보 추가</mod_note>
+				<mod_note>동사결합 추가 및 수정</mod_note>
+				<mod_note>논항명사구 추가</mod_note>
+				<mod_note>논항 의미정보 수정</mod_note>
+				<mod_note>수식어절 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/25</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>s_n 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">附言</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>한마디 더 ~을 하고자 합니다.</eg>
+				<trans>additional remark</trans>
+				<sem_class>이야기</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~을 달다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame> <!-- X-이 Y-에게 ~을 하다 수정 -->
+					<frame>X-이 S음-을 ~을 하다</frame> <!-- 추가 -->
+					<frame>X-이 S고 ~을 하다</frame> <!-- 추가 -->
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가함 -->
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">추상적대상|사태</sel_rst> <!-- 인간|인간집단 수정 -->
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

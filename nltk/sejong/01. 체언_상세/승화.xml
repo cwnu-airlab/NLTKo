@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>승화</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/21</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/17</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/26</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1의 의미부류 수정;논항 명사구 정보 추가;선택제약 정보 수정;센스2에 동사결합, 논항 명사구, 선택제약 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/26</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/08/28(김종명)센스1,2기능동사정보.센스전문분야수정</note>
+			<note>2002/10/09(박만규)</note>
+			<note>2003/09/15(기영인)센스1 의미부류 수정;기능동사구문 정보입력;논항선택제약 정보입력;센스2 의미부류 수정;add 정보입력</note>
+			<note>2003/09/17(김진형)</note>
+			<note>2003/09/17(기영인)</note>
+			<add>(sense2) (rel) 기화</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">昇華</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>시인의 고뇌와 슬픔이 아름다운 싯귀로 ~가 되었다.</eg>
+				<trans>sublimation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>상태변화</sem_class> <!-- 긍정적결과행위 수정 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-로 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-이 Y-로 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-로의 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-로의 ~</max_n_str>
+				<sel_rst arg="X">사태|인간|구체인공물|추상적대상</sel_rst> <!-- 부정적감정, 시간|방법|역할|능력|생각|사실명제|기호|언어|의무|역사|텍스트 삭제 -->
+				<sel_rst arg="Y">사태|긍정적도덕속성인간|긍정적속성구체물|추상적대상</sel_rst> <!-- 긍정적감정, 시간|방법|역할|능력|생각|사실명제|기호|언어|종교|예술|작품 삭제 -->
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>드라이아이스에 열을 가하면 고체 상태에서 곧바로 ~를 하여 기체가 된다.</eg>
+				<trans>sublimation</trans>
+				<domain>물리</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>물리화학현상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">광물|기상관련물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

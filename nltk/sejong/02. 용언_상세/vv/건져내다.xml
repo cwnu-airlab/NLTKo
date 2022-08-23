@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>건져내다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>내부구조 제시방식 수정</mod_note>
+				<mod_note>영어대역어 수정</mod_note>
+				<mod_note>어휘의미관계 보충</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">건져를 내다</var>
+			<str>V-어.V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>사동적이동행위</sem_class>
+				<trans>take out of</trans>
+				<trans>pick up</trans>
+				<lr>
+					<syn type="perfect">들어내다</syn>
+					<ant type="dir">집어넣다</ant>
+					<rel>꺼내다</rel>
+					<rel>들어내다</rel>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에서 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Z" tht="SRC">장소</sel_rst>
+					<eg>이든이는 멸치 대가리들을 국물에서 다 건져내고 건더기 없는 국물만 마셨다.</eg>
+					<eg>나 어렸을 적만 해도 때밀이들이 잠자리 채를 가지고 탕에서 때찌꺼기들을 건져내곤 했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>방향성행위</sem_class>
+				<trans>help sb out of</trans>
+				<trans>rescue</trans>
+				<lr>
+					<syn type="sino">구해내다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에서 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">동물|인간</sel_rst>
+					<sel_rst arg="Z" tht="SRC">장소(강|연못|호수|늪|바다)</sel_rst>
+					<eg>구조대는 상에서 사람들을 건져내기 시작했다.</eg>
+					<eg>아버지는 연못에서 개를 건져내시느라고 애를 쓰셨다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>방향성행위</sem_class>
+				<trans>save</trans>
+				<trans>redeem</trans>
+				<lr>
+					<syn type="perfect">살려내다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에서 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<sel_rst arg="Z" tht="SRC">추상적대상</sel_rst>
+					<eg>영자를 깡패들의 손아귀에서 건져낸 것은 김 선생의 꾸준한 노력 덕분이었다.</eg>
+					<eg>우리는 아버지의 도움으로 영철이의 사업체를 파산 직전에서 건져낼 수 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

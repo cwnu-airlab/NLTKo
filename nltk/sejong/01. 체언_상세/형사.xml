@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>형사</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/15</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/08</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/10</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note>n_v, n_n 정보 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/06</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동, 합성어 "~입건" 추가</mod_note>
+			</mod>
+			<note>2001/07/20(고길수)</note>
+			<note>2001/08/05(이성헌)</note>
+			<note>2003/02/03(김진형)sense2 의미부류 수정</note>
+			<note>2003/02/08(이지영)cl추가</note>
+			<note>comb_v 정보 add로 이동</note>
+			<note>sense 1 예문 수정</note>
+			<note>관련어 추가</note>
+			<note>센스1이 명사인가?</note>
+			<note>의미부류 수정</note>
+			<note>합성어 검토 요망</note>
+			<note>합성어 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">刑事</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~범</der>
+			<der pos="n" type="suffix">~학</der>
+			<comp pos="n" type="suffix">~경찰</comp>
+			<comp pos="n" type="suffix">~금치산자</comp>
+			<comp pos="n" type="suffix">~미성년자</comp>
+			<comp pos="n" type="suffix">~벌</comp>
+			<comp pos="n" type="suffix">~대</comp>
+			<comp pos="n" type="suffix">~법</comp>
+			<comp pos="n" type="suffix">~보상</comp>
+			<comp pos="n" type="suffix">~부</comp>
+			<comp pos="n" type="suffix">~사건</comp>
+			<comp pos="n" type="suffix">~사회학</comp>
+			<comp pos="n" type="suffix">~소송</comp>
+			<comp pos="n" type="suffix">~소추</comp>
+			<comp pos="n" type="suffix">~순경</comp>
+			<comp pos="n" type="suffix">~시효</comp>
+			<comp pos="n" type="suffix">~심리학</comp>
+			<comp pos="n" type="suffix">~재판</comp>
+			<comp pos="n" type="suffix">~재판권</comp>
+			<comp pos="n" type="suffix">~정책</comp>
+			<comp pos="n" type="suffix">~제재</comp>
+			<comp pos="n" type="suffix">~직권법</comp>
+			<comp pos="n" type="suffix">~책임</comp>
+			<comp pos="n" type="suffix">~처분</comp>
+			<comp pos="n" type="suffix">~특별법</comp>
+			<comp pos="n" type="suffix">~판결</comp>
+			<comp pos="n" type="suffix">~입건</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>한국에서 간통은 ~ 사건에 해당된다.</eg>
+				<trans>criminal case</trans>
+				<domain>법률</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">민사</ant>
+					<coord>민사</coord>
+					<rel>형법</rel>
+					<rel>검사</rel>
+					<rel>공소권</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>범인을 체포하기 위해 두 명의 ~가 잠복 근무를 하고 있다</eg>
+				<trans>detective</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>직업인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>경찰</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 유능하다</comb_aj>
+				<comb_n type="compound">베테랑 ~</comb_n>
+				<comb_n type="compound">비리 ~</comb_n>
+				<comb_n type="compound">~ 기동대</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 따돌리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 파견하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

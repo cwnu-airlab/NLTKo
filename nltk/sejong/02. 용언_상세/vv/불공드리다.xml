@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>불공드리다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/02</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/02</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/08/18</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="i"/>
+			<org lg="si">佛供__</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>종교및의례행위</sem_class>
+				<trans>hold</trans>
+				<trans>offer a Buddhist mass</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">추종자(불신자|불교도)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">(절|사원|사찰)|(부처님)</sel_rst>
+					<eg>할머니는 매일 절에 가셔서 부처님께 불공드린다.</eg>
+					<eg>스님은 어느 날 불공을 드리러 온 여인에게 한눈에 반해 버렸다.</eg>
+					<eg>여인이 부처님께 불공을 드리고 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

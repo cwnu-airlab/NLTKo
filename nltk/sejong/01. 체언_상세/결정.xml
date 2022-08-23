@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>결정</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/03</cre_date>
+				<cre_writer>차준경</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/03</mod_date>
+				<mod_writer>한선혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/12</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>예문 형식 수정, trans 형식 수정, n_v 표기 오류 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/29</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note>동사구 정보 대폭 수정</mod_note>
+			</mod>
+			<note>2001/01/22(조진현</note>
+			<note>2003/02/19(최지임)예문수정</note>
+			<note>2003/08/03(한선혜)예문 수정</note>
+			<note>pre_s 정보 삽입</note>
+			<note>강범모)</note>
+			<note>기능동사 및 논항선택제약 수정</note>
+			<note>기능동사구문 수정</note>
+			<note>동사연어구성정보 add에 입력</note>
+			<note>의미부류 수정</note>
+			<note>형용사자유구성정보 입력</note>
+			<add>~이 나다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">決定</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~서</der>
+			<der pos="n" type="suffix">~자</der>
+			<der pos="n" type="suffix">~론</der>
+			<der pos="n" type="suffix">~력</der>
+			<comp pos="n" type="suffix">~인자</comp>
+			<comp pos="n" type="suffix">~투표</comp>
+			<comp pos="n" type="suffix">~판</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이번 행사에 대해서는 큰 테두리만 정해졌을 뿐 구체적인 사항들은 아직 ~을 보지 못했습니다.</eg>
+				<eg>선발자의 ~을 앞두고 심사위원들이 의견 조종을 하는 중이다.</eg>
+				<trans>decision</trans>
+				<trans>determination</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>인지추상적 행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">신중한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="yes">~을 내리다</form>
+					<frame>X-이 Y|S것-을 ~을 내리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="yes">~을 내리다</form>
+					<frame>X-이 S기-로 ~을 내리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="yes">~을 짓다</form>
+					<frame>X-이 Y|S것-을 ~을 짓다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="yes">~을 짓다</form>
+					<frame>X-이 S기-로 ~을 짓다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y|S것-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 S기-로 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y|S것-이 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>S기-로 ~이 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">추상적 대상|행위</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d>이</pre_d>
+				<pre_n/>
+				<s_n>S다는 ~</s_n>
+				<s_n>S자는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/03</cre_date>
+				<cre_writer>차준경</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/03</mod_date>
+				<mod_writer>한선혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/12</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>syn 속성값 수정</mod_note>
+			</mod>
+			<note>2001/01/22(조진현</note>
+			<note>2003/02/19(최지임)sense1 의미부류수정</note>
+			<note>2003/08/03(한선혜)예문 수정</note>
+			<note>sense2 의미부류 수정</note>
+			<note>강범모)</note>
+			<note>단위표현 입력</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">結晶</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~화</der>
+			<der pos="n" type="suffix">~계</der>
+			<der pos="n" type="suffix">~체</der>
+			<der pos="n" type="suffix">~학</der>
+			<comp pos="n" type="suffix">~광학</comp>
+			<comp pos="n" type="suffix">~구조</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>아이들은 현미경으로 각 물질의 ~을 관찰하고 그 차이점을 발표하는 시간을 가졌다.</eg>
+				<trans>crystallization</trans>
+				<domain>물리;화학</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>부분</sem_class>
+				<lr>
+					<syn type="perfect">결정체</syn>
+					<ant type="temp"></ant>
+					<rel>원자</rel>
+					<rel>이온</rel>
+					<rel>분자</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이 책은 그의 모든 피와 노력의 ~이다.</eg>
+				<trans>crystallization</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>결과</sem_class>
+				<lr>
+					<syn type="kor">보람</syn>
+					<syn type="perfect">결과</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">노력의 ~</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

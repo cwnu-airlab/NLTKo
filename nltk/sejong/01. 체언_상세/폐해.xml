@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>폐해</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/22</cre_date>
+				<cre_writer>김미현</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/18</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/27</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2005/10/06</mod_date>
+                                <mod_writer>박만규</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+                        <mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>'~가 크다|심각하다'는 comb_aj에서 magn로 수정</note>
+			<note>2002/09/09(박동호)</note>
+			<note>2002/10/13(고길수)영어대역어 보충</note>
+			<note>2003/05/05(서진숙)</note>
+			<note>2003/06/18(이성헌)sem을 추상적대상'에서 '우발사건'으로 수정</note>
+			<note>add에 동사결합 정보 추가</note>
+			<note>add의 '생기다|나타나다'를 comb_v로 이동</note>
+			<note>magn에 '~가 막대하다, ~가 작다|적다' 추가</note>
+			<note>pre_s에 'S는 ~' 추가</note>
+			<note>의미부류를 '속성'에서 '추상적대상'으로 수정, 단 '피해, 손해' 등과 관련한 별도 부류 설정 필요</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">弊害</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>정치인들의 부패가 낳은 ~는 날로 심각해지는 것 같다.</eg>
+				<eg>연이은 학생들의 자살로 일류병의 ~가 어느 정도였는가를 짐작할 수 있다.</eg>
+				<eg>아동의 영양과다로 인한 ~가 심각하게 나타나고 있다.</eg>
+				<eg>마약으로 인한 ~를 없애기 위해서는 정부와 국민이 함께 나서야 한다.</eg>
+				<trans>abuse</trans>
+				<trans>evil influence</trans>
+				<trans>bad effect</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>피해</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~가 크다</comb_aj>
+				<comb_aj type="magn">~가 심각하다</comb_aj>
+				<comb_aj type="magn">~가 막대하다</comb_aj>
+				<comb_aj type="magn">~가 작다</comb_aj>
+				<comb_aj type="magn">~가 적다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 생기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 발생하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 나타나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 따르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+						<form vcompound="no">~을 끼치다</form>
+						<frame></frame>
+					</comb_v>
+				<comb_v type="npred_vpred">
+						<form vcompound="no">~을 바로잡다</form>
+						<frame></frame>
+					</comb_v>
+				<comb_v type="npred_vpred">
+						<form vcompound="no">~을 고치다</form>
+						<frame></frame>
+					</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는  ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

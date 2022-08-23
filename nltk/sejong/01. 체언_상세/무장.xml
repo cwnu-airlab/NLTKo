@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>무장</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/09</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/04</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add정보를 센스1 n_v와 센스2 n_n으로 이동</mod_note>
+				<mod_note>센스2 n_n 추가</mod_note>
+				<mod_note>센스2 n_v, 최대논항구조, 선택제약 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/03</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/09/21(정유진)</note>
+			<note>2000/09/25(정유진)</note>
+			<note>2001/01/22(백인애, 강범모)</note>
+			<note>2003/02/18(기영인)엔트리 순서 바꿈</note>
+			<note>2003/03/02(박동호)sense2의 comb_n을 add로 이동</note>
+			<note>2003/03/04(기영인)</note>
+			<note>combv 정보 add로 이동</note>
+			<note>combv 정보삭제</note>
+			<note>기능동사구문 수정</note>
+			<note>선택제약 정보수정</note>
+			<note>센스1 의미부류 수정</note>
+			<note>센스2 예문 수정</note>
+			<note>의미부류 수정</note>
+			<note>최대논항명사구 정보수정</note>
+			<note>합성어 정보수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">武裝</org>
+		
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~간섭</comp>
+			<comp pos="n" type="suffix">~간첩</comp>
+			<comp pos="n" type="suffix">~경찰</comp>
+			<comp pos="n" type="suffix">~병력</comp>
+			<comp pos="n" type="suffix">~봉기</comp>
+			<comp pos="n" type="suffix">~정찰</comp>
+			<comp pos="n" type="suffix">~평화</comp>
+			<comp pos="n" type="suffix">~해제</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>1587 부대는 적군에게 완전히 포위되어 ~이 해제되었다.</eg>
+				<trans>armament</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">비무장</ant>
+					<rel>군대</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">완전 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 풀다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 해제하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|직업인간|군대</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 강한 정신력으로 ~을 하여 투쟁에 뛰어들었다.</eg>
+				<trans>resolution</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>인지적행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">정신 ~</comb_n>
+				<comb_n type="compound">사상 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-로 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">능력|개념</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/09</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/02</mod_date>
+				<mod_writer>박동호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>분류사 추가</mod_note>
+				<mod_note>n_v 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/03</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/09/21(정유진)</note>
+			<note>2000/09/25(정유진)</note>
+			<note>2001/01/22(백인애, 강범모)</note>
+			<note>2003/02/18(기영인)의미부류 수정</note>
+			<note>2003/03/02(박동호)</note>
+			<note>combv 정보삭제</note>
+			<note>관련어 정보추가</note>
+			<note>단위표현 정보수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">武將</org>
+		
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc">~지졸</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>1000명의 부하보다 한 명의 용맹스런 ~이 더 필요하다.</eg>
+				<trans>general</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>직업인간</sem_class>
+				<lr>
+					<syn type="etc">장군</syn>
+					<ant type="temp"></ant>
+					<rel>군대</rel>
+					<rel>무관</rel>
+					<rel>장수</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 용감하다</comb_aj>
+				<comb_aj type="appr">~이 용맹스럽다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>윤택</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/09</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/17</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/19</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<note>2001/09/21(한선혜|이성헌)</note>
+			<note>2003/01/21(유영) comb_v를 add로 이동, sens2의 comb_v ~을 구가하다 삭제</note>
+			<note>2003/06/17(이성헌)센스2의 sem을 '상태'에서 '속성값'으로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">潤澤</org>
+		
+			<hom exist="yes"></hom>
+			<der pos="a" type="suffix">~하다</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>세차를 하고 왁스를 발라 닦았더니 10년된 중고차에서도 ~이 났다.</eg>
+				<trans>gloss</trans>
+				<trans>luster</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>현상</sem_class>
+				<lr>
+					<syn type="etc">광택</syn>
+					<syn type="etc">광</syn>
+					<syn type="etc">빛</syn>
+					<ant type="temp"></ant>
+					<rel>표면상태</rel>
+					<rel>청소</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 나다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="narg_vpred">
+					<form vcompound="no">~을 누리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>생활의 ~이 단지 물질적 풍요만을 의미하는 것은 아니다.</eg>
+				<trans>abundance</trans>
+				<trans>richness</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성값</sem_class>
+				<lr>
+					<syn type="etc">풍요</syn>
+					<syn type="etc">풍부</syn>
+					<syn type="etc">유복</syn>
+					<ant type="etc">빈곤</ant>
+					<ant type="etc">가난</ant>
+					<hyper>경제상태</hyper>
+					<coord>빈곤</coord>
+					<coord>빈천</coord>
+					<coord>가난</coord>
+					<coord>풍부</coord>
+					<coord>풍요</coord>
+					<coord>유복</coord>
+					<rel>경제</rel>
+					<rel>살림</rel>
+					<rel>가계</rel>
+					<rel>재정</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">삶 ~</comb_n>
+				<comb_n type="compound">생활의 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 주다</form>
+					<frame>X-이 Y-에게 ~을 주다</frame>
+				</comb_v>
+				<max_n_str>X-에 의한 Y-의 ~</max_n_str>
+				<sel_rst arg="X">사건|행위</sel_rst>
+				<sel_rst arg="Y">추상적 대상(삶|생활)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>배기</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/06</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/24</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/13</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>센스2, sem 수정 - 기능동사구문 기술 - max_n, sel_rst, cl 기술</mod_note>
+				<mod_note>센스2, sem 검토바람</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 n_v 수정</mod_note>
+				<mod_note>센스1 선택제약 기술</mod_note>
+				<mod_note>센스2 의미부류 '결과행위'를 수정</mod_note>
+			</mod>
+			<note>2000/09/23(정유진)</note>
+			<note>2000/09/29(정유진)</note>
+			<note>2001/01/22(백인애,강범모)-배기: 접미사로 사용</note>
+			<note>2003/03/17(기영인)센스1 의미부류 수정</note>
+			<note>2003/03/23(박동호)</note>
+			<note>2003/03/24(기영인)</note>
+			<note>combv 정보 add로 이동</note>
+			<note>센스2 의미부류 수정</note>
+			<add>(sense1) ~가 나오다</add>
+			<add>(sense1) ~를 뽑다|뽑아내다</add>
+			<add>(sense2) ~를 조절하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">排氣</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~량</der>
+			<der pos="n" type="suffix">~구</der>
+			<comp pos="n" type="suffix">~가스</comp>
+			<comp pos="n" type="suffix">~관</comp>
+			<comp pos="n" type="suffix">~장치</comp>
+			<comp pos="n" type="suffix">~판</comp>
+			<comp pos="n" type="suffix">~밸브</comp>
+			<comp pos="n" type="suffix">~펌프</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>날씨가 추워서인지 자동차는 흰색의 ~와 함께 요란한 소리를 내며 출발했다.</eg>
+				<trans>exhaust</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>연기</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>기체</hyper>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 나오다</form>
+					<frame>X-에서 ~가 나오다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">교통수단|건물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>공장 굴뚝의 ~가 원할하지 않다.</eg>
+				<trans>ventilation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>지속적활동</sem_class><!--(권오희)'시설물'에서 수정. '지속적활동'이 더 나을지?-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>기체</hyper>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 원활하다</comb_aj>
+				<comb_n type="compound">실내 ~</comb_n>
+				<comb_n type="compound">~ 장치</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>X-이 Y-을 ~를 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|직업인간|기업|기기</sel_rst>
+				<sel_rst arg="Y">건물</sel_rst>
+				<cl type="uni">건</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

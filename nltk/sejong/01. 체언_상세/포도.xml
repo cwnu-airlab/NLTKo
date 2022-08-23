@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>포도</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/05/31</cre_date>
+				<cre_writer>홍재성;안근종;장수연</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/06</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/30</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/03/11(김미현)</note>
+			<note>2003/06/06(이성헌)'식물'로서의 센스2 추가</note>
+			<add>2003/03/11(김미현)~가 익다|썩다|상하다|나오다</add>
+			<add>~를 따다|먹다|재배하다|수확하다</add>
+			<add>동사 적정술어 추가(이선웅)</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">葡萄</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~원</der>
+			<der pos="n" type="suffix">~주</der>
+			<der pos="n" type="prefix">건~</der>
+			<comp pos="n" type="suffix">~나무</comp>
+			<comp pos="n" type="suffix">~당</comp>
+			<comp pos="n" type="suffix">~덩굴</comp>
+			<comp pos="n" type="suffix">~밭</comp>
+			<comp pos="n" type="suffix">~산</comp>
+			<comp pos="n" type="suffix">~색</comp>
+			<comp pos="n" type="suffix">~송이</comp>
+			<comp pos="n" type="suffix">~즙</comp>
+			<comp pos="n" type="prefix">청~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~는 그 지역에서 나는 것이 제일 맛있다.</eg>
+				<trans>grape</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>과일</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>열매</hyper>
+					<hyper>과일</hyper>
+					<hypo>거봉</hypo>
+					<hypo>청~</hypo>
+					<coord>사과</coord>
+					<coord>배</coord>
+					<coord>수박</coord>
+					<coord>딸기</coord>
+					<holo>~나무</holo>
+					<mero>껍질</mero>
+					<mero>씨</mero>
+					<rel>머루</rel>
+					<rel>덩굴</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 달다</comb_aj>
+				<comb_aj type="appr">~가 시다</comb_aj>
+				<comb_aj type="magn">~가 싱싱하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 따다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 먹다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 재배하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 수확하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">알</cl>
+				<cl type="grp">송이</cl>
+				<cl type="qnt">근</cl>
+				<cl type="qnt">관</cl>
+				<cl type="qnt">킬로(kilo)</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이 마을은 금년에 ~를 심어 큰 이익을 보았다.</eg>
+				<trans>grapevine</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>나무</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 심다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">그루</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

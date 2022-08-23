@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>넓다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/15</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/04/22</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<note>2003/04/22(김현권)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>A</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be broad and large</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소</sel_rst>
+					<n_appr arg="X">넓이</n_appr>
+					<eg>이 방은 우리가 자기에는 너무 넓다.</eg>
+					<eg>호남평야는 엄청나게 넓다.</eg>
+					<eg>강이 너무 넓어 헤엄을 쳐서는 건너갈 수 없다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">신체부위</sel_rst>
+					<n_appr arg="X">넓이</n_appr>
+					<n_appr arg="X">폭</n_appr>
+					<eg>그는 이마가 무척 넓다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be wide</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(폭|너비|통)</sel_rst> <!--X의 수식어: 옷-->
+					<eg>이 바지는 통이 넓다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be broadand comprehensive</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(지식|교양|식견|시야)</sel_rst>
+					<eg>지도자의 시야는 넓고 통찰력이 있어야 한다.</eg>
+					<eg>그 분은 식견과 교양이 무척 넓다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(주제|내용|설명|범위|관점)</sel_rst>
+					<eg>이 논문 주제는 너무 넓고 초점이 없다.</eg>
+					<eg>이 책이 다루고 있는 내용의 범위는 엄청나게 넓다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>긍정적인성속성값</sem_class>
+				<trans>be broad-minded</trans>
+				<trans>be large-hearted</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(마음|도량|아량|생각)</sel_rst>
+					<eg>그 친구는 마음이 무척 넓다.</eg>
+					<eg>넓은 아량으로 다시 한번 봐 주십시오.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>have a large acquaintance</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(발)</sel_rst>
+					<eg>그 친구는 발이 넓어서 알아 두면 편하다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>메마르다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>Vu</str>
+			<infl type="leu"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>get dried-up</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(땅|화초)</sel_rst>
+					<eg>마른 장마까지 겹쳐 땅이 아주 메말라 있었다.</eg>
+					<eg>물을 얼마나 안 주었길래 화초가 이렇게 메말랐냐?.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">신체부위(피부|입술|손|목)</sel_rst>
+					<eg>겨울에는 피부가 메마르고 트기 쉽다.</eg>
+					<eg>나는 그 날 어머니의 여위고 메마른 손을 보았다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(인정|감수성|정서|감정|정)|인간</sel_rst>
+					<eg>오랜 전쟁에 시달린 그 나라 사람들은 모두가 감정이 메마를대로 메말라 있었다.</eg>
+					<eg>도시 사람들은 시골사람들보다 정이 메말랐다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="EFF">(가뭄|더위)</sel_rst>
+					<eg>가뭄에 땅이 메말라 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

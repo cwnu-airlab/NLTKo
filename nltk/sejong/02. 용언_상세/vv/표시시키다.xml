@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>표시시키다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/11/21</cre_date>
+				<cre_writer>김현권</cre_writer>
+				<cre_writer>조현경</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2000/11/21</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/07/30</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">표시를 시키다</var>
+			<cntr opt="obl" type="i"/>
+			<str>N.시</str>
+			<org lg="si">表示_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>indicate</trans>
+				<trans>show</trans>
+				<trans>manifest</trans>
+				<trans>express</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 W=N3-에게 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">이름|기호</sel_rst>
+					<sel_rst arg="Z" tht="LOC">구체물|장소</sel_rst>
+					<sel_rst arg="W" tht="GOL">인간|인간집단</sel_rst>
+					<eg>공원 관리책임자는 작업인부들에게 모든 길에 이름을 표시시켰다.</eg>
+					<eg>안 되시는 분들은 폴더 옵션에서 확장자를 표시시켜 주신 다음에 다시 해 보세요.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>밍크</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/11</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/13</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/08/05(송인욱)센스2의 대역어 모르겠음</note>
+			<note>2003/10/13(박진호)합성어, add 추가</note>
+			<add>2003/08/05(송인욱)센스1의 동사자유구성으로 '~가 살다|죽다|서식하다</add>
+			<add>~를 기르다|잡다|죽이다</add>
+			<add>~로 만들다' 추가</add>
+			<add>2003/08/05(송인욱)센스2의 동사자유구성으로 '~를 입다|걸치다|벗다|팔다|사다|버리다|빨다|세탁하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">mink</org>
+		
+			<comp pos="n" type="suffix">~코트</comp>
+			<comp pos="n" type="suffix">~목도리</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>사냥꾼들의 남획으로 인해 이 지역의 ~는 멸종 위기에 처했다.</eg>
+				<eg>숲에서 우연히 두 마리의 ~를 만났지만 너무 사나워서 가까이 가지 못했다.</eg>
+				<trans>mink</trans>
+				<sem_class>짐승</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 작다</comb_aj>
+				<comb_aj type="appr">~가 귀엽다</comb_aj>
+				<comb_aj type="appr">~가 예쁘다</comb_aj>
+				<comb_aj type="appr">~가 사납다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 살다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 죽다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 서식하다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 잡다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 기르다</form>
+				</comb_v>
+				<cl type="uni">마리</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그녀는 겨울 내내 ~만 걸치고 다녀서 주위 사람들의 시샘을 샀다.</eg>
+				<eg>우리 엄마는 그 비싼 ~를 열 벌도 넘게 갖고 있다.</eg>
+				<trans>mink</trans>
+				<sem_class>옷</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 좋다</comb_aj>
+				<comb_aj type="appr">~가 나쁘다</comb_aj>
+				<comb_aj type="appr">~가 싸다</comb_aj>
+				<comb_aj type="appr">~가 비싸다</comb_aj>
+				<comb_aj type="appr">~가 어울리다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 입다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 걸치다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 벗다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 빨다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 세탁하다</form>
+				</comb_v>
+				<cl type="uni">벌</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

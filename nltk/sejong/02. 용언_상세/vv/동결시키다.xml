@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>동결시키다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/12</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/12</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/10/10</mod_date>
+				<mod_writer>김선영</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">동결을 시키다</var>
+			<cntr opt="opt" type="oi"/>
+			<str>N.시</str>
+			<org lg="si">凍結__</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>사동적행위</sem_class>
+				<trans>make (something) frozen</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-로|에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(생선|밥)</sel_rst>
+					<sel_rst arg="Z" tht="FNS">온도</sel_rst>
+					<eg>이 제품은 밥을 지은 후에 그것을 섭씨 -20도 정도로 급속하게 동결시킨 것이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>사동적행위</sem_class>
+				<trans>make (something) suspended</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-로|에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">(물가|예산|임금|월급)|수량</sel_rst>
+					<sel_rst arg="Z" tht="FNS">정도속성값|수|수량|(수준)</sel_rst>
+					<eg>상업국장이 나에게 제품이 모두 생활 필수품이니 단가를 한 자리 숫자에 동결시켜 달라는 압력을 가했다.</eg>
+					<eg>재정경제원장관은 "내년예산에서 경상경비는 올수준으로 동결시키고 신규사업도 경쟁력강화에 필수적인 사업만 허용하겠다"고 밝혔다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">행위|사건</sel_rst>
+					<eg>강대국들은 항상 다른 나라의 핵개발을 동결시키려고 한다.</eg>
+					<eg>수입 개방의 초기에는 어느 나라나 수입을 동결시켜 개방의 폭을 최소화하려고 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

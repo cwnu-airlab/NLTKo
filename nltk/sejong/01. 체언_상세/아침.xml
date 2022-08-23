@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>아침</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/23</cre_date>
+				<cre_writer>박동호</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/13</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/02</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+				<mod_note>comp '하루~', '~안개', '~기온', '~회의' 추가</mod_note>
+				<mod_note>idm '아침 아저씨 저녁 소 아들', '아침에 까치가 울면 좋은 일이 있고 밤에 까치가 울면 대변(大變)이 있다', '아침에 심은 곡식은 먹어도 저녁에 심은 것은 못 먹는다' 추가</mod_note>
+				<mod_note>comb_v '~에 일어나다', '~에 출근하다', '~을 맞이하다' 추가</mod_note>
+				<mod_note>prt '~마다' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/24</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/23</note>
+			<note>2003/01/10(김이정) comb_v에 '~이 되다' 추가</note>
+			<note>2003/01/13(남길임) comb_v에 '되다/오다/찾아오다'add로 이동</note>
+			<note>2003/01/13(김이정)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~결</der>
+			<der pos="n" type="suffix">~녘</der>
+			<comp pos="n" type="prefix">하루~</comp>
+			<comp pos="n" type="suffix">~밥</comp>
+			<comp pos="n" type="suffix">~잠</comp>
+			<comp pos="n" type="suffix">~저녁</comp>
+			<comp pos="n" type="suffix">~운동</comp>
+			<comp pos="n" type="suffix">~식사</comp>
+			<comp pos="n" type="suffix">~나절</comp>
+			<comp pos="n" type="suffix">~안개</comp>
+			<comp pos="n" type="suffix">~기온</comp>
+			<comp pos="n" type="suffix">~회의</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">아침 아저씨 저녁 소 아들</idm>
+			<idm type="prv">아침에 까치가 울면 좋은 일이 있고 밤에 까마귀가 울면 대변(大變)이 있다</idm>
+			<idm type="prv">아침에 심은 곡식은 먹어도 저녁에 심은 것은 못 먹는다
+</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 ~마다 운동을 한다.</eg>
+				<trans>morning</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>하루중단계</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">저녁</ant>
+					<coord>새벽</coord>
+					<coord>저녁</coord>
+					<coord>밤</coord>
+					<holo>하루</holo>
+					<rel>해</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 오다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 찾아오다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 일어나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 출근하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 맞이하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt>~마다</prt>
+				<av>~에</av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/23</cre_date>
+				<cre_writer>박동호</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/13</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/02</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/24</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/23</note>
+			<note>2003/01/11(김이정) comb_v의 '~을 굶다|거르다' add로 이동</note>
+			<note>'~을 건너뛰다'를 add에 추가</note>
+			<note>syn에 '조반' 추가</note>
+			<note>2003/01/13(남길임)</note>
+			<note>2003/01/13(김이정)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="lng">아침밥</var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~상</comp>
+			<comp pos="n" type="suffix">~참</comp>
+			<comp pos="n" type="suffix">~거리</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 ~을 먹지 않고 집에서 나왔다.</eg>
+				<trans>breakfast</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>음식</sem_class>
+				<lr>
+					<syn type="etc">조식</syn>
+					<syn type="etc">조반</syn>
+					<ant type="temp"></ant>
+					<hyper>식사</hyper>
+					<coord>점심</coord>
+					<coord>저녁</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">실한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 먹다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 굶다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 거르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 건너뛰다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">끼</cl>
+				<cl type="uni">번</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

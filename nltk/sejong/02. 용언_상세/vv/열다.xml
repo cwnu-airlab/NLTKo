@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>열다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/06/11</cre_date>
+				<cre_writer>노윤채</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/14</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/15</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/01/25</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/15</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/08/30</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>A</str>
+			<infl type="l"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>open (sth)</trans>
+				<lr>
+					<ant type="compl">닫다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(문|창|커튼|자물쇠|가방|서랍|봉투|뚜껑|지갑)|구체인공물</sel_rst>
+					<eg>도둑은 자물쇠도 쉽게 열고 방으로 들어갔다.</eg>
+					<eg>봉투를 열어 보았지만 안에는 아무 것도 들어 있지 않았다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<col_grp>
+					<col type="manner2">활짝</col>
+				</col_grp>
+			</com>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>개시행위</sem_class>
+				<trans>open (a shop or a business)</trans>
+				<trans>found</trans>
+				<lr>
+					<ant type="compl">닫다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(가게|회사|병원|사업)</sel_rst>
+					<eg>그는 광화문에 병원을 열었다.</eg>
+					<eg>가게를 열 만한 장소를 물색해 보았지만 적당한 곳을 찾지 못했다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<col_grp>
+				</col_grp>
+			</com>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>open (the way)</trans>
+				<lr>
+					<syn type="perfect">트다</syn>
+					<ant type="compl">막다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">길(통로|퇴로)</sel_rst>
+					<eg>일본은 조선에게 명나라를 정벌하기 위해 가는 길이니 길을 열어 달라고 요구했다.</eg>
+					<eg>미군은 월맹군에게 퇴로를 열어 주지 않기 위해 맹렬한 폭격을 가했다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<col_grp>
+				</col_grp>
+			</com>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>개시행위</sem_class>
+				<trans>open (the times)</trans>
+				<lr>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">온</sel_rst>
+					<sel_rst arg="Y" tht="THM">시간(시대)</sel_rst>
+					<eg>아인슈타인은 새로운 과학의 시대를 연 위대한 과학자였다.</eg>
+					<eg>아폴로의 달 착륙은 우주시대를 연 획기적인 사건이었다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<col_grp>
+				</col_grp>
+			</com>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>개시행위</sem_class>
+				<trans>open (account)</trans>
+				<lr>
+					<syn type="sino">개설하다</syn>
+					<ant type="compl">닫다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(구좌|계좌)</sel_rst>
+					<eg>송금을 할테니 은행에서 계좌를 연 다음 연락해라.</eg>
+					<eg>계좌만 열어놓은 통장이 몇 개인지 모르겠다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<col_grp>
+				</col_grp>
+			</com>
+		</sense>
+		<sense n="06">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>hold (heart)</trans>
+				<lr>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(마음|가슴)</sel_rst>
+					<eg>협상을 할 때는 이쪽에서 먼저 마음을 열어야 상대방도 솔직해진다.</eg>
+					<eg>그는 누구에게도 마음을 열지 않는 사람이다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<col_grp>
+					<col type="manner2">활짝</col>
+				</col_grp>
+			</com>
+		</sense>
+		<idm_grp>
+			<idm>새로운 장을 열다</idm>
+			<idm>새로운 지평을 열다</idm>
+			<idm>막을 열다</idm>
+			<idm>입을 열다</idm>
+			<idm>포문을 열다</idm>
+		</idm_grp>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/06/11</cre_date>
+				<cre_writer>노윤채</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/14</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/15</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/01/25</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/15</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/08/30</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>A</str>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>개시행위</sem_class>
+				<trans>hold (a gathering)</trans>
+				<lr>
+					<syn type="sino">개최하다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="STR">
+				<frame>X=N0-이 Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Npr1">계획사건(모임|회의|파티)</sel_rst>
+					<eg>할아버지의 진갑연은 고급 호텔에서 성대하게 열 예정이다.</eg>
+					<eg>금융비리 사건의 진상을 밝히기 위해서는 청문회라도 열어야 한다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<col_grp>
+				</col_grp>
+			</com>
+		</sense>
+	</entry>
+	<entry n="3" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/06/11</cre_date>
+				<cre_writer>노윤채</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/14</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/15</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/01/25</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/15</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/08/30</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>A</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>grow (on a tree)</trans>
+				<lr>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">열매|식물의부분(과일|열매)</sel_rst>
+					<eg>과수원에는 사과가 주렁주렁 열었다.</eg>
+					<eg>금년에는 일조량이 많아서 열매가 잘 열었다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<col_grp>
+					<col type="manner2">주렁주렁</col>
+				</col_grp>
+			</com>
+		</sense>
+	</entry>
+</superEntry>

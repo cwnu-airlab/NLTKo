@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>황제펭귄</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/01</cre_date>
+				<cre_writer>유영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/01</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/16</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/06</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>eg 분리</mod_note>
+				<mod_note>add 일부 n_v에 기술</mod_note>
+				<mod_note>cl 추가</mod_note>
+			</mod>
+			<note></note>
+			<add>~을 보다|찾다|보호하다|잡다</add>
+			<add>~이 걷다|헤엄치다|살다|분포하다|서식하다|이동하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">황제+펭귄</str>
+			<org lg="si">黃帝__</org>
+			<org lg="en">__penguin</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~은 남극 대륙에 무리를 지어 분포한다.</eg>
+				<eg>~은 다른 펭귄들과는 달리 4-5월경에 번식을 한다.</eg>
+				<trans>king penguin</trans>
+				<domain>생물</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>새</sem_class>
+				<lr>
+					<syn type="etc">킹펭귄</syn>
+					<ant type="temp"></ant>
+					<hyper>펭귄</hyper>
+					<rel>남극</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 서식하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 분포하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">마리</cl>
+				<cl type="grp">떼</cl>
+				<cl type="grp">무리</cl> <!--송근영 추가-->
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

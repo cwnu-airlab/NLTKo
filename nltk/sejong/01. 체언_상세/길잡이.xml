@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>길잡이</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2006/06/20</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>내부구조 검토 요망</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2006/07/20</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>내부구조 R_S에서 V_S로 수정</mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="V_S">길잡+이</str><!--표준국어대사전 참고한 것임(김이정)-->
+			<org lg="etc"></org>
+		
+			<hom exist="temp"/>
+			<der  pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 현재 고등학교 국어교사로 재직 중이며 만주지역 답사 ~를 하고 있다.</eg>
+				<trans>guide</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>행위인간</sem_class>
+				<lr>
+					<syn type="perfect">길라잡이</syn><!--동아새국어사전에는 본딧말로 표시되어 있음(김이정)-->
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 친절하다</comb_aj>
+				<comb_aj type="appr">~가 든든하다</comb_aj>
+				<comb_aj type="appr">~가 믿음직스럽다</comb_aj>
+				<comb_n type="compound">산행 ~</comb_n>
+				<comb_n type="compound">여행 ~</comb_n>
+				<comb_n type="compound">~ 노릇</comb_n>
+				<comb_n type="compound">~ 역할</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 일하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 삼다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>글자를 습득한 이후 부모의 ~ 역할은 더욱 중요해진다.</eg>
+				<eg>이 책은 우리에게 좋은 ~가 되어줄 수 있다.</eg>
+				<trans>guiding principle</trans>
+				<trans>guideline</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>기준</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">소중한 ~</comb_aj>
+				<comb_aj type="appr" pred="no">중요한 ~</comb_aj>
+				<comb_n type="compound">문화 ~</comb_n>
+				<comb_n type="compound">~ 역할</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 삼다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

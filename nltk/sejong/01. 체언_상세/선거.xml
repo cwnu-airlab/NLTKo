@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>선거</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/10/05</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/31</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/16</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/12</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>물리적행위를 결과행위로 수정;명사연어에서 '반장, 대통령, 국회의원 ~' 삭제;센스2에 '사건' 의미 추가</mod_note>
+			</mod>
+			<note>2003/01/10(이민우)</note>
+			<note>2003/03/24(김종명)</note>
+			<note>2003/03/28(김종명)</note>
+			<note>2003/03/31(이민우)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">選擧</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~구</der>
+			<der pos="n" type="suffix">~권</der>
+			<der pos="n" type="suffix">~인</der>
+			<der pos="n" type="suffix">~전</der>
+			<comp pos="n" type="suffix">~법</comp>
+			<comp pos="n" type="suffix">~철</comp>
+			<comp pos="n" type="suffix">~운동</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리 반은 지난 주에 반장을 ~를 했다.</eg>
+				<trans>election</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>투표</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">깨끗한 ~</comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">직위인간|서열인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>지난 주에 대통령 ~를 치렀다.</eg>
+				<eg>이번 ~는 꼭 공명하게 이루어지기를 바란다.</eg>
+				<trans>election</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>계획사건</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>투표</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">깨끗한 ~</comb_aj>
+				<comb_n type="compound">공명 ~</comb_n>
+				<comb_n type="compound">대통령 ~</comb_n>
+				<comb_n type="compound">국회의원 ~</comb_n>
+				<comb_n type="compound">지자체 ~</comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 치르다</form>
+					<frame>X-이 ~를 치르다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 실시하다</form>
+					<frame>X-이 ~를 치르다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 치러지다</form>
+					<frame>Y-에서 ~가 치러지다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 거행되다</form>
+					<frame>Y-에서 ~가 거행되다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">장소</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

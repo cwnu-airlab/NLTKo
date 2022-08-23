@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>침체되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/16</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>곽새라</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/09/22</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see>침체하다</see>
+		<morph_grp>
+			<var type="spr">침체가 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<org lg="si">沈滯_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>비의도적행위</sem_class>
+				<trans>be stagnant</trans>
+				<trans>be inactive</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">지역|사조|예술|경제현상|분야</sel_rst>
+					<eg>요즘 공연 예술이 너무 침체되었다.</eg>
+					<eg>일본 경제는 침체된지 10년이 넘었지만 회복될 기미를 보이지 않고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>비의도적행위</sem_class>
+				<trans>be depressed</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(분위기)</sel_rst>
+					<eg>분위기가 너무 침체되었다고 느꼈는지 그는 갑자기 떠들기 시작했다.</eg>
+					<eg>분위기가 침체된 것 같은데 노래나 할까요?</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간|(기분)</sel_rst>
+					<eg>그 친구 기분이 너무 침체된 것 같아.</eg>
+					<eg>그는 무척 침체된 느낌이었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

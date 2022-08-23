@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>수납</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/06/30</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/13</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>동사결합 정보 수정;논항 명사구 추가;선택제약 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/21</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>단독행위를 획득행위로 수정;맥스엔에 'Y-에대한' 정보 추가</mod_note>
+			</mod>
+			<note>2002/08/30(김종명)</note>
+			<note>2002/10/07(한선혜)</note>
+			<note>2003/08/12(기영인)의미부류 수정</note>
+			<note>논항선택제약 정보수정</note>
+			<note>2003/09/08(목정수)</note>
+			<note>2003/09/13(기영인)</note>
+			<add>~계|원</add>
+			<add>조세 ~</add>
+			<add>~ 전표|창구</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">收納</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>자동차세의 ~은 저쪽 창구에서 합니다.</eg>
+				<trans>receipt</trans>
+				<trans>collection</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>획득행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form> <!-- ~을 하다|받다 분할 표기 -->
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>X-이 Y-을 ~을 받다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-의 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>X-의 Y ~</max_n_str> <!-- 추가 -->
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>Y-의 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>Y ~</max_n_str> <!-- 추가 -->
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">직업인간|국가기관|금융기관</sel_rst>
+				<sel_rst arg="Y">세금|비용|값</sel_rst> <!-- 돈 수정 -->
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/06/30</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/13</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>예문 수정;동사결합 정보 수정;논항 명사구 추가;선택제약 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/21</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>단독행위를 배치로 수정;맥스엔 수정;선택제약 수정</mod_note>
+			</mod>
+			<note>2002/06/30(기영인)선택제약에서 가구는 수납용 가구만, 구체인공물은 교통기관, 조형물, 시설물, 전기전자기구 일부를 제외한 것만 (의미부류 구체화) 표시할 방법</note>
+			<note>2002/07/16(기영인)기능동사 수정, 선택제약 수정</note>
+			<note>2002/08/26(김종명)기능동사정보 수정</note>
+			<note>2002/10/07(한선혜)기능동사구문 수정</note>
+			<note>comb_n에 '~공간|방법' 기입</note>
+			<note>2003/08/12(기영인)의미부류 수정</note>
+			<note>combn 정보 add로 이동</note>
+			<note>2003/09/08(목정수)</note>
+			<note>2003/09/13(기영인)</note>
+			<add>~ 가구|공간</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">受納</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>붙박이장은 ~을 할 만한 공간이 넓어서 좋다.</eg> <!-- ~을 할 만한 공간이 수정 -->
+				<trans>keeping</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>배치</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 Z-에 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 Z-에 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-의 Z-에의 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>Y-의 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>Y ~</max_n_str> <!-- 추가 -->
+				<max_n_str>Z-에의 ~</max_n_str> <!-- 추가 -->
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">구체인공물|구체물의부분</sel_rst> <!-- 구체인공물 Z=가구(장롱|장|서랍장|책상) 표기법 수정 -->
+				<sel_rst arg="Z">가구(장롱|장|서랍장|책상)|건물부분장소</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

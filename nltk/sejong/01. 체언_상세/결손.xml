@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>결손</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/27</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/19</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/29</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/11</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_v에 기술 및 정보 추가</mod_note>
+				<mod_note>n_v 수정 및 추가</mod_note>
+				<mod_note>'~액', '~금'을 der에서 comp로 이동</mod_note>
+				<mod_note>n_aj 수정</mod_note>
+			</mod>
+			<note>2002/08/27(기영인)</note>
+			<note>2002/08/30(김종명)명사연어정보 수정</note>
+			<note>2002/10/07(한선혜)명사연어정보 추가</note>
+			<note>2003/09/19(이성헌)</note>
+			<note>add 기술</note>
+			<note>기능동사구문과 선택제약 기술</note>
+			<add>~을 보다|메우다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">缺損</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~액</comp>
+			<comp pos="n" type="suffix">~금</comp>
+			<comp pos="n" type="suffix">~가족</comp>
+			<comp pos="n" type="suffix">~가정</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>원자제의 가격이 폭등하는 바람에 회사에서 크게 ~을 보았다.</eg>
+				<trans>deficit</trans>
+				<trans>loss</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>피해</sem_class>
+				<lr>
+					<syn type="kor">모자람</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 크다</comb_aj> <!--'~이' 추가 (송근영)-->
+				<comb_aj type="appr">~이 작다</comb_aj> <!--'~이' 추가 (송근영)-->
+				<comb_n type="compound">~ 처리</comb_n>
+				<comb_n type="compound">~ 처분</comb_n>
+				<comb_n type="compound">~ 보전</comb_n>
+				<comb_n type="compound">~ 충당</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 있다</form> <!--합성동사 불가능으로 수정(송근영)-->
+					<frame>S데-에 ~이 있다</frame> <!--'S는데'를 'S데'로 수정(송근영)-->
+					<frame>X-에 ~이 있다</frame>
+					<frame>X-이 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 없다</form> <!--'있다'를 '없다'로 수정, 합성동사 불가능으로 수정(송근영)-->
+					<frame>X-에 ~이 없다</frame>
+					<frame>S데-에 ~이 없다</frame> <!--'S는데'를 'S데'로 수정(송근영)-->
+					<frame>X-이 ~이 없다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 보다</form>
+					<frame>X-이 ~을 보다</frame>
+				</comb_v>	
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 나다</form>
+					<frame>X-이 ~이 나다</frame>
+					<frame>X-에 ~이 나다</frame><!--송근영 추가-->
+				</comb_v>		
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 메우다</form>
+					<frame></frame>
+				</comb_v>					
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

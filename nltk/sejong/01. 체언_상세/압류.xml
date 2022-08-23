@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>압류</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/30</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/28</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/10</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/02</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/09/15(김종명)</note>
+			<note>2001/01/29(고길수)</note>
+			<note>2003/03/23(류병률)</note>
+			<note>2003/03/28(김종명)</note>
+			<note>Y논항 선택제약 추가</note>
+			<note>comb_v를 add의 값으로 변환</note>
+			<note>entry하위의 sense별 구분은 세미콜론 | 로</note>
+			<note>예문수정</note>
+			<note>한정사 제약 추가</note>
+			<note>합성어 삭제</note>
+			<add>~가 들어가다</add>
+			<add>~를 신청하다|선고하다|집행하다</add>
+			<add>~에 들어가다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">押留</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~액</der>
+			<der pos="n" type="suffix">~장</der>
+			<der pos="n" type="prefix">가~</der>
+			<comp pos="n" type="suffix">~명령</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>채권자들이 법원에 그의 재산에 대한 ~를 신청했다.</eg>
+				<trans>attachmentseizure</trans>
+				<domain>법률</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>물리적행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>행위</hyper>
+					<rel>채권자</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 처분</comb_n>
+				<comb_n type="compound">~ 중</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~</form>
+					<frame>Y-이 X-에 의해 ~가 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-에 의한 Y(-의) ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단(기관|법원)</sel_rst>
+				<sel_rst arg="Y">구체물|건물</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

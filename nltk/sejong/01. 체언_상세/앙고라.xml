@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>앙고라</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/15</cre_date>
+				<cre_writer>최지임</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/02</mod_date>
+				<mod_writer>고길수</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/02</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>sem수정</mod_note><!--구체인공물에서 '천'으로-->
+				<mod_note>add옮김</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/01</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>형식검토</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어, 명사결합 추가</mod_note>
+			</mod>
+			<note>2003/07/15(최지임)센스구별검토요망</note>
+			<note>sense2 의미부류 검토요망</note>
+			<note>2003/09/02(고길수)센스1의 의미부류를 '동물'에서 '짐승'으로 수정, 가장 가까운 최소 부류로 표기</note>
+			<note>센스2의 '앙고라 털'의 의미를 센스1로 수정함</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">Angora</org>
+			<comp pos="n" type="suffix">~모</comp>
+			<comp pos="n" type="suffix">~토끼</comp>
+			<comp pos="n" type="suffix">~염소</comp>
+			<comp pos="n" type="suffix">~산양</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 제품은 목 부분이 ~로 처리되어서 굉장히 따뜻합니다.</eg>
+				<eg>내가 입고 있는 스웨터는 ~여서 따뜻해.</eg>
+				<trans>Angora wool</trans>
+				<sem_class>천</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 부드럽다</comb_aj>
+				<comb_aj type="appr">~가 따뜻하다</comb_aj>
+				<comb_n type="temp">~ 장갑</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 짜다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>우리는 ~를 세 마리나 기른다.</eg>
+				<eg>엄마는 ~의 부드러운 털을 깎았다.</eg>
+				<trans>Angora rabbit</trans>
+				<sem_class>짐승</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 기르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 키우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사육하다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">마리</cl>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

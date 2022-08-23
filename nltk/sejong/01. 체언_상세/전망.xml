@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>전망</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/08/10</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/22</mod_date>
+				<mod_writer>목정수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/05</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>n_aj type "~이 밝다", "~이 어둡다" 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/15</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/21(송근영)</note>
+			<note>기능동사에 '~되다'구문 추가</note>
+			<note>센스1에 예문 추가</note>
+			<note>센스3의 기능동사 구조  보완</note>
+			<note>한정사제약 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">展望</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~성</der>
+			<comp pos="n" type="suffix">~대</comp>
+			<comp pos="n" type="suffix">~차</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>서울시 전체가 ~이 될 수 있는 곳이 있습니까?</eg>
+				<eg>정상에 올라 펼쳐진 경치를 맘껏 ~을 하였다.</eg>
+				<trans>view</trans>
+				<trans>outlook</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>시각적행위</sem_class>
+				<lr>
+					<syn type="etc">조망</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 밝다</comb_aj>
+				<comb_aj type="appr">~이 어둡다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+					<frame>X-이 S것-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 ~이 되다</frame>
+					<frame>S것-이 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">장소(경치|주변)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이 집은 높은 곳에 있어 ~이 아주 좋다.</eg>
+				<trans>general view</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="etc">전경</syn>
+					<ant type="temp"></ant>
+					<rel>경치</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 좋다</comb_aj>
+				<comb_aj type="appr">~이 나쁘다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 트이다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N(-의)</pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>전문가들은 컴퓨터산업이 곧 침체할 것이라고 ~을 하고 있다.</eg>
+				<trans>view</trans>
+				<trans>prospect</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>인지적행위</sem_class>
+				<lr>
+					<syn type="etc">예측</syn>
+					<ant type="temp"></ant>
+					<rel>추측</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">사업 ~</comb_n>
+				<comb_n type="compound">경제 ~</comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 내놓다</form>
+					<frame>X-이 Y-에대해 S다고 ~을 내놓다</frame>
+					<frame>X-이 Y-을 S다고 ~을 내놓다</frame>
+					<frame>X-이 Y-에대해 Z-을 ~을 내놓다</frame>
+					<frame>X-이 Y-에대해 S것-을 ~을 내놓다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에대해 S다고 ~을 하다</frame>
+					<frame>X-이 Y-을 S다고 ~을 하다</frame>
+					<frame>X-이 Y-에대해 Z-을 ~을 하다</frame>
+					<frame>X-이 Y-에대해 S것-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에의해 S다고 ~이 되다</frame>
+					<frame>Y-이 X-에의해 Z-로 ~이 되다</frame>
+					<frame>Y-이 X-에의해S것-로 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>Y-에대한 X-의 S다는 ~</max_n_str>
+				<max_n_str>Y-에대한 X-의 Z ~</max_n_str>
+				<sel_rst arg="X">인간(전문가|학자)</sel_rst>
+				<sel_rst arg="Y">(산업|경기|상황|경제)</sel_rst>
+				<sel_rst arg="Z">과정(침체|상승|발전)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="4">
+			<sem_grp>
+				<eg>이 사업은 ~이 아주 밝다.</eg>
+				<trans>prospect</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="etc">미래</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 밝다</comb_aj>
+				<comb_aj type="appr">~이 좋다</comb_aj>
+				<comb_aj type="appr">~이 나쁘다</comb_aj>
+				<comb_aj type="appr">~이 어둡다</comb_aj>
+				<comb_aj type="appr">~이 불투명하다</comb_aj>
+				<comb_aj type="appr">~이 없다</comb_aj>
+				<comb_aj type="appr">~이 있다</comb_aj>
+				<comb_n type="compound">경제 ~</comb_n>
+				<comb_n type="compound">사업 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 분석하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 예측하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N(-의)</pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

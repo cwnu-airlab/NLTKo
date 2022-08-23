@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>기어</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/27</cre_date>
+				<cre_writer>박동호</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/05</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/14</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/24</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_v에 추가</mod_note>
+				<mod_note>센스1 sem 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/19</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/10/04(박동호)</note>
+			<note>2002/10/12(고길수)센스1의 의미부류를 '도구'에서 '구체물의부분'으로 수정</note>
+			<note>2003/06/29(이은경)</note>
+			<note>2003/06/30(이성헌)comb_n의 '후진|일단|이단|삼단|사단|오단 ~'를 add로 이동</note>
+			<note>2003/07/05(이은경)</note>
+			<note>add에 센스1의 동사결합으로 '~를 빼다|달다' 추가</note>
+			<note>센스1에 '~를 일단에 넣다' 예문 추가</note>
+			<note>센스1에 명사연어 추가</note>
+			<note>센스2의 의미부류를 '기기'에서 '기계'로 수정, 단 센스1과의 구별이 확실하지 않음, 센스1을 교통기관의 부분으로만 한정하고 있는 것인지 검토 필요</note>
+			<add>센스1: ~를 넣다|바꾸다|변속하다|빼다|달다</add>
+			<add>후진|일단|이단|삼단|사단|오단 ~</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="en">gear</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 클러치를 밟으면서 ~를 넣었다.</eg>
+				<eg>그는 ~를 일단에 넣고 서서히 출발했다.</eg>
+				<trans>gear</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>교통기관의부분</sem_class> <!--'구체물의부분'을 '교통기관의부분'으로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 부드럽다</comb_aj>
+				<comb_aj type="appr">~가 뻑뻑하다</comb_aj>
+				<comb_n type="compound">후진 ~</comb_n>
+				<comb_n type="compound">일단 ~</comb_n>
+				<comb_n type="compound">이단 ~</comb_n>
+				<comb_n type="compound">삼단 ~</comb_n>
+				<comb_n type="compound">사단 ~</comb_n>
+				<comb_n type="compound">오단 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 넣다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 변속하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 바꾸다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>~는 동력을 전달하는 장치이다.</eg>
+				<trans>gear</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>기계</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 달다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 설치하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

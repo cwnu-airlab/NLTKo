@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>매력</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/18</cre_date>
+				<cre_writer>이병규</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/17</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/01</mod_date>
+				<mod_writer>김천학</mod_writer>
+				<mod_note>add 옮김</mod_note>
+			</mod>
+			<note>2002/05/26(한선혜)숙어구획의' ~에 끌리다' 삭제</note>
+			<note>향후 동사자유구성에 추가</note>
+			<note>형용사 자유구성에 '~을 잃다' 삭제</note>
+			<note>향후 동사자유구성에 반영</note>
+			<note>동사연어표현에 '~을 느끼다' 삭제</note>
+			<note>2003/05/12(김진형)add에 동사자유구성 추가</note>
+			<note>예문 추가</note>
+			<note>기능동사구문 Y논항 추가</note>
+			<note>선택제약 수정</note>
+			<note>2003/09/17(박진호)명사연어, add 추가</note>
+			<add>~을 느끼다</add>
+			<add>~을 느끼다</add>
+			<add>~에 끌리다|이끌리다|빠지다</add>
+			<add>~을 느끼다</add>
+			<add>~에 끌리다|이끌리다|빠지다</add>
+			<add>~을 발산하다|발하다|잃다|지니다|소유하다</add>
+			<add>~을 느끼다</add>
+			<add>~에 끌리다|이끌리다|빠지다</add>
+			<add>~을 발산하다|발하다|잃다|지니다|소유하다</add>
+			<add>~이 넘치다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">魅力</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~적</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그녀에게는 사람을 끌어들이는 ~이 있다.</eg>
+				<eg>그는 소박한 전원 생활에 묘한 ~을 느꼈다.</eg>
+				<trans>attraction</trans>
+				<trans>charm</trans>
+				<trans>fascination</trans>
+				<trans>allure</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>능력</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">강한 ~</comb_aj>
+				<comb_n type="compound">~ 만점</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 있다|없다</form>
+					<frame>X-이 ~이 있다|없다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 있다|없다</form>
+					<frame>X-이 Y-에게 ~이 있다|없다</frame>
+				</comb_v>
+				<!--vcompound: ~있다-->
+				<!--vcompound: ~없다-->
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 느끼다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 발산하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 끌리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 넘치다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">구체물|집단|장소|추상적대상</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

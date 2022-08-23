@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>먹이</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/06/03</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/18</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/23</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/09/21(정유진)</note>
+			<note>2000/09/25(정유진)</note>
+			<note>2001/01/22(백인애</note>
+			<note>2003/01/11(기영인)센스 추가</note>
+			<note>2003/02/10(박동호)sense2를 삭제</note>
+			<note>2003/02/18(기영인)</note>
+			<note>combv 정보삭제, 일부 add로 이동</note>
+			<note>sense1의 의미부류를 '자연음식물'에서 '구체물'로 바꿈</note>
+			<note>강범모)</note>
+			<note>센스1 예문 수정</note>
+			<note>센스2 combv 정보입력</note>
+			<note>센스2 의미부류 적합성 검토요망</note>
+			<add>(sense1) ~를 주다</add>
+			<add>(sense2) ~를 구하다|발견하다|찾다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="V_S">먹+이</str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~그물</comp>
+			<comp pos="n" type="suffix">~사슬</comp>
+			<comp pos="n" type="suffix">~연쇄</comp>
+			<comp pos="n" type="suffix">~피라미드</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>동물원 원숭이한테 관람객들이 아무 ~나 주지 않도록 주의해야 한다.</eg>
+				<trans>fodder</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>구체물</sem_class>
+				<lr>
+					<syn type="etc">사료</syn>
+					<ant type="temp"></ant>
+					<hypo>꼴</hypo>
+					<hypo>마초</hypo>
+					<rel>짐승</rel>
+					<rel>가축</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 찾다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 주다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 구하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

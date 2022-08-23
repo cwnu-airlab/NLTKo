@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>증자</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/09</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/25</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note>기능동사정보수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2003/10/10</mod_date>
+				<mod_writer>이민우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/05</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>2004년 지침에 맞춰 정보 확장</mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2004/12/28</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note>반의어 추가</mod_note>
+		        <mod_note>명사 결합 추가</mod_note>
+	        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str type="etc"></str>
+			<org lg="si">增資</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이사회는 2천4백70억원의 ~를 승인했다.</eg>
+				<eg>재무 조정을 통해 300억이 ~가 되었다.</eg>
+				<trans>increase of capital</trans>
+				<sem_class>증가</sem_class>
+				<lr>
+				    <syn type="etc"></syn>
+					<ant type="dir">감자</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound">유상~</comb_n>
+				<comb_n type="compound">무상~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>X-이 Y-을 ~를 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">기업</sel_rst>
+				<sel_rst arg="Y">돈</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

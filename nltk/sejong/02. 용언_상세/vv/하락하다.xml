@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>하락하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/22</cre_date>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/27</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/07/30</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">하락을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">下落_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>감소</sem_class>
+				<trans>fall (off)</trans>
+				<trans>drop</trans>
+				<lr>
+					<syn type="kor">떨어지다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">수량(물가|주가|값)|(경기)</sel_rst>
+					<eg>경제위기로 물가는 오르고, 주가는 하락했다.</eg>
+					<eg>아파트 투기 붐이 사라지면서 아파트 값이 하락한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>감소</sem_class>
+				<trans>decline</trans>
+				<lr>
+					<syn type="kor">떨어지다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">속성(비중|비율|등급|질|가치|등수|점수)</sel_rst>
+					<eg>철수의 성적은 3등급이나 하락했다.</eg>
+					<eg>가계 지출에서 차지하던 외식비의 비율이 전반적으로 하락하고 있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(인기|지지도)</sel_rst>
+					<eg>한국 축구팀이 3번이나 연거푸 지자 선수들의 인기가 하락하기 시작했다.</eg>
+					<eg>그 여자 의원은 지지도가 하락해서 이번에 공천을 받지 못할 것이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

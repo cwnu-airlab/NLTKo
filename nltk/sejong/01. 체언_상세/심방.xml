@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>심방</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/03</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/03</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>n_n기술</mod_note>
+				<mod_note>'방문'의 의미를 지닌 entry2를 추가하여 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/01</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>syn 기술</mod_note>
+				<mod_note>comp기술</mod_note>
+				<mod_note>s_n기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/23</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">心房</org>
+			<hom exist="yes"/>
+			<comp pos="n" type="suffix">~세동</comp>
+			<comp pos="n" type="suffix">~조동</comp>
+			<comp pos="n" type="suffix">~중격</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>심장 윗부분을 구성하는 ~에서는 정맥의 피를 받아 심실로 보낸다.</eg>
+				<trans>atrium</trans>
+				<domain>의학</domain>
+				<sem_class>내장</sem_class>
+				<lr>
+					<syn type="perfect">염통방</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 근육</comb_n>
+				<comb_n type="compound">~ 비대</comb_n>
+				<comb_n type="compound">~ 수축</comb_n>
+				<comb_n type="compound">~ 압력</comb_n>
+				<cl type="uni">개</cl>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2004/10/31</cre_date>
+				<cre_writer>권오희</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>s_n기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">尋訪</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>김 선생님께서는 가출한 학생의 가정으로 ~을 가셨다.</eg>
+				<eg>우리집은 목요일마다 목사님과 교회 집사님들의 ~으로 집안이 시끌벅적하다.</eg>
+				<trans>visit</trans>
+				<domain></domain>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="perfect">심문</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 예배</comb_n>
+				<comb_n type="compound">~ 횟수</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~을 받다</form>
+					<frame>Y-이 X-의 ~을 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 가다</form>
+					<frame>X-이 Y-에|에게 ~을 가다</frame>
+					<frame>X-이 Y-로 ~을 가다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 오다</form>
+					<frame>X-이 Y-에|에게 ~을 오다</frame>
+					<frame>X-이 Y-로 ~을 오다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

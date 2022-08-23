@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>유익하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/15</mod_date>
+				<mod_writer>강정연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/06</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>R.하</str>
+			<org lg="si">有益_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>평가속성값</sem_class>
+				<trans>be profitable</trans>
+				<lr>
+					<ant type="grad">무익하다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-에게|에 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|구체물|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간|인간집단</sel_rst>
+					<eg>이 사람은 우리에게 유익하다.</eg>
+					<eg>그와 나눈 대화는 나에게 무척 유익했다.</eg>
+					<eg>그처럼 탁월한 지도력을 지닌 인물은 우리 사회에 유익하다.</eg>
+					<eg>이 책은 자라는 아이들에게 유익하다.</eg>
+					<eg>나는 그들의 비판 정신이 우리 모임에 유익하다고 여겨진다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간|인간집단</sel_rst>
+					<eg>그 사람과 잘 사귀어 두는 것이 우리에게 유익할 것이다.</eg>
+					<eg>그와 자주 대화를 나눈 것이 나에게 무척 유익했다.</eg>
+					<eg>먼 장래를 바라보고 인재를 키우는 것은 우리 국가에 유익하다.</eg>
+					<eg>좋은 책을 많이 읽는 것은 자라는 아이들에게 유익하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|구체물|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="GOL">추상적대상(삶|생활)|행위(성장|발전|교육)</sel_rst>
+					<eg>이런 인재는 우리 사회의 발전에 유익하다.</eg>
+					<eg>이런 놀이는 아이들의 지능 발달에 유익하다.</eg>
+					<eg>이 물건은 가정 생활에 유익하다.</eg>
+					<eg>대중 매체는 때로 아이들의 교육에 유익하지 못하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<sel_rst arg="Y" tht="GOL">추상적대상(삶|생활)|행위(성장|발전|교육)</sel_rst>
+					<eg>이런 인재를 양성하는 것은 우리 사회의 발전에 유익하다.</eg>
+					<eg>접촉을 통해 자연을 이해하는 것은 아이들의 지능 발달에 아주 유익하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">온</sel_rst>
+					<sel_rst arg="Y" tht="GOL">S것|S데</sel_rst>
+					<eg>이런 놀이는 아이들의 지능을 개발하는 데에 매우 유익하다.</eg>
+					<eg>대중 매체는 때로 아이들을 옳바른 길로 이끄는 데에 유익하지 못하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<sel_rst arg="Y" tht="GOL">S것|S데</sel_rst>
+					<eg>지나치게 남들의 말에 귀 기울이는 것은 자신의 삶을 알차게 꾸리는 데에 그다지 유익하지 못하다.</eg>
+					<eg>책을 많이 읽어 주는 것이 아이들의 정서를 발달시키는 데에 유익하다는 것은 잘 알려진 사실이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

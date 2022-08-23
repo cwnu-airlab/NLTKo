@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>상업</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/25</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/13</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/01/10(남길임)</note>
+			<note>2003/01/10(남길임)</note>
+			<note>2003/01/13(김이정) add에 해당 센스 기입 요망</note>
+			<note>2003/01/10(남길임)</note>
+			<note>2003/01/13(김이정) add에 해당 센스 기입 요망</note>
+			<note>add에 'sense1 ~에 종사하다</note>
+			<note>2003/01/10(남길임)</note>
+			<note>2003/01/13(김이정) add에 해당 센스 기입 요망</note>
+			<note>add에 'sense1 ~에 종사하다</note>
+			<note>~이 발달하다' 추가</note>
+			<note>2003/01/10(남길임)</note>
+			<note>2003/01/13(김이정) add에 해당 센스 기입 요망</note>
+			<note>add에 'sense1 ~에 종사하다</note>
+			<note>~이 발달하다' 추가</note>
+			<note>sense1 supv와 sel_res 기술</note>
+			<add>~을 하다|시작하다|배우다</add>
+			<add>~을 하다|시작하다|배우다</add>
+			<add>~을 시작하다|배우다|가르치다</add>
+			<add>~을 하다|시작하다|배우다</add>
+			<add>~을 시작하다|배우다|가르치다</add>
+			<add>sense1 ~에 종사하다</add>
+			<add>~을 하다|시작하다|배우다</add>
+			<add>~을 시작하다|배우다|가르치다</add>
+			<add>sense1 ~에 종사하다</add>
+			<add>~이 발달하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">商業</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~성</der>
+			<der pos="n" type="suffix">~화</der>
+			<comp pos="n" type="suffix">~계</comp>
+			<comp pos="n" type="suffix">~주의</comp>
+			<comp pos="n" type="suffix">~지</comp>
+			<metc pos="n" type="temp">상공업</metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그의 아버지는 시장에서 ~을 하신다</eg>
+				<trans>commerce</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>산업</sem_class>
+				<lr>
+					<syn type="etc">장사</syn>
+					<syn type="etc">판매업</syn>
+					<ant type="temp"></ant>
+					<coord>공업</coord>
+					<coord>농업</coord>
+					<coord>어업</coord>
+					<rel>상행위</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 부기</comb_n>
+				<comb_n type="compound">~ 은행</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<comb_v type="narg_vpred">
+					<form vcompound="no">시작하다|배우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 시작하다|배우다|가르치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 종사하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 발달하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>나는 고등학교 때 공업 대신에 ~을 배웠다</eg>
+				<trans>commerce</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>학문과목</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>공업</coord>
+					<coord>농업</coord>
+					<coord>기술</coord>
+					<coord>가정</coord>
+					<rel>기술</rel>
+					<rel>공업</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 과목</comb_n>
+				<comb_n type="compound">~ 교사</comb_n>
+				<comb_n type="compound">~ 시간</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>내려다보다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V-어다V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>시각적행위</sem_class>
+				<trans>look down</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|구체물</sel_rst>
+					<eg>수미는 잠든 아이들을 내려다보며 말없이 앉아있었다.</eg>
+					<eg>준오는 언덕배기에 앉아 아랫마을을 내려다보았다.</eg>
+					<eg>그녀는 버스 차창에 기댄 채 오가는 사람들을 내려다보고 있었다.</eg>
+					<eg>그는 조용히 흐르는 강물을 내려다보았다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="DIR">장소|건물</sel_rst>
+					<eg>건물에서 밑으로 내려다보니 아찔하다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>시각적행위</sem_class>
+				<trans>care</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">(조물주|하나님|하느님)</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|단체</sel_rst>
+					<eg>하느님은 늘 우리를 내려다보고 계신다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>despite</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<eg>자기보다 못 가진 사람을 내려다보아서는 안된다.</eg>
+					<eg>그는 학력이 낮은 사람들을 내려다보는 경향이 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>대칭적행위</sem_class>
+				<trans>have a view</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">건물|장소</sel_rst>
+					<sel_rst arg="Y" tht="LOC">건물|장소</sel_rst>
+					<eg>언덕 위의 저 교회는 아랫 마을을 내려다보고 서 있다.</eg>
+					<eg>현대식 아파트들이 판자촌을 내려다보고 있었다.</eg>
+					<eg>이 산은 넓은 김제평야를 내려다보고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

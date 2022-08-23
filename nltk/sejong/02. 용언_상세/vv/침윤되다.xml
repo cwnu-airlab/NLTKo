@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>침윤되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/12</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>곽새라</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/07/10</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">침윤이 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<org lg="si">侵潤_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be soaked</trans>
+				<trans>be permeated</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">액체|음료</sel_rst>
+					<sel_rst arg="Y" tht="GOL">무생물|식물|자연음식물|구체인공물</sel_rst>
+					<eg>천을 물에 담궈놓자 물이 서서히 천에 침윤되는 것을 우리는 볼 수 있었다.</eg>
+					<eg>습기가 기둥에 침윤되어서 기둥이 썩어들어가고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>0</sem_class>
+				<trans>be infiltrated</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인지상태|사실명제|제도|종교|사조|심리상태</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간집단</sel_rst>
+					<eg>중국은 자본주의 정신이 사회에 침윤되는 것을 막기 위해 문화 혁명을 벌였다.</eg>
+					<eg>사이비 종교가 자꾸 사회에 침윤되고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>0</sem_class>
+				<trans>be infected</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">미생물</sel_rst>
+					<sel_rst arg="Y" tht="GOL">동물|식물|인간|관계생물</sel_rst>
+					<eg>폐렴균이 어린아이에게 침윤되면 그 결과는 치명적이 될 것이다.</eg>
+					<eg>곰팡이 균이 누에에 침윤되어서 생기는 것이 동충하초다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

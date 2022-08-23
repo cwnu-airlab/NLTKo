@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>반격</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/13</cre_date>
+				<cre_writer>이병규</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/30</mod_date>
+				<mod_writer>이하영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/10</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note>형용사 결합관계 추가</mod_note>
+			</mod>
+			<note>2002/07/13(이병규)</note>
+			<note>2002/07/13(남길임)</note>
+			<note>2002/08/11(한선혜)기능동사구문 재기술</note>
+			<note>comb_v에 '~을 가하다','~에 나서다' 추가</note>
+			<note>comb_v에 기술된 '~을 시도하다|감행하다'를 add로 이동(지난 회의에서 N-하다 유형은 잠정적으로 기능동사에서 빼기로 합의한 듯)</note>
+			<note>2003/05/30(이하영)cl 정보에 회 추가</note>
+			<add>~을 시도하다|감행하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">反擊</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>예상치 못한 적군의 ~에 아군은 우왕좌왕했다.</eg>
+				<trans>counterattack</trans>
+				<trans>counterblow</trans>
+				<trans>counteroffensive</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>방향성행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">맹렬한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 가하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 펼치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 나서다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에|에게|를 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다|당하다</form>
+					<frame>Y-이 X-에게(서) ~을 받다|당하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~당하다-->
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단|동물</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|동물</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

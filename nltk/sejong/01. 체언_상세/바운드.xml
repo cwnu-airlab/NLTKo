@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>바운드</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/11</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/13</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>예문, n_aj, n_v 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>'시키다' 삭제</mod_note>
+				<mod_note>n_aj, n_v, 선택제약 수정</mod_note>
+			</mod>
+			<note>2003/10/13(박진호)의미부류 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">bound</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리 팀 선수가 바닥에 강하게 ~를 시킨 공이 그대로 골대에 빨려 들어갔다.</eg>
+				<eg>나는 기둥을 맞고 ~된 공을 전방으로 길게 걷어냈다.</eg>
+				<eg>~가 너무 커서 하마터면 골키퍼가 공을 놓칠 뻔 했다.</eg>
+				<eg>포핸드와 백핸드 쪽으로 교대하면서 볼을 ~를 하라.</eg>
+				<trans>bound</trans>
+				<trans>bounce</trans>
+				<sem_class>현상</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~가 강하다</comb_aj>
+				<comb_aj type="magn">~가 세다</comb_aj>
+				<comb_aj type="magn">~가 크다</comb_aj>
+				<comb_aj type="magn">~가 심하다</comb_aj>
+				<comb_aj type="min">~가 약하다</comb_aj>
+				<comb_aj type="min">~가 작다</comb_aj>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 X-에 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form><!--추가(김)-->
+					<frame>X-이 Y-에 ~를 하다</frame>
+				</comb_v>
+				<sel_rst arg="X">기구(공)</sel_rst>
+				<sel_rst arg="Y">구체물의부분</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

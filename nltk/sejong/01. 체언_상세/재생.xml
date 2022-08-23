@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>재생</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/05/28</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/08</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/04</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/15</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/07/27(김종명)</note>
+			<note>2001/07/30(박동호,이성헌)</note>
+			<note>2003/02/03(이지영)문장부호입력,예문추가,sem수정,sense1의 cl추가|supv수정(시키다삭제)|sel_res수정|max_n수정, sense2의 cl추가|comb_v를 add로 이동|max_n추가|supv추가|sel_res수정, sense3의 cl추가|sel_res수정|supv수정, sense4의 sel_res수정|supv수정|cl추가, sense5의 sel_res수정|cl추가|supv수정</note>
+			<note>2003/02/06(김진형)</note>
+			<note>2003/02/06(김진형)cl '건' 삭제</note>
+			<note>2003/02/08(이지영)</note>
+			<note>sense5 sel_res 수정</note>
+			<note>기능동사구문에서 'X-이 ~을 하다'를 삭제하고 이에 따른 명사구논항구조와 선택제약 정보 수정</note>
+			<note>센스1의 동의어에 '회생' 추가</note>
+			<note>센스1의 의미하위부류를 '상태변화/전이'로</note>
+			<note>센스2의 기능동사 구문 삭제</note>
+			<note>센스2의 의미하위부류를 '상태변화/전이'로 수정</note>
+			<note>센스3의 관련어에 '재처리' 추가</note>
+			<note>센스4의 한정사 제약 추가</note>
+			<note>센스5의 최대논항구조 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">再生</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~성</der>
+			<der pos="n" type="suffix">~력</der>
+			<der pos="n" type="suffix">~지</der>
+			<der pos="n" type="suffix">~품</der>
+			<comp pos="n" type="suffix">~고무</comp>
+			<comp pos="n" type="suffix">~장치</comp>
+			<comp pos="n" type="suffix">~법</comp>
+			<comp pos="n" type="suffix">~타이어</comp>
+			<comp pos="n" type="suffix">~종이</comp>
+			<comp pos="n" type="suffix">~섬유</comp>
+			<comp pos="n" type="suffix">~처리</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 오랜 투병 끝에 ~의 기회를 얻었다.</eg>
+				<eg>그에게는 마지막 ~의 희망조차 사라져 버렸다.</eg>
+				<trans>revival</trans>
+				<trans>resuscitation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="etc">반생</syn>
+					<syn type="etc">소생</syn>
+					<syn type="etc">회생</syn>
+					<ant type="temp"></ant>
+					<rel>병</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 어렵다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 돕다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">차례</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 신부는 죄인들이 ~의 길을 걸을 수 있도록 도왔다.</eg>
+				<eg>그는 지난날의 삶에서 벗어나 ~을 하려고 노력했다.</eg>
+				<trans>rebirth</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="etc">갱생</syn>
+					<ant type="temp"></ant>
+					<rel>죄인</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~의 길</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 돕다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">차례</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d>이</pre_d>
+				<pre_d>그</pre_d>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>그는 폐품을 ~을 하여 여러 가지 물건을 만들었다.</eg>
+				<eg>이 노트는 ~ 종이로 만들어진 것이다.</eg>
+				<trans>reclamation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>재처리</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+				<form vcompound="no">~을 시키다</form>
+					<frame>X-이 Y-을 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에의해 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-에의한 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">부정적속성구체물(폐품|고물)</sel_rst>
+				<cl type="uni">차례</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="4">
+			<sem_grp>
+				<eg>그는 녹음된 내용을 ~을 했다.</eg>
+				<eg>이 녹음기는 ~ 기능이 고장났다.</eg>
+				<trans>regeneration</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>녹음</coord>
+					<coord>녹취</coord>
+					<coord>녹화</coord>
+					<rel>테이프</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 어렵다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+				<form vcompound="no">~을 시키다</form>
+					<frame>X-이 Y-을 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에의해 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-에 의한 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|기계</sel_rst>
+				<sel_rst arg="Y">기기|텍스트담지물(테이프)</sel_rst>
+				<cl type="uni">차례</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="5">
+			<sem_grp>
+				<eg>이 생물은 손상된 부위가 여러 번 ~이 된다.</eg>
+				<eg>이 균은 스스로 ~을 한다.</eg>
+				<trans>regrowth</trans>
+				<trans>regeneration</trans>
+				<domain>생물</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>생물생리현상</sem_class>
+				<lr>
+					<syn type="etc">소생</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+				<form vcompound="no">~을 시키다</form>
+					<frame>X-이 Y-을 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">생물(동물|식물|인간)</sel_rst>
+				<sel_rst arg="Y">신체부위(팔|다리|부위)|식물의부분</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

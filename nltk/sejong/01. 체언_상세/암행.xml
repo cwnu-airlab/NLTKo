@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>암행</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/14</cre_date>
+				<cre_writer>최지임</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/02</mod_date>
+				<mod_writer>고길수</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/02</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>n_n기술</mod_note>
+				<mod_note>max_n 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/01</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>s_n기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/02</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/07/14(최지임)명사연어 수정요망</note>
+			<note>2003/09/02(고길수)의미부류를 '행위'에서 '지속적활동'으로 수정, 가장 가까운 최소 부류를 표기함, 단 이동행위인지 검토 필요</note>
+			<note>'암전'은 표제어에서 삭제함, 명사 목록에서 삭제 필요한 듯</note>
+			<note>명사연어의 '~어사'는 삭제함, 추후 복합어로 추가 필요</note>
+			<note>논항 의미정보 표기법 수정, 의미부류에 해당하는 명사 정보는 '|' 없이 표기함, Y에 '단체' 추가</note>
+			<note>기능동사에 'Y-을'을 'Y-을|에'로 수정, 표준사전 참조</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">暗行</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>사장은 사내 분위기를 살펴보기 위해 ~을 했다.</eg>
+				<eg>감찰반이 각 부처를 ~을 하고 다닌다.</eg>
+				<trans>traveling in secret</trans>
+				<sem_class>지속적활동</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 감찰</comb_n>
+				<comb_n type="compound">~ 사찰</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을|에 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<sel_rst arg="X">인간|인간집단(감시반|감찰단|감사반)</sel_rst>
+				<sel_rst arg="Y">장소|단체</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

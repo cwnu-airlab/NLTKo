@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>부인되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/31</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/08/31</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/08/08</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="oi"/>
+			<org lg="si">否認_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>deny</trans>
+				<trans>negative</trans>
+				<trans>negate</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">사실명제(사실|보도|뉴스)|소통행위(말|주장)|인지적행위(의견|생각|결정)</sel_rst>
+					<eg>미군이 이라크를 공격했다는 보도가 부인되었다.</eg>
+					<eg>박 의원은 ?노 대통령의 오늘 발언은 그동안 부인되어 왔던 신당 개입 사실을 시인한 것과 마찬가지?라며 비난했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S음|S것</sel_rst>
+					<eg>미군이 이라크를 공격했다는 것이 부인되었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

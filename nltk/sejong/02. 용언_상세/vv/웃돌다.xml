@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>웃돌다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/02</mod_date>
+				<mod_writer>조원형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/04/07</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/12/16</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>PV</str>
+			<infl type="l"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>be superior</trans>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-을|보다 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">구체물|추상적대상|상태</sel_rst>
+					<sel_rst arg="Y" tht="CRT">행위|상태|(수준|목표|기준)</sel_rst>
+					<eg>우리 회사는 올해 예년 수준을 훨씬 웃도는 수익을 올렸다.</eg>
+					<eg>며칠 동안 평년 기온을 웃도는 따뜻한 날씨가 계속되었다.</eg>
+					<eg>한국은 이번 대회에서 원래의 목표를 웃도는 성과를 올렸다.</eg>
+					<eg>요즈음 청소년들의 범죄는 상상을 훨씬 웃돌 만큼 심각하다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">구체물|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="CRT">행위|상태|(수준|목표|기준)</sel_rst>
+					<eg>이번 작품들은 예년 수준에 훨씬 웃도는 우수작들이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

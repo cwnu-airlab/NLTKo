@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>은퇴</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/02</cre_date>
+				<cre_writer>김진형</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/16</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/08</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_n, n_v에 기술 및 정보 추가</mod_note>
+				<mod_note>n_v 수정</mod_note>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>n_aj 관형형을 서술형으로 수정</mod_note>
+				<mod_note>sem 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/10/09(고길수)의미부류를 '순간적행위'에서 '단독행위'로 수정</note>
+			<note>기능동사 및 논항정보 수정</note>
+			<note>명사연어 정보 추가</note>
+			<note>2003/07/22(권오희)센스1의 comb_n을 add로 옮김</note>
+			<note>add에 동사결합정보 추가</note>
+			<note>2003/08/16(이은경)</note>
+			<add>센스1의 명사결합 : ~ 생활|공연|경기</add>
+			<add>동사결합 : ~를 번복하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">隱退</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>아버지는 조만간 수십 년 동안의 교직 생활을 마감하고 ~를 하실 것이다.</eg>
+				<trans>retirement</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>종료행위</sem_class> <!--'단독행위'를 '종료행위'로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 명예롭다</comb_aj>
+				<comb_aj type="appr">~가 수치스럽다</comb_aj>
+				<comb_n type="compound">~ 생활</comb_n>
+				<comb_n type="compound">~ 경기</comb_n>
+				<comb_n type="compound">~ 공연</comb_n>
+				<comb_n type="compound">~ 선언</comb_n>
+				<comb_n type="compound">정계 ~</comb_n>
+				<comb_n type="compound">공직 ~</comb_n>
+				<comb_n type="compound">현역 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-에서 ~를 하다</frame> <!--'로부터'는 대표형이 아니므로 삭제(송근영)-->
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 번복하다</form>
+					<frame></frame> 
+				</comb_v>
+				<max_n_str>X-의 Y-에서의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">역할|분야|단체|(프로|직업)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

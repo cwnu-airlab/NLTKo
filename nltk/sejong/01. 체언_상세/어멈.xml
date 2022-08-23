@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>어멈</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/16</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/11/04</mod_date>
+				<mod_writer>최지임</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/18</mod_date>
+				<mod_writer>송근영</mod_writer>				
+				<mod_note>syn 기술, 유형값 검토요망</mod_note>
+				<mod_note>ant 유형값 기술, 검토요망</mod_note>
+				<mod_note>센스1 n_v 기술</mod_note>
+				<mod_note>센스1 max_n, sel_res 기술</mod_note>
+				<mod_note>센스1 eg 추가</mod_note>
+				<mod_note>센스2 의미부류 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/19</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 추가</mod_note>
+				<mod_note>예문 수정</mod_note>
+			</mod>
+			<note>2002/08/19(최지임)의미부류 및 센스 구별 검토</note>
+			<note>번역어 검토 요망(어멈의 경우는 해당 번역어가 없어서 여기서는 의미전달가능한 번역어를 선택하였음)</note>
+			<note>2002/10/11(박동호)의미부류와 번역이 잘 주어졌음</note>
+			<note>2003/11/04(최지임)센스2의 의미부류수정</note>
+			<note>각 센스의 번역어수정</note>
+			<note>add 수정</note>
+			<note>note정보표기수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="prefix">젖~</comp>
+			<comp pos="n" type="prefix">뺑덕~</comp>
+			<comp pos="n" type="prefix">행랑~</comp>
+			<comp pos="n" type="prefix">애~</comp>
+			<comp pos="n" type="prefix">아이~</comp>
+			<comp pos="n" type="prefix">의붓~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>네가 ~으로서 자식에게 모범을 보여야 한다.</eg>
+				<eg>요즘 진기 ~의 건강은 좀 어떻소?</eg>
+				<eg>제가 애들 ~ 되는 사람입니다.</eg> <!--송근영 추가-->
+				<trans>(one's) mother</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>비대칭적친족</sem_class>
+				<lr>
+					<syn type="etc">어머니</syn> <!--유형값 적절한지 검토요(송근영), 어멈이 겸양표현으로 보이지 않음.-->
+					<ant type="compl">아범</ant> <!--유형값 적절한지 검토요(송근영), 상보적으로 보임.-->
+					<rel>어머니</rel>
+					<rel>어머님</rel>
+					<rel>어미</rel>
+					<rel>에미</rel>
+					<rel>아버지</rel>
+					<rel>아버님</rel>
+					<rel>아범</rel>
+					<rel>애비</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 Y-에게 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간(여자)</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">명</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>~아, 애비 좀 불러오거라.</eg>
+				<trans>(one's) daughter-in-law</trans>
+				<trans>(one's) wife</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>호칭</sem_class> <!--'이름'을 '호칭'으로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>가서 ~ 좀 오라고 해라.</eg>
+				<trans>woman servant</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>역할인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

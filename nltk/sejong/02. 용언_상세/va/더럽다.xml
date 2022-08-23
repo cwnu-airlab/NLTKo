@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>더럽다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/15</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/04/22</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/12/18</mod_date>
+				<mod_writer>김윤신</mod_writer>
+				<mod_note>선택제약 수정</mod_note>
+			</mod>
+			<note>2003/04/22(김현권)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>A</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>be dirty</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(옷|마루|책상|자동차)</sel_rst>
+					<eg>옷이 때가 묻어 더럽다.</eg>
+					<eg>책상을 자주 닦지 않아서 더럽네.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소(집|운동장|극장|길|도시)</sel_rst>
+					<eg>운동장이 쓰레기가 지저분히 널려 있어 더럽다.</eg>
+					<eg>이 극장은 청소를 별로 안 하니 무척 더럽다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>평가속성값</sem_class>
+				<trans>be mean</trans>
+				<trans>be base</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(행실|언행|말씨|말|성격|성질|마음씨)</sel_rst>
+					<eg>그 친구는 행실이 더러워.</eg>
+					<eg>그는 마음씨가 더러운 녀석이야.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(정치|권력|돈)</sel_rst>
+					<eg>정치란 참 더러운 것이야.</eg>
+					<eg>권력도 마찬가지로 더러워.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>평가속성값</sem_class>
+				<trans>be unpleasant</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|구체물|추상적대상(심보|처사|일|성질)</sel_rst>
+					<eg>난 그 놈의 처사가 더러워 결딜 수 없어.</eg>
+					<eg>난 그 일이 더러워 더 이상 할수 없어.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/15</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/04/22</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/12/18</mod_date>
+				<mod_writer>김윤신</mod_writer>
+				<mod_note>예문추가</mod_note>
+			</mod>
+			<note>2003/04/22(김현권)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>A</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>평가속성값</sem_class>
+				<trans>be dirty</trans>
+			</sem_grp>
+			<frame_grp type="SA">
+				<frame>X=N0-이 C1-이 A</frame>
+				<subsense>
+					<sel_rst arg="C1">(입)</sel_rst>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<eg>그는 입이 더러워 아무 말이나 막 한다.</eg>
+					<eg>나는 내 생전 그 사람처럼 입이 더러운 사람은 처음 본다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="SA">
+				<frame>X=N0-이 C1-이 A</frame>
+				<subsense>
+					<sel_rst arg="C1">(밑)</sel_rst>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<eg>김 의원은 자기 밑이 더러워서인지 정경유착에 대해서는 한마디도 하지 않았다.</eg>
+					<eg>밑이 더러운 인간들이 다른 사람들 흉을 더 잘 본다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

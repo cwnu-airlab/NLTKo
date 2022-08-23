@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>회담</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/04/06</cre_date>
+				<cre_writer>류희선</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/28</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/12</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note>동사구성 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/24</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 의미부류 대칭적행위를 수정</mod_note>
+				<mod_note>센스1 n_aj, 최대논항구조 수정</mod_note>
+				<mod_note>센스2 n_aj 수정</mod_note>
+				<mod_note>센스2 n_v 수정 및 추가</mod_note>
+				<mod_note>센스2 '역사적인 ~'을 n_aj에서 n_n로 이동</mod_note>
+				<mod_note>센스2 최대논항구조, 선택제약 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/03</mod_date>
+				<mod_writer>백고운</mod_writer>
+				<mod_note>add일부정보 sense2 n_v로 이동</mod_note>
+				<mod_note>합성어추가</mod_note>
+			</mod>
+			<note>2001/05/10(류희선)</note>
+			<note>2001/06/12(박동호)</note>
+			<note>2001/08/03(김종명)</note>
+			<note>2003/02/17(김진형)'행위'의 의미와 '사건'의 의미를 분리하여 sense2 기술</note>
+			<note>2003/02/28(이지영)cl추가</note>
+			<note>comb_v 정보 add로 이동</note>
+			<note>curs수정</note>
+			<note>sense 2의 기능동사,최대 논항 구조 추가</note>
+			<note>sense1,2 통합</note>
+			<note>supv 및 sel_res 수정</note>
+			<note>대칭명사:동사 자유구성 추가</note>
+			<note>명사 연어 수정</note>
+			<note>예문 추가</note>
+			<note>의미부류 수정</note>
+			<note>형용사 자유구성 수정</note>
+			<note>형용사-연어 삭제</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">會談</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~장</der>
+			<comp pos="n" type="prefix">6자~</comp>
+			<comp pos="n" type="prefix">양자~</comp>
+			<comp pos="n" type="prefix">정상~</comp>
+			<comp pos="n" type="prefix">수뇌~</comp>
+			<comp pos="n" type="prefix">공식~</comp>
+			<comp pos="n" type="prefix">비공식~</comp>
+			<comp pos="n" type="prefix">최고위급~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>각국의 정상들은 핵무기 축소를 위한 ~을 가졌다.</eg>
+				<eg>시민 단체의 대표들이 인권 문제에 대한 ~을 하기 위해 회의장으로 들어왔다.</eg>
+				<trans>conversation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="CS"/>
+				<sem_class>대화</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>행사</hyper>
+					<hypo>정상</hypo>
+					<hypo>수뇌~</hypo>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 길다</comb_aj>
+				<comb_n type="compound">장시간의 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+					<frame>X-이 Y-와 ~을 하다</frame>
+					<frame>X-이 Y-와 Z-에대해 ~을 하다</frame>
+					<frame>X-이 Y-와 S것-에대해 ~을 하다</frame>
+					<frame>X-와 Y-이 Z-에대해 ~을 하다</frame>
+					<frame>X-와 Y-이 S것-에대해 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 가지다</form>
+					<frame>X-이 Y-와 ~을 가지다</frame>
+					<frame>X-이 Y-와 Z-에대해 ~을 가지다</frame>
+					<frame>X-이 Y-와 S것-에대해 ~을 가지다</frame>
+					<frame>X-와 Y-이 Z-에대해 ~을 가지다</frame>
+					<frame>X-와 Y-이 S것-에대해 ~을 가지다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-와 Y-의 ~</max_n_str>
+				<max_n_str>X-와 Y-의 Z-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<sel_rst arg="Z">행위|사건|(정책|평화)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>어제 뉴욕에서는 세계 각국 정상들의 ~이 열렸다.</eg>
+				<eg>몇 년을 준비해 온 양국의 ~이 전쟁으로 인해 무기한 연기되었다.</eg>
+				<trans>conversation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>모임회의</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">큰 ~</comb_aj>
+				<comb_n type="temp">역사적인 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 있다</form>
+					<frame>X-에서 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 열리다</form>
+					<frame>X-에서 ~이 열리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 개최되다</form>
+					<frame>X-에서 ~이 개최되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 개최하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 열다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 연기하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 제의하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 응하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 참석하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 시작하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 끝나다</form>
+					<frame></frame>
+				</comb_v>
+				
+				<max_n_str>X-에서의 ~</max_n_str>
+				<sel_rst arg="X">장소</sel_rst>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>외</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2005/06/27</cre_date>
+				<cre_writer>장원철</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2006/01/14</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>idm, n_v 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>동의어 추가</mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="lng">오이</var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+			<hom exist="yes"/>
+			<der  pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~ 덩굴에 가지 열릴까</idm>
+			<idm type="prv">~ 심은 데 콩 나랴</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>여름철 몸의 열기를 식혀주기 위해서는 수박, 참외, ~와 같은 찬 음식을 자주 먹어야 한다.</eg>
+				<eg>~를 심으면 ~를 얻고, 콩을 심으면 콩을 얻는 것은 필연적 도리이다.</eg>
+				<trans>cucumber</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>채소</sem_class>
+				<lr>
+					<syn type="perfect">오이</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 먹다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 따다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 심다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2005/06/27</cre_date>
+				<cre_writer>장원철</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2006/01/14</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>idm, n_v 기술;'외벽'을 n_n에서 comp로 이동;예문 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정 없음</mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si"></org>  <!-- 한자가 먹히지 않습니다, 장원철-->
+			<hom exist="yes"/>
+			<der  pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~벽</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~ 얽고 벽 친다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>댓가지, 싸리나무, 수숫대 등으로 ~를 잘 엮어야 벽이 튼튼해진다.</eg>
+				<eg>힘살은 중깃 사이에 세워서 ~를 보강하는 역할을 한다.</eg>
+				<trans>lath</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>자재</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 엮다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사용하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>	
+</superEntry>

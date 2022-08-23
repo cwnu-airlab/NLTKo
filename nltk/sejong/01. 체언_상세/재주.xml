@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>재주</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/08/31</cre_date>
+				<cre_writer>김미란2</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/24</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/13</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note>add이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/30</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미부류를 '긍정적인성'에서 수정;센스2의 의미부류를 '인지추상적행위'에서 수정;센스2의 동사결합 정보 수정;논항 명사구 정보 추가;명사 수식어 정보 삭제;센스3의 의미부류 수정;동사결합 정보 수정;논항 명사구, 의미정보 추가;명사 수식어 정보 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/15</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>의미부류 능력에서 능력속성값으로 수정</mod_note>
+			</mod>
+			<note>1999/09/17(김미란2)</note>
+			<note>2000/04/24(김미란2)</note>
+			<note>2000/04/28(김미란2)</note>
+			<note>2000/05/06(김미란2)</note>
+			<note>2003/03/02(김미순)sense 1 trans 수정</note>
+			<note>2003/03/24(이성헌)센스1의 sem을 '긍정적속성값'에서 '긍정적인성'으로 수정</note>
+			<note>cl에 '개|가지'기재</note>
+			<note>cl에 '번|차례|회'기재</note>
+			<note>comb_aj 삭제</note>
+			<note>comb_aj 에서 '~가 있다|없다'삭제</note>
+			<note>comb_aj에서 '~가 뛰어나다|탁월하다'를 magn로 이동</note>
+			<note>comb_v add로 이동</note>
+			<note>comb_v 수정</note>
+			<note>pre_s 삭제</note>
+			<note>pre_s에 'S는 ~'기재</note>
+			<note>sem '속성'에서 '긍정적속성값'으로 수정</note>
+			<note>sense 2 예문수정</note>
+			<note>trans 수정</note>
+			<note>센스2의 sem을 '인지추상적행위'로 수정</note>
+			<note>재주넘는 행위로서의 센스3 추가기술</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~꾼</der>
+			<der pos="n" type="suffix">~넘기</der>
+			<der pos="n" type="suffix">~아치</der>
+			<der pos="n" type="prefix">잔~</der>
+			<comp pos="n" type="suffix">~춤</comp>
+			<comp pos="n" type="prefix">땅~</comp>
+			<comp pos="n" type="prefix">말~</comp>
+			<comp pos="n" type="prefix">물~</comp>
+			<comp pos="n" type="prefix">번개~</comp>
+			<comp pos="n" type="prefix">손~</comp>
+			<comp pos="n" type="prefix">천생~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~를 넘다</idm>
+			<idm type="nv">~를 피우다</idm>
+			<idm type="nv">~를 부리다</idm>
+			<idm type="prv">~를 다 배우니 눈이 어둡다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 음악에 선척적인 ~를 가지고 태어났다.</eg>
+				<trans>talent</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="UR"/>
+				<sem_class>능력속성값</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~가 많다</comb_aj>
+				<comb_aj type="appr">~가 모자라다</comb_aj>
+				<comb_aj type="magn">~가 뛰어나다</comb_aj>
+				<comb_aj type="magn">~가 탁월하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 있다</form>
+					<frame>X-이 Y-에 S는 ~가 있다</frame>
+					<frame>X-이 S것-에 S는 ~가 있다</frame>
+					<frame>X-이 S데-에 S는 ~가 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 없다</form>
+					<frame>X-이 Y-에 S는 ~가 없다</frame>
+					<frame>X-이 S것-에 S는 ~가 없다</frame>
+					<frame>X-이 S데-에 S는 ~가 없다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 가지다</form>
+					<frame>X-이 Y-에 S는 ~를 가지다</frame>
+					<frame>X-이 S것-에 S는 ~를 가지다</frame>
+					<frame>X-이 S데-에 S는 ~를 가지다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 발휘하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 타고나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 살리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 S는 ~</max_n_str>
+				<max_n_str>X-의 S것-에대한 S는 ~</max_n_str>
+				<max_n_str>X-의 S데-에대한 S는 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">행위|분야|학문과목|예술</sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>아무리 ~를 부려 보아도 아버지의 감시를 빠져 나갈 수 없었다.</eg>
+				<trans>wit</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="UR"/>
+				<sem_class>능력속성값</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+				<!-- narg_vpred -->
+					<form vcompound="no">~를 부리다</form>
+					<frame>X-이 S는 ~를 부리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+				<!-- narg_vpred -->
+					<form vcompound="no">~를 피우다</form>
+					<frame>X-이 S는 ~를 피우다</frame>
+				</comb_v>
+				<max_n_str>X-의 S는 ~</max_n_str>
+				<sel_rst arg="X">인간|동물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<!-- pre_n>N</pre_n -->
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>공중에서 ~를 넘는 솜씨로 치자면 그을 따라올 자가 없다.</eg>
+				<trans>wit</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="UR"/>
+				<sem_class>몸짓및동작</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+				<!-- narg_vpred -->
+					<form vcompound="no">~를 넘다</form>
+					<frame>X-이 ~를 넘다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|동물</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<!-- pre_n>N</pre_n -->
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>백신</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/30</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/30</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/25</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add정보를 해당 n_v로 이동</mod_note>
+				<mod_note>센스1,2 분류사 기술</mod_note>
+			</mod>
+			<add>2003/10/30(송인욱)센스1의 동사자유구성으로 '~이 듣다|통하다</add>
+			<add>~을 개발하다|처방하다|주사하다|놓다' 추가</add>
+			<add>2003/10/30(송인욱)센스2의 동사자유구성으로 '~을 깔다|설치하다|만들다|개발하다</add>
+			<add>~으로 검사하다|치료하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">vaccine</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리가 개발한 ~은 백혈병 환자들의 면역력을 높이는 데 효과가 있다.</eg>
+				<eg>그 나라는 현재 ~이 부족해서 전염병의 확산을 막지 못하는 상태이다.</eg>
+				<eg>이번에 새로 검출된 병균에는 기존의 어떤 ~도 듣지 않는다.</eg>
+				<trans>vaccine</trans>
+				<domain>의학</domain>
+				<sem_class>약</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 강력하다</comb_aj>
+				<comb_aj type="min">~이 약하다</comb_aj>
+				<comb_aj type="appr">~이 충분하다</comb_aj>
+				<comb_aj type="appr">~이 부족하다</comb_aj>
+				<comb_n type="compound">~ 주사</comb_n>
+				<comb_n type="compound">~ 요법</comb_n>
+				<comb_n type="compound">~의 부작용</comb_n>
+				<comb_n type="compound">~(의) 투여</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 개발하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 처방하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 주사하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 놓다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 듣다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 통하다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>~을 3개나 깔아 놓아도 바이러스의 침투를 완벽히 막지 못하니 큰일이다.</eg>
+				<eg>새로 나온 ~이 아주 좋다던데, 내 컴퓨터에도 한 번 설치해 봐야겠다.</eg>
+				<trans>vaccine</trans>
+				<domain>컴퓨</domain>
+				<sem_class>소프트웨어</sem_class>
+				<lr>
+					<hyper>프로그램</hyper>
+					<rel>바이러스</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 좋다</comb_aj>
+				<comb_n type="compound">~ 프로그램</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 깔다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 설치하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 개발하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 검사하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 치료하다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

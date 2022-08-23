@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>순환</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/06/26</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/08</mod_date>
+				<mod_writer>한선혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/09</mod_date>
+				<mod_writer>김천학</mod_writer>
+				<mod_note>명사동사결합수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/15</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>세 sense로 굳이 나눌 필요가 있는지 의문(혈액, 교통, 돈 말고도 순환되는 것을 오히려 포괄하지 못함: 계절~, 물)</mod_note>
+				<mod_note>관련어 삭제, 합성어, 분류사 추가</mod_note>
+				<mod_note>띄어쓰기, 명사결합 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1, 2를 공간상의 순환과 상태변화 또는 시간상의 순환으로 재분할;센스3을 이동행위에서 경제현상으로 수정;'하다, 되다'에서 'Y-에서' 삭제;단위표현 추가;선택제약에 '금전' 추가</mod_note>
+			</mod>
+			<note>2002/02/02(최지임)예문 정보 수정</note>
+			<note>2003/07/08(최지임)sense 1 예문수정 및 추가</note>
+			<note>2003/08/08(한선혜)센스추가</note>
+			<note>sense 2 기능동사 검토요망</note>
+			<note>sense2 입력</note>
+			<note>각 센스의 의미부류 검토요망!</note>
+			<note>각 의미부류 수정</note>
+			<note>관련어 정보 입력</note>
+			<note>기능동사 및 논항선택제약 수정</note>
+			<note>기능동사구문 수정</note>
+			<note>논항 선택 제약 정보 추가</note>
+			<note>센스 구별 검토요망</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">循環</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~적</der>
+			<comp pos="n" type="suffix">~계</comp>
+			<comp pos="n" type="suffix">~계통</comp>
+			<comp pos="n" type="suffix">~논증</comp>
+			<comp pos="n" type="suffix">~과정</comp>
+			<comp pos="n" type="suffix">~기</comp>
+			<comp pos="n" type="suffix">~도로</comp>
+			<comp pos="n" type="suffix">~론</comp>
+			<comp pos="n" type="suffix">~장애</comp>
+			<comp pos="n" type="prefix">경기~</comp>
+			<comp pos="n" type="prefix">경제~</comp>
+			<comp pos="n" type="prefix">대~</comp>
+			<comp pos="n" type="prefix">악~</comp>
+			<comp pos="n" type="prefix">자금~</comp>
+			<comp pos="n" type="prefix">자본~</comp>
+			<comp pos="n" type="prefix">재~</comp>
+			<comp pos="n" type="prefix">체외~</comp>
+			<comp pos="n" type="prefix">화폐~</comp>
+			<comp pos="n" type="prefix">폐~</comp>
+			<comp pos="n" type="prefix">혈액~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>혈액 ~이 잘 안 되면 온몸이 자주 저린다.</eg>
+				<eg>이 버스는 두 지역 간을 ~을 한다.</eg>
+				<trans>circulation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>이동행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 원활하다</comb_aj>
+				<comb_n type="compound">~ 열차</comb_n>
+				<comb_n type="compound">~ 노선</comb_n>
+				<comb_n type="compound">~ 버스</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<sel_rst arg="X">구체물|집단</sel_rst>
+				<sel_rst arg="Y">신체부위|장소</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>계절은 1년을 주기로 ~을 한다.</eg>
+				<eg>물은 수증기로 수증기는 다시 물로 이렇게 ~이 이루어진다.</eg>
+				<trans>circulation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>현상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">순환시간|구체자연물</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>지금 우리 회사는 자금의 ~이 어려워 고전하고 있습니다.</eg>
+				<trans>operating</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>경제현상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 어렵다</comb_aj>
+				<comb_aj type="appr">~이 원활하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame> <!-- Y-에서  삭제 -->
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame> <!-- Y-에서 삭제 -->
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">금전|돈</sel_rst>
+				<!-- sel_rst arg="Y">인간집단</sel_rst>
+				<sel_rst arg="Z">인간|인간집단</sel_rst -->
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

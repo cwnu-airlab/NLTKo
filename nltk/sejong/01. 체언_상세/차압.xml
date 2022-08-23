@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>차압</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/08</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/10</mod_date>
+				<mod_writer>이민우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/16</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>합성어 항목 추가</mod_note>
+				<mod_note>단위사 항목 추가</mod_note>
+				<mod_note>명사결합 항목 추가</mod_note>
+				<mod_note>동사결합 항목 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/19</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2004/12/30</mod_date>
+				<mod_writer>장원철</mod_writer>
+		        <mod_note>동의어 추가</mod_note>
+	        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">差押</org>
+		
+			<comp pos="n" type="prefix">가~</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>은행에서 그의 재산을 ~을 했다.</eg>
+				<eg>우리 집이 ~이 되었다.</eg>
+				<eg>빚을 갚지 못하자 곧 바로 ~이 들어왔다.</eg>
+				<trans>attachment</trans>
+				<sem_class>단독행위</sem_class>
+				<lr>
+				   <syn type="etc">압류</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">재산 ~</comb_n>
+				<comb_n type="compound">~ 딱지</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form> <!-- 합성동사 정보를 새 기술형식에 맞게 수정(송근영) -->
+					<frame>X-이 Y-을 ~을 하다</frame> <!-- 조사 대표형으로 수정(송근영) -->
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form> <!-- 합성동사 정보를 새 기술형식에 맞게 수정(송근영) -->
+					<frame>Y-이 X-에 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~에 들어가다</form> <!-- 기능동사 변이형으로 보고 격틀정보 기술 (송근영) -->
+					<frame>X-이 Y ~에 들어가다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 들어가다</form> <!-- 기능동사 변이형으로 보고 격틀정보 기술 (송근영) -->
+					<frame>Y-에대해 ~이 들어가다</frame>
+				</comb_v>
+				<sel_rst arg="X">금융기관|국가기관</sel_rst>
+				<sel_rst arg="Y">속성구체물(재산)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

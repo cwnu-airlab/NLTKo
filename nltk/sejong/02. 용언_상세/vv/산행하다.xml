@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>산행하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/09</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/09</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/22</mod_date>
+				<mod_writer>음두은</mod_writer>
+				<mod_note>frame 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">산행을 하다</var>
+			<str>N.하</str>
+			<org lg="si">山行_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>돌아다니기</sem_class>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-에서|을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="LOC">고지대(산)</sel_rst>
+					<eg>가파른 산을 산행하다보면 숨이 차기는 하지만, 기분이 좋아다.</eg>
+					<eg>설악산 대청봉을 산행한 날은 올해 들어서 첫눈이 내린 날이다.</eg>
+					<eg>아내에게 이끌려서 모악산을 산행한 것이 계기가 되었습니다.</eg>
+					<eg>어떤 길로 산행하는 것이 좋을까요?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

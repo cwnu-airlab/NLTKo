@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>방광</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/04</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/04</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_aj 수정</mod_note>
+			</mod>
+			<add>2003/11/04(송인욱)동사자유구성으로 '~이 터지다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">膀胱</org>
+		
+			<der pos="n" type="suffix">~염</der>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>세 시간 동안 오줌을 참았더니 ~이 터질 것 같다.</eg>
+				<eg>~에 결석이 생기면 배뇨 시에 큰 고통이 따른다.</eg>
+				<trans>bladder</trans>
+				<sem_class>내장</sem_class>
+				<lr>
+					<syn type="kor">오줌보</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 크다</comb_aj>
+				<comb_aj type="min">~이 작다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 터지다</form>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

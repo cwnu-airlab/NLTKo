@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>번쩍하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/24</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/24</mod_date>
+				<mod_note>목록에는 형용사 목록으로 되어 있는데 사전에 대부분 동사로 되어 있어서 동사로 기술하였음.</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/15</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc">반짝하다</var>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>현상</sem_class>
+				<trans>give out a flash</trans>
+				<trans>flash</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">빛|조명기구(손전등)</sel_rst>
+					<eg>그 흰빛은 전광석화와 같이 한 번 번쩍하는 사이에 벌써 그는 형당 문 밖으로 뺑소니를 쳐 버렸다.</eg>
+					<eg>눈앞에 번개같기도 하고 무지개 같기도 한 서광이 번쩍하여 성참판은 자신도 모르게 눈을 감아버렸다.</eg>
+					<eg>그때 저편에서 회중 전등이 번쩍하고 이리로 왔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>come across one's mind</trans>
+				<trans>occur to</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인지상태</sel_rst>
+					<sel_rst arg="Y" tht="LOC">인간|신체부위(머리|뇌리)</sel_rst>
+					<eg>기발한 생각이 내 머리 속에 번쩍했다.</eg>
+					<eg>불현듯 소년의 뇌리에 번쩍하는 생각이 떠올랐다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>give out a flash</trans>
+				<trans>flash</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|교통기관(자동차)</sel_rst>
+					<sel_rst arg="Y" tht="THM">빛|조명기구</sel_rst>
+					<eg>어두운 길에는 자동차가 헤드라이트 불빛을 번쩍하며 지나간다.</eg>
+					<eg>아무에게나 손전등을 번쩍하지 마라.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<idm_grp>
+			<idm>귀가 번쩍하다</idm>
+		</idm_grp>
+	</entry>
+</superEntry>

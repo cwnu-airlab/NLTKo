@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>차녀</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/19</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/25</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/26</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/27</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>1999/10/16(백인애)</note>
+			<note>2000/05/01(백인애)</note>
+			<note>2003/03/07(김미순)예문수정</note>
+			<note>2003/03/25(고길수)비가산적인 용법도 있음</note>
+			<note>cl에 '분' 삭제</note>
+			<note>comb_v add로 이동</note>
+			<note>max_n 삭제</note>
+			<note>sem '인물/친족관계'에서 '비대칭적친족'으로 수정</note>
+			<note>supv 삭제</note>
+			<note>기능동사, 최대논항명사구, 논항 의미정보 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">次女</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 집은 장녀가 타지에 나가 있어 ~가 맏언니 역할을 하고 있다.</eg>
+				<trans>second daughter</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="CR"/>
+				<sem_class>비대칭적친족</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">차남</ant>
+					<hyper>친척</hyper>
+					<rel>장녀</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 똑똑하다</comb_aj>
+				<comb_aj type="appr">~가 예쁘다</comb_aj>
+				<comb_aj type="appr">~가 착하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-이 Y-에게 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 돕다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 모시다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 시집가다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에게 주다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간(여자)</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>비켜나다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/01</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/01</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/08/18</mod_date>
+				<mod_writer>안소진</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="a"/>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>몸짓및동작</sem_class>
+				<trans>get out of the way</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|교통기관</sel_rst>
+					<sel_rst arg="Y" tht="DIR">관계장소(앞|뒤|열)|부분장소(계단|복도)</sel_rst>
+					<eg>김교장은 자동차가 달려오자 길 옆으로 비켜났다.</eg>
+					<eg>교장선생님이 다가오자 아이들은 복도로 비켜났다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="manner2">살짝</col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>기상현상</sem_class>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">기상현상(태풍|폭우)</sel_rst>
+					<sel_rst arg="Y" tht="DIR">지역(한반도|남부|남해안)</sel_rst>
+					<eg>태풍이 한반도 남부로 비켜났다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-에서|을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|교통기관|사태(슈팅)</sel_rst>
+					<sel_rst arg="Y" tht="SRC">부분장소(앞|뒤|옆)|부분장소(길|자리|좌석)</sel_rst>
+					<eg>박노인은 접수대에서 비켜나와 자료실로 향했다.</eg>
+					<eg>차량은 큰 길을 비켜나서 오솔길로 접어들었다.</eg>
+					<eg>초반 조재진의 날카로운 두 차례 슈팅이 아슬아슬하게 골대를 비켜나간 이후 상황이 돌변했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>기상현상</sem_class>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-에서|을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">기상현상(태풍|폭우)</sel_rst>
+					<sel_rst arg="Y" tht="SRC">지역(한반도|남부|일본)</sel_rst>
+					<eg>지금 태풍이 일본을 비켜나서 한반도로 북상중이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-에서|을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인지적행위(생각|인식)|소통행위(토론|대담)</sel_rst>
+					<sel_rst arg="Y" tht="SRC">(핵심|논리|정곡|주제)</sel_rst>
+					<eg>국회의원들의 토론은 문제의 핵심에서 비켜나기 일쑤였다.</eg>
+					<eg>정부가 취하는 방안은 엉뚱하게 교육여건 등의 지엽말단적 문제를 부각시켜 본질을 비켜나고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

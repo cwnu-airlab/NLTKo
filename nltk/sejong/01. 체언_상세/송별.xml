@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>송별</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/26</cre_date>
+				<cre_writer>이지영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/12</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>형용사, 동사결합 정보 추가;논항명사구 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/19</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>맥스엔, 선택제약 정보 수정;명사연어 추가</mod_note>
+			</mod>
+			<note>2002/10/08(박진호)</note>
+			<note>2003/08/07(기영인)대역어 수정</note>
+			<note>기능동사구문 정보수정</note>
+			<note>논항선택제약 정보수정</note>
+			<note>2003/09/08(목정수)</note>
+			<note>2003/09/12(기영인)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">送別</org>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그들은 우리들의 ~을 받았다.</eg>
+				<trans>farewell</trans>
+				<trans>send-off</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>방향성행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">성대한 ~</comb_aj> <!-- 추가 -->
+				<comb_n type="compound">~ 모임</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup"> <!-- 추가 -->
+					<form vcompound="yes">~을 받다</form>
+					<frame>Y-이 X-에게 ~을 받다</frame>
+					<frame>Y-이 X-에게서 ~을 받다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str> <!-- 추가 -->
+				<max_n_str>X-의 Y-에대한 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<sel_rst arg="X">인간|혈연집단|지역집단|일시적집단</sel_rst>
+				<sel_rst arg="Y">인간|혈연집단|일시적집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

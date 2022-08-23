@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>전염시키다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/03/30</cre_date>
+				<cre_writer>박철우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/05/26</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">전염을 시키다</var>
+			<cntr opt="obl" type="i"/>
+			<org lg="si">傳染__</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>사동적행위</sem_class>
+				<trans>carry infectioncommunicate (a disease)</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에|에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">구체물|기상현상|행위</sel_rst>
+					<sel_rst arg="Y" tht="THM">미생물(세균|박테리아)|질병및증세(뇌염|이질|구제역)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">생물|장소</sel_rst>
+					<eg>강풍이 인근 축사에 빠른 속도로 구제역을 전염시키고 있다고 한다.</eg>
+					<eg>집단 급식은 때로 세균을 전염시키는 온상이 되기도 한다.</eg>
+					<eg>그는 부주의하고 문란한 성생활로 여러 사람에게 에이즈를 전염시켰다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>사동적행위</sem_class>
+				<trans>infect</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에|에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">인간|인간집단|추상적대상|사건|현상|행위</sel_rst>
+					<sel_rst arg="Y" tht="THM">상태|행위</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|인간집단</sel_rst>
+					<eg>이 가수는 아이들에게 반항적 태도를 전염시킨다고 비판을 받고 있다.</eg>
+					<eg>그런 사고는 사람들에게 한탕주의를 전염시킬 위험이 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>연작</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/01</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/25</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/06</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>'~ 소설, 만화' 센스2 n_n에 추가</mod_note>
+				<mod_note>센스1, 3 max_n 기술</mod_note>
+				<mod_note>센스1 sem 수정</mod_note>
+				<mod_note>센스1, 3 sel_res 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 기술, 오타 수정</mod_note>
+			</mod>
+			<note>2002/07/25(고길수)센스1에 예문 추가</note>
+			<note>센스2에 제시된 '~ 소설'을 센스1의 명사연어로 조정</note>
+			<note>2002/08/02(이성헌)</note>
+			<note>2003/09/17(송인욱)센스1의 도메인에서 '문학' 삭제</note>
+			<note>센스1의 명사 연어에 '~ 만화' 추가</note>
+			<note>센스1의 예문 추가</note>
+			<note>센스1의 의미부류를 '행위'에서 수정</note>
+			<note>센스2의 의미부류를 '작품'이라고 했을 때, 미술품은 포함이 안 되는 문제를 어떻게 할 것인가?</note>
+			<note>센스2의 형용사 자유구성에 '~가 방대하다' 추가</note>
+			<note>센스2의 명사 연어 새로 기술</note>
+			<note>센스3의 예문 추가</note>
+			<note>센스3의 단위표현 새로 기술</note>
+			<note>센스3의 선택제약의 Y논항을 '문학작품'에서 수정</note>
+			<note>2003/09/25(김미현)센스3의 의미부류를 '행위'에서 '지속적활동'으로 수정</note>
+			<note>송인욱의 질문에 대해, 센스 2의 의미는 미술품의 경우도 가능하므로, 의미부류를 '작품'으로 두는 데에 별 어려움이 없음.</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">聯作</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~소설</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 작가는 동일한 인물이 등장하는 여러 편의 소설을 ~을 하였다.</eg>
+				<eg>이솝은 여러 개의 단편을 ~을 하여 이솝우화를 만들었다</eg>
+				<eg>그녀는 새로운 ~ 만화를 구상하느라 다른 데 신경 쓸 틈이 없었다.</eg>
+				<trans>work produced  in series</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>창조행위</sem_class> <!--'단독행위'를 '창조행위'로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 만화</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">문학텍스트(단편|중편)</sel_rst> <!--'문학작품'을 '문학텍스트'로 수정(송근영)-->
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그의 ~은 권선징악의 주제를 가지고 있다.</eg>
+				<eg>이 화가는 도시에서의 삶을 주제로 한 일련의 ~들로 유명하다.</eg>
+				<trans>series of works</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>작품</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 길다</comb_aj>
+				<comb_aj type="appr">~이 짧다</comb_aj>
+				<comb_aj type="appr">~이 방대하다</comb_aj>
+				<comb_n type="compound">일련의 ~</comb_n>
+				<comb_n type="compound">~ 만화</comb_n> <!--송근영 추가-->
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>이 작품은 여러 작가들이 사랑을 주제로 ~을 한 것이다.</eg>
+				<eg>당대의 내로라 하는 작곡가들이 한데 모여 ~을 시도한 결과 그 곡이 탄생했다.</eg>
+				<trans>work produced in collaboration</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>창조행위</sem_class> <!--'지속적활동'을 '창조행위'로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst> 
+				<sel_rst arg="Y">미술작품|조형물|작품</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/01</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/25</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/06</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>max_n 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어, 동의어 추가</mod_note>
+			</mod>
+			<note>2002/07/25(고길수)예문 수정</note>
+			<note>의미부류를 '행위'에서 '물리적행위'로 수정</note>
+			<note>기능동사정보에서 '장소' 논항을 삭제</note>
+			<note>논항선택제약에서 X에 '인간집단'을 추가</note>
+			<note>2002/08/02(이성헌)cl에'차례'추가</note>
+			<note>2003/09/17(송인욱)형용사 자유구성에 '~이 불가능하다|쉽다|어렵다' 추가</note>
+			<note>2003/09/25(김미현)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">連作</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이곳은 토질이 좋아서 ~을 해도 매번 수확량이 많다.</eg>
+				<trans>repeated cultivation</trans>
+				<domain>농업</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>방식행위</sem_class>
+				<lr>
+					<syn type="etc">이어짓기</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 가능하다</comb_aj>
+				<comb_aj type="appr">~이 불가능하다</comb_aj>
+				<comb_aj type="appr">~이 쉽다</comb_aj>
+				<comb_aj type="appr">~이 어렵다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">곡식</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

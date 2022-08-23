@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>도배하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/10/10</mod_date>
+				<mod_writer>김선영</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">도배를 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">塗褙_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>장식행위</sem_class>
+				<trans>paper</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="cross" n="01">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">건물|(방|벽)</sel_rst>
+					<sel_rst arg="Z" tht="INS">(장지|도배지|벽지)</sel_rst>
+					<eg>철수는 방을 장지로 새로 도배했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="cross" n="01">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(장지|도배지|벽지)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">건물|(방|벽)</sel_rst>
+					<eg>철수는 방에 장지를 새로 도배했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>장식행위</sem_class>
+				<trans>paper</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="cross" n="02">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(게시판|벽)|신체부위(얼굴|몸)</sel_rst>
+					<sel_rst arg="Z" tht="INS">구체물(반창고|돈)</sel_rst>
+					<eg>철수는 얼굴을 반창고로 도배했다.</eg>
+					<eg>아이들이 학교 게시판을 아이돌가수의 사진들로 도배했다</eg>
+					<eg>그 여자는 온 몸을 돈으로 도배했구나.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="cross" n="02">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(반창고|돈)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">구체물(게시판|벽)|신체부위(얼굴|몸)</sel_rst>
+					<eg>철수는 얼굴에 반창고를 도배했다.</eg>
+					<eg>아이들이 학교 게시판에 아이돌가수의 사진를 도배했다</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<idm_grp>
+			<idm>온 몸에 돈을 도배하다</idm>
+			<idm>온 몸을 돈으로 도배하다</idm>
+		</idm_grp>
+	</entry>
+</superEntry>

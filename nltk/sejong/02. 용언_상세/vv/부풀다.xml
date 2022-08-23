@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>부풀다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/05</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/05</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/08/08</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<infl type="l"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>rise</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">음식(빵|밥|반죽)</sel_rst>
+					<eg>반죽이 잘 부풀어야 맛있는 찐빵이 된다.</eg>
+					<eg>밥이 물에 부풀거든 익혀라.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>질병및증세</sem_class>
+				<trans>swell up</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">신체부위(손바닥|발바닥|피부)|(상처|물집)</sel_rst>
+					<eg>양말을 신지 않고 신발을 신었더니 발바닥이 부풀었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>get bulky</trans>
+				<trans>expand</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">사실명제(소식|정보)|(이야기|소문|추문)</sel_rst>
+					<eg>그의 추문은 소문보다 더 부풀었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>추상적행위</sem_class>
+				<trans>be buoyant with</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">심리상태(미움|설움|희망)|인지상태(생각|이미지)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">(가슴|마음)</sel_rst>
+					<eg>미래에 대한 희망이 그의 가슴에 한껏 부풀어 있었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(가슴|마음)</sel_rst>
+					<sel_rst arg="Y" tht="EFF">심리상태(희망|용기|미움|기대)</sel_rst>
+					<eg>영희는 새로운 약혼자를 만나면서 가슴이 희망으로 부풀었다.</eg>
+					<eg>사람들이 큰 기대에 부풀어 있다.</eg>
+					<eg>작가가 될 꿈에 부풀어 있는 명랑 소녀 베브가 여기에 살고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>재개</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/06/30</cre_date>
+				<cre_writer>신중진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/13</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/13</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note>add이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/30</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>영어대역어 분할 표기;동사결합 정보 수정;논항 명사구 표기법 수정;수식어절 정보 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/15</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>'되다'구문에 'X-에 의해' 기재</note>
+			<note>2000/09/07(김종명)</note>
+			<note>2003/01/10(서진숙)</note>
+			<note>2003/01/13(이성헌)센스1의 sem을 '상태변화'에서 '결과행위'로 수정</note>
+			<note>Y논항에 S것|S기 추가</note>
+			<note>Y의 '추상'을 '계획사건'으로 수정하고 Z항 삭제</note>
+			<note>comb_v에 중복기재된 '~를 시도하다</note>
+			<note>pre_s에 # 기재</note>
+			<note>sel_res의 X의 '인물'을 '인간'으로 수정</note>
+			<note>supv에서 '하다'와 분리 기술되었던 '시키다'의 사역용법을 삭제하고 기능동사용법으로서의 '시키다' 기술</note>
+			<note>~에돌입하다'를 삭제</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">再開</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>양국 간의 교역 ~를 시도하였다.</eg>
+				<trans>reopening</trans>
+				<trans>resumption</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>개시행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+					<frame>X-이 S것-을 ~를 하다</frame>
+					<frame>X-이 S기-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~를 시키다</form>
+					<frame>X-이 Y-을 ~를 시키다</frame>
+					<frame>X-이 S것-을 ~를 시키다</frame>
+					<frame>X-이 S기-을 ~를 시키다</frame>
+				</comb_v>
+				<!-- n_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>X-이 Y|S것|S기-를 ~를 시키다</frame>
+				</n_v -->
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-에의해 Y-이 ~가 되다</frame>
+					<frame>X-에의해 S것-이 ~가 되다</frame>
+					<frame>X-에의해 S기-이 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred -->
+					<form vcompound="no">~를 시도하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-의 ~</max_n_str>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-에의한 Y-의 ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">계획사건|행위</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<!-- s_n yn="no"/ -->
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/31</cre_date>
+				<cre_writer>신중진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/13</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/13</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note>add이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/30</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미부류 수정;동사결합 정보 수정;논항 명사구 정보 수정 및 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/15</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/09/07(김종명)</note>
+			<note>2003/01/10(서진숙)</note>
+			<note>2003/01/13(이성헌)sem확인</note>
+			<note>sel_res의 X를 '인물'에서 '인간'으로 수정하고 Y를 '추상적대상'에서 '규범|제도'로 수정</note>
+			<note>sem의 의미부류 재고</note>
+			<note>supv에 '되다'구문 기술</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">再改</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 규정에 대해 ~의 필요성이 제기되고 있다.</eg>
+				<trans>remaking</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>변형행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-에의해 Y-이 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- npred_vsup -->
+					<form vcompound="no">~를 막다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- npred_vsup -->
+					<form vcompound="no">~를 요구하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-에의한 Y-의 ~</max_n_str>
+				<max_n_str>X-의 Y-의 ~</max_n_str>
+				<max_n_str>X-에의한 Y ~</max_n_str>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">규범|제도</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

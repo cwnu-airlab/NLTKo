@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>왼쪽</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/24</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/28</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/28</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>nng_c로 고치고 str 기술</mod_note>
+				<mod_note>add 정보를 ant에 기술</mod_note>
+				<mod_note>syn 기술</mod_note>
+				<mod_note>av 정보 분리 제시</mod_note>
+				<mod_note>센스2 av에서 '에' 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정 없음</mod_note>
+			</mod>
+			<note>2002/08/31(고길수)의미를 관계장소와 방향으로 분할</note>
+			<note>예문 수정 및 추가</note>
+			<note>센스1의 의미부류를 '관계장소'로 수정</note>
+			<note>prt 정보를 av로 수정, 표기법 수정, '~에서' 추가</note>
+			<note>add 정보 추가</note>
+			<note>2002/10/11(이성헌)</note>
+			<note>2003/09/16(기영인)센스2 대역어 수정</note>
+			<note>2003/09/26(나윤희)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="etc">왼+쪽</str> <!--관형사+명사의 결합(송근영)-->
+			<org lg="temp"></org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>백화점 ~에 버스 정류장이 있다.</eg>
+				<eg>~에 서 있는 건물이 바로 시청입니다.</eg>
+				<trans>left side</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>관계장소</sem_class>
+				<lr>
+					<syn type="perfect">왼편</syn>
+					<ant type="dir">오른쪽</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av>~에</av>
+				<av>~에서</av>
+				<av>~으로</av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>~으로 가면 시청이 나오고 오른쪽으로 가면 대학교가 나옵니다.</eg>
+				<trans>left</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>방향</sem_class>
+				<lr>
+					<syn type="perfect">왼편</syn>
+					<ant type="dir">오른쪽</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av>~에서</av>
+				<av>~으로</av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

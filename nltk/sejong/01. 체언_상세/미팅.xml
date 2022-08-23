@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>미팅</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/11</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>syn_grp_b수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add를 n_v로 이동, 센스1 '~이 있다' 삭제, 센스1,2,3 n_v 수정 및 추가</mod_note>
+			</mod>
+			<note>2003/10/13(박진호)센스1,2 격틀, 선택제약 수정. '~이 있다'는 '계획사건/모임회의'로서의 용법이므로 센스를 구분해야 할지도. 합성어에 있던 것을 센스1 명사연어로 옮김</note>
+			<note>2003/10/28(송인욱)박진호 선생님의 견해에 따라 센스2를 두 개로 분리시킴</note>
+			<add>2003/07/11(송인욱)센스1의 동사자유구성으로 '~을 잡다|주선하다</add>
+			<add>~으로|에서 만나다' 추가</add>
+			<add>2003/10/28(송인욱)센스3의 동사자유구성으로 '~을 잡다|앞당기다|미루다|연기하다|취소하다</add>
+			<add>~이 연기되다|취소되다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">meeting</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리가 만난 것은 1학년 첫 ~에서였다.</eg>
+				<eg>~을 여러 번 해봤지만 그 중에 마음에 드는 사람은 없었다.</eg>
+				<eg>우리 과는 너희 과와 이번 주말에 시내에서 ~을 하기로 되어 있다.</eg>
+				<eg>나는 공대 애들과 ~을 할 때마다 실망하지 않을 수 없었다.</eg>
+				<trans>group dating</trans>
+				<sem_class>대칭적행위</sem_class>
+				<lr>
+					<rel>소개팅</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 빈번하다</comb_aj>
+				<comb_aj type="appr">~이 잦다</comb_aj>
+				<comb_aj type="appr">~이 재미있다</comb_aj>
+				<comb_aj type="appr">~이 즐겁다</comb_aj>
+				<comb_aj type="appr">~이 지겹다</comb_aj>
+				<comb_n type="compound">단체 ~</comb_n>
+				<comb_n type="compound">삼대삼 ~</comb_n>
+				<comb_n type="compound">~ 주선</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-와 ~을 하다</frame>
+					<frame>X-와 Y-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 잡다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 주선하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~으로 만나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에서 만나다</form>
+					<frame></frame>
+				</comb_v>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>앞으로 기획부와 영업부는 매주 한 차례씩 ~을 갖기로 했다.</eg>
+				<eg>담배연기가 자욱한 회의실에서 ~을 하는 것은 나에게 항상 고역이었다.</eg>
+				<trans>meeting</trans>
+				<trans>conference</trans>
+				<sem_class>대칭적행위</sem_class>
+				<lr>
+					<syn type="etc">회의</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 빈번하다</comb_aj>
+				<comb_aj type="appr">~이 잦다</comb_aj>
+				<comb_aj type="appr">~이 즐겁다</comb_aj>
+				<comb_aj type="appr">~이 재미있다</comb_aj>
+				<comb_aj type="appr">~이 지겹다</comb_aj>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+					<frame>X-이 Y-와 ~을 하다</frame>
+					<frame>X-와 Y-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 갖다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 잡다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 앞당기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 미루다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 연기하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 취소하다</form>
+					<frame></frame>
+				</comb_v>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>홍보팀의 ~은 그렇게 자주 있는데도 불구하고 무척 재미있어 보였다.</eg>
+				<eg>오늘은 우리 부서 ~이 있는 날이어서 다들 보고 준비로 바빴다.</eg>
+				<trans>meeting</trans>
+				<trans>conference</trans>
+				<sem_class>일반모임회의</sem_class>
+				<lr>
+					<syn type="perfect">회의</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 빈번하다</comb_aj>
+				<comb_aj type="appr">~이 잦다</comb_aj>
+				<comb_aj type="appr">~이 즐겁다</comb_aj>
+				<comb_aj type="appr">~이 재미있다</comb_aj>
+				<comb_aj type="appr">~이 지겹다</comb_aj>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 있다</form>
+					<frame>X-에서 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 열리다</form>
+					<frame>X-에서 ~이 열리다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 연기되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 취소되다</form>
+					<frame></frame>
+				</comb_v>
+				<sel_rst arg="X">장소</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

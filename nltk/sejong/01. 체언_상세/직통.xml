@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>직통</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/18</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/10</mod_date>
+				<mod_writer>이민우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/15</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>합성어 항목 추가</mod_note>
+				<mod_note>동사결합 항목 수정</mod_note>
+				<mod_note>센스3 동사결합 항목 검토 요망</mod_note>
+				<mod_note>센스4 의미부류 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/19</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2004/12/30</mod_date>
+				<mod_writer>장원철</mod_writer>
+		        <mod_note>센스 1과 2에 단어 결합 추가</mod_note>
+	        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="xx">직빵</var>
+			<org lg="si">直通</org>
+		
+			<comp pos="n" type="suffix">~버스</comp>
+			<comp pos="n" type="suffix">~열차</comp>
+			<comp pos="n" type="suffix">~선</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 전화는 회장실과 ~으로 연결된다.</eg>
+				<eg>나는 미국에 ~으로 전화를 걸었다.</eg>
+				<trans>direct communication</trans>
+				<sem_class>방법</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+			<!-- 합성동사 정보를 새 기술형식에 맞게 수정, 수직바로 열거된 격틀정보를 분리 제시(송근영) -->
+			    <comb_n type="compound">~전화</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-로 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-와 ~을 하다</frame>
+				</comb_v>
+				<sel_rst arg="X">구체물|장소</sel_rst>
+				<sel_rst arg="Y">구체물|장소</sel_rst>
+				<av>~으로</av>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이 열차는 수원까지 ~으로 간다.</eg>
+				<trans>direct service</trans>
+				<sem_class>방법</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+			    <comb_n type="compound">~버스</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form> <!-- 합성동사 정보를 새 기술형식에 맞게 수정(송근영) -->
+					<frame>X-이 Y-로 ~을 하다</frame>
+				</comb_v>
+				<sel_rst arg="X">교통기관</sel_rst>
+				<sel_rst arg="Y">장소</sel_rst>
+				<av>~으로</av>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>그 병에는 이 약이 ~으로 듣는다.</eg>
+				<trans>immediate effect</trans>
+				<sem_class>속성값</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+				<!-- 이 의미에서는 '~을 하다'라고 쓸 수 없고, '이 약은 그 병에 직통할 것이다'는 식으로만 쓰임' 이 때 '~하다'에 대한 정보를 이 곳에 주는 것이 타당한지... 그냥 '직통하다' 동사 항목에서만 기술해주면 되는 것인지... ? (송근영)-->
+					<form vcompound="yes">~하다</form>
+					<frame>X-이 Y-에 ~하다</frame>
+				</comb_v>
+				<av>~으로</av>
+			</syn_grp>
+		</sense>
+		<sense n="4">
+			<sem_grp>
+				<eg>야구공에 ~으로 맞았다.</eg>
+				<trans>direct</trans>
+				<sem_class>방법</sem_class> <!-- '방식'을 '방식속성값'으로 수정 (송근영) -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<av>~으로</av>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

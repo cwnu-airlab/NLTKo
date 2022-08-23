@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>매스게임</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/14</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/14</mod_date>
+				<mod_writer>류희선</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/1</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>eg수정, n_v기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/04</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스2 추가, 센스1 n_n 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/31</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">mass game</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>오늘 연습한 ~은 힘들지 않았다.</eg>
+				<trans>mass game</trans>
+				<domain></domain>
+				<sem_class>몸짓및동작</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 연습</comb_n>
+				<comb_v type="npred_vsup">
+ 					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 연습하다</form>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>1,000명이 참가하는 대규모의 ~이 잠실 경기장에서 열린다.</eg>
+				<trans>mass game</trans>
+				<domain></domain>
+				<sem_class>계획사건</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsupvar">
+ 					<form vcompound="no">~이 열리다</form>
+					<frame>X-에서 ~이 열리다</frame>
+				</comb_v>
+				<sel_rst arg="X">문화행사건물|지역</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

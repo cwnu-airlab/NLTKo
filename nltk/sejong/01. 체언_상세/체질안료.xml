@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>체질안료</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/28</cre_date>
+				<cre_writer>유영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/28</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/11</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>띄어쓰기 정보 추가;내적구성 정보 수정;의미부류 수정</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/07</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<note></note>
+			<add>~로(서) 사용되다|불리다</add>
+			<add>~를 배합하다|첨가하다|사용하다|함유하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="spr">체질 안료</var> <!-- 추가 -->
+			<str type="N_N">체질+안료</str>
+			<!-- n(체질)+n(안료) 수정 -->
+			<org lg="si">體質顔料</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>칠감에 체질안료를 너무 많이 첨가했다</eg>
+				<trans>pigment of an achromatic color</trans>
+				<domain>화학</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성구체물</sem_class>
+				<!-- 재료|성분 수정 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>안료</hyper>
+					<coord>유기안료</coord>
+					<coord>무기안료</coord>
+					<rel>탄산칼슘</rel>
+					<rel>황산바륨</rel>
+					<rel>칠감</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 배합하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="qnt">병</cl>
+				<cl type="qnt">통</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

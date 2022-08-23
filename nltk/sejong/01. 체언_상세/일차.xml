@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>일차</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/12</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/17</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/11</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note>센스 3 삭제 고려</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/10</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>센스 1 부사적 용법 기입</mod_note>
+			</mod>
+			<mod>
+			<mod_date>2007/07/30</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>동사 결합 정보 추가</mod_note>
+			</mod>
+			<note>2002/05/16(이성헌)@eg 추가(조사와의 결합을 보여주기 위해서)</note>
+			<note>2002/05/23(고길수)예문 입력 방식 수정</note>
+			<note>2003/07/25(권오희)센스1의 comb_n을 add로 옮김</note>
+			<note>2003/08/17(이은경)센스2 구획 추가('이차'와 평행하게 기술하기 위한 것임)</note>
+			<note>명사연어에 '~(의) 목표'를 추가하였는데, '~(의) N' 유형의 구에 대한 정보 기술이 필요</note>
+			<note>센스2의 경우, '~ 방정식|함수' 이외에 분포하는지? 그리고, 이때 이들이 복합어인지 아니면 명사구인지? 이때, 이외 분포가 불가능하고, 이들이 복합어라면 센스2가 명사에 해당하는지?</note>
+			<note>의미부류를 속성에서 단계로 수정</note>
+			<note>파생어 기술</note>
+			<add>센스1의 명사결합 :~(의) 목표</add>
+			<add>파생어 : ~적</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">一次</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 사법 고시의 ~ 시험에 합격했다.</eg>
+				<eg>그는 건강 유지를 ~의 목표로 삼고 운동을 시작했다.</eg>
+				<trans>the first</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>순서</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 삼다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 생각하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av>~로</av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>오늘 회식은 이차 없이 ~로 끝났다.</eg>
+				<trans>first party</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>잔치</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 벌이다</form>
+					<frame>X-이 ~를 벌이다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 가다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>~ 방정식은 그 그래프가 직선으로 나타난다.</eg>
+				<trans>first degree</trans>
+				<domain>수학</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>수학적대상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

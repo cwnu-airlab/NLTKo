@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>방해하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/27</mod_date>
+				<mod_writer>김윤신</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">妨害_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>disturb</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<eg>나를 방해하지 말고 가만히 내버려두어라.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">구체물|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="THM">행위(공부|휴식|노래|공연|상영|행사)</sel_rst>
+					<eg>꽹과리 소리가 하루 종일 공부를 방해하네.</eg>
+					<eg>공권력이 오히려 국민들의 정당한 권리 행사를 방해하기도 한다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">S것</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상</sel_rst>
+					<eg>회사 내에 결재자가 많은 것이 원활한 의사 소통을 방해하는 요소다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">구체물|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것</sel_rst>
+					<eg>자멘호프의 아버지는 아들이 에스페란토를 창안하려 하는 것을 방해했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

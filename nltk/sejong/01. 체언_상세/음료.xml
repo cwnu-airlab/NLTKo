@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>음료</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/09</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/17</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/19</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+				<mod_note>comb_v '~를 즐기다' 추가</mod_note>
+			</mod>
+			<note>2001/09/21(한선혜|이성헌)</note>
+			<note>2003/01/21(유영) comb_v를 add로 추가 및 이동</note>
+			<note>2003/06/17(이성헌)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">飮料</org>
+		
+			<hom exist="yes"></hom>
+			<der pos="n" type="suffix">~수</der>
+			<der pos="n" type="prefix">식~</der>
+			<comp pos="n" type="prefix">탄산~</comp>
+			<comp pos="n" type="prefix">강장~</comp>
+			<comp pos="n" type="prefix">전통~</comp>
+			<comp pos="n" type="prefix">청량~</comp>
+			<comp pos="n" type="prefix">알코올~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>다과회를 위해 갖은 간단한 음식과 몇 가지 ~를 준비했다.</eg>
+				<eg>식혜나 수정과를 대표적인 전통 ~로 꼽을 수 있다.</eg>
+				<trans>dirnk</trans>
+				<trans>beverage</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>음료</sem_class>
+				<lr>
+					<syn type="etc">음료수</syn>
+					<ant type="temp"></ant>
+					<hyper>음식물</hyper>
+					<coord>음식</coord>
+					<mero>청량</mero>
+					<mero>전통</mero>
+					<mero>탄산</mero>
+					<mero>알코올 ~;차</mero>
+					<mero>쥬스</mero>
+					<mero>생수</mero>
+					<rel>갈증</rel>
+					<rel>식사</rel>
+					<rel>다과회</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 시원하다</comb_aj>
+				<comb_aj type="appr">~가 상큼하다</comb_aj>
+				<comb_aj type="appr">~가 따뜻하다</comb_aj>
+				<comb_aj type="appr">~가 맛있다</comb_aj>
+				<comb_aj type="appr">~가 달다</comb_aj>
+				<comb_aj type="appr">~가 쓰다</comb_aj>
+				<comb_aj type="appr">~가 독하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 마시다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="narg_vpred">
+				<form vcompound="no">~를 준비하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 대접하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 타다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 데우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 먹다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 즐기다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

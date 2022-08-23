@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>담담하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/15</mod_date>
+				<mod_writer>강정연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/12/18</mod_date>
+				<mod_writer>김윤신</mod_writer>
+				<mod_note>선택제약 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>R.하</str>
+			<org lg="si">淡淡_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>내재적심리상태</sem_class>
+				<trans>be unconcerned</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|(마음|심경|태도)</sel_rst>
+					<eg>그런 일을 당하고도 내 마음이 이렇게 담담할 수 있는 것이 놀랍다.</eg>
+					<eg>사람들 앞에 서자 그녀의 태도는 예상 외로 담담했다.</eg>
+					<eg>지금 제 심경은 담담할 뿐입니다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(어조|표정|눈길)</sel_rst>
+					<eg>그의 어조는 담담하고 냉정했다.</eg>
+					<eg>나를 바라보는 그의 눈길이 담담했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-에|에대해 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<eg>그녀는 돈에 대해서 담담하다.</eg>
+					<eg>그는 보기보다는 출세와 명예에 담담한 편이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/15</mod_date>
+				<mod_writer>강정연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/12/18</mod_date>
+				<mod_writer>김윤신</mod_writer>
+				<mod_note>선택제약 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>R.하</str>
+			<org lg="si">淡淡_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>색속성값</sem_class>
+				<trans>be plain</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(물|빛)|(색|빛깔)</sel_rst>
+					<eg>발 아래 흐르는 강물은 달빛이 반사된 듯 담담했다.</eg>
+					<eg>오늘따라 밤하늘에 달빛도 담담하다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>맛속성값</sem_class>
+				<trans>be plain</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">자연음식물|음식</sel_rst>
+					<n_appr arg="X">맛</n_appr>
+					<eg>그녀가 끓이는 장국은 담담해서 내 입에 맞았다.</eg>
+					<eg>이 집 음식은 화학 조미료를 쓰지 않아 맛이 담담하고 깔끔했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

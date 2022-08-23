@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>가냘프다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/15</cre_date>
+				<cre_writer>강정연</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>김건희</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<infl type="eu"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>모양속성값</sem_class>
+				<trans>be slender</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|신체부위(몸|허리|얼굴)</sel_rst>
+					<eg>영미의 몸매는 무척 가냘펐다.</eg>
+					<eg>그 남자의 허리는 여자처럼 가냘프다.</eg>
+					<eg>독일 선수들 옆에 서 있으니까, 프랑스 선수들이 전반적으로 가냘퍼 보였다.</eg>
+					<eg>그 곳에 모여 있는 아이들은 하나같이 앳되고 가냘퍼 보였다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">식물|식물의부분</sel_rst>
+					<eg>영미의 몸은 가냘픈 코스모스 줄기 같았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>소리속성값</sem_class>
+				<trans>be feeble</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(목소리|울음소리)</sel_rst>
+					<eg>그의 목소리는 가냘펐다.</eg>
+					<eg>멀리서 여자의 울음소리가 가냘프게 들려왔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

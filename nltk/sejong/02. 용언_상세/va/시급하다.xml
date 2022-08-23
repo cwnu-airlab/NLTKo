@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>시급하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/09</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/30</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>R.하</str>
+			<org lg="si">時急_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상황값</sem_class>
+				<trans>be urgent</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>Y=N1-에|에게 X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(조치|대응|결단|해결책|공급)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간|단체(조직|회사|그룹|사회|국가)|추상적대상(경제)|행위(회복|재건)|상태변화(부흥)</sel_rst>
+					<eg>그 환자에게는 해열제 투여가 시급하다.</eg>
+					<eg>한국 경제에는 근본적인 구조 조정이 시급하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S는것</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간|단체(조직|회사|그룹|사회|국가)|추상적대상(경제)|행위(회복|재건)|상태변화(부흥)</sel_rst>
+					<eg>그 환자에게는 해열제를 투여하는 것이 시급하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(조치|대응|결단|해결책|공급)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">S데</sel_rst>
+					<eg>한국 경제를 회복시키는 데에는 근본적인 구조 조정이 시급하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S는것</sel_rst>
+					<sel_rst arg="Y" tht="GOL">S데</sel_rst>
+					<eg>남북한이 평화롭게 공존하는 데에는 무엇보다도 남북한 사이에 신뢰를 구축하는 것이 시급하다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

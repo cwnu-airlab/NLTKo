@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>가미되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/08</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/16</mod_date>
+			</mod>
+			<note>의미부류 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">가미가 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<org lg="si">加味_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be seasoned</trans>
+			</sem_grp>
+			<frame_grp type="FIN" cor="cross" n="01">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">양념|상태(단맛|쓴맛)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">자연음식물|음식</sel_rst>
+					<eg>사람들은 보통 조미료가 가미되지 않은 음식에서는 맛을 느끼지 못한다.</eg>
+					<eg>미국 음식에는 소금이 많이 가미되어 있다.</eg>
+					<eg>이 오렌지 쥬스에는 단맛이 많이 가미되어 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="cross" n="01">
+				<frame>X=N1-이 Y=N0-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">양념|긍정적속성구체물(단맛|쓴맛)</sel_rst>
+					<sel_rst arg="Y" tht="INS">자연음식물|음식</sel_rst>
+					<eg>젯상에 올라오는 음식들은 항상 소금으로 가미되었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be added</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">속성</sel_rst>
+					<sel_rst arg="Y" tht="LOC">추상적대상</sel_rst>
+					<eg>벽과 천장이 흰색이니 문들은 아주 옅은 베이지색이 가미된 흰색이며 바닥마다 밝은 회색이다.</eg>
+					<eg>지적 능력에 의지와 인격의 특성이 가미되어야 비로소 중요한 업적들이 결과된다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

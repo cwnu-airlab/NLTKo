@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>발안</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/01</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스2 최대논항구조 기술</mod_note>
+			</mod>
+			<note>2003/09/01(송인욱)센스1에서 '안을 내놓는 행위'와 '그렇게 내놓아진 안'을 서로 다른 센스로 구분할 필요가 있을까?</note>
+			<note>2003/10/15(박진호)센스1,2 격틀 수정. 센스1 선택제약 수정</note>
+			<note>2003/10/28(송인욱)센스1의 예문 수정</note>
+			<note>센스1, 2의 기능동사 기술의 'S고'를 'S자고'로 수정하고 'S자는' 추가</note>
+			<note>센스1의 형용사 자유구성 새로 기술</note>
+			<add>2003/09/01(송인욱)센스1, 2의 동사자유구성으로 '~을 수용하다|받아들이다|망설이다</add>
+			<add>~이 무시되다|묵살되다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">發案</org>
+		
+			<comp pos="n" type="suffix">~자</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>평사원들의 ~에 따라 사내에 음료수 자판기를 여러 대 설치하기로 하였다.</eg>
+				<eg>그녀에 의해 ~이 된 새 작업 방식은 업무 효율을 획기적으로 향상시켰다.</eg>
+				<eg>이 문제의 해결책을 ~을 하는 사람에게는 포상이 주어질 것이 분명하다.</eg>
+				<trans>initiated idea</trans>
+				<trans>proposition</trans>
+				<sem_class>인지적행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 기발하다</comb_aj>
+				<comb_aj type="appr">~이 신선하다</comb_aj>
+				<comb_aj type="appr">~이 평범하다</comb_aj>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+					<frame>X-이 S것-을 ~을 하다</frame>
+					<frame>X-이 S자고 ~을 하다</frame>
+					<frame>X-이 S자는 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에의해 ~이 되다</frame>
+					<frame>S것-이 X-에의해 ~이 되다</frame>
+					<frame>X-에의해 S자고 ~이 되다</frame>
+					<frame>X-에의해 S자는 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 수용하다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 받아들이다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 망설이다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 무시하다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 묵살되다</form>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">방법</sel_rst>
+				<sel_rst arg="Y">계획</sel_rst>
+				<sel_rst arg="Y">구체인공물</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그녀에 의해 ~이 된 이번 회의에서는 회사의 작년 실적을 평가할 예정이다.</eg>
+				<eg>사원들의 처우 개선책을 논의하자는 나의 ~은 세 번 모두 무시되었다.</eg>
+				<eg>사외 이사들은 다음 주 회의에서 이 문제를 다시 논의할 것을 ~을 하였다.</eg>
+				<trans>suggestion</trans>
+				<trans>proposal</trans>
+				<sem_class>보고제안</sem_class>
+				<lr>
+					<syn type="etc">발의</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+					<frame>X-이 S것-을 ~을 하다</frame>
+					<frame>X-이 S자고 ~을 하다</frame>
+					<frame>X-이 S자는 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에의해 ~이 되다</frame>
+					<frame>S것-이 X-에의해 ~이 되다</frame>
+					<frame>X-에의해 S자고 ~이 되다</frame>
+					<frame>X-에의해 S자는 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 수용하다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 받아들이다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 망설이다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 무시하다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 묵살되다</form>
+				</comb_v>
+				<max_n_str>X-의 S자는 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">방법</sel_rst>
+				<sel_rst arg="Y">계획</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

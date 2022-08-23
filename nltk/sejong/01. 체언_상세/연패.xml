@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>연패</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/10</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/25</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/03</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>idm 수정</mod_note>
+				<mod_note>add 정보 n_v에 기술</mod_note>
+				<mod_note>수직바로 열거된 격틀정보 분리 기술</mod_note>
+				<mod_note>n_v 수정</mod_note>
+				<mod_note>max_n 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정 없음</mod_note>
+			</mod>
+			<note>2002/08/11(고길수)add에 기록된 '당하다'는 기능동사에 추가</note>
+			<note>add 정보 추가</note>
+			<note>2002/10/04(이성헌)cl에 '회' 추가</note>
+			<note>2003/09/18(송인욱)관리정보구획 표기법 수정</note>
+			<note>반의어로 '연승' 추가</note>
+			<note>명사 연어에 '~의 수렁|나락|사슬|터널</note>
+			<note>~(의) 행진' 추가</note>
+			<note>논항선택제약의 Z에서 '사건'을 '운동경기'로 수정</note>
+			<note>2003/09/25(김미현)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">連敗</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc">~의 늪에 빠지다</idm> <!--마침표 삭제(송근영)-->
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리 팀은 지난 3경기에서 내리 ~를 했다.</eg>
+				<trans>successive defeats</trans>
+				<trans>succession of reverses</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant>연승</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~의 늪</comb_n>
+				<comb_n type="compound">~의 수렁</comb_n>
+				<comb_n type="compound">~의 나락</comb_n>
+				<comb_n type="compound">~의 사슬</comb_n>
+				<comb_n type="compound">~의 터널</comb_n>
+				<comb_n type="compound">~(의) 행진</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-에게 Z-에서 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~를 당하다</form>
+					<frame>X-이 Y-에게 Z-에서 ~를 당하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> <!--술어명사 결합으로 수정하고 격틀기술(송근영)-->
+					<form vcompound="no">~에 빠지다</form>
+					<frame>X-이 ~에 빠지다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> 
+					<form vcompound="no">~를 거듭하다</form>
+					<frame>X-이 ~를 거듭하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> 
+					<form vcompound="no">~에 허덕이다</form>
+					<frame>X-이 ~에 허덕이다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> 
+					<form vcompound="no">~를 마감하다</form>
+					<frame>X-이 ~를 마감하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> 
+					<form vcompound="no">~가 이어지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred"> 
+					<form vcompound="no">~로 몰아넣다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">운동경기(올림픽)|현상|장소</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/10</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/25</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/03</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>n_v 수정</mod_note>
+				<mod_note>add 정보를 n_v에 기술</mod_note>
+				<mod_note>max_n 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정 없음</mod_note>
+			</mod>
+			<note>2002/08/11(고길수)의미부류를 '행위'에서 '지속적행위'로 수정</note>
+			<note>기능동사에 'Y-을'을 'Y-을|에서'로 수정</note>
+			<note>comb_v에 정보 추가</note>
+			<note>add 정보 추가</note>
+			<note>2002/10/04(이성헌)sem을 '단독행위'로 수정</note>
+			<note>2003/09/18(송인욱)명사 연어 새로 기술</note>
+			<note>comb_v에 '~를 이루다' 추가</note>
+			<note>형용사 자유구성 새로 기술</note>
+			<note>2003/09/25(김미현)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">連覇</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 올해에도 전국 선수권 대회에서 우승함으로써 3년 ~를 달성했다.</eg>
+				<trans>successive championships</trans>
+				<trans>successive victories</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>방식행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 쉽다</comb_aj>
+				<comb_aj type="appr">~가 어렵다</comb_aj>
+				<comb_n type="compound">~의 위업</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame> <!--격틀 분리(송근영)-->
+					<frame>X-이 Y-에서 ~를 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<comb_v type="npred_vsupvar"> <!--술어명사 결합으로 수정, 격틀기술(송근영)-->
+					<form vcompound="no">~를 거두다</form>
+					<frame>X-이 Y-에서 ~를 거두다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> <!--술어명사 결합으로 수정, 격틀기술(송근영)-->
+					<form vcompound="no">~를 이룩하다</form>
+					<frame>X-이 Y-에서 ~를 이룩하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">  <!--술어명사 결합으로 수정, 격틀기술(송근영)-->
+					<form vcompound="no">~를 달성하다</form>
+					<frame>X-이 Y-에서 ~를 달성하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">  <!--술어명사 결합으로 수정, 격틀기술(송근영)-->
+					<form vcompound="no">~를 이루다</form>
+					<frame>X-이 Y-에서 ~를 이루다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">  
+					<form vcompound="no">~에 도전하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">  
+					<form vcompound="no">~에 성공하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">  
+					<form vcompound="no">~에 실패하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">운동대회</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

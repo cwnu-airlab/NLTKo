@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>혼</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/17</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/08</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/12</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note>동사결합 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/21</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>최대논항구조, 선택제약 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/12</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>comb_v "~이 담기다", "을 빼놓다" 추가</mod_note>
+			</mod>
+			<note>'혼을 내다'의 혼이 관용표현? 아니면 별개의 표제어?</note>
+			<note>2001/07/23(고길수)</note>
+			<note>2003/02/03(김진형)의미부류 수정</note>
+			<note>2003/02/08(이지영)</note>
+			<note>cl 정보 삭제</note>
+			<note>comb_v 정보 add로 이동</note>
+			<note>sel_res 정보 삭제</note>
+			<note>관용표현 정보 추가</note>
+			<note>동의어, 반의어, 동위어 수정 및 추가</note>
+			<note>명사 연어 추가</note>
+			<note>예문 추가</note>
+			<note>의미부류 수정</note>
+			<note>최대논항구조 및 선택제약 추가</note>
+			<note>형용사 자유구성 추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">魂</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~이 나다</idm>
+			<idm type="nv">~을 내다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그런 사고를 당하니 ~이 다 빠져나갈 지경이었다.</eg>
+				<eg>이 작품에는 작가의 ~이 깃들어 있다.</eg>
+				<trans>soul</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<syn type="etc">영혼</syn>
+					<syn type="etc">정신</syn>
+					<syn type="etc">넋</syn>
+					<ant type="etc">몸</ant>
+					<coord>몸</coord>
+					<rel>귀신</rel>
+					<rel>혼백</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 고결하다</comb_aj>
+				<comb_aj type="appr">~이 사악하다</comb_aj>
+				<comb_n type="compound">망자의 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 부르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 달래다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 뺏다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 나타나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 깃들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 빠지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 담기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 빼놓다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

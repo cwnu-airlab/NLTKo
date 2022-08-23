@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>사령</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/15</cre_date>
+				<cre_writer>김진형</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/12</mod_date>
+				<mod_writer>송인욱</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/27</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/20</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1과 3 의미부류 수정;센스2와 4 n_v 기술</mod_note>
+			</mod>
+			<note>2002/04/30(김진형)품사범주기호 수정</note>
+			<note>2002/05/23(고길수)</note>
+			<note>2003/04/30(송인욱)comp 새로 기술</note>
+			<note>2003/05/06(김미현)</note>
+			<note>2003/05/12(송인욱)합성어 명사에 '~부' 추가</note>
+			<note>센스2에 단위표현 추가</note>
+			<note>센스2에 동의어 새로 기술</note>
+			<note>센스2에 예문 추가</note>
+			<note>센스3의 예문 수정</note>
+			<note>센스4의 단위표현 새로 기술</note>
+			<note>센스4의 동의어 새로 기술</note>
+			<note>센스4의 예문 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">司令</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~관</comp>
+			<comp pos="n" type="suffix">~탑</comp>
+			<comp pos="n" type="suffix">~부</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>지휘관이 제대로 ~을 해야 부대의 기강이 흔들리지 않는다.</eg>
+				<trans>command</trans>
+				<domain>군사</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>일</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">직위인간</sel_rst>
+				<sel_rst arg="Y">군대</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이 부대의 ~이 누구냐?</eg>
+				<eg>그날 밤 소령이 전사하고 나서는 내가 실질적인 ~이 되어 부대를 통솔했다.</eg>
+				<trans>commander</trans>
+				<domain>군사</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>직위인간</sem_class>
+				<lr>
+					<syn>사령관</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">인</cl>
+				<cl type="uni">사람</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>대대에서 총기가 도난당하던 날 당직을 하던 ~은 바로 김 대위였다.</eg>
+				<trans>duty officer</trans>
+				<domain>군사</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>일시적역할인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 맡다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">인</cl>
+				<cl type="uni">사람</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="4">
+			<sem_grp>
+				<eg>이 건설 현장을 책임지고 있는 ~이 누군가요?</eg>
+				<trans>foreman</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>직위인간</sem_class>
+				<lr>
+					<syn>감독</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">인</cl>
+				<cl type="uni">사람</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/15</cre_date>
+				<cre_writer>김진형</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/06</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/27</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/20</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 n_v 수정;센스1 분류사 추가;센스1 s_n 삭제;센스2 n_v 기술</mod_note>
+			</mod>
+			<note>2002/04/30(김진형)품사범주기호 수정</note>
+			<note>2002/05/23(고길수)센스1의 comb_v에서 '~을 받다'는 기능동사로 변경</note>
+			<note>2003/04/30(송인욱)</note>
+			<note>2003/05/06(김미현)</note>
+			<note>센스1의 sel_res에 있는 Y 논항을 '직위인간'에서 수정</note>
+			<note>센스1의 기능동사 논항에 'S라는'을 추가</note>
+			<note>센스1의 단위표현 새로 기술</note>
+			<note>센스1의 예문 추가</note>
+			<note>센스2의 단위표현에 '인|사람' 추가</note>
+			<note>센스2의 예문 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">使令</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>포도청에서는 포졸들에게 ~을 내려 죄인을 잡아들이도록 하였다.</eg>
+				<eg>관아에선 부락민들에게 정오까지 모두 모이라는 ~을 내렸다.</eg>
+				<trans>command</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>명령</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에게 S라는 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>Y-이 X-에게 S라는 ~을 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 내리다</form>
+					<frame>X-이 Y-에게 S라는 ~을 내리다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">직위인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>사또는 ~을 불러 서찰을 하나 써주며 그것을 갖고 급히 한양에 다녀오라고 했다.</eg>
+				<trans>errand boy</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>직위인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 보내다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 부르다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">인</cl>
+				<cl type="uni">사람</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/15</cre_date>
+				<cre_writer>김진형</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/06</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/27</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/20</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>s_n 삭제;n_v 수정;분류사 추가</mod_note>
+			</mod>
+			<note>2002/04/30(김진형)품사범주기호 수정</note>
+			<note>2002/05/23(고길수)comb_v의 '~을 받다'를 기능동사로 변경, 논항정보 추가</note>
+			<note>2003/04/30(송인욱)예문 삭제 후 새로 기술</note>
+			<note>2003/05/06(김미현)pre_s에 'S라는 ~' 추가</note>
+			<note>기능동사 논항에 'S라는'을 추가</note>
+			<note>단위표현 새로 기술</note>
+			<note>대역어에 'official order' 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">辭令</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 내일부터 궁궐에 들어와 일하라는 ~을 받고 깜짝 놀랐다.</eg>
+				<eg>그는 왕의 ~에 따라, 충청도 지방의 감찰사로 부임했다.</eg>
+				<trans>government order</trans>
+				<trans>official order</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>명령</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">임명 ~</comb_n>
+				<comb_n type="compound">해임 ~</comb_n>
+				<comb_n type="compound">면직(의) ~</comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 내리다</form>
+					<frame>X-이 Y-에서 S라는 ~을 내리다</frame>
+					<frame>X-이 Y-에게서 S라는 ~을 내리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>Y-이 X-에서 S라는 ~을 받다</frame>
+					<frame>Y-이 X-에게서 S라는 ~을 받다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">기관|역할인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

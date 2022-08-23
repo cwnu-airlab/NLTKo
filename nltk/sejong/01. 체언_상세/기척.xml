@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>기척</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/10/06</cre_date>
+				<cre_writer>박동호</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/05</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/14</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/24</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>센스1 n_v 술어명사 결합으로 유형 수정</mod_note>
+				<mod_note>센스1 s_n 삭제</mod_note>
+				<mod_note>add 정보를 해당 구획에 기술</mod_note>
+				<mod_note>센스1 max_n 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/19</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/10/06(박동호)</note>
+			<note>2002/10/11(고길수)어원정보 삭제</note>
+			<note>2003/06/30(이성헌)센스 pre_s의 '|라는'라는 삭제(주의-보문절은 S반복해서 써야함 'S다는|S라는 ~'처럼</note>
+			<note>2003/06/30(이은경)센스1의 sel_res를 'S는 ~'에서 'S다는|라는 ~'로 수정, 센스3의 cl uni에 '번|회|차례' 추가, add에 '센스1:~이 들리다, 센스2:~이 있다|없다, 센스3:~을 알아차리다</note>
+			<note>2003/07/05(이은경)</note>
+			<note>S라는 은 명령형 수식절의 대표형임)</note>
+			<note>supv의 'X-에 ~이 있다|없다'를 삭제(정확한 기술은 X-에 S는 ~이 있다|없다'이나 '사건' 또는 '현상'과 결합하는 '있다|없다'의 경우 기술하지 않음</note>
+			<note>~이 보이다' 추가, 센스1의 supv 맞는 기술인지 확인바람</note>
+			<note>센스1에 '~이 들리다' 예문 추가</note>
+			<note>센스1의 pre_s에 'S는 ~' 추가</note>
+			<note>센스2를 '추상적대상'과 '단독행위'로 분할</note>
+			<note>센스2의 경우 '기미|징조|낌새|기색'등과 함께 부뷰를 설정할 만 함</note>
+			<note>센스2의 영어대역어 표기법 수정</note>
+			<note>센스3의 pre_s에 'S다는 ~' 추가</note>
+			<add>~이 보이다</add>
+			<add>센스1:~이 들리다</add>
+			<add>센스2: ~이 있다|없다</add>
+			<add>센스3: ~을 알아차리다</add>
+			<add>인~</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>대문 밖에서 사람의 ~이 났다.</eg>
+				<eg>옆방에서 웅성거리는 사람들의 ~이 들려왔다.</eg>
+				<trans>noise</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>소리</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 나다</form>
+					<frame>X-에서 ~이 나다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 들리다</form>
+					<frame>X-에서 ~이 들리다</frame>
+				</comb_v>
+				<max_n_str>X-에서의 Y-의 ~</max_n_str>
+				<max_n_str>X-에서의 Y ~</max_n_str>
+				<max_n_str>S는 ~</max_n_str>
+				<sel_rst arg="X">장소</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 집에는 사람의 ~이 전혀 보이지 않았다.</eg>
+				<trans>sign</trans>
+				<trans>touch</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 있다</comb_aj>
+				<comb_aj type="appr">~이 없다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 보이다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>그는 조금의 ~도 내지 않고 가만히 있었다.</eg>
+				<trans>sign</trans>
+				<trans>touch</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 내다</form>
+					<frame>X-이 ~을 내다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

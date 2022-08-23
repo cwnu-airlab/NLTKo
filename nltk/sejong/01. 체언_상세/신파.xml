@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>신파</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/13</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/21</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/29</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스2의 의미부류 수정;동의어, 반의어 이동 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/17</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/08/13(이호영)</note>
+			<note>2002/08/27(김종명)2</note>
+			<note>003/09/14(최지임)add입력;sense2 예문수정;본디말 입력</note>
+			<note>2003/09/21(고길수)본딧말 정보 삭제, 센스2에만 해당되는 것임;센스1과 2의 순서를 조정;센스1의 예문 수정;센스1의 의미부류를 '인간집단'에서 '유파'로 수정;센스2의 의미부류를 '예술사조'에서 '예술'로 수정;센스2에 단위표현 추가</note>
+			<add>sense2 동의어= 신파극</add>
+			<add>sense1 반대말=구파</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">新派</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 정당은 구파와 ~로 나뉘어져 대립하고 있다.</eg>
+				<trans>new school</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>유파</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="grad">구파</ant> <!-- 유형값 맞는지?? -->
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이 연극은 마치 ~와 같이 감정을 과장되게 표현한다.</eg>
+				<trans>new-school drama</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>연극</sem_class> <!-- 예술 수정 -->
+				<lr>
+					<syn type="etc">신파극</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">편</cl>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>혼미</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/17</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/08</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/12</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note>센스2 동사구성추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/21</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1, 2 n_aj 수정</mod_note>
+				<mod_note>센스1 domain 삭제</mod_note>
+				<mod_note>센스2 의미부류 상태를 수정</mod_note>
+				<mod_note>센스2 n_v type 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/12</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>'혼란'을 동의어로</note>
+			<note>'혼미하다'는 형용사이므로 기능동사에서 삭제</note>
+			<note>'혼미하다'를 기능동사에서 삭제</note>
+			<note>'혼수'를 동의어로</note>
+			<note>2001/07/23(고길수)</note>
+			<note>2001/08/05(이성헌)</note>
+			<note>2003/02/03(김진형)sense1은 어근으로 처리할 가능성이 있음</note>
+			<note>2003/02/08(이지영)</note>
+			<note>sel_res 정보 삭제</note>
+			<note>sense 1 동의어 추가</note>
+			<note>sense 2 형용사-연어 입력</note>
+			<note>sense1 의미부류 수정</note>
+			<note>sense2 comb_v 정보 add로 이동</note>
+			<note>논항 선택제약 추가</note>
+			<note>단위표현 삭제</note>
+			<note>명사연어 추가</note>
+			<note>센스1의 예문 수정</note>
+			<note>센스2의 예문 수정</note>
+			<note>최대논항구조 재검토 요망, 이런 구조가 없을 듯</note>
+			<note>최대논항구조, 선택제약 정보 삭제</note>
+			<note>한정사 제약 삭제</note>
+			<note>형용사-연어 입력</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">昏迷</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="a" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>환자는 ~ 상태에 빠졌다.</eg>
+				<trans>stupefaction</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>신체상태</sem_class>
+				<lr>
+					<syn type="etc">혼수</syn>
+					<syn type="etc">착란</syn>
+					<ant type="temp"></ant>
+					<rel>의식</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">깊은 ~</comb_aj>
+				<comb_n type="compound">~ 상태</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 나라의 정세는 주변국들의 간섭으로 ~를 거듭했다.</eg>
+				<trans>confusion</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>상황값</sem_class>
+				<lr>
+					<syn type="etc">혼란</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">잦은 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 계속되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 거듭하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

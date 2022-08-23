@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>호젓하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/15</cre_date>
+				<cre_writer>강정연</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/30</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/08/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>R.하</str>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be lonely</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">장소(길|거리|동네)</sel_rst>
+					<eg>큰 길에서 집에 이르는 골목은 너무 어둡고 호젓해서 혼자 걸어가기가 무서울 지경이었다.</eg>
+					<eg>오랜만에 올라보는 새벽 산길은 호젓하기 이를 데 없었다.</eg>
+					<eg>아이들이 여행을 떠나고 나니온 집이 텅빈 듯 호젓하다.</eg>
+					<eg>재잘거리던 아이들이 돌아간 후 교실은 어둠 속에 호젓했다.</eg>
+					<eg>아내와 아이를 떠나보낸 후 그는 잠자리가 호젓한 걸 견디기 힘들어 했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(마음|가슴)|인간</sel_rst>
+					<eg>내 호젓한 마음을 달래주기 위해서인 듯 그가 술을 한 잔 하자며 찾아왔다.</eg>
+					<eg>그가 떠난 후 그녀는 가슴이 호젓함을 느꼈다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(시간|여행)</sel_rst>
+					<eg>오랜만에 아내와 단 둘이서 떠난 여행은 호젓하고 편안했다.</eg>
+					<eg>그녀와 마주앉아 차를 마시는 이 시간이 내겐 늘 호젓하고 감미로왔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

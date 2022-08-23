@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>답</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/29</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/03</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/20</mod_date>
+				<mod_writer>신서인</mod_writer>
+				<mod_note>동사 결합 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/28</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note>통사정보 수정</mod_note>
+			</mod>
+			<note>2000/09/14(백인애)</note>
+			<note>2001/01/30(정유진</note>
+			<note>2003/05/19(이호영)센스1 예문 추가|의미부류 수정|동사연어구성을 향후 추가정보로 이동|기능동사 구문구조 추가|논항선택제약 수정</note>
+			<note>2003/06/03(박만규)센스1 의미부류 수정, 선택제약 수정</note>
+			<note>강범모)</note>
+			<note>센스2 예문 추가|의미부류 수정|동사연어구성을 향후 추가정보로 이동</note>
+			<add>~을 구하다|내다' 추가</add>
+			<add>~을 주다|듣다' 추가</add>
+			<add>센스1의 동사자유구성에 '~이 있다</add>
+			<add>센스2의 동사자유구성에 '~이 있다|나오다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">答</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~방</der>
+			<der pos="n" type="suffix">~배</der>
+			<der pos="n" type="suffix">~보</der>
+			<der pos="n" type="suffix">~사</der>
+			<der pos="n" type="suffix">~서</der>
+			<comp pos="n" type="suffix">~례</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>지난 번 일로 몇 번 부탁을 드렸는데, 아직 ~이 없다.며칠 내로 ~을 주시지요.아직까지 나는 그 분의 ~을 기다리고 있는 중이다.</eg>
+				<trans>answerreply</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>대답</sem_class>
+				<lr>
+					<syn type="etc">대답</syn>
+					<syn type="etc">회답</syn>
+					<syn type="etc">응답</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 애매하다</comb_aj>
+				<comb_aj type="appr">~이 분명하다</comb_aj>
+				<comb_aj type="appr">~이 명확하다</comb_aj>
+				<comb_aj type="appr">~이 없다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에 ~을 하다</frame>
+					<frame>X-이 Z-에게 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 주다</form>
+					<frame>X-이 Z-에게 ~을 주다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~주다-->
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 구하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 주다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 듣다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>Y|Z-에대한 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">(질문|물음)</sel_rst>
+				<sel_rst arg="Z">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>다음 방정식의 ~을 구하여라.이것은 ~이 두 개 나오는 방정식이다.</eg>
+				<trans>answersolution</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>관계수학적대상</sem_class>
+				<lr>
+					<syn type="etc">해답</syn>
+					<ant type="etc">문제</ant>
+					<hypo>정답</hypo>
+					<hypo>오답</hypo>
+					<rel>문제</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 간단하다</comb_aj>
+				<comb_aj type="appr">~이 복잡하다</comb_aj>
+				<comb_aj type="appr">~이 맞다</comb_aj>
+				<comb_aj type="appr">~이 틀리다</comb_aj>
+				<comb_aj type="appr">~이 없다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 구하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 있다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 나오다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

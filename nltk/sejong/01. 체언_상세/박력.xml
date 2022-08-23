@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>박력</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/11</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>의미부류 '속성값'을 '긍정적인성속성값'으로 수정, n_aj 수정</mod_note>
+			</mod>
+			<note>2003/08/08(송인욱)의미부류가 '인성속성값'일 가능성 검토 요망</note>
+			<note>2003/10/13(박진호)의미부류, 선택제약 수정</note>
+			<note>2003/10/28(송인욱)의미부류를 '속성'에서 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">迫力</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>선생님의 추궁에 대한 그의 대답은 아주 ~있었다.</eg>
+				<eg>언제나 ~이 넘치는 그녀에게서 나는 묘한 매력을 느꼈다.</eg>
+				<eg>너의 펀치는 너무 ~이 없어서 상대 선수에게 겁을 주지 못한다.</eg>
+				<trans>force</trans>
+				<trans>intensity</trans>
+				<sem_class>긍정적인성속성값</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 넘치다</comb_aj><!--magn에서 수정(김)-->
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 있다</form>
+					<frame>X-이 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 없다</form>
+					<frame>X-이 ~이 없다</frame>
+				</comb_v>
+				<sel_rst arg="X">(말투)</sel_rst>
+				<sel_rst arg="X">(목소리)</sel_rst>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="X">방법</sel_rst>
+				<sel_rst arg="X">모양</sel_rst>
+				<sel_rst arg="X">명령</sel_rst>
+				<sel_rst arg="X">연설</sel_rst>
+				<sel_rst arg="X">대답</sel_rst>
+				<sel_rst arg="X">몸짓및동작</sel_rst>
+				<sel_rst arg="X">방향성행위</sel_rst>
+				<sel_rst arg="X">소리</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

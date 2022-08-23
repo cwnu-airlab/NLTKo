@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>체조</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/06/01</cre_date>
+				<cre_writer>송길룡;홍재성</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/22</mod_date>
+				<mod_writer>김현승</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/08</mod_date>
+				<mod_writer>백고운</mod_writer>
+				<mod_note>add동사정보를 comb_v로 이동</mod_note>
+				<mod_note>sense1의 sem'단독행위'를 '몸짓및동작'으로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/15</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/07</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<note>2001/03/14(김미순)</note>
+			<note>2003/07/22(김현승)의미부류를 '경기'에서 '단독행위'로 수정</note>
+			<note>comb_v정보 add항목으로 이전</note>
+			<note>sel_res정보 추가</note>
+			<note>가산/비가산/관계/대칭 수정</note>
+			<note>관련어 추가</note>
+			<note>단위표현 '게임|경기' 삭제</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">體操</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~광</der>
+			<der pos="n" type="suffix">~복</der>
+			<der pos="n" type="suffix">~장</der>
+			<comp pos="n" type="suffix">~경기</comp>
+			<comp pos="n" type="suffix">~대회</comp>
+			<comp pos="n" type="suffix">~선수</comp>
+			<comp pos="n" type="prefix">맨손~</comp>
+			<comp pos="n" type="prefix">보건~</comp>
+			<comp pos="n" type="prefix">생활~</comp>
+			<comp pos="n" type="prefix">집단~</comp>
+			<comp pos="n" type="prefix">피티~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~를 좋아하는 아이들은 대개 날씬하다.</eg>
+				<trans>gymnastics</trans>
+				<domain>운동</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>몸짓및동작</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>경기</hyper>
+					<hyper>시합</hyper>
+					<hyper>운동</hyper>
+					<hypo>기계체조</hypo>
+					<hypo>리듬체조</hypo>
+					<hypo>안마</hypo>
+					<hypo>도마</hypo>
+					<coord>배구</coord>
+					<coord>수영</coord>
+					<coord>육상</coord>
+					<coord>축구</coord>
+					<rel>구름판</rel>
+					<rel>마루</rel>
+					<rel>철봉</rel>
+					<rel>평균대</rel>
+					<rel>뜀틀</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 배우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 좋아하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

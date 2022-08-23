@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>완치</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/09</cre_date>
+				<cre_writer>한선혜</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/03</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/13</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>comp '~판정' 추가</mod_note>
+				<mod_note>명사 형용사 결합 '가 힘들다' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>동의어 추가</mod_note>
+				<mod_note>동사결합 분할</mod_note>
+				<mod_note>동형어, 복합어, 오타 수정</mod_note>
+			</mod>
+			<note>2003/01/13(유영) comp에 (v)추가, sens 예문추가, sem수정</note>
+			<note>2003/02/03(이성헌)센스1의 sem을 '상태변화'에서 '결과행위'로 수정</note>
+			<note>comb_n의 '병의 ~'삭제(술어명사와 논항의 결합은 comb_n에서 제외)</note>
+			<note>sel_res의 X와 Y를 수정보완</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">完治</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>당신은 곧 ~가 될 것이니 염려하지 마십시오.</eg>
+				<trans>complete cure</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>종료행위</sem_class>
+				<lr>
+					<syn type="etc">근치</syn>
+					<syn type="etc">전치</syn>
+					<ant type="etc">불치</ant>
+					<coord>불치</coord>
+					<rel>병</rel>
+					<rel>상처</rel>
+					<rel>의사</rel>
+					<rel>환자</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 힘들다</comb_aj>
+				<comb_n type="compound">~ 판정</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>X-이 Y-을 ~를 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-에의해 Y-이 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>X-에의한 Y-의 ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간(의사|한의사|명의)|약|방법(치료법)</sel_rst>
+				<sel_rst arg="Y">인간|질병및증세|전염병</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>녹두</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/15</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/22</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/12</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>태그 내 나열된 정보 분할</mod_note>
+				<mod_note>함성어, 동사 결합 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/27</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스2 의미부류 수정;센스2 n_v 추가</mod_note>
+			</mod>
+			<note>2000/09/03(백인애)</note>
+			<note>2001/01/30(정유진</note>
+			<note>2003/04/08(이호영)센스1 예문 추가|동사연어구성을 향후 추가정보로 이동</note>
+			<note>2003/05/22(박만규)</note>
+			<note>센스2 예문 추가|의미부류 수정|동사연어구성을 향후 추가정보로 이동</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">綠豆</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~묵</comp>
+			<comp pos="n" type="suffix">~알</comp>
+			<comp pos="n" type="suffix">~밤</comp>
+			<comp pos="n" type="suffix">~새</comp>
+			<comp pos="n" type="suffix">~전병</comp>
+			<comp pos="n" type="suffix">~지짐</comp>
+			<comp pos="n" type="suffix">~죽</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~는 일년초 콩과 식물이다.</eg>
+				<eg>올해는 ~를 많이 심을 예정이다.</eg>
+				<trans>mung bean</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>식물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 기르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 재배하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 심다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="grp">단</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>어머니는 ~로 빈대떡을 만들어 주셨다.</eg>
+				<eg>고소한 ~가 내 입맛에 맞는다.</eg>
+				<trans>mung bean</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>곡식</sem_class><!--음식을 수정(김이정)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>팥</coord>
+					<coord>수수</coord>
+					<coord>보리</coord>
+					<coord>현미</coord>
+					<coord>조</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 맛있다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 갈다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 불리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="etc">
+					<form vcompound="no">~로 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">알</cl>
+				<cl type="grp">되</cl>
+				<cl type="grp">말</cl>
+				<cl type="grp">가마</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

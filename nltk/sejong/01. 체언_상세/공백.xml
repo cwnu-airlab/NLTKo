@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>공백</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/09</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/07</mod_date>
+				<mod_writer>김현승</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/06</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/16</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_n, n_v에 기술 및 정보 추가</mod_note>
+				<mod_note>comp 기술</mod_note>
+			</mod>
+			<note>2002/07/09(이성헌)</note>
+			<note>2002/09/29(고길수)공무원은 1998 복합어 사전에 기술되어 삭제함</note>
+			<note>2002/10/07(김현승)센스2의 comb_v정보 '~이 생기다'를 add항목에 기술</note>
+			<note>~ 상태' add항목에 기술</note>
+			<note>~으로 보내다' 추가</note>
+			<note>~을 메우다|채우다|깨다</note>
+			<note>센스1에서 '곳|군데'를 조각단위에서 개체단위로 수정</note>
+			<note>센스1의 의미부류 재검토 필요, 우선 텍스트를 담는 담지물의 별도 부류 설정이 필요하고, 이 경우 텍스트담지물 전체가 아닌 그 부분에 해당하는 듯함</note>
+			<note>센스2에서 '~이 크다'를 comb_aj에서 magn로 수정</note>
+			<note>센스2의 단위표현에 '번|차례' 추가</note>
+			<note>센스2의 동사결합으로 '~이 생기다</note>
+			<note>센스2의 명사결합으로 '치안 ~</note>
+			<add>~ 상태' 추가</add>
+			<add>~으로 보내다' 추가</add>
+			<add>~을 메꾸다|채우다|남기다|지우다|없애다</add>
+			<add>~을 메우다|채우다|깨다</add>
+			<add>센스2의 동사결합으로 '~이 생기다</add>
+			<add>센스2의 명사결합으로 '치안 ~</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">空白</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~기</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 논문집에는 ~이 많아 필요한 사항을 메모하기가 쉽다.</eg>
+				<trans>blank</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>텍스트의부분</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 많다</comb_aj>
+				<comb_aj type="appr">~이 작다</comb_aj>
+				<comb_aj type="appr">~이 넓다</comb_aj>
+				<comb_aj type="appr">~이 좁다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 채우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 메꾸다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 메우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 남기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 없애다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>동료의 출장으로 생긴 ~을 메꾸기 위해 그는 평소보다도 훨씬 많은 일을 해야만 했다.</eg>
+				<eg>그는 수 년간의 ~을 깨고 이번에 새로운 앨범을 발표하였다.</eg>
+				<trans>vacuum</trans>
+				<trans>gap</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>상태</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 갑작스럽다</comb_aj>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_n type="compound">~ 상태</comb_n>
+				<comb_n type="compound">치안 ~</comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 생기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 메꾸다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 메우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 깨다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

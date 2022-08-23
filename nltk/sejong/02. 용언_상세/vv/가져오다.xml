@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>가져오다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/09</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+				<mod>
+				<mod_date>2006/09/17</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>내부구조 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="o"/>
+			<str>V-어V</str>
+			<infl type="neora"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>운반</sem_class>
+				<trans>bring</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 W=S3-러 Z=N2-에|로|에게|에게로 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(책|도시락|물건)|추상적대상(일|일감)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">장소|인간</sel_rst>
+					<sel_rst arg="W" tht="PUR"/>
+					<eg>너 그거 뭐하러 내게 가져왔니?</eg>
+					<eg>깜빡하고 서류를 안 가져왔다.</eg>
+					<eg>도시락 잊지말고 가져와라.</eg>
+					<eg>그런 쓸데없는 물건들을 왜 집에 가져오니?</eg>
+					<eg>그는 검사를 받으러 공책을 내게 가져왔다.</eg>
+					<eg>그 물건을 이리로 가져와라.</eg>
+					<eg>문제를 다 푼 사람은 답안지를 내게로 가져와라.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|단체(회사|워원회|협회)</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(이익|권리)</sel_rst>
+					<eg>김 회장의 노련한 외교술로 우리 회사가 대부분의 이권을 가져오게 되었다.</eg>
+					<eg>협상을 잘못하여 오히려 우리가 부담만 많이 가져왔다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 W=S3-러 Z=N2-에서|에게서|로부터 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(배추|사과|책|옷)|추상적대상(일|일감)</sel_rst>
+					<sel_rst arg="Z" tht="SRC">장소|인간</sel_rst>
+					<sel_rst arg="W" tht="PUR"/>
+					<eg>그 도매상은 농부에게서 직접 배추를 가져온다.</eg>
+					<eg>그 기계는 지방에서 수리하러 가져온 거야.</eg>
+					<eg>김 과장은 남은 일을 회사에서 집에 가져오곤 했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/09</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+				<mod>
+				<mod_date>2006/09/17</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>내부구조, 보문표기, 띄어쓰기 수정 기능동사 표기 재고</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="o"/>
+			<str>V-어V</str>
+			<infl type="neora"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>사태</sem_class>
+				<trans>bring</trans>
+			</sem_grp>
+			<frame_grp type="STR">
+				<frame>X=N0-이 Z=N2-에|에게 Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="Npr1">(변혁|변화|결과)</sel_rst>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|단체(회사|문화계)|추상적대상(제도|체제|관례|세계)</sel_rst>
+					<eg>빌 게이츠는 윈도 95로 세계 컴퓨터 시장에 일대 변혁을 가져왔다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="Npr1">(변혁|변화|결과)</sel_rst>
+					<sel_rst arg="X" tht="EFF">추상적대상(사건|조처)|구체물(컴퓨터|비행기|자동차)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|단체(정치권|재계)|추상적대상</sel_rst>
+					<eg>그 사건은 우리에게 심각한 결과를 가져왔다.</eg>
+					<eg>이번 조처는우리 경제에 큰 변화를 가져올 것이다.</eg>
+					<eg>전직 대통령의 구속은 정치권에 심각한 파장을 가져왔다.</eg>
+					<eg>손톱만한 크기의 칩 하나가 재계의 판도 변화를 가져올 줄이야!</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="Npr1">(변혁|변화|결과)</sel_rst>
+					<sel_rst arg="X" tht="EFF">S것</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|단체|추상적대상</sel_rst>
+					<eg>형이 장가를 들어 형수가 들어온 것이 우리 집안에 엄청난 변화를 가져왔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

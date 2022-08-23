@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>완충</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/05</cre_date>
+				<cre_writer>최지임</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/06</mod_date>
+				<mod_writer>최지임</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/23</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note>을 하다 추가, 최대논항구조추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/03</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note>조사수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/30</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>n_n 기술</mod_note>
+				<mod_note>파생어 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 추가</mod_note>
+			</mod>
+			<note>2003/11/06(최지임)논항선택제약 수정요망</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">緩衝</org>
+			<der pos="n" type="suffix">~적</der>
+			<comp pos="n" type="suffix">~기</comp>
+			<comp pos="n" type="suffix">~액</comp>
+			<comp pos="n" type="suffix">~작용</comp>
+			<comp pos="n" type="suffix">~성</comp>
+			<comp pos="n" type="suffix">~장치</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>외국 자본이 급격하게 이탈할 때는 국내 투자자들이 ~을 해야 한다.</eg>
+				<trans>shock absorbing</trans>
+				<sem_class>결과행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 역할</comb_n>
+				<comb_n type="compound">~ 기능</comb_n>
+				<comb_n type="compound">~ 지역</comb_n>
+				<comb_n type="compound">~ 효과</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">사건|행위</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

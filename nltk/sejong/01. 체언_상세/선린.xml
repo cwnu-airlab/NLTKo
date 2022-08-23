@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>선린</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/06</cre_date>
+				<cre_writer>김미순</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/08</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>2003/10/08(김진형)의미부류 '대칭적행위'에서 '관계인간'으로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/09/28</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>의미부류 '관계인간'에서 '관계속성값'으로 수정</mod_note>
+				<mod_note>서술성명사 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/17</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>n_n 정보 추가</mod_note>
+				<mod_note>상호동사에 맞게 격틀 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/22</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/13</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>관계속성값을 우호로 수정;맥스엔 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">善隣</org>
+			<comp pos="n" type="suffix">~외교</comp>
+			<comp pos="n" type="suffix">~정책</comp>
+			<comp pos="n" type="suffix">~주의</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>조선 초기에는 일본에 대해 ~의 정책을 썼다.</eg>
+				<trans>neighborly friendship</trans>
+				<sem_class>우호</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound">~ 우호 관계</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~을 하다</form>
+					<frame>X-이 Y-와 ~을 하다</frame>
+					<frame>X-와 Y-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 다짐하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-와의 ~</max_n_str>
+				<max_n_str>X-와 Y-의 ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

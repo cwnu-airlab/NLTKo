@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>경악</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/29</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/19</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/29</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/12</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>n_v 수정</mod_note>
+				<mod_note>max_n 수정</mod_note>
+				<mod_note>sem 수정</mod_note>
+				<mod_note>cl 기술</mod_note>
+			</mod>
+			<note>2002/08/29(기영인)</note>
+			<note>2002/08/30(김종명)의미부류, 기능동사 수정</note>
+			<note>2002/10/07(한선혜)기능동사구문 수정</note>
+			<note>2003/09/19(이성헌)</note>
+			<note>comb_v의 기술내용을 add로 이동</note>
+			<add>~을 금치 못하다</add>
+			<add>합성 형용사로 '~스럽다'</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">驚愕</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="a" type="suffix">~스럽다</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그들의 잔인한 살상행위는 전 세계를 ~ 속에 몰아넣었다.</eg>
+				<trans>consternation</trans>
+				<trans>shock</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>외향적심리행위</sem_class> <!--'부정적태도'를 '외향적심리행위'로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form> <!--'S은, 는 것, 데'를 'S데, S것'으로 수정(송근영)-->
+					<frame>X-이 Y-에 ~을 하다</frame>
+					<frame>X-이 S것-에 ~을 하다</frame> <!--'~에 대해'를 '~에'로 수정(송근영)-->
+					<frame>X-이 S것-에 ~을 하다</frame> <!--'~에 대해'를 '~에'로 수정(송근영)-->
+					<frame>X-이 S데-에 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup"> <!--'S은, 는 것'을 'S것'으로 수정(송근영)-->
+					<form vcompound="yes">~을 시키다</form>
+					<frame>Y-이 X-을 ~을 시키다</frame>
+					<frame>S것-이 X-을 ~을 시키다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~시키다-->
+				<max_n_str>X-의 Y-에 대한 ~</max_n_str>
+				<max_n_str>S것-에 대한 X-의 ~</max_n_str> <!--'S은, 는 것, 데'를 'S데, S것'으로 수정, 논항 순서 수정(송근영)-->
+				<max_n_str>S데-에 대한 X-의 ~</max_n_str> <!--'S은, 는 것, 데'를 'S데, S것'으로 수정, 논항 순서 수정(송근영)-->
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

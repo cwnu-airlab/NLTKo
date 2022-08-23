@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>임시방편</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/01</cre_date>
+				<cre_writer>유영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/12</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/01</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>예문수정</mod_note>
+				<mod_note>syn, type 수정</mod_note>
+				<mod_note>prt 추가(~의)</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/22</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+			<mod_date>2007/07/30</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>센스 2 추가하고 전체 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">임시+방편</str>
+			<org lg="si">臨時方便</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~에 지나지 않다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>어쩔 수 없이 마을 사람들은 이번 일에 대해 ~을 세웠다. </eg>
+				<trans>temporary expedient</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="perfect">임시변통</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~에 불과하다</comb_aj>
+				<comb_n type="compound">~의 치료</comb_n>
+				<comb_n type="compound">~의 조치</comb_n>
+				<comb_n type="compound">~의 해결</comb_n>
+				<comb_n type="compound">~의 대책</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이  Y-에대해 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 세우다</form>
+					<frame>X-이  Y-에대해 ~을 세우다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">추상적대상</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>구청이 여러 차례 민원이 제기된 현안을 ~으로 무마하려는 것은 옳지 못한 처사이다.</eg>
+				<eg>이 제방은 ~이었다고 생각하고 다시 쌓아야 한다.</eg>
+				<trans>temporary expedient</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>방식속성값</sem_class>
+				<lr>
+					<syn type="perfect">임시변통</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~에 불과하다</comb_aj>
+				<comb_n type="compound">~의 치료</comb_n>
+				<comb_n type="compound">~의 조치</comb_n>
+				<comb_n type="compound">~의 해결</comb_n>
+				<comb_n type="compound">~의 대책</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이다</form>
+					<frame>X-이 ~이다</frame>
+					<frame>S것-이 ~이다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 되다</form>
+					<frame>X-이  이 되다</frame>
+					<frame>S것-이 ~이 되다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">구체인공물|행위</sel_rst>
+				<cl type="temp"></cl>
+				<prt>~으로</prt>
+				<prt>~의</prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

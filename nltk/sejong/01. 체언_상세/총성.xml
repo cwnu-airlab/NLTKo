@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>총성</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/22</cre_date>
+				<cre_writer>김이정</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/03</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>단위표현 추가;형용사결합, 동사결합 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>syn 기술</mod_note>
+				<mod_note>'~이 나다''~이 울리다'를 기능동사변이형으로 기술할 수 있을지 검토바람</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/01/28</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>예문 추가;n_v 수정;최대논항구조, 선택제약 기술</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/07</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<add>~을 듣다</add>
+			<add>~이 울리다|들려오다|들리다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">銃聲</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>당시 ~은 2발 밖에 들리지 않았다.</eg>
+				<eg>당시 수사본부는 현장에서 7발의 ~이 울렸다고 발표했다.</eg>
+				<trans>report of a gun</trans>
+				<trans>report of a rifle</trans>
+				<trans>gun report</trans>
+				<trans>rifle report</trans>
+				<trans>gunshot</trans>
+				<sem_class>소리</sem_class>
+				<lr>
+					<syn type="perfect">총소리</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 시끄럽다</comb_aj>
+				<comb_aj type="appr">~이 요란하다</comb_aj>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 있다</form>
+					<frame>X-에서 ~이 있다</frame>
+					<frame>X-에 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 없다</form>
+					<frame>X-에서 ~이 없다</frame>
+					<frame>X-에 ~이 없다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 나다</form>
+					<frame>X-에서 ~이 나다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 울리다</form>
+					<frame>X-에서 ~이 울리다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 멎다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 듣다</form>
+				</comb_v>
+				<max_n_str>X-에서의 ~</max_n_str>
+				<sel_rst arg="X">장소</sel_rst>
+				<cl type="uni">발</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

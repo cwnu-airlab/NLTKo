@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>합하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/23</cre_date>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/27</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/05</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 정보 수정</mod_note>
+				<mod_note>trans 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>N.하</str>
+			<org lg="si">合_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>combine</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에|에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|구체물</sel_rst>
+					<eg>철수는 자신이 가진 돈에 대출받은 돈을 합해서 자동차를 샀다.</eg>
+					<eg>그 상인은 어제 받은 물건에 오늘 받은 물건들을 모두 합해서 세어 보았다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Z" tht="GOL">추상적대상</sel_rst>
+					<eg>책에서 읽은 내용에 자신의 생각을 잘 합하여 발표하도록 해라.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="01">
+				<frame>X=N0-이 Y=N1-을 Z=N2-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|단체</sel_rst>
+					<sel_rst arg="Y" tht="THM">단체|구체물</sel_rst>
+					<sel_rst arg="Z" tht="COM">단체|구체물</sel_rst>
+					<eg>소금을 설탕과 합해서 물에 녹인다면 어떻게 될까?</eg>
+					<eg>빨강색을 흰색과 합하면 분홍색이 된다.</eg>
+					<eg>우리는 큰 집을 작은 집과 합쳤다.</eg>
+					<eg>이 논을 저 논과 합해서 평수를 계산하시오.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|단체</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Z" tht="COM">추상적대상</sel_rst>
+					<eg>그 피아니스트는 서양 음악을 동양 음악과 조화롭게 합해서 멋진 연주를 했다.</eg>
+					<eg>철수는 미국 이론을 프랑스 이론과 합해서 하나의 이론을 만들었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="01">
+				<frame>X=N0-이 Y+Z=N1-을 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|단체</sel_rst>
+					<sel_rst arg="Y" tht="THM">단체|구체물</sel_rst>
+					<sel_rst arg="Z" tht="THM">단체|구체물</sel_rst>
+					<eg>소금과 설탕을 합해서 물에 녹여 봐라.</eg>
+					<eg>빨강색과 흰색을 합하면 분홍색이 된다.</eg>
+					<eg>큰 집과 작은 집을 합쳤다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|단체</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Z" tht="THM">추상적대상</sel_rst>
+					<eg>그 피아니스트는 서양 음악과 동양 음악을 절묘하게 합쳤다.</eg>
+					<eg>철수는 미국 이론과 프랑스 이론을 합해서 하나의 이론으로 만들었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>harmonize (with)</trans>
+			</sem_grp>
+			<frame_grp type="FIN" cor="sym" n="02">
+				<frame>X=N0-이 Y=N1-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|단체</sel_rst>
+					<sel_rst arg="Y" tht="COM">인간|단체</sel_rst>
+					<eg>철수는 헤어진 아내와 서로 다시 합해서 살고 있다.</eg>
+					<eg>인사개혁위원회는 기획위원회와 서로 합해서 단일 위원회가 되었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="sym" n="02">
+				<frame>X+Y=N0-이 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="AGT">인간</sel_rst>
+					<eg>철수와 헤어진 그의 아내는 서로 다시 합해서 잘 살고 있다.</eg>
+					<eg>인사개혁위원회와 기획위원회는 서로 합해서 단일 위원회로 바뀌었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be put together</trans>
+			</sem_grp>
+			<frame_grp type="FIN" cor="sym" n="03">
+				<frame>X=N0-이 Y=N1-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="COM">추상적대상</sel_rst>
+					<eg>정의는 사랑과 서로 합해야 올바른 것이 된다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="sym" n="03">
+				<frame>X+Y=N0-이 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상</sel_rst>
+					<eg>정의와 사랑이 서로 합해야 진정한 정의가 된다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be united</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="sym" n="04">
+				<frame>X=N0-이 Z=N2-와 (서로) Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">능력(지혜|힘)|구체물(재산|공장)</sel_rst>
+					<sel_rst arg="Z" tht="COM">인간|인간집단</sel_rst>
+					<eg>노동자들은 학생들과 힘을 합하여 반정부 투쟁에 나섰다.</eg>
+					<eg>인권 위원회는 변호사들과 온갖 지혜를 합해서 그를 변호했다.</eg>
+					<eg>우리 회사는 벤처 기업과 공장을 합하기로 결정했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="04">
+				<frame>X+Z=N0-이 (서로) Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">능력(지혜|힘)|구체물(재산|공장)</sel_rst>
+					<sel_rst arg="Z" tht="AGT">인간|인간집단</sel_rst>
+					<eg>노동자들과 학생들은 있는 힘을 다 합해서 반정부 투쟁에 나섰다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

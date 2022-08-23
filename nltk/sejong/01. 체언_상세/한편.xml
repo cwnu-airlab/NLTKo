@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>한편</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2005/07/01</cre_date>
+				<cre_writer>허영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2005/10/03</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>sense 4는 접속부사 용법이므로 삭제</mod_note>
+				<mod_note>str 정보 추가</mod_note>
+				<mod_note>원어 정보 추가</mod_note>
+				<mod_note>n_v 정보 수정</mod_note>
+				<mod_note>lr 속성값 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/08</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>센스1, sem 기술</mod_note>
+				<mod_note>센스2, sem 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/14</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>센스 4의 의미를 어떻게 분할해야하는지 모르겠어요.</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="etc">한+편</str><!-- 수관형사+명사 구성임-->
+			<org lg="si">_便</org>
+		
+			<hom exist="yes"/>
+			<der  pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp">~ 말만 듣고 송사 못한다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>사회자는 ~으로 치우친 언급을 해서는 안 된다.</eg>
+				<eg>~으로는 고마우면서도 ~으로는 부담스럽다.</eg>
+				<trans>one side</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>상황</sem_class>
+				<lr>
+					<syn type="etc">한쪽</syn>
+					<syn type="etc">일방</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp  >
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+			<sense n="2">
+			<sem_grp>
+				<eg>그들은 모두 ~이다.</eg>
+				<trans>the same party</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>유파</sem_class><!--(권오희)'단체'에서 수정. 서술명사로 성격을 규정하였으므로 의미부류도 사태에서 찾았음.-->
+				<lr>
+					<syn type="etc">같은 편</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>  
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 Y-와 ~이다</frame>
+					<frame>X-와 Y-이 ~이다</frame>
+				</comb_v>	
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 되다</form>
+					<frame>X-이 Y-와 ~이 되다</frame>
+					<frame>X-와 Y-이 ~이 되다</frame>	
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>우리팀은 이번 축구시합에 이기기위해 매주마다 임시경기를 여는 ~ 수비대를 단단히 정비했다.</eg>
+				<trans>meanwhile</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>상황</sem_class>
+				<lr>
+					<syn type="etc">동시에</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

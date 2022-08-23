@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>되돌아가다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/02</mod_date>
+				<mod_writer>조원형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/04/07</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="a"/>
+			<str>되돌.아.가</str>
+			<infl type="geora"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>이동행위</sem_class>
+				<trans>return</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=S2-러 Y=N1-에|에게|로|에게로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|교통기관</sel_rst>
+					<sel_rst arg="Y" tht="GOL">장소|인간</sel_rst>
+					<sel_rst arg="Z" tht="PUR"></sel_rst>
+					<eg>그 사람은 두고 온 서류를 가지러 갑자기 집으로 되돌아갔다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=S2-러 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|교통기관</sel_rst>
+					<sel_rst arg="Y" tht="LOC">길|장소</sel_rst>
+					<sel_rst arg="Z" tht="PUR"></sel_rst>
+					<eg>그 사람은 전화를 걸러 오던 길을 되돌아갔다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">구체물|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="FNS">시간(과거|시절|시기)|(상태|모습|위치|자리)</sel_rst>
+					<eg>그 사람은 그제서야 본래의 모습으로 되돌아갔다.</eg>
+					<eg>한국 경제가 IMF 이전으로 되돌아가려면 5년 이상 걸릴 거란 관측이 지배적이다.</eg>
+					<eg>여기서 잠깐 3장에서 논의했던 '근대'라는 개념으로 되돌아가서 이야기해 보자.</eg>
+					<eg>그것은 과거의 봉건적인 사회로 되돌아가자는 것과 다를 바 없는 주장이다.</eg>
+					<eg>이제 일상으로 되돌아가서 차분하게 각자의 일에 충실해야 할 때이다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|교통기관</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간|장소</sel_rst>
+					<eg>그 사람은 요즘 옛 애인에게 되돌아갈까 하는 생각을 가끔 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

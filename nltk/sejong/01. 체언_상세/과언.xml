@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>과언</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/19</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/04</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/07</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/17</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/09/19(이성헌)sense1의 sem 검토요망(행위가 아닌 내용으로 분석, 부적적하다면 '말'과 관련한 부류 설정의 필요성 검토(과언|식언|실언|과찬 등)</note>
+			<note>2002/09/30(고길수)센스1에 간단한 예문 추가</note>
+			<note>2003/05/27(이홍식)sense1의 comb_aj에 (*아닌 ~) 추가</note>
+			<note>2003/07/01(고길수)센스1의 의미부류 표기법 수정</note>
+			<note>2003/08/04(이홍식)</note>
+			<note>센스1에 prt 정보 추가</note>
+			<note>센스1의 comb_ida에서 '~이다' 삭제</note>
+			<note>센스1의 경우 '~이 아니다'외의 결합이 가능한지?</note>
+			<note>센스2의 pre_s에서 'S다고' 삭제</note>
+			<note>센스2의 기능동사에서 'S다고|S다는'을 'S다고'로 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">過言</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>작금의 도시개발 행태를 보면 한국이 서울공화국이 되었다고 해도 ~이 아니다.</eg>
+				<eg>그가 세계 제일의 천재라고 해도 ~이 아니다.</eg>
+				<trans>exaggeration</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>사실명제</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" mod="no">~이 아니다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt>~이</prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>아니, 아실 만한 분이 그런 ~을 하시다니!</eg>
+				<trans>exaggeration</trans>
+				<trans>saying too much</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>이야기</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에게 S다고 ~을 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 Y-에 대한 S다는 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

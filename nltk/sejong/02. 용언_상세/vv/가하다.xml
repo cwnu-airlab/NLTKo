@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>가하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/15</cre_date>
+				<cre_writer>곽새라</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/05/17</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">加_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>증가행위</sem_class>
+				<trans>give</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(금리|이자)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">(원금)</sel_rst>
+					<eg>원금에 높은 이자를 가해서 갚아야 하는 부담이 크다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>add</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">크기(질량|속도|속력|무게|압력)|물리학적대상(열|에너지)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">구체물</sel_rst>
+					<eg>이 상태에서 속력을 더 가한다면 분명 속도위반으로 걸리게 될 것이니 조금만 속도를 늦춰라.</eg>
+					<eg>팬에 기름을 넣고 열을 가한 후에 감자를 넣고 볶으세요.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>방향성행위</sem_class>
+				<trans>apply</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">(제재|타격|일침|협박|압력|위협|공격)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|인간집단</sel_rst>
+					<eg>이익단체들은 자신들의 특정 이익을 위해 정부에 압력을 가하기도 한다.</eg>
+					<eg>그의 발언은 부패한 정권에 일침을 가하는 것이었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<idm_grp>
+			<idm>메스를 가하다</idm>
+			<idm>박차를 가하다</idm>
+			<idm>일침을 가하다</idm>
+			<idm>철퇴를 가하다</idm>
+		</idm_grp>
+	</entry>
+</superEntry>

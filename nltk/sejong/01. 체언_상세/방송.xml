@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>방송</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/02</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/24</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>cl 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 n_v 수정</mod_note>
+				<mod_note>센스2 n_v 기술</mod_note>
+			</mod>
+			<note>2000/09/23(정유진)</note>
+			<note>2000/09/29(정유진)</note>
+			<note>2001/01/22(백인애,강범모)sense 1.2의 구분이 확실하지 않으나 연세사전에서는 구분</note>
+			<note>2003/03/17(기영인)센스1 의미부류 수정</note>
+			<note>2003/03/23(박동호)센스1의 comb_n, max_n의 정보를 add로 이동</note>
+			<note>2003/03/24(기영인)</note>
+			<note>combn 정보삭제</note>
+			<note>기능동사구문 정보수정</note>
+			<note>선택제약 정보수정</note>
+			<note>센스2 combv 정보 add로 이동</note>
+			<add>(sense2) ~을 타다</add>
+			<add>~에 나오다</add>
+			<add>센스1: ~설비, X-의|에 의한 Y ~</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">放送</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~실</der>
+			<der pos="n" type="suffix">~국</der>
+			<der pos="n" type="suffix">~가</der>
+			<der pos="n" type="suffix">~계</der>
+			<der pos="n" type="suffix">~사</der>
+			<der pos="n" type="suffix">~인</der>
+			<comp pos="n" type="suffix">~극</comp>
+			<comp pos="n" type="suffix">~기사</comp>
+			<comp pos="n" type="suffix">~기자</comp>
+			<comp pos="n" type="suffix">~망</comp>
+			<comp pos="n" type="suffix">~사업</comp>
+			<comp pos="n" type="suffix">~시간</comp>
+			<comp pos="n" type="suffix">~시청자</comp>
+			<comp pos="n" type="suffix">~연설</comp>
+			<comp pos="n" type="suffix">~프로</comp>
+			<comp pos="n" type="suffix">~위원</comp>
+			<comp pos="n" type="suffix">~위원회</comp>
+			<comp pos="n" type="suffix">~윤리</comp>
+			<comp pos="n" type="suffix">~윤리규정</comp>
+			<comp pos="n" type="suffix">~주파수</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>올림픽에서 우리가 많은 금메달을 획득할 것이라고 ~을 했다.</eg>
+				<trans>broadcasting</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>지속적활동</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hypo>교육방송</hypo>
+					<hypo>케이블방송</hypo>
+					<rel>소식</rel>
+					<rel>뉴스</rel>
+					<rel>드라마</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+					<frame>X-이 Y-에대해 ~을 하다</frame>
+					<frame>X-이 S다고 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-에서 Y-이 ~이 되다</frame>
+					<frame>X-에서 S다고 ~이 되다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">직업인간|기업|(텔레비전)</sel_rst>
+				<sel_rst arg="Y">구체물|추상적대상|사건|행위</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>신상품의 광고가 내주부터 신문이나 ~을 타게 될 것이다.</eg>
+				<trans>mass media</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<syn type="etc">매체</syn>
+					<ant type="temp"></ant>
+					<hypo>라디오</hypo>
+					<hypo>텔레비전</hypo>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 타다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 나오다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

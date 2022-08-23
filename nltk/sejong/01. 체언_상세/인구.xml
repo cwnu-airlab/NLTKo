@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>인구</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/09</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/18</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/03</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/03/02(한동훈)예문 추가</note>
+			<note>2003/03/18(고길수)센스1에 예문 수정 및 추가</note>
+			<note>add에 '~가 늘다|줄다|감소하다'와 명사구 정보 추가</note>
+			<note>동사자유구성을 add 로 옮김</note>
+			<note>센스1에 형용사자유구성 정보 추가</note>
+			<note>센스1의 pre_d에서 '~' 삭제</note>
+			<note>센스1의 단위표현에서 '명'을 낱개에서 물질로 수정</note>
+			<note>센스1의 명사연어에 '과잉 ~' 추가</note>
+			<note>센스2를 별도로 추가</note>
+			<note>센스2의 '~에 회자되다'는 관용표현으로 처리할 수 있어 삭제함</note>
+			<note>의미부류를 '기타'에서 '크기'로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">人口</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~론</der>
+			<der pos="n" type="suffix">~학</der>
+			<comp pos="n" type="suffix">~과잉</comp>
+			<comp pos="n" type="suffix">~관행</comp>
+			<comp pos="n" type="suffix">~구성</comp>
+			<comp pos="n" type="suffix">~문제</comp>
+			<comp pos="n" type="suffix">~밀도</comp>
+			<comp pos="n" type="suffix">~분포도</comp>
+			<comp pos="n" type="suffix">~센서스</comp>
+			<comp pos="n" type="suffix">~수</comp>
+			<comp pos="n" type="suffix">~어</comp>
+			<comp pos="n" type="suffix">~요인</comp>
+			<comp pos="n" type="suffix">~준행</comp>
+			<comp pos="n" type="suffix">~통계</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~에 회자되다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>도시는 갈수록 ~가 증가하고 있다.이 도시는 ~가 100만이 넘는다.시청은 시의 ~를 조사하였다.도시로 ~가 집중되면서 많은 문제들이 발생하고 있다.</eg>
+				<trans>population</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>크기</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>시민</coord>
+					<coord>주민</coord>
+					<coord>국민</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 많다</comb_aj>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 적다</comb_aj>
+				<comb_aj type="appr">~가 작다</comb_aj>
+				<comb_aj type="appr">~가 조밀하다</comb_aj>
+				<comb_aj type="appr">~가 희박하다</comb_aj>
+				<comb_n type="compound">과잉 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 증가하다</form>
+					<frame>X-에 ~가 증가하다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 늘다</form>
+					<frame>X-에 ~가 늘다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 줄다</form>
+					<frame>X-에 ~가 줄다</frame>
+				</comb_v>
+                <comb_v type="narg_vpred">
+					<form vcompound="no">~가 감소하다</form>
+					<frame>X-에 ~가 감소하다</frame>
+				</comb_v>
+                <comb_v type="narg_vpred">
+                	<form vcompound="no">~가 집중되다</form>
+					<frame>X-에 ~가 집중되다</frame>
+				</comb_v>
+                <comb_v type="narg_vpred">
+					<form vcompound="no">~를 분산하다</form>
+					<frame>X-에 ~를 분산하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">국가|도시|마을</sel_rst>
+				<cl type="qnt">명</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>산업화가 진행되면서 농업에 종사하는 ~가 급격하게 감소하였다.</eg>
+				<trans>population</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>크기</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 많다</comb_aj>
+				<comb_aj type="appr">~가 적다</comb_aj>
+				<comb_n type="compound">어업 ~</comb_n>
+				<comb_n type="compound">농업 ~</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="qnt">명</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

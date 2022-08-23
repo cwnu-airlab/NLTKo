@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>소멸하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/25</mod_date>
+				<mod_writer>허용</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/10/20</mod_date>
+				<mod_writer>음두은</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">소멸을 하다</var>
+			<str>N.하</str>
+			<org lg="si">消滅_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>소멸</sem_class>
+				<trans>sweep</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">현상(저기압|태풍)</sel_rst>
+					<eg>남해 상에서 발달한 저기압은 동해 상에서 완전히 소멸했습니다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간집단|구체자연물</sel_rst>
+					<eg>선거에서 참패해서 당 자체가 소멸했다.</eg>
+					<eg>직제 개편으로 그 기구 자체가 소멸하고 말았다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(사상|주의|풍습|영향력)</sel_rst>
+					<eg>현재에는 공산주의 사상은 많이 소멸한 편이다.</eg>
+					<eg>전통 풍습 중에는 완전히 소멸한 것이 많다.</eg>
+					<eg>국제 사회에서 그 나라의 영향력은 많이 소멸했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단|동물</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물</sel_rst>
+					<eg>기영이는 밭에 있는 나쁜 벌레들을 소멸하기 위해서 약을 뿌렸다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(영향력)</sel_rst>
+					<eg>그 나라의 영향력을 소멸하기 위해서 국내에서는 민족주의 운동이 벌어지고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

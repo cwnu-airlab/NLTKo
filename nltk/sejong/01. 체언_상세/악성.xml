@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>악성</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/21</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/21</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/02</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>n_n기술</mod_note>
+				<mod_note>n_v기술</mod_note><!--max_n검토바람-->
+				<mod_note>add옮김</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/01</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>s_n기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/24</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/10/21(기영인)add 정보입력</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">惡性</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>종양이 ~인데다 떼어내기에는 이미 너무 깊이 퍼져있어서 수술을 할 수 없습니다.</eg>
+				<trans>malignancy</trans>
+				<sem_class>속성값</sem_class>
+				<lr>
+					<ant type="compl">양성</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 괴질</comb_n>
+				<comb_n type="compound">~ 림프종</comb_n>
+				<comb_n type="compound">~ 변형</comb_n>
+				<comb_n type="compound">~ 빈혈</comb_n>
+				<comb_n type="compound">~ 세균</comb_n>
+				<comb_n type="compound">~ 세포</comb_n>
+				<comb_n type="compound">~ 전염병</comb_n>
+				<comb_n type="compound">~ 종기</comb_n>
+				<comb_n type="compound">~ 종양</comb_n>
+				<comb_n type="compound">~ 질병</comb_n>
+				<comb_n type="compound">~ 질환</comb_n>
+				<comb_n type="compound">~ 폐렴</comb_n>
+				<comb_n type="compound">~ 피부병</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 ~이다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">질병및증세</sel_rst>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>내가 우리 팀을 배신하는 짓거리를 했다는 ~ 루머는 어떻게 대처할 수가 없었다.</eg>
+				<trans>viciousness</trans>
+				<sem_class>속성값</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 노사분규</comb_n>
+				<comb_n type="compound">~ 단기자금</comb_n>
+				<comb_n type="compound">~ 루머</comb_n>
+				<comb_n type="compound">~ 부채</comb_n>
+				<comb_n type="compound">~ 유언비어</comb_n>
+				<comb_n type="compound">~ 인플레이션</comb_n>
+				<comb_n type="compound">~ 투기</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 ~이다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">행위|사건|현상|상태변화</sel_rst>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

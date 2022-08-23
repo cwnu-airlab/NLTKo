@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>응용하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/25</mod_date>
+				<mod_writer>허용</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/08</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">응용을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">應用_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>단독행위</sem_class>
+				<trans>applicate</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|단체</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(원리|지식|기술)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">추상적대상(행위|기술)</sel_rst>
+					<eg>학교에서 배운 지식을 실생활에 응용하지 못한다면 그것은 쓸모없는 지식이 되고 만다.</eg>
+					<eg>서구에서 만들어진 이론을 우리 사회의 분석에 응용하는 데에는 일정한 한계가 있다.</eg>
+					<eg>본 연구소는 유전공학의 성과를 농업에 응용하여 식량 증산에 기여하는 것을 목표로 합니다.</eg>
+					<eg>요즘의 언어학자들은 자연과학의 방법론이나 연구성과를 적극적으로 언어학에 응용하곤 한다.</eg>
+					<eg>원리를 정확하게 이해하는 것도 중요하지만 그것을 응용할 수 있는 능력을 기르는 것도 중요하다.</eg>
+					<eg>대부분의 위대한 발명품들은 간단한 과학적 원리를 실생활의 유용한 일에 응용한 것이다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|단체</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(원리|지식|기술)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">S데</sel_rst>
+					<eg>십자수는 매우 간단한 자수법이지만 다양한 생활 소품을 만드는 데에 두루 응용할 수 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

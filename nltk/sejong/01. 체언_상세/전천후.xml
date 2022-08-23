@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>전천후</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/06</cre_date>
+				<cre_writer>유영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/23</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/28</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>합성어 정보를 n_n 정보로 이동, 의미부류 확인 요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/08</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note>의미부류 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/20</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">전+천후</str>
+			<org lg="si">全天候</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~전답</comp>
+			<comp pos="n" type="suffix">~경작지</comp>
+			<comp pos="n" type="suffix">~타이어</comp>
+			<comp pos="n" type="suffix">~저수지</comp>
+			<comp pos="n" type="suffix">~폭격기</comp>
+			<comp pos="n" type="suffix">~잠수함</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>실내 게이트볼 경기장 준공으로 이 지역 노인들은 ~로 게임을 즐길 수 있게 되었습니다.</eg>
+				<eg>이 낚시터는 겨울낚시, 여름낚시 모두 가능한 ~ 저수지이다.</eg>
+				<trans>allweather</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>방식속성값</sem_class><!--김성용(2005/07/28)방식속성값에 가까운 것 같은데?-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 전답</comb_n>
+				<comb_n type="compound">~ 경작지</comb_n>
+				<comb_n type="compound">~ 타이어</comb_n>
+				<comb_n type="compound">~ 저수지</comb_n>
+				<comb_n type="compound">~ 폭격기</comb_n>
+				<comb_n type="compound">~ 잠수함</comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~로 사용하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~로 쓰이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-가 ~이다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">구체물|장소</sel_rst>
+				<cl type="temp"></cl>
+				<prt>~로</prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

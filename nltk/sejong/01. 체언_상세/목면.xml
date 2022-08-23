@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>목면</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/16</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/16</mod_date>
+				<mod_writer>류희선</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/10</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>예문 수정 및 보완, n_v기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1  n_v 추가, 센스1 cl와 n_n 기술, 센스2 의미부류 '구체인공물'을 '천'으로 수정, 센스2 n_v 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">木綿</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>시골 농가에서는 ~을 키우고 길쌈을 해서 중요한 벌이를 마련했다.</eg>
+				<eg>우리 밭을 가득 메웠던 ~은 열매를 터뜨려 하얀 솜을 내 보이고 있었다.</eg>
+				<trans>cotton plant</trans>
+				<sem_class>나무</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 보급</comb_n>
+				<comb_n type="compound">~ 재배</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 키우다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 재배하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 심다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">그루</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이불은 ~으로 만들어져 무거웠다.</eg>
+				<eg>그녀는 하얀 ~으로 가방을 만들었다.</eg>
+				<trans>cotton cloth</trans>
+				<sem_class>천</sem_class>
+				<lr>
+					<syn type="perfect">무명</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 사용하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 만들다</form>
+					<frame></frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

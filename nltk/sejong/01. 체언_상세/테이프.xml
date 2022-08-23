@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>테이프</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/04/16</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/13</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/20</mod_date>
+				<mod_writer>정아름</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/16</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/08</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/04/17(김종명)</note>
+			<note>2001/04/18(이호영)</note>
+			<note>2001/08/14(고길수</note>
+			<note>2003/01/13(박진호)</note>
+			<note>sense1 예문 수정</note>
+			<note>sense1예문 수정</note>
+			<note>sense2 추가. 그런데 sense2 의미의 테이프는 표준대사전 표제어로 등재되어 있지 않고 대신 접착테이프가 등재</note>
+			<note>sense2,3동의어 추가</note>
+			<note>김종명</note>
+			<note>동의어 추가</note>
+			<note>센스를 하나 더 추가(접착용 테이프의 의미의 테이프의 sense 따로 설정하는 것이 좋겠다)</note>
+			<note>이성헌)</note>
+			<note>하위어 수정</note>
+			<note>2006/07/20(정아름)합성어 추가, sense1 형용사 결합 추가, 예문 마침표 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="xs">테잎</var>
+			<str type="temp"></str>
+			<org lg="en">tape</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="prefix">녹음~</comp>
+			<comp pos="n" type="prefix">스카치~</comp>
+			<comp pos="n" type="prefix">스테레오~</comp>
+			<comp pos="n" type="prefix">양면~</comp>
+			<comp pos="n" type="prefix">접착~</comp>
+			<comp pos="n" type="prefix">비디오~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 벤 곳을 ~로 감았다.</eg>
+				<trans>tape</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>도구</sem_class>
+				<lr>
+					<syn type="etc">띠</syn>
+					<syn type="etc">밴드</syn>
+					<ant type="temp"></ant>
+					<rel>천</rel>
+					<rel>장식</rel>
+					<rel>끈</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 길다</comb_aj>
+				<comb_aj type="appr">~가 짧다</comb_aj>
+				<comb_aj type="appr">~가 굵다</comb_aj>
+				<comb_aj type="appr">~가 가늘다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 감다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 끊다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 달다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 두르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 치다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="qnt">미터</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>벽에 ~로 종이를 붙이다.</eg>
+				<trans>tape</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>도구</sem_class>
+				<lr>
+					<syn type="etc">접착밴드</syn>
+					<syn type="etc">접착테이프</syn>
+					<ant type="temp"></ant>
+					<rel>종이</rel>
+					<rel>풀</rel>
+					<rel>가위</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 바르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 붙이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 바르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 붙이다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>음악을 ~에 녹음하다.</eg>
+				<trans>tape</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>구체인공물</sem_class>
+				<lr>
+					<syn type="etc">녹음테이프</syn>
+					<ant type="temp"></ant>
+					<hypo>노래</hypo>
+					<hypo>스테레오</hypo>
+					<hypo>회화 ~</hypo>
+					<rel>녹음</rel>
+					<rel>라디오</rel>
+					<rel>음악</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 엉키다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 녹음하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 담다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 듣다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 재생하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 틀다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

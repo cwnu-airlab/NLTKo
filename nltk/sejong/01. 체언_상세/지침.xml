@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>지침</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/15</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note>max_n</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/28</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/05/17(이성헌)sense2의 @comb_v의 일부를 %note로 이동: ~을 마련하다|개정하다|시행하다</note>
+			<note>2003/06/13(이민우)</note>
+			<note>2003/06/25(김종명)센스2의 기능동사정보수정</note>
+			<note>2003/07/03(이민우)</note>
+			<add>~에 따르다</add>
+			<add>~으로 삼다</add>
+			<add>~을 따르다|마련하다|개정하다|시행하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">指針</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>계기판의 ~이 갑자기 빠르게 움직였다.</eg>
+				<trans>a compass needle</trans>
+				<trans>an indicator</trans>
+				<trans>a pointer</trans>
+				<trans>an index</trans>
+				<trans>a hand</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>구체물의부분</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>경기 복귀 여부를 판단케하는 명확한 ~이 필요하다.</eg>
+				<trans>a guiding principle</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>명령</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 마련하다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="npred_vpred">
+					<form vcompound="no">~을 개정하다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="npred_vpred">
+					<form vcompound="no">~을 시행하다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="npred_vpred">
+					<form vcompound="no">~에 따르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 내리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~을 받다</form>
+					<frame>Y-이 X-에게 Z-에대해|S라고|S다고 ~을 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~을 주다</form>
+					<frame>X-이 Y-에게 Z-에대해|S라고|S다고 ~을 주다</frame>
+				</comb_v>
+				<max_n_str>X-의 Z-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<sel_rst arg="Z">행위</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S라는 ~</s_n>
+				<s_n>S다는  ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

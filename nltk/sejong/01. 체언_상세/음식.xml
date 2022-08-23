@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>음식</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/20</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/14</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/27</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/10/08(박동호)</note>
+			<note>2003/01/05(한동훈)동사자유구성을add로 옮김</note>
+			<note>2003/01/14(고길수)예문에 '~을 만들다</note>
+			<note>comb_aj에 '~이 좋다' 추가</note>
+			<note>예문 추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">飮食</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~물</der>
+			<der pos="n" type="suffix">~비</der>
+			<der pos="n" type="suffix">~점</der>
+			<comp pos="n" type="suffix">~기</comp>
+			<comp pos="n" type="suffix">~량</comp>
+			<comp pos="n" type="suffix">~상</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~ 구경을 못하다</idm>
+			<idm type="prv">~은 한데 먹고 잠은 따로 자라</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그녀는 요즘 통 ~을 먹지 못한다.~을 많이 먹어야 성장이 빨리 이루어진다.그는 몇 가지 재료로 간단한 ~을 만들었다.아내는 손님들에게 여러 가지 ~을 대접했다.그녀는 ~을 잘 한다.</eg>
+				<trans>foodmeal</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>음식</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hypo>고기</hypo>
+					<hypo>구이</hypo>
+					<hypo>빵</hypo>
+					<hypo>생선</hypo>
+					<hypo>설렁탕</hypo>
+					<hypo>송편</hypo>
+					<hypo>순대</hypo>
+					<hypo>쌈</hypo>
+					<hypo>젓갈</hypo>
+					<hypo>찌개</hypo>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 맛있다</comb_aj>
+				<comb_aj type="appr">~이 맛없다</comb_aj>
+				<comb_aj type="appr">~이 부족하다</comb_aj>
+				<comb_aj type="appr">~이 풍부하다</comb_aj>
+				<comb_aj type="appr">~이 좋다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 대접하다</form>
+					<frame>X-이 Y-에게 ~을 대접하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 잘 하다</form>
+					<frame>X-이 ~을 잘 하다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 나누다</form>
+					<frame>X-이 ~을 나누다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 남기다</form>
+					<frame>X-이 ~을 남기다</frame>
+				</comb_v>
+				<comb_v type="narg_vcognate">
+					<form vcompound="no">~을 먹다 </form>
+					<frame>X-이 ~을 먹다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 만들다</form>
+					<frame>X-이 ~을 만들다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 장만하다</form>
+					<frame>X-이 ~을 장만하다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 차리다</form>
+					<frame>X-이 ~을 차리다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

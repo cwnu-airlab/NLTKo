@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>손질하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>손질.하</str>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>개선행위</sem_class>
+				<trans>repair</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물</sel_rst>
+					<eg>아버지는 오랫 동안 광에 처박아 두었던 자전거를 꺼내서 손질하셨다.</eg>
+					<eg>어머니는 언니가 입었던 웨딩드레스를 손질해 내게 다시 입히고 싶어하셨다.</eg>
+					<eg>남편은 내년 봄에는 집을 좀 손질해야겠다고 했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>개선행위</sem_class>
+				<trans>keep (garden)</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">식물</sel_rst>
+					<eg>아저씨는 정원에서 나무와 화초들을 손질하고 계신다.</eg>
+					<eg>일요일이면 그는 잔디밭을 손질하며 오전 시간을 보내곤 했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>개선행위</sem_class>
+				<trans>take care of (meat or fish)</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(찬거리|고기|생선|야채)</sel_rst>
+					<eg>그녀는 시장에서 사 온 생선을 손질하여 냉장고에 넣었다.</eg>
+					<eg>오랜만에 일찍 돌아온 그는 아내가 김치거리를 손질하는 것을 도왔다.</eg>
+					<eg>냉장고에 든 갈비는 기름을 떼내고 잘 손질해 두어라.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>개선행위</sem_class>
+				<trans>polish (one's writing)</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">텍스트담지물(글|문장|소설|논문|기사)|(작품|그림|곡)</sel_rst>
+					<eg>그녀는 지난해 써 두었던 글을 손질하여 잡지사에 보냈다.</eg>
+					<eg>이 기사는 조금만 손질하면 별 문제가 없겠군요.</eg>
+					<eg>그녀는 미리 써두었던 글을 손질하는 것이 새로 쓰는 것보다 더 어렵게 느껴질 때가 많았다.</eg>
+					<eg>김 화백은 이번 전시회에 출품할 그림들을 손질하고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

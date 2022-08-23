@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>시위대</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2005/06/25</cre_date>
+				<cre_writer>이민우</cre_writer>
+				<cre_note/>
+			</cre>
+			<mod>
+				<mod_date>2005/06/26</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>entry2 추가</mod_note>
+				<mod_note>n_aj 수정</mod_note>
+				<mod_note>n_v 추가</mod_note>
+				<mod_note>s_n 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/18</mod_date>
+				<mod_writer>임근석</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/08</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note/>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"/>
+			<str type="N_R">시위+대</str>
+			<!--현재 어근 목록에는 '대'가 없음(송근영)-->
+			<org lg="si">示威隊</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"/>
+			<comp pos="temp" type="temp"/>
+			<metc pos="temp" type="temp"/>
+			<img type="temp"/>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"/>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>정부의 정책을 반대하는 ~가 도로를 점거하며 시위를 벌였다.</eg>
+				<trans>protesters</trans>
+				<domain/>
+				<reg/>
+				<con/>
+				<sem_class>일시적집단</sem_class>
+				<lr>
+					<syn type="temp"/>
+					<!--데모대-->
+					<ant type="temp"/>
+					<rel/>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 엄청나다</comb_aj>
+				<!--엄청나다가 시위대와만 제한적으로 결합하는 표현이 아니므로 magn을 appr로 수정(송근영)-->
+				<comb_n type="temp"/>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 막다</form>
+					<frame/>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 조직하다</form>
+					<!-- 송근영 추가-->
+					<frame/>
+				</comb_v>
+				<max_n_str/>
+				<sel_rst arg="temp"/>
+				<cl type="temp"/>
+				<prt/>
+				<av/>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+				<s_n>Sㄴ ~</s_n>
+				<!-- 송근영 추가-->
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2005/06/26</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note>고유명사인지?</cre_note>
+			</cre>
+			<mod>
+				<mod_date></mod_date>
+				<mod_writer/>
+				<mod_note/>
+			</mod>
+			<note/>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"/>
+			<str type="N_R">시위+대</str>
+			<org lg="si">侍衛隊</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"/>
+			<comp pos="temp" type="temp"/>
+			<metc pos="temp" type="temp"/>
+			<img type="temp"/>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"/>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>임금의 호위를 위해 만들어진 ~는 조선 후기에 만들어졌다.</eg>
+				<trans>security squad of the king</trans>
+				<domain>역사</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>군대</sem_class>
+				<lr>
+					<syn type="temp"/>
+					<ant type="temp"/>
+					<rel/>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"/>
+				<comb_n type="temp"/>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 조직하다</form>
+					<frame/>
+				</comb_v>
+				<max_n_str/>
+				<sel_rst arg="temp"/>
+				<cl type="temp"/>
+				<prt/>
+				<av/>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+				<s_n>Sㄴ ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

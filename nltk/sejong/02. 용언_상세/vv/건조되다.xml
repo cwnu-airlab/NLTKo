@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>건조되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/31</cre_date>
+				<cre_writer>박철우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/31</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>내부구조 기술</mod_note>
+				<mod_note>어휘의미관계 보충</mod_note>
+				<mod_note>엔트리 위치 조정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">건조가 되다</var>
+			<str>N.되</str>
+			<org lg="si">建造_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be constructed</trans>
+				<trans>be built</trans>
+				<lr>
+					<syn type="perfect">건설되다</syn>
+					<syn type="perfect">건축되다</syn>
+					<syn type="kor">세워지다</syn>
+					<syn type="kor">지어지다</syn>
+					<hyper>만들어지다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체인공물(건물|배)</sel_rst>
+					<eg>스페인의 유일한 항공모함도 그 조선소에서 건조되어 1988년에 취역하였다고 한다.</eg>
+					<eg>그 절은 중국의 보기 드문 고대 고공 건축으로 전부 목조구조이며 골짜기 밑에서 26-50m 높이의 절벽 위에 건조되어 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/31</cre_date>
+				<cre_writer>박철우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/31</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>내부구조 제시</mod_note>
+				<mod_note>어휘의미관계 보충</mod_note>
+				<mod_note>선택제약 구체화</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">건조가 되다</var>
+			<str>N.되</str>
+			<org lg="si">乾燥_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be dried</trans>
+				<lr>
+					<syn type="kor">마르다</syn>
+					<ant type="compl">젖다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">식물|자연음식물|신체착용물(옷|모자|신)</sel_rst>
+					<eg>햇볕에 잘 건조된 수건이나 내의는 쓰는 사람을 상쾌하게 만든다.</eg>
+					<eg>마른 미역을 선택할 때는 잘 건조되어 있으며, 검은 녹색에 윤기가 있는 것이 좋다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

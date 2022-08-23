@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>산고</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/23</cre_date>
+				<cre_writer>김진형</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/04</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/27</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>ADD정보이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/27</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>의미부류, n_aj, n_v 수정;최대논항구조, 선택제약 기술</mod_note>
+			</mod>
+			<note>2002/07/22(김진형)</note>
+			<note>2002/08/02(김종명)</note>
+			<note>2003/07/03(송인욱)예문 수정</note>
+			<note>2003/07/04(김미현)magn에 '엄청난|대단한 ~'를 추가</note>
+			<note>comb_v에서 '~를 경험하다'를 add로 이동</note>
+			<note>magn에서 '~가 대단하다|엄청나다' 삭제, '가벼운 ~' 추가</note>
+			<note>의미부류를 '생리현상'에서 수정</note>
+			<add>2003/07/03(송인욱)동사자유구성으로 '~를 느끼다|경험하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">産苦</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그녀는 첫 아이를 낳을 때의 ~가 너무 컸던 나머지 임신 자체를 기피하게 됐다.</eg>
+				<trans>birth pangs</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>신체상태</sem_class><!--질병및증세을 수정(김이정)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 심하다</comb_aj>
+				<comb_aj type="appr">~가 엄청나다</comb_aj>
+				<comb_aj type="appr">~가 대단하다</comb_aj>
+				<comb_aj type="appr">~가 가볍다</comb_aj>
+				<comb_aj type="appr">~가 경미하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 느끼다</form>
+					<frame>X-이 ~를 느끼다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 겪다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 치르다</form>
+					<frame>X-이 ~를 치르다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 경험하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">여성인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

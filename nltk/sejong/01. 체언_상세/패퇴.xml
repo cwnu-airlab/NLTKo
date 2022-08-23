@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>패퇴</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/04/15</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/02</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/28</mod_date>
+				<mod_writer>정아름</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/17</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/02</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/04/16(기영인)</note>
+			<note>2001/04/17(박동호)</note>
+			<note>2001/08/10(기영인)</note>
+			<note>2003/10/02(박진호)의미부류, 격틀, 선택제약 수정</note>
+			<note>기능동사 정보 추가</note>
+			<note>논항 선택제약 정보 입력</note>
+			<note>논항선택제약 정보 추가</note>
+			<note>동위어 정보 수정</note>
+			<note>엔트리 추가요구('풍습의 패퇴'와 같은 경우)에 대하여 단어의 사용이 지나치게 학문적, 문어적이며 빈도가 낮다고 사료됨, 재검토 요망</note>
+			<note>예문 수정</note>
+			<note>의미부류 수정</note>
+			<note>최대논항 정보 추가</note>
+			<note>2006/07/28(정아름) 예문 마침표 추가, 동의어 정보 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">敗退</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>수적인 열세로 우리는 일단 ~를 할 수밖에 없었다.</eg>
+				<trans>defeat</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>실패</sem_class>
+				<lr>
+					<syn type="perfect">퇴패</syn>
+					<ant type="etc">진격</ant>
+					<coord>패주</coord>
+					<coord>퇴각</coord>
+					<coord>진격</coord>
+					<rel>싸움</rel>
+					<rel>전투</rel>
+					<rel>후퇴</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">연이은 ~</comb_aj>
+				<comb_aj type="appr">잇단 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 거듭하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Z-에서 Y-에|에게 ~를 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 Y-에서의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단'Z=사건(경기|싸움|전투)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

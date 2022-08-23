@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>제스처</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/20</cre_date>
+				<cre_writer>권오희</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/21</mod_date>
+				<mod_writer>권오희</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/24</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>add 내용 반영(동사결합 정보 추가)</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>센스2의 frame 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>s_n기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/22</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/10/21(권오희)센스2 의미부류 검토바람</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">gesture</org>
+		
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc">~에 지나지 않다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>히딩크 감독이 어퍼컷을 날리는 ~가 광고에 등장했다.</eg>
+				<trans>gesture</trans>
+				<sem_class>몸짓및동작</sem_class>
+				<lr>
+					<syn type="etc">몸짓</syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 취하다</form>
+					<frame>X-이 ~를 취하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">가지</cl>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>대다수의 국가들이 미국의 입장을 지지한다는 ~만 보이고 정작 파병은 하지 않고 있다.</eg>
+				<eg>중국의 대북 투자는 북한의 경제권을 장악하려는 ~로 이해된다.</eg>
+				<trans>gesture</trans>
+				<sem_class>결과행위</sem_class> <!--(호정은) 마땅한 의미부류 찾기 어려움-->
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 취하다</form>
+					<frame>X-이 S는 ~를 취하다</frame> <!--(호정은) 보문 격틀이 정확한지 의문-->
+					<frame>X-이 Y-의 ~를 취하다</frame><!--(권오희)'위로의 제스처를 취하다'등의 구문도 많이 쓰일 것 같은데 이 역시 정확한 표기인기 의문-->
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 보이다</form>
+					<frame>X-이 S는 ~를 보이다</frame>
+				</comb_v>
+				<max_n_str>X-의 S는 ~</max_n_str>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-의 ~</max_n_str><!--(권오희) 타당한지 검토 바람-->
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

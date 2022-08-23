@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>멍청스럽다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/23</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+			  	<mod_date>2005/09/10</mod_date>
+				<mod_writer>박보연</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<infl type="b"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be stupid</trans>
+				<trans>dull</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<eg>다른 사람들은 열심히 읽고있는데 나만 읽지 않는다고 생각해 보면 내가 얼마나 멍청스러운가?</eg>
+					<eg>나는 한동안 멍청스럽게 앉아 있기만 하였다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">상태|행위|사건</sel_rst>
+					<eg>해놓고 생각을 하니까 미욱하고 멍청스러운 물음이라는 생각이 들었다.</eg>
+					<eg>그 친구는 어쩌면 그렇게 멍청스러운 짓을 하는지 모르겠다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<eg>뻔히 아는 길을 돌아가는 것은 멍청스럽게 보일지는 모르지만 나름대로 이유가 있는 것이다.</eg>
+					<eg>모든 것을 용납하고 참으며 사는 것은 멍청스러운 일일지도 모른다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

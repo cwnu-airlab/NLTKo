@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>세미나</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/23</cre_date>
+				<cre_writer>이지영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/08</mod_date>
+				<mod_writer>목정수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/10</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 도메인(교육) 삭제;센스1 의미부류 수정;센스1 선택제약 Z 기술;센스1,2 s_n 삭제;센스2 n_v 수정 및 추가;센스2 최대논항구조, 선택제약 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/15</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1의 지속적활동을 대화로 수정;'하다'에 대칭 변이형 추가;맥스엔에 대칭 변이형과 생략형 추가;센스2 동사, 맥스엔에서 'S는 ~' 정보 삭제, Y, S것, S데 논항 추가</mod_note>
+			</mod>
+			<note>2003/06/17(김미순)sense 1 sem '언어상의충돌'에서 '학술모임회의'로 수정</note>
+			<note>2003/09/08(목정수)add추가</note>
+			<note>sel_res의 X,Y에 '인간집단' 추가</note>
+			<note>sel_res의 X,Y에 '인간집단'추가</note>
+			<note>sense 2 sem '언어상의 충돌'에서 '학술모임회의'로 수정</note>
+			<note>supv 수정</note>
+			<add>~를 개최하다|열다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="en">seminar</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>다음 주 초에 교수와 학생이 함께 그 주제에 관한 ~를 할 예정이다.</eg>
+				<trans>seminar</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>대화</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-와 Z-에대해 ~를 하다</frame>
+					<frame>X-와 Y-이 Z-에대해 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 개최하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 열다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 가지다</form>
+					<frame></frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 Y-와의 Z-에대한 ~</max_n_str>
+				<max_n_str>X-와 Y-의 Z-에대한 ~</max_n_str>
+				<max_n_str>X-의 Z-에대한 ~</max_n_str>
+				<max_n_str>X-의 Y-와의 ~</max_n_str>
+				<max_n_str>X-와 Y-의 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Z-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">온</sel_rst>
+				<cl type="uni">회</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>법률 개정을 위한 ~가 열렸다.</eg>
+				<trans>seminar</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>학술모임회의</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 있다</form>
+					<frame>X-에서 Y-에대해 ~가 있다</frame>
+					<frame>X-에서 S것-에대해 ~가 있다</frame>
+					<frame>X-에서 S데-에대해 ~가 있다</frame>
+					<!-- frame>X-에서 S는 ~가 있다</frame -->
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 열리다</form>
+					<frame>X-에서 Y-에대해 ~가 열리다</frame>
+					<frame>X-에서 S것-에대해 ~가 열리다</frame>
+					<frame>X-에서 S데-에대해 ~가 열리다</frame>
+					<!-- frame>X-에서 S는 ~가 열리다</frame -->
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 개최되다</form>
+					<frame>X-에서 Y-에대해 ~가 개최되다</frame>
+					<frame>X-에서 S것-에대해 ~가 개최되다</frame>
+					<frame>X-에서 S데-에대해 ~가 개최되다</frame>
+					<!-- frame>X-에서 S는 ~가 개최되다</frame -->
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 개최하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 열다</form>
+					<frame></frame>
+				</comb_v>
+				<!-- max_n>X-에서의 S는 ~</max_n -->
+				<max_n_str>X-에서의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-에서의 S것-에대한 ~</max_n_str>
+				<max_n_str>X-에서의 S데-에대한 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>S것-에대한 ~</max_n_str>
+				<max_n_str>S데-에대한 ~</max_n_str>
+				<sel_rst arg="X">장소</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">건</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>광풍</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/23</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note>단위표현 재검토 요망</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2004/11/13</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/02</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>동사결합의 유형값 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/04</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+            <add>동사결합으로 '~이 불다|일다'</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">狂風</org>
+			<hom exist="temp"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>하늘이 어두워지면서 갑자기 ~이 불었다.</eg>
+				<trans>violent gale</trans>
+				<sem_class>바람</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">거센 ~</comb_aj>
+				<comb_v type="npred_vsupvar">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~이 불다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~이 일다</form>
+					<frame></frame>
+				</comb_v>
+				<!-- 위의 동사들을 기능동사의 변이형으로 볼 때 이들이 이루는 단문의 문형은?? -->
+				<cl type="uni">줄기</cl>
+				<cl type="uni">가닥</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

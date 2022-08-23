@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>시집살이</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/21</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/20</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/27</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>내적구성 정보 추가;센스1의 의미부류 수정;동사결합정보 수정;논항명사구 정보 추가;선택제약 정보 수정;센스2의 의미부류 수정;논항 명사구 정보 추가;선택제약 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/08</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/05/21(이호영)</note>
+			<note>2002/08/28(김종명)</note>
+			<note>2003/09/07(최지임)add입력;대역어 수정;예문수정 및 추가입력;형용사자유구성정보 입력;sense2 대역어 검토요망;기능동사입력;논항선택제약 입력</note>
+			<note>2003/09/20(고길수)노트 표기법을 최종 지침에서 확인할 것;의미부류를 '지속적행위'에서 '지속적활동'으로 수정, '지속적행위'는 최종버전에서는 없어짐;comb_aj 정보 표기법 수정, 서술형이 가능하면 서술형으로 표기함;comb_v에 '~를 살다' 추가;기능동사, 논항 정보 추가함, 단 장소 논항의 가능성 검토 필요;센스2의 의미부류를 '지속적행위'에서 '지속적활동'으로 수정;센스2에 단위표현 추가;센스2의 comb_aj를 관형형에서 서술형으로 수정</note>
+			<add>~를 겪다|면하다|잘하다</add>
+			<add>~로 고생하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_Vn">시집+살이</str>
+			<org lg="si">媤___</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>어머니는 고된 ~를 하시느라 주름이 많이 늘었다.</eg>
+				<eg>읍내로 시집간 누이는 몇 년째 힘든 ~를 하고 있다.</eg>
+				<trans>married life in the home of the husband's parents</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>일</sem_class> <!-- 지속적활동 수정 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 고되다</comb_aj>
+				<comb_aj type="appr">~가 어렵다</comb_aj>
+				<comb_aj type="appr">~가 힘들다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred"> <!-- narg_vpred 수정 -->
+					<form vcompound="no">~를 살다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">여성인간|비대칭적친족(누이|어머니)</sel_rst> <!-- 인간 수정 -->
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>사장님 성화에 우리 팀은 호된 ~를 하고 있다.</eg>
+				<trans>sijipsali</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>일</sem_class> <!-- 지속적활동 수정 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 호되다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst> <!-- 인간집단 추가 -->
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

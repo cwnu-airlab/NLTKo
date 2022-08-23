@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>우파</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/22</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/08</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/25</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 ant, n_n에 기술</mod_note>
+				<mod_note>comp 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/01</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/08/31(고길수)예문 수정</note>
+			<note>add의 '~인사|세력'을 명사연어로 수정</note>
+			<note>2002/10/12(이성헌)이 경우도 '집단'과 '추종자'로서의 '인간' 두 가지 해석이 가능함</note>
+			<note>미군 적군 등의 경우와 비교하여 분할 방법을 정립할 것</note>
+			<note>2003/07/04(권오희)comb_n을 add로 옮김</note>
+			<note>2003/08/08(이은경)</note>
+			<add>반의어로 '좌파' 추가</add>
+			<add>센스1의 명사결합 : ~ 인사|세력|정당</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">右派</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="prefix">극~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>해방 후 ~와 좌파간의 갈등이 심화되었다.</eg>
+				<eg>이번 총선에서 ~의 정당들이 승리를 하였다.</eg>
+				<trans>right wing</trans>
+				<trans>Right</trans>
+				<trans>rightists</trans>
+				<trans>right-wing faction</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>정치유파</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="conv">좌파</ant> <!--유형값 검토요(송근영)-->
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 인사</comb_n>
+				<comb_n type="compound">~ 세력</comb_n>
+				<comb_n type="compound">~ 정당</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

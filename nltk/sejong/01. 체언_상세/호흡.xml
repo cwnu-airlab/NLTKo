@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>호흡</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/17</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/08</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/10</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note>동사구서 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/20</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 의미부류 단독행위를 수정</mod_note>
+				<mod_note>센스2 n_v type 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/11</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>'가쁘다'를 형용사 자유구성으로</note>
+			<note>2001/07/23(고길수)</note>
+			<note>2001/08/05(이성헌)</note>
+			<note>2003/02/03(김진형)예문 추가</note>
+			<note>2003/02/08(이지영)cl추가</note>
+			<note>sense 2 동의어 입력</note>
+			<note>sense 3 동의어 입력</note>
+			<note>sense1과 sense3 sel_res 수정</note>
+			<note>sense2 sel_res 삭제</note>
+			<note>sense3 supv에 Y논항 추가</note>
+			<note>센스1의 동의어 추가</note>
+			<note>센스2에 최대논항구조와 선택제약 추가, 재검토 요망</note>
+			<note>센스3에 전문분야 추가</note>
+			<note>의미부류 수정</note>
+			<note>파생어 추가</note>
+			<note>한정사 제약 재검토 요망</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">呼吸</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~률</der>
+			<der pos="n" type="prefix">심~</der>
+			<comp pos="n" type="suffix">~강</comp>
+			<comp pos="n" type="suffix">~계수</comp>
+			<comp pos="n" type="suffix">~곤란</comp>
+			<comp pos="n" type="suffix">~공</comp>
+			<comp pos="n" type="suffix">~기</comp>
+			<comp pos="n" type="suffix">~기관</comp>
+			<comp pos="n" type="suffix">~기질</comp>
+			<comp pos="n" type="suffix">~량</comp>
+			<comp pos="n" type="suffix">~수</comp>
+			<comp pos="n" type="suffix">~식</comp>
+			<comp pos="n" type="suffix">~열</comp>
+			<comp pos="n" type="suffix">~운동</comp>
+			<comp pos="n" type="suffix">~조절</comp>
+			<comp pos="n" type="suffix">~중추</comp>
+			<comp pos="n" type="prefix">복식~</comp>
+			<comp pos="n" type="prefix">인공~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 잠시 ~을 가다듬은 뒤 물속으로 뛰어들었다.</eg>
+				<eg>바다에 빠진 사람은 구조되었지만 곧 ~이 멈췄다.</eg>
+				<trans>breath</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>몸짓및동작</sem_class>
+				<lr>
+					<syn type="etc">숨</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 가쁘다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 멈추다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 멎다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 끊기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 돌아오다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 가다듬다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 조절하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그녀와 나는 무슨 일이든 ~이 척척 맞는다.</eg>
+				<eg>오케스트라의 모든 단원은 ~이 잘 맞아야 한다.</eg>
+				<trans>tone</trans>
+				<trans>harmony</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>상태</sem_class>
+				<lr>
+					<syn type="etc">마음</syn>
+					<syn type="etc">뜻</syn>
+					<ant type="temp"></ant>
+					<rel>일치</rel>
+					<rel>조화</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 맞다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 같이하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 맞추다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>생물은 ~을 하면서 에너지를 소모한다.</eg>
+				<eg>나무들은 대개 잎을 통해 ~을 한다.</eg>
+				<trans>breath</trans>
+				<domain>생물</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>단독행위</sem_class><!--생물생리현상?(김이정)-->
+				<lr>
+					<syn type="etc">숨쉬기</syn>
+					<ant type="temp"></ant>
+					<coord>소화</coord>
+					<rel>산소</rel>
+					<rel>이산화탄소</rel>
+					<rel>호흡기</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-로 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">생물</sel_rst>
+				<sel_rst arg="Y">신체부위|식물의부분</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

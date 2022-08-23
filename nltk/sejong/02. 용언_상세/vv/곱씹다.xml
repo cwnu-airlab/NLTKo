@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>곱씹다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/09/30</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>형태정보, 의미정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>PV</str><!--"곱"을 접두사로 간주.-->
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>반복적행위</sem_class>
+				<trans>rechew</trans>
+				<trans>repeat</trans>
+				<lr>
+					<syn type="perfect">거듭씹다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">음식</sel_rst>
+					<eg>북한 주민은 먹을 게 없어서 강냉이를 여러 번 곱씹어 먹곤 한다.</eg>
+					<eg>체하지 않을려면 음식을 곱씹어야 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>ponder</trans>
+				<trans>think over</trans>
+				<trans>reflect</trans>
+				<lr>
+					<syn type="kor">숙고하다</syn>
+					<hyper>생각하다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-을|에대해 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(문제|일|말|충고|생각)</sel_rst>
+					<eg>나는 선배가 한 그 말을 여러 번 곱씹어 보았다.</eg>
+					<eg>좀 자제하라는 충고를 몇 번이나 곱씹었다.</eg>
+					<eg>그 문제를 곰곰하게 곱씹어 보았으나 해결책이 나지 않았다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것|S데|Q</sel_rst>
+					<eg>그녀가 화를 낸 것에 대해 곱씹었다.</eg>
+					<eg>그녀가 나에게 헤어지자고 말한 데 대해 곱씹어 보았다.</eg>
+					<eg>그가 왜 갑자기 한국을 떠났는지에 대해 곱씹어 보았다.</eg>
+					<eg>그 녀석이 나를 어떤 방식으로 대했는가를 오랫동안 곱씹어 보았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

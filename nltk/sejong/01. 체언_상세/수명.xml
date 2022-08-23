@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>수명</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/17</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/17</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/01</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>의미부류 속성에서 나이로 수정;원어 정보 기입</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/19</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>n_aj type 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/24</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/21</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1에 맥스엔, 선택제약 정보 추가;명사 연어 정보 추가;센스2를 속성에서 수량으로 수정;맥스엔, 선택제약 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/08</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>단위표현 정보 추가</mod_note>
+			</mod>
+			<note>2003/10/17(기영인)add 정보입력</note>
+			<add>~을 단축하다</add>
+			<add>~을 줄이다</add>
+			<add>~을 연장하다</add>
+			<add>~을 늘이다</add>
+			<add>~을 다하다</add>
+			<add>~이 남다</add>
+			<add>~이 다되다</add>
+			<add>~이 늘어나다</add>
+			<add>~이 줄어들다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">壽命</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>의료 기술의 발달로 인간의 ~이 연장되었으니 이제는 그만큼 늘어난 삶의 질이 문제이다.</eg>
+				<trans>life span</trans>
+				<sem_class>나이</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 길다</comb_aj>
+				<comb_aj type="min">~이 짧다</comb_aj>
+				<comb_n type="compound">평균 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 늘이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 연장되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">생물</sel_rst>
+				<cl type="uni">년</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>자꾸 고장이 나는 것을 보니, 이제 이 고물 컴퓨터의 ~도 거의 다 된 모양이다.</eg>
+				<trans>durability</trans>
+				<sem_class>수량</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 길다</comb_aj>
+				<comb_aj type="min">~이 짧다</comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 다하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">구체인공물|구체물의부분</sel_rst>
+				<cl type="uni">년</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

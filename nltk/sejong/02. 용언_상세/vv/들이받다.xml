@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>들이받다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/01</mod_date>
+				<mod_writer>조원형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>DV</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>대상성몸짓</sem_class>
+				<trans>run into</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에|에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|동물|교통기관</sel_rst>
+					<sel_rst arg="Y" tht="THM">부분</sel_rst>
+					<sel_rst arg="Z" tht="GOL">신체부위|구체물</sel_rst>
+					<eg>철수가 전신주에 머리를 들이받았다.</eg>
+					<eg>급정거를 해서 내가 앞좌석에 머리를 들이받았다.</eg>
+					<eg>뒷사람이 나에게 머리를 들이받았다.</eg>
+					<eg>들어오다가 나는 현관에 코를 들이받았다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|동물|교통기관</sel_rst>
+					<sel_rst arg="Y" tht="THM">신체부위|구체물</sel_rst>
+					<sel_rst arg="Z" tht="INS">부분</sel_rst>
+					<eg>철수가 머리로 나를 들이받았다.</eg>
+					<eg>뒤에 있던 차가 우리 차를 앞대가리로 들이받았다.</eg>
+					<eg>소가 뿔로 투우사를 들이받았다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">부분</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|동물|교통기관|부분|신체부위</sel_rst>
+					<eg>철수의 머리가 나를 들이받았다.</eg>
+					<eg>뒤에 있던 차의 앞대가리가 우리 차를 들이받았다.</eg>
+					<eg>소의 뿔이 투우사를 들이받았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

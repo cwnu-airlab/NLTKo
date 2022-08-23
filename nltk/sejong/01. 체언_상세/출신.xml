@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>출신</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/23</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>2003/08/24(김이정)</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/08</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>sense1,2,의 sem 확인;이에 대한 논의 필요(cf. ~을 속이다|감추다)</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/10</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1의 의미부류 수정;명사결합, 논항명사구, 논항 의미정보 추가;센스2의 의미부류 수정;명사결합, 논항명사구, 논항 의미정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/02/18</mod_date>
+				<mod_writer>박만규</mod_writer>
+	            		<mod_note>수정보완한정보없음</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/10</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">出身</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 시골 ~이다.</eg>
+				<trans>origin</trans>
+				<trans>birth</trans>
+				<trans>native</trans>
+				<sem_class>식별속성</sem_class> <!-- 속성 수정 -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">시골 ~</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">노비 ~</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">양반 ~</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">농어촌 ~</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">해외 ~</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">~ 지역</comb_n> <!-- 추가함 -->
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 속이다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가함 -->
+				<sel_rst arg="X">인간</sel_rst> <!-- 추가함 -->
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 검사 ~이다.</eg>
+				<trans>graduate</trans>
+				<trans>affiliation</trans>
+				<sem_class>개인사</sem_class> <!-- 속성 수정 -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">지방대 ~</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">탈북자 ~</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">문과 ~</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">이공계 ~</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">석사 ~</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">대기업 ~</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">~ 학교</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">~ 대학</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">~ 고교</comb_n> <!-- 추가함 -->
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 모집하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가함 -->
+				<sel_rst arg="X">인간</sel_rst> <!-- 추가함 -->
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

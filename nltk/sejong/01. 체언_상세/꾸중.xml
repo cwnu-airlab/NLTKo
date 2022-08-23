@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>꾸중</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/06/18</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/07</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/12/06</mod_date>
+				<mod_writer>이현주</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/02</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/08/27(백인애)</note>
+			<note>2001/01/30(정유진</note>
+			<note>2003/03/07(이호영)예문 추가</note>
+			<note>2003/04/07(박만규)의미부류 수정</note>
+			<note>강범모)</note>
+			<note>기능동사 구문구조 추가</note>
+			<note>기존 동사연어구성의 정보를 수정 및 향후 추가정보로 이동</note>
+			<note>논항 선택제약 수정</note>
+			<note>의미부류 수정</note>
+			<add>동사자유구성에 '~을 듣다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>어제 학교에 지각하여 선생님께 ~을 들었다.</eg>
+				<eg>나는 공부를 게을리 한다고 어머님께 어제 ~을 받았다.</eg>
+				<trans>scolding</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>비난욕설</sem_class>
+				<lr>
+					<syn type="etc">꾸지람</syn>
+					<syn type="etc">책망</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 심하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~</form>
+					<frame>X-이 Y-에게 S다고 ~을 하다</frame>
+					<frame>X-이 Y-을 S다고 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~</form>
+					<frame>Y-이 X-에게 S다고 ~을 받다</frame>
+					<frame>Y-이 X-에게서 S다고 ~을 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 듣다</form>
+					<frame>Y-이 X-에게 S다고 ~을 듣다</frame>
+					<frame>Y-이 X-에게서 S다고 ~을 듣다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 S다는 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

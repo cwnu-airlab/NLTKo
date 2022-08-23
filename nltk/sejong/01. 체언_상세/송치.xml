@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>송치</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/17</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/17</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note>2003/10/17(기영인)add 정보입력</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/01</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>의미부류 단독행위에서 방향성행위로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/19</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>복합 명사구 정보 추가</mod_note>
+				<mod_note>격틀 조사 수정(에게서 추가, 로부터 삭제)</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/22</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>note 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/19</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>방향성행위를 수여로 수정;'받다'에서 조사 변이형 분할 표기;맥스엔 보완;선택제약 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">送致</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>검찰은 조만간 이 사건 일체를 경찰청에서 ~를 받아 직접 수사를 할 방침이다.</eg>
+				<trans>committing</trans>
+				<domain>법률</domain>
+				<sem_class>수여</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">구속 ~</comb_n>
+				<comb_n type="compound">불구속 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 Z-에 ~를 하다</frame>
+					<frame>X-이 Y-을 Z-로 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 Z-에 ~가 되다</frame>
+					<frame>Y-이 Z-로 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~를 받다</form>
+					<frame>Y-이 X-에게 Y-을 ~를 받다</frame>
+					<frame>Y-이 X-에게서 Y-을 ~를 받다</frame>
+				</comb_v>
+				<max_n_str>X-의 Z-에의 Y ~</max_n_str>
+				<max_n_str>X-의 Z-로의 Y ~</max_n_str>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 Y-의 ~</max_n_str>
+				<max_n_str>Z-에의 Y-의 ~</max_n_str>
+				<max_n_str>Z-로의 Y-의 ~</max_n_str>
+				<max_n_str>Z-에의 Y-에대한 ~</max_n_str>
+				<max_n_str>Z-로의 Y-에대한 ~</max_n_str>
+				<max_n_str>Z-에의 Y ~</max_n_str>
+				<max_n_str>Z-로의 Y ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<max_n_str>Z-에의 ~</max_n_str>
+				<max_n_str>Z-로의 ~</max_n_str>
+				<max_n_str>Z ~</max_n_str>
+				<sel_rst arg="X">직업인간|국가기관|단체의부서</sel_rst>
+				<sel_rst arg="Y">인간|텍스트담지물|(사건)</sel_rst>
+				<sel_rst arg="Z">직업인간|국가기관|단체의부서</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>수출</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/06/26</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/08</mod_date>
+				<mod_writer>한선혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/09</mod_date>
+				<mod_writer>김천학</mod_writer>
+				<mod_note>add 옮김</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/15</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 추가</mod_note>
+				<mod_note>문형 및 최대논항구조 분리</mod_note>
+				<mod_note>복합어, 동사결합타입 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>이동행위를 수여로 수정;맥스엔에 조사 변이, 논항 생략형 추가;선택제약에 기업 추가;단위표현 추가</mod_note>
+			</mod>
+			<note>2001/02/02(최지임)영어 대역어 정보 수정</note>
+			<note>2003/07/08(최지임)예문추가 입력 및 수정</note>
+			<note>2003/08/08(한선혜)의미부류 수정</note>
+			<note>기능동사 정보 추가</note>
+			<note>기능동사수정</note>
+			<note>논항선택제약 수정</note>
+			<note>동사연어구성정보 추가입력 및 add에 입력</note>
+			<note>예문 정보 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">輸出</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="prefix">역~</comp>
+			<comp pos="n" type="suffix">~액</comp>
+			<comp pos="n" type="suffix">~고</comp>
+			<comp pos="n" type="suffix">~용</comp>
+			<comp pos="n" type="suffix">~품</comp>
+			<comp pos="n" type="suffix">~상</comp>
+			<comp pos="n" type="suffix">~국</comp>
+			<comp pos="n" type="suffix">~검사</comp>
+			<comp pos="n" type="suffix">~관세</comp>
+			<comp pos="n" type="suffix">~과징금</comp>
+			<comp pos="n" type="suffix">~면장</comp>
+			<comp pos="n" type="suffix">~보증</comp>
+			<comp pos="n" type="suffix">~산업</comp>
+			<comp pos="n" type="suffix">~신용장</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리 회사는 주로 미국에 반도체를 ~을 한다.</eg>
+				<trans>export</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>수여</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">수입</ant>
+					<hyper>무역</hyper>
+					<coord>수입</coord>
+					<rel>경제교류</rel>
+					<rel>국제상거래</rel>
+					<rel>무역역조</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 부진하다</comb_aj>
+				<comb_n type="compound">~ 역군</comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 규제하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 관리하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 제한하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 금지하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 장려하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 줄다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 늘다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 Z-에 ~을 하다</frame>
+					<frame>X-이 Y-을 Z-로 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 Z-에 ~이 되다</frame>
+					<frame>Y-이 Z-로 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Z-에의 Y ~</max_n_str>
+				<max_n_str>X-의 Z-로의 Y ~</max_n_str>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-에의한 Y ~</max_n_str>
+				<max_n_str>X-에의한 Y-의 ~</max_n_str>
+				<max_n_str>Z-에의 Y ~</max_n_str>
+				<max_n_str>Z-로의 Y ~</max_n_str>
+				<max_n_str>Z-에의 Y-의 ~</max_n_str>
+				<max_n_str>Z-로의 Y-의 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>Z-에의 ~</max_n_str>
+				<max_n_str>Z-로의 ~</max_n_str>
+				<max_n_str>Z ~</max_n_str>
+				<sel_rst arg="X">국가|기업</sel_rst>
+				<sel_rst arg="Y">구체물</sel_rst>
+				<sel_rst arg="Z">국가|기업</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

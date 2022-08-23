@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>용공</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/24</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/14</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/25</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_n에 추가</mod_note>
+				<mod_note>comp 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/01</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/08/24(김현승)표제어 '용감'은 어근이므로 삭제</note>
+			<note>2002/09/01(고길수)'용광로, 용돈'은 1999 복합어에 등재되어 삭제함</note>
+			<note>예문 수정</note>
+			<note>의미부류를 '태도'에서 '속성값'으로 수정</note>
+			<note>add의 복합어 정보를 명사연어로 수정</note>
+			<note>2002/10/11(이성헌)</note>
+			<note>2003/06/28(권오희)명사연어 '행적'추가</note>
+			<note>comb_n을 add로 옮김</note>
+			<note>2003/08/06(이은경) 예문 수정, 의미부류를 '속성값'에서 '단독행위'로 수정(행위에 속하므로), 단위표현에 '번|회|차례' 기입, add에 있던 명사결합정보 중에서 '~ 단체|세력|분자|행위'를 명사연어로 옮김, 기능동사 구문에 'X-이 ~을 하다' 기입, cor_v에 '~하다' 기입, sel_res에 'X=인간|인간집단' 기입</note>
+			<note>2003/08/14(권오희)cor_v는 삭제.</note>
+			<add>명사결합 : ~ 행적</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">容共</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~성</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 ~을 했다는 누명을 쓰고 체포되었다.</eg>
+				<trans>pro-communist</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 단체</comb_n>
+				<comb_n type="compound">~ 세력</comb_n>
+				<comb_n type="compound">~ 분자</comb_n>
+				<comb_n type="compound">~ 행위</comb_n>
+				<comb_n type="compound">~ 행적</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

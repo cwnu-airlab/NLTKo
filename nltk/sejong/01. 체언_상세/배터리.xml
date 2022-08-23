@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>배터리</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/03</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/03</mod_date>
+				<mod_writer>송인욱</mod_writer>
+				<mod_note>2003/11/03(송인욱)센스1의 의미부류가 '전기전자기구'일 가능성 검토 요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/09/30</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<add>2003/11/03(송인욱)센스1의 동사자유구성으로 '~를 충전하다|갈다|교환하다</add>
+			<add>~가 닳다' 추가</add>
+			<add>2003/11/03(송인욱)센스2의 동사자유구성으로 '~를 이루다|보유하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="en">battery</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~를 교체한 지 얼마 안 됐는데도 시계가 또 멈췄다.</eg>
+				<eg>어제 밤에 충전을 해두었으므로 ~는 넉넉한 편이다.</eg>
+				<eg>근처에 ~를 파는 곳이 없어서 애써 들고 간 카메라가 무용지물이 됐다.</eg>
+				<trans>battery</trans>
+				<sem_class>도구</sem_class>
+				<lr>
+					<syn type="etc">건전지</syn>
+					<syn type="etc">전지</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 충분하다</comb_aj>
+				<comb_aj type="appr">~가 넉넉하다</comb_aj>
+				<comb_aj type="appr">~가 모자라다</comb_aj>
+				<cl type="uni">개</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>~의 호흡이 잘 안 맞는 날은 경기를 풀어가기가 굉장히 어렵다.</eg>
+				<eg>우리 팀의 주전 ~는 역대 최고라는 평가를 받고 있다.</eg>
+				<eg>나는 그녀와 좋은 ~를 이뤄 팀을 우승까지 이끌 수 있었다.</eg>
+				<trans>battery</trans>
+				<domain>운동</domain>
+				<sem_class>대칭적관계인간</sem_class>
+				<lr>
+					<rel>투수</rel>
+					<rel>포수</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">좋은 ~</comb_aj>
+				<comb_aj type="appr">훌륭한 ~</comb_aj>
+				<comb_aj type="appr">~가 강하다</comb_aj>
+				<comb_aj type="appr">~가 약하다</comb_aj>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

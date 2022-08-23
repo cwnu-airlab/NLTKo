@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>참고</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/04</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/23</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/29</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/27</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1의 의미부류 '인지추상적행위'에서 수정;동사결합, 논항 명사구, 논항 의미정보 수정 및 추가;</mod_note>
+			</mod>
+			<note>'텍스트의부분으로서의 센스2 분할</note>
+			<note>2000/09/20(박동호)</note>
+			<note>2003/02/04(서진숙)</note>
+			<note>2003/03/23(이성헌)센스1의 cl에 '차례|회'를 추가</note>
+			<note>comb_v의 '되다'는 supv에 기술되므로 삭제하고 나머지는 add로 이동</note>
+			<note>supv에서 'S데'추가</note>
+			<note>조사 '~로'를 포함하는 '하다'추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">參考</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~인</der>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~물</der>
+			<comp pos="n" type="suffix">~서</comp>
+			<comp pos="n" type="suffix">~란</comp>
+			<comp pos="n" type="suffix">~문헌</comp>
+			<comp pos="n" type="suffix">~사항</comp>
+			<comp pos="n" type="suffix">~자료</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>자세한 내용은 부록을 ~를 하세요.</eg>
+				<eg>~가 될만한 책들을 좀 소개해 주십시오.</eg>
+				<trans>consultation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>추상적행위</sem_class>
+				<lr>
+					<syn type="etc">참조</syn>
+					<ant type="temp"></ant>
+					<coord>참조</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">많은 ~</comb_aj>
+				<comb_aj type="appr">좋은 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<!-- X-이 Y|S것|S데-에 Z-을 ~를|로 하다 -->
+					<frame>X-이 Z-에 Y-을 ~를 하다</frame>
+					<frame>X-이 S것-에 Y-을 ~를 하다</frame>
+					<frame>X-이 S데-에 Y-을 ~를 하다</frame>
+					<frame>X-이 Z-에 Y-을 ~로 하다</frame>
+					<frame>X-이 S것-에 Y-을 ~로 하다</frame>
+					<frame>X-이 S데-에 Y-을 ~로 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<!-- frame>Z-이 Y|S것|S데-에 ~가 되다</frame -->
+					<frame>Y-이 Z-에 ~가 되다</frame>
+					<frame>Y-이 S것-에 ~가 되다</frame>
+					<frame>Y-이 S데-에 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~로 말하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~로 덧붙이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~로 이야기하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~로 인용하다</form>
+					<frame></frame>
+				</comb_v>
+				<!-- max_n>Y-의 ~</max_n -->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<!-- sel_rst arg="X">인간|인간집단:Y=행위</sel_rst -->
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<sel_rst arg="Z">행위|계획사건</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av>~로</av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>보다 자세한 내용은 ~를 보시기 바랍니다.</eg>
+				<trans>reference</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>텍스트의부분</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 달다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 붙이다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>연정</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/10</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/25</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/03</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보 n_v에 기술</mod_note>
+				<mod_note>n_aj 수정</mod_note>
+				<mod_note>n_v 유형값 수정, 격틀 기술</mod_note>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>sel_res 기술</mod_note>
+				<mod_note>sem 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>오타 수정</mod_note>
+			</mod>
+			<note>2002/08/11(고길수)의미부류를 '감정'에서 '긍정적감정'으로 수정</note>
+			<note>조사제약에서 '~을</note>
+			<note>~이' 삭제, '~에 사로잡히다</note>
+			<note>~으로 불타다' 모두 가능한 듯</note>
+			<note>magn에 '~이 깊다' 추가</note>
+			<note>2002/10/04(이성헌)sem을 '감정'으로 환원</note>
+			<note>2003/09/17(송인욱)예문 추가</note>
+			<note>형용사 자유구성에 '강한 ~' 추가</note>
+			<note>2003/09/25(김미현)</note>
+			<add>2003/09/17(송인욱)동사자유구성으로 '~에 불타다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">戀情</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 옆집 소녀에게 ~을 품었다.</eg>
+				<eg>나는 같은 남자인 그에게 강한 ~을 느끼고 있다는 사실을 인정할 수밖에 없었다.</eg>
+				<trans>love</trans>
+				<trans>tender passion</trans>
+				<trans>attachment</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>외향적심리상태</sem_class> <!--'감정'을 '외향적심리상태'로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 깊다</comb_aj> <!--magn을 appr로 수정(송근영)-->
+				<comb_aj type="appr" pred="no">강한 ~</comb_aj> <!--서술형 불가능 표시(송근영)-->
+				<comb_aj type="magn" pred="no">불타는 ~</comb_aj> <!--서술형 불가능 표시(송근영)-->
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar"> <!--술어명사+기능동사변이형 결합으로 유형 수정, 격틀기술(송근영)-->
+					<form vcompound="no">~을 품다</form>
+					<frame>X-이 Y-에게 ~을 품다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> <!--술어명사+기능동사변이형 결합으로 유형 수정, 격틀기술(송근영)-->
+					<form vcompound="no">~을 느끼다</form>
+					<frame>X-이 Y-에게 ~을 느끼다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~에 불타다</form>
+					<frame>X-이 Y-에대한 ~에 불타다</frame>
+				</comb_v>
+				<max_n_str>Y-에대한 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/10</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/25</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/03</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_v에 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>동의어 추가</mod_note>
+			</mod>
+			<note>2002/08/11(고길수)'연립정부' 확인, 없으면 표제어로 추가 필요</note>
+			<note>2002/10/04(이성헌)add에 '깨다','무너지다'추가</note>
+			<note>2003/09/17(송인욱)add에서 '~을 형성하다|설립하다'를 삭제, '~이 깨지다' 추가</note>
+			<note>예문 수정</note>
+			<note>2003/09/25(김미현)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="lng">연립정부</var>
+			<str type="temp"></str>
+			<org lg="si">聯政</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>총선에서 어느 당도 과반수 의석을 획득하지 못하자 군소 정당들이 모여 ~을 구성하였다.</eg>
+				<trans>coalition government</trans>
+				<domain>정치</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>국가기관</sem_class>
+				<lr>
+					<syn type="perfect">연립정부</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 구성하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 무너지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 깨지다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

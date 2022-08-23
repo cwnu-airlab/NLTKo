@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>이쑤시개</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/16</cre_date>
+				<cre_writer>류희선</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/16</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/28</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>nng_c로 고치고 str 기술</mod_note>
+				<mod_note>add 정보를 n_v에 기술 및 정보 추가</mod_note>
+				<mod_note>syn 기술</mod_note>
+				<mod_note>var 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/20</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/09/17(이성헌)idnv의 내용 '~를 끼우다</note>
+			<note>~로 쑤시다'를 add로 이동</note>
+			<note>org의 ko 삭제(고유어와 외래어의 결합으로 형성된 표제어의 어원에서만 ko 사용하고 표제어 자체가 고유어인 경우에는 ko 사용 안하기로 지침 변경</note>
+			<note>cl의 grp에 '통|상자|박스' 기술</note>
+			<note>2002/10/12(김종명)</note>
+			<note>2003/07/22(권오희)xx에 '요지'기술</note>
+			<note>2003/08/16(이은경) form은 '이쑤시개'로 수정했으나 표제어는 수정이 안 됩니다. 방법을 찾아서 수정하세요.</note>
+			<note>2003/08/20(권오희)표제어수정했음</note>
+			<add>~를 끼우다</add>
+			<add>~로 쑤시다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var> <!--'요지'는 형태론적 변이형 관계가 아니라 동의어 관계이므로 syn으로 이동(송근영)-->			
+			<str type="N_N">이+쑤시개</str> <!--'쑤시개'를 더 분석 가능(송근영)-->
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 중국집은 개업 선물로 ~를 나눠 주었다.</eg>
+				<eg>~로 이를 쑤시려면 사람이 없는 곳에서 하세요!</eg>
+				<eg>중국집에서 나눠준 ~는 매우 유용하게 쓰였다.</eg>
+				<trans>toothpick</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>도구</sem_class>
+				<lr>
+					<syn type="etc">요지</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 끼우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 끼우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 끼우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 쑤시다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="grp">통</cl>
+				<cl type="grp">상자</cl>
+				<cl type="grp">박스</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

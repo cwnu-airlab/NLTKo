@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>상관</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/25</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/12</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/01/09(남길임)의미부류검토요망/센스분할함.</note>
+			<note>2003/01/09(남길임)의미부류검토요망/센스분할함.</note>
+			<note>2003/01/12(김이정)의미부류이상없음</note>
+			<note>2003/01/09(남길임)의미부류검토요망/센스분할함.</note>
+			<note>2003/01/12(김이정)의미부류이상없음</note>
+			<note>add에 '~을 짓다' 추가하고 'sense1'기입</note>
+			<note>2003/01/09(남길임)의미부류검토요망/센스분할함.</note>
+			<note>2003/01/12(김이정)의미부류이상없음</note>
+			<note>add에 '~을 짓다' 추가하고 'sense1'기입</note>
+			<note>add의 '~을 맺다|가지다|갖다' 재고 요망('관련을 맺다|가지다'는 되지만 상관과는 결합불가능한 듯)</note>
+			<note>2003/01/09(남길임)의미부류검토요망/센스분할함.</note>
+			<note>2003/01/12(김이정)의미부류이상없음</note>
+			<note>add에 '~을 짓다' 추가하고 'sense1'기입</note>
+			<note>add의 '~을 맺다|가지다|갖다' 재고 요망('관련을 맺다|가지다'는 되지만 상관과는 결합불가능한 듯)</note>
+			<note>supv에 'Z-이 Y-와 ~이 되다' 추가</note>
+			<add>sense1 ~을 맺다|가지다|갖다|짓다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">相關</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~성</der>
+			<der pos="n" type="suffix">~비</der>
+			<der pos="n" type="suffix">~어</der>
+			<comp pos="n" type="suffix">~쌍</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~없다</comp>
+			<comp pos="v" type="suffix">~있다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 일은 이 일과는 아무런 ~이 없다</eg>
+				<trans>relation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>관계속성값</sem_class>
+				<lr>
+					<syn type="etc">관련</syn>
+					<syn type="etc">관계</syn>
+					<syn type="etc">연관</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 깊다</comb_aj>
+				<comb_aj type="magn">~이 밀접하다</comb_aj>
+				<comb_n type="compound">~ 관계</comb_n>
+				<comb_n type="compound">~ 개념</comb_n>
+				<comb_n type="compound">~ 계수</comb_n>
+				<comb_n type="compound">~ 곡선</comb_n>
+				<comb_n type="compound">~ 작용</comb_n>
+				<comb_n type="compound">~ 접속사</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X|S것-이 Y|S것-에|와 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 있다</form>
+					<frame>X|S것-이 Y|S것-에|와 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 없다</form>
+					<frame>X|S것-이  Y|S것-에|와 ~이 없다</frame>
+				</comb_v>
+				<!--vcompound: ~되다-->
+				<!--vcompound: ~있다-->
+				<!--vcompound: ~없다-->
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 맺다|가지다|갖다|짓다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-와의 ~</max_n_str>
+				<max_n_str>X-와 Y (간|사이)의 ~</max_n_str>
+				<sel_rst arg="X">온</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 왠만하면 남의 일에 ~을 하지 않는 경향이 있다.</eg>
+				<trans>concern</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>인지적행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y|S것-에|에게|을 ~을 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/25</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/12</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/01/09(남길임)</note>
+			<note>2003/01/09(남길임)</note>
+			<note>2003/01/12(김이정)의미부류 '직위인간'을 '비대칭적관계인간'으로 수정</note>
+			<note>2003/01/09(남길임)</note>
+			<note>2003/01/12(김이정)의미부류 '직위인간'을 '비대칭적관계인간'으로 수정</note>
+			<note>comb_v의 내용 add로 이동해야하는 것 아닌지</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">上官</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 그의 ~을 수행하고 전방시찰을 나갔다</eg>
+				<trans>senior officer</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>비대칭적관계인간</sem_class>
+				<lr>
+					<syn type="etc">상사</syn>
+					<ant type="etc">부하</ant>
+					<coord>부하</coord>
+					<coord>동료</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 부르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 호출하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 모시다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 수행하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에게 복종하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인물</sel_rst>
+				<cl type="uni">분</cl>
+				<cl type="uni">명</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

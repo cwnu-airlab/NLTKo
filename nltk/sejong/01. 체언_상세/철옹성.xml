@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>철옹성</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/20</cre_date>
+				<cre_writer>목정수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/30</mod_date>
+				<mod_writer>염신현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/11</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>내적구조정보 수정;영어대역어 정보 추가;의미부류 수정;동의어 정보 수정;동사결합 정보 수정, '쌓다, 같다' 추가</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/05</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<note></note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="xx">철홍성</var>
+			<var type="lng">철옹산성</var>
+			<str type="N_N">철옹+성</str>
+			<!-- '철옹'이 쓰이는 단어인지?? -->
+			<org lg="si">鐵甕城</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 팀의 수비진은 아무리 해도 뚫기 어려운 ~이다.</eg>
+				<trans>impregnable fortress</trans> <!-- 추가 -->
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>방어건물</sem_class>
+				<!-- 장소 수정 -->
+				<lr>
+					<syn type="etc">철옹산성</syn>
+					<!-- 동의어에까지 '鐵甕山城'를 달어줄 필요가 있을까? -->
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+				<!-- npred_vsup 수정 -->
+					<form vcompound="yes">~이다</form>
+					<frame></frame>
+					<!-- X-이 ~이다 삭제 -->
+				</comb_v>
+				<!-- 이하 동사결합 추가 -->
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 쌓다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 무너뜨리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 구축하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 뚫다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~과 같다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<!-- sel_rst arg="X">장소</sel_rst 삭제 -->
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

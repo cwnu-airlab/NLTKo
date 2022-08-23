@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>연어</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/06/25</cre_date>
+				<cre_writer>안덕호;강범모</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/08</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/15</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>어원정보 표기 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/07</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>원어 정보를 수정하려고 했지만 '연' 한자어 때문에 불가능함. 그래서 '_'로 처리. 추후 보완해야 함</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>동사결합, 명사결합 추가</mod_note>
+				<mod_note>복합어 수정</mod_note>
+			</mod>
+			<note>(박만규) 한자 수정 필요('고기어 변'을 좌변에 두는 한자가 윈도우즈상에 없어서, 年자로 썼음. (《세종실록 지리지》에는 연어(年魚)라 하였으며 이 한자표기도 함께 허용됨.) 그러나 아무래도 이는 표준적 표기가 아니므로 추후 고쳐야 할 듯.</note>
+			<note>1999/09/15(차준경</note>
+			<note>2000/04/23(차준경</note>
+			<note>2003/01/30(류희선)센스1의 한자 검토요망(연)</note>
+			<note>동사자유구성을 add로</note>
+			<note>센스1과 2의 의미부류수정</note>
+			<note>예문추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">_魚</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~두부</comp>
+			<comp pos="n" type="suffix">~사리</comp>
+			<comp pos="n" type="suffix">~알</comp>
+			<comp pos="n" type="suffix">~알젓</comp>
+			<comp pos="n" type="suffix">~알찌개</comp>
+			<comp pos="n" type="suffix">~저냐</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~는 자기가 태어난 곳으로 회귀하는 동물이다.</eg>
+				<eg>저기 물속에 있는 ~를 자세히 보세요.</eg>
+				<trans>salmon</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>물고기</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>물고기</hyper>
+					<mero>머리</mero>
+					<mero>꼬리</mero>
+					<mero>몸통</mero>
+					<mero>배</mero>
+					<mero>지느러미</mero>
+					<rel>낚시</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 산란기</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 잡다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 낚다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 잡히다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 회귀하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">마리</cl>
+				<cl type="grp">떼</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>우리는 오늘 아침에 ~를 구워먹었다.</eg>
+				<eg>~는 회를 떠서 먹으면 매우 맛있다.</eg>
+				<trans>salmon</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>생선</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>어물</hyper>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 비싸다</comb_aj>
+				<comb_aj type="appr">~가 싸다</comb_aj>
+				<comb_aj type="appr">~가 싱싱하다</comb_aj>
+				<comb_n type="compound">~ 요리</comb_n>
+				<comb_n type="compound">~ 무침</comb_n>
+				<comb_n type="compound">~ 회</comb_n>
+				<comb_n type="compound">냉동 ~</comb_n>
+				<comb_n type="compound">훈제 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 먹다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 익히다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 굽다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 얼리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 팔다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 훈제하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">마리</cl>
+				<cl type="uni">토막</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/06/25</cre_date>
+				<cre_writer>안덕호;강범모</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/08</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/15</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미부류 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/07</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>동사결합 추가</mod_note>
+				<mod_note>복합어 명사결합으로, 오타 수정</mod_note>
+			</mod>
+			<note>(박만규)의미부류 수정</note>
+			<note>1999/09/15(차준경</note>
+			<note>2000/04/23(차준경</note>
+			<note>2003/01/30(류희선)예문추가</note>
+			<note>의미부류수정(검토요망)동사자유구성을 add로</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">連語</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 오랫동안 ~를 연구하고 있다.</eg>
+				<eg>그의 논문은 ~의 결합에 관한 것이다.</eg>
+				<trans>collocation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>언어범주</sem_class>
+				<!-- 범주 수정 -->
+				<lr>
+					<syn type="etc">이은말</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 관계</comb_n>
+				<comb_n type="compound">~ 구성</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 연구하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 공부하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

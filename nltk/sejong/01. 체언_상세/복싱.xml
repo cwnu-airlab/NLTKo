@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>복싱</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/17</cre_date>
+				<cre_writer>남길임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/15</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/01</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note>add 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/20</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>domain 삭제</mod_note>
+				<mod_note>센스2 n_v, 선택제약 기술</mod_note>
+			</mod>
+			<note>2002/07/17(이병규)</note>
+			<note>2002/08/01(고길수)의미부류에 '대칭적행위'보다는 '축구, 농구, 배구' 등을 아우르는 운동경기명을 통합하는 별도 부류 설정이 필요</note>
+			<note>명사연어에 '아마|프로|새도 ~</note>
+			<note>~ 경기|시합'을 추가</note>
+			<note>2003/05/23(류희선)센스1의 UNI추가</note>
+			<note>센스2의 예문추가</note>
+			<note>2003/09/15(박진호)</note>
+			<add>동의어로 '권투'를 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="en">boxing</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>너, 그와 ~ 한번 해 본 적 있어?</eg>
+				<trans>boxing</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>물리적충돌행위</sem_class>
+				<lr>
+					<syn type="perfect">권투</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 경기</comb_n>
+				<comb_n type="compound">~ 시합</comb_n>
+				<comb_n type="compound">아마 ~</comb_n>
+				<comb_n type="compound">프로 ~</comb_n>
+				<comb_n type="compound">섀도 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-와 ~을 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>다른 경기와 마찬가지로 ~에도 여러 가지 기술이 있다.</eg>
+				<eg>너는 어제 10시에 한 ~을 봤니?</eg>
+				<trans>boxing</trans>
+				<domain>운동</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>단일경기</sem_class>
+				<lr>
+					<syn type="perfect">권투</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 있다</form>
+					<frame>X-에서 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 열리다</form>
+					<frame>X-에서 ~이 열리다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 참가하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">장소</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

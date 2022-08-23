@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>보통</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/13</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/24</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/25</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>합성어 정보를 명사 명사 결합 정보로 이동, 영어 대역어 수정, 의미부류 상태에서 중간정도로 수정하여 서술성 명사로 처리, 관용어 정보 추가, 부사적 용법 '~으로' 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/20</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/09/23(정유진)</note>
+			<note>2000/09/27(정유진)</note>
+			<note>2001/01/22(백인애,강범모)</note>
+			<note>2003/03/20(기영인)대역어 수정</note>
+			<note>2003/03/23(박동호)</note>
+			<note>2003/03/24(기영인)</note>
+			<note>combaj 정보수정('~이상/이하'정보는 어디에 표시?)</note>
+			<note>combv 정보삭제</note>
+			<note>관련어 정보추가</note>
+			<note>동의어 정보 관련어로 이동</note>
+			<note>의미부류 수정</note>
+			<note>합성어 정보수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">普通</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="na">~이 아니다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~의 힘으로는 그 물건을 들 수 없다</eg>
+				<trans>commonness</trans>
+				<trans>normality</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>중간정도</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">특별</ant>
+					<rel>일반</rel>
+					<rel>중간</rel>
+					<rel>평범</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 교육</comb_n>
+				<comb_n type="compound">~ 명사</comb_n>
+				<comb_n type="compound">~ 예금</comb_n>
+				<comb_n type="compound">~ 우편</comb_n>
+				<comb_n type="compound">~ 사람</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이다</form>
+					<frame>X-이 Y-이 ~이다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">구체물</sel_rst>
+				<sel_rst arg="Y">추상적대상(|속성)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

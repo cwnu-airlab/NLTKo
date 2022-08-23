@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>미성</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/07</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/10</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>sem수정, n_v기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/10/10(박진호)센스1,2 구분. 센스1은 '목소리가 아름다움'이라는 속성값적 의미. 센스2는 '아름다운 목소리'라는 의미로 '목소리'의 하위어</note>
+			<add>2003/07/07(송인욱)동사자유구성으로 '~으로 말하다|노래하다|속삭이다</add>
+			<add>~을 갖다|잃다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">美聲</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 ~이라서 그의 노래를 듣고 싶어하는 사람이 많았다.</eg>
+				<eg>~을 지닌 소년 합창단이 공연을 한다.</eg>
+				<trans>beauty of voice</trans>
+				<sem_class>긍정적인성속성값</sem_class><!--긍정적인성을 수정-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~의 가수</comb_n>
+				<comb_n type="compound">~의 성우</comb_n>
+				<comb_n type="compound">~의 아나운서</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 이다</form>
+					<frame>X-이 ~이다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 갖다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 지니다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 잃다</form>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그의 ~이 매일 아침 나의 단잠을 깨웠다.</eg>
+				<eg>그의 ~을 다시 듣고 싶다.</eg>
+				<eg>그가 특유의 ~으로 노래를 부를 때면 듣는 이들이 넋을 잃곤 했다.</eg>
+				<trans>sweet voice</trans>
+				<trans>beautiful voice</trans>
+				<sem_class>소리</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">아름다운 ~</comb_aj>
+				<comb_aj type="appr" pred="no">맑은 ~</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 내다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 잃다</form>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/07</cre_date>
+				<cre_writer>송인욱</cre_writer>
+				<cre_note>엔트리 존재 여부의 타당성 검토 요망</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/10</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note>센스1,2 구분. 센스1 격틀, 선택제약 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>lr수정;선택제약수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">未成</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~의 청소년들은 어른들처럼 마음 놓고 술을 마실 수가 없다.</eg>
+				<trans>nonage</trans>
+				<trans>minority</trans>
+				<sem_class>신체상태</sem_class>
+				<lr>
+					<ant type="compl">기성</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 ~이다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>~의 계획이지만 계획 자체로 우리에게 많은 희망을 주고 있다.</eg>
+				<trans>unfinished</trans>
+				<trans>uncompleted</trans>
+				<sem_class>상태</sem_class>
+				<lr>
+					<syn type="perfect">미완성</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 ~이다</frame>
+				</comb_v>
+				<sel_rst arg="X">구체인공물|관계구체물|속성구체물|인간집단|건물|길|다리|텍스트|작품|사조|법률|제도</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

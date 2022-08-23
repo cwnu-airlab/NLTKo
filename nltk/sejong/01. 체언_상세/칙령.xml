@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>칙령</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/07</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/21</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/26</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note>add이동</mod_note>
+				<mod_note>동사 연어 추가 기술</mod_note>
+				<mod_note>선택제약 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/23</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note>frame 정보 수정</mod_note>
+				<mod_note>max_n 정보 추가</mod_note>
+				<mod_note>단위표현 추가</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/16</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">勅令</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나의 할아버지께서는 일제시대 ~을 받고 의병을 일으키셨다.</eg>
+				<trans>royal order</trans>
+				<sem_class>명령</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~을 받다</form>
+					<frame>Y-이 X-로부터 ~을 받다</frame><!--'X-로부터' 추가(미현)-->
+				</comb_v>
+				<comb_v type="npred_vsupvar"><!--추가(미현)-->
+					<form vcompound="no">~을 내리다</form>
+					<frame>X-이 Y-에게 ~을 내리다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred"><!--추가(미현)-->
+					<form vcompound="no">~을 받들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 어기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred"><!--추가(미현)-->
+					<form vcompound="no">~을 공포하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred"><!--추가(미현)-->
+					<form vcompound="no">~을 따르다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str><!--추가(미현)-->
+				<sel_rst arg="X">왕족(왕)</sel_rst><!--X논항 추가하여 재기술-->
+				<sel_rst arg="Y">인간|행위|사태</sel_rst>
+				<cl type="uni">번</cl><!--추가(미현)-->
+				<cl type="uni">차례</cl>
+				<cl type="grp">회</cl>
+				<s_n>S라는  ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>열망</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/01</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/25</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/03</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보 n_v에 기술</mod_note>
+				<mod_note>n_aj magn을 appr로 수정</mod_note>
+				<mod_note>센스1 s_n 삭제(술어명사임)</mod_note>
+				<mod_note>센스1 n_v 유형값 수정, 격틀기술</mod_note>
+				<mod_note>센스1 max_n 기술</mod_note>
+				<mod_note>센스1 sel_res 기술</mod_note>
+				<mod_note>센스2 일부 n_v 유형 수정, 격틀 기술</mod_note>
+				<mod_note>센스2 max_n 기술</mod_note>
+				<mod_note>sem 수정('긍정적감정'을 '외향적심리상태')</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>동사결합 추가</mod_note>
+				<mod_note>의미부류 수정(내재적심리행위와 계획으로)과 함께 동사결합 전면 수정</mod_note>
+				<mod_note>띄어쓰기 수정</mod_note>
+			</mod>
+			<note>2002/08/01(김현승)언어정보 'si(熱望)' 입력요망</note>
+			<note>2002/08/15(고길수)원어정보 입력</note>
+			<note>의미를 '감정'과 '태도'로 분할</note>
+			<note>센스1의 '강하다|뜨겁다'는 magn로 수정, '깊다' 추가</note>
+			<note>센스1의 comb_v에 '느끼다|갖다|품다'를 추가</note>
+			<note>pre_s에 'S는 ~' 추가</note>
+			<note>센스2의 기능동사에 'S기' 논항 추가</note>
+			<note>Y 논항정보를 '온'으로 수정</note>
+			<note>add 정보 추가</note>
+			<note>2002/10/04(이성헌)sense1,2의 sem이 바뀐듯,차후 감정과 태도에 대한 하위부류 설정을 명료히 한 후 재검토 요망</note>
+			<note>2003/09/19(송인욱)센스1과 2의 magn에서 '불타는 ~'은 '불타다'가 동사이므로 삭제</note>
+			<note>센스1의 예문 표기법 수정, 새로운 예문 추가</note>
+			<note>센스1의 pre_s에 'S-다는' 추가</note>
+			<note>센스1의 comb_v에 '~을 안다|가지다' 추가</note>
+			<note>센스2의 기능동사 기술에서 'Y-에대해'를 삭제</note>
+			<note>솔직히 센스1과 2를 구분하는 기준을 잘 모르겠음</note>
+			<note>2003/09/25(김미현)센스 분할에 대해 논의 중</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">熱望</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>제 ~이 이루어지기까지는 오랜 시간이 걸리겠지만 포기하지 않겠습니다.</eg>
+				<trans>ardent desire</trans>
+				<trans>fervent desire</trans>
+				<trans>aspiration</trans>
+				<trans>eager desire</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>계획</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 강하다</comb_aj>
+				<comb_aj type="appr">~이 뜨겁다</comb_aj>
+				<comb_aj type="appr">~이 깊다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 느끼다</form>
+					<frame>X-이 Y-에대한 ~을 느끼다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~에 불타다</form>
+					<frame>X-이 Y-에대한 ~에 불타다</frame>
+					<frame>X-이 S는|S다는 ~에 불타다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 갖다</form>
+					<frame>X-이 Y-에대한 ~을 갖다</frame>
+					<frame>X-이 S는|S다는 ~을 갖다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 품다</form>
+					<frame>X-이 Y-에대한 ~을 품다</frame>
+					<frame>X-이 S는|S다는 ~을 품다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 가지다</form>
+					<frame>X-이 Y-에대한 ~을 가지다</frame>
+					<frame>X-이 S는|S다는 ~을 가지다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 보이다</form>
+					<frame>X-이 Y-에대한 ~을 보이다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 외면하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 부응하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 이루어지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 무너지다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>Y-에대한 X-의 ~</max_n_str>
+				<max_n_str>S는 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그토록 국민들이 ~을 해 오던 민주화는 90년대가 넘어서야 비로소 싹이 트기 시작한다.</eg>
+				<trans>ardent desire</trans>
+				<trans>fervent desire</trans>
+				<trans>aspiration</trans>
+				<trans>eager desire</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>내재적심리행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 강하다</comb_aj>
+				<comb_aj type="appr">~이 뜨겁다</comb_aj>
+				<comb_aj type="appr">~이 깊다</comb_aj>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+					<frame>X-이 S기-을 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>Y-에대한 X-의 ~</max_n_str>
+				<max_n_str>S다는 X-의 ~</max_n_str>
+				<max_n_str>S는 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

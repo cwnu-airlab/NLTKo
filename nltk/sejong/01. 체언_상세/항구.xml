@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>항구</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/17</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/19</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/05</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note>동의어 정보, n_v 정보 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/15</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note>add옮김</mod_note>
+			</mod>
+			<note>1999/10/18</note>
+			<note>2003/03/16(송인욱)관리정보구획 표기법 수정</note>
+			<note>2003/03/19(고길수)예문 추가</note>
+			<note>동사연어항목의 정보들을 add로 수정</note>
+			<note>예문 수정</note>
+			<note>의미부류를 '지상장소'에서 '교통기관관련건물'로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="xs">()</var>
+			<var type="xd">()</var>
+			<var type="xx">()</var>
+			<str type="temp"></str>
+			<org lg="si">港口</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~도시</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 도시는 ~를 끼고 있어 외국 문화를 쉽게 접할 수 있다.배는 서서히 ~로 접어들었다.</eg>
+				<eg>~에는 풍랑을 피해 많은 배들이 정박해있었다.</eg>
+				<trans>portharbor</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>교통기관관련건물</sem_class>
+				<lr>
+					<syn type="etc">항</syn>
+					<syn type="etc">항진</syn>
+					<ant type="temp"></ant>
+					<hypo>무역항</hypo>
+					<hypo>연안항</hypo>
+					<hypo>개항</hypo>
+					<hypo>자유항</hypo>
+					<hypo>중계항</hypo>
+					<rel>배</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 정박하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에서 출항하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

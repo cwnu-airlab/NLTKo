@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>가능성</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/27</cre_date>
+				<cre_writer>김종명</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/23</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note>단위표현추가</mod_note> <!--추가된 단위 표현을 확인할 수 없음-->
+			</mod>
+			<mod>
+				<mod_date>2004/09/21</mod_date>
+				<mod_writer>송신지</mod_writer>
+				<mod_note>n_v 항목을 나누어 기술, 통사 정보 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/30</mod_date>
+				<mod_writer>이광호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/11/09</mod_date>
+				<mod_writer>목정수</mod_writer>
+				<mod_note>품사정보수정,한자정보수정,적절형용사추가,동사연쇄추가,격틀삭제,예문수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_R">가능+성</str>
+			<org lg="si">可能性</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>의장은 그 볍률안이 통과될 ~이 낮다고 했다.</eg>
+				<eg>일은 먼저 ~을 보고 계획을 세워야 한다.</eg>
+				<trans>adoption</trans>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 높다</comb_aj>
+				<comb_aj type="magn">~이 크다</comb_aj>
+				<comb_aj type="magn">~이 많다</comb_aj>
+				<comb_aj type="min">~이 낮다</comb_aj>
+				<comb_aj type="min">~이 작다</comb_aj>
+				<comb_aj type="min">~이 적다</comb_aj>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 나타내다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 높이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 보이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 보이다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>끄트머리</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/10/06</cre_date>
+				<cre_writer>박동호</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/28</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/14</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/24</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>센스4 sem 수정</mod_note>
+			</mod>
+			<note>'행위'나 '사건'의 끝부분의 의미를 별도로 분할, 단 의미부류를 '단계'로 줄 것인지 검토 필요</note>
+			<note>2002/10/06(박동호)</note>
+			<note>2002/10/11(고길수)어원정보 삭제</note>
+			<note>2003/05/13(고길수)센스2에 예문 추가</note>
+			<note>2003/06/28(이홍식)관형사 '맨'은 magn에 넣는 문제 검토 요망</note>
+			<note>add에 동사결합 정보 추가</note>
+			<note>add에 명사구 정보 추가</note>
+			<note>센스1,2,3,4의 comb_aj에 '맨 ~' 추가</note>
+			<note>센스1의 '의자의 ~에 걸터앉다' 예문은 센스2로 수정</note>
+			<note>센스3에 예문 추가</note>
+			<note>센스3의 magn에 '맨 ~' 추가</note>
+			<note>센스3의 의미부류를 '단계'에서 '등급'으로 수정</note>
+			<note>센스4의 comb_aj에서 '맨 ~' 삭제</note>
+			<note>센스4의 의미부류를 '등급'에서 '하등급'으로 수정</note>
+			<note>의미 순서를 '구체물의 부분', '장소의 부분', '추상적부분', '등급'의 순으로 조정</note>
+			<add>~로 가다' 추가</add>
+			<add>명사구(?)로 '제일 ~'가 가능</add>
+			<add>센스1,2,3의 동사결합으로 '~에 가다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 의자의 ~에 걸터앉았다.</eg>
+				<eg>나는 연필의 ∼를 뾰족하게 했다.</eg>
+				<trans>end</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>구체물의부분</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>화장실은 이 복도의 ~에 있습니다.</eg>
+				<eg>그는 행렬의 ~에 섰다.</eg>
+				<trans>end</trans>
+				<trans>tip</trans>
+				<trans>edge</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>관계장소</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>이야기는 ~에 가서 극적인 반전을 보였다.</eg>
+				<eg>여름의 ~가 되니 아침과 저녁에는 날이 무척 선선해졌다.</eg>
+				<trans>end</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>추상적부분</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="4">
+			<sem_grp>
+				<eg>그는 ∼로 졸업했다.</eg>
+				<trans>last on the list</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>낮은정도</sem_class> <!--'하등급'을 '낮은정도'로 수정(송근영)-->
+				<lr>
+					<syn type="etc">꼴찌</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>발단</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/19</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>n_v기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/08/19(송인욱)표준대사전의 두 번째 어의만 인정함</note>
+			<note>기능동사 기술의 타당성 검토 요망</note>
+			<note>2003/10/15(박진호)격틀 삭제. max_n 추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">發端</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>사소한 말다툼이 본격적인 싸움의 ~이 되었다.</eg>
+				<eg>부모님이 심하게 꾸지람을 하신 것이 그의 가출의 ~이었다.</eg>
+				<eg>사건의 ~을 추적해 가던 형사는 드디어 해결의 실마리를 찾았다.</eg>
+				<trans>origin</trans>
+				<trans>beginning</trans>
+				<sem_class>원인</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+ 					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">질병및증세</sel_rst>
+				<sel_rst arg="X">행위</sel_rst>
+				<sel_rst arg="X">사건</sel_rst>
+				<sel_rst arg="X">현상</sel_rst>
+				<sel_rst arg="X">상태변화</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

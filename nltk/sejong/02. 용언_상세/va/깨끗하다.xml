@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>깨끗하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/30</cre_date>
+				<cre_writer>김건희</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/15</mod_date>
+				<mod_writer>허용</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>R.하</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be clean</trans>
+				<lr>
+					<ant type="grad">더럽다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체인공물|장소</sel_rst>
+					<eg>행주는 깨끗했다.</eg>
+					<eg>혼자 사는 집치고는 깨끗하고 깔끔했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be clear</trans>
+				<lr>
+					<ant type="grad">더럽다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체자연물|장소</sel_rst>
+					<eg>물이 맑고 깨끗했다.</eg>
+					<eg>공기가 깨끗하면 건강에도 당연히 좋겠지.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>품격속성값</sem_class>
+				<trans>be fair</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상</sel_rst>
+					<eg>그 경기는 깨끗했고 패자는 패배를 인정했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>품격속성값</sem_class>
+				<trans>be pure</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<n_appr arg="X">마음</n_appr>
+					<n_appr arg="X">본성</n_appr>
+					<eg>아이들은 착하고 깨끗하다.</eg>
+					<eg>우리 모두 깨끗한 마음으로 성실하게 열심히 살자.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<mor_rel>
+					<ad_rel>깨끗하게 지다</ad_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>품격속성값</sem_class>
+				<trans>be fair</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|추상적대상</sel_rst>
+					<eg>정치인 중에 깨끗한 사람이 몇 명이나 있겠는가.</eg>
+					<eg>대지는 저당이 잡혀있었지만 건물 등기는 아주 깨끗하다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

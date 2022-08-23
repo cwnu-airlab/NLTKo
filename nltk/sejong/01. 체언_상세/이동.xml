@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>이동</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/24</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/16</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/27</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/10/08(박동호)</note>
+			<note>2003/01/12(한동훈)예문 추가</note>
+			<note>2003/01/16(고길수)예문에 '~을 하다' 추가</note>
+			<note>add에 '인사 ~' 추가</note>
+			<note>curs 정보 수정</note>
+			<note>magn의 '빈번하다|잦다|드물다'는 comb_aj로 수정</note>
+			<note>논항 의미정보 수정</note>
+			<note>단위표현에서 '번|차례'는 물질단위에서 개체단위로 수정</note>
+			<note>센스1의 기능동사 정보 수정</note>
+			<note>의미를 주어의 이동과 목적어의 이동으로 분할하고, 그리고 인사 이동을 추가함</note>
+			<note>의미부류를 '행위'에서 '이동행위'로 수정</note>
+			<add>인사 ~</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">移動</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~상</der>
+			<der pos="n" type="suffix">~성</der>
+			<der pos="n" type="suffix">~도</der>
+			<der pos="n" type="suffix">~률</der>
+			<der pos="n" type="suffix">~식</der>
+			<der pos="n" type="suffix">~전</der>
+			<comp pos="n" type="suffix">~결</comp>
+			<comp pos="n" type="suffix">~경작</comp>
+			<comp pos="n" type="suffix">~경찰</comp>
+			<comp pos="n" type="suffix">~도서관</comp>
+			<comp pos="n" type="suffix">~무대</comp>
+			<comp pos="n" type="suffix">~문고</comp>
+			<comp pos="n" type="suffix">~전화</comp>
+			<comp pos="n" type="suffix">~차</comp>
+			<comp pos="n" type="suffix">~촬영</comp>
+			<comp pos="n" type="suffix">~판매</comp>
+			<comp pos="n" type="suffix">~포</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>군인들은 ~을 하기 위해 짐을 꾸리고 있다연휴가 되면 사람들의 ~이 심해진다.부대는 후방에서 전방으로 ~을 했다.</eg>
+				<trans>movement</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>이동행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">정지</ant>
+					<coord>도착</coord>
+					<coord>운동</coord>
+					<coord>유동</coord>
+					<coord>유숙</coord>
+					<coord>정지</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 빈번하다</comb_aj>
+				<comb_aj type="appr">~이 잦다</comb_aj>
+				<comb_aj type="appr">~이 드물다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Z-에서|로부터 Y-로 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 Z-에서|로부터 Y-로 ~이 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>Y-로의 X-의 ~</max_n_str>
+				<sel_rst arg="X">구체물|집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|장소|방향</sel_rst>
+				<sel_rst arg="Z">인간|인간집단|장소|방향</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>근처에 새 항구가 만들어지면서 물류를 ~을 하는 비용이 대폭 감소하였다.대규모 병력을 ~을 하기란 쉽지 않은 일이었다.</eg>
+				<trans>movement</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">정지</ant>
+					<coord>도착</coord>
+					<coord>운동</coord>
+					<coord>유동</coord>
+					<coord>유숙</coord>
+					<coord>정지</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 Z-에서|로부터 W-로 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>X-이 Y-을 Z-에서|로부터 W-로 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~</form>
+					<frame>Y-이 Z-에서|로부터 W-로 ~이 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<!--vcompound: ~시키다-->
+				<max_n_str>Y-로의 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|동물|인간집단</sel_rst>
+				<sel_rst arg="Y">구체물</sel_rst>
+				<sel_rst arg="Z">장소|방향</sel_rst>
+				<sel_rst arg="W">장소|방향</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>현 과장은 다음 달에 본사의 간부로 ~을 하게 된다.</eg>
+				<trans>transferencemouvementchange</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Z-에서 Y-로 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>W-가 X-을 Z-에서 Y-로 ~을 시키다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~시키다-->
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">역할|역할인간|단체</sel_rst>
+				<sel_rst arg="Z">역할|역할인간|단체</sel_rst>
+				<sel_rst arg="W">인간|역할인간|단체</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/24</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/16</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/27</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/10/08(박동호)</note>
+			<note>2003/01/12(한동훈)의미 부류를 '공간'에서 '관계장소'로 수정</note>
+			<note>2003/01/16(고길수)예문 수정</note>
+			<note>pre_n 정보 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">以東</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 소백산 ~으로는 아직 한번도 가 보지 않았다</eg>
+				<trans>east of</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>관계장소</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>공간</hyper>
+					<coord>뒤</coord>
+					<coord>아래</coord>
+					<coord>앞</coord>
+					<coord>위</coord>
+					<coord>이남</coord>
+					<coord>이북</coord>
+					<coord>이서</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 움직이다</form>
+					<frame>X-이 ~으로 움직이다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N(-의)</pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

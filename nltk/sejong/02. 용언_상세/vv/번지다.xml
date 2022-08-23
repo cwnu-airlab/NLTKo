@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>번지다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/27</mod_date>
+				<mod_writer>김윤신</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="i"/>
+			<str>V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>전이</sem_class>
+				<trans>spread</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(액체|냄새|불|불길)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">장소</sel_rst>
+					<eg>산불이 앞산에 번졌다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>전이</sem_class>
+				<trans>spread</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(반점|기미|부스럼|주근깨|핏발)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">신체부위</sel_rst>
+					<eg>수두 환자의 온몸에 반점이 번졌다.</eg>
+					<eg>여자친구의 얼굴에 주근깨가 번졌다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(웃음|화색)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">신체부위(얼굴)</sel_rst>
+					<eg>그녀의 얼굴에 화색이 번졌다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/27</mod_date>
+				<mod_writer>김윤신</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="i"/>
+			<str>V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>전이</sem_class>
+				<trans>spread</trans>
+			</sem_grp>
+			<frame_grp type="SIN">
+				<frame>Npr0-이 X=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="Npr0">(사태|일|사건)</sel_rst>
+					<sel_rst arg="X" tht="LOC">장소</sel_rst>
+					<eg>독립 만세 운동이 온 나라에 번졌다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="Npr0">(풍조|유행)</sel_rst>
+					<sel_rst arg="X" tht="LOC">장소</sel_rst>
+					<eg>공교육을 불신하는 풍조가 지방까지 번졌다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="SIN">
+				<frame>X=S1-고 Npr0-이 Y=N2-에 V</frame>
+				<subsense>
+					<sel_rst arg="Npr0">(소문|추문|스캔들)</sel_rst>
+					<sel_rst arg="X" tht="CNT"/>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<eg>내가 짝사랑하던 그녀에게 애인이 생겼다고 온 동네에 소문이 번졌다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

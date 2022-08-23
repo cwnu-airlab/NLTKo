@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>프로그램</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/08/05</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/05</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/08/05(기영인)</note>
+			<note>2001/09/20(이성헌)</note>
+			<note>2001/09/23(기영인)</note>
+			<note>2003/02/20(남길임)</note>
+			<note>2003/02/24(김이정)add 센스3 '~을 사용하다|설치하다' 추가</note>
+			<note>COMB_AJ기술</note>
+			<note>COMB_V정보를 ADD로 이동</note>
+			<note>동사자유구성 정보 추가</note>
+			<note>명사연어 정보 추가</note>
+			<note>센스1 파생어 정보 삭제</note>
+			<note>센스1 파생어 정보 추가</note>
+			<note>센스1과2 comb_aj에 '~이 다채롭다|다양하다' 추가</note>
+			<note>센스2 동의어 정보 수정</note>
+			<note>센스2 동의어 정보 추가</note>
+			<note>센스3 comb_n '악성 ~' 추가</note>
+			<note>센스3 동사자유구성 정보 추가</note>
+			<note>의미부류 수정</note>
+			<note>파생어에 '프로그래머', '프로그래밍' 참가여부 검토요</note>
+			<add>~에 참가하다</add>
+			<add>~이 끝나다|열리다</add>
+			<add>센스1: ~을 만들다|방영하다|방송하다|제작하다|진행하다</add>
+			<add>센스2: ~을 끝내다|기획하다|만들다|수료하다|시작하다|이수하다|짜다|진행하다</add>
+			<add>센스3:~을 돌리다|띄우다|만들다|복사하다|짜다|작성하다|사용하다|설치하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="en">program</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~편성</comp>
+			<comp pos="n" type="suffix">~제어</comp>
+			<comp pos="n" type="suffix">~학습</comp>
+			<comp pos="n" type="suffix">~홍보</comp>
+			<comp pos="n" type="prefix">공연~</comp>
+			<comp pos="n" type="prefix">교양~</comp>
+			<comp pos="n" type="prefix">교육~</comp>
+			<comp pos="n" type="prefix">다큐멘터리~</comp>
+			<comp pos="n" type="prefix">재활~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>방송사에서 교양 ~의 제작을 늘리기로 결정하였다.</eg>
+				<trans>program</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>방송물</sem_class>
+				<lr>
+					<syn type="etc">프로</syn>
+					<ant type="temp"></ant>
+					<rel>방송</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 많다</comb_aj>
+				<comb_aj type="appr">~이 적다</comb_aj>
+				<comb_aj type="appr">~이 다채롭다</comb_aj>
+				<comb_aj type="appr">~이 다양하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 진행하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 방영하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 방송하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 제작하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">편</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>나는 친구와 함께 4박5일동안 진행된 교육 ~에 참가하였다.</eg>
+				<trans>program</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>계획사건</sem_class>
+				<lr>
+					<syn type="etc">계획</syn>
+					<ant type="temp"></ant>
+					<rel>기획</rel>
+					<rel>진행</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 많다</comb_aj>
+				<comb_aj type="appr">~이 적다</comb_aj>
+				<comb_aj type="appr">~이 다채롭다</comb_aj>
+				<comb_aj type="appr">~이 다양하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 끝내다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 기획하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 수료하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 시작하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 이수하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 짜다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 진행하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>그는 컴퓨터 바이러스를 치료하는 백신 ~을 처음으로 개발하였다.</eg>
+				<trans>program</trans>
+				<domain>컴퓨터</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>소프트웨어</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 좋다</comb_aj>
+				<comb_aj type="appr">~이 나쁘다</comb_aj>
+				<comb_n type="compound">백신 ~</comb_n>
+				<comb_n type="compound">응용 ~</comb_n>
+				<comb_n type="compound">운영 ~</comb_n>
+				<comb_n type="compound">컴퓨터 ~</comb_n>
+				<comb_n type="compound">악성 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 돌리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 띄우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 복사하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 짜다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 작성하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 사용하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 설치하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

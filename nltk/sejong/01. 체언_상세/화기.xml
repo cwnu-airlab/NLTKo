@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>화기</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/19</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/15</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/26</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2007/08/18</mod_date>
+				<mod_writer>신선옥</mod_writer>	
+				<mod_note>sense 2 의미부류 "부정적감정"에서 "외향적심리상태"로 수정</mod_note>
+				<mod_note>sense 2 동사 결합 정보 수정</mod_note>
+				<mod_note>sense 2 동의어 기술</mod_note>
+	        </mod>
+			<note>2002/08/19(고길수)센스3의 의미부류 재검토 필요</note>
+			<note>2002/08/22(한선혜)센스1의 의미부류 재검토 바람,'속성'이 가깝지 않을지?</note>
+			<note>센스2의 동사구성으로 '~를 풀다|달래다|가라앉히다' 추가</note>
+			<note>센스3 삭제여부 검토 바람</note>
+			<note>2002/08/22(고길수)센스1의 의미부류를 '크기'에서 '속성'으로 수정</note>
+			<note>2003/07/17(서진숙)</note>
+			<note>2003/09/15(이성헌)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">火氣</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc">~ 주의</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>방안에 들어서자 따뜻한 ~가 느껴졌다.</eg>
+				<eg>스토브의 ~로도 작은 방은 금새 따뜻해졌다.</eg>
+				<eg>뜨거운 ~가 그의 작업을 방해하고 있었다.</eg>
+				<eg>약은 ~가 약한 불에서 은근히 달여야 한다.</eg>
+				<trans>heat of a fire</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">냉기</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 뜨겁다</comb_aj>
+				<comb_aj type="appr">~가 훈훈하다</comb_aj>
+				<comb_aj type="appr">~가 따갑다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 퍼지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 감돌다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>학생이 자꾸 변명을 늘어 놓자 선생님의 눈에는 ~가 번떡였다.</eg>
+				<eg>그를 만나니 가슴에서 ~가 치밀어 견딜 수가 없었다.</eg>
+				<eg>그는 ~를 누르려고 마을을 다잡았다.</eg>
+				<trans>anger</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>외향적심리상태</sem_class>
+				<lr>
+					<syn type="etc">화증</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 치솟다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 가라앉히다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>불에 덴 손가락이 자꾸 ~로 화끈거린다.</eg>
+				<eg>아직도 ~로 얼굴이 뜨겁다.</eg>
+				<eg>온 몸을 덴 그는 ~ 때문에 목숨이 위태로웠다.</eg>
+				<trans>heat</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>질병및증세</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/19</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/15</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/26</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2007/08/18</mod_date>
+				<mod_writer>신선옥</mod_writer>	
+				<mod_note></mod_note>
+	        </mod>
+			<note>2002/08/19(고길수)센스1,2의 의미부류 재검토 필요</note>
+			<note>2002/08/22(한선혜)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">和氣</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>냉냉하던 둘 사이에 ~가 감돌기 시작했다.</eg>
+				<eg>그녀가 나타나자 그의 얼굴이 ~를 띠기 시작했다.</eg>
+				<eg>어머니는 늘 집에 ~가 가득하게 해주셨다.</eg>
+				<trans>geniality</trans>
+				<trans>peacefulness</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">냉기</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">훈훈한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 감돌다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 돌다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 가득차다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 넘치다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>삼월이 되자 들판에는 훈훈한 ~가 가득했다.</eg>
+				<eg>밖에는 ~가 가득한데 건물 안으로 들어오면 냉기가 엄습했다.</eg>
+				<eg>자연에 ~가 돌면 사람들은 사랑에 빠지기 쉽다.</eg>
+				<trans>genial weather</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>날씨</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">훈훈한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 감돌다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 돌다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 가득차다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 넘치다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/19</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/15</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/26</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2007/08/18</mod_date>
+				<mod_writer>신선옥</mod_writer>	
+				<mod_note></mod_note>
+	        </mod>
+			<note>2002/08/19(고길수)</note>
+			<note>2002/08/22(한선혜)add추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">火器</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>부대는 모든 ~를 점검하였다.</eg>
+				<eg>밀고 들어오는 적군을 막기 위해 우리는 모든 ~를 동원하였다.</eg>
+				<eg>전투기의 지원사격을 받으면서 강력한 ~를 갖춘 전차부대가 남하하기 시작하였다.</eg>
+				<eg>적의 ~가 우리보다 월등한 상황에서 승전을 장담하기 어려웠다.</eg>
+				<trans>firearms</trans>
+				<domain>군사</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>총포</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 강력하다</comb_aj>
+				<comb_n type="compound">공용 ~</comb_n>
+				<comb_n type="compound">개인 ~</comb_n>
+				<comb_n type="compound">자동 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 다루다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사용하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 장착하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 지급하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">정</cl>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

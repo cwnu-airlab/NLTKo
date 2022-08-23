@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>피</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/08/30</cre_date>
+				<cre_writer>김미란2</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/26</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/06</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>1999/09/17(김미란2)</note>
+			<note>2000/04/24(김미란2)</note>
+			<note>2000/04/28(김미란2)</note>
+			<note>2000/05/06(김미란2)</note>
+			<note>2003/03/09(김미순)sense 1 sem '부분'에서 '액체'로 수정</note>
+			<note>2003/03/26(고길수)센스1에 comb_aj 정보 추가</note>
+			<note>add에 센스1,2,3의 동사정보 추가</note>
+			<note>cl에 '방울' 입력</note>
+			<note>comb_v add로 이동</note>
+			<note>sense 2 sem '속성'에서 '계통'으로 수정</note>
+			<note>sense 3 sem '(비유)행위'에서 '단독행위'로 수정</note>
+			<note>센스2에 예문 추가</note>
+			<note>센스3의 comb_aj에 정보 추가</note>
+			<note>센스3의 예문 수정</note>
+			<note>센스3의 의미부류를 '단독행위'에서 '속성'으로 수정</note>
+			<note>영어대역어를 'sacrifice'에서 'blood'로 수정</note>
+			<add>~를 이어받다|속이다|어찌하다'</add>
+			<add>~를 흘리다|빨다|빼다|뽑다|토하다'</add>
+			<add>센스1의 동사결합 '~가 흐르다|나다|멈추가|멎다|굳다|모자라다</add>
+			<add>센스2 '~가 흐르다|섞이다</add>
+			<add>센스3 '~를 흘리다'</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~검사</comp>
+			<comp pos="n" type="suffix">~ㅅ줄</comp>
+			<comp pos="n" type="prefix">코~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="na">~가 마르다</idm>
+			<idm type="na">~가 끓다</idm>
+			<idm type="nv">~가 솟다</idm>
+			<idm type="nv">~를 나누다</idm>
+			<idm type="nv">~를 마시다</idm>
+			<idm type="nv">~를 보다</idm>
+			<idm type="nv">~를 빨다</idm>
+			<idm type="nv">~를 토하다</idm>
+			<idm type="prv">~도 눈물도 없다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>상처 부위에서 계속 ~가 흘러내리고 있었다.</eg>
+				<trans>blood</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>액체</sem_class>
+				<lr>
+					<syn type="etc">혈액</syn>
+					<ant type="temp"></ant>
+					<rel>수혈</rel>
+					<rel>혈액형</rel>
+					<rel>헌혈</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 붉다</comb_aj>
+				<comb_aj type="appr">~가 뜨겁다</comb_aj>
+				<comb_aj type="appr">~가 부족하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 흘리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 뽑다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 흐르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 멎다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 멈추다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 굳다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 모자라다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="qnt">방울</cl>
+				<cl type="qnt">리터</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그의 몸에는 왕가의 ~가 흐르고 있다.~는 속일 수 없는지 너 하는 짓이 네 아비를 꼭 닮았다.</eg>
+				<trans>bloodline</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>계통</sem_class>
+				<lr>
+					<syn type="etc">혈통</syn>
+					<syn type="etc">겨레</syn>
+					<syn type="etc">핏줄</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 흐르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 섞이다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N-의</pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>우리의 자유는 수많은 병사들의 ~로 얻어진 것이다.</eg>
+				<trans>blood</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="etc">희생</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">많은 ~</comb_aj>
+				<comb_aj type="appr">적은 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="yes">~를 흘리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/08/30</cre_date>
+				<cre_writer>김미란2</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/26</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/05</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>1999/09/17(김미란2)</note>
+			<note>2000/04/24(김미란2)</note>
+			<note>2000/04/28(김미란2)</note>
+			<note>2000/05/06(김미란2)</note>
+			<note>2003/03/09(김미순)sem '식물'에서 '곡식'으로 수정</note>
+			<note>2003/03/26(고길수)영어대역어 수정</note>
+			<note>comb_v add로 이동</note>
+			<note>의미부류를 '곡식'에서 '풀'로 수정</note>
+			<add>~가 자라다|나다</add>
+			<add>~를 뽑다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~ 다 잡은 논 없고 도둑 다 잡은 나라 없다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 아직도 논에서 벼와 ~를 잘 구별하지 못했다.</eg>
+				<trans>barnyard millet</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>풀</sem_class>
+				<lr>
+					<syn type="etc">제패</syn>
+					<ant type="temp"></ant>
+					<hyper>풀</hyper>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 자라다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 뽑다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">포기</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

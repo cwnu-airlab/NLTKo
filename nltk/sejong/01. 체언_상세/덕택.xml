@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>덕택</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/20</cre_date>
+				<cre_writer>서보람</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/16</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/01</mod_date>
+				<mod_writer>김천학</mod_writer>
+				<mod_note>동의어 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/04</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note>의미부류 정보, 통사정보, 논항 의미부류 정보 수정</mod_note>
+			</mod>
+			<note>2002/08/23(고길수)예문 수정 및 추가</note>
+			<note>영어대역어 축소</note>
+			<note>의미부류를 '결과'에서 '원인'으로 수정</note>
+			<note>ds에 'S은|S는 ~에' 추가</note>
+			<note>기능동사 및 논항정보 추가</note>
+			<note>pre_s에 'S는' 추가</note>
+			<note>add 정보 추가</note>
+			<note>화시적으로 쓰이는 '~에' 말고는 모두 의존명사와 유사한 행태를 보이고 있어 의존명사로의 처리 가능성이 있음</note>
+			<note>2002/10/07(한선혜)</note>
+			<note>2003/06/09(나윤희)</note>
+			<note>2003/07/16(김종명)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">德澤</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>가족들의 정성어린 보살핌 ~에 그는 건강을 회복했다.</eg>
+				<eg>선생님 ~에 제가 합격하였습니다.</eg>
+				<eg>선생님이 도와 주신 ~에 쉽게 일이 마무리 되었습니다.</eg>
+				<eg>~에 저희 가족은 모두 잘 있습니다.</eg>
+				<trans>favor</trans>
+				<trans>grace</trans>
+				<trans>help</trans>
+				<trans>support</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>속성값</sem_class>
+				<lr>
+					<syn type="perfect">덕분</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X|S는것|S은것-이 Y-의 ~이다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X|S은것|S는것-이 S은|S는 ~이다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">행위(성공|합격)</sel_rst>
+				<sel_rst arg="Y">상태|행위|사건|현상|상태변화|인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt>~에</prt>
+				<prt>~으로</prt>
+				<av>~에;~으로</av>
+				<ds>S은</ds>
+				<ds>S는 ~에</ds>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S은 ~</s_n>
+				<s_n>S는  ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

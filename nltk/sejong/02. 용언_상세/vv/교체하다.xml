@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>교체하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/10/07</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>형태정보, 의미정보, 격틀 조정</mod_note>
+				<mod_note>자/타 두 개의 대칭동사 구문으로 처리</mod_note>
+				<mod_note>중립동사 구문으로도 처리될 수 있음은 comment로 기록</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">교체를 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">交替_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>change</trans>
+				<trans>replace</trans>
+				<lr>
+					<hyper>바꾸다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|추상적대상|집단|장소</sel_rst>
+					<eg>이 동네에서는 낡은 하수도관을 교체하는 공사가 한창 진행 중이다.</eg>
+					<eg>이번 감사에서 비리가 적발된 고위 공무원은 가차없이 교체해 버릴 것이다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|추상적대상|집단|장소</sel_rst>
+					<sel_rst arg="Z" tht="FNS">구체물|추상적대상|집단|장소</sel_rst>
+					<eg>배터리의 수명이 다 된 것 같으니 새 것으로 교체해야 될 거다.</eg>
+					<eg>대통령은 경제 부처 장관들을 측근 인사들로 교체할 것이라는 전망이 지배적이다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="01"><!--cor="nut" n="1"-->
+				<frame>X=N0-이 Y=N1-을 Z=N2-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|추상적대상|집단|장소</sel_rst>
+					<sel_rst arg="Z" tht="COM">구체물|추상적대상|집단|장소</sel_rst>
+					<eg>차 감독은 후반전에 김철수 선수를 이기영 선수와 교체했다.</eg>
+					<eg>한국 팀은 공격 전문선수와 수비 전문 선수를 적절히 교체해 가면서 경기를 순조롭게 이끌어갔다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="01">
+				<frame>X=N0-이 Y+Z=N1-을 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|추상적대상|집단|장소</sel_rst>
+					<sel_rst arg="Z" tht="THM">구체물|추상적대상|집단|장소</sel_rst>
+					<eg>차 감독은 후반전에 김철수와 이기영 선수를 교체했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>change</trans>
+				<trans>replace</trans>
+				<lr>
+					<hyper>바꾸다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR" cor="sym" n="02"><!--cor="nut" n="1"-->
+				<frame>X=N0-이 Y=N1-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="COM">인간|인간집단</sel_rst>
+					<eg>후반전에 김철수 선수가 이기영 선수와 교체했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="02">
+				<frame>X+Y=N0-이 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|인간집단</sel_rst>
+					<eg>후반전에 김철수 선수와 이기영 선수가 교체했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

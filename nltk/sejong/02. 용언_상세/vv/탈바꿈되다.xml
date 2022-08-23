@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>탈바꿈되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/17</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/09/08</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see>탈바꿈하다</see>
+		<morph_grp>
+			<var type="spr">탈바꿈이 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>변형</sem_class>
+				<trans>be changed</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=N2-에서 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">식물|장소</sel_rst>
+					<sel_rst arg="Y" tht="FNS">식물|장소</sel_rst>
+					<sel_rst arg="Z" tht="SRC">식물|장소</sel_rst>
+					<eg>두릅은 산채류에서 점차 재배에 의존하는 청정채소로 탈바꿈되었다.</eg>
+					<eg>본 사업의 결과 이 지역은 프랑스 제1의 임해산업기지로 탈바꿈되어 10만명의 인구유입 효과를 거두었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

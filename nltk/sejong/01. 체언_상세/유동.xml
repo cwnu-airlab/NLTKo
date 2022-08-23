@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>유동</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/14</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/12</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/06</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_n, der에 기술</mod_note>
+				<mod_note>comp 기술</mod_note>
+				<mod_note>n_v 수정</mod_note>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>센스1 sem 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/09/14(이성헌)sense1,2의 sem과 관련 '사건|현상' 하에 '(물리적)운동|이동|움직임(흐름, 유동, 유입,유출 등)'관련 의미부류 설정 건의</note>
+			<note>2002/09/17(고길수)명사연어 정보 추가</note>
+			<note>2002/10/01(고길수)</note>
+			<note>2003/07/17(권오희)센스2의 comb_n을 add로 옮김</note>
+			<note>add에 파생어정보 추가</note>
+			<note>센스2의 의미부류 '사건'으로 수정</note>
+			<note>2003/08/12(이은경) 센스2의 예문을 바꿈, 센스2의 의미부류를 '사건'에서 '물리적행위'로 수정(다시 검토 바람),</note>
+			<add>센스2의 명사결합 : ~ 인구|자본|자금</add>
+			<add>센스2의 파생어 : ~적</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">流動</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~적</der>
+			<comp pos="n" type="suffix">~성</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 호수는 너무나 잔잔해서 물의 ~이 없는 것처럼 보인다.</eg>
+				<trans>flowing</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>자연현상</sem_class> <!--'물리화학현상'을 '자연현상'으로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<comb_v type="npred_vsupvar"> <!--의미부류가 사태 부류이므로 술어명사 결합으로 수정(송근영)-->
+					<form vcompound="no">~이 일어나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> <!--의미부류가 사태 부류이므로 술어명사 결합으로 수정(송근영)-->
+					<form vcompound="no">~이 발생하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> <!--의미부류가 사태 부류이므로 술어명사 결합으로 수정(송근영)-->
+					<form vcompound="no">~이 생기다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">액체|파동</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이 물고기는 사계절 내내 ~을 한다.</eg>
+				<trans>flowing</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>물리적행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 인구</comb_n>
+				<comb_n type="compound">~ 자본</comb_n>
+				<comb_n type="compound">~ 자금</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<comb_v type="npred_vsupvar"> <!--의미부류가 사태 부류이므로 술어명사 결합으로 수정(송근영)-->
+					<form vcompound="no">~이 일어나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> <!--의미부류가 사태 부류이므로 술어명사 결합으로 수정(송근영)-->
+					<form vcompound="no">~이 발생하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> <!--의미부류가 사태 부류이므로 술어명사 결합으로 수정(송근영)-->
+					<form vcompound="no">~이 생기다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단|동물|돈(자본)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/14</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/12</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/06</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>n_aj magn을 appr로 수정</mod_note>
+				<mod_note>n_v 수정</mod_note>
+				<mod_note>max_n 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/09/14(이성헌)</note>
+			<note>2002/10/01(고길수)</note>
+			<note>2003/07/17(권오희)</note>
+			<note>2003/08/12(이은경)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">遊動</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>요즘 주가의 ~이 심하다.</eg>
+				<trans>moving freely</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>유동</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 심하다</comb_aj>
+				<comb_aj type="appr">~이 극심하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar"> <!--의미부류가 사태 부류이므로 술어명사 결합으로 수정(송근영)-->
+					<form vcompound="no">~이 일어나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> <!--의미부류가 사태 부류이므로 술어명사 결합으로 수정(송근영)-->
+					<form vcompound="no">~이 발생하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> <!--의미부류가 사태 부류이므로 술어명사 결합으로 수정(송근영)-->
+					<form vcompound="no">~이 생기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> <!--의미부류가 사태 부류이므로 술어명사 결합으로 수정(송근영)-->
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">크기|수량</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

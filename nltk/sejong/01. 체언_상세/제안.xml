@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>제안</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2005/06/22</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2005/06/26</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note>최대논항명사구 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/08</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 추가</mod_note>
+				<mod_note>예문 및 격틀의 띄어쓰기 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/22</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">提案</org>
+		
+			<hom exist="temp"/>
+			<der  pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~자</comp>
+			<comp pos="n" type="suffix">~서</comp>
+			<comp pos="n" type="suffix">~권</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리는 선생님께 자율 학습 시간을 줄이자고 ~을 했다.</eg>
+				<eg>의장은 그 규칙을 폐지할 것을 ~을 받았다.</eg>
+				<eg>사내에 탁아소를 설치하자는 ~이 나왔다.</eg>
+				<eg>이번 회의에서는 환경 문제 해결책이 주로 ~이 될 것이다.</eg>
+				<trans>proposition</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>보고제안</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에게 Z-을 ~을 하다</frame>
+					<frame>X-이 Y-에게 S자고 ~을 하다</frame>
+					<frame>X-이 Y-에게 S것-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>Y-이 X-에게 S자고 ~을 받다</frame>
+					<frame>X-이 Y-에게 S것-을 ~을 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Z-이 ~이 되다</frame>
+					<frame>S자고 ~이 되다</frame>
+				</comb_v>				
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 내놓다</form>
+					<frame>X-이 Y-에게 S자고 ~을 내놓다</frame>
+				</comb_v>	
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 나오다</form>
+					<frame>Z-에대한 ~이 나오다</frame>
+					<frame>S자고 ~이 나오다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 받아들이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 거부하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 채택하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 철회하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 응하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 찬성하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 반대하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>Y-에대한 X-의 Z ~</max_n_str>
+				<max_n_str>Y-에대한 Z-의 ~</max_n_str>
+				<max_n_str>S자는 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">의견|규범|행위</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

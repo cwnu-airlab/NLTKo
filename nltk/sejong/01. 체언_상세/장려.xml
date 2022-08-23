@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>장려</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/05/03</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/08</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/04</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+				<mod_note>comp "출산~" 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/15</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/07/21(김종명)</note>
+			<note>2001/07/30(김종명,이성헌)</note>
+			<note>2003/01/30(이지영)예문추가,문장부호입력,sem수정,comb_v를 add로 수정,sel_res수정</note>
+			<note>2003/02/05(김진형)의미부류 수정</note>
+			<note>2003/02/08(이지영)</note>
+			<note>단위표현 정보 삭제</note>
+			<note>비가산명사로 수정</note>
+			<note>한정사 제약 정보 삭제</note>
+			<note>합성어에 '~상' 추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">奬勵</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~금</der>
+			<der pos="n" type="suffix">~책</der>
+			<der pos="n" type="suffix">~상</der>
+			<comp pos="n" type="prefix">출산~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>정부는 저축을 적극 ~를 했다.</eg>
+				<eg>저축의 ~를 위해 정부는 금리를 높이기로 했다.</eg>
+				<trans>encouragement</trans>
+				<trans>promotion</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="etc">권장</syn>
+					<ant type="temp"></ant>
+					<coord>지원</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+					<frame>X-이 S것-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 되다</form>
+					<frame>Y-이 X-에의해 ~가 되다</frame>
+					<frame>S것-이 X-에의해 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 힘입다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-에의한 Y-의 ~</max_n_str>
+				<max_n_str>X-에의한 S것-의 ~</max_n_str>
+				<max_n_str>Y-에대한 X-의 ~</max_n_str>
+				<max_n_str>S것-에대한 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단(정부|학교|기관)</sel_rst>
+				<sel_rst arg="Y">추상적대상|사행(산업|문학|학문|예술|연구)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

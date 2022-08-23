@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>포착하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/15</cre_date>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/22</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/07/15</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">포착을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">捕捉_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>감각행위</sem_class>
+				<trans>acquire</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(적)|(군함|비행기)</sel_rst>
+					<eg>아군 함대는 적의 순양함을 레이더로 포착하자마자 함포 공격을 시작했다.</eg>
+					<eg>우리는 레이다 망을 통해 미확인 비행물체를 포착했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|추상적대상|사태</sel_rst>
+					<eg>과학자들은 새로운 면역 바이러스를 포착하고 매우 기뻐했다.</eg>
+					<eg>이 센서는 직원들의 퇴근 후 미세한 움직임까지 포착해 내는 역할을 하게 된다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>catch</trans>
+				<trans>grasp</trans>
+				<lr>
+					<syn type="kor">알아내다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(본질|정신|진의)</sel_rst>
+					<eg>협상 대표들은 상대방의 진의를 포착하려 애썼다.</eg>
+					<eg>인물사진의 진실을 표현하려면 그 사람의 내면에서 우러나오는 감정을 포착해 나가야 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>seize</trans>
+				<trans>apprehend</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(기회|틈|때)</sel_rst>
+					<eg>우리 팀은 역전할 수 있는 기회를 포착했다.</eg>
+					<eg>이런 기회를 반드시 포착해 지금의 손실을 한번에 만회해 보시기 바랍니다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(신호)</sel_rst>
+					<eg>대서양을 항해 중이던 우리 배는 조난 신호를 포착했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(상황)|(현장)|(단서|증거)</sel_rst>
+					<eg>김 형사는 마침내 범인을 알아낼 단서를 포착했다.</eg>
+					<eg>경찰은 감시 카메라로 살인 현장을 포착할 수 있었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것|Q</sel_rst>
+					<eg>초병들은 적이 침투하는 것을 포착하고 무전으로 본부에 급히 알렸다.</eg>
+					<eg>과학자들은 아직도 암 바이러스가 어떻게 확산되어 가는지를 정확히 포착하지 못했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

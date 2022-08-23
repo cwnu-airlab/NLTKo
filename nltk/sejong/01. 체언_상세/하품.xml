@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>하품</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/16</cre_date>
+				<cre_writer>이하영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/28</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/02</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2005/10/08</mod_date>
+                                <mod_writer>박만규</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+            <mod>
+				<mod_date>2007/09/14</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>              
+			<note>'~을 늘어지게 하다', '입이 찢어져라 ~을 하다' 등의 정보는 넣어줄 곳이 없나요?</note>
+			<note>2002/05/23(이하영)entry1에서, 순간적행위와 사건|현상으로 나누어지는 것 같아 sense구분했는데, 타당한 것인지?</note>
+			<note>2002/08/20(박동호)우선 의미부류에서 '|'로 나누어지는 경우 전산처리상 혼란을 피하기 위해 '|'을 빼고 그냥 붙여쓰기로 한 것에 주의 할것, 따라서 '사건|현상'은 '사건현상'으로 바뀜</note>
+			<note>2002/10/03(고길수)센스1의 논항정보에서 '사람'을 '인간|동물'로 수정</note>
+			<note>2003/05/31(서진숙)</note>
+			<note>2003/06/28(이성헌)sem을 '순간적행위'에서 '몸짓및동작'으로 수정</note>
+			<note>entry1, sense2에서 후에 동사자유구성으로 '~이 나다|나오다' 추가 가능</note>
+			<note>entry1의 sense 분할이 불필요한 듯. 다른 사전 정보도 그렇지만, 하품은 생리현상으로 보는 것이 타당하지 않은지? 하품을 한다고 해서 억지로 하품을 하는 것이 아니라 생리작용에 의해 그렇게 되었을 뿐이라고 생각됨. 고려요망</note>
+			<note>sense2의 '~이 나다|나오다'는 기능동사이므로 comb_v에 추가함</note>
+			<note>sense를 '행위'와 '사건현상'으로 나눈 것은 좋음, '~이 나다'가 가능하므로 '사건현상'으로 나누어도 무리 없음</note>
+			<note>sense의 uni에 '번|차례 기재함</note>
+			<note>숙어'관형 구역의 기타 유형 @idetc에 '~을 늘어지게 하다', '입이 찢어져라 ~을 하다'를 기재</note>
+			<note>향후 비의도성행위 내에 이와 같은 명사부류가 설정이 될 예정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc">입이 찢어져라|찢어지게 ~을 하다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 수업 중에도 연신 ~을 해댔다.</eg>
+				<eg>그는 어제 잠을 못잤는지 ~을 여러 번 했다.</eg>
+				<eg>수업시간이라서 억지로 ~을 참았다.</eg>
+				<trans>yawn</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>몸짓및동작</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">긴 ~</comb_aj>
+				<comb_aj type="appr">기다란 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|동물</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/16</cre_date>
+				<cre_writer>이하영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/28</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/02</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2005/10/08</mod_date>
+                                <mod_writer>박만규</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+            <mod>
+				<mod_date>2007/09/14</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>              
+			<note>2002/08/21(박동호)</note>
+			<note>2002/10/03(고길수)</note>
+			<note>2003/05/31(서진숙)</note>
+			<note>2003/06/28(이성헌)sem을 부정적속성구체물로 확인</note>
+			<note>의미부류가 부정적 속성구체물인지 아니면 '하등급'인지?</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">下品</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 물건은 품질 면에서 ~에 속한다.</eg>
+				<eg>이 그릇은 ~이지만 당시에는 유용하게 쓰였을 것이다.</eg>
+				<eg>그가 수집한 골동품이라곤 모두 ~에 속하는 것들 뿐이었다.</eg>
+				<trans>low grade goods</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>부정적속성구체물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

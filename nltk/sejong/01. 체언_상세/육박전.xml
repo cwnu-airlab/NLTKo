@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>육박전</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/29</cre_date>
+				<cre_writer>유영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/11</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/01</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>str, type 수정</mod_note>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>cl 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/21</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>대역어 분리</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/15</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>논항 정보 수정 및 기능동사 변이형 기입</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_R">육박+전</str>
+			<org lg="si">肉薄戰</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>한 나절의 치열한 총격이 끝난 후 양측 군대는 결국 빗속에서 ~을 펼치게 되었다.</eg>
+				<trans>hand-to-hand fight</trans>
+				<trans>close contest</trans>
+				<trans>close battle</trans>
+				<domain>군사</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>물리적충돌행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" mod="no">~에 능하다</comb_aj>
+				<comb_aj type="magn" mod="no">~에 강하다</comb_aj>
+				<comb_aj type="min" mod="no">~에 약하다</comb_aj>
+				<comb_aj type="magn">~이 치열하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~을 하다</form>
+					<frame>X-이 Y-와 S는 ~을 하다</frame>
+					<frame>X-와 Y-이 S는 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 벌이다</form>
+					<frame>X-이 Y-와 S는 ~을 벌이다</frame>
+					<frame>X-와 Y-이 S는 ~을 벌이다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 전개하다</form>
+					<frame>X-이 Y-와 S는 ~을 전개하다</frame>
+					<frame>X-와 Y-이 S는 ~을 전개하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 펼치다</form>
+					<frame>X-이 Y-와 S는 ~을 펼치다</frame>
+					<frame>X-와 Y-이 S는 ~을 펼치다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 치르다</form>
+					<frame>X-이 Y-와 S는 ~을 치르다</frame>
+					<frame>X-와 Y-이 S는 ~을 치르다</frame>
+				</comb_v>
+				<max_n_str>X-와 Y-의 S는 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

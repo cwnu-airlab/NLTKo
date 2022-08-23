@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>대가족</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/05/08</cre_date>
+				<cre_writer>이지영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/08</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/22</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>내부구성정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/11</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>add, n_v로 이동</mod_note>
+				<mod_note>센스2, 예문 추가</mod_note>
+			</mod>
+			<note>2003/05/08(이지영)예문, sem, domain수정, cl삭제, comb_v를 add로 이동</note>
+			<add>~을 먹이다</add>
+			<add>~을 구성하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="R_N">대+가족</str>
+			<org lg="si">大家族</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~제도</comp>
+			<comp pos="n" type="suffix">~주의</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리집은 딸만 넷이 있는 보기 드문 ~이다.</eg>
+				<trans>large family</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>혈연집단</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">소가족(小家族)</ant>
+					<hyper>가족</hyper>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 거느리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>산업화에 따라 ~이 점차로 사라지고 있다.</eg>
+				<eg>우리 사회는 전통적으로 삼 대 이상이 한 집에서 ~을 이루고 살아 왔다.</eg>
+				<trans>extended family</trans>
+				<domain>사회</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>혈연집단</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">소가족(小家族)</ant>
+					<ant type="etc">핵가족(核家族)</ant>
+					<hyper>가족</hyper>
+					<rel>할아버지</rel>
+					<rel>할머니</rel>
+					<rel>손자</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 이루다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

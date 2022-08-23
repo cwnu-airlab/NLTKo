@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>연구원</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/03/20</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/08</mod_date>
+				<mod_writer>김현승</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/19</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>nng_c로 바꾸고 str 기술</mod_note>				
+				<mod_note>comp 기술</mod_note>
+				<mod_note>n_n 추가</mod_note>
+				<mod_note>add 정보를 n_v에 기술 및 정보 추가</mod_note>
+				<mod_note>cl의 '분' 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/07</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>동사결합정보 검토</mod_note>
+			</mod>
+			<note>2002/04/16(고길수)품사범주 추가</note>
+			<note>원어정보추가</note>
+			<note>예문 수정, 고유명사 등은 되도록 사용하지 않음</note>
+			<note>단위표현의 '그룹|팀'은 집단의 수량을 표현하는 것이 아님</note>
+			<note>명사연어에 몇 가지를 추가했는데, 자세히 검토해볼 것</note>
+			<note>수식어절에서 관계절인 'S는|S은 ~' 정보 삭제</note>
+			<note>2002/08/02(이성헌)comb_n에 '선임|책임'추가</note>
+			<note>add에 관련 동사자유구성 추가</note>
+			<note>2003/10/08(김현승)</note>
+			<add>~을 채용하다|고용하다|임용하다|뽑다|초빙하다|모셔오다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_R">연구+원</str>
+			<org lg="si">硏究員</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~증</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 우리 연구소에서 임시 ~으로 근무한다.</eg>
+				<trans>investigator</trans>
+				<trans>researcher</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>직업인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 뛰어나다</comb_aj>
+				<comb_aj type="appr">~이 우수하다</comb_aj>
+				<comb_aj type="appr">~이 성실하다</comb_aj>
+				<comb_n type="compound">특별 ~</comb_n>
+				<comb_n type="compound">임시 ~</comb_n>
+				<comb_n type="compound">상임 ~</comb_n>
+				<comb_n type="compound">선임 ~</comb_n>
+				<comb_n type="compound">책임 ~</comb_n>
+				<comb_n type="compound">겸임 ~</comb_n> <!--송근영 추가-->
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 뽑다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 채용하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 고용하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 임용하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 초빙하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 모시다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 일하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/03/20</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/08</mod_date>
+				<mod_writer>김현승</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/19</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>nng_c로 바꾸고 str 기술</mod_note>				
+				<mod_note>add 정보를 n_v에 기술</mod_note>
+				<mod_note>cl 추가</mod_note>
+				<mod_note>센스2 n_v 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/04/16(고길수)원어정보 추가</note>
+			<note>예문 수정</note>
+			<note>의미부류를 기관건물에서 건물로 수정</note>
+			<note>단위표현에서 '개소'가 단위표현으로 인정되는지 확인 요망</note>
+			<note>'~을 설립하다|세우다|지원하다'는 동사연어구성(comb_v)의 기술 내용이 아님, 이 항목에는 '성질을 부리다, 화를 내다, 말을 던지다' 등과 같은 술어명사에 대해 그 술어의미를 실현하도록 보조하는 기능동사(단, supv에 기술되는 것들은 제외)를 기술하거나 '꿈을 꾸다, 잠을 자다' 등과 같은 동족목적어 계열의 동사들만을 기술</note>
+			<note>수식어절에서 관계절인 'S는|S은 ~' 삭제</note>
+			<note>2002/08/02(이성헌)'개소'는 유효한 단위표현으로 사료됨, cl에 추가</note>
+			<note>동사 연어구성에서 삭제된 내용을 add에 기재</note>
+			<note>2003/10/08(김현승)sense를 '기관'과 '건물'로 구분함</note>
+			<add>~를 세우다|설립하다|설치하다|열다|닫다|폐쇄하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_R">연구+원</str>
+			<org lg="si">硏究院</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 회사는 신제품 개발을 위해 별도의 ~을 설립하였다.</eg>
+				<trans>institute</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>기관</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 세우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 설립하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 설치하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 열다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 닫다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 폐쇄하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">개소</cl>
+				<cl type="uni">군데</cl>
+				<cl type="uni">곳</cl> <!--송근영 추가-->
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>내년에는 ~을 더 넓은 곳으로 이전할 계획이다.</eg>
+				<trans>institute</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>건물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 짓다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 이전하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 증축하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">개소</cl>
+				<cl type="uni">군데</cl>
+				<cl type="uni">곳</cl> <!--송근영 추가-->
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

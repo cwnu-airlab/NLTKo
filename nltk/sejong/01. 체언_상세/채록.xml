@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>채록</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/26</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/21</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/15</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>합성어 항목 추가</mod_note>
+				<mod_note>단위사 항목 추가</mod_note>
+				<mod_note>동사결합 항목 수정</mod_note>
+				<mod_note>최대논항구조 항목 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/19</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/29</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">採錄</org>
+		
+			<comp pos="n" type="suffix">~자</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 방언조사를 위해 지역 주민들의 이야기를 빠짐없이 ~을 했다.</eg>
+				<trans>recording in a book</trans>
+				<sem_class>물리적행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form> <!-- 합성동사 정보를 새 기술형식에 맞게 수정(송근영) -->
+					<frame>X-이 Y-을 ~을 하다</frame> <!-- 조사 대표형으로 수정(송근영) -->
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form> <!-- 합성동사 정보를 새 기술형식에 맞게 수정(송근영) -->
+					<frame>Y-이 X-에의해 ~이 되다</frame> <!-- 조사 대표형으로 수정(송근영) -->
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">언어|언어행위</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

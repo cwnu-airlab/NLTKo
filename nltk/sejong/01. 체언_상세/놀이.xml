@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>놀이</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/15</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/22</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/12</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>태그 내 나열된 정보 분할</mod_note>
+				<mod_note>합성어, 명사 결합, 동사 결합 추가</mod_note>
+				<mod_note>센스 2의 의미부류 수정(운동경기에서 계획사건으로)</mod_note>
+				<mod_note>내부 구조 타입, 품사 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/28</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/19</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note>통사정보의 일부 삭제</mod_note>
+			</mod>
+			<note>2000/09/03(백인애)</note>
+			<note>2001/01/30(정유진</note>
+			<note>2003/04/10(이호영)센스1 예문 추가|의미부류 수정|동사연어구성을 향후 추가정보로 이동|명사 연어 추가|논항 선택제약 수정</note>
+			<note>2003/05/22(박만규)기능동사 수정</note>
+			<note>센스2 예문 추가|의미부류 수정|동사연어구성을 향후 추가정보로 이동</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="V_S">놀+이</str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="prefix">고무줄~</comp>
+			<comp pos="n" type="prefix">공~</comp>
+			<comp pos="n" type="prefix">공기~</comp>
+			<comp pos="n" type="prefix">광대~</comp>
+			<comp pos="n" type="prefix">그림자~</comp>
+			<comp pos="n" type="prefix">기차~</comp>
+			<comp pos="n" type="prefix">꽃~</comp>
+			<comp pos="n" type="prefix">윷~</comp>
+			<comp pos="n" type="prefix">단풍~</comp>
+			<comp pos="n" type="prefix">길쌈~</comp>
+			<comp pos="n" type="prefix">돈~</comp>
+			<comp pos="n" type="prefix">마당~</comp>
+			<comp pos="n" type="prefix">물~</comp>
+			<comp pos="n" type="prefix">불~</comp>
+			<comp pos="n" type="prefix">카드~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>아이들이 인형을 가지고 ~를 하고 있다.</eg>
+				<eg>아이들이 땅뺏기 ~를 하며 놀고 있었다.</eg>
+				<trans>play</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>지속적활동</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 재미있다</comb_aj>
+				<comb_aj type="appr">~가 재미없다</comb_aj>
+				<comb_n type="compound">장난감 ~</comb_n>
+				<comb_n type="compound">총싸움 ~</comb_n>
+				<comb_n type="compound">인형 ~</comb_n>
+				<comb_n type="compound">주사위 ~</comb_n>
+				<comb_n type="compound">~ 공간</comb_n>
+				<comb_n type="compound">~ 문화</comb_n>
+				<comb_n type="compound">~ 상대</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-와 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 즐기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 몰두하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 빠지다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-와 Y-의 ~</max_n_str>
+				<max_n_str>X-의 Z ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">구체인공물(장난감|고무줄|인형)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n></pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>우리 나라는 각 명절마다 다양한 ~가 있다.</eg>
+				<eg>전통의 ~를 살려야 한다.</eg>
+				<trans>game</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>계획사건</sem_class> <!--(호정은) '공연'에 가깝긴 하지만 '오락'의 의미도 있으므로 상위어를 택함-->
+				<lr>
+					<syn type="perfect">놀음놀이</syn>
+					<ant type="temp"></ant>
+					<hypo>그네타기</hypo>
+					<hypo>널뛰기</hypo>
+					<hypo>연날리기</hypo>
+					<hypo>윷놀이</hypo>
+					<mero>규칙</mero>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 많다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

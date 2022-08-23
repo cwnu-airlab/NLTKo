@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>억하심정</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/05</cre_date>
+				<cre_writer>염신현</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/13</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/02</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>영어대역어, n_aj, n_v, 최대논항구조, 선택제약, prt 기술;의미부류 수정;예문 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/29</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note>str FLW가 어떨지</mod_note><!--수정했음(김이정2005/10/09)-->
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>오타, 동사결합 수정</mod_note>
+			</mod>
+			<note></note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="FLW"></str>
+			<org lg="si">抑何心情</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>최씨가 나한테 ~을 가진 모양이다.</eg>
+				<eg>그녀가 평소 무슨 ~이 있었는지 화살을 엉뚱한 데로 돌린다.</eg>
+				<trans>unaccountable motive</trans>
+				<trans>It is hard to understand why</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>외향적심리상태</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 많다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 있다</form>
+					<frame>X-이 Y-에게 ~이 있다</frame>
+					<frame>X-이 Y-에 ~이 있다</frame>
+					<frame>X-이 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이 없다</form>
+					<frame>X-이 Y-에게 ~이 없다</frame>
+					<frame>X-이 Y-에 ~이 없다</frame>
+					<frame>X-이 ~이 없다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 생기다</form>
+					<frame>X-이 Y-에게 ~이 생기다</frame>
+					<frame>X-이 Y-에 ~이 생기다</frame>
+					<frame>X-이 ~이 생기다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 들다</form>
+					<frame>X-이 Y-에게 ~이 들다</frame>
+					<frame>X-이 Y-에 ~이 들다</frame>
+					<frame>X-이 ~이 들다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 품다</form>
+					<frame>X-이 Y-에게 ~을 품다</frame>
+					<frame>X-이 Y-에 ~을 품다</frame>
+					<frame>X-이 ~을 품다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 가지다</form>
+					<frame>X-이 Y-에게 ~을 가지다</frame>
+					<frame>X-이 Y-에 ~을 가지다</frame>
+					<frame>X-이 ~을 가지다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 많아지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 풀다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 털어놓다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|장소</sel_rst>
+				<cl type="temp"></cl>
+				<prt>~으로</prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

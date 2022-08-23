@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>맹물</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2006/05/21</cre_date>
+				<cre_writer>백고운</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2006/07/07</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note>센스2의 의미부류 수정; 센스1,2의 uni 기술;센스2의 n_aj 삭제</mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="R_N">맹+물</str>
+			<org lg="etc"></org>
+		
+			<hom exist="yes"/>
+			<der  pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~ 같은 소리</idm>
+			<idm type="prv">~에 조약돌 삶은 맛이다</idm>
+			<idm type="prv">동정 못 다는 며느리 ~ 발라 머리 빗는다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~이 몸에 가장 좋은 물이다.</eg>
+				<trans>water</trans>
+				<trans>tasteless water</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>액체</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="temp">~을 마시다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="temp">~을 붓다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="qnt">잔</cl> <!--추가(미현)-->
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 사람 정말 ~이다.</eg>
+				<trans>an insipid person</trans>
+				<trans>a dull drink of water</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>부정적속성인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj> 
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl> <!--추가(미현)-->
+				<cl type="uni">사람</cl>  <!--추가(미현)-->
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

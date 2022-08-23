@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>소형</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/19</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/02</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/19</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>하등급을 소로 수정;명사연어 추가;'~이 되다'를 '~이다'로 수정 및 프레임 정보 추가;동사정보의 유형값 수정;선택제약 정보 추가</mod_note>
+			</mod>
+			<note>2001/09/21(박동호)</note>
+			<note>예문 일부 수정</note>
+			<note>2003/01/13</note>
+			<note>2003/01/13(유영) sem수정, comb_v를 add로 이동, sens1예문추가</note>
+			<note>2003/02/02(이성헌)센스1의 sem을 '등급속성값'에서 '하등급'으로 수정</note>
+			<note>센스1의 comb_v에서 '~이 되다'삭제</note>
+			<add>~으로 만들다</add>
+			<add>~이 되다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">小型</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~화</der>
+			<der pos="n" type="suffix">~기</der>
+			<der pos="n" type="suffix">~선</der>
+			<comp pos="n" type="suffix">~차</comp>
+			<comp pos="n" type="suffix">~면허</comp>
+			<comp pos="n" type="suffix">~아파트</comp>
+			<comp pos="n" type="suffix">~자동차</comp>
+			<comp pos="n" type="suffix">~라디오</comp>
+			<comp pos="n" type="suffix">~컴퓨터</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>정부는 서민들을 위하여 ~ 아파트를 건설했다.</eg>
+				<eg>그는 이번에 컴퓨터를 ~으로 바꾸었다.</eg>
+				<trans>small size</trans>
+				<trans>pocketsize</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>소</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">대형</ant>
+					<hyper>규모</hyper>
+					<hyper>규격</hyper>
+					<coord>대형</coord>
+					<coord>중형</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 라디오</comb_n>
+				<comb_n type="compound">~ 빌딩</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 ~이다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~으로 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">구체물|모양|길이|넓이</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

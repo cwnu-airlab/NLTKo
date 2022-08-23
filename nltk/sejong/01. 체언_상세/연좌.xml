@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>연좌</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/05</cre_date>
+				<cre_writer>최지임</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/05</mod_date>
+				<mod_writer>최지임</mod_writer>
+				<mod_note>2003/11/05(최지임)기능동사 및 논항선택제약 검토요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/09/23</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note>form vcompound 를 하다 추가, 최대논항정보추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/29</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1에 단문형태 정보 보충</mod_note>
+				<mod_note>센스2의 의미부류 수정</mod_note>
+				<mod_note>센스2의 동사결합 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어, 동의어 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">連坐</org>
+			<comp pos="n" type="suffix">~데모</comp>
+			<comp pos="n" type="suffix">~시위</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>농민들은 성당 앞에서 ~를 하여 농성을 벌였다.</eg>
+				<trans>sitting down in a group</trans>
+				<sem_class>몸짓및동작</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-에 ~를 하다</frame> <!-- 추가 -->
+					<frame>X-이 Y-에서 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에서의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">장소</sel_rst>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이 사건에 ~가 된 사람들은 모두 처벌 대상이다.</eg>
+				<trans>involvement</trans>
+				<sem_class>비의도적행위</sem_class> <!-- 행위 수정 -->
+				<lr>
+					<syn type="etc">연루</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form> <!-- ~되다 수정 -->
+					<frame>X-이 Y-에 ~가 되다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">사건|행위</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

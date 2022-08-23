@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>이간</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/24</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/16</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/08</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 der, n_v에 기술</mod_note>
+				<mod_note>격틀정보 분리</mod_note>
+				<mod_note>n_v 수정</mod_note>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>sem 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>comb_v 정보 추가, 단 표준사전에는 관용표현으로 제시됨</note>
+			<note>기능동사 정보에 '시키다' 추가</note>
+			<note>논항정보 수정</note>
+			<note>2002/10/12(이성헌)cl에 '회'추가</note>
+			<note>2003/07/22(권오희)의미부류 단독행위에서 부정적결과행위로 수정</note>
+			<note>2003/08/16(이은경)</note>
+			<add>복합어로 '~질' 추가</add>
+			<add>동사결합으로 '~에 걸리다'를 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">離間</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~질</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 두 사람 사이를 ~을 시켰다.</eg>
+				<trans>alienation</trans>
+				<trans>estrangement</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>결과행위</sem_class> <!--'부정적결과행위'를 '결과행위'로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 Z-와 ~을 하다</frame>
+					<frame>X-이 Y-와 Z-을 ~을 하다</frame> <!--송근영 추가-->
+					<frame>X-이 W-를 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>X-이 Y-을 Z-와 ~을 시키다</frame>
+					<frame>X-이 Y-와 Z-을 ~을 시키다</frame> <!--송근영 추가-->
+					<frame>X-이 W-를 ~을 시키다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~시키다-->
+				<comb_v type="npred_vsupvar"> <!--기능동사 변이형으로 수정하고 격틀기술(송근영)-->
+					<form vcompound="no">~을 붙이다</form>
+					<frame>X-이 Y-와 Z-을 ~을 붙이다</frame>
+					<frame>X-이 W-에 ~을 붙이다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 걸리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">인간|인간집단</sel_rst>
+				<sel_rst arg="W">(관계|사이)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

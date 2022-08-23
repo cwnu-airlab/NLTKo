@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>작다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/15</cre_date>
+				<cre_writer>조원형</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/13</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/07</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/03/18</mod_date>
+				<mod_writer>김윤신</mod_writer>
+				<mod_note>예문 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/31</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>A</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>모양속성값</sem_class>
+				<trans>be small</trans>
+				<lr>
+					<ant type="grad">크다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<n_appr arg="X">크기</n_appr>
+					<eg>경수가 가지고 있는 책은 크기가 작다.</eg>
+					<eg>이 컵은 저 컵보다 작다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-에게 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">신체착용물</sel_rst>
+					<sel_rst arg="Y" tht="CRT">인간</sel_rst>
+					<eg>그 신발은 아이한테 너무 작아요.</eg>
+					<eg>누나한테 이 스타킹은 좀 작을 것 같은데.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>낮은정도</sem_class>
+				<trans>be small</trans>
+				<lr>
+					<ant type="grad">크다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상|사태</sel_rst>
+					<eg>우리 학교 야구부는 전국 고교야구대회 우승이라는 작지 않은 꿈을 이루어 냈다.</eg>
+					<eg>그 정도 충격은 작은 편이지.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>낮은정도</sem_class>
+				<trans>be few</trans>
+				<lr>
+					<syn type="perfect">적다</syn>
+					<ant type="grad">많다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<n_appr arg="X">양</n_appr>
+					<eg>우리집 통장에 든 돈이 이렇게 작았었냐?</eg>
+					<eg>이 음료수는 비싸기만 하고 양이 너무 작다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>낮은정도</sem_class>
+				<trans>be trifling</trans>
+				<lr>
+					<syn type="etc">하찮다</syn>
+					<ant type="grad">대단하다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">사태</sel_rst>
+					<eg>왜 작은 일에 자꾸만 화를 내냐?</eg>
+					<eg>대중을 이끄는 영웅이 되지는 못하더라도 사회에 작은 보탬이나마 되었으면 좋겠다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>낮은정도</sem_class>
+				<trans>be small</trans>
+				<lr>
+					<syn type="sino">약하다</syn>
+					<ant type="grad">크다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">소리</sel_rst>
+					<n_appr arg="X">(크기)</n_appr>
+					<eg>귓가에 들려오는 소리가 너무 작아서 어떤 소리인지 알 수 없었다.</eg>
+					<eg>작은 소리에도 귀기울이는 대통령이 되겠습니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="06">
+			<sem_grp>
+				<sem_class>낮은정도</sem_class>
+				<trans>be small</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">행위</sel_rst>
+					<eg>경미는 작게 웃음지으며 영호와 눈을 맞추었다.</eg>
+					<eg>가족들이 자는 사이에 탁상등을 켜고 편지를 읽던 언니는 감격하여 작게 울었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="07">
+			<sem_grp>
+				<sem_class>낮은정도</sem_class>
+				<trans>be narrow-minded</trans>
+				<lr>
+					<ant type="grad">크다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|속성</sel_rst>
+					<eg>담력이 작은 사람이 되어서는 안 된다.</eg>
+					<eg>네 형부는 사람이 너무 작아.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="08">
+			<sem_grp>
+				<sem_class>낮은정도</sem_class>
+				<trans>be weak</trans>
+				<lr>
+					<syn type="perfect">약하다</syn>
+					<ant type="grad">강하다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">힘|(세력|형세)</sel_rst>
+					<eg>이쪽에서 당기는 힘이 저쪽보다 너무 약해.</eg>
+					<eg>신라 말기 왕실의 힘은 지방 호족들보다도 작았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="09">
+			<sem_grp>
+				<sem_class>낮은정도</sem_class>
+				<trans>be minor</trans>
+				<lr>
+					<syn type="sino">사소하다</syn>
+					<ant type="grad">중대하다</ant>
+					<ant type="grad">크다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">범죄및비행(죄|범죄|잘못|과오)</sel_rst>
+					<eg>작은 잘못도 뉘우치지 못하는 자가 어찌 큰 일을 할 수 있겠느냐?</eg>
+					<eg>저 사람은 작은 잘못밖에 저지르지 않았는데 너무 큰 벌을 받았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="10">
+			<sem_grp>
+				<sem_class>낮은정도</sem_class>
+				<trans>be do not have 31 days in a month</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">달</sel_rst>
+					<eg>6월은 30일까지밖에 없는 작은 달이다.</eg>
+					<eg>이번 달이 작은 달이지?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="11">
+			<sem_grp>
+				<sem_class>낮은정도</sem_class>
+				<trans>be small</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">온</sel_rst>
+					<eg>내 고향은 경치가 너무 아름다워서 작은 금강산, 즉 소금강이라 불린다.</eg>
+					<eg>그 사람은 재계에서 작은 거인이라 불린다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<idm_grp>
+			<idm>손이 작다</idm>
+			<idm>그릇이 작다</idm>
+			<idm>통이 작다</idm>
+			<idm>간이 작다</idm>
+		</idm_grp>
+	</entry>
+</superEntry>

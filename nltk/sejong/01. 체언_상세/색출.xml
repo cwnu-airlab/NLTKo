@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>색출</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/11</cre_date>
+				<cre_writer>이지영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/11</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/28</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>명사명사결합정보추가(색출 작업)</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/31</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>최대논항구조 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/08</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>단독행위에서 획득행위로 수정;맥스엔 정보 보완;명사연어에 '~ 작전' 추가</mod_note>
+			</mod>
+			<note>%add=색출을 중단하다|색출에 전념하다</note>
+			<note>2002/05/15(김진형)</note>
+			<note>2002/05/25(이성헌)@org기술</note>
+			<note>2003/07/02(한동훈)예문 추가</note>
+			<note>2003/07/11(김미현)</note>
+			<note>@comb_aj기술(~이 대대적이다}</note>
+			<note>@comb_v의 내용을 %add로 이동</note>
+			<note>@sem수정('물리적행위'에서'단독행위'로)</note>
+			<note>@supv항목의 조사 앞 뒤의 괄호제거</note>
+			<note>단위표현 정보 추가</note>
+			<note>술어명사 논항제약 정보 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">索出</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>경찰은 범인 ~에 총력을 기울였다.</eg>
+				<eg>선생님은 학생들의 불법 소지품을 ~하고 압수했다.</eg>
+				<trans>search</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>획득행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 대대적이다</comb_aj>
+				<comb_n type="compound">~ 작업</comb_n>
+				<comb_n type="compound">~ 작전</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>								
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 중단하다</form>
+					<frame></frame>
+				</comb_v>								
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 전념하다</form>
+					<frame></frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|구체물</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

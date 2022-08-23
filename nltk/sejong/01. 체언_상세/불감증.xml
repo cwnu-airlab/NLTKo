@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>불감증</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/16</cre_date>
+				<cre_writer>남길임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/16</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/02</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/02</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1의 명사정보에 '도덕, 안전 ~' 추가;동사정보에서 '걸리다' 유형값 수정 및 프레임 정보 추가;동사정보에 '빠지다' 추가;맥스엔, 논항 의미부류 정보 추가;센스2의 명사정보에 '성 ~' 추가;동사정보의 '걸리다' 유형값 수정 및 프레임 정보 추가;동사정보에 '치료하다' 추가;맥스엔 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/08</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1, 2에 단위표현 정보 추가</mod_note>
+			</mod>
+			<note>2002/08/16(남길임)</note>
+			<note>2002/08/16(이병규)</note>
+			<note>2002/10/11(박동호)</note>
+			<note>2003/06/30(류희선)센스1의 대역어 수정</note>
+			<note>센스2의 예문추가</note>
+			<note>2003/09/16(박진호)센스2 격틀, 선택제약, comb_v 추가. 센스1의 의미부류를 '현상'으로 해야 할지도. 통사적 행태는 '질병및증세'에 가까우나 개념적으로는 아님</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">不感症</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>요즘 우리 사회는 도덕 ~에 걸린 것 같다.</eg>
+				<trans>insensibility</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>질병및증세</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 심각하다</comb_aj>
+				<comb_n type="compound">도덕 ~</comb_n>
+				<comb_n type="compound">안전 ~</comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~에 걸리다</form>
+					<frame>X-이 Y-에대해 ~에 걸리다</frame>
+					<frame>X-이 Y ~에 걸리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~에 빠지다</form>
+					<frame>X-이 Y-에대해 ~에 빠지다</frame>
+					<frame>X-이 Y ~에 빠지다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">상황값|신체상태|심리상태|우발사건|규범|관습</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>정신과에 와서 ~을 호소하는 환자들이 간혹 있다.</eg>
+				<eg>그는 ~에 걸린 것 같은 그녀를 설득해 병원으로 데려갔다.</eg>
+				<trans>frigidity</trans>
+				<domain>의학</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>질병및증세</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 심하다</comb_aj>
+				<comb_aj type="magn">~이 심각하다</comb_aj>
+				<comb_n type="compound">성 ~</comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~에 걸리다</form>
+					<frame>X-이 ~에 걸리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 ~이다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 치료하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

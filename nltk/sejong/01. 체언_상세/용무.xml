@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>용무</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/24</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/14</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/25</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_aj, n_v에 기술</mod_note>
+				<mod_note>n_aj 수정</mod_note>
+				<mod_note>syn 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/01</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/08/24(김현승)볼일에 해당하는 적절한 의미부류가 없음</note>
+			<note>2002/09/01(고길수)예문 추가</note>
+			<note>의미부류를 '의무'에서 '추상적대상'으로 수정, 단 재검토 필요</note>
+			<note>단위표현 추가</note>
+			<note>comb_v의 '보다'는 add로 수정</note>
+			<note>add 정보 일부 추가</note>
+			<note>'누구에게 ~가 있다'를 기능동사로 기록해야 하는지 검</note>
+			<note>2002/10/11(이성헌)의미부류문제확인 건의</note>
+			<note>2003/06/28(권오희)comb_aj에 '긴한 ~'추가</note>
+			<note>2003/08/07(이은경)</note>
+			<note>2003/08/14(권오희)</note>
+			<add>동사결합구조로 '~를 말하다|보다|끝내다|마치다</add>
+			<add>~가 있다|끝나다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">用務</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 ~가 있어서 일찍 퇴근하였다.</eg>
+				<eg>그는 ~를 보러 출장을 갔다.</eg>
+				<eg>나는 너에게 ~가 있어 찾아왔다.</eg>
+				<trans>business</trans>
+				<trans>thing to do</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<syn type="kor">볼일</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 급하다</comb_aj>
+				<comb_aj type="appr">~가 특별하다</comb_aj>
+				<comb_aj type="appr">~가 바쁘다</comb_aj>
+				<comb_aj type="appr">~가 없다</comb_aj>
+				<comb_aj type="appr">~가 있다</comb_aj>
+				<comb_aj type="appr" pred="no">긴한 ~</comb_aj> <!--서술형 불가능 표시(송근영)-->
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 마치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 끝내다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 말하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 끝나다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

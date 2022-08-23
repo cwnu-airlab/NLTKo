@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>표준</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/08/30</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/01</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/20(이성헌)</note>
+			<note>2003/02/18(남길임)의미부류 수정</note>
+			<note>2003/02/24(김이정)센스1 의미부류 '속성'을 '등급속성값'으로 수정</note>
+			<note>comb_v, commb_n정보를 add로 이동</note>
+			<note>동사자유구성 정보 수정</note>
+			<note>센스2 의미부류 '속성'을 '중간급'으로 수정</note>
+			<note>의미부류 정보 수정</note>
+			<note>합성어 추가(이선웅)</note>
+			<add>~에 근거하다(반영, 이선웅)</add>
+			<add>~으로 삼다(반영, 이선웅)</add>
+			<add>~을 따르다|세우다|정하다(반영, 이선웅)</add>
+			<add>~이상|이하(반영, 이선웅)</add>
+			<add>센스2:~에 들다|이르다(반영, 이선웅)</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">標準</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~량</der>
+			<der pos="n" type="suffix">~어</der>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~형</der>
+			<der pos="n" type="suffix">~화</der>
+			<comp pos="n" type="suffix">~가격</comp>
+			<comp pos="n" type="suffix">~검사</comp>
+			<comp pos="n" type="suffix">~규격</comp>
+			<comp pos="n" type="suffix">~모델</comp>
+			<comp pos="n" type="suffix">~사이즈</comp>
+			<comp pos="n" type="suffix">~시간</comp>
+			<comp pos="n" type="suffix">~집단</comp>
+			<comp pos="n" type="suffix">~체중</comp>
+			<comp pos="n" type="suffix">~편차</comp>
+			<comp pos="n" type="prefix">국제~</comp>
+			<comp pos="n" type="prefix">국내~</comp>
+			<comp pos="n" type="prefix">한국~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>국제화 시대에 따라 도량형도 국제 기준에 따라 새로운 ~을 정해야 한다.</eg>
+				<trans>standard</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>기준</sem_class>
+				<lr>
+					<syn type="etc">기준</syn>
+					<syn type="etc">준거</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 근거하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 따르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 삼다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 따르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 세우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 정하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>내 키 정도면 우리 나라 ~은 된다.</eg>
+				<trans>average</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>기준</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>기준</coord>
+					<coord>수준</coord>
+					<rel>모델</rel>
+					<rel>일반</rel>
+					<rel>평균</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 이상</comb_n>
+				<comb_n type="compound">~ 이하</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 근거하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 근거하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

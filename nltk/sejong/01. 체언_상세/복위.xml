@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>복위</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/17</cre_date>
+				<cre_writer>한동훈</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/17</mod_date>
+				<mod_writer>한동훈</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/17</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>명사, 동사결합 정보 추가;논항 의미제약 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/22</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">復位</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>폐비가 되었던 윤씨가 ~를 했다.</eg>
+				<trans>restoration</trans>
+				<trans>rehabilitation</trans>
+				<sem_class>개선행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 운동</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">~ 문제</comb_n> <!-- 추가함 -->
+				<comb_v type="npred_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~를 꾀하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~를 도모하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~를 반대하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~에 반대하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~에 실패하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<sel_rst arg="X">왕족|작위|직위인간|서열인간</sel_rst> <!-- 인간|인간집단 수정 -->
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

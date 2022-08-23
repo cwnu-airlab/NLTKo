@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>해방</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/20</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/17</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/19</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note>n_v 형식 수정</mod_note>
+				<mod_note>최대논항구조 수정</mod_note>
+				<mod_note>관형절제약 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/08</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/21(박동호)</note>
+			<note>2003/01/24(유영) sem수정, sel_res추가, 예문추가</note>
+			<note>2003/06/17(이성헌)</note>
+			<note>기능동사 및 논항 선택제약 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">解放</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~감</der>
+			<der pos="n" type="suffix">~구</der>
+			<der pos="n" type="suffix">~군</der>
+			<der pos="n" type="suffix">~절</der>
+			<der pos="n" type="suffix">~일</der>
+			<der pos="n" type="suffix">~둥이</der>
+			<comp pos="n" type="suffix">~운동</comp>
+			<comp pos="n" type="suffix">~단체</comp>
+			<comp pos="n" type="suffix">~국가</comp>
+			<comp pos="n" type="suffix">~전쟁</comp>
+			<comp pos="n" type="suffix">~문학</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>여자들은 억압된 성에서 ~을 해야한다.</eg>
+				<eg>현대 사회의 많은 여자들이 가정에서 ~이 되었다.</eg>
+				<eg>현대의학은 인간을 죽음에서 ~을 시켰다.</eg>
+				<eg>대한민국은 1945년 일본의 식민통치로부터 ~이 되었다.</eg>
+				<trans>liberation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">구속</ant>
+					<ant type="etc">억압</ant>
+					<rel>자유</rel>
+					<rel>탈출</rel>
+					<rel>광복절</rel>
+					<rel>노예해방</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">진정한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에게서 ~을 하다</frame>
+					<frame>X-이 Y-로부터 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 Y-에게서 ~이 되다</frame>
+					<frame>X-이 Y-로부터 ~이 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-의 Y-로부터의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

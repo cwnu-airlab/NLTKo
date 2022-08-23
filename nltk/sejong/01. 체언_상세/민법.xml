@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>민법</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/11</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/13</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>syn_grp_b수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/10/13(박진호)합성어 추가</note>
+			<add>2003/07/15(송인욱)동사자유구성으로 '~을 배우다|공부하다|가르치다|강의하다</add>
+			<add>~에 따르다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">民法</org>
+		
+			<comp pos="n" type="suffix">~학자</comp>
+			<comp pos="n" type="suffix">~총칙</comp>
+			<comp pos="n" type="suffix">~조문</comp>
+			<comp pos="n" type="suffix">~강좌</comp>
+			<comp pos="n" type="suffix">~전</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>호주제나 간통죄만 봐도 현재의 ~이 얼마나 많은 결함을 지니고 있는지 알 수 있다.</eg>
+				<eg>그녀는 후천적인 성의 전환을 인정하지 않는 현행 ~으로 인해 큰 고통을 겪었다.</eg>
+				<trans>civil law</trans>
+				<sem_class>법률</sem_class>
+				<lr>
+					<coord>형법</coord>
+					<coord>상법</coord>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 완전하다</comb_aj>
+				<comb_aj type="appr">~이 완벽하다</comb_aj>
+				<comb_aj type="appr">~이 불완전하다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 배우다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 가르치다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 공부하다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 강의하다</form>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

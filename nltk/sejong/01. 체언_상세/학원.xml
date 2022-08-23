@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>학원</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/08/10</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/04</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/27</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note>형태정보구획 b의 합성어 기술 대부분을 통사정보의 n_n 항목으로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/07</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/14</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/08/10(이성헌,김종명)</note>
+			<note>2003/10/04(박진호)센스1,2 의미부류 수정. 센스1은 '學園'으로 별도 엔트리로 처리해야 할지도</note>
+			<note>동의어 입력</note>
+			<note>명사 자유구성 추가</note>
+			<note>센스 2의 동사 자유구성 추가</note>
+			<note>센스 2의 동의어 추가</note>
+			<note>센스 2의 의미부류 수정</note>
+			<note>의미부류 수정</note>
+			<note>합성어 입력</note>
+			<note>형용사 자유구성 입력</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">學院</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~생</der>
+			<der pos="n" type="suffix">~비</der>
+			<der pos="n" type="prefix">대~</der>
+			<comp pos="n" type="suffix">~증</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~ 폭력은 심각한 사회문제로 대두되고 있다</eg>
+				<trans>school</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>교육기관</sem_class>
+				<lr>
+					<syn type="etc">학교</syn>
+					<ant type="temp"></ant>
+					<hyper>교육기관</hyper>
+					<hypo>초등학교</hypo>
+					<hypo>중학교</hypo>
+					<hypo>고등학교</hypo>
+					<hypo>대학교</hypo>
+					<mero>선생</mero>
+					<mero>학생</mero>
+					<rel>교육</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">신성한 ~</comb_aj>
+				<comb_n type="compound">~ 폭력</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>대부분의 학생들이 한 개 이상의 ~에 다닌다</eg>
+				<trans>academy</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>교육기관</sem_class>
+				<lr>
+					<syn type="etc">사설~</syn>
+					<syn type="etc">사설강습소</syn>
+					<ant type="temp"></ant>
+					<hyper>교육기관</hyper>
+					<hypo>외국어</hypo>
+					<hypo>보습</hypo>
+					<hypo>입시</hypo>
+					<hypo>고시</hypo>
+					<hypo>영어</hypo>
+					<coord>학교</coord>
+					<mero>강사</mero>
+					<mero>수강생</mero>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">외국어 ~</comb_n>
+				<comb_n type="compound">보습 ~</comb_n>
+				<comb_n type="compound">입시 ~</comb_n>
+				<comb_n type="compound">고시 ~</comb_n>
+				<comb_n type="compound">운전 ~</comb_n>
+				<comb_n type="compound">영어 ~</comb_n>
+				<comb_n type="compound">컴퓨터 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 다니다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 등록하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 끊다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 다니다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

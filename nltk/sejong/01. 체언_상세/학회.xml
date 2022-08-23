@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>학회</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/23</cre_date>
+				<cre_writer>이하영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/15</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/02</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2005/10/08</mod_date>
+                                <mod_writer>박만규</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+            <mod>
+				<mod_date>2007/09/14</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>            
+			<note>'사건현상'으로의 sense를 하나 추가함</note>
+			<note>2002/08/24(박동호)sense1에서 add에 '~에 가입하다|참여하다' 추가함</note>
+			<note>2002/10/03(고길수)센스1관련 add에 '~를 구성하다|조직하다' 추가</note>
+			<note>2003/05/31(서진숙)</note>
+			<note>2003/09/15(이성헌)</note>
+			<note>add에 복합어 정보 추가</note>
+			<note>sense1의 예문 수정</note>
+			<note>sense2의 comb_v에 '~가 열리다|개최되다</note>
+			<note>sense2의 supv와 sel_res를 기재함</note>
+			<note>sense2의 uni에 '번|회|차례' 기재함</note>
+			<note>~을 열다|개최하다'를 기재함</note>
+			<note>센스2의 comb_v 표기법 수정</note>
+			<note>센스2의 예문 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">學會</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 여러 분야의 ~에 가입하고 있다.</eg>
+				<eg>그는 국어학 ~에서 장을 맡고 있다.</eg>
+				<eg>젊은 연구자들은 새로운 ~를 만들기 위하여 모임을 가졌다.</eg>
+				<trans>learned society</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>학술단체</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">국제 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 가입하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+						<form vcompound="no">~에 참여하다</form>
+						<frame></frame>
+					</comb_v>
+				<comb_v type="narg_vpred">
+						<form vcompound="no">~를 구성하다</form>
+						<frame></frame>
+					</comb_v>
+				<comb_v type="narg_vpred">
+						<form vcompound="no">~를 조직하다</form>
+						<frame></frame>
+					</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>환경 오염에 관한 ~가 3일 동안 우리 학교에서 열렸다.</eg>
+				<eg>그는 언어 ~에서 처음으로 발표를 했다.</eg>
+				<eg>우리학교는 인문학의 역할에 대한 ~를 주최하였다.</eg>
+				<trans>colloquium</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>학술모임회의</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 열리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 개최되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 열다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 개최하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

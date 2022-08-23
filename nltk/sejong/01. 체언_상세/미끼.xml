@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>미끼</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/17</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/17</mod_date>
+				<mod_writer>류희선</mod_writer>
+				<mod_note>센스1과 2의 의미부류검토요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/05</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 의미부류 '음식'을 '속성구체물'로 수정, 센스1 n_v 수정, 센스2 의미부류 '관계추상적대상'을 '속성'으로 수정</mod_note>
+			</mod>
+			<add>~를 물다</add>
+			<add>~로 삼다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+		
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~를 삼켜 버린 물고기</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg></eg>
+				<eg>물고기는 바로 ~를 물었다.</eg>
+				<eg>낚시에 떡밥을 ~로 삼아서 멀리 던졌다.</eg>
+				<trans>bait</trans>
+				<sem_class>속성구체물</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 물다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 쓰다</form><!--'삼다'를 수정(김)-->
+				</comb_v>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>우리는 그를 잡기 위해 ~를 놓았다.</eg>
+				<eg>그가 우리의 ~를 물면 바로 경찰에 신고를 해야겠다.</eg>
+				<eg>드디어 범인이 ~에 걸려들었다.</eg>
+				<trans>decoy</trans>
+				<sem_class>속성</sem_class><!--방법으로 보는 것은 어떤지?-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 놓다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 물다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 삼다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 걸리다</form>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>서막</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/13</cre_date>
+				<cre_writer>이지영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/09</mod_date>
+				<mod_writer>남길임</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/02</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/31</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add를 각 해당 정보로 이동;센스1,2 의미부류 수정;센스2 n_v(알리다), 영어대역어 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/10</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1에 맥스엔, 선택제약 정보 추가;센스2에 맥스엔, 선택제약 정보 추가</mod_note>
+			</mod>
+			<note>%add=~이 오르다|시작되다</note>
+			<note>%add=서막을 열다</note>
+			<note>2002/05/15(김진형)</note>
+			<note>2002/05/26(이성헌)%note에 최초 교정자 기재</note>
+			<note>2003/05/07(김미순)trans에서 'an' 삭제</note>
+			<note>2003/05/09(남길임)</note>
+			<note>comb_v의 '~을 열다</note>
+			<note>sem '추상적부분'이 아닌지 검토요망</note>
+			<note>sense1의 @sem수정('예술'에서 '공연'으로)</note>
+			<note>sense2의@comb_n기술 추가</note>
+			<note>~에 불과하다|지나지 않다</note>
+			<note>~이 열리다' 삭제</note>
+			<note>서막이 열리다|펼쳐지다|시작되다|끝나다</note>
+			<note>혁명|전쟁|통일|반란의 ~</note>
+			<add>sense 1 ~을 열다</add>
+			<add>sense 2 ~이 오르다|시작되다</add>
+			<add>~에 불과하다|지나지 않다</add>
+			<add>~이 열리다|펼쳐지다|시작되다|끝나다</add>
+			<add>혁명|전쟁|통일|반란의 ~</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">序幕</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>연극의 ~이 시작되었다.</eg>
+				<trans>opening act</trans>
+				<domain>연영</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>추상적부분</sem_class><!--공연을 수정(김이정)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 공연</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 열리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 펼쳐지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 시작되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 끝나다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">문학텍스트|음악작품(오페라)|연극|공연|축제</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>대장정의 ~이 시작되었다.</eg>
+				<trans>prelude</trans>
+				<trans>beginning</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>관계추상적대상</sem_class><!--추상적부분을 수정(김이정)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">불행의 ~</comb_n>
+				<comb_n type="compound">혁명의 ~</comb_n>
+				<comb_n type="compound">전쟁의 ~</comb_n>
+				<comb_n type="compound">통일의 ~</comb_n>
+				<comb_n type="compound">반란의 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 열다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 알리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 오르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 시작되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 불과하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 지나지 않다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">사태|역사시간|지속속성시간|기술|기호|기호체계|관습|학문과목|제도|종교|사조|예술|문학텍스트|작품|방속물|산업|역사|</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

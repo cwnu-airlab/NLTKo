@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+
+<superEntry>
+	<orth>달구다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/21</cre_date>
+				<cre_writer>임동식</cre_writer>
+				<cre_writer>권재일</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>증가행위</sem_class>
+				<trans>heat</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|재료성분(철|쇠붙이)</sel_rst>
+					<sel_rst arg="Z" tht="INS">(불|불길|아궁이|도가니)</sel_rst>
+					<eg>뜨거운 불길로 쇠를 달구어 찬물에 빨리 식히면 강철이 만들어진다.</eg>
+					<eg>그는 아궁이에 쇠붙이들을 달구어서 녹인 다음 다시 철판으로 만들었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">(불길|불|장작불|태양)</sel_rst>
+					<sel_rst arg="Y" tht="THM">장소(운동장|대지|구들장|바위)|구체물|신체부위(몸)</sel_rst>
+					<eg>태양이 그의 몸을 뜨겁게 달구었다.</eg>
+					<eg>장작불이 아랫목을 뜨끈하니 달구고 있었다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<col_grp>
+					<col type="magn">뜨겁게</col>
+				</col_grp>
+			</com>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>증가행위</sem_class>
+				<trans>make someone ashamed</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">추상적대상(말|사실)|행위</sel_rst>
+					<sel_rst arg="Y" tht="EXP">(얼굴|몸)|추상적대상(마음)</sel_rst>
+					<eg>그의 날카로운 지적이 내 얼굴을 벌겋게 달구었다.</eg>
+					<eg>내가 그에게 잘못했다는 사실이 내 마음을 달구었다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<col_grp>
+					<col type="manner2">벌겋게</col>
+				</col_grp>
+			</com>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>가중되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/13</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/16</mod_date>
+				<mod_note>변이형 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/17</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>가중시키다 로 한 예문 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">가중이 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<org lg="si">加重_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>증가</sem_class>
+				<trans>grow heavier</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">사태(부담|근심|혼란)</sel_rst>
+					<eg>이처럼 극렬한 불법 노사분규까지 겹칠 경우 국민의 불안이 가중되고 경제혼란마저 초래될 수 있다.</eg>
+					<eg>80년대 들어서면서 70년대부터 문제가 된 인플레적인 고도성장의 후유증으로 경제의 어려움이 가중되기 시작했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>0</sem_class>
+				<trans>be added</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">재료성분|크기</sel_rst>
+					<eg>카파 타입의 사람들은 카파 성분이 가중되는 음식물에 대해 매우 민감하다.</eg>
+					<eg>카메라 가방이 그의 배 위로 그 무게가 가중되며 사정없이 찍어 눌렀다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

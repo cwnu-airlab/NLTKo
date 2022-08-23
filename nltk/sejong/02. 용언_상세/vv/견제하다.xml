@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>견제하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/08/26</cre_date>
+				<cre_writer>김현권</cre_writer>
+				<cre_writer>박정준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2001/09/03</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/03/21</mod_date>
+				<mod_writer>목정수</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/09/09</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>형태정보, 의미정보 추가</mod_note>
+				<mod_note>격틀 및 프레임그룹 조정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">견제를 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">牽制_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>제약</sem_class>
+				<trans>check</trans>
+				<lr>
+					<hyper>막다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|인간집단</sel_rst>
+					<n_appr arg="Y">행위|사태</n_appr>
+					<eg>그는 이번 경선에 출마할 가능성이 있는 사람들을 견제하는 데 많은 노력을 쏟고있다.</eg>
+					<eg>입법부와 사법부가 행정부를 적절히 견제해야 민주주의가 제대로 이루어질 수 있다.</eg>
+					<eg>그들은 김 총재의 독주를 견제할 수 있는 능력이 없다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것</sel_rst>
+					<eg>그처럼 중요한 결정을 대통령 혼자 제멋대로 하는 것을 견제할 필요가 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="reci" n="01">
+				<frame>X=N0-이 Y=N1-와 서로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="COM">인간|인간집단</sel_rst>
+					<eg>여당이 야당과 서로 적절히 견제해야 일당독재를 막을 수 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="reci" n="01">
+				<frame>X+Y=N0-이 서로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="AGT">인간|인간집단</sel_rst>
+					<eg>남한과 북한이 서로 심각하게 견제하고 있는 중이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>제약</sem_class>
+				<trans>throw a ball to peg a runner on the base</trans>
+				<domain>운동</domain>
+				<lr>
+					<hyper>막다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|인간집단</sel_rst>
+					<eg>투수는 타석 쪽에는 신경도 쓰지 않는듯 연신 1루 주자만 견제하고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

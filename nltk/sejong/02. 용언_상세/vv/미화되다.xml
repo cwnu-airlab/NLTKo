@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>미화되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/10</cre_date>
+				<cre_writer>김현권</cre_writer>
+				<cre_writer>조현경</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/10</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/05</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">미화가 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<org lg="si">美化_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>전이</sem_class>
+				<trans>be decorated</trans>
+				<trans>ornamented</trans>
+				<trans>adorned</trans>
+				<lr>
+					<syn type="kor">꾸며지다</syn>
+					<syn type="perfect">장식되다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물|장소</sel_rst>
+					<eg>크리스마스가 되어 나무들이 미화되니 길거리가 너무 아름답다.</eg>
+					<eg>환경평가를 위해 미화된 교실에서 이전의 모습들은 찾아볼 수 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>전이</sem_class>
+				<trans>be made up</trans>
+				<trans>be invented</trans>
+				<trans>fabricated</trans>
+				<trans>forged</trans>
+				<lr>
+					<syn type="kor"></syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상|사태</sel_rst>
+					<eg>그의 행동들은 너무 미화되어 믿음이 안 간다.</eg>
+					<eg>아이들은 미화된 이야기들을 더 좋아한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

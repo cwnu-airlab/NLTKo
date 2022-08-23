@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>박학</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/10</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/14</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>의미부류 '긍정적인성'을 수정, n_v narg을 npred로 수정</mod_note>
+			</mod>
+			<note>2003/10/14(박진호)max_n, 선택제약 추가</note>
+			<add>2003/08/10(송인욱)동사자유구성으로 '~이 빛나다|드러나다</add>
+			<add>~을 자랑하다|뽐내다|감추다|숨기다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">博學</org>
+		
+			<comp pos="n" type="suffix">~다식</comp>
+			<comp pos="a" type="suffix">~하다</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>세상에서 제일 꼴 보기 싫은 사람은 자신의 ~을 뽐내는 사람이다.</eg>
+				<eg>그녀의 ~이 빛난 것은 마지막 문제에서였다.</eg>
+				<trans>great learning</trans>
+				<trans>erudition</trans>
+				<sem_class>긍정적인성속성값</sem_class>
+				<lr>
+					<syn type="etc">박식</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 빛나다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 드러나다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 자랑하다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 뽐내다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 감추다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 숨기다</form>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

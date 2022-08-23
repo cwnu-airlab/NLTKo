@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>맹연습하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/11</cre_date>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/11</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/05</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">맹연습을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<org lg="si">猛練習_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>do hard training</trans>
+				<trans>carry out rigorous practice</trans>
+				<trans>exercises</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<eg>한국 축구 선수들이 월드컵을 앞두고 수개월 동안 맹연습하고 있다.</eg>
+					<eg>음대 학생들 몇몇은 시내 중심가에서 불우이웃돕기 기금 모금 거리 음악회, 양로원 고아원 위문연주 등의 계획을 세우고 맹연습하고 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">악기|예술(노래|무용)|물리적행위(운동|연기|연주)</sel_rst>
+					<eg>철호는 거의 종일 노래방에 머물며 출전곡 ?천년바위?를 맹연습했다.</eg>
+					<eg>그 영화의 주연배우들은 영화를 위해 탱고와 살사를 맹연습했다.</eg>
+					<eg>한달 앞으로 다가온 피아노 경연대회를 대비하여 영훈이는 피아노를 맹연습하고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

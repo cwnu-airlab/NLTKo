@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>입</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/15</cre_date>
+				<cre_writer>김미현</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/03</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/21</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<mod>
+			<mod_date>2007/07/30</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/01/26(남길임)</note>
+			<note>예문 수정</note>
+			<note>의미부류 검토 요</note>
+			<note>2003/02/03(김이정)idnv '~에 오르내리다' 추가</note>
+			<note>속담 추가</note>
+			<note>센스3 영어대역어 'the number of persons who eat'을 'mouth (to feed)|dependent'로 수정</note>
+			<note>센스3 의미부류 '속성'을 '속성인간'으로 수정</note>
+			<note>add 센스3 '~을 줄이다|늘이다' 추가</note>
+			<note>센스4 영어대역어 추가</note>
+			<note>센스4 comb_aj에 '~이 험하다' 추가</note>
+			<note>센스4 의미부류 '언어'를 '속성'으로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~가</der>
+			<comp pos="n" type="suffix">~가심</comp>
+			<comp pos="n" type="suffix">~막음</comp>
+			<comp pos="n" type="suffix">~말</comp>
+			<comp pos="n" type="suffix">~맛</comp>
+			<comp pos="n" type="suffix">~맞춤</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="np">~에 발린 소리;~에 침 바른 소리</idm>
+			<idm type="na">~이 더럽다</idm>
+			<idm type="na">~이 무겁다</idm>
+			<idm type="na">~이 가볍다</idm>
+			<idm type="na">~이 싸다</idm>
+			<idm type="nv">~을 놀리다</idm>
+			<idm type="nv">~을 다물다</idm>
+			<idm type="nv">~을 떼다</idm>
+			<idm type="nv">~에 오르내리다</idm>
+			<idm type="prv">~은 여럿인데 한소리</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 여자는 ~이 너무 크다</eg>
+				<trans>mouth</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>신체부위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>눈</coord>
+					<coord>귀</coord>
+					<coord>코</coord>
+					<holo>몸</holo>
+					<holo>신체</holo>
+					<mero>눈동자</mero>
+					<mero>동공</mero>
+					<rel>눈썹</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="min">~이 작다</comb_aj>
+				<comb_aj type="magn">~이 크다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 열리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 벌리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 다물다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 닫다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 열다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 그녀의 손등에 ~을 맞추었다</eg>
+				<trans>lips</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>통합요망(23114로)</sem_class>
+				<lr>
+					<syn type="etc">입술</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 빨갛다</comb_aj>
+				<comb_aj type="appr">~이 부르트다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 오무리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 내밀다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>가난한 집에 ~이 더 늘어나 살림은 더욱 어려워졌다.</eg>
+				<trans>mouth (to feed)</trans>
+				<trans>dependent</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>속성인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 많다</comb_aj>
+				<comb_aj type="min">~이 적다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 늘다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 줄다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 덜다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="narg_vpred">
+					<form vcompound="no">~을 줄이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 늘이다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="4">
+			<sem_grp>
+				<eg>그 아저씨는 ~이 험하다</eg>
+				<trans>words</trans>
+				<trans>tongue</trans>
+				<trans>speech</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="etc">속성</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 걸다</comb_aj>
+				<comb_aj type="appr">~이 거칠다</comb_aj>
+				<comb_aj type="appr">~이 험하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

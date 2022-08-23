@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>쇼</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/03/27</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/13</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1, 2, 3에 논항명사구 정보 추가;센스1의 동사결합 정보 수정;센스3의 의미부류 수정;센스3의 동사결합 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/21</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스2를 우발사건에서 결과행위로 수정;'벌어지다'를 일반동사로 수정;</mod_note>
+			</mod>
+			<note>2002/04/17(김종명)센스1 기능동사 정보 입력;선택제약 정보 입력;센스2 기능동사 정보 입력;선택제약 정보 입력;동사연어구성 정보 입력</note>
+			<note>2002/04/17(기영인)센스1 선택제약 정보 추가</note>
+			<note>2002/05/26(고길수)센스1의 형용사자유구성에 '~가 화려하다'를 추가;센스1의 동사자유구성으로 '~를 열다|보여주다|벌이다|개최하다;~가 열리다'를 추가;pre_s에 'S는 ~'를 추가;센스2에서 여격의 논항이 필수적인 것은 아닌 듯, 우선 여격 논항은 삭제하였음, 추후 검토 요망;의도성이 없는 순수한 사건의 의미를 분할하여 센스 3을 추가;센스3의 동사자유구성으로 '~가 벌어지다'를 추가</note>
+			<note>2003/08/11(기영인)센스2와 센스3 자리바꿈;바뀐 센스2 의미부류 수정;바뀐 센스3 의미부류 수정</note>
+			<note>2003/09/08(목정수)add추가</note>
+			<note>2003/09/13(기영인)</note>
+			<add>~를 보다|구경하다|감상하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="en">show</org>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리는 무대 위에서 펼쳐지는 화려한 ~에 빠져들었다.</eg>
+				<trans>show</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>공연</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 화려하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 구경하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>X ~</max_n_str> <!-- 추가 -->
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<cl type="uni">편</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>계단에서 발이 미끄러지는 바람에 한바탕 ~가 벌어졌다.</eg>
+				<trans>show</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>결과행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 벌어지다</form>
+					<frame>~가 벌어지다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> <!-- narg_vpred 수정 -->
+					<form vcompound="no">~를 부리다</form>
+					<frame>X-이 ~를 부리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가 -->
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>그의 친절함도 결국 다 ~였다.</eg>
+				<trans>show</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>결과행위</sem_class> <!-- 부정적결과행위 수정, 범죄및비행? -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar"> <!-- narg_vpred 수정 -->
+					<form vcompound="no">~를 부리다</form>
+					<frame>X-이 ~를 부리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가 -->
+				<sel_rst arg="X">인간|인간집단</sel_rst> <!-- 인간집단 추가 -->
+				<cl type="uni">번</cl> <!-- 추가 -->
+				<cl type="uni">차례</cl> <!-- 추가 -->
+				<cl type="uni">회</cl> <!-- 추가 -->
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

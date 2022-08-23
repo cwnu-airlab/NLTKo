@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>구매</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/08/03</cre_date>
+				<cre_writer>안근종</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/31</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/20</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>의미부류 '결과행위'를 '방향성행위'로 수정;동사결합 및 최대논항명사구에 Z논항 추가, 선택제약 수정;단위표현 '회' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/30</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>1999/09/07(안근종)</note>
+			<note>2003/02/24(이호영)예문 추가</note>
+			<note>2003/03/31(박만규)</note>
+			<note>기존 동사-연어구성의 정보를 향후 추가정보로 이동</note>
+			<note>논항 선택제약 기술</note>
+			<note>의미하위부류 수정</note>
+			<add>동사-자유구성에 '~를 부추기다|주선하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">購買</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~력</der>
+			<der pos="n" type="suffix">~자</der>
+			<der pos="n" type="suffix">~욕</der>
+			<der pos="n" type="suffix">~처</der>
+			<comp pos="n" type="suffix">~대금</comp>
+			<comp pos="n" type="prefix">충동~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~는 계획적으로 해야 한다.</eg>
+				<eg>요즘은 인터넷에서 여러 명이 공동으로 물건을 싸게 ~를 할 수도 있게 되었다.</eg>
+				<trans>purchase</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>획득행위</sem_class>
+				<lr>
+					<syn type="etc">구입</syn>
+					<ant type="etc">판매</ant>
+					<hyper>매매</hyper>
+					<coord>판매</coord>
+					<rel>시장</rel>
+					<rel>거래</rel>
+					<rel>상품</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 유리하다</comb_aj>
+				<comb_aj type="appr">~가 불리하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 Z-에게 ~를 하다</frame>
+					<frame>X-이 Y-을 Z-로부터 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-에의해 Y-이 ~가 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>Z-로부터의 X-의 Y ~</max_n_str>
+				<max_n_str>X-에의한 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">구체물|권리</sel_rst>
+				<sel_rst arg="Z">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

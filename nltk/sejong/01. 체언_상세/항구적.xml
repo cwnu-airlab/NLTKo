@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>항구적</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/05/06</cre_date>
+				<cre_writer>유영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/06</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/13</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>새 지침에 맞추어 전반적 형식 수정</mod_note>
+				<mod_note>내부 구조, 명사 결합, 수식어, 동사 결합 관련 정보 추가</mod_note>
+				<mod_note>예문 수정</mod_note>
+				<mod_note>의미부류 수정(상태에서 속성값으로)</mod_note>
+			</mod>
+			<note>2003/05/06(유영) comp, comb_ida기술</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="R_S">항구+적</str>
+			<org lg="si">恒久的</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="prefix">반~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리 헌법은 ~인 세계 평화와 인류 공영에 이바지할 것을 명시하고 있다.</eg>
+				<trans>permanent</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성값</sem_class>
+				<lr>
+					<syn type="etc">영구적</syn>
+					<ant type="etc">반항구적</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 평화</comb_n>
+				<comb_n type="compound">~ 시설</comb_n>
+				<comb_n type="compound">~ 대책</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~ 이다</form>
+					<frame>X-이 ~ 이다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">추상적대상|사태</sel_rst> <!--(호정은) 제약이 거의 없어 '온'이라 볼 수도 있을 듯-->
+				<cl type="temp"></cl>
+				<prt>~으로</prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n yn="no"/>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

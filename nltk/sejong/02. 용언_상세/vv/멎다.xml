@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>멎다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>종료</sem_class>
+				<trans>stop</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">기상관련물(비|바람)</sel_rst>
+					<eg>비가 멎었다.</eg>
+					<eg>풍랑이 멎기 전에는 떠날 수가 없다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">생물생리현상(출혈|호흡|숨|맥박|피)|(심장)</sel_rst>
+					<eg>우리는 환자의 출혈이 멎도록 가능한 모든 응급처치를 했다.</eg>
+					<eg>차가운 얼음을 갑자기 가슴에 대자 나는 심장이 멎는 듯한 느낌이 들었다.</eg>
+					<eg>나는 나이 숨이 멎을 때까지 이 일을 계속 하겠다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">기계(발동기|시계)</sel_rst>
+					<eg>건전지를 간 지가 얼마 안 되는데 시계가 멎어 있었다.</eg>
+					<eg>잘 돌아가던 발동기가 갑자기 멎었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">소리(울음소리|목탁소리)</sel_rst>
+					<eg>개구리 울음 소리마저 멎으니 사방은 쥐죽은 듯 고요했다.</eg>
+					<eg>멀리서 들리던 목탁 소리가 딱 멎었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(시간)</sel_rst>
+					<eg>시간이 이대로 멎어 있으면 좋겠다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에서 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">교통기관(승강기|버스)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소(이층|정류장)</sel_rst>
+					<eg>승강기가 갑자기 삼층에서 멎었다.</eg>
+					<eg>버스가 고장으로 삼단지에서 멎었고 승객들은 모두 내려서 다음 버스를 기다려야 했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>첫걸음</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/04/17</cre_date>
+				<cre_writer>유영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/17</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note>sens2 추가기술;sens1 sem수정;</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/11</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>내적구성 정보 수정;의미1의 의미부류 정보 수정;동사결합, 논항명사구, 선택제약 정보 추가;센스2의 의미부류 수정;동사결합 정보 추가;논항명사구, 선택제약 정보 추가;단위표현 정보 삭제;센스3 추가</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/05</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<add>~에 달려있다(sens1)</add>
+			<add>~을 내딛다|시작하다(sens1)</add>
+			<add>~을 떼다|놓다|내딛다|시작하다(sens2)</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="etc">첫+걸음</str>
+			<!-- N_N, px(첫)+n(걸음) 수정, 관형사(첫)+명사(걸음) -->
+			<org lg="temp"></org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>히말라야 등반대는 역사적인 ~을 내디뎠다.</eg>
+				<trans>first step</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>개시행위</sem_class>
+				<!-- 행위 수정, 이동행위?? -->
+				<lr>
+					<syn type="etc">제일보</syn>
+					<syn type="etc">초보</syn>
+					<ant type="temp"></ant>
+					<rel>개혁</rel>
+					<rel>공부</rel>
+					<rel>설레다</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 순조롭다</comb_aj>
+				<comb_aj type="magn">~이 험난하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 내딛다</form>
+					<frame>X-이 Y-에 ~을 내딛다</frame>
+					<frame>X-이 S것-에 ~을 내딛다</frame>
+					<frame>X-이 S데-에 ~을 내딛다</frame>
+					<frame>X-이 Y-로 ~을 내딛다</frame>
+					<frame>X-이 S것-로 ~을 내딛다</frame>
+					<frame>X-이 S데-로 ~을 내딛다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 떼다</form>
+					<frame>X-이 Y-에 ~을 떼다</frame>
+					<frame>X-이 S것-에 ~을 떼다</frame>
+					<frame>X-이 S데-에 ~을 떼다</frame>
+					<frame>X-이 Y-로 ~을 떼다</frame>
+					<frame>X-이 S것-로 ~을 떼다</frame>
+					<frame>X-이 S데-로 ~을 떼다</frame>
+				</comb_v>
+				<!-- 결합 정보 유형이 적절한지 검토 필요 -->
+				<max_n_str>X-의 Y-에의 ~</max_n_str>
+				<max_n_str>X-의 S것-에의 ~</max_n_str>
+				<max_n_str>X-의 S데-에의 ~</max_n_str>
+				<max_n_str>X-의 Y-로의 ~</max_n_str>
+				<max_n_str>X-의 S것-로의 ~</max_n_str>
+				<max_n_str>X-의 S데-로의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">행위|사건|상태변화|장소|인간집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>아기가 돌이 지나자마자 ~을 떼기 시작했다.</eg>
+				<trans>first step</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>이동행위</sem_class>
+				<!-- 이동행위 수정 -->
+				<lr>
+					<syn type="etc">첫걸음마</syn>
+					<ant type="temp"></ant>
+					<rel>아기</rel>
+					<rel>돌</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 어렵다</comb_aj>
+				<comb_aj type="appr">~이 힘겹다</comb_aj>
+				<comb_aj type="appr">~이 불안하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 떼다</form>
+					<frame>X-이 ~을 떼다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<!-- cl type="uni">걸음</cl -->
+				<!-- cl type="uni">발</cl -->
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>유럽은 ~이어서 매우 긴장이 된다.</eg>
+				<trans>first visit</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>이동행위</sem_class>
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="temp"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에 ~을 하다</frame>
+					<frame>X-이 Y-에게 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에의 ~</max_n_str>
+				<max_n_str>X-의 Y-에게의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|장소</sel_rst>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

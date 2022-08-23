@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>특진시키다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/27</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>곽새라</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/08/14</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">특진을 시키다</var>
+			<cntr opt="obl" type="i"/>
+			<org lg="si">特進__</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>사동적행위</sem_class>
+				<trans>make someone promote specially</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 W=N3-에서 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">역할인간|기관</sel_rst>
+					<sel_rst arg="Y" tht="THM">역할인간</sel_rst>
+					<sel_rst arg="Z" tht="FNS">계급인간|역할</sel_rst>
+					<sel_rst arg="W" tht="SRC">계급인간|역할</sel_rst>
+					<eg>정부는 서해 교전 참가자를 모두 이전 계급에서 한 계급씩 특진시켰다.</eg>
+					<eg>대통령은 이번 전투에서 큰 공을 세운 김똘똘 장군을 대장에서 원수로 특진시켰다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

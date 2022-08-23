@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>공기</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/22</cre_date>
+				<cre_writer>송길룡</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/06</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/23</mod_date>
+				<mod_writer>임근석</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/01/07(이하영)sense1의 예문 추가</note>
+			<note>2003/03/06(고길수)센스1의 형용사결합에 '~가 신선하다|깨끗하다|상쾌하다' 추가</note>
+			<note>add에 센스2의 동사결합 정보와 명사구 정보 추가</note>
+			<note>sense1의 동사자유구성을 add항목으로 옮김</note>
+			<note>sense1의 의미부류를 자연물에서 기체로 수정</note>
+			<note>sense1의 형용사자유구성에 '~가 좋다'추가</note>
+			<note>sense2의 예문 추가</note>
+			<note>sense2의 의미부류 불확실</note>
+			<note>긴장된'은 형용사자유구성으로 수정</note>
+			<note>센스1의 pre_d에서 '~' 삭제</note>
+			<note>센스2의 magn에 있는 '험악하다</note>
+			<note>센스2의 pre_d의 '~'를 '이런|저런|그런 ~'로 수정</note>
+			<note>센스2의 의미부류를 '속성'에서 '추상적대상'으로 수정, 단 '분위기' 등과 같이 묶이는 별도 부류 설정 필요</note>
+			<note>연세사전을 참고하여 entry5 추가</note>
+			<add>sense1의 동사자유구성 '~가 빠지다</add>
+			<add>~를 마시다|빼다' 추가</add>
+			<add>센스2의 경우 반드시 'X-의 ~'와 같은 구성이 되어야 할 듯함</add>
+			<add>센스2의 동사결합으로 '~가 흐르다|감돌다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">空氣</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~구</der>
+			<der pos="n" type="suffix">~압</der>
+			<comp pos="n" type="suffix">~구멍</comp>
+			<comp pos="n" type="suffix">~베개</comp>
+			<comp pos="n" type="suffix">~총</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="na">~가 팽팽하다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 동네는 ~가 좋다.높은 산에 올라 맑은 ~를 마시고 싶습니다.</eg>
+				<trans>air</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>기체</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>기체</hyper>
+					<rel>산소</rel>
+					<rel>가스</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 맑다</comb_aj>
+				<comb_aj type="appr">~가 탁하다</comb_aj>
+				<comb_aj type="appr">~가 신선하다</comb_aj>
+				<comb_aj type="appr">~가 깨끗하다</comb_aj>
+				<comb_aj type="appr">~가 상쾌하다</comb_aj>
+				<comb_aj type="appr">~가 좋다</comb_aj>
+				<comb_aj type="appr">~가 나쁘다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이 방에는 수상한 ~가 감돌고 있다.힘깨나 쓰는 그 두 학생이 들어오자, 교실의 ~가 이내 험악해졌다.</eg>
+				<trans>atmosphere</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<syn type="etc">분위기</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 어색하다</comb_aj>
+				<comb_aj type="appr">~가 부드럽다</comb_aj>
+				<comb_aj type="appr">~가 험악하다</comb_aj>
+				<comb_aj type="appr">~가 긴장되다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 감돌다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 흐르다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d>이런</pre_d>
+				<pre_d>그런</pre_d>
+				<pre_d>저런</pre_d>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/22</cre_date>
+				<cre_writer>송길룡</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/06</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/01</mod_date>
+				<mod_writer>임근석</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>'공기를 하다'와 '공기를 가지고 놀다'에서의 공기는 그 의미를 구분해야 할 것 같습니다. 따라서 놀이나 경기 의미부류의 설정이 필요할 듯</note>
+			<note>2003/01/07(이하영)예문 추가</note>
+			<note>2003/03/06(고길수)의미를 '놀이'와 '놀이도구'로 분할</note>
+			<note>기능동사구문 삭제</note>
+			<note>센스1의 pre_d에서 '~'를 '#'로 수정</note>
+			<note>센스1의 단위표현에서 '개' 삭제</note>
+			<note>센스1의 의미부류를 '추상적대상'으로 수정, 단 '놀이|운동명'의 설정이 필요함</note>
+			<note>의미부류를 놀이에서 기구로 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~놀이</comp>
+			<comp pos="n" type="suffix">~ㅅ돌</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~를 놀다</idm>
+			<idm type="nv">~를 놀리다</idm>
+			<idm type="nv">~를 놀리듯_하다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 아이는 조그만 손을 가지고서도 ~를 잘한다.여자아이들이 교실에서 ~를 하고 놀고 있었다.</eg>
+				<trans>jackstones</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>놀이</hyper>
+					<coord>구슬치기</coord>
+					<coord>딱지치기</coord>
+					<coord>제기차기</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>아이는 작은 손으로 ~를 잡으려고 애를 썼다.</eg>
+				<trans>jackstones</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>기구</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>구슬</coord>
+					<coord>딱지</coord>
+					<coord>제기</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/22</cre_date>
+				<cre_writer>송길룡</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/06</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/01</mod_date>
+				<mod_writer>임근석</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/01/07(이하영)의미부류를 시간/기간에서 속성시간으로 수정</note>
+			<note>2003/03/06(고길수)의미부류를 '속성시간'에서 '수량시간'으로 수정</note>
+			<note>pre_d에서 '~' 삭제</note>
+			<note>동사자유구성을 add항목으로 옮김</note>
+			<add>동사자유구성에 '~를 단축하다|단축시키다|조정하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">工期</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>자금 사정 때문에 ~를 단축시킬 수 밖에 없습니다.</eg>
+				<trans>period of construction</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>수량시간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>기간</hyper>
+					<coord>동면기</coord>
+					<coord>수확기</coord>
+					<coord>휴식기</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 길다</comb_aj>
+				<comb_aj type="appr">~가 짧다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="4" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/22</cre_date>
+				<cre_writer>송길룡</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/06</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/01</mod_date>
+				<mod_writer>임근석</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/01/07(이하영)예문 추가</note>
+			<note>2003/03/06(고길수)</note>
+			<note>동사자유구성을 add항목으로 옮김</note>
+			<add>동사자유구성에 '~에 담다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">空器</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~ㅅ밥</comp>
+			<comp pos="n" type="prefix">밥~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 ~를 손에 든 채 밥을 먹었다.그는 ~에 가득 담은 밥을 순식간에 먹어치웠다.</eg>
+				<trans>bowl</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>용기</sem_class>
+				<lr>
+					<syn type="etc">밥그릇</syn>
+					<ant type="temp"></ant>
+					<hyper>식기</hyper>
+					<coord>그릇</coord>
+					<coord>사발</coord>
+					<coord>컵</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 작다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="5" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/22</cre_date>
+				<cre_writer>이하영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/06</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/01</mod_date>
+				<mod_writer>임근석</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/01/07(이하영)의미부류값 불확실</note>
+			<note>2003/03/06(고길수)의미를 '기관'와 '도구'로 분할</note>
+			<note>센스1의 의미부류를 '속성값'에서 '단체'로 수정, 단 '단체'부류의 적정술어와는 잘 맞지 않음</note>
+			<note>센스2의 의미부류를 '구체인공물'로 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">公器</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>매스컴은 사회적으로 ~의 성격을 지니고 있다.</eg>
+				<trans>public institution</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>단체</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>어떤 이유에서든 ~를 남용해서는 안 된다.</eg>
+				<trans>public instrument</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>구체인공물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

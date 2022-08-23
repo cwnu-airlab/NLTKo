@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>가시화하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/26</cre_date>
+				<cre_writer>박철우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/26</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">可視化_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>make st visible</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">행위|의견|계획</sel_rst>
+					<eg>그 시는 지역의 균형 발전에 요체가 되는 주요 시책 사업의 추진 전략을 조기 가시화해 나가기 위해 전략 기획팀을 구성 현안 사업을 추진하고 있다.</eg>
+					<eg>이날 간담회에서는 회원들의 적극 대처를 주도해 나가고자 하는 움직임을 가시화해 관심이 집중됐다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">행위|의견|계획</sel_rst>
+					<eg>경기 회복이 가시화해 시중 자금이 증시로 들어온다면 배당 지수 펀드 등 안전성이 높은 상품이 부각될 것이다.</eg>
+					<eg>향후 설비 투자는 회복세가 점차 가시화해 내년 상반기 이내에는 더욱 활발해 질 것으로 한은은 전망했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

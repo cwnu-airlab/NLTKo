@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>상반기</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/23</cre_date>
+				<cre_writer>김진형</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/08</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/28</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>add정보이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/29</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>의미부류 수정;add의 명사구 정보 이동;n_v 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/07</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>명사연어에 '~ 실적, 이익, 매출, 매출액' 추가</mod_note>
+			</mod>
+			<note>2002/10/09(고길수)prt에서 '~에</note>
+			<note>2003/06/27(한동훈)add에 동사결합 정보 추가</note>
+			<note>2003/07/08(김미현)</note>
+			<note>add에 명사구, 동사결합 정보 추가</note>
+			<note>~까지' 삭제</note>
+			<note>~부터</note>
+			<add>~를 맞이하다</add>
+			<add>~에 들어서다|접어들다' 등 가능</add>
+			<add>동사결합으로 '~가 되다</add>
+			<add>명사구로 'X(올해, 내년, 작년, 년도) ~'가 가능</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">上半期</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>내년 ~에는 한국의 경제가 회복세에 놓일 것이라 추정된다.</eg>
+				<trans>first half of the year</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>부분시간</sem_class><!--단계를 수정(김이정)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">올해 ~</comb_n>
+				<comb_n type="compound">~ 실적</comb_n>
+				<comb_n type="compound">~ 이익</comb_n>
+				<comb_n type="compound">~ 매출</comb_n>
+				<comb_n type="compound">~ 매출액</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 맞이하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 들어서다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 접어들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 지나다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

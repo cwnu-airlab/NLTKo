@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>인화</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/20</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/17</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/08</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>n_v 수정</mod_note>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>sem 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/05/16(이성헌)sense n=1 @eg수정</note>
+			<note>예문 작성 시 조사와 결합하는 표제어 용례를 들 것</note>
+			<note>@comb_v추가</note>
+			<note>@supv기술 시에도 조사와 결합한 형태의 표제어를 사용할 것</note>
+			<note>논항구조도 자세히 할 것</note>
+			<note>2002/05/21(고길수)comb_v에 제시된 '~를 깨다</note>
+			<note>~가 깨지다'는 동사자유구성으로 추가</note>
+			<note>comb_v의 입력 방식 수정</note>
+			<note>2003/07/25(권오희)sel_res에 '인간집단'추가</note>
+			<note>2003/08/17(이은경)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">人和</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>어려울 때일수록 ~가 무엇보다 중요하다.</eg>
+				<trans>harmony among men</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>행위</sem_class> <!--'인지추상적행위'를 '행위'로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form> <!--동일기능동사의 격틀정보를 한 곳으로 모음(송근영)-->
+					<frame>X-이 Y-와 ~를 하다</frame>
+					<frame>X-와 Y-이 ~를 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<comb_v type="npred_vsupvar"> <!--기능동사 변이형으로 수정하고 격틀 기술(송근영)-->
+					<form vcompound="no">~를 이루다</form>
+					<frame>X-이 Y-와 ~를 이루다</frame>
+					<frame>X-와 Y-이 ~를 이루다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"> <!--기능동사 변이형으로 수정하고 격틀 기술(송근영)-->
+					<form vcompound="no">~가 이루어지다</form>
+					<frame>X-와 Y-의 ~가 이루어지다 </frame>
+				</comb_v>
+				<max_n_str>X-와 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/20</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/17</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/08</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>격틀정보 분리</mod_note>
+				<mod_note>n_n 기술</mod_note>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>eg 수정</mod_note>
+				<mod_note>sel_res 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/05/16(이성헌)sense n=1의 예문 수정및 보충|조사와 결합한 형태의 표제어 용례를 쓸 것</note>
+			<note>~  물질을 @comb_n에 기술가능한지 검토</note>
+			<note>2002/05/21(고길수)예문의 입력 방식 수정</note>
+			<note>기능동사구문을 수정, 의미부류는 사건|현상이 제시되었는데, 기존의 논항구조와 정보는 행위에 해당하는 듯, 즉 X=인간, Y=구체물인 경우에는 인간이 불을 놓는 것에 해당하는 듯</note>
+			<note>논항정보 수정</note>
+			<note>2003/07/25(권오희)논항 구조 X-이 Y-에|로 ~를 하다 를 X-이 ~를 하다 로 수정</note>
+			<note>2003/08/17(이은경)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">引火</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>화기 주변에 ~가 잘 되는 물질을 두지 마라!</eg>
+				<eg>어제 일어난 산불은 담배불에 ~가 된 것이었다.</eg> <!--예문 자연스럽고 격틀정보 잘 보여주는 형태로 수정(송근영)-->
+				<trans>ignition</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>사건</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 물질</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup"> <!-- 격틀정보에서 X, Y 위치 교체(송근영)-->
+					<form vcompound="yes">~가 되다</form> 
+					<frame>Y-이 X-에 ~가 되다</frame>
+					<frame>Y-이 X-로 ~가 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">구체자연물|구체인공물</sel_rst>
+				<sel_rst arg="Y">사고|(불)</sel_rst> <!--'유발사고|고장|교통사고'를 '사고'로 통합(송근영)-->
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/20</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/17</mod_date>
+				<mod_writer>이은경</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/08</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>comp 기술</mod_note>
+				<mod_note>max_n 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/05/16(이성헌)sense n=1 예문 교체</note>
+			<note>의미부류 수정|'행위'에서 '단독행위'로</note>
+			<note>2002/05/21(고길수)논항선택정보에서 Y를 구체인공물에서 (사진|필름)으로 수정</note>
+			<note>2003/07/25(권오희)</note>
+			<note>2003/08/17(이은경)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">印畵</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~지</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 사진은 그가 직접 ~를 한 것이다.</eg>
+				<trans>printing</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 X-에 의해 ~가 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">(사진|필름)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

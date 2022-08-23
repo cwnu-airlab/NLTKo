@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>배차</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/03</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/03</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>선택제약 X 내용 추가</mod_note>
+			</mod>
+			<add>2003/11/03(송인욱)동사자유구성으로 '~를 실시하다|시행하다|늘리다|줄이다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">配車</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>승객이 늘어난 구간들에 각각 3대씩의 버스가 더 ~가 되었다.</eg>
+				<eg>우리 회사는 적자 노선들에도 계속 ~를 시키기로 결정했다.</eg>
+				<eg>학교 측에서 ~를 늘리지 않아 셔틀버스는 항상 만원이다.</eg>
+				<trans>allocation of cars</trans>
+				<trans>marshalling of cars</trans>
+				<sem_class>결과행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 간격</comb_n>
+				<comb_n type="compound">~ 시간</comb_n>
+				<comb_n type="compound">~ 업무</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>X-이 Y-을 ~를 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 X-에의해 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 실시하다</form>
+					<frame>X-이 Y-을 ~를 실시하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 시행하다</form>
+					<frame>X-이 Y-을 ~를 시행하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 늘리다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 줄이다</form>
+				</comb_v>
+				<sel_rst arg="X">인간|기업</sel_rst>
+				<sel_rst arg="Y">대중교통기관</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

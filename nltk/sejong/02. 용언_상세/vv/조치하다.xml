@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>조치하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/28</cre_date>
+				<cre_writer>박철우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/05/26</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<note>2002/05/26(한선혜)하위범주정보를 FIT에서 FIN으로 수정</note>
+			<note>격틀 수정</note>
+			<note>선택제약 수정</note>
+			<note>예문 수정</note>
+			<note>대역어 수정</note>
+			<note>연어정보 Mann3에‘즉각|즉시|적절히’추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">조치를 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<org lg="si">措置_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>행위</sem_class>
+				<trans>take a measure</trans>
+				<trans>take action</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=N2-에|에게 Y=S1-도록 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|단체</sel_rst>
+					<sel_rst arg="Y" tht="FNS"></sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|단체</sel_rst>
+					<eg>왜 그 지역 자치단체의 장이 자기 소속 공무원의 주소를 그 지역으로 이전하도록 조치했는지는 잘 모르겠다.</eg>
+					<eg>시민 여러분이 지적하신 모든 사항에 대해서는 해당 기관에 즉시 시정하도록 조치하겠습니다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="manner3">즉각</col>
+					<col type="manner3">즉시</col>
+					<col type="manner3">적절히</col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>화상</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/19</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/15</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/26</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2007/08/19</mod_date>
+				<mod_writer>신선옥</mod_writer>	
+				<mod_note>sense 1 의미부류 "상처"로 수정</mod_note>
+				<mod_note>동의어 기술</mod_note>
+	        </mod>
+			<note>2002/08/19(고길수)의미부류 재검토 필요, '상처, 부상' 등을 아우르는 별도 부류 설정이 가능</note>
+			<note>2002/08/22(한선혜)</note>
+			<note>2003/07/17(서진숙)</note>
+			<note>2003/09/15(이성헌)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">火傷</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>건물에 불이 나 많은 주민들이 심한 ~을 입었다.</eg>
+				<eg>그는 얼굴에 ~을 입었다.</eg>
+				<eg>그는 ~을 치료하기 위해 인근 병원으로 옮겨졌다.</eg>
+				<eg>강렬한 햇빛은 ~도 일으킬 수 있다.</eg>
+				<eg>갑작스런 화재로 그는 ~을 당했다.</eg>
+				<trans>burn</trans>
+				<trans>scald</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>상처</sem_class>
+				<lr>
+					<syn type="etc">열상</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 심하다</comb_aj>
+				<comb_n type="compound">일도 ~</comb_n>
+				<comb_n type="compound">이도 ~</comb_n>
+				<comb_n type="compound">삼도 ~</comb_n>
+				<comb_n type="compound">사도 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 입다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 당하다</form>
+					<frame>X-이 Y-에 ~을 당하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">신체부위</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/19</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/15</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/26</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2007/08/19</mod_date>
+				<mod_writer>신선옥</mod_writer>	
+				<mod_note>sense 1 동의어 기술</mod_note>
+				<mod_note>합성어 기술</mod_note>
+	        </mod>
+			<note>2002/08/19(고길수)센스4의 의미부류 재검토 필요</note>
+			<note>2002/08/22(한선혜)센스1의 comb_v에 기술된 '~을 그리다'를 add로 이동</note>
+			<note>센스2의 예문 수정</note>
+			<note>sense2,3의 분류가 꼭 필요한 것인지? sense2의 의미가 신체부위라고 하더라도 긍정적인 뜻과는 어울리지 않는 것 같은데요..2,3을 합하는 것이 좋을 듯합니다.</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">畵像</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~회의</comp>
+			<comp pos="n" type="suffix">~통화</comp>
+			<comp pos="n" type="suffix">~대화</comp>
+			<comp pos="n" type="suffix">~치료</comp>
+			<comp pos="n" type="suffix">~전화</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>벽에는 예수님의 ~이 걸려 있었다.</eg>
+				<eg>새로운 기법에 따라 그녀의 ~을 조금 고쳤다.</eg>
+				<eg>할머니께서 일찍 돌아가셔서 ~으로만 뵈었다.</eg>
+				<trans>portrait</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>회화</sem_class>
+				<lr>
+					<syn type="etc">회상</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 그리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">점</cl>
+				<cl type="uni">폭</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 놈은 ~이 꼭 원숭이를 닮았구먼.</eg>
+				<trans>face</trans>
+				<trans>look</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>신체부위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>아이고 저런 ~을 봤나!</eg>
+				<eg>이 ~아! 그것도 일이라고 했니?</eg>
+				<eg>나는 화가 나서 그 ~을 쥐어박고 싶었다.</eg>
+				<trans>fellow</trans>
+				<trans>blighter</trans>
+				<trans>rogue</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>부정적속성인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">놈</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="4">
+			<sem_grp>
+				<eg>우리 텔리비전은 ~이 흐릿하다.</eg>
+				<eg>아이들은 ~에 비치는 장면을 뚫어져라 쳐다봤다.</eg>
+				<eg>회의는 ~으로 진행되었다.</eg>
+				<trans>picture</trans>
+				<trans>screen</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>구체인공물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 선명하다</comb_aj>
+				<comb_aj type="appr">~이 흐릿하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는  ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>르네상스</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/17</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/31</mod_date>
+				<mod_writer>김미현</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/09</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note>센스1의 기술 필요성 검토요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/14</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note>센스 1의미부류 인간관련현상으로 바꿈</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/29</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>원어정보 수정</mod_note>
+			</mod>
+			<note>2003/10/17(류희선)센스1과 2의 의미부류검토요망</note>
+			<note>2003/10/31(김미현)센스1</note>
+			<note>예문 추가</note>
+			<note>의미부류를 '추상적대상'에서 '행위'로 수정</note>
+			<note>센스2</note>
+			<note>의미부류를 '사건'으로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="etc">르네상스</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~의 움직임이 일고 있었다.</eg>
+				<eg>우리 영화의 ~를 위해 영화인들이 모임을 가졌다.</eg>
+				<trans>renaissance</trans>
+				<sem_class>인간관련현상</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 맞이하다</form>
+				</comb_v>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 시기에 유럽에서는 ~가 일어났다.</eg>
+				<trans>Renaissance</trans>
+				<sem_class>사건</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 일어나다</form>
+					<frame>~가 일어나다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 맞이하다</form>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

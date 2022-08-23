@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>사역하다</orth>
+	<entry n="01" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/26</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>곽새라</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>음두은</mod_writer>
+				<mod_note>entry 통합, PUR로 수정, frame 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">사역을 하다</var>
+			<str>N.하</str>
+			<org lg="si">使役_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>employ</trans>
+				<trans>set to work</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|짐승</sel_rst>
+					<sel_rst arg="Z" tht="LOC">계획사건|의무|물리적행위</sel_rst>
+					<eg>16세기를 전후하여 스페인 사람들은 아프리카 원주민들을 자신들의 사업에 사역했다.</eg>
+					<eg>농민들은 전통적으로 소를 농사에 사역했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|짐승</sel_rst>
+					<sel_rst arg="Z" tht="LOC">S것|S데</sel_rst>
+					<eg>16세기를 전후하여 스페인 사람들은 아프리카 원주민들을 여러 가지 사업을 하는 것에 사역했다.</eg>
+					<eg>농민들은 전통적으로 소를 농사짓는 데에 사역했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>종교및의례행위</sem_class>
+				<trans>work as a missionary or a pastor</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">직업인간(목사|선교사)</sel_rst>
+					<eg>김목사는 낙도를 돌아다니며 10년간 사역했다.</eg>
+					<eg>그 선교사는 아프가니스탄에서 사역하고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

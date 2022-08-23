@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>맞대다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/06/18</cre_date>
+				<cre_writer>박소영</cre_writer>
+				<cre_writer>권재일</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/19</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="ai"/>
+			<str>PV</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>대칭적행위</sem_class>
+				<trans>bring into contact</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="sym" n="01">
+				<frame>X=N0-이 Z=N2-와 (서로) Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Z" tht="COM">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">신체부위(머리|이마|어깨|코|얼굴)</sel_rst>
+					<eg>철수는 영희와 머리를 맞대고 그 사안에 대하여 생각해 보았다.</eg>
+					<eg>그는 나와 서로 코를 맞대어 인사를 했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="01">
+				<frame>X+Z=N0-이 (서로) Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Z" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">신체부위(머리|이마|어깨|코|얼굴)|구체물(책상|의자)</sel_rst>
+					<eg>우리들은 머리를 맞대고 그 사안에 대하여 생각해 보았다.</eg>
+					<eg>그들은 서로 코를 맞대어 인사를 했다.</eg>
+					<eg>우리는 책상을 서로 맞대어 놓고 공부를 했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>비교</sem_class>
+				<trans>compare</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="sym" n="02">
+				<frame>X=N0-이 Z=N2-와 (서로) Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Z" tht="COM">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(키|실력|능력)</sel_rst>
+					<eg>아우는 형과 실력을 맞대어 보도록 하고 경기에 임했다.</eg>
+					<eg>철수는 영희와 키를 맞대어 보고, 자기가 더 크다고 우겨댔다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="02">
+				<frame>X+Z=N0-이 (서로) Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Z" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(키|실력|능력)</sel_rst>
+					<eg>두 형제가 실력을 맞대어 보도록 하고 경기에 임했다.</eg>
+					<eg>그 아이들은 키를 맞대어 보고, 서로 자기가 더 크다고 우겨댔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

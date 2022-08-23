@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>선배</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/25</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/13</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1에 '되다' 정보 추가;선택제약 정보 추가;센스2의 '~로 여기다|삼다|모시다' 분할 표기;'되다' 정보, 맥스엔, 선택제약 정보 추가;수식어 명사 정보 삭제</mod_note>
+			</mod>
+			<note>2003/01/13(이지영)예문추가|문장부호입력|sem수정|sense1의 supv삭제</note>
+			<note>2003/01/15(김진형)sense1 comb_v 정보 add로 이동</note>
+			<note>sel_res 삭제</note>
+			<note>sense2 comb_v 정보 add로 이동</note>
+			<add>sense1-~를 만나다</add>
+			<add>sense2 ~로 여기다|삼다|모시다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">先輩</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 학교 출신들은 ~와 후배 간의 서열이 확실하다.</eg>
+				<eg>그는 회사에서 고등학교 ~들의 덕을 톡톡히 보고 있다.</eg>
+				<trans>senior of the same school</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>비대칭적관계인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">후배</ant>
+					<hyper>동창</hyper>
+					<hyper>동문</hyper>
+					<coord>후배</coord>
+					<coord>동기</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 많다</comb_aj>
+				<comb_n type="compound">학교 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 만나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 되다</form>
+					<frame>X-이 Y-에게 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">분</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>내가 인생의 ~로서 너에게 하는 말이다.</eg>
+				<eg>그는 내 직장 ~였다.</eg>
+				<trans>senior</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>비대칭적관계인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">후배</ant>
+					<coord>후배</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 많다</comb_aj>
+				<comb_n type="compound">회사 ~</comb_n>
+				<comb_n type="compound">고향 ~</comb_n>
+				<comb_n type="compound">인생의 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 여기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 모시다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 삼다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 되다</form>
+					<frame>X-이 Y-에게 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">분</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<!-- pre_n>N(-의)</pre_n -->
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

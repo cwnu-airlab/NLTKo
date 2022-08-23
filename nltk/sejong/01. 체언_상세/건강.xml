@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>건강</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/07</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/22</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/15</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/10</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_v에 기술 및 정보 추가</mod_note>
+				<mod_note>comp 기술</mod_note>
+				<mod_note>der 기술</mod_note>
+				<mod_note>n_n 추가</mod_note>
+				<mod_note>max_n, sel_res 기술</mod_note>
+				<mod_note>사태 부류이므로 n_v의 narg를 npred로 수정</mod_note>
+			</mod>
+			<note>2002/09/08(김종명)</note>
+			<note>2002/10/08(한선혜)add 기술 보충</note>
+			<note>2003/07/17(김종명)</note>
+			<note>2003/07/22(이민우)</note>
+			<note>comb_aj 기술 보충</note>
+			<note>comb_n 기술</note>
+			<add>~을 유지하다|지키다|해치다|회복하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">健康</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="av" type="suffix">~히</der>
+			<comp pos="a" type="suffix">~하다</comp> <!--n_v 코멘트에 있던 정보를 이 곳에 기술(송근영)-->
+			<comp pos="n" type="suffix">~미</comp>
+			<comp pos="n" type="suffix">~인</comp>
+			<comp pos="n" type="suffix">~체</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그렇게 무리를 하면 ~을 해친다.</eg>
+				<trans>health</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>신체상태</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 좋다</comb_aj>
+				<comb_aj type="appr">~이 나쁘다</comb_aj>
+				<comb_aj type="appr">~에 좋다</comb_aj>
+				<comb_aj type="appr">~에 나쁘다</comb_aj>
+				<comb_n type="compound">최상의 ~</comb_n>
+				<comb_n type="compound">정신 ~</comb_n> <!--송근영 추가-->
+				<comb_n type="compound">~ 상태</comb_n>
+				<comb_n type="compound">~ 검진</comb_n>
+				<comb_n type="compound">~ 상담</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form><!--'건강을 하다'는 불가능-->
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 유지하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 지키다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 해치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 회복하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 되찾다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 돌보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 나빠지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 좋아지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 악화되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단|동물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

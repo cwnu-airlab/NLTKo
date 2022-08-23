@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>합금하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/09</cre_date>
+				<cre_writer>한선혜</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/27</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/07/30</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">합금을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">合金_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>alloy</trans>
+				<trans>make an alloy of</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="sym" n="01">
+				<frame>X=N0-이 Y=N1-을 Z=N2-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">광물(철|금|은|주석)</sel_rst>
+					<sel_rst arg="Z" tht="COM">광물(철|금|은|주석)|구체인공물</sel_rst>
+					<eg>이 화폐는 구리를 주석과 합금하여 만들어진 것이다.</eg>
+					<eg>반응성이 높아 부식이 잘되는 알루미늄 같은 금속을 이용할 경우에는 대부분 상대적으로 반응성이 낮은 금속과 합금해 사용합니다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="01">
+				<frame>X=N0-이 Y+Z=N1-을 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">광물(철|금|은|주석)</sel_rst>
+					<sel_rst arg="Z" tht="THM">광물(철|금|은|주석)|구체인공물</sel_rst>
+					<eg>이 화폐는 구리와 주석을 서로 합금하여 만들어진 것이다.</eg>
+					<eg>78%의 구리와 28%의 주석을 합금해 메질(망치질)을 계속해 얇게 만들어 가며 형태를 잡는 방짜기법이 많이 쓰인다.</eg>
+					<eg>핸들바 역시 프레임과 같은 스테인리스강에 크롬과 몰리브덴을 합금해 쓰며 7인치를 넘지 않는다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">광물(철|금|은|주석)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">광물(철|금|은|주석)|구체인공물</sel_rst>
+					<eg>범종은 일반적으로 구리에 17~20% 주석을 합금해 만든다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

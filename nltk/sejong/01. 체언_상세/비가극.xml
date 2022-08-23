@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>비가극</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/04</cre_date>
+				<cre_writer>염신현</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/04</mod_date>
+				<mod_writer>염신현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/18</mod_date>
+				<mod_writer>신서인</mod_writer>
+				<mod_note>내부 구조 수정</mod_note>
+				<mod_note>동사 결합 추가</mod_note>
+				<mod_note>예문 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>내부 구조 타입, 전문영역, 의미부류(예술에서 음악작품으로) 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>'음악작품'에서 '연극'으로 수정;동사정보에 '쓰다' 추가;맥스엔, 논항 의미정보 추가;단위표현 정보 추가</mod_note>
+			</mod>
+			<note>2003/07/04(염신현)예문수정, comb_v를 add로 이동</note>
+			<add>~을 공연하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="etc">비+가극</str> <!--(호정은) '비'는 명사, 어근, 접사 모두 아님-->
+			<org lg="si">悲歌劇</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>'리골레토'는 대표적인 ~이다.</eg>
+				<trans>sorrow opera</trans>
+				<domain>음악</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>연극</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">희가극</ant>
+					<hyper>가극</hyper>
+					<hyper>그랜드오페라</hyper>
+					<rel>19세기</rel>
+					<rel>프랑스</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 공연하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 쓰다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">직업인간(작가)</sel_rst>
+				<cl type="uni">편</cl>
+				<cl type="div">막</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

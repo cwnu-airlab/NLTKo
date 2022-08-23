@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>유실</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/03</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/17</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/17</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_n으로 이동</mod_note>
+				<mod_note>add를 comb_v로 이동</mod_note>
+				<mod_note>comp '~주택','~우려','~방지','~현상' 추가</mod_note>
+			</mod>
+			<note>2001/09/21(김종명|이성헌)</note>
+			<note>2003/01/20(유영)comb_v를 add로 이동, sem수정, sel_res수정?</note>
+			<note>sens1,2의 차이 불분명</note>
+			<note>2003/06/17(이성헌)comb_n의 '농경지의 ~'을 add로 이동</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">流失</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~주택</comp>
+			<comp pos="n" type="suffix">~우려</comp>
+			<comp pos="n" type="suffix">~방지</comp>
+			<comp pos="n" type="suffix">~현상</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이번 태풍으로 많은 방조제와 다리 등이 ~이 되었다.</eg>
+				<trans>carry</trans>
+				<trans>wash away</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>유발사고</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>소실</coord>
+					<coord>분실</coord>
+					<rel>홍수</rel>
+					<rel>태풍</rel>
+					<rel>재앙</rel>
+					<rel>손실</rel>
+					<rel>손해</rel>
+					<rel>배상</rel>
+					<rel>보상</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 크다</comb_aj>
+				<comb_aj type="magn">~이 많다</comb_aj>
+				<comb_aj type="magn">~이 잦다</comb_aj>
+				<comb_aj type="magn">~이 빈번하다</comb_aj>
+				<comb_aj type="magn">~이 심하다</comb_aj>
+				<comb_aj type="magn">~이 엄청나다</comb_aj>
+				<comb_aj type="magn">막대한 ~</comb_aj>
+				<comb_n type="compound">농경지의 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 Y-로 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 막다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 예방하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 보상하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 보상받다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 대비하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 대처하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>Y-에 의한|로 인한 X-의 ~</max_n_str>
+				<sel_rst arg="X">장소</sel_rst>
+				<sel_rst arg="Y">사건|기상관련재해</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이번 홍수로 김씨는 포도밭을 ~을 했다.</eg>
+				<trans>carry</trans>
+				<trans>wash away</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>부정적결과행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>소실</coord>
+					<coord>분실</coord>
+					<rel>홍수</rel>
+					<rel>태풍</rel>
+					<rel>피해</rel>
+					<rel>재앙</rel>
+					<rel>손실</rel>
+					<rel>손해</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 크다</comb_aj>
+				<comb_aj type="magn">~이 많다</comb_aj>
+				<comb_aj type="magn">~이 잦다</comb_aj>
+				<comb_aj type="magn">~이 빈번하다</comb_aj>
+				<comb_aj type="magn">~이 심하다</comb_aj>
+				<comb_aj type="magn">~이 엄청나다</comb_aj>
+				<comb_aj type="magn">막대한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Z-로 Y-을 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>Z-에 의한|로 인한 X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">지상장소</sel_rst>
+				<sel_rst arg="Z">사건(자연재해)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/03</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/17</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/17</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<note>2001/09/21(김종명|이성헌)</note>
+			<note>der, comp항목과 기능동사구문 수정보완</note>
+			<note>2003/01/20(유영)sem수정</note>
+			<note>sel_res수정, comb_v를 add로 이동</note>
+			<note>2003/06/17(이성헌)add의 '발생하다|일어나다'를 센스1의 comb_v로 이동</note>
+			<note>sem을 '사건'에서 '사고'로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">遺失</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~물</der>
+			<der pos="n" type="suffix">~품</der>
+			<der pos="n" type="suffix">~자</der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>담당 부처의 관심 부족으로 많은 문화재가 ~이 되었다.</eg>
+				<trans>loss</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>사고</sem_class>
+				<lr>
+					<syn type="etc">분실</syn>
+					<ant type="etc">발견</ant>
+					<coord>소실</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 잦다</comb_aj>
+				<comb_aj type="magn">~이 흔하다</comb_aj>
+				<comb_aj type="magn">~이 빈번하다</comb_aj>
+				<comb_aj type="magn">~이 많다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 막다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 줄이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 조심하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 대처하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 발생하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 일어나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 증가하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 감소하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 예방하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>Y-로 인한 X-의 ~</max_n_str>
+				<sel_rst arg="X">구체물</sel_rst>
+				<sel_rst arg="Y">사건</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 놀음을 일삼아 대대로 물려오던 방아간을 ~을 했다.</eg>
+				<eg>요즘 아이들은 소지품을 ~을 하고도 찾으려는 노력을 하지 않는다.</eg>
+				<trans>loss</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>부정적결과행위</sem_class>
+				<lr>
+					<syn type="etc">분실</syn>
+					<ant type="etc">발견</ant>
+					<rel>재산</rel>
+					<rel>소지품</rel>
+					<rel>유실물보관소</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 잦다</comb_aj>
+				<comb_aj type="magn">~이 흔하다</comb_aj>
+				<comb_aj type="magn">~이 빈번하다</comb_aj>
+				<comb_aj type="magn">~이 많다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">구체물</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

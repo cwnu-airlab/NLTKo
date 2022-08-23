@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>그러당기다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/07</cre_date>
+				<cre_writer>김종명</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2005/09/04</mod_date>
+				<mod_writer>김선영</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="i"/>
+			<str>RuV</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>대상성몸짓</sem_class>
+				<trans>gather up and pull</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(밥그릇|밥상)</sel_rst>
+					<sel_rst arg="Z" tht="DIR">방향</sel_rst>
+					<eg>나는 밥그릇을 내 쪽으로 그러당겼다.</eg>
+					<eg>밥상을 그러당기자 갑자기 밥상이 넘어졌다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(낚시대|문)</sel_rst>
+					<sel_rst arg="Z" tht="DIR">방향</sel_rst>
+					<eg>낚시대를 힘차게 그러당기자 한척이 넘는 고기가 낚였다.</eg>
+					<eg>문을 그러당기자 숨어 있던 도둑이 튀어나왔다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(옷자락|머리카락)</sel_rst>
+					<sel_rst arg="Z" tht="DIR">방향</sel_rst>
+					<eg>옷자락을 그러당겼더니 끊어져 버렸다.</eg>
+					<eg>머리카락을 위로 그러당겼다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/07</cre_date>
+				<cre_writer>김종명</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="i"/>
+			<str>RuV</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>물리적행위</sem_class>
+				<trans>gather up and drag</trans>
+			</sem_grp>
+			<frame_grp type="STR">
+				<frame>X=N0-이 Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">인간|구체물|추상적대상</sel_rst>
+					<sel_rst arg="Npr1">추상적대상(구미|관심|흥미|시선)</sel_rst>
+					<eg>이 영화는 우리의 관심을 그러당긴다.</eg>
+					<eg>이 작품은 한 때 비평가의 흥미를 그러당겼다.</eg>
+					<eg>그녀는 만인의 시선을 그러당기는 놀라운 매력이 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

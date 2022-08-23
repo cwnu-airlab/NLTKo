@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>장단</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/05/03</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/08</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/04</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/15</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/07/21(김종명)</note>
+			<note>2001/07/30(김종명,이성헌)</note>
+			<note>2003/01/30(이지영)예문추가,문장부호입력,sem수정</note>
+			<note>2003/02/05(김진형)comb_v 정보 add로 이동</note>
+			<note>2003/02/08(이지영)</note>
+			<note>magn 정보 add로 이동</note>
+			<note>동의어에 '리듬,가락' 추가</note>
+			<note>최대논항구조, 선택제약 정보 삭제</note>
+			<add>신나는|신명나는 ~</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~꾼</comp>
+			<comp pos="n" type="suffix">~줄</comp>
+			<comp pos="n" type="prefix">굿거리~</comp>
+			<comp pos="n" type="prefix">휘모리~</comp>
+			<comp pos="n" type="prefix">중모리~</comp>
+			<comp pos="n" type="prefix">중중모리~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 ~에 맞춰 노래를 불렀다.</eg>
+				<eg>그는 ~에 따라 어깨를 들썩거렸다.</eg>
+				<trans>rythme</trans>
+				<trans>cadence</trans>
+				<domain>음악</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>소리속성</sem_class>
+				<lr>
+					<syn type="etc">박자</syn>
+					<syn type="etc">리듬</syn>
+					<syn type="etc">가락</syn>
+					<ant type="temp"></ant>
+					<hypo>굿거리</hypo>
+					<hypo>휘모리</hypo>
+					<hypo>중모리</hypo>
+					<hypo>중중모리~</hypo>
+					<rel>북</rel>
+					<rel>꾕가리</rel>
+					<rel>징</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 빠르다</comb_aj>
+				<comb_aj type="appr">~이 느리다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 맞추다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 따르다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N-의</pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/05/03</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/08</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/04</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/15</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/07/21(김종명)</note>
+			<note>2001/07/30(고길수)</note>
+			<note>2001/07/30(김종명,이성헌)</note>
+			<note>2003/01/30(이지영)예문추가,문장부호입력,sem수정,sense2의 sel_res수정,sense2의 comb_v를 add로 이동</note>
+			<note>2003/02/05(김진형)sense1 comb_v 삭제</note>
+			<note>2003/02/08(이지영)</note>
+			<note>명사연어 정보 추가</note>
+			<note>센스1의 예문,영어대역어 수정</note>
+			<note>엔트리1과의 차이가?</note>
+			<note>영어 대역어 수정</note>
+			<note>최대논항구조, 선택제약정보 삭제</note>
+			<note>합성어에 '고저~' 추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">長短</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="prefix">고저~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 음절의 ~을 정확하게 발음하였다.</eg>
+				<eg>그는 ~을 정확하게 끊어 가면서 말했다.</eg>
+				<trans>length</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>크기</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>기복</coord>
+					<rel>소리</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 있다</comb_aj>
+				<comb_aj type="appr">~이 없다</comb_aj>
+				<comb_n type="compound">소리 ~</comb_n>
+				<comb_n type="compound">음절 ~</comb_n>
+				<comb_n type="compound">말 ~</comb_n>
+				<comb_n type="compound">사물(-의) ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 발음하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 따져보다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>사람들은 제각각 ~을 갖기 마련이다.</eg>
+				<eg>모든 일에는 ~이 있다.</eg>
+				<trans>merits and demerits</trans>
+				<trans>strenght and weakness</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="etc">장단점</syn>
+					<ant type="temp"></ant>
+					<mero>장점</mero>
+					<mero>단점</mero>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 있다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 갖다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

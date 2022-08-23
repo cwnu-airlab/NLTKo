@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>잔금무늬</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/27</cre_date>
+				<cre_writer>박재연</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/27</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note>sem 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/21</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>예문수정</mod_note>
+				<mod_note>sem 수정-검토바람</mod_note>
+				<mod_note>syn의 type을 'sino'로 수정</mod_note>
+				<mod_note>cl 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/22</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/06/27(박재연)</note>
+			<note>comb_v를 add로 이동</note>
+			<add>~가 발견되다</add>
+			<add>~를 찾아내다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">잔금+무늬</str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>새로 발굴된 토기는 ~가 촘촘히 새겨져 있었다.</eg>
+				<trans>fine lines pattern</trans>
+				<domain>고적</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>모양</sem_class><!--(권오희) '모양속성값'에서 수정-->
+				<lr>
+					<syn type="sino">세선문</syn>
+					<ant type="temp"></ant>
+					<hyper>무늬</hyper>
+					<rel>고고학</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 촘촘하다</comb_aj>
+				<comb_n type="temp">~ 토기</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 새기다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

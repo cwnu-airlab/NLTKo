@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>너르다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/15</mod_date>
+				<mod_writer>강정연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>A</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be extensive</trans>
+				<lr>
+					<syn type="perfect">넓다</syn>
+					<ant type="grad">좁다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">장소(마당|마루|방|공터|들판)</sel_rst>
+					<eg>이 집은 방들은 작지만 거실이 무척 너른 것이 특징이다.</eg>
+					<eg>우리가 새로 이사한 집 앞에는 너른 공터가 있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(폭|통|품)</sel_rst> <!--X의 수식어: 옷(옷|치마|바지)-->
+					<eg>한복 바지는 통이 너무 널러서 행동하기에 불편할 때가 있다.</eg>
+					<eg>이 옷은 품이 널러서 활동하기에 좋다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>긍정적인성속성값</sem_class>
+				<trans>be generous</trans>
+				<lr>
+					<syn type="perfect">넓다</syn>
+					<ant type="grad">좁다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(마음|가슴|품)|(소견|생각|아량)</sel_rst>
+					<eg>마음이 너른 사람이 되거라.</eg>
+					<eg>우리 어머니의 가슴은 바다처럼 널러서 우리의 모든 허물들을 감싸 주신다.</eg>
+					<eg>수미는 어머니의 너른 품에 안겨 울고 싶었다.</eg>
+					<eg>그는 어린 나이에도 불구하고 아량이 너르다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

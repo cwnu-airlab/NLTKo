@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>모심기</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/18</cre_date>
+				<cre_writer>이지영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/18</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/27</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>내부 구조, 의미부류 수정</mod_note>
+				<mod_note>동의어, 동사결합 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/24</mod_date>
+				<mod_writer>신서인</mod_writer>
+				<mod_note>내부 구조 오타 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/0/15</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/06/18(이지영)예문, sem, comb_v, supv수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="V_S">모심+기</str> <!--(호정은) 표준사전에 따라 모심-기로 분석함-->
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~노래</comp>
+			<comp pos="n" type="suffix">~놀음</comp>
+			<comp pos="n" type="suffix">~소리</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~의 시기를 놓치면 일년 농사를 망친다.</eg>
+				<trans>rice-planting</trans>
+				<domain>농업</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>지속적활동</sem_class>  <!--(호정은) 단독행위에서 수정-->
+				<lr>
+					<syn type="perfect">모내기</syn>
+					<syn type="sino">이앙</syn>
+					<ant type="temp"></ant>
+					<hyper>농사(農事)</hyper>
+					<rel>농사</rel>
+					<rel>논</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+					<frame>X-이 Y-에서 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>  <!--(호정은) 어색하기는 하지만 일단 기입-->
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">장소</sel_rst>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">차</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

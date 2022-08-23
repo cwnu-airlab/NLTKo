@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>박다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/23</mod_date>
+				<mod_writer>허용</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>범죄및비행</sem_class>
+				<trans>crash</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">교통기관</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(벽|가로수)|교통기관(앞차|버스)</sel_rst>
+					<eg>철수의 차가 가로수를 박았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>변형행위</sem_class>
+				<trans>drive</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(못|기둥)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">장소(벽|땅)</sel_rst>
+					<eg>나는 언 땅에 철제 기둥을 박았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>run against</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(머리|대가리)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">(땅)</sel_rst>
+					<eg>철수는 땅에 머리를 박았다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="01">
+				<frame>X=N0-이 Z=N2-와 (서로) Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Z" tht="COM">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(머리|대가리)</sel_rst>
+					<eg>철수는 영미와 머리를 박았다.</eg>
+					<eg>영희는 철수와 대가리를 박았다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="01">
+				<frame>X+Z=N0-이 (서로) Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Z" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(머리|대가리)</sel_rst>
+					<eg>철수와 영미는 머리를 서로 박았다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(머리|대가리)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">구체물(벽|기둥|전봇대|가로수)</sel_rst>
+					<eg>철수는 기둥에 머리를 박았다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-로 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(벽|기둥|전봇대|가로수)</sel_rst>
+					<sel_rst arg="Z" tht="INS">(머리|대가리)</sel_rst>
+					<eg>철수는 기둥을 머리로 박았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>변형행위</sem_class>
+				<trans>inscribe</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(이름|자수|자개)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">구체물(옷|도장|가구|명함)</sel_rst>
+					<eg>철수는 저고리 안쪽에 자기 이름을 박았다.</eg>
+					<eg>영희는 명함에 영문자로 자기 이름을 박았다.</eg>
+					<eg>철수는 장롱에 자개를 박는 일을 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>drive</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|구체물(나무)</sel_rst>
+					<sel_rst arg="Y" tht="THM">(뿌리)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">장소</sel_rst>
+					<eg>철수는 결국 그 직장에 뿌리를 박았다.</eg>
+					<eg>아카시아 나무가 비탈에 뿌리를 박고 자라고 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="06">
+			<sem_grp>
+				<sem_class>대상성몸짓</sem_class>
+				<trans>get close</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(고개|머리|눈|코)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">(신문|책)</sel_rst>
+					<eg>영희가 신문에 머리를 박고 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<idm_grp>
+			<idm>N-에 말뚝을 박다</idm>
+			<idm>N-에 쐐기를 박다</idm>
+			<idm>판에 박다</idm>
+			<idm>가슴에 못을 박다</idm>
+			<idm>S-고 못을 박다</idm>
+			<idm>오금을 박다</idm>
+		</idm_grp>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/23</mod_date>
+				<mod_writer>허용</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>창조행위</sem_class>
+				<trans>get pressed</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(명함|사진|청첩장|책)</sel_rst>
+					<eg>나는 어제 명함을 하나 박았다.</eg>
+					<eg>할 것도 별로 없고 사진이나 좀 박고 가자.</eg>
+					<eg>너 논문을 몇 부나 박았니?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

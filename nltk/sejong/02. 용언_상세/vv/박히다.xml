@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>박히다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/23</mod_date>
+				<mod_writer>허용</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="i"/>
+			<str>V.히2</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>get stuck</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(콩|다이아몬드)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">구체물(떡|시계)</sel_rst>
+					<eg>철수가 떡에 박혀 있는 콩을 다 빼고 먹는다.</eg>
+					<eg>그 시계에는 작은 다이아몬드가 여러 개 박혀 있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<eg>큰 철심이 산 정상에 박혀 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>get stuck</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(무늬|문양|이름)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">구체물</sel_rst>
+					<eg>철수의 양복저고리 안쪽에 이름 세 글자가 금박으로 박혀 있었다.</eg>
+					<eg>방패에는 가문인 배나무꽃 무늬가 박혀 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>get kept in</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|구체물</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소(집안|방안)</sel_rst>
+					<eg>철수가 여름 내내 자기 방에만 박혀 있으면서 나오지를 않는다.</eg>
+					<eg>그 놈의 시계가 도대체 어디에 박혀 있길래 이렇게 찾아도 안 나오는거야?.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>심리행위</sem_class>
+				<trans>bear</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(생각|관념|원한)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">신체부위(가슴|머리)</sel_rst>
+					<eg>철수의 머리 속에는 여자를 경시하는 생각이 꽉 박혀 있다.</eg>
+					<eg>나는 그에 대한 사무친 원한이 가슴 속에 깊이 박혀 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<idm_grp>
+			<idm>N-에게 미운 털이 박히다</idm>
+			<idm>N-에 인이 박히다</idm>
+			<idm>귀에 못이 박히다</idm>
+			<idm>가슴에 못이 박히다</idm>
+			<idm>N-에게 미운 털이 박히다</idm>
+			<idm>틀|판-에 박히다</idm>
+			<idm>뇌리|가슴-에 박히다</idm>
+		</idm_grp>
+	</entry>
+</superEntry>

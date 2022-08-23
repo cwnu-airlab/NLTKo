@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>해제되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/21</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>유경민</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/21</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2006/08/10</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">해제가 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<org lg="si">解除_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>get revoked</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(무장|장비)</sel_rst>
+					<eg>무장이 해제된 상태로 적진을 누비는 것은 영화에서나 가능한 일이다.</eg>
+					<eg>필요한 장비가 해제된 상태에서 무슨 일을 할 수 있겠는가.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>get rescinded</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(계약)</sel_rst>
+					<eg>이번에 계약이 해제되면서 입은 손해가 너무 커서 재기할 수 있을 지 미지수이다.</eg>
+					<eg>잔금을 받았든 안받았든 매매계약이 해제돼 등기가 말소됐으면 양도가 이뤄진 게 아니므로 양도소득세를 과세할 수 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>get lifted</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(경보|주의|명령)</sel_rst>
+					<eg>태풍 경보가 해제되면서 서둘러 귀경길을 재촉하는 사람들이 늘어나고 있다.</eg>
+					<eg>밤새 불안에 떨면서 비상경보가 해제되기만을 기다렸다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>get discharged</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(직위|직급)</sel_rst>
+					<eg>뇌물수수 관련자들은 모두 직위가 해제되었다.</eg>
+					<eg>이번 일에 책임이 있는 사람들은 모두 직위가 해제되는 정도의 처벌을 받게 될 것이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

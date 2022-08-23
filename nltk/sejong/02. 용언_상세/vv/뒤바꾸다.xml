@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>뒤바꾸다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="u"/>
+			<str>뒤.바꾸</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>대칭적행위</sem_class>
+				<trans>switch</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="sym" n="01">
+				<frame>X=N0-이 Y=N1-을 Z=N2-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<sel_rst arg="Z" tht="COM">인간</sel_rst>
+					<eg>그 부모들은 자신의 아이를 다른 사람의 아이와 서로 뒤바꾼 병원을 고소했다.</eg>
+					<eg>원고를 피고와 뒤바꾸다니, 있을 수 있는 이야기인가?.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="01">
+				<frame>X=N0-이 Y+Z=N1-을 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<sel_rst arg="Z" tht="THM">인간</sel_rst>
+					<eg>그 부모들은 자신의 아이와 다른 사람의 아이를 서로 뒤바꾼 병원을 고소했다.</eg>
+					<eg>원고와 피고를 뒤바꾸다니, 있을 수 있는 이야기인가?.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">구체물|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|추상적대상(세계관|운명|주체|형태|모습)</sel_rst>
+					<sel_rst arg="Z" tht="FNS">구체물|추상적대상(세계관|운명|모습)</sel_rst>
+					<eg>경찰은 가해자를 피고로 뒤바꾸었다.</eg>
+					<eg>그 옷은 영희를 전혀 딴 여자로 뒤바꾸었다.</eg>
+					<eg>순간의 결단이 범재를 천재로 뒤바꾸었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상</sel_rst>
+					<eg>전쟁은 그의 운명을 완전히 뒤바꿔 놓았다.</eg>
+					<eg>그의 주장은 기존의 이론을 완전히 뒤바꾸어 놓았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>대칭적행위</sem_class>
+				<trans>reverse the order</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="sym" n="02">
+				<frame>X=N0-이 Y=N1-을 Z=N2-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(순서|처지|자리)</sel_rst>
+					<sel_rst arg="Z" tht="COM">추상적대상(순서|처지|자리|위치)</sel_rst>
+					<eg>내 발표 순서와 자네 발표 순서를 뒤바꿀 수 없겠나?.</eg>
+					<eg>자리 조정을 새롭게 하면서 김 선생의 자리를 박 선생의 자리와 서로 뒤바꾸었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="02">
+				<frame>X=N0-이 Y+Z=N1-을 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(순서|처지|자리|위치)</sel_rst>
+					<sel_rst arg="Z" tht="THM">추상적대상(순서|처지|자리|위치)</sel_rst>
+					<eg>서로의 처지를 뒤바꿔서 생각해 보게.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>표현</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/08/30</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/02</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/20(이성헌)</note>
+			<note>2003/02/20(남길임)</note>
+			<note>2003/02/24(김이정)max_n의 'X-의 Z|S것-라는 ~'을 '-다는'으로 수정</note>
+			<note>add 기술</note>
+			<note>comb_aj에 '~이 자유롭다|올바르다' 추가</note>
+			<note>comb_n 추가</note>
+			<note>pre_s 수정('라는'은 명령형에만 씀)</note>
+			<note>기능동사 구문, 선택 제약 수정</note>
+			<note>기능동사 정보 수정</note>
+			<note>예문 수정 및 추가</note>
+			<note>형용사자유구성 정보 추가</note>
+			<add>~을 삼가다|자제하다(반영, 이선웅)</add>
+			<add>~이 잘못되다|과장되다(반영, 이선웅)</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">表現</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~력</der>
+			<der pos="n" type="suffix">~법</der>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~학</der>
+			<comp pos="n" type="suffix">~주의</comp>
+			<comp pos="n" type="suffix">~활동</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>너도 네 감정을 숨기지 말고 솔직하게 ~을 해 봐.</eg>
+				<eg>이 그림은 식민지 당시의 우리 나라의 현실을 ~을 한 것이다.</eg>
+				<trans>expression</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>소통행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>현현</coord>
+					<rel>표출</rel>
+					<rel>형상</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 과격하다</comb_aj>
+				<comb_aj type="appr">~이 부족하다</comb_aj>
+				<comb_aj type="appr">~이 심하다</comb_aj>
+				<comb_aj type="appr">~이 어색하다</comb_aj>
+				<comb_aj type="appr">~이 자연스럽다</comb_aj>
+				<comb_aj type="appr">~이 지나치다</comb_aj>
+				<comb_aj type="appr">~이 직접적이다</comb_aj>
+				<comb_aj type="appr">~이 자유롭다</comb_aj>
+				<comb_aj type="appr">~이 올바르다</comb_aj>
+				<comb_n type="compound">~의 자유</comb_n>
+				<comb_n type="compound">애정 ~</comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 삼가다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 자제하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 잘못되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 과장되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y|S것-을 Z-로 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y|S것-을 S고 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y|S것-이 X-에의해 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y|S것-이 Z-로 ~이 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Z|S것-다는 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">감정|태도|생각</sel_rst>
+				<sel_rst arg="Z">기호체계|예술|작품|미술작품</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S다는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

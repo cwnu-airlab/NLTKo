@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>도금하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/25</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/25</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/10/10</mod_date>
+				<mod_writer>김선영</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">도금을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">鍍金_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>장식행위</sem_class>
+				<trans>plate</trans>
+				<trans>gild</trans>
+				<trans>engild</trans>
+				<trans>wash</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="cross" n="01">
+				<frame>X=N0-이 Y=N1-을 Z=N2-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(금|순금)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">구체물(동상|팔찌|머리핀)</sel_rst>
+					<eg>귀금속 가게 아저씨는 금을 귀걸이에 도금하신 뒤 금귀걸이보다 싸게 파신다.</eg>
+					<eg>순금을 도금한 머리핀이 더 고급스러워 보인다.</eg>
+					<eg>특허명은 '삼원합금을 이용한 환경친화적 반도체 장치 제조용 기질'로 리드프레임의 표면에 새로 개발된 합금층을 도금하는 기술이다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="cross" n="01">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(동상|팔찌|머리핀)</sel_rst>
+					<sel_rst arg="Z" tht="INS">(금|순금)</sel_rst>
+					<eg>그녀는 머리핀을 금으로 도금하려는 시도를 해보았다.</eg>
+					<eg>그는 미적인 안목에서 동상을 금으로 도금해보려 했으나 재료비가 많이 들어 그만두기로 했다.</eg>
+					<eg>대부분의 범퍼는 니켈과 얇은 탑코트(top coat)의 크롬으로 도금하여 내마모성과 내식성이 향상된다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

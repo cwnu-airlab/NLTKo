@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>의무</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/09</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/28</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/05</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+				<mod_note>comp '~경찰','~기간' 추가</mod_note>
+			</mod>
+			<note>2001/09/09(이성헌)</note>
+			<note>어근 醫務 기술 확인</note>
+			<note>2001/09/21(고길수|이성헌)</note>
+			<note>논항구조 및 comb항목 수정보완</note>
+			<note>2003/02/24(김이정)의미부류 '추상적대상'을 '의무'로 수정</note>
+			<note>comb_v 일부 add로 이동</note>
+			<note>2003/02/26(남길임)</note>
+			<note>2003/02/28(김이정)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">義務</org>
+		
+			<hom exist="yes"></hom>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~자</der>
+			<der pos="n" type="suffix">~화</der>
+			<comp pos="n" type="suffix">~감</comp>
+			<comp pos="n" type="suffix">~교육</comp>
+			<comp pos="n" type="suffix">~연한</comp>
+			<comp pos="n" type="suffix">~이행</comp>
+			<comp pos="n" type="suffix">~경찰</comp>
+			<comp pos="n" type="suffix">~기간</comp>
+			<comp pos="n" type="suffix">~시행</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>건전한 시민은 권리와 함께 ~도 올바로 알고 있어야 한다.</eg>
+				<eg>내게는 그를 돌봐야 할 ~가 전혀 없다.</eg>
+				<trans>duty</trans>
+				<trans>obligation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>의무</sem_class>
+				<lr>
+					<syn type="etc">책무</syn>
+					<syn type="etc">책임</syn>
+					<ant type="etc">권리</ant>
+					<coord>권리</coord>
+					<rel>법</rel>
+					<rel>조직</rel>
+					<rel>계약</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">당연한 ~</comb_aj>
+				<comb_aj type="magn">~가 크다</comb_aj>
+				<comb_aj type="magn">~가 무겁다</comb_aj>
+				<comb_n type="compound">~의 완수</comb_n>
+				<comb_n type="compound">~의 수행</comb_n>
+				<comb_n type="compound">~의 이행</comb_n>
+				<comb_n type="compound">국방 ~</comb_n>
+				<comb_n type="compound">납세 ~</comb_n>
+				<comb_n type="compound">교육의 ~</comb_n>
+				<comb_n type="compound">권리와 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 갖다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 부여하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 부과하다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="narg_vpred">
+					<form vcompound="no">~을 완수하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 다하다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="narg_vpred">
+					<form vcompound="no">~을 게을리하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>S것-이 X-의 ~이다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 있다|없다</form>
+					<frame>X-가|에게 S을 ~가 있다|없다</frame>
+				</comb_v>
+				<max_n_str>X-의 S을 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N-으로서의</pre_n>
+				<s_n>S을 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

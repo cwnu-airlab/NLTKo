@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>차례</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/23</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/22</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/27</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+				<mod_note>동의어 "서차", "제차", "차서" 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/27</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스2에 논항 명사구, 논항 의미정보 추가</mod_note>
+			</mod>
+			<note>2000/08/31(박동호)</note>
+			<note>2003/02/04(서진숙)</note>
+			<note>2003/03/22(이성헌)센스1의 sem을 '순서'에서 '관계추상적대상'으로 수정</note>
+			<note>센스1,2의 comb_v를 add로 이동</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">次例</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>줄을 서서 ~를 기다려 주십시오.</eg>
+				<eg>내 ~가 되어 은행 창구로 갔다.</eg>
+				<eg>아이들이 ~를 지키는 모습이 귀여웠다.</eg>
+				<trans>order</trans>
+				<trans>sequence</trans>
+				<trans>arrangement</trans>
+				<trans>precedence</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>관계추상적대상</sem_class>
+				<lr>
+					<syn type="etc">등차</syn>
+					<syn type="etc">서차</syn>
+					<syn type="etc">제차</syn>
+					<syn type="etc">차서</syn>
+					<syn type="etc">차제</syn>
+					<ant type="temp"></ant>
+					<rel>질서</rel>
+					<rel>새치기</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 가다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 돌아오다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 오다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 바뀌다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 뒤바뀌다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 지키다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 무시하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 기다리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 바꾸다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av>~대로</av>
+				<av>~로</av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S을 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>프랑스 책에는 ~가 보통 맨 뒤에 있다.</eg>
+				<eg>책의 ~대로라면 여기에 그런 내용이 있을 것이다.</eg>
+				<trans>a table of contents</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>텍스트의부분</sem_class>
+				<lr>
+					<syn type="etc">목차</syn>
+					<ant type="temp"></ant>
+					<rel>순서</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 달다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">텍스트</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/23</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/22</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/27</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/27</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>동사결합 정보 수정;논항 명사구, 의미정보 추가</mod_note>
+			</mod>
+			<note>2000/08/31(박동호)</note>
+			<note>2003/02/04(서진숙)</note>
+			<note>2003/03/22(이성헌)sem을 '식'에서 '종교및의례행위'로 수정</note>
+			<note>comb_v의 '~가 시작되다|끝나다'를 add로 이동하고 comb_v에 '올리다'추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">茶禮</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>설날에는 집집마다 아침 일찍 ~를 지낸다.</eg>
+				<eg>추석 아침은 ~로 시작된다.</eg>
+				<trans>ancestor-memorial services</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>종교및의례행위</sem_class>
+				<lr>
+					<syn type="etc">다례</syn>
+					<ant type="temp"></ant>
+					<hyper>제사</hyper>
+					<rel>명절</rel>
+					<rel>조상</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~를 지내다</form>
+					<!-- 구문 정보 추가 -->
+					<frame>X-이 ~를 지내다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~를 모시다</form>
+					<!-- 구문 정보 추가 -->
+					<frame>X-이 ~를 모시다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~를 올리다</form>
+					<!-- 구문 정보 추가 -->
+					<frame>X-이 ~를 올리다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~가 시작되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~가 끝나다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|혈연집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

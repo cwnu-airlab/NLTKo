@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>신문당하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/14</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/14</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/08</mod_date>
+				<mod_writer>최정진</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">신문을 당하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.당</str>
+			<org lg="si">訊問當_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be questioned</trans>
+				<trans>examined</trans>
+				<trans>interrogated</trans>
+				<trans>cross-examined</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">역할인간(강도|도둑|범인|피의자)</sel_rst>
+					<sel_rst arg="Y" tht="AGT">직업인간(경찰|수사관|검사)</sel_rst>
+					<eg>범인은 경찰에게 신문당했다.</eg>
+					<eg>프랜시스 파워즈는 소련 정보요원들에게 신문당하면서 이렇게 말했습니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="GOL">역할인간(강도|도둑|범인|피의자)</sel_rst>
+					<sel_rst arg="Y" tht="THM">범죄및비행(범행|범죄)</sel_rst>
+					<sel_rst arg="Z" tht="AGT">직업인간(검사|수사관|경찰)</sel_rst>
+					<eg>그 범인은 경찰에게 그가 저지른 범행을 신문당했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=N2-에게 Y=S1-고 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">역할인간(강도|도둑|범인|피의자)</sel_rst>
+					<sel_rst arg="Y" tht="CNT"/>
+					<sel_rst arg="Z" tht="AGT">직업인간(수사관|경찰|검사)</sel_rst>
+					<eg>범인은 경찰에게 범행일체를 자백하라고 신문당했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

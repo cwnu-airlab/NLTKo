@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>발생하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/23</mod_date>
+				<mod_writer>허용</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">발생을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>발생.하</str>
+			<org lg="si">發生_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>개시행위</sem_class>
+				<trans>occurrence</trans>
+				<trans>outbreak</trans>
+				<lr>
+					<syn type="kor">일어나다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(사건|사고|고장|화재|도난|눈사태|해일|구름|눈보라)</sel_rst>
+					<eg>몇 년 전 대구에서 큰 열차사고가 발생했다.</eg>
+					<eg>음주 운전으로 인한 교통사고가 발생하는 비율은 나라마다 다르다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">질병및증세(콜레라|독감)</sel_rst>
+					<eg>남부지방에서 전염병이 발생했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(인류|동물|문명|문화)</sel_rst>
+					<eg>인류가 언제 발생했는지는 알 수 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

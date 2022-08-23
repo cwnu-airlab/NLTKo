@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>규칙</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/22</cre_date>
+				<cre_writer>백인애;차준경</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/15</mod_date>
+				<mod_writer>한선혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/17</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>센스2 삭제;동사결합 기입</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/27</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2008/08/11</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/01/22(차준경</note>
+			<note>2003/02/19(권오희)</note>
+			<note>2003/04/15(한선혜)센스1과 2의 comb_v의 정보를 add로 이동</note>
+			<note>강범모)</note>
+			<note>센스1과 2의 pre_s에서 # 삭제</note>
+			<note>센스1과 2의 예문 수정</note>
+			<add>센스1의 동사자유구성으로 '~에 따르다'</add>
+			<add>센스1의 동사자유구성으로 '~을 세우다|정하다|지키다|따르다|어기다|위반하다'</add>
+			<add>센스2의 동사자유구성으로 '~에 어긋나다'</add>
+			<add>센스2의 동사자유구성으로 '~을 따르다'</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">規則</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~성</der>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~화</der>
+			<comp pos="n" type="suffix">~신호</comp>
+			<comp pos="n" type="suffix">~용언</comp>
+			<comp pos="n" type="suffix">~형용사</comp>
+			<comp pos="n" type="prefix">운동~</comp>
+			<comp pos="n" type="prefix">경기~</comp>
+			<comp pos="n" type="prefix">음운~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>한 사회의 구성원은 그 사회가 정한 ~들을 존중하고 준수해야 할 의무가 있다.</eg>
+				<eg>선생님은 학생들에게 프랑스어의 발음 ~에 대해 친절하게 설명해 주셨다.</eg>
+				<trans>rule</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>규범</sem_class>
+				<lr>
+					<syn type="etc">규정</syn>
+					<syn type="etc">규범</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 많다</comb_aj>
+				<comb_aj type="appr">~이 적다</comb_aj>
+				<comb_aj type="appr">~이 엄격하다</comb_aj>
+				<comb_n type="compound">경기 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 정하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 세우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 지키다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 따르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 위반하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 무시하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 어기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 맞다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 어긋나다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S다는 ~</s_n>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

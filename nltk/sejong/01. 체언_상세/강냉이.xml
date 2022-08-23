@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>강냉이</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/02</cre_date>
+				<cre_writer>이성헌</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/02</mod_date>
+				<mod_writer>이성헌</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/01</mod_date>
+				<mod_writer>송신지</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/12/30</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/25</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어, 동의어, 명사결합, 동사결합 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/15</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+		
+			<comp pos="n" type="suffix">~밥</comp>
+			<comp pos="n" type="suffix">~묵</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>옛날에는 쌀이 귀해 ~만으로 죽을 쑤어 먹곤 했다.</eg>
+				<trans>maize</trans>
+				<sem_class>곡식</sem_class>
+				<lr>
+					<syn type="perfect">옥수수</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 알</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 찌다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">개</cl>
+				<cl type="grp">꾸러미</cl>
+				<cl type="div">알</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>요번에 사온 ~는 지난 번 것에 비해 훨씬 잘 튀겨졌다.</eg>
+				<trans>popcorn</trans>
+				<sem_class>음식</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 튀기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 먹다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="grp">봉지</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

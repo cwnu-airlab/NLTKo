@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>대답하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/09</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/25</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">대답을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>대답.하</str>
+			<org lg="si">對答_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>대답</sem_class>
+				<trans>answer</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|단체</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간|단체|소통행위(질문|문의|말|질의|요청)</sel_rst>
+					<eg>그는 나의 질문에 퉁명스럽게 대답했다.</eg>
+					<eg>그는 나의 묻는 말에 일절 대답하지 않았다.</eg>
+					<eg>그는 나에게 한마디도 대답하지 않았다.</eg>
+					<eg>김 장관은 국방 위원회(의 질의서)에 간략하게 서면으로 대답했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=N2-에|에게 Y=S1-고 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|단체</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|단체|소통행위(질문|문의|말)</sel_rst>
+					<sel_rst arg="Y" tht="CNT"/>
+					<eg>그 여론 조사 기관은방송국(의 문의)에 아직은 정확한 수치를 알 수 없다고 대답했다.</eg>
+					<eg>명호는 선생님의 질문에 자기도 잘 모르겠다고 대답했다.</eg>
+					<eg>그 일에 대해 인호는 오직 창피할 뿐이라고만 대답했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에|에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|단체</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(내막|사항)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|단체|소통행위(질문|문의|말)</sel_rst>
+					<eg>인호는 나에게 세세한 내역을 모두 대답하지는 않았다.</eg>
+					<eg>검찰 수사 본부는 기자들에게 이번 수뢰 사건의 자세한 내막을 대답하지는 않았다.</eg>
+					<eg>네가 앞으로 어떻게 공부할 것인지에 대한 자세한 계획을 내게 대답할 수 있겠니?</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|단체</sel_rst>
+					<sel_rst arg="Y" tht="THM">Q</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|단체(검찰|언론)</sel_rst>
+					<eg>너는 나에게 장차 무슨 일을 할 것인지를 대답할 수 있겠니?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>높이다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>A.이1</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>증가행위</sem_class>
+				<trans>make higher</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(담|둑|건물)</sel_rst>
+					<eg>밖에서 안 보이도록 담을 더 높이자.</eg>
+					<eg>하천의 범람을 막기 위해서는 강둑을 높이는 수 밖에 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>증가행위</sem_class>
+				<trans>make higher</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(소리|지위|신분|속력|온도|실력|성적|비중|중요성)</sel_rst>
+					<eg>철수는 소리를 높이기 시작했다.</eg>
+					<eg>노동자의 사회적 지위를 높이기 위해서는 우리가 단결해야 한다.</eg>
+					<eg>영수는 자동차의 속력을 높였다.</eg>
+					<eg>온실의 온도를 너무 높였더니 식물이 모두 죽었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>개선행위</sem_class>
+				<trans>make higher</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|(뜻)</sel_rst>
+					<eg>고인을 높이고 기리는 뜻에서 동상을 건립하기로 결정했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<idm_grp>
+			<idm>목청을 높이다</idm>
+			<idm>언성을 높이다</idm>
+			<idm>문턱을 높이다</idm>
+		</idm_grp>
+	</entry>
+</superEntry>

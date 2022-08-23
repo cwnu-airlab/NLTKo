@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>액세서리</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/29</cre_date>
+				<cre_writer>최지임</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/02</mod_date>
+				<mod_writer>고길수</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/02</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>오표기형 기술</mod_note>
+				<mod_note>n_v 추가 기술</mod_note>
+				<mod_note>add옮김</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/01</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>s_n기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>동사결합, 명사결합 추가</mod_note>
+				<mod_note>오타 수정</mod_note>
+			</mod>
+			<note>2003/07/29(최지임)센스구별 검토요망</note>
+			<note>2003/09/02(고길수)'액상'은 표제어에서 삭제함, 확장목록에서도 삭제 검토 필요</note>
+			<note>센스2의 의미부류를 붙여쓰기함</note>
+			<note>센스2(구체물의부분, 카메라의 렌즈후드는 햇빛을 차단시키는 중요한 ~이다.)와 센스3(구체인공물, 전자파를 방지하는 제품은 인기있는 컴퓨터 ~이다.)을 구별하기 어려움</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="xx">악세사리</var>
+			<var type="xx">악세서리</var>
+			<var type="xx">액세사리</var>
+			<org lg="en">accessory</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그녀는 옷깃에 화려한 ~를 달았다.</eg>
+				<eg>가슴에 달린 ~가 분위기를 훨씬 세련돼 보이게 한다.</eg>
+				<trans>accessory</trans>
+				<sem_class>패용물</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 예쁘다</comb_aj>
+				<comb_aj type="appr">~가 아기자기하다</comb_aj>
+				<comb_aj type="appr">~가 화려하다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 달다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 착용하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 돋보이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 팔다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">개</cl>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>카메라를 살 때는 카메라 ~를 꼼꼼하게 살펴보고 사야 한다.</eg>
+				<eg>전자파를 방지하는 제품은 인기있는 컴퓨터 ~이다.</eg>
+				<eg>나는 그에게 자동차 ~를 선물했다.</eg>
+				<trans>acceessory</trans>
+				<sem_class>속성구체물</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">자동차 ~</comb_n>
+				<comb_n type="compound">카메라 ~</comb_n>
+				<comb_n type="compound">컴퓨터 ~</comb_n>
+				<comb_n type="compound">핸드폰 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 달다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 팔다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 장착하다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

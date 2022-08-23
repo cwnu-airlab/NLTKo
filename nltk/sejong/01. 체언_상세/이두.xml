@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>이두</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/25</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/04</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/27</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/10/08(박동호)</note>
+			<note>2003/01/03(한동훈)예문 추가</note>
+			<note>2003/02/04(고길수)예문 수정</note>
+			<note>동사자유구성을 add로 옮김</note>
+			<note>영어대역어에 한글 로마자 표기 추가</note>
+			<note>의미부류를 '언어'에서 '문자'로 수정</note>
+			<note>전문영역 기입</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">吏讀|吏頭</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>신라인들은 ~로 자신들의 말을 적기도 했다.먼 옛날에는 ~를 사용하여 우리 말을 표기했다.</eg>
+				<trans>idu</trans>
+				<domain>언어</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>문자</sem_class>
+				<lr>
+					<syn type="etc">이도</syn>
+					<syn type="etc">이서</syn>
+					<syn type="etc">이찰</syn>
+					<syn type="etc">이토</syn>
+					<syn type="etc">이투</syn>
+					<ant type="temp"></ant>
+					<hyper>차자표기</hyper>
+					<coord>구결</coord>
+					<coord>향찰</coord>
+					<rel>설총</rel>
+					<rel>한자</rel>
+					<rel>석독</rel>
+					<rel>음독</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 적다</form>
+					<frame>X-이 Y-을 ~로 적다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 만들다</form>
+					<frame>X-이 ~를 만들다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 배우다</form>
+					<frame>X-이 ~를 배우다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사용하다</form>
+					<frame>X-이 ~를 사용하다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 쓰다</form>
+					<frame>X-이 ~를 쓰다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">말</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>회수</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/30</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/12</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note>동사구성 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_v, 최대논항구조 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/04</mod_date>
+				<mod_writer>백고운</mod_writer>
+				<mod_note>add정보를 n_v에 기술, 추가</mod_note>
+			</mod>
+			<note>2000/10/09(김종명)</note>
+			<note>2001/02/10(이호영)</note>
+			<note>2003/01/31(기영인)예문 수정</note>
+			<note>2003/02/23(박동호)</note>
+			<note>2003/02/24(기영인)</note>
+			<note>combaj 정보추가</note>
+			<note>기능동사구문 수정</note>
+			<note>선택제약 수정</note>
+			<note>의미부류 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">回收</org>
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~권</der>
+			<der pos="n" type="suffix">~장</der>
+			<comp pos="n" type="suffix">~차</comp>
+			<comp pos="n" type="suffix">~철</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~당하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>회사가 자금을 급하게 ~를 해야만 할 상황이 생겼다.</eg>
+				<trans>withdrawal</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>방향성행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>기업</rel>
+					<rel>자금</rel>
+					<rel>대금</rel>
+					<rel>기일</rel>
+					<rel>물건</rel>
+					<rel>돈</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 늦다</comb_aj>
+				<comb_aj type="appr">~가 빠르다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Z-에게 Y-을 ~를 하다</frame>
+					<frame>X-이 Z-에게서 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-에의해 Y-이 ~가 되다</frame>
+				</comb_v>
+					<comb_v type="npred_vpred">
+					<form vcompound="no">~를 앞당기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 연기하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 재촉하다</form>
+					<frame></frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-의 Z-로부터의 Y ~</max_n_str>
+				<max_n_str>X-의 Z-로부터의 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|기업|기관</sel_rst>
+				<sel_rst arg="Y">구체인공물</sel_rst>
+				<sel_rst arg="Z">인간|기업|기관</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/30</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/12</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note>내부구성 추가, 예문, 대역어, 동사구성, max_n 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>단일어이므로 내부구조 삭제</mod_note>
+				<mod_note>의미부류 기술</mod_note>
+				<mod_note>최대논항구조, 선택제약 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/04</mod_date>
+				<mod_writer>백고운</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/10/09(김종명)</note>
+			<note>2001/02/10(이호영)비표준어인 '회수'의 표준어 변이형인 '횟수' 기술 필요</note>
+			<note>2003/01/31(기영인)'횟수' 새로이 추가기술함</note>
+			<note>2003/02/23(박동호)</note>
+			<note>2003/02/24(기영인)</note>
+			<note>가산/비가산/관계/대칭 수정</note>
+			<note>단위표현 추가</note>
+			<note>동의어 삭제</note>
+			<note>복합어 내적구조 삭제</note>
+			<note>수식어-문장 수정</note>
+			<note>참조 표제어 삭제</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see>횟수</see>
+		<morph_grp>
+			<var type="xs">횟수</var>
+			<str type="temp"></str>
+			<org lg="si">回數</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>날이 갈수록 그의 결석 ~가 늘어갔다.</eg>
+				<trans>frequency</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>수량</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 많다</comb_aj>
+				<comb_aj type="appr">~가 적다</comb_aj>
+				<comb_aj type="appr">~가 잦다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 늘어나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 거듭하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 잦아지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 세다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 줄다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

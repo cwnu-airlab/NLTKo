@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>덮어쓰다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/01</mod_date>
+				<mod_writer>조원형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/25</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>덮.어.쓰</str>
+			<infl type="eu"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>착용행위</sem_class>
+				<trans>cover</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물</sel_rst>
+					<eg>철수가 이불을 덮어쓰고 울고 있었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="cross" n="01">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(수건|모자|벙거지)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">신체부위(얼굴|머리)</sel_rst>
+					<eg>철수는 얼굴에 수건을 덮어썼다.</eg>
+					<eg>그 사람은 머리에 이상한 벙거지를 덮어쓰고 왔다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="cross" n="01">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">신체부위(얼굴|머리)</sel_rst>
+					<sel_rst arg="Z" tht="INS">구체물(수건|모자)</sel_rst>
+					<eg>철수는 얼굴을 수건으로 덮어썼다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>생성</sem_class>
+				<trans>be covered</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">구체물|장소</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(먼지|모래|흙|눈)</sel_rst>
+					<eg>광에서 꺼낸 책들은 모두 온통 먼지를 덮어쓰고 있었다.</eg>
+					<eg>마당에 있는 장독들이 눈을 보얗게 덮어쓰고 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="cross" n="02">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(밀가루|먼지|모래)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">신체부위(얼굴)</sel_rst>
+					<eg>철수는 온 몸에 밀가루를 덮어썼다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR"  cor="cross" n="02">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">신체부위(얼굴|머리|몸)</sel_rst>
+					<sel_rst arg="Z" tht="INS">구체물(밀가루|먼지)</sel_rst>
+					<eg>철수는 온 몸을 밀가루로 덮어썼다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>비의도적행위</sem_class>
+				<trans>take another's guilt on oneself</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(죄|누명)</sel_rst>
+					<eg>철수가 혼자서 죄를 덮어썼다.</eg>
+					<eg>나는 그 누명을 덮어쓰고 평생을 살았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/01</mod_date>
+				<mod_writer>조원형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/25</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>덮.어.쓰</str>
+			<infl type="eu"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>변형</sem_class>
+				<trans>overwrite</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(파일)</sel_rst>
+					<sel_rst arg="Z" tht="INS">(파일)</sel_rst>
+					<eg>기존의 파일을 새 파일로 덮어쓸까요?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

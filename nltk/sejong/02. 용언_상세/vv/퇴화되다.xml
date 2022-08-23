@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>퇴화되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/15</cre_date>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/19</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/08/21</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">퇴화가 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<org lg="si">退化_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>전이</sem_class>
+				<trans></trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">신체부위(맹장|근육)</sel_rst>
+					<eg>인간의 맹장은 퇴화되어 인간에게 필요없는 신체 조직이다.</eg>
+					<eg>인간의 귀 근육은 쓰이지 않아 퇴화되었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(기능|능력)</sel_rst>
+					<eg>이 새는 잠수 기능이 퇴화되어 물 속에서 먹이를 잡지 못한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>악화</sem_class>
+				<trans>degrade</trans>
+				<trans>regress</trans>
+				<trans>degenerate</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|(정신)|상태</sel_rst>
+					<sel_rst arg="Y" tht="FNS">인간|상태</sel_rst>
+					<eg>치매에 걸린 어머니는 어린 아이로 퇴화된 것 같다.</eg>
+					<eg>뮤코다당증에 걸린 아이는 정신 상태가 갓난 아이와 같은 상태로 퇴화된다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="FNS">추상적대상</sel_rst>
+					<eg>이제 역사학에서 실증주의는 이제 완전히 과거의 사조로 퇴화됐다.</eg>
+					<eg>시간이 지날수록 사실주의 예술은 대상의 단순한 재현으로 퇴화됐다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

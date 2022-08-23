@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>확증</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/16</cre_date>
+				<cre_writer>서진숙</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/27</mod_date>
+				<mod_writer>서진숙</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/06</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note>의미 분할</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/17</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2005/02/18</mod_date>
+				<mod_writer>장원철</mod_writer>	
+		        <mod_note></mod_note>
+	        </mod>
+	        <mod>
+		    	<mod_date>2007/08/01</mod_date>
+				<mod_writer>백고운</mod_writer>	
+		        <mod_note>n_aj 정보추가</mod_note>
+	        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">確證</org>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>고층에서 떨어뜨린 물건이 동일한 속도로 자유 낙하했다는 언명이 ~이 되었다.</eg>
+				<trans>authentication</trans>
+				<sem_class>결과행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에게 S다고 ~을 하다</frame>
+					<frame>X-이 Y-에게 S음-을 ~을 하다</frame>
+					<frame>X-이 Y-에게 Z-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Z-이 X-에의해 ~이 되다</frame>
+					<frame>S음-이 X-에의해 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 S-다는 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="X">인간집단</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<sel_rst arg="Y">인간집단</sel_rst>
+				<sel_rst arg="Z">행위</sel_rst>
+				<s_n>S다는  ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>경찰 처음 경찰에 사건을 신고한 사람이 범인이라는 ~을 잡았다.</eg>
+				<trans>positive proof</trans>
+				<trans>proof positive</trans>
+				<trans>conclusive evidence</trans>
+				<sem_class>원인</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 있다</comb_aj>
+				<comb_aj type="appr">~이 없다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 잡다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 찾다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 얻다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 제시하다</form>
+				</comb_v>
+						<comb_v type="narg_vpred">
+					<form vcompound="no">~을 주다</form>
+				</comb_v>
+				<s_n>S다는  ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>뜯어먹다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V-어V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>섭취행위</sem_class>
+				<trans>eat</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">동물(소|말|양|염소)</sel_rst>
+					<sel_rst arg="Y" tht="THM">(풀|목초)</sel_rst>
+					<eg>차창밖으로 보이는 들판에는 몇 마리의 말들이 풀을 뜯어먹고 있다.</eg>
+					<eg>돌이네 염소는 언덕배기에 웅크리고 앉아 오물오물 풀을 뜯어먹고 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>섭취행위</sem_class>
+				<trans>eat (meat)</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|동물(개|호랑이|사자)</sel_rst>
+					<sel_rst arg="Y" tht="THM">(먹이|고기)</sel_rst>
+					<eg>굶주렸던 새끼 사자들이 어미가 잡아온 먹이를 뜯어먹는 동안 어미 사자는 경계하는 눈빛으로 주변을 둘러보았다.</eg>
+					<eg>뼈에 붙어있던 마지박 살점까지 깨끗이 뜯어먹은 세파트는 그래도 아쉬운지 계속 뼈를 핥아대었다.</eg>
+					<eg>아이는 아예 갈비를 손에 들고 뜯어먹었다.</eg>
+					<eg>갈비를 먹을 때는 뼈에 붙은 살을 남기지 말고 깨끗이 뜯어먹어라.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>획득행위</sem_class>
+				<trans>extort</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<eg>그들은 의기투합하여 준오를 뜯어먹을 궁리를 했다.</eg>
+					<eg>월급날이면 후배들은 취직한 서클 선배를 찾아가 뜯어먹었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에게|에게서 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(점심|저녁|식사)</sel_rst>
+					<sel_rst arg="Z" tht="SRC">인간</sel_rst>
+					<eg>그들은 포상금을 받은 준오에게 점심을 뜯어먹었다.</eg>
+					<eg>오늘 저녁은 과장님한테 뜯어먹자.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">돈(커미션|구전)</sel_rst>
+					<sel_rst arg="Z" tht="SRC">인간</sel_rst>
+					<eg>계약이 성사되자 김 영감은 계약자들에게서 적지 않은 소개비를 뜯어먹었다.</eg>
+					<eg>이씨는 학교 앞에 노점을 펼쳐놓고 아이들에게서 코묻은 돈을 뜯어먹으며 살았다.</eg>
+					<eg>흥정이 이루어지면 그는 양측에서 약간의 커미션을 뜯어먹을 수 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

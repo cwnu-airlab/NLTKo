@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>생애</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/13</cre_date>
+				<cre_writer>이지영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/08</mod_date>
+				<mod_writer>목정수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/02</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/31</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/08</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>맥스엔, 논항 의미부류 정보 추가</mod_note>
+			</mod>
+			<note>%add 기술</note>
+			<note>%add=N으로 가득찬 생애</note>
+			<note>2002/05/15(김진형)</note>
+			<note>2002/05/26(이성헌)%note에 1차교정자 기재</note>
+			<note>2003/05/06(김미순)comb_aj에 '~가 비참하다' 추가</note>
+			<note>2003/09/08(목정수)</note>
+			<note>@comb_aj|@magn|@comb_v|@comb_n기술</note>
+			<note>@pre_s의 'S은'을 삭제</note>
+			<note>add에 '~를 마치다|보내다' 추가</note>
+			<note>생애를 마감하다|접다|끝맺다</note>
+			<note>생애의 매듭(을 짓다)</note>
+			<add>N으로 가득찬 ~</add>
+			<add>~를 마감하다|접다|끝맺다|마치다|보내다</add>
+			<add>~의 매듭(을 짓다)</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">生涯</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이번 모임은 돌아가신 분의 ~를 반추해 보는 기회가 될 것이다.</eg>
+				<trans>life</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>속성시간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 행복하다</comb_aj>
+				<comb_aj type="appr">~가 불행하다</comb_aj>
+				<comb_aj type="appr">~가 보람되다</comb_aj>
+				<comb_aj type="appr">~가 허무하다</comb_aj>
+				<comb_aj type="appr">~가 무의미하다</comb_aj>
+				<comb_aj type="appr">~가 덧없다</comb_aj>
+				<comb_aj type="appr">~가 비참하다</comb_aj>
+				<comb_aj type="magn">~가 길다</comb_aj>
+				<comb_aj type="magn">~가 짧다</comb_aj>
+				<comb_n type="compound">고난 ~</comb_n>
+				<comb_n type="compound">고통 ~</comb_n>
+				<comb_n type="compound">굴곡 ~</comb_n>
+				<comb_n type="compound">역경 ~</comb_n>
+				<comb_n type="compound">영욕의 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 살다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 마감하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 접다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 끝맺다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 마치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 보내다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

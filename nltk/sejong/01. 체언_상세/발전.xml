@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>발전</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/06/13</cre_date>
+				<cre_writer>안근종</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/31</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>수정사항없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1,2 '시키다', 선택제약 Y 삭제</mod_note>
+				<mod_note>센스1 의미부류 '긍정적결과행위'를 수정</mod_note>
+			</mod>
+			<note>2003/02/25(이호영)센스 2 추가</note>
+			<note>2003/03/31(박만규)센스2 의미부류 수정</note>
+			<note>기존 동사연어구성의 정보를 향후 추가정보로 이동</note>
+			<note>논항 선택제약 기술</note>
+			<note>동사연어구성 기술</note>
+			<note>센스 1에 대해서 예문 추가</note>
+			<note>의미부류 수정</note>
+			<note>형용사연어 추가</note>
+			<add>~에 기여하다' 추가</add>
+			<add>동사자유구성에 '~을 이룩하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">發展</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~성</der>
+			<der pos="n" type="suffix">~상</der>
+			<der pos="n" type="suffix">~시</der>
+			<der pos="n" type="suffix">~력</der>
+			<der pos="n" type="suffix">~사</der>
+			<comp pos="n" type="suffix">~과정</comp>
+			<comp pos="n" type="suffix">~도상국</comp>
+			<comp pos="n" type="prefix">경제~</comp>
+			<comp pos="n" type="prefix">국가~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>정보 통신의 ~에 기여하다.</eg>
+				<eg>그 동안 경제가 ~은 많이 했지만, 분배의 문제가 또한 잘 해결되어야 할 것이다.</eg>
+				<trans>development</trans>
+				<trans>growth</trans>
+				<trans>expansion</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class></sem_class>
+				<lr>
+					<syn type="etc">발달</syn>
+					<ant type="etc">퇴보</ant>
+					<ant type="etc">정체</ant>
+					<hyper>과정</hyper>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 급속하다</comb_aj>
+				<comb_aj type="magn">~이 눈부시다</comb_aj>
+				<comb_aj type="magn">~이 놀랍다</comb_aj>
+				<comb_n type="compound">장족의 ~</comb_n>
+				<comb_n type="compound">고도의 ~</comb_n>
+				<comb_n type="compound">~의 발전</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 이루다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단(회사|지역)|학문과목(과학)|방법(기술)|추상적대상(사업|경제)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>단순한 말다툼이 주먹다짐으로까지 ~이 되었다.</eg>
+				<eg>사태가 ~을 하는 양상을 보니, 아무래도 법정으로까지 가야 할 것 같다.</eg>
+				<trans>development</trans>
+				<trans>expansion</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>증가</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-로 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 Y-로 ~이 되다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">사건(사태|분쟁)</sel_rst>
+				<sel_rst arg="Y">사건(파업)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/06/13</cre_date>
+				<cre_writer>안근종</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/31</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>수정사항없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>선택제약 정보 추가</mod_note>
+			</mod>
+			<note>2003/02/25(이호영)예문 추가</note>
+			<note>2003/03/31(박만규)의미부류 수정, 선택제약 수정</note>
+			<note>기존 동사연어구성의 정보를 향후 추가정보로 이동</note>
+			<note>대역어 오류 수정</note>
+			<note>의미부류 수정</note>
+			<add>동사자유구성에 '~을 시작하다|중단하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">發電</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~소</der>
+			<der pos="n" type="suffix">~기</der>
+			<der pos="n" type="suffix">~량</der>
+			<der pos="n" type="suffix">~력</der>
+			<comp pos="n" type="suffix">~기관</comp>
+			<comp pos="n" type="suffix">~비용</comp>
+			<comp pos="n" type="prefix">수력~</comp>
+			<comp pos="n" type="prefix">화력~</comp>
+			<comp pos="n" type="prefix">원자력~</comp>
+			<comp pos="n" type="prefix">자가~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>바람을 이용한 ~의 가능성을 연구하다.</eg>
+				<eg>그 발전기로 최대한 얼마나 ~이 가능합니까?</eg>
+				<trans>generation of electricity</trans>
+				<domain></domain>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>지속적활동</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hypo>수력</hypo>
+					<hypo>화력</hypo>
+					<hypo>원자력</hypo>
+					<hypo>자가~</hypo>
+					<rel>~소</rel>
+					<rel>전기</rel>
+					<rel>와트</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단|기계</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

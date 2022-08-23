@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>단단하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/15</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/04/22</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/12/18</mod_date>
+				<mod_writer>김윤신</mod_writer>
+				<mod_note>선택제약 수정</mod_note>
+				<mod_note>예문 추가</mod_note>
+			</mod>
+			<note>2003/04/22(김현권)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>R.하</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>촉감속성값</sem_class>
+				<trans>be hard</trans>
+				<lr>
+					<syn type="sino">견고하다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(쇠|돌|나무)</sel_rst>
+					<eg>쇠는 아주 단단한 물질이다.</eg>
+					<eg>이 나무는 단단해서 톱이 안 들어갈 지경이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>모양속성값</sem_class>
+				<trans>have a strong body</trans>
+				<lr>
+					<syn type="perfect">다부지다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">신체부위</sel_rst>
+					<eg>그의 몸은 수영으로 단련되어 단단하다.</eg>
+					<eg>그는 보기와는 달리 단단한 주먹을 가지고 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>긍정적인성속성값</sem_class>
+				<trans>be firm</trans>
+				<lr>
+					<syn type="perfect">다부지다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(마음|결심|의지|신념|속)</sel_rst>
+					<eg>그의 결심은 확고하고 단단하다.</eg>
+					<eg>그는 속이 아주 단단한 사람이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>평가속성값</sem_class>
+				<trans>be fixed</trans>
+				<trans>be great</trans>
+				<trans>be solid</trans>
+				<lr>
+					<syn type="perfect">탄탄하다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(실력)|(자금줄|영업)|(기초|기반)</sel_rst>
+					<eg>철수는 실력이 단단해.</eg>
+					<eg>그의 사업기반은 아주 단단하다.</eg>
+					<eg>그 회사의 자금줄이 단단해서 투자를 하면 틀림없어.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be firm</trans>
+				<lr>
+					<syn type="perfect">호되다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">행위(부탁|요구|간청|약속|꾸지람)</sel_rst>
+					<eg>하도 단단한 부탁을 하길래 안 들어 줄 수가 없었다.</eg>
+					<eg>아버님으로부터 꾸지람을 단단히 들었다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+					<end_rst1>단단한</end_rst1>
+					<end_rst1>단단히</end_rst1>
+				</morph_rst>
+			</com>
+		</sense>
+	</entry>
+</superEntry>

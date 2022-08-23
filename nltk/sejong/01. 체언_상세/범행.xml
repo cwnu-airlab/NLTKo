@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>범행</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/06/24</cre_date>
+				<cre_writer>남길임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/14</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/31</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/10</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1, 2 n_v 수정</mod_note>
+				<mod_note>센스1 선택제약, 센스2 최대논항구조 기술</mod_note>
+				<mod_note>센스1 s_n, 센스2 pre_d 삭제</mod_note>
+			</mod>
+			<note>2002/08/18(박동호)sense2의 uni에 '건' 추가</note>
+			<note>sense1의 comb_v 기재</note>
+			<note>sense2의 의미부류를 '행위'에서 '방향성행위'로 고침</note>
+			<note>2002/03/18(류희선)센스1의 예문추가</note>
+			<note>의미부류(사건|현상에서 우발사건으로)수정(검토요망!)</note>
+			<note>2003/09/14(박진호)센스2 의미부류 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">犯行</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>경찰은 범인으로부터 ~의 동기를 자백 받았다고 발표했다.</eg>
+				<eg>그 ~은 매우 참혹했다.</eg>
+				<trans>crime</trans>
+				<trans>offence</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>우발사건</sem_class><!--다의분할 삭제 가능성? '범법', '범죄'는 범죄및비행으로만 기술되어 있음(김이정)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 잔인하다</comb_aj>
+				<comb_aj type="appr">~이 참혹하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 일어나다</form>
+					<frame>X-에서 S는 ~이 일어나다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 발생하다</form>
+					<frame>X-에서 S는 ~이 발생하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">장소</sel_rst>
+				<cl type="uni">건</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>무엇 때문에 ~을 저질렀습니까?</eg>
+				<trans>crime</trans>
+				<trans>offence</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>범죄및비행</sem_class>
+				<lr>
+					<syn>범죄</syn>
+					<ant type="temp"></ant>
+					<rel>범인</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 저지르다</form>
+					<frame>X-이 ~을 저지르다</frame>
+					<frame>X-이 S는 ~을 저지르다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+					<frame>X-이 S는 ~을 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 S는 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

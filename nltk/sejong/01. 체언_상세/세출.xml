@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>세출</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/15</cre_date>
+				<cre_writer>김미순</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/20</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/28</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>의미부류 값비용에서 비용으로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/17</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>예문 간단히 수정</mod_note>
+				<mod_note>n_aj type 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/23</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/17</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/17</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>명사에 '~ 예산', 동사에 '결산하다', 단위표현에 '원' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">歲出</org>
+		
+			<comp pos="n" type="suffix">~예산</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>내년도 예산부터는 ~을 삭감하고 세입을 증대해 나갈 예정이다.</eg>
+				<trans>annual expenditure</trans>
+				<domain>경제</domain>
+				<sem_class>비용</sem_class>
+				<lr>
+					<ant type="compl">세입</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 많다</comb_aj>
+				<comb_aj type="min">~이 적다</comb_aj>
+				<comb_n type="compound">~ 예산</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 책정하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 삭감하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 결산하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<cl type="qnt">원</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

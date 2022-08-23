@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>스피드</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/14</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/17</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/25</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>예문 추가;의미부류 수정;논항 명사구, 선택제약 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/17</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>~를 내다</note>
+			<note>2002/05/17(김종명)</note>
+			<note>2002/05/22(박동호)</note>
+			<note>2003/09/14(기영인)원어정보 형식수정;add 정보입력;combaj 정보입력;magn 정보수정(삭제 및 추가);combn 정보추가</note>
+			<note>2003/09/17(기영인)</note>
+			<add>(syn) 속도</add>
+			<add>(rel) 빠르기|속도|속력</add>
+			<add>~를 내다|올리다</add>
+			<add>~를 낮추다|떨어뜨리다|줄이다</add>
+			<add>풀 ~</add>
+			<add>~ 업</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="en">speed</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>골목길이 나타나자 자동차는 ~를 줄이기 시작했다.</eg>
+				<eg>반환점을 통과하는 ~는 시속 200 킬로를 조금 넘었다.</eg> <!-- 추가 -->
+				<trans>speed</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>속도</sem_class> <!-- 크기 수정 -->
+				<lr>
+					<syn type="etc">속도</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 느리다</comb_aj>
+				<comb_aj type="appr">~가 빠르다</comb_aj>
+				<comb_aj type="magn">최고의 ~</comb_aj>
+				<comb_aj type="magn">최대의 ~</comb_aj>
+				<comb_aj type="magn">~가 굉장하다</comb_aj>
+				<comb_aj type="magn">~가 엄청나다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 내다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 올리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 줄이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 낮추다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 내리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>X ~</max_n_str> <!-- 추가 -->
+				<sel_rst arg="X">인간|교통기관</sel_rst> <!-- 추가 -->
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

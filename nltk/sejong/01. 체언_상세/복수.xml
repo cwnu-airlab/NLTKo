@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>복수</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/14</cre_date>
+				<cre_writer>남길임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/15</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/01</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/20</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/07/14(이병규)</note>
+			<note>2002/08/01(고길수)단위표현에 '번|차례' 추가</note>
+			<note>기능동사구문에서 'X-이 Y|S것-에|에게 ~를 하다'를 'X-이 Y-에게 Z|S것-에대해 ~를 하다'로 수정하고 '~를 당하다'를 추가</note>
+			<note>논항선택제약정보 수정</note>
+			<note>add에 들어있는 '~의 칼|칼날'을 명사연어로 조정</note>
+			<note>2003/05/23(류희선)예문추가</note>
+			<note>2003/09/15(박진호)격틀, 선택제약 수정</note>
+			<add>복수의 칼날을 갈다</add>
+			<add>복수의 칼날을 갈다</add>
+			<add>복합어로 '~심|극|전'을 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">復讐</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~극</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="np">의 화신</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>내 아버지를 죽인 원수에게는 꼭 내 손으로 ~를 해 주고 말겠다.</eg>
+				<eg>그는 ~의 칼날을 갈고 있다.</eg>
+				<trans>revenge</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>처벌</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~의 칼</comb_n>
+				<comb_n type="compound">~의 칼날</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-에게 Z-을 ~를 하다</frame>
+					<frame>X-이 Y-에게 Z-에대해 ~를 하다</frame>
+					<frame>X-이 Y-에게 S것-을 ~를 하다</frame>
+					<frame>X-이 Y-에게 S것-에대해 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 당하다</form>
+					<frame>Y-이 X-에게 ~를 당하다</frame>
+					<frame>Y-이 X-에게서 ~를 당하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">사건|행위</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/14</cre_date>
+				<cre_writer>남길임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/15</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/01</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/20</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/08/01(고길수)센스2의 예문 수정</note>
+			<note>센스2의 의미부류를 '언어단위'에서 '속성값'으로 수정, '언어단위'는 들어가 있으나 부적절한듯</note>
+			<note>2003/05/23(류희선)센스2의 의미부류검토요망!(언어단위??)</note>
+			<note>2003/09/15(박진호)의미부류 수정. 격틀, 선택제약 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">複數</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~형</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>후보자를 ~로 추천했다.</eg>
+				<trans>plural</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>수량속성값</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 ~이다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>우리말에서는 '들'이 붙어 ~를 표현한다.</eg>
+				<trans>plural</trans>
+				<domain>언어</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>속성값</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant>단수</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 ~이다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">언어요소|언어단위|언어범주</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/14</cre_date>
+				<cre_writer>남길임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/15</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/01</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/20</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add를 n_v로 이동</mod_note>
+			</mod>
+			<note>2002/08/01(고길수)의미부류에 '신체부위'를 '액체'로 수정, 단 '신체부위'에 '피, 체액, 혈장' 등이 있는데 이들은 '아프다, 다치다' 등의 신체부위 주요 결합 동사들과 양립하지 않음</note>
+			<note>2003/05/23(류희선)</note>
+			<note>2003/09/15(박진호)add 수정</note>
+			<add>~가 차다</add>
+			<add>~가 차다</add>
+			<add>~를 빼내다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">腹水</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>배에 ~가 많이 차서 빨리 수술해야 한다.</eg>
+				<trans>dropsy of the belly</trans>
+				<trans>ascites</trans>
+				<domain>의학</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>분비물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 많다</comb_aj>
+				<comb_aj type="appr">~가 적다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred"> 
+					<form vcompound="no">~가 차다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> 
+					<form vcompound="no">~를 빼다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

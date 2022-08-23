@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>어용</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/16</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/11/04</mod_date>
+				<mod_writer>최지임</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/28</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>센스1, 2의미부류 수정</mod_note>
+				<mod_note>add 정보를 센스2 n_v에 기술</mod_note>
+				<mod_note>센스2 n_n 추가</mod_note>
+				<mod_note>센스2 n_v 수정</mod_note>
+				<mod_note>센스2 prt 정보 분리</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/19</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 추가</mod_note>
+			</mod>
+			<note>2002/08/19(최지임)의미부류 및 센스 구별 검토요망</note>
+			<note>2002/10/11(박동호)의미부류와 센스 구별 ok</note>
+			<note>2003/11/04(최지임)수식어문장정보삭제</note>
+			<note>센스2 조사제약표기수정</note>
+			<note>노트표기수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">御用</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~기자</comp>
+			<comp pos="n" type="suffix">~문학</comp>
+			<comp pos="n" type="suffix">~조합</comp>
+			<comp pos="n" type="suffix">~지</comp>
+			<comp pos="n" type="suffix">~학자</comp>
+			<comp pos="n" type="suffix">~신문</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		
+		<sense n="1">
+			<sem_grp>
+				<eg>이 신문은 ~으로 몰려 사람들의 비난을 받고 있다.</eg>
+				<trans>being kept</trans>
+				<trans>being under the government's thumb</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>방식행위</sem_class> <!--'부정적속성값'을 '속성값'으로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~의 혐의</comb_n>
+				<comb_n type="compound">~ 단체</comb_n> <!--송근영 추가-->
+				<comb_n type="compound">~ 노조</comb_n> <!--송근영 추가-->
+				<comb_v type="npred_vpred"> <!--술어명사 결합으로 유형 수정(송근영)-->
+					<form vcompound="no">~으로 몰리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt>~으로</prt> <!--'로'를 '으로'로 (송근영)-->
+				<prt>~이</prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

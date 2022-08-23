@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>평화롭다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/15</cre_date>
+				<cre_writer>강정연</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/22</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/20</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 정보 수정</mod_note>
+				<mod_note>lr 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>NS</str>
+			<org lg="si">平和_</org>
+			<infl type="b"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>peaceful</trans>
+				<lr>
+					<syn type="perfect">평화스럽다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">단체|장소|(분위기)</sel_rst>
+					<eg>요즘 우리집 분위기는 평화로운 편이다.</eg>
+					<eg>가정이 평화로우면 모든 일이 만족스럽다.</eg>
+					<eg>추수를 끝낸 농촌은 평화로웠다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간|(마음)</sel_rst>
+					<eg>우선 네 마음이 평화로워야 다른 이들에게 너그러워질 수 있을 게다.</eg>
+					<eg>성당에 앉아 있으면 언제나 마음이 참 평화롭다.</eg>
+					<eg>요즘 그는 마음이 그다지 평화롭지 못한 듯하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|(삶|생활)</sel_rst>
+					<eg>그녀의 삶은 평생 평화롭지 못했다.</eg>
+					<eg>그녀는 생활이 이렇게 평화로우니 남들보다 덜 늙는 것 같다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|(표정|모습|얼굴|웃음|미소|목소리)</sel_rst>
+					<eg>잠든 아이의 얼굴이 평화롭기 그지 없다.</eg>
+					<eg>나는 어머니의 미소가 그렇게 평화로운 걸 본 적이 없었다.</eg>
+					<eg>그녀는 목소리가 평화롭고 다정했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(시간|시기|시절|시대)</sel_rst>
+					<eg>내 어린 시절은 참 평화로웠다.</eg>
+					<eg>나에게는 이 오전 시간이 가장 평화롭다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

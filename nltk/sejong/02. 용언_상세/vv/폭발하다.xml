@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>폭발하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/15</cre_date>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/22</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/07/30</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">폭발을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">爆發_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>유발사고</sem_class>
+				<trans>explode</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(폭발물|폭탄|지뢰|가스|연료)</sel_rst>
+					<eg>소형 폭탄이 꽝하고 폭발하였다.</eg>
+					<eg>기계의 오작동으로 인공위성이 폭발하고 말았다.</eg>
+					<eg>테러범들이 장착한 시한 폭탄이 터져 국회의장의 자동차가 폭발하였다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>지질학적재해</sem_class>
+				<trans>erupt</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체자연물(화산)</sel_rst>
+					<eg>지난 10년간 잠잠하던 휴화산이 갑자기 폭발하기 시작했다.</eg>
+					<eg>메라피 화산은 1930년에도 폭발해 1천370명이 숨진 바 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>외향적심리행위</sem_class>
+				<trans>burst</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|외향적심리상태(화|울화|분노)</sel_rst>
+					<eg>학생들이 말을 안 듣자, 김 선생은 참았던 분노가 한꺼번에 폭발하였다.</eg>
+					<eg>아이들이 계속 떼를 쓰자, 어머니가 마침내 폭발하셨다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

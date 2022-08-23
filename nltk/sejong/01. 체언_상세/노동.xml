@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>노동</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/08</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/08</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/12</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>태그 내 나열된 정보 분할</mod_note>
+				<mod_note>파생어, 합성어, 형용사, 명사, 동사 결합 추가</mod_note>
+				<mod_note>잘못된 파생어 정보 합성어로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/09/03(백인애)</note>
+			<note>2001/01/30(정유진</note>
+			<note>2003/03/27(이호영)센스2 추가</note>
+			<note>2003/04/08(박만규)센스 1,2 의미부류 수정</note>
+			<note>센스1 예문 추가|의미부류 수정|동사연어구성 수정 및 향후 추가정보로 이동|논항 선택제약 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">勞動</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="prefix">막~</der>
+			<comp pos="n" type="prefix">가내~</comp>
+			<comp pos="n" type="prefix">단순~</comp>
+			<comp pos="n" type="prefix">노예~</comp>
+			<comp pos="n" type="prefix">육체~</comp>
+			<comp pos="n" type="prefix">임금~</comp>
+			<comp pos="n" type="prefix">잉여~</comp>
+			<comp pos="n" type="prefix">정신~</comp>
+			<comp pos="n" type="prefix">자유~</comp>
+			<comp pos="n" type="prefix">종속~</comp>
+			<comp pos="n" type="prefix">중~</comp>
+			<comp pos="n" type="suffix">~권</comp>
+			<comp pos="n" type="suffix">~력</comp>
+			<comp pos="n" type="suffix">~자</comp>
+			<comp pos="n" type="suffix">~당</comp>
+  			<comp pos="n" type="suffix">~량</comp>
+			<comp pos="n" type="suffix">~복</comp>
+			<comp pos="n" type="suffix">~요</comp>
+			<comp pos="n" type="suffix">~판</comp>
+			<comp pos="n" type="suffix">~법</comp>
+			<comp pos="n" type="suffix">~환경</comp>
+			<comp pos="n" type="suffix">~쟁의</comp>
+			<comp pos="n" type="suffix">~임금</comp>
+			<comp pos="n" type="suffix">~계급</comp>
+			<comp pos="n" type="suffix">~단체</comp>
+			<comp pos="n" type="suffix">~삼권</comp>
+			<comp pos="n" type="suffix">~시간</comp>
+			<comp pos="n" type="suffix">~시장</comp>
+			<comp pos="n" type="suffix">~운동</comp>
+			<comp pos="n" type="suffix">~인구</comp>
+			<comp pos="n" type="suffix">~조건</comp>
+			<comp pos="n" type="suffix">~조합</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>글을 쓰는 작업도 에너지 소모가 많은 고된 ~이다.</eg>
+				<eg>~이 있어야 결실도 있는 법이다.</eg>
+				<trans>work</trans>
+				<trans>labor</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>일</sem_class>
+				<lr>
+					<syn type="etc">근로</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 신성하다</comb_aj>
+				<comb_aj type="appr">~이 고되다</comb_aj>
+				<comb_n type="compound">육체 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 힘들다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl> <!--(호정은) 분류사를 쓰는지 애매-->
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 ~으로 하루하루를 먹고 산다.</eg>
+				<eg>그는 별다른 재주가 없어, 우선 건축 현장에서 ~을 하기로 결심하였다.</eg>
+				<trans>work</trans>
+				<trans>labor</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>일</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">공사판 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">직업인간(노동자|인부)|인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

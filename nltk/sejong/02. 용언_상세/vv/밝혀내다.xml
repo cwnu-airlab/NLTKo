@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>밝혀내다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/15</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>김윤신</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="ai"/>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>make (a matter) clear</trans>
+				<trans>clear up</trans>
+				<trans>clarify</trans>
+				<lr>
+					<syn type="perfect">찾아내다</syn>
+					<syn type="perfect">알아내다</syn>
+					<hyper>밝히다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">속성인간|사실명제|자연법칙|속성|원인|이유</sel_rst>
+					<eg>검찰은 비리와 부정부패 혐의의 주인공을 반드시 밝혀내서 일벌백계할 것이라고 했다.</eg>
+					<eg>그 어떤 신문도 그 정치인의 정확한 사인을 밝혀내지는 못했다.</eg>
+					<eg>객관주의자가 주어진 사실들을 관통하는 필연성을 밝혀내려고 할 때, 그는 항상 주어진 사실들을 변호하는 입장에 빠질 위험이 있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것|S음|Q</sel_rst>
+					<eg>경찰은 특히 3명의 채권자들이 김씨를 심하게 괴롭혔다는 것을 밝혀내고 이들을 상대로 김씨의 사망경위를 조사할 방침이다.</eg>
+					<eg>기업은 고객을 창조하고 지키려면 고객이 진정으로 원하고 소중하게 여기는 것을 밝혀내서 만족시켜 줄 수 있어야 한다.</eg>
+					<eg>그 형사는 응답자들이 강도에 가담했고 폭행에 관여하였으며 하부문화 세계에 밀접하게 관련되어 있음을 밝혀내었다.</eg>
+					<eg>병원에서도 그의 병이 무엇인지 밝혀내지를 못했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">행위(조사|연구)|사실명제|학문과목</sel_rst>
+					<sel_rst arg="Y" tht="THM">속성인간|사실명제|자연법칙|속성|원인|이유</sel_rst>
+					<eg>그들의 치밀한 연구는 위협과 도전에 있어서의 단기적인 심리생리적 패턴을 밝혀내었다.</eg>
+					<eg>경찰의 조사는 유력한 용의자를 밝혀냈고 미제에 빠질 뻔한 사건을 해결할 수 있는 실마리를 제공했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">행위(조사|연구)|사실명제|학문과목</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것|S음|Q</sel_rst>
+					<eg>최근의 연구는 질병이 없는 노인의 심장이 젊은 장년의 심장만큼이나 실제로 펌프질할 수 있음을 밝혀내었다.</eg>
+					<eg>아직도 과학은 많은 자연현상이 무엇때문에 일어나는지를 밝혀내지 못하고 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=S1-다고 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="CNT"/>
+					<eg>경찰은 그 비리사건에 유력한 정치인이 관련되었다고 밝혀냈다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">행위(조사|연구)|사실명제|학문과목</sel_rst>
+					<sel_rst arg="Y" tht="CNT"/>
+					<eg>이 연구는 인간이 나타내는 감정과 아주 밀접한 관계가 있다고 밝혀내었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

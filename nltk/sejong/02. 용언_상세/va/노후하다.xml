@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>노후하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/10/03</cre_date>
+				<cre_writer>김재욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/15</mod_date>
+				<mod_writer>허용</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>R.하</str>
+			<org lg="si">老朽_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>부정적품격속성값</sem_class>
+				<trans>be superannuated</trans>
+				<trans>be old and decrepit</trans>
+				<lr>
+					<syn type="kor">낡다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체자연물|구체인공물|장소</sel_rst>
+					<eg>이런 노후한 기계로는 다른 나라의 기술을 따라잡을 수 없다.</eg>
+					<eg>이미 늙고 노후한 땅은 다 갈아 엎어 새 땅을 만들어야 한다.</eg>
+					<eg>전국에 노후한 교실이 1만 개쯤 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>결점</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/27</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/19</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/29</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/12</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_v에 기술 및 정보 추가</mod_note>
+				<mod_note>n_v 수정</mod_note>
+				<mod_note>syn 기술</mod_note>
+				<mod_note>sem 수정</mod_note>
+			</mod>
+			<note>2002/08/30(김종명)pre_s 수정</note>
+			<note>2002/10/07(한선혜)add 기술</note>
+			<note>2003/09/19(이성헌)</note>
+			<note>comb_v 기술</note>
+			<note>기능동사구문 기술</note>
+			<add>~을 숨기다|감추다|드러내다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">缺點</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="prefix">무~</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>한 가지라도 ~이 없는 사람이 어디 있니?</eg>
+				<trans>fault</trans>
+				<trans>defect</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>속성값</sem_class> <!--'부정적속성값'(새 의미부류에 없음)을 '속성값'으로 수정(송근영)-->
+				<lr>
+					<syn type="etc">결함</syn>
+					<!--결함-->
+					<!--코멘트로 있던 '결함' 동의어 정보로 추가(송근영)-->
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 많다</comb_aj>
+				<comb_aj type="appr">~이 적다</comb_aj>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 작다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar"> <!--술어명사 결합 유형으로 수정, 격틀 기술(송근영)-->
+					<form vcompound="no">~을 가지다</form>
+					<frame>X-이 S다는 ~을 가지다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 있다</form>
+					<frame>X-이 S다는 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 없다</form>
+					<frame>X-이 ~이 없다</frame> <!--'S다는' 삭제(송근영)-->
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 숨기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 감추다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 드러내다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 보완하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 S다는 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단|계획사건|구체인공물|속성기능장소|추상적대상</sel_rst>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

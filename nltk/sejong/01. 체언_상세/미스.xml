@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>미스</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/07</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>lr, sem수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/10/11(박진호)센스2를 별도 엔트리로 독립시킴. 의미부류 수정</note>
+			<note>2003/10/28(송인욱)의미부류를 '여성인간'에서 수정, 그런 의미부류는 없음</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="xx">미쓰</var>
+			<org lg="en">Miss</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 그녀가 아직 결혼을 안 한 ~라고 생각하고 데이트를 신청했다.</eg>
+				<eg>그녀는 ~로 남아서 인생을 살고 싶다고 했다.</eg>
+				<trans>unmarried woman</trans>
+				<reg>구어</reg>
+				<sem_class>여성인간</sem_class><!--인간을 여성인간으로-->
+				<lr>
+					<syn type="kor">아가씨</syn>
+					<ant type="conv">총각</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/07</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>syn_grp_b수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>의미부류 '부정적결과행위'를 '실패'로 수정, n_aj의 magn를 appr로 수정, n_v 수정, Y 선택제약 수정</mod_note>
+			</mod>
+			<note>2003/10/11(박진호)의미부류 수정</note>
+			<note>2003/10/28(송인욱)도메인과 의미부류를 각각 '경제'와 '실패'에서 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>경기 내내 잦은 패스 ~를 범한 것이 저 팀의 패인이다.</eg>
+				<eg>결정적인 순간에 서브를 ~하는 바람에 나는 다 잡은 게임을 놓쳤다.</eg>
+				<trans>mistake</trans>
+				<trans>slip</trans>
+				<domain>운동</domain>
+				<sem_class>실패</sem_class>
+				<lr>
+					<syn type="kor">실수</syn>
+					<syn type="kor">범실</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">큰 ~</comb_aj>
+				<comb_aj type="appr" pred="no">작은 ~</comb_aj>
+				<comb_aj type="appr" pred="no">가벼운 ~</comb_aj>
+				<comb_n type="compound">패스 ~</comb_n>
+				<comb_n type="compound">서브 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 범하다</form>
+					<frame>X-이 Y-을 ~를 범하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 저지르다</form>
+					<frame>X-이 Y-을 ~를 저지르다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">몸짓및동작</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

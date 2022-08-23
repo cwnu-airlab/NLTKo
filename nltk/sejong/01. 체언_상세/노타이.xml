@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>노타이</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/15</cre_date>
+				<cre_writer>이상규</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/03</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/06</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>예문 형식 수정</mod_note>
+				<mod_note>n_v 형식 수정</mod_note>
+			</mod>
+			<note></note>
+			<add>~를 입다|벗다|세탁하다|다리다|사다|팔다|선물하다|선물받다(sens1)</add>
+			<add>~를 입다|벗다|세탁하다|다리다|사다|팔다|선물하다|선물받다(sens1)</add>
+			<add>~로 다니다|나타나다|가다(sens2)</add>
+			<add>~를 입다|벗다|세탁하다|다리다|사다|팔다|선물하다|선물받다(sens1)</add>
+			<add>~로 다니다|나타나다|가다(sens2)</add>
+			<add>~가 보이다(sens2)</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<str type="N_N">노+타이</str>
+			<org lg="en">no tie</org>
+		
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 오늘 여자친구가 사준 ~를 입고 외출할 것이다.</eg>
+				<trans>no tie</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>옷</sem_class>
+				<lr>
+					<syn type="etc">노타이셔츠</syn>
+					<ant type="temp"></ant>
+					<rel>의복</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+			    
+				<comb_aj type="appr">~가 맞다</comb_aj>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 작다</comb_aj>
+				<comb_aj type="appr">~가 헐렁하다</comb_aj>
+				<comb_aj type="appr">~가 더럽다</comb_aj>
+				<comb_aj type="appr">~가 깨끗하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 입다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 벗다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 세탁하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 다리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 팔다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 선물하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 선물받다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">벌</cl>
+			</syn_grp>	
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>날씨가 더워서 그런지 ~ 차림의 신사들이 눈에 많이 띤다.</eg>
+				<trans>no tie</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>상태</sem_class>
+				<lr>
+					<rel>신사</rel>
+					<rel>여름</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+			  
+				<comb_aj type="appr">~가 편하다</comb_aj>
+				<comb_aj type="appr">~가 흉하다</comb_aj>
+				<comb_n type="compound">~ 차림</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 다니다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 나타나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 가다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="narg_vpred">
+					<form vcompound="no">~가 보이다</form>
+					<frame></frame>	
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				 	<prt>~로</prt>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

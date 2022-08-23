@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>버찌</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/04</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/05</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add 정보를 해당 n_v로 이동</mod_note>
+				<mod_note>센스1 n_v 추가</mod_note>
+			</mod>
+			<note>2003/10/15(박진호)센스1 전체어 추가</note>
+			<add>2003/09/04(송인욱)센스1의 동사자유구성으로 '~가 열리다|떨어지다|익다|설익다</add>
+			<add>~를 따다|담다' 추가</add>
+			<add>2003/09/04(송인욱)센스2의 동사자유구성으로 '~가 썩다</add>
+			<add>~를 먹다|맛보다|뱉다|사다|팔다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="abb">벚</var>
+		
+			<comp pos="n" type="suffix">~술</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>동생과 나는 산 속에서 시간 가는 줄도 모르고 열심히 ~를 땄다.</eg>
+				<eg>나무에 열린 ~가 완전히 익으려면 아직 몇 주 더 있어야 한다.</eg>
+				<trans>cherry</trans>
+				<sem_class>열매</sem_class>
+				<lr>
+					<syn type="etc">체리</syn>
+					<holo>벚나무</holo>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 작다</comb_aj>
+				<comb_aj type="appr">~가 새빨갛다</comb_aj>
+				<comb_aj type="appr">~가 검붉다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 열리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 떨어지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 익다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 설익다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 따다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">개</cl>
+				<cl type="uni">알</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>새빨갛게 익은 ~가 참으로 먹음직스러워 보였다.</eg>
+				<eg>나는 오늘 태어나서 처음으로 ~를 먹어 봤다.</eg>
+				<trans>cherry</trans>
+				<sem_class>과일</sem_class>
+				<lr>
+					<syn type="etc">체리</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 작다</comb_aj>
+				<comb_aj type="appr">~가 맛있다</comb_aj>
+				<comb_aj type="appr">~가 맛없다</comb_aj>
+				<comb_aj type="appr">~가 달콤하다</comb_aj>
+				<comb_aj type="appr">~가 맹맹하다</comb_aj>
+				<comb_aj type="appr">~가 싸다</comb_aj>
+				<comb_aj type="appr">~가 비싸다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 먹다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 맛보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 뱉다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 팔다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">개</cl>
+				<cl type="uni">알</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

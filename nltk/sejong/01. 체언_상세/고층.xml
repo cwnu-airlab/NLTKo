@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>고층</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/05</cre_date>
+				<cre_writer>고길수</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/31</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/01</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note>동의,반의어 항목 추가; syn_grp a 항목 추가</mod_note>
+				<mod_note>syn_grp b 신규기술과 일치시킴; add 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note>통사구획의 명사 결합을 형태구획으로 이동 후 정보 추가 기술</mod_note>
+				<mod_note>센스 2의 통사구획의 명사 결합 정보 '대기' 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/15</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note></note>
+			<add>센스2의 명사결합으로 '~의 대기'</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">高層</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~빌딩</comp>
+			<comp pos="n" type="suffix">~아파트</comp>
+			<comp pos="n" type="suffix">~건물</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>시내 중심가에는 ~의 빌딩들이 즐비하게 서있었다.</eg>
+				<trans>higher stories</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>높은정도</sem_class>
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="compl">저층</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound">~ 건물</comb_n>
+				<comb_n type="compound">~ 빌딩</comb_n>
+				<comb_n type="compound">~ 아파트</comb_n>				
+				<comb_v type="narg_vpred">
+					<form vcompound="yes"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>과학자들은 대기권 ~의 기류를 관찰하고자 무인 비행선을 띄웠다.</eg>
+				<trans>high layer</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>높은정도</sem_class>
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="etc"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound">~ 대기</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="yes"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+<!--어색한 듯; 장원철-->
+</superEntry>

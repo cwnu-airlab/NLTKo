@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>탈루</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/16</cre_date>
+				<cre_writer>김미현</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/27</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/02</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2005/10/03</mod_date>
+                                <mod_writer>박만규</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+                        <mod>
+                                <mod_date>2007/08/20</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<note>2002/05/16(김미현)사전에서는 '탈루'를 '밖으로 빠져나가 샘'이라고 정의하고 있는데요... 의미부류를 상태로 했는데.... 행위와도 관련되어 있는거 같습니다...</note>
+			<note>2002/05/21(박동호)의미부류는 '행위'로 합시다</note>
+			<note>예문 수정</note>
+			<note>'세금을 탈루를 하다'가 가능하므로 @supv 항목에 기술해 줄 것, @max_n, @sel_res 항목 기술</note>
+			<note>2002/05/24(김미현)</note>
+			<note>2002/05/27(고길수)명사연어의 '세금 ~'는 '논항+술어명사'의 연쇄이므로 이에 기록되는 정보가 아님</note>
+			<note>max_n에서 'X(-의) ~'는 삭제, 일단 중규모 사전에서는 기록하는 항목이 아니고, 다음으로 'X-의 Y ~</note>
+			<note>X-에 의한 Y(-의) ~'와 같이 기술되어야 할 것 같음</note>
+			<note>논항정보 수정</note>
+			<note>2003/06/20(김성용)센스1 의미부류 '행위'에서 '범죄및비행'으로 수정</note>
+			<note>2003/08/27(이홍식)전문어표시 가톨 삭제</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">脫漏</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 기업은 세금을 ~를 하다가 적발되었다.</eg>
+				<trans>omission</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>범죄및비행</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|단체</sel_rst>
+				<sel_rst arg="Y">세금</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

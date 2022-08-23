@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>반분</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/13</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/10/15(박진호)센스1 격틀, 선택제약 수정. 센스2의 경우 구체물일 수도 있고 추상적대상일 수도 있으므로 의미부류가 문제임.</note>
+			<note>2003/10/28(송인욱)센스1의 예문 수정</note>
+			<note>센스2는 일단 구체적 대상의 부분으로 봄</note>
+			<add>2003/08/13(송인욱)센스2의 동사자유구성으로 '~을 가지다|챙기다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">半分</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>2차 세계대전이 끝나고 한반도는 미국과 소련에 의해 ~이 되었다.</eg>
+				<eg>수익의 정확한 ~에 실패했기 때문에 우리는 사이가 틀어지게 되었다.</eg>
+				<eg>만약 복권이 당첨되면 나는 친구와 그 돈을 ~을 해서 나눠 가질 생각이었다.</eg>
+				<trans>dividing in two</trans>
+				<sem_class>결과행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">정확한 ~</comb_aj>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-와 Z-이 Y-을 ~을 하다</frame>
+					<frame>X-이 Z-와 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-와 Z-에의해 Y-이 ~이 되다</frame>
+				</comb_v>
+				<sel_rst arg="X">생물</sel_rst>
+				<sel_rst arg="X">집단</sel_rst>
+				<sel_rst arg="Y">구체물</sel_rst>
+				<sel_rst arg="Y">장소</sel_rst>
+				<sel_rst arg="Y">추상적대상</sel_rst>
+				<sel_rst arg="Z">생물</sel_rst>
+				<sel_rst arg="Z">집단</sel_rst>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>사장은 직원들에게 밀린 봉급의 ~만을 지급했다.</eg>
+				<eg>궂은 날씨로 인해 비축해 두었던 식량의 ~이 썩어 버렸다.</eg>
+				<trans>half</trans>
+				<sem_class>부분</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 가지다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 챙기다</form>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>선수권</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2006/06/25</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2006/07/20</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>센스 2를 나눌 필요가 있는지 확인 요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/13</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1에 예문 추가;센스2에 예문 추가;Y의 '지역'을 '국가, 지역집단'으로 수정, 추상적대상 추가</mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_R">선수+권</str>
+			<org lg="si">選手權</org>
+			<hom exist="temp"/>
+			<der  pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 팀을 10년간 이끌며 전국 대학 ~을 세 번 차지했을 뿐이다.</eg>
+				<eg>그는 수년간 연이어 같은 급에서 ~을 보유하고 있다.</eg>
+				<trans>championship</trans>
+				<trans>title</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>권리</sem_class>
+				<lr>
+					<syn type="etc">타이틀</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">세계 ~</comb_n>
+				<comb_n type="compound">~ 시합</comb_n>
+				<comb_n type="compound">~ 대회</comb_n>
+				<comb_n type="compound">~ 쟁탈전</comb_n>
+				<comb_n type="compound">~ 보유자</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 따다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 획득하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 차지하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 방어하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 보유하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 빼앗다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 잃다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 상실하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 다투다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 도전하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 팀은 유럽 ~에서 먼저 우승하고 이어서 월드컵에서 우승했다.</eg>
+				<eg>올해는 청소년 ~이 네덜란드에서 열린다.</eg>
+				<eg>여러 나라에서 매년 ~이 열린다.</eg>
+				<trans>championship</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>운동대회</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">세계 ~</comb_n>
+				<comb_v type="npred_vsup"><!--김성용(2006/07/20)여기에서 '선수권'은 '선수권 대회'로 파악이 되는데 그냥 '대회'의 생략으로 처리하면 '선수권'을 서술성명사로 처리하지 않아도 될 것 같은데-->
+					<form vcompound="no">~이 있다</form>
+					<frame>X-에서 Y ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 열리다</form>
+					<frame>X-에서 Y ~이 열리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 개최되다</form>
+					<frame>X-에서 Y ~이 개최되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 참가하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 출전하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-에서의 Y ~</max_n_str>
+				<sel_rst arg="X">지역|문화행사장소</sel_rst>
+				<sel_rst arg="Y">국가|지역집단|범위인간집단|지속적활동|추상적대상(축구|육상)</sel_rst><!--세계 ~;청소년 ~;골프 ~(김이정)-->
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

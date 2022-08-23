@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>후진</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/16</cre_date>
+				<cre_writer>서진숙</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/30</mod_date>
+				<mod_writer>서진숙</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/27</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 cl 추가, 센스1과 2 n_n 기술, 센스1, 2와 3 의미부류 수정, 센스3 cl와 반의어 기술, add를 센스1 n_v로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/04/1</mod_date>
+				<mod_writer>김천학</mod_writer>
+				<mod_note>ant type 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/08</mod_date>
+				<mod_writer>백고운</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>sense2,3추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">後進</org>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>선생은 고향에서 ~을 양성하는데 힘을 쏟고 계신다.</eg>
+				<trans>junior</trans>
+				<trans>younger man</trans>
+				<trans>rising generation</trans>
+				<sem_class>비대칭적관계인간</sem_class><!--관계인간에서 수정(김)-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 교육</comb_n>
+				<comb_n type="compound">~ 양성</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 양성하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 키우다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>고도의 기술력에서 아직도 우리는 ~이라고 할 수 있다.</eg>
+				<trans>underdevelopment</trans>
+				<trans>backwardness</trans>
+				<trans>lack of progress</trans>
+				<sem_class>낮은정도</sem_class><!--하등급에서 수정(김)-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 국가</comb_n>
+				<comb_n type="compound">~ 사회</comb_n>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>갑자기 앞의 차가 ~을 했다.</eg>
+				<trans>going back</trans>
+				<sem_class>이동행위</sem_class><!--우발사건에서 수정(김)-->
+				<lr>
+					<ant type="dir">전진</ant><!--후진에서 수정(2005/04/1 김천학)-->
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<sel_rst arg="X">교통기관</sel_rst>
+				<cl type="uni">회</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

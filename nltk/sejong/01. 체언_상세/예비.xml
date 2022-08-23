@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>예비</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/18</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/03</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/13</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>comp 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>문형 분리, 복합어 수정</mod_note>
+			</mod>
+			<note>2001/09/21(김종명)</note>
+			<note>sense  n=1 예문 수정</note>
+			<note>동의어 입력</note>
+			<note>관련어 입력</note>
+			<note>형용사자유구성 입력</note>
+			<note>기능동사 수정</note>
+			<note>sense n=2 삭제</note>
+			<note>2003/01/26(남길임)의미부류 수정</note>
+			<note>논항정보 수정</note>
+			<note>2003/02/03(김이정)형용사자유구성 재고 요망(준비가 부족하다|충분하다는 쓰지만 예비가 부족하다|충분하다?)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">豫備</org>
+			<hom exist="yes"></hom>
+			<der pos="n" type="suffix">~적</der>
+			<comp pos="n" type="suffix">~건</comp>
+			<comp pos="n" type="suffix">~금</comp>
+			<comp pos="n" type="suffix">~비</comp>
+			<comp pos="n" type="suffix">~품</comp>
+			<comp pos="n" type="suffix">~안</comp>
+			<comp pos="n" type="suffix">~검속</comp>
+			<comp pos="n" type="suffix">~고사</comp>
+			<comp pos="n" type="suffix">~고시</comp>
+			<comp pos="n" type="suffix">~교섭</comp>
+			<comp pos="n" type="suffix">~교육</comp>
+			<comp pos="n" type="suffix">~군</comp>
+			<comp pos="n" type="suffix">~기지</comp>
+			<comp pos="n" type="suffix">~부대</comp>
+			<comp pos="n" type="suffix">~선거</comp>
+			<comp pos="n" type="suffix">~지식</comp>
+			<comp pos="n" type="suffix">~동작</comp>
+			<comp pos="n" type="suffix">~경기</comp>
+			<comp pos="n" type="suffix">~심사</comp>
+			<comp pos="n" type="suffix">~교실</comp>
+			<comp pos="n" type="suffix">~회담</comp>
+			<comp pos="n" type="suffix">~부부</comp>
+			<comp pos="n" type="suffix">~부품</comp>
+			<comp pos="n" type="suffix">~엄마</comp>
+			<comp pos="n" type="suffix">~실사</comp>
+			<comp pos="n" type="suffix">~훈련</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>사람은 필요할 때를 대비해 자금의 ~를 해 두는 것이 좋다.</eg>
+				<trans>reserve</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>방식행위</sem_class>
+				<lr>
+					<syn type="etc">사전준비</syn>
+					<ant type="temp"></ant>
+					<rel>대비</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 부족하다</comb_aj>
+				<comb_aj type="appr">~가 충분하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+					<frame>X-이 Y-에대해 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">사행|추상적대상(제도|규범)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

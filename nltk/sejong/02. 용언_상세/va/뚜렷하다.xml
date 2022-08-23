@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>뚜렷하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/15</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/11</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<note>2002/10/11(박철우)표제어는 똘똘하다였음</note>
+			<note>똘똘하다 기술여부 확인요망</note>
+			<note>뚜렷하다 중복여부 확인요망</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>R.하</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>평가속성값</sem_class>
+				<trans>be clear</trans>
+				<lr>
+					<syn type="sino">분명하다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(윤곽|모습|발자국|그림자)</sel_rst>
+					<eg>창에 비친 그의 모습이 뚜렷하지는 않습니다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(흔적|기억|자취|인상)</sel_rst>
+					<eg>그 기억이 뚜렷하지는 않지만 어쨌든 좋았습니다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(근거|출처|용도)</sel_rst>
+					<eg>출처가 뚜렷하지 않은 돈을 받을 수 없습니다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">소통행위(말|주장|내용)|인지상태(의도)</sel_rst>
+					<eg>그의 의도가 뚜렷하지는 않지만 나쁜 속셈을 갖고 있는 것 같다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

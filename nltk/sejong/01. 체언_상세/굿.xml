@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>굿</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/25</cre_date>
+				<cre_writer>박치원</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/29</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/17</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>예문 분리</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/27</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2008/08/11</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/03/27(김현승)idnv정보 기술</note>
+			<note>2003/03/29(고길수)센스1의 예문에 구두점 추가</note>
+			<note>comb_v 정보 추가</note>
+			<note>prv정보 기술</note>
+			<note>센스1의 sel_res정보 기술</note>
+			<note>센스1의 단위표현 기술</note>
+			<note>센스1의 단위표현 보완</note>
+			<note>센스1의 예문 추가</note>
+			<note>센스1의 의미부류가 '종교및의례행위'인지 '식'인지 검토바람</note>
+			<note>센스1의 의미부류를 '행사'에서 '종교및의례행위'로 수정</note>
+			<note>센스2에 comb_v 정보 추가</note>
+			<note>센스2추가</note>
+			<add>센스2의 동사결합으로 '~이 벌어지다'추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~거리</der>
+			<comp pos="n" type="suffix">~판</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~을 보다</idm>
+			<idm type="prv">~이나 보고 떡이나 먹지</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>저승은 완전히 죽음의 세상일 뿐, ~의 세계에는 윤회 사상이 없다.</eg>
+				<eg>죽은 누이의 혼을 달래기 위해 ~을 했다.</eg>
+				<trans>exorcism</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>종교및의례행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hypo>별신</hypo>
+					<hypo>진오기</hypo>
+					<hypo>씻김</hypo>
+					<hypo>오구</hypo>
+					<hypo>초혼</hypo>
+					<hypo>재수~</hypo>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 올리다</form>
+					<frame>X-이 ~을 올리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 드리다</form>
+					<frame>X-이 ~을 드리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 벌이다</form>
+					<frame>X-이 ~으르 벌이다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">직업인간(무당)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">거리</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 집에 한바탕 ~이 벌어졌다.</eg>
+				<trans>feast</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>잔치</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 요란하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 벌이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 벌어지다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

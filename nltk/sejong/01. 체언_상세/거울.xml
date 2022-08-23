@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>거울</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/06/04</cre_date>
+				<cre_writer>차준경</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/02</mod_date>
+				<mod_writer>한선혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/26</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>trans 형식 수정, syn 속성값 수정, add를 n_v로</mod_note>
+			</mod>
+			<note>2000/09/03(차준경)</note>
+			<note>2001/01/22(조진현</note>
+			<note>2003/02/19(최지임)sense1 예문수정</note>
+			<note>2003/08/02(한선혜)센스1과 2의 예문 수정</note>
+			<note>sense2의 의미부류수정</note>
+			<note>sense3 의미부류수정</note>
+			<note>각 센스의 의미부류 검토요망</note>
+			<note>강범모)</note>
+			<note>대역어 수정</note>
+			<note>동사연어구성정보 add에 입력</note>
+			<note>센스2의 의미부류를 "관계추상적대상"으로 수정</note>
+			<note>센스3 삭제</note>
+			<note>의미부류수정</note>
+			<note>한정사 제약 입력</note>
+			<note>형용사자유구성 일부 삭제</note>
+			<add>sense1=~에 비추다</add>
+			<add>sense1=~을 보다</add>
+			<add>sense2=~로 삼다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~반사</comp>
+			<comp pos="n" type="suffix">~집</comp>
+			<comp pos="n" type="prefix">볼록~</comp>
+			<comp pos="n" type="prefix">오목~</comp>
+			<comp pos="n" type="prefix">손~</comp>
+			<comp pos="n" type="prefix">청동~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그녀는 마치 넋 나간 사람처럼 ~ 속 자신의 모습을 바라보고 있었다.</eg>
+				<trans>mirror</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>구체인공물</sem_class>
+				<lr>
+					<syn type="sino">경</syn>
+					<ant type="temp"></ant>
+					<hypo>볼록거울;오목거울;평면거울</hypo>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 비추다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d>이</pre_d>
+				<pre_d>그</pre_d>
+				<pre_d>저</pre_d>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>부모는 자식의 ~이 되어야 한다.</eg>
+				<trans>pattern</trans>
+				<trans>model</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>관계추상적대상</sem_class>
+				<lr>
+					<syn type="sino">모범</syn>
+					<syn type="sino">귀감</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 삼다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N-의</pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

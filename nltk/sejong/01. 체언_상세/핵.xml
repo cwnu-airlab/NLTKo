@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>핵</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/24</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/17</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/17</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note>n_v 정보 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/08</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/21(박동호)</note>
+			<note>2003/01/25(유영) sem수정, sens2예문추가, comb_v를 add로 이동</note>
+			<note>2003/06/17(이성헌)</note>
+			<note>센스 4의 동사자유구성 추가</note>
+			<note>센스2의 예문 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">核</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~심</der>
+			<der pos="n" type="suffix">~력</der>
+			<der pos="n" type="suffix">~학</der>
+			<der pos="n" type="prefix">외~</der>
+			<der pos="n" type="prefix">내~</der>
+			<comp pos="n" type="suffix">~가족</comp>
+			<comp pos="n" type="suffix">~공학</comp>
+			<comp pos="n" type="suffix">~반응</comp>
+			<comp pos="n" type="suffix">~폭탄</comp>
+			<comp pos="n" type="suffix">~무기</comp>
+			<comp pos="n" type="suffix">~문제</comp>
+			<comp pos="n" type="suffix">~보유국</comp>
+			<comp pos="n" type="suffix">~물질</comp>
+			<comp pos="n" type="suffix">~에너지</comp>
+			<comp pos="n" type="suffix">~연료</comp>
+			<comp pos="n" type="suffix">~전력</comp>
+			<comp pos="n" type="suffix">~전력</comp>
+			<comp pos="n" type="suffix">~탄두</comp>
+			<comp pos="n" type="suffix">~먼지</comp>
+			<comp pos="n" type="suffix">~무기</comp>
+			<comp pos="n" type="prefix">원자~</comp>
+			<comp pos="n" type="prefix">세포~</comp>
+			<comp pos="n" type="prefix">지구~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>기독교는 사랑을 그 ~으로 삼는다.</eg>
+				<eg>노동자들은 그를 ~으로 하나로 뭉쳤다.</eg>
+				<eg>우리 사회는 이웃과의 정을 ~으로 한다.</eg>
+				<trans>core</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>추상적부분</sem_class>
+				<lr>
+					<syn type="etc">중심</syn>
+					<syn type="etc">핵심</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 삼다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>세계대전 당시 일본 사람들이 ~으로 많이 희생되었다.</eg>
+				<eg>전 세계적으로 ~무기를 보유한 국가는 그리 많지 않다.</eg>
+				<trans>nuclear weapon</trans>
+				<domain>군사</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>무기</sem_class>
+				<lr>
+					<syn type="etc">핵무기</syn>
+					<ant type="temp"></ant>
+					<hyper>무기</hyper>
+					<coord>수소폭탄</coord>
+					<coord>원자폭탄</coord>
+					<coord>미사일</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">강력한 ~</comb_aj>
+				<comb_aj type="magn">어마어마한 ~</comb_aj>
+				<comb_aj type="magn">엄청난 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~으로 무장하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 보유하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 포기하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>그는 원자의 ~을 발견했다.</eg>
+				<trans>nucleus</trans>
+				<domain>물리</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>구체물의부분</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>외핵</rel>
+					<rel>내핵</rel>
+					<rel>핵에너지</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 분열하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 융합하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 결합하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="4">
+			<sem_grp>
+				<eg>복숭아의 중심에 있는 단단한 부분을 ~이라고 한다.</eg>
+				<trans>core</trans>
+				<domain>식물</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>식물의부분</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>과실</rel>
+					<rel>종자</rel>
+					<rel>씨</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

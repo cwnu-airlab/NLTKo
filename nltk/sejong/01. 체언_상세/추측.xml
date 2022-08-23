@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>추측</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/05/31</cre_date>
+				<cre_writer>홍재성;박치원</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/23</mod_date>
+				<mod_writer>김현승</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/21</mod_date>
+				<mod_writer>백고운</mod_writer>
+				<mod_note>add동사결합정보를 comb_v로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/15</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/10</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<note>2003/07/23(김현승)의미부류를 '인지'에서 '인지추상적행위'로 수정</note>
+			<note>magn정보를 add항목으로 이전</note>
+			<note>pre_s정보 'S-는'을 'S다고'로 수정</note>
+			<note>sel_res정보 기술</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">推測</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>철수는 이번 동문회에 50명 정도 참석할 것이라고 ~을 하고 있다.</eg>
+				<trans>guess</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>인지적행위</sem_class>
+				<lr>
+					<syn type="etc">어림짐작</syn>
+					<ant type="temp"></ant>
+					<rel>추량</rel>
+					<rel>관측</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 근거있다</comb_aj>
+				<comb_aj type="appr">~이 근거없다</comb_aj>
+				<comb_aj type="appr">~이 틀리다</comb_aj>
+				<comb_aj type="appr">~이 맞다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-를 ~을 하다</frame>
+					<frame>X-이 S것-를 ~을 하다</frame>
+					<frame>X-이 S냐-를 ~을 하다</frame>
+					<frame>X-이 S지-를 ~을 하다</frame>
+					<frame>X-이 Y-에대해 ~을 하다</frame>
+					<frame>X-이 S것-에대해 ~을 하다</frame>
+					<frame>X-이 S냐-에대해 ~을 하다</frame>
+					<frame>X-이 S지-에대해 ~을 하다</frame>
+					<frame>X-이 Y-을 Z-으로 ~을 하다</frame>
+					<frame>X-이 S것-을 Z-으로 ~을 하다</frame>
+					<frame>X-이 Y-을 S고-으로 ~을 하다</frame>
+					<frame>X-이 S것-을 S고-으로 ~을 하다</frame>
+					<frame>X-이 Y-을 S것-으로 ~을 하다</frame>
+					<frame>X-이 S것-을 S것-으로 ~을 하다</frame>
+					<frame>X-이 Y-에대해서 S다고 ~을 하다</frame>
+					<frame>X-이 Y-을 S다고 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 Z-으로 ~이 되다</frame>
+					<frame>Y-이 S것-으로 ~이 되다</frame>
+					<frame>Y-이 S다고 ~이 되다</frame>
+					<frame>S것-이 Z-으로 ~이 되다</frame>
+					<frame>S것-이 S것-으로 ~이 되다</frame>
+					<frame>S것-이 S다고 ~이 되다</frame>
+				</comb_v>
+					<comb_v type="npred_vpred">
+					<form vcompound="no">~이 허황되다</form>
+					<frame></frame>
+				</comb_v>				
+				<max_n_str>Y-에대한 X-의 S다는 ~</max_n_str>
+				<max_n_str>X-에의한 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|속성|역할|언어행위|생각|관계추상적대상</sel_rst>
+				<sel_rst arg="Z">인간|인간집단|속성|역할|관계추상적대상</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S다는 ~</s_n>
+				<s_n>라는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

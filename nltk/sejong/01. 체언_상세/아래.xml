@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>아래</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/20</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/30</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>sense4,5를 분할</mod_note><!--두 예문이 하나의 sense로 묶여 있었으나 유의어, 반의어 정보가 달라 센스를 구분하였음(권)-->
+				<mod_note>sense9 추가</mod_note>
+				<mod_note>sem수정</mod_note><!--센스 4의 '순서'를 등급의 일종으로 보아 '속성'으로 수정(권)-->
+				<mod_note>syn기술</mod_note>
+				<mod_note>ant기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/01</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/25</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/10/20(기영인)"수가 적은 편"을 뜻하는 센스5 의미부류('추상적인 관계장소'정도로 보임) 검토요망</note>
+			<!--센스가 분할되어 센스6에 해당함...'속성'으로 수정하였으나 검토바람(권)-->
+			<note>2003/10/30(기영인)센스4 의미부류 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>언덕에 오르면 그 ~를 한꺼번에 내려다볼 수 있었다.</eg>
+				<trans>lower part</trans>
+				<sem_class>관계장소</sem_class>
+				<lr>
+					<syn type="perfect">밑</syn>
+					<ant type="dir">위</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<s_n>S은 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>따가운 햇빛을 피하고자 그늘진 나무 ~에 자리를 잡았다.</eg>
+				<eg>내가 태어난 집은 산 ~의 양지 바른 곳에 자리잡고 있었다.</eg>
+				<trans>below</trans>
+				<trans>beneath</trans>
+				<sem_class>관계장소</sem_class>
+				<lr>
+					<syn type="perfect">밑</syn>
+					<ant type="dir">위</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>가난한 시인은 건물 꼭대기에, 바로 지붕 ~에 있는 다락방에 살았다.</eg>
+				<eg>교복치마 ~로 두꺼운 속치마를 겹겹이 입어도 매서운 겨울바람을 피할 수 없었다.</eg>
+				<trans>underneath</trans>
+				<sem_class>관계장소</sem_class>
+				<lr>
+					<syn type="perfect">밑</syn>
+					<ant type="dir">위</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<s_n>S은 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="4">
+			<sem_grp>
+				<eg>경기의 판정을 다시 함에 따라 순위가 ~로 밀렸다.</eg>
+				<trans>below</trans>
+				<trans>under</trans>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="perfect">뒤</syn>
+					<ant type="dir">앞</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<s_n>S은 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="5">
+			<sem_grp>
+				<eg>공주는 지위가 한참 ~인 사람과 결혼했다.</eg>
+				<trans>below</trans>
+				<trans>under</trans>
+				<sem_class>순서</sem_class>
+				<lr>
+					<syn type="perfect">밑</syn>
+					<ant type="dir">위</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<s_n>S은 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="6">
+			<sem_grp>
+				<eg>그 후배는 나보다 예닐곱살 ~인데 또래답지 않게 차분하고 생각이 깊다.</eg>
+				<eg>소수점 ~ 세 자리수까지 반올림을 해라.</eg>
+				<trans>below</trans>
+				<trans>under</trans>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="perfect">밑</syn>
+					<ant type="dir">위</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<s_n>S은 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="7">
+			<sem_grp>
+				<eg>개혁의 깃발 ~서 우리는 의욕적으로 악습들을 철폐하는 일에 착수했다.</eg>
+				<trans>under</trans>
+				<sem_class>관계장소</sem_class>
+				<lr>
+					<syn type="perfect">밑</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<s_n>S은 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="8">
+			<sem_grp>
+				<eg>구체적인 계약의 내용은 ~에 나타나는 것과 같다.</eg>
+				<trans>below</trans>
+				<trans>next</trans>
+				<sem_class>추상적부분</sem_class>
+				<lr>
+					<syn type="perfect">밑</syn>
+					<ant type="dir">위</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<s_n>S는|S은 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="9">
+			<sem_grp>
+				<eg>여자아이들은 대체로 ~를 잘 씻는 편이다.</eg>
+				<trans>pubic region</trans>
+				<trans>secret</trans>
+				<sem_class>신체부위</sem_class>
+				<lr>
+					<syn type="perfect">밑</syn>
+					<syn type="perfect">음부</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>규약</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/14</cre_date>
+				<cre_writer>박동호</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/08</mod_date>
+				<mod_writer>김현승</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/12</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note>센스2 삭제요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/20</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>센스2(대칭적행위) 삭제, 행위의 의미가 없음</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2008/08/11</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>'W ~에 가입하다|탈퇴하다'와 관련 '국제기구'로서의 sense 분할 여부 검토 요망</note>
+			<note>'대칭적행위'로서의 sense2 기술추가</note>
+			<note>2002/09/14(박동호)</note>
+			<note>2002/09/28(이성헌)add에 sense2관련 사항 추가 기재</note>
+			<note>2003/10/08(김현승)센스2의 comb_v정보 '~를 맺다|체결하다' 삭제</note>
+			<note>cl에 '가지'추가</note>
+			<add>~을 맺다|체결하다(sense2)</add>
+			<add>∼ 위반 </add>
+			<add>∼을 지키다|정하다|어기다(sense1)</add>
+			<add>상호 ~(sense2)</add>
+			<add>협회 ~</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">規約</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리는 정해진 ~을 잘 지켜야 한다.</eg>
+				<trans>agreement</trans>
+				<trans>covenant</trans>
+				<trans>rules</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>규범</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 엄격하다</comb_aj>
+				<comb_n type="compound">협회 ~</comb_n>
+				<comb_n type="compound">상호 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 지키다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 정하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 어기다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<cl type="div">항</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

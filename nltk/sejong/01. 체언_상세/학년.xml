@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>학년</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/08/10</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/02</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/15</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/14</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>  
+			<note>2001/08/10(이성헌,김종명)</note>
+			<note>2003/10/02(박진호)센스1,2 의미부류 수정. 센스1 명사연어 수정</note>
+			<note>sense2의 예문 수정</note>
+			<note>sense2의 의미부류 수정</note>
+			<note>가산 비가산 수정</note>
+			<note>단위표현 수정</note>
+			<note>예문 수정</note>
+			<note>전체어 및 부분어 삭제</note>
+			<note>하위어를 관련어에 입력</note>
+			<note>복합어 정보 추가(이선웅)</note>
+			<note>분류사 정보 삭제(이선웅)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">學年</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~생</der>
+			<der pos="n" type="suffix">~제</der>
+			<der pos="n" type="suffix">~도</der>
+			<der pos="n" type="suffix">~회</der>
+			<der pos="n" type="prefix">고~</der>
+			<der pos="n" type="prefix">저~</der>
+			<comp pos="n" type="suffix">~초</comp>
+			<comp pos="n" type="suffix">~말</comp>
+			<comp pos="n" type="suffix">~주임</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 그 대학교 3~에 재학중이다</eg>
+				<trans>school year(grade)</trans>
+				<domain>교육</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>기간단위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>학교</rel>
+					<rel>고학년</rel>
+					<rel>저학년</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 높다</comb_aj>
+				<comb_aj type="appr">~이 낮다</comb_aj>
+				<comb_n type="compound">1 ~</comb_n>
+				<comb_n type="compound">2 ~</comb_n>
+				<comb_n type="compound">3 ~</comb_n>
+				<comb_n type="compound">4 ~</comb_n>
+				<comb_n type="compound">5 ~</comb_n>
+				<comb_n type="compound">6 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 올라가다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 ~은 전반적으로 우수하다</eg>
+				<eg>그 일에 ~ 전체가 동원될 수는 없다.</eg>
+				<trans>school year(grade)</trans>
+				<trans>student</trans>
+				<domain>교육</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>인간집단</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hypo>고~</hypo>
+					<hypo>저~</hypo>
+					<rel>학교</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

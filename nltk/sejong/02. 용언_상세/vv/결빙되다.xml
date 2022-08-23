@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>결빙되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/19</cre_date>
+				<cre_writer>김현권</cre_writer>
+				<cre_writer>조현경</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2005/09/09</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>형태정보, 의미정보 추가</mod_note>
+				<mod_note>격틀, 의미역 조정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">결빙이 되다</var>
+			<str>N.되</str>
+			<org lg="si">結氷_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>기상현상</sem_class>
+				<trans>be frozen</trans>
+				<lr>
+					<syn type="kor">얼다</syn>
+					<ant type="compl">해빙되다</ant>
+					<ant type="compl">녹다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">액체(물)|물장소(호수|강|바다)</sel_rst>
+					<sel_rst arg="Y" tht="EFF">기상현상(강추위|한파)</sel_rst>
+					<eg>강추위에 강이 결빙되어서 배 없이도 지나다닐 수 있게 되었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소(길|다리|도로)</sel_rst>
+					<sel_rst arg="Y" tht="EFF">기상현상(강추위|한파)</sel_rst>
+					<eg>추운 날씨에 도로가 결빙되었으니 통행에 유의하십시오.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

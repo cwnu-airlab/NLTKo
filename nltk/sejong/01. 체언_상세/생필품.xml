@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>생필품</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/13</cre_date>
+				<cre_writer>이지영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/08</mod_date>
+				<mod_writer>목정수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/10</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>명사명사결합정보추가(생필품 공장)</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/31</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>분류사 '가지' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/10</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>속성구체물에서 구체인공물로 수정;명사연어에 '~가격, 기본, 기초, 필수 ~' 추가</mod_note>
+			</mod>
+			<note>%add=생필품을 구하다|조달하다|보급하다|비축하다|분배하다|배급하다</note>
+			<note>2002/05/15(김진형)</note>
+			<note>2002/05/26(이성헌)%note에 1차교정자 기재</note>
+			<note>2003/05/06(김미순)add에 '~을 사다|구매하다' 추가</note>
+			<note>2003/09/08(목정수)</note>
+			<note>@comb_aj기술 추가</note>
+			<note>@eg보완</note>
+			<note>@sem수정('인공구체물|자연음식물'에서 '속성구체물'로)</note>
+			<note>생필품이 동(이)나다|모자라다</note>
+			<note>주의(의미부류는 단어가 지칭하는 지칭물의 부류가 아니라 단어자체의 의미가 속하는 유형임을 명시</note>
+			<add>~을 구하다|조달하다|보급하다|비축하다|분배하다|배급하다|사다|구매하다</add>
+			<add>~이 동(이)나다|모자라다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="lng">생활필수품</var>
+			<str type="temp"></str>
+			<org lg="si">生必品</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>전쟁 임박설이 나돌자 ~의 품귀 현상이 나타났다.</eg>
+				<trans>necessities of life</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>구체인공물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 부족하다</comb_aj>
+				<comb_n type="temp">~ 공장</comb_n>
+				<comb_n type="temp">~ 가격</comb_n>
+				<comb_n type="temp">기본 ~</comb_n>
+				<comb_n type="temp">기초 ~</comb_n>
+				<comb_n type="temp">필수 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 구하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 조달하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을  보급하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을  비축하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을  분배하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을  배급하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을  사다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을  구매하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이  동나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이  모자라다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">점</cl>
+				<cl type="uni">가지</cl>
+				<cl type="grp">상자</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

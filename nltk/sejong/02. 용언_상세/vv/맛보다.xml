@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>맛보다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="o"/>
+			<str>NV</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>미각적행위</sem_class>
+				<trans>taste</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">음식(요리|국|고기|반찬)</sel_rst>
+					<eg>진영이는 새로 개발한 요리를 맛보고는 매우 흡족해 했다.</eg>
+					<eg>명호는 국을 맛보다가 혀를 데었다.</eg>
+					<eg>우리집 김치를 맛보면 뭔가 다를걸.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>내재적심리행위</sem_class>
+				<trans>experience</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">심리상태(희열감|고뇌|기쁨|슬픔)</sel_rst>
+					<eg>길형이는 일을 다 마치고 깊은 희열감을 맛보았다.</eg>
+					<eg>고뇌를 맛보지 못한 사람은 그런 말을 할 자격이 없다.</eg>
+					<eg>그 여자는 아들을 잃는 슬픔을 맛보았다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(패배|정수|진수)</sel_rst>
+					<eg>우리 팀은 예선전에서 패배를 맛보았다.</eg>
+					<eg>그곳에 가면 째즈의 진수를 맛볼 수 있다.</eg>
+					<eg>이번 전시회에서는 백제 미술의 정수를 맛보실 수 있을 것입니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

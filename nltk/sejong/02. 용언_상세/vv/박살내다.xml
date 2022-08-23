@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>박살내다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/23</mod_date>
+				<mod_writer>허용</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="ai"/>
+			<str>NV</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>악화행위</sem_class>
+				<trans>smash</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|인간집단</sel_rst>
+					<eg>우리 육십만 국군은 적을 초전에 박살낼 만반의 준비를 갖추고 있습니다.</eg>
+					<eg>다음 월드컵에서는 꼭 네델란드를 박살내도록 하자.</eg>
+					<eg>영희를 박살낼 수 있는 묘책이 없을까?.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물</sel_rst>
+					<eg>철수가 화가 난다고 화병을 박살냈다.</eg>
+					<eg>영구가 컴퓨터를 떨어뜨려 박살냈다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">구체물(공)</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물</sel_rst>
+					<eg>철수가 친 공이 옆집 유리창을 박살냈다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">인간|행위|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상</sel_rst>
+					<eg>철수가 우리의 꿈을 박살냈다.</eg>
+					<eg>팀 동료 한 인간의 사소한 실수 하나가 우리의 16강 진출의 꿈을 여지없이 박살냈다.</eg>
+					<eg>선생님의 말 한마디가 우리의 계획을 박살내 버렸다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

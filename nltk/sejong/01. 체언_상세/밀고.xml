@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>밀고</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/11</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>W(행위, 사실명제, 계획)를 frame과 선택제약에서 삭제</mod_note>
+			</mod>
+			<note>2003/10/13(박진호)원어정보, 의미부류, 격틀, 선택제약 수정</note>
+			<note>2003/10/28(송인욱)예문 수정</note>
+			<note>의미부류를 '소통행위'에서 수정, 그런 의미부류는 없음</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">密告</org>
+		
+			<comp pos="n" type="suffix">~자</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리가 감찰과에 세 차례나 ~를 했음에도 불구하고 대령에겐 어떤 조치도 취해지지 않았다.</eg>
+				<eg>그녀의 가족들은 인민군 치하에서 부역을 했다고 주민들에 의해 관청에 ~를 당했다.</eg>
+				<eg>어느 간신의 ~로 인해 국왕의 실정을 적은 기록들이 모두 불태워졌다.</eg>
+				<eg>동네 사람들은 내가 바로 그 사건의 범인이라고 나를 형사에게 ~를 했다.</eg>
+				<eg>한 운동원이 상대 정당에 ~를 한 탓에 우리 당의 선거 자금 문제가 드러나게 되었다.</eg>
+				<trans>secret information</trans>
+				<trans>anonymous notice</trans>
+				<sem_class>보고제안</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Z-에|에게 Y-을 S다고 ~를 하다</frame>
+					<frame>X-이 Z-에|에게 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 당하다</form>
+					<frame>Y-이 X-에의해 S다고 Z-에 ~를 당하다</frame>
+					<frame>Y-이 X-에의해 Z-에 ~를 당하다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="X">인간집단</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<sel_rst arg="Y">인간집단</sel_rst>
+				<sel_rst arg="Z">인간</sel_rst>
+				<sel_rst arg="Z">국가</sel_rst>
+				<sel_rst arg="Z">단체</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

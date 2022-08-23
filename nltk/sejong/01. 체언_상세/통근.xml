@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>통근</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/20</cre_date>
+				<cre_writer>김성용</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/24</mod_date>
+				<mod_writer>이홍식</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/02</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note>n_v의 ~완성</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/02/15</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note>합성어, 최대투사, 관형절정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">通勤</org>
+		
+			<comp pos="n" type="suffix">~버스</comp>
+			<comp pos="n" type="suffix">~열차</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>아침에 회사까지 ~을 하기 위해서는 아침 일찍 일어나야 한다.</eg>
+				<trans>attending office</trans>
+				<trans>going to work</trans>
+				<trans>commuting</trans>
+				<trans>commutation</trans>
+				<sem_class>이동행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-에서 Z-로 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">주택</sel_rst>
+				<sel_rst arg="Z">상업건물|기관건물</sel_rst>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>핀잔</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/01</cre_date>
+				<cre_writer>이하영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/28</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/01</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2005/10/07</mod_date>
+                                <mod_writer>박만규</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+                        <mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/05/17(박동호)예문 수정했습니다</note>
+			<note>2002/05/21(고길수)단위표현에 '마디'를 첨가하였는데, qnt(양)이 맞는지?</note>
+			<note>2003/05/31(서진숙),compn추가</note>
+			<note>2003/06/28(이성헌)compn의 '기'삭제</note>
+			<note>magn의 표기법을 '가벼운 ~(*~이 가볍다)'를 '가벼운 ~'으로 수정</note>
+			<note>기능동사구문에서 'X-이 Y-을|에게 Z|S것-에대해 ~을 하다|주다'를 'X-이 Z-에게 Y|S것-을|에대해 ~을 하다|주다'로 수정, 이에 따른 논항 표기 수정</note>
+			<note>향후 동사자유구성으로 '~을 늘어놓다'를 추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 친구가 나에게 ~을 주었다.</eg>
+				<eg>그는 사소한 실수로 상사에게서 ~을 들었다.</eg>
+				<eg>그는 왜 이렇게 늦었느냐고 대뜸 ~부터 주었다.</eg>
+				<eg>그는 다소 무디다는 ~을 듣고 빅토르최의 곁을 떠났다.</eg>
+				<trans>rebuke</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>비난욕설</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">괜한 ~</comb_aj>
+				<comb_aj type="magn">가벼운 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 놓다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 듣다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 맞다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 먹다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Z-에게 Y|S것-을|에대해 ~을 하다</frame>
+				</comb_v>
+					<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 주다</form>
+					<frame>X-이 Z-에게 Y|S것-을|에대해 ~을 주다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Z-를|에게 S다고 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 주다</form>
+					<frame>X-이 Z-를|에게 S다고 ~을 주다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 당하다</form>
+					<frame>Z-가 X-에게(서) Y|S것-을|에대해 ~을 당하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>Z-가 X-에게(서) Y|S것-을|에대해 ~을 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 당하다</form>
+					<frame>Z-가 X-에게(서) S다고 ~을 당하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>Z-가 X-에게(서) S다고 ~을 받다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<comb_v type="narg_vpred">
+						<form vcompound="yes">~을 늘어놓다</form>
+						<frame></frame>
+					</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">속성|생각|행위</sel_rst>
+				<sel_rst arg="Z">인간</sel_rst>
+				<cl type="qnt">마디</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S다는  ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

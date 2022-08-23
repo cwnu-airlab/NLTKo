@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>심벌</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/03</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/03</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>'상징'과 '기호'로 다의분할</mod_note>
+				<mod_note>n_aj기술</mod_note>
+				<mod_note>n_n기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/01</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>comp기술</mod_note>
+				<mod_note>s_n기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/23</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="xx">심볼</var>
+			<org lg="en">symbol</org>
+		
+			<comp pos="n" type="suffix">~마크</comp><!--센스1의 합성어임(권오희)-->
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>서양에서 비둘기는 평화의 ~이다.</eg>
+				<eg>여드름은 청춘의 ~이다.</eg>
+				<trans>symbol</trans>
+				<sem_class>추상적대상</sem_class><!--원관념은 추상적이나 '심벌' 자체는 구체물인데... 의미부류 검토바람(권)-->
+				<lr>
+					<syn type="perfect">상징</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">근대화의 ~</comb_n>
+				<comb_n type="compound">남성의 ~</comb_n>
+				<comb_n type="compound">섹스 ~</comb_n>
+				<comb_n type="compound">여성의 ~</comb_n>
+				<comb_n type="compound">정신의 ~</comb_n>
+				<comb_n type="compound">지성의 ~</comb_n>
+				<comb_n type="compound">청춘의 ~</comb_n>
+				<comb_n type="compound">평화의 ~</comb_n>
+				<cl type="uni">가지</cl>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 사과가 우리 단체의 새로운 ~인데, 지혜롭기를 바란다는 뜻이 담겨있다.</eg>
+				<trans>emblem</trans>
+				<sem_class>기호</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">새 ~</comb_aj>
+				<comb_aj type="appr" pred="no">헌 ~</comb_aj>
+				<comb_n type="compound">~ 마크</comb_n>
+				<comb_n type="compound">~ 표시</comb_n>
+				<comb_n type="compound">제품의 ~</comb_n>
+				<comb_n type="compound">회사 ~</comb_n>
+				<cl type="uni">개</cl>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

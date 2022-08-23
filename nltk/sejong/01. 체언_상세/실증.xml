@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>실증</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/22</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/31</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미부류 수정;동사결합 정보 수정;논항명사구 정보 추가;선택제약 정보 수정;센스2 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/21</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/08/22(이호영)</note>
+			<note>2002/08/27(김종명)기능동사구문정보수정</note>
+			<note>2003/09/14(최지임)기능동사입력</note>
+			<note>논항선택제약입력</note>
+			<note>논항선택제약검토요망</note>
+			<note>외래어원어수정</note>
+			<note>2003/09/22(고길수)단위표현 정보 추가</note>
+			<note>기능동사에 'X'를 'X|S것'으로 수정</note>
+			<note>논항 의미정보 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">實證</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 그 철학의 진위 여부를 ~을 해 보고 싶다.</eg>
+				<trans>actual proof</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>추상적행위</sem_class> <!-- 인지적추상적행위 수정, 단 단독행위?? -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame> <!-- X|S것-이 Y|S것-을 ~을 하다 수정 -->
+					<frame>X-이 S것-을 ~을 하다</frame>
+					<frame>X-이 S음-을 ~을 하다</frame> <!-- 추가 -->
+					<frame>X-이 S지-을 ~을 하다</frame> <!-- 추가 -->
+					<frame>S것-이 Y-을 ~을 하다</frame>
+					<frame>S것-이 S것-을 ~을 하다</frame>
+					<frame>S것-이 S음-을 ~을 하다</frame> <!-- 추가 -->
+					<frame>S것-이 S지-을 ~을 하다</frame> <!-- 추가 -->
+					<frame>S음-이 Y-을 ~을 하다</frame> <!-- 추가 -->
+					<frame>S음-이 S것-을 ~을 하다</frame> <!-- 추가 -->
+					<frame>S음-이 S음-을 ~을 하다</frame> <!-- 추가 -->
+					<frame>S음-이 S지-을 ~을 하다</frame> <!-- 추가 -->
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-로 ~이 되다</frame> <!-- Y|S것-이 수정, X-로 추가 -->
+					<frame>S것-이 X-로 ~이 되다</frame>
+					<frame>S음-이 X-로 ~이 되다</frame> <!-- 추가 -->
+					<frame>S지-이 X-로 ~이 되다</frame> <!-- 추가 -->
+					<frame>Y-이 X-에의해 ~이 되다</frame> <!-- 추가 -->
+					<frame>S것-이 X-에의해 ~이 되다</frame> <!-- 추가 -->
+					<frame>S음-이 X-에의해 ~이 되다</frame> <!-- 추가 -->
+					<frame>S지-이 X-에의해 ~이 되다</frame> <!-- 추가 -->
+					<frame>Y-이 S것-에의해 ~이 되다</frame> <!-- 추가 -->
+					<frame>S것-이 S것-에의해 ~이 되다</frame> <!-- 추가 -->
+					<frame>S음-이 S것-에의해 ~이 되다</frame> <!-- 추가 -->
+					<frame>S지-이 S것-에의해 ~이 되다</frame> <!-- 추가 -->
+					<frame>Y-이 S음-에의해 ~이 되다</frame> <!-- 추가 -->
+					<frame>S것-이 S음-에의해 ~이 되다</frame> <!-- 추가 -->
+					<frame>S음-이 S음-에의해 ~이 되다</frame> <!-- 추가 -->
+					<frame>S지-이 S음-에의해 ~이 되다</frame> <!-- 추가 -->
+				</comb_v>
+				<max_n_str>X-의 Y-의 ~</max_n_str>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 S것-의 ~</max_n_str>
+				<max_n_str>X-의 S것-에대한 ~</max_n_str>
+				<max_n_str>S것-의 ~</max_n_str>
+				<max_n_str>S것-에대한 ~</max_n_str>
+				<max_n_str>X-의 S음-의 ~</max_n_str>
+				<max_n_str>X-의 S음-에대한 ~</max_n_str>
+				<max_n_str>S음-의 ~</max_n_str>
+				<max_n_str>S음-에대한 ~</max_n_str>
+				<max_n_str>X-의 S지-의 ~</max_n_str>
+				<max_n_str>X-의 S지-에대한 ~</max_n_str>
+				<max_n_str>S지-의 ~</max_n_str>
+				<max_n_str>S지-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|사태</sel_rst>
+				<sel_rst arg="Y">사실명제|자연법칙|방법|기술|학문사조|관계추상적대상|개념|힘|사태</sel_rst> <!-- 생각|추상적대상 수정 -->
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>확실한 ~을 제시하지 못하면 그가 누명을 뒤집어 쓰겠다.</eg>
+				<trans>proof</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>관계추상적대상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="yes">~을 제시하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X-에대한 ~</max_n_str>
+				<max_n_str>S것-의 ~</max_n_str>
+				<max_n_str>S것-에대한 ~</max_n_str>
+				<max_n_str>S음-의 ~</max_n_str>
+				<max_n_str>S음-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|사태</sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S다는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

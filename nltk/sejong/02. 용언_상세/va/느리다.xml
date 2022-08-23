@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>느리다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/15</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/04/22</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/12/18</mod_date>
+				<mod_writer>김윤신</mod_writer>
+				<mod_note>선택제약 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>A</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>인성속성값</sem_class>
+				<trans>be slow and dull</trans>
+				<lr>
+					<ant type="grad">빠르다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(행동|말|걸음)</sel_rst>
+					<eg>동생은 몸이 커서 행동이 무척 느리다.</eg>
+					<eg>선생님은 느린 말로 우리들에게 훈계하신다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-에 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="LOC">행위</sel_rst>
+					<eg>그는 공부에는 느리지만 밥먹는 데에는 빠르다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="LOC">S데</sel_rst>
+					<eg>그는 공부하는 데에는 느리지만 밥먹는 데에는 빠르다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=S것1-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="CRT"/>
+					<eg>영희는 말하는 것이 너무 느려.</eg>
+					<eg>아버님은 달리는 것이 느려서 등수에 들지 못했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>속도속성값</sem_class>
+				<trans>be slow</trans>
+				<lr>
+					<ant type="grad">빠르다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">교통기관|(강물)</sel_rst>
+					<eg>기차가 오르막길을 갈 때는 무척 느리다.</eg>
+					<eg>시외버스는 느려서 그 곳에 제 시간에 도착할 수 없다.</eg>
+					<eg>세차게 흐르던 강물이 이곳 하류에서는 한결 느립니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>속도속성값</sem_class>
+				<trans>be slow and not promoted</trans>
+				<lr>
+					<ant type="grad">빠르다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(속도|진행|행군|진도|성과|결과)</sel_rst>
+					<eg>이번 연구의 진도가 너무 느려서 야단이다.</eg>
+					<eg>연구 성과가 느리게 나오는 바람에 발표를 하지 못했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>낮은정도</sem_class>
+				<trans>be not very sloping</trans>
+				<lr>
+					<ant type="grad">빠르다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(비탈|경사|산비탈)</sel_rst>
+					<eg>급한 산길로 가지 말고 느린 비탈을 타자.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>속도속성값</sem_class>
+				<trans>be slow</trans>
+				<lr>
+					<ant type="grad">빠르다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(노래|박자|빠르기|리듬)</sel_rst>
+					<eg>리듬이 너무 느려 속도를 맞출 수가 없어요.</eg>
+					<eg>느린 육자배기나 불러 볼까?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

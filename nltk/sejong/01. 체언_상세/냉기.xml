@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>냉기</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/22</cre_date>
+				<cre_writer>서보람</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/05</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/01</mod_date>
+				<mod_writer>김천학</mod_writer>
+				<mod_note>add 옮김</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/06</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note>통사정보 수정 및 추가</mod_note>
+				</mod>
+			<note>2002/08/27(고길수)'내'와 '나무'의 방언은 표제어에서 삭제함</note>
+			<note>센스1의 의미부류 재검토 필요, '속성값'인지 아니면 특정 속성을 지닌 추상적대상인지?</note>
+			<note>센스1의 comb_v의 '돌다|가시다'를 add로 수정</note>
+			<note>센스1에 형용사자유구성 추가</note>
+			<note>센스2의 의미부류를 '속성값'에서 '기체'로 수정</note>
+			<note>'냉랭한 분위기'의 의미를 별도로 분할</note>
+			<note>센스3의 의미부류 재검토 필요, '상태'로의 분류 가능성은?</note>
+			<note>add 정보 수정</note>
+			<note>2002/10/07(한선혜)add 추가</note>
+			<note>2003/06/16(고길수)센스1에 예문 추가</note>
+			<note>센스1에 반의어 추가</note>
+			<note>센스1에 형용사 자유구성 정보 추가</note>
+			<note>센스1의 '~가 심하다'를 형용사 자유구성에서 magn로 수정</note>
+			<note>2003/07/05(이홍식)</note>
+			<add>센스1의 동사결합으로 '~가 돌다|가시다' 추가</add>
+			<add>센스1의 동사결합으로 '~가 돌다|가시다' 추가</add>
+			<add>센스3의 동사결합으로 '~가 돌다|감돌다'를 추가</add>
+			<add>센스1의 동사결합으로 '~가 돌다|가시다' 추가</add>
+			<add>센스3의 동사결합으로 '~가 돌다|감돌다'를 추가</add>
+			<add>센스1의 명사구로 'X-의 ~'</add>
+			<add>센스1의 동사결합으로 '~가 돌다|가시다' 추가</add>
+			<add>센스3의 동사결합으로 '~가 돌다|감돌다'를 추가</add>
+			<add>센스1의 명사구로 'X-의 ~'</add>
+			<add>센스1,2,3,의 동사결합으로  '~를 느끼다|풍기다, ~가 돌다'를 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">冷氣</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>방에 ~가 가시면 자리에 앉으세요.</eg>
+				<eg>방바닥의 ~ 때문에 사람들은 오래 앉아 있지를 못했다.</eg>
+				<trans>cold</trans>
+				<trans>chill</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>속성값</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant>온기</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">차가운 ~</comb_aj>
+				<comb_aj type="appr">싸늘한 ~</comb_aj>
+				<comb_aj type="magn">~가 심하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 돌다</form>
+					<frame>X-에|에게 ~가 돌다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 감돌다</form>
+					<frame>X-에|에게 ~가 감돌다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 가시다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 느끼다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 풍기다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>아침 ~가 몸에 스며든다.</eg>
+				<trans>cool air</trans>
+				<trans>chilly draft(draught)</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>기체</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 돌다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 감돌다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 가시다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 느끼다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 풍기다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>그의 말 한 마디에 사람들 사이에는 싸늘한 ~가 감돌았다.</eg>
+				<trans>uncomfortable atmosphere</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>속성값</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">싸늘한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 돌다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 감돌다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 가시다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 느끼다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 풍기다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

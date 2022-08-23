@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>어지럽다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/31</cre_date>
+				<cre_writer>박철우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/11</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>임동식</mod_writer>
+				<mod_note>의미정보 확장 및 형태정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="u"/>
+			<infl type="b"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>속성값</sem_class>
+				<trans>be dizzy</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(생각|정신|심사|마음|눈)</sel_rst>
+					<eg>집안이 죄를 받다 보니 그 심중이 심히 어지러워 잠시 실언을 한 것으로 아옵니다.</eg>
+					<eg>스트레스가 많으면 마음이 어지러워 기가 제대로 순환될 턱이 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>속성값</sem_class>
+				<trans>be confused</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<n_appr arg="X">(머리)</n_appr>
+					<eg>걸음을 걸을 때 어지러워 몸의 균형을 잘 잡지 못하는 상태는 뇌동맥경화 때에 흔히 있는 증상이다.</eg>
+					<eg>장거리 여행을 하고 비행기로 어제 돌아왔더니 시차 때문에 계속 어지럽다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>속성값</sem_class>
+				<trans>be disturbed</trans>
+				<lr>
+					<syn type="sino">혼란스럽다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간집단|장소</sel_rst>
+					<eg>이럴 즈음 시국은 차차 어지러워 군란이 닥쳐올 기미가 보이기 시작하였다.</eg>
+					<eg>그 작품은 세상이 어지러워 발이나 씻고 자연에 은거하려는 듯한 분위기이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>속성값</sem_class>
+				<trans>be disorderly</trans>
+				<trans>be untidy</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<eg>화질은 좋지 않았고 조명이 어지러워 화면 안의 사내들이 누군지 분간하기는 어려웠다.</eg>
+					<eg>집 안에는 옷가지며 온갖 집기들이 어지럽게 널려 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

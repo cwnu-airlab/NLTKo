@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>여지</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/20</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/08</mod_date>
+				<mod_writer>김현승</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/22</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>idm 기술</mod_note>
+				<mod_note>s_n 수정</mod_note>
+				<mod_note>add 정보 n_aj에 기술 및 정보 추가</mod_note>
+				<mod_note>n_v 기술</mod_note>
+				<mod_note>prt 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정 없음</mod_note>
+			</mod>
+			<note>2002/08/20(최지임)</note>
+			<note>센스 2의 의미부류 검토요망</note>
+			<note>2003/10/08(김현승)센스2의 영어대역어 관사 삭제</note>
+			<note>add항목 표기 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">餘地</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">입추의 ~가 없다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이곳에는 나무를 심을 만한 ~가 없다.</eg>
+				<trans>space</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>속성기능장소</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 충분하다</comb_aj>
+				<comb_aj type="appr">~가 있다</comb_aj>
+				<comb_aj type="appr">~가 없다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 남기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 남다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt> <!-- '가'가 조사제약으로 주어져 있었으나, 가, 를, 까지, 마저, 와 등과 두루 쓰이는 듯하여 삭제(송근영)-->
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이 점에 대해서는 시간을 갖고 논의를 해 볼 ~가 있다.</eg>
+				<eg>나는 이제 선택의 ~가 없다.</eg> <!--송근영 추가-->
+				<trans>room</trans>
+				<trans>margin</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>추상적대상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 있다</comb_aj>
+				<comb_aj type="appr">~가 없다</comb_aj>
+				<comb_aj type="appr">~가 많다</comb_aj>
+				<comb_aj type="appr">~가 적다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 주다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 남기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 남다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt> <!-- '가'가 조사제약으로 주어져 있었으나, 가, 를, 까지, 마저, 와 등과 두루 쓰이는 듯하여 삭제(송근영)-->
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S을 ~</s_n> <!--'를'을 '을'로 수정(송근영)-->
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

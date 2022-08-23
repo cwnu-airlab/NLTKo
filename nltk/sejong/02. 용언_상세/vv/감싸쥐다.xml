@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>감싸쥐다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/26</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/26</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>대상성몸짓</sem_class>
+				<trans>shelter</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체인공물(옷|모자)|(얼굴|머리)</sel_rst>
+					<sel_rst arg="Z" tht="INS">(손|수건)</sel_rst>
+					<eg>그녀는 두 손으로 머리를 감싸쥐고 흐느꼈다.</eg>
+					<eg>철수는 손으로 그녀의 옷을 힘껏 감싸쥐고 당겼다.</eg>
+					<eg>윤지는 다연이를 쇼파에 뉘여논 뒤 주방을 대충 정리 하고는 수건으로 다연이 몸 여기저기를 감싸쥐였다.</eg>
+					<eg>차사발은 두 손으로 안전하게 감싸쥐고 천천히 한꺼번에 마신다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

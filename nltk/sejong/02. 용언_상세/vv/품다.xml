@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>품다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/22</cre_date>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/08</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/05</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>hold</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간(아이|여자)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">(가슴)</sel_rst>
+					<eg>어머니는 우는 아이를 가슴에 꼭 품어 주었다.</eg>
+					<eg>김씨는 저렇게 아름다운 여자를 한 번 품어 볼 수 있다면 얼마나 좋을까 하고 상상했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">동물(어미)</sel_rst>
+					<sel_rst arg="Y" tht="THM">동물(새끼)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">(품)</sel_rst>
+					<eg>솔개 한 마리가 하늘에서 빙빙 돌자, 암탉이 병아리들을 품에 꼭 품고 있었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">무기(칼|권총)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">신체부위(가슴|몸)</sel_rst>
+					<eg>범인은 몰래 몸 안에 권총을 품고 은행에 들어왔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>harbor</trans>
+			</sem_grp>
+			<frame_grp type="STR">
+				<frame>X=N0-이 Z=N2-에게 Npr1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Npr1">(흑심|의심|미움|앙심|불만|한)|(생각|뜻|야망)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">(머리속|심중|마음속)</sel_rst>
+					<eg>김씨는 이웃집 과부에게 음탕한 생각을 품고 있는 듯했다.</eg>
+					<eg>철수는 지갑이 없어지자 옆자리에 앉았던 친구에 대해 의심을 품고 있다.</eg>
+					<eg>저돌적으로 달려드는 상대는 내게 살기를 품은 듯 했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="CTR">
+				<frame>X=N0-이 C2-에 C1-을 V</frame>
+				<subsense>
+					<sel_rst arg="C1">(독|칼)</sel_rst>
+					<sel_rst arg="C2">(마음속)</sel_rst>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<eg>동생이 동네 불량배들에게 맞았다는 소리를 듣고 그는 속에 독을 품었다.</eg>
+					<eg>사법고시에 4번이나 떨어진 그는 이번이 마지막이라고 속에 칼을 품고 공부를 하기 시작했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>foam</trans>
+			</sem_grp>
+			<frame_grp type="CTR">
+				<frame>X=N0-이 C2-에 C1-을 V</frame>
+				<subsense>
+					<sel_rst arg="C1">(거품)</sel_rst>
+					<sel_rst arg="C2">(입)</sel_rst>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<eg>다혈질인 사람들은 작은 일에도 입에 거품을 품고 말한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

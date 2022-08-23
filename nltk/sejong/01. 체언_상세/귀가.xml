@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>귀가</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/08/03</cre_date>
+				<cre_writer>안근종</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/31</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/17</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>동사결합 기입;기능동사구문 수정;최대논항명사구 및 선택제약 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/27</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2008/08/11</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>1999/09/07(안근종)</note>
+			<note>2003/02/24(이호영)예문 추가</note>
+			<note>2003/03/31(박만규)선택제약 수정</note>
+			<note>기존 동사-연어구성의 정보를 향후 추가정보로 이동</note>
+			<note>논항 선택제약 기술</note>
+			<note>의미하위부류 수정</note>
+			<add>동사-자유구성에 '~를 서두르다|재촉하다|늦추다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">歸家</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~길</comp>
+			<comp pos="n" type="suffix">~시간</comp>
+			<comp pos="n" type="suffix">~인파</comp>
+			<comp pos="n" type="suffix">~전쟁</comp>
+			<comp pos="n" type="suffix">~조치</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>밤이 깊어 가면서 사람들은 ~를 서두르기 시작했다.</eg>
+				<eg>큰 먹구름이 몰려 오면서 사람들은 ~를 서두르기 시작하였다.</eg>
+				<eg>밤이 늦자 그는 서둘러 ~를 재촉하였다.</eg>
+				<trans>coming home</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>이동행위</sem_class>
+				<lr>
+					<syn type="etc">귀택</syn>
+					<syn type="etc">환가</syn>
+					<ant type="etc">외출</ant>
+					<coord>외출</coord>
+					<coord>귀택</coord>
+					<coord>환가</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 늦다</comb_aj>
+				<comb_aj type="appr">~가 이르다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+					<frame>X-이 Y-로 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 서두르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 재촉하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 늦추다</form>
+					<frame></frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>X-의 Y-로의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">장소</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

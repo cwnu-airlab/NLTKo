@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>운전</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/18</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/10</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/13</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note>예문 및 대역어 분리 기술;동사구문 이동 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/01/11</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>n_n 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/01</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/08/27(박동호)</note>
+			<note>2003/01/09(김성용)</note>
+			<note>2003/01/10(이성헌)센스1의 sem을 '이동행위'에서 '지속적활동'으로 수정</note>
+			<note>cl에 '회'를 추가</note>
+			<note>sel_res의 Z항 삭제</note>
+			<note>센스1 supv의 'X-이 Z-에게 Y-을 ~을 시키다'를 삭제하고 cor_v에서도 '시키다' 삭제</note>
+			<add>~을 배우다|익히다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">運轉</org>
+		
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~공</der>
+			<der pos="n" type="suffix">~대</der>
+			<der pos="n" type="suffix">~법</der>
+			<der pos="n" type="suffix">~비</der>
+			<der pos="n" type="suffix">~사</der>
+			<der pos="n" type="suffix">~석</der>
+			<der pos="n" type="suffix">~수</der>
+			<der pos="n" type="suffix">~술</der>
+			<der pos="n" type="suffix">~실</der>
+			<der pos="n" type="suffix">~자</der>
+			<comp pos="n" type="suffix">~기사</comp>
+			<comp pos="n" type="suffix">~면허</comp>
+			<comp pos="n" type="suffix">~병</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>아버지는 요즘 자동차 ~을 배우시고 계신다.</eg>
+				<eg>그 친구는 ~이 서툴다.</eg>
+				<trans>working of a machine</trans>
+				<trans>operating</trans>
+				<trans>driving</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>지속적활동</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>행위</hyper>
+					<coord>작동</coord>
+					<rel>기계</rel>
+					<rel>자동차</rel>
+					<rel>배</rel>
+					<rel>비행기</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 능숙하다</comb_aj>
+				<comb_aj type="appr">~이 서툴다</comb_aj>
+				<comb_n type="compound">자동차 ~</comb_n>
+				<comb_n type="compound">초보 ~</comb_n>
+				<comb_n type="compound">기계 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 배우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 익히다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">교통기관</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

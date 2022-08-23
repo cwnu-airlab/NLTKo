@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>번</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/05</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/29</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/05</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_v 수정</mod_note>
+				<mod_note>최대논항구조 기술</mod_note>
+			</mod>
+			<note>2003/09/05(송인욱)'번을 서다'가 comb_v일 가능성 검토 요망</note>
+			<note>2003/10/15(박진호)comb_v 추가</note>
+			<note>2003/10/29(송인욱)합성어 명사에 있던 것을 파생어 명사로 이동</note>
+			<note>comb_v에 있는 '~을 들다'는 관용표현이므로 삭제</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">番</org>
+		
+			<der pos="n" type="prefix">당~</der>
+			<der pos="n" type="prefix">주~</der>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~을 갈다</idm>
+			<idm type="nv">~을 나다</idm>
+			<idm type="nv">~을 나들다</idm>
+			<idm type="nv">~을 들다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 어제 ~을 섰으니까 오늘은 네 차례이다.</eg>
+				<eg>우리 부대는 한 사람이 일주일에 두 차례씩 ~을 서고 있다.</eg>
+				<trans>duty</trans>
+				<sem_class>지속적활동</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 서다</form>
+					<frame>X-이 ~을 서다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

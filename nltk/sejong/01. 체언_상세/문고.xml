@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>문고</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/09</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/04</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>hom 수정</mod_note>
+				<mod_note>add 정보를 n_v로 이동</mod_note>
+				<mod_note>센스1 n_aj, n_v 기술</mod_note>
+				<mod_note>센스1 의미부류에서 '건물부분장소'는 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/03</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/09/21(정유진)</note>
+			<note>2000/09/25(정유진)</note>
+			<note>2001/01/22(백인애, 강범모)sense3에서 sem으로 (사물의)집단</note>
+			<note>2003/02/24(기영인)센스1 의미부류 수정</note>
+			<note>2003/03/02(박동호)</note>
+			<note>2003/03/04(기영인)</note>
+			<note>combaj 정보수정</note>
+			<note>combv 정보삭제, 일부 add로 이동</note>
+			<note>combv 정보삭제</note>
+			<note>단위표현에서 '질'을 uni에서 grp로 이동</note>
+			<note>센스2 삭제</note>
+			<note>센스3 의미부류 수정, '비인간집단'부류 설정 검토필요</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">文庫</org>
+		
+		
+			<hom exist="temp"/>
+			<der pos="n" type="suffix">~판</der>
+			<der pos="n" type="suffix">~본</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>조선시대 중기 시조는 지하 2층 ~에 잘 보존되어 있다.</eg>
+				<trans>library</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>속성기능장소</sem_class>
+				<lr>
+					<syn type="etc">서고</syn>
+					<syn type="etc">책장</syn>
+					<ant type="temp"></ant>
+					<coord>대출실</coord>
+					<coord>열람실</coord>
+					<holo>도서관</holo>
+					<holo>집</holo>
+					<mero>책장</mero>
+					<mero>책</mero>
+					<mero>문서</mero>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 넓다</comb_aj>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 좁다</comb_aj>
+				<comb_aj type="appr">~가 작다</comb_aj>
+				<comb_n type="compound">학급 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>동양 고전 ~는 이곳이 다른 출판사보다 더 잘 나왔다.</eg>
+				<trans>library</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>텍스트담지물</sem_class>
+				<lr>
+					<syn type="etc">총서</syn>
+					<ant type="temp"></ant>
+					<hyper>책</hyper>
+					<mero>책</mero>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 나오다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 출판되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 읽다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">권</cl>
+				<cl type="uni">부</cl>
+				<cl type="grp">질</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

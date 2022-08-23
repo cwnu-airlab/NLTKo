@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>무늬</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/08</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/04</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/24</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 의미부류 수정;add 정보를 해당 n_v로 이동;샌스1 n_v, 센스2 분류사 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/01</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/09/21(정유진)</note>
+			<note>2000/09/25(정유진)</note>
+			<note>2001/01/22(백인애, 강범모)</note>
+			<note>2003/02/13(기영인)센스1 의미부류 수정(검토필요)</note>
+			<note>2003/03/02(박동호)</note>
+			<note>2003/03/04(기영인)</note>
+			<note>combaj 정보수정 및 추가</note>
+			<note>combaj 정보수정</note>
+			<note>combv 정보삭제</note>
+			<note>combv 정보수정 및 add로 이동</note>
+			<note>센스2 의미부류 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~석</der>
+			<comp pos="n" type="suffix">~찍기</comp>
+			<comp pos="n" type="prefix">바둑판~</comp>
+			<comp pos="n" type="prefix">물방울~</comp>
+			<comp pos="n" type="prefix">꽃~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>사막에는 모래 바람으로 바위나 돌에 모래가 스쳐 지나간 ~를 볼 수 있다.</eg>
+				<trans>pattern</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>모양</sem_class>
+				<lr>
+					<syn type="etc">모양</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 다양하다</comb_aj>
+				<comb_aj type="appr">~가 아름답다</comb_aj>
+				<comb_aj type="appr">~가 특이하다</comb_aj>
+				<comb_aj type="appr">~가 화려하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 생기다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>올 여름에는 커다란 물방울 ~의 옷감이 유행이다.</eg>
+				<trans>design</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/><!--CU로 되어 있었음(김이정)-->
+				<sem_class>구체물의부분</sem_class>
+				<lr>
+					<syn type="etc">문양</syn>
+					<ant type="temp"></ant>
+					<rel>옷감</rel>
+					<rel>옷</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 작다</comb_aj>
+				<comb_aj type="appr">~가 다양하다</comb_aj>
+				<comb_aj type="appr">~가 아름답다</comb_aj>
+				<comb_aj type="appr">~가 조잡하다</comb_aj>
+				<comb_aj type="appr">~가 특이하다</comb_aj>
+				<comb_aj type="appr">~가 화려하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 그리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 넣다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 새기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 수놓다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

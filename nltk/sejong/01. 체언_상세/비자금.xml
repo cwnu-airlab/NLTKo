@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>비자금</orth>
+	<entry n="1" pos="nng_c"> <!-- temp 수정 -->
+		<mnt_grp>
+			<cre>
+				<cre_date>2005/11/01</cre_date>
+				<cre_writer>서진숙</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2005/11/30</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>품사정보 수정;내적구성정보 수정;동형어 정보 삭제;형용사, 명사결합 정보 추가;~을 만들다 추가;논항 의미부류 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/18</mod_date>
+				<mod_writer>임근석</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>명사연어에 '~ 통장' 추가;동사정보에 '추적하다, 받다, 감추다, 관리하다' 추가</mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="R_N">비+자금</str> <!-- N_R 수정, 비자+금 수정 -->
+			<org lg="si">[U+7955]資金</org>
+		
+			<!-- hom exist="yes"/ 삭제 --> 
+			<der  pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>검찰은 모 기업이 지속적으로 ~을 조성해 왔다고 발표했다.</eg>
+				<trans>money used in secret</trans>
+				<trans>slush fund</trans>
+				<trans>secret fund</trans>
+				<trans>dirty money </trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>금전</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 막대하다</comb_aj> <!-- 추가 -->
+				<comb_n type="temp">은닉 ~</comb_n> <!-- 추가 -->
+				<comb_n type="temp">불법 ~</comb_n>
+				<comb_n type="temp">~ 통장</comb_n>
+				<comb_v type="narg_vpred"> <!-- 추가 -->
+					<form vcompound="no">~을 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 조성하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 축적하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 추적하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 받다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 감추다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 관리하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 탄로나다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str><!-- 임근석: X-의 ~ 삭제-->
+				<sel_rst arg="temp"></sel_rst> <!-- 단체|지역집단|인간집단 수정 --><!-- 임근석 인간|인간집단 삭제--> 
+				<cl type="qnt">원</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>해</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/06/16</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/19</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/10</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note>entry 2를 entry 1의 sense 3으로 수정, 표준국어대사전 참조</mod_note>
+				<mod_note>n_v 정보 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/08</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note>add(~가 솟다|지다|기울다|저물다|넘어가다)를 동사결합정보로 이동</mod_note>
+			</mod>
+			<note>'일년'의 의미를 별도 엔트리로 분할, 연세사전 참조</note>
+			<note>2000/07/04</note>
+			<note>2003/03/17(송인욱)관리정보구획 표기법 수정</note>
+			<note>2003/03/19(고길수)comp에 '햇살' 추가</note>
+			<note>add에 센스1의 동사결합으로 '솟다|기울다|저물다' 추가</note>
+			<note>comp의 표기법 수정</note>
+			<note>관용표현 추가</note>
+			<note>센스1에 예문 추가</note>
+			<note>센스2의 의미부류를 '하루중단계'에서 '수량시간'으로 수정</note>
+			<note>예문 수정</note>
+			<note>형용사자유구성에 '흐리다' 추가</note>
+			<add>~를 보다|감상하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~돋이</comp>
+			<comp pos="n" type="suffix">~ㅅ빛</comp>
+			<comp pos="n" type="suffix">~ㅅ볕</comp>
+			<comp pos="n" type="suffix">~ㅅ살</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="na">~가 길다</idm>
+			<idm type="na">~가 짧다</idm>
+			<idm type="nv">~가 떨어지다</idm>
+			<idm type="etc">~가 서쪽에서 뜨다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~는 태양계의 중심이다.</eg>
+				<eg>그는 산에 올라 ~가 뜨는 것을 바라보았다.</eg>
+				<eg>~가 구름에 가렸다.</eg>
+				<trans>sun</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>천체</sem_class>
+				<lr>
+					<syn type="etc">태양</syn>
+					<ant type="temp"></ant>
+					<hyper>항성</hyper>
+					<rel>흑점</rel>
+					<rel>코로나</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 빨갛다</comb_aj>
+				<comb_aj type="appr">~가 둥글다</comb_aj>
+				<comb_aj type="appr">~가 밝다</comb_aj>
+				<comb_aj type="appr">~가 흐리다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 뜨다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 솟다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 기울다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 저물다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 넘어가다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>하지는 일년 중 ~가 가장 긴 날이다.</eg>
+				<trans>daytime</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>하루중단계</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 길다</comb_aj>
+				<comb_aj type="appr">~가 짧다</comb_aj>
+				<comb_aj type="appr">~가 설핏하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>나는 이번 ~에 대학시험을 치른다.</eg>
+				<eg>그는 ~가 바뀌면 스무살이 된다.</eg>
+				<eg>그 녀석 ~가 바뀌었는데도 여전하네.</eg>
+				<trans>year</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>순환시간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 거듭되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/17</cre_date>
+				<cre_writer>송인욱</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/19</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/10</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note>선택제약정보 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/08</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/03/17(송인욱)syn_b의 기능동사 관련 서술방법을 모르겠음</note>
+			<note>2003/03/19(고길수)동형어 정보 추가</note>
+			<note>comb_v 정보 추가</note>
+			<note>comp정보 추가</note>
+			<note>magn 정보 추가</note>
+			<note>기능동사 정보, 논항 의미제약 정보 추가</note>
+			<note>단위표현 정보 추가</note>
+			<note>의미부류를 '결과'에서 '부정적결과행위'로 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">害</org>
+		
+			<hom exist="yes"/>
+			<der pos="a" type="suffix">~롭다</der>
+			<comp pos="v" type="suffix">~치다</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>과도한 운동은 도리어 몸에 ~가 된다.</eg>
+				<trans>injuryharm</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>피해</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">득</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">큰 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 끼치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 입히다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 가하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 입다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 보다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 당하다</form>
+					<frame>Y-이 X|S것-에서 ~를 당하다</frame>
+					<frame>Y-이 X|S것-으로부터 ~를 당하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X|S것-이 Y-에 ~가 되다</frame>
+					<frame>X|S것-이 Y-에게 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 주다</form>
+					<frame>X|S것-이 Y-에 ~를 주다</frame>
+					<frame>X|S것-이 Y-에게 ~를 주다</frame>
+				</comb_v>
+				<!--vcompound: ~되다-->
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">온</sel_rst>
+				<sel_rst arg="X">생물|집단|사태</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/17</cre_date>
+				<cre_writer>송인욱</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/19</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/10</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note>n_v 정보 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/08</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/03/17(송인욱)</note>
+			<note>2003/03/19(고길수)add에 동사결합 정보 추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">解</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>누가 이 방정식의 ~를 한 번 구해볼래?</eg>
+				<trans>value</trans>
+				<domain>수학</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>관계수학적대상</sem_class>
+				<lr>
+					<syn type="etc">값</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 구하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 내다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

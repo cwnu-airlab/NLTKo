@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>연화보좌</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/09</cre_date>
+				<cre_writer>박재연</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/09</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/20</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add의 내용을 n_v로 이동;var 기술;센스2 추가기술;센스1 영어대역어, 의미부류, 예문 수정;센스1 동의어 추가;센스1 domain, n_v, 선택제약 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/26</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/01</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/06/09(박재연)sem 수정 숙고 요망</note>
+			<note>comb_v를 add로 이동</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="spr">연화 보좌</var>
+			<str type="N_N">연화+보좌</str>
+			<org lg="si">蓮花寶座</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>관음세지 보살님의 큰 서원을 유행하여 ~를 가르쳐 주시도록 정토에 나겠습니다.</eg>
+				<trans>sitting cross-legged</trans>
+				<trans>sitting with one's legs crossed</trans>
+				<domain>불교</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>몸짓및동작</sem_class>
+				<lr>
+					<syn type="etc">책상다리</syn>
+					<syn type="perfect">여래좌</syn>
+					<syn type="perfect">연화좌</syn>
+					<ant type="temp"></ant>
+					<hyper>보좌</hyper>
+					<rel>가부좌</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~의 자세</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 ~를 하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>제단 앞 ~엔 노란색 방석이 깔려 있었다.</eg>
+				<trans>seat of Buddha's image in the form of the lotus flower</trans><!--검토 요망(김이정)-->
+				<domain>불교</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>구체인공물</sem_class>
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="temp"></ant>
+					<hyper></hyper>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 앉다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

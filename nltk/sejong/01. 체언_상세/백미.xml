@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>백미</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/29</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/29</mod_date>
+				<mod_writer>송인욱</mod_writer>
+				<mod_note>2003/10/29(송인욱)</mod_note>
+			</mod>
+<mod>
+				<mod_date>2004/10/02</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note>반의어 정보 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/25</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add를 n_v로 이동</mod_note>
+			</mod>
+			<add>2003/10/29(송인욱)동사자유구성으로 '~를 먹다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">白米</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~에는 뉘나 섞였지</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>아버지는 어디서 돈이 좀 생기셨는지  ~를  열 가마나 들여 놓으셨다.</eg>
+				<eg>여태 ~만 먹다가 갑자기 현미를 먹으려니 입에 안 맞아 못 먹겠다.</eg>
+				<eg>건강에는 현미가 좋다지만, 아무래도 맛있기는 ~가 더 맛있다.</eg>
+				<trans>polished rice</trans>
+				<trans>cleaned rice</trans>
+				<sem_class>곡식</sem_class>
+				<lr>
+					<syn type="kor">흰쌀</syn>
+					<hyper>쌀</hyper>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 맛있다</comb_aj>
+				<comb_aj type="appr">~가 맛없다</comb_aj>
+				<comb_aj type="min">~가 귀하다</comb_aj>
+				<comb_aj type="magn">~가 흔하다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 먹다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">톨</cl>
+				<cl type="grp">가마</cl>
+				<cl type="grp">석</cl>
+				<cl type="qnt">홉</cl>
+				<cl type="qnt">되</cl>
+				<cl type="qnt">말</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/29</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/29</mod_date>
+				<mod_writer>송인욱</mod_writer>
+				<mod_note>2003/10/29(송인욱)원뜻으로는 쓰이지 않는 것 같아 비유적 의미만 기술함; 실제 의미 상의 차이 없이 의미부류에 따라서만 센스를 구분해주는 것이 타당한 방법인가?</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/02</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note>속성값 수정, 센스2 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/25</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add정보를 n_v로 이동</mod_note>
+				<mod_note>n_v 추가</mod_note>
+				<mod_note>선택제약 기술</mod_note>
+			</mod>
+			<add>2003/10/29(송인욱)센스1, 2의 동사자유구성으로 '~로 꼽다</add>
+			<add>~가 되다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">白眉</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>마지막 장면이 그 영화의 ~라고 할 수 있다.</eg>
+				<eg>사람들은 그 둘의 대결이 이번 대회의 ~가 될 것으로 전망했다.</eg>
+				<trans>best</trans>
+				<sem_class>높은정도</sem_class>
+				<lr>
+					<syn></syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 Y-의 ~이다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 되다</form>
+					<frame>X-이 Y-의 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~로 꼽다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">구체물(인간|텍스트의부분)|행위|계획사건</sel_rst>
+				<sel_rst arg="Y">예술|텍스트|작품|방송물|행위|계획사건</sel_rst>
+				<cl type="temp"></cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

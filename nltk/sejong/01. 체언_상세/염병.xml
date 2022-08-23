@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>염병</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/05</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/23</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/03</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 syn, n_v에 기술</mod_note>
+				<mod_note>센스1 sel_res 기술</mod_note>
+				<mod_note>센스1 cl 기술</mod_note>
+				<mod_note>센스2 n_v 유형값 수정</mod_note>
+				<mod_note>센스2 cl 기술</mod_note>
+				<mod_note>센스2 s_n 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>파생어, 동사결합, 최대논항구조 추가</mod_note>
+				<mod_note>서술명사에 맞춰 동사결합 관련 정보 수정</mod_note>
+			</mod>
+			<note>2002/08/06(김현승)원어정보 'si(染病)' 입력요망</note>
+			<note>센스2의 의미부류를 확인해주시기 바람</note>
+			<note>2002/08/25(고길수)센스1의 예문 수정, 의존명사 띄어쓰기 주의 필요</note>
+			<note>센스1,2의 의미부류를 '질병및증세'에서 '전염병'으로 수정, 모두 '~이 나다|돌다|퍼지다' 등의 '전염병' 구문이 가능</note>
+			<note>센스1,2에 형용사자유구성 정보 추가</note>
+			<note>센스2에 magn 정보 추가</note>
+			<note>센스2에 comb_v 정보 추가</note>
+			<note>센스2에 pre_s 정보 추가</note>
+			<note>add 정보 추가 및 수정</note>
+			<note>관용표현의 '~을 떨다|하다'를 별도 의미로 추가하는 것에 대해 검토 필요</note>
+			<note>2002/10/04(이성헌)</note>
+			<note>2003/09/07(한동훈)센스2의 동사자유구성에'~이 번지다'추가</note>
+			<note>센스1의 동사자유구성에'~를 고치다|치료하다'추가</note>
+			<note>2003/09/23(김미현)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">染病</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~쟁이</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~을 떨다</idm>
+			<idm type="nv">~을 하다</idm>
+			<idm type="prv">~에 까마귀 소리</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 어릴 적에 ~을 심하게 앓았다.</eg>
+				<eg>그 마을에서 일어나 ~이 인근 마을로 퍼졌다.</eg>
+				<trans>typhoid</trans>
+				<trans>enteric</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>질병및증세</sem_class>
+				<lr>
+					<syn type="etc">장티푸스</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 심하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 나다</form>
+					<frame>X-이 ~이 나다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 앓다</form>
+					<frame>X-이 ~을 앓다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~에 걸리다</form>
+					<frame>X-이 ~에 걸리다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 고치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 치료하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>장마가 끝나자 ~이 돌기 시작했다.</eg>
+				<trans>contagious desease</trans>
+				<trans>infectious desease</trans>
+				<trans>epidemic</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>전염병</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 심하다</comb_aj>
+				<comb_aj type="magn">~이 지독하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 돌다</form>
+					<frame>X-에 ~이 돌다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 퍼지다</form>
+					<frame>X-에 ~이 퍼지다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 번지다</form>
+					<frame>X-에 ~이 번지다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">지상장소</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

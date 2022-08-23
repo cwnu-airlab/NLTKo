@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>내과</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/20</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/28</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/26</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>der 기술</mod_note>
+				<mod_note>add 정보 일부를 해당 센스 n_n에 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/08/22(최지임)</note>
+			<note>2002/09/18(김종명)</note>
+			<note>2003/05/20(고길수)예문 추가</note>
+			<note>2003/06/28(이홍식)</note>
+			<note>add에 명사구 정보 추가</note>
+			<note>센스2에 '내과병원'을, 센스3에 '내과병동'을 추가</note>
+			<note>어휘의미관계 구획에 정보 추가</note>
+			<note>영어대역어 수정</note>
+			<note>의미부류 검토요망</note>
+			<note>의미부류를 '전문분야'에서 '학문과목'으로 수정</note>
+			<add>rel=내과의|내과치료</add>
+			<add>센스1, 3의 명사구 결합으로 '~의 X 교수|원장|의사' 등이 가능</add>
+			<add>센스1의 명사구로 'X 대학 의대의 ~'</add>
+			<add>센스3의 명사구로 'X 병원의 ~'</add>
+			<add>합성어? 명사구? '~의사|치료|병원|병동|환자|질환'</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">內科</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~적</der>
+			<comp pos="n" type="suffix">~의</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 ~ 의사이다.</eg>
+				<eg>그는 의대에서 ~를 전공을 했다.</eg>
+				<eg>내가 아는 우리 학교 의대 ~의 한 교수가 아버지의 병환을 치료하고 있다.</eg>
+				<trans>internal medicine</trans>
+				<domain>의학</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>학문과목</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>의학</hyper>
+					<coord>외과</coord>
+					<coord>안과</coord>
+					<coord>비뇨기과</coord>
+					<coord>소아과</coord>
+					<coord>산부인과</coord>
+					<rel>의대</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 의사</comb_n>
+				<comb_n type="compound">~ 병원</comb_n>
+				<comb_n type="compound">~ 질환</comb_n>
+				<comb_n type="compound">~ 환자</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 배가 아파 근처의 한 ~를 찾아갔다.</eg>
+				<trans>hospital</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>기관건물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>병원</hyper>
+					<coord>종합병원</coord>
+					<coord>안과</coord>
+					<coord>비뇨기과</coord>
+					<coord>산부인과</coord>
+					<coord>소아과</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>그는 배가 심하게 아프다고 하여 ~로 옮겨졌다.</eg>
+				<trans>medical ward</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>단체의부서</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>외과</coord>
+					<coord>정신과</coord>
+					<coord>안과</coord>
+					<coord>비뇨기과</coord>
+					<coord>산부인과</coord>
+					<coord>소아과</coord>
+					<holo>종합병원</holo>
+					<holo>병원</holo>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 병동</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

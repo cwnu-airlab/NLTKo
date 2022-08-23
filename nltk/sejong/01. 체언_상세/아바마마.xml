@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>아바마마</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/11</cre_date>
+				<cre_writer>염신현</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/08/11</mod_date>
+				<mod_writer>염신현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/11</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note>sense 분할 sense1의 sem 인물/관계를 비대칭적친족으로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2003/10/20</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>add정보이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/15</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>내부정보, 예문 수정</mod_note>
+			</mod>
+			<note>2003/08/11(염신현)예문수정, comb_v를 add로 이동</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="etc">아바+마마</str>
+			<org lg="si">__&#23229;&#23229;</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>네가 어찌 감히 ~의 성총을 가리느냐?</eg>
+				<trans>the name of a father when a prince calls the king</trans>
+				<domain></domain>
+				<reg>존칭</reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>비대칭적친족</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">어마마마</ant>
+					<rel>임금</rel>
+					<rel>왕세자</rel>
+					<rel>왕자</rel>
+					<rel>공주</rel>
+					<rel>궁궐</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 모시다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 부르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 되다</form>
+					<frame>X-이 Y-에게 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">왕족</sel_rst>
+				<sel_rst arg="Y">왕족</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>왕자는 "~!"하며 임금을 목놓아 불렀다.</eg>
+				<trans>my father the king</trans>
+				<domain></domain>
+				<reg>존칭</reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>호칭</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">어마마마</ant>
+					<rel>임금</rel>
+					<rel>왕세자</rel>
+					<rel>왕자</rel>
+					<rel>공주</rel>
+					<rel>궁궐</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

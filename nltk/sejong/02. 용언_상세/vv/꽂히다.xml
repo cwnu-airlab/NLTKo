@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>꽂히다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>R.히</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>도착</sem_class>
+				<trans>get inserted</trans>
+				<trans>be pierced</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(창|칼|못)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">(가슴|심장)|(과녁|타이어)</sel_rst>
+					<eg>삼손이 던진 창이 정확히 사자의 심장에 꽂혔다.</eg>
+					<eg>김 선수가 쏜 화살 열 발 중 아홉 발이 정확히 과녁 한복판에 꽂혔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>도착</sem_class>
+				<trans>be in</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(연필|책|꽃)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">(연필통|책장|꽃병)</sel_rst>
+					<eg>연필이 연필통에 다섯 자루가 꽂혀 있다.</eg>
+					<eg>꽃병에 장미꽃이 예쁘게 꽂혀 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>도착</sem_class>
+				<trans>get hurt</trans>
+				<trans>get offended</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(말)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">(가슴|뇌리)</sel_rst>
+					<eg>그가 던진 말이 내 가슴에 비수처럼 꽂혔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>삭다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/25</mod_date>
+				<mod_writer>허용</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/26</mod_date>
+				<mod_writer>임동식</mod_writer>
+				<mod_note>의미정보 확장 및 형태정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>악화</sem_class>
+				<trans>decay</trans>
+				<trans>erose</trans>
+				<lr>
+					<hyper>상하다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<n_appr>구체물의부분</n_appr>
+					<eg>10년이나 된 이 옷은 천이 많이 삭았다.</eg>
+					<eg>조선시대에 만들어진 책자는 종이가 너무 삭아서 금방이라도 다부스러질 것 같다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물의부분</sel_rst>
+					<eg>10년이나 된이 옷은 천이 많이 삭았다.</eg>
+					<eg>조선시대에 만들어진 책자는 종이가 너무 삭아서 금방이라도 다부스러질 것 같다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<n_appr>(얼굴)</n_appr>
+					<eg>그렇게 예쁘던 영희의 얼굴도 이제는 삭아서 그 빛을 잃었다.</eg>
+					<eg>오랜만에 본영희의 얼굴은 많이 삭아있었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">자연음식물|음식</sel_rst>
+					<eg>이 조개젓은 조금만 더 삭으면 훨씬 더 맛이 있겠다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>소멸</sem_class>
+				<trans>be alleviated</trans>
+				<lr>
+					<syn type="perfect">가라앉다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">심리상태(분|울분)</sel_rst>
+					<eg>이제 분이 좀 삭았니?.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

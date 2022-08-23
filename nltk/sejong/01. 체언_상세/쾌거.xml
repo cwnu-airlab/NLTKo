@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>쾌거</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/18</cre_date>
+				<cre_writer>김성용</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/20</mod_date>
+				<mod_writer>이홍식</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/22</mod_date>
+				<mod_writer>나윤희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/02/18</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>예문수정 및 추가</mod_note>
+				<mod_note>동사결합정보 기술</mod_note>
+				<mod_note>'~를 이루다' 관용구 항목에도 기술</mod_note>
+				<mod_note>max_n 이하 기술</mod_note>
+				<mod_note>단위명사 기술</mod_note>
+				<mod_note>s_n기술</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/16</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">快擧</org>
+		
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~를 이루다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리 회사는 동양에서는 최초로 아이스 맥주를 독자 개발하는 ~를 이룩하였다.</eg>
+				<eg>이웃 주민들은 이 선수의 ~를 화제로 기쁨의 술잔을 나누었다.</eg>
+				<trans>inspiring deed</trans>
+				<trans>brilliant achievement</trans>
+				<trans>splendid achievement</trans>
+				<trans>gallant deed</trans>
+				<sem_class>긍정적결과행위</sem_class>
+				<lr>
+				<syn type="etc"></syn>
+				<ant type="compl"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 이루다</form>
+					<frame>X-이 ~를 이루다</frame>
+					<frame>S것-이 ~를 이루다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 이룩하다</form>
+					<frame>X-이 ~를 이룩하다</frame>
+					<frame>S것-이 ~를 이룩하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 올리다</form>
+					<frame>X-이 ~를 올리다</frame>
+					<frame>S것-이 ~를 올리다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 자랑하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>S다는 ~</max_n_str>
+	          			<sel_rst arg="X">인간집단|행위</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

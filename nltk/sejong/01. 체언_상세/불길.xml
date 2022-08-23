@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>불길</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/16</cre_date>
+				<cre_writer>남길임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/16</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/02</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note>add 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/10</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1,2,3 n_v 수정 및 추가</mod_note>
+				<mod_note>센스1,2,3 선택제약 기술</mod_note>
+			</mod>
+			<note>2002/08/16(남길임)</note>
+			<note>2002/08/16(이병규)센스1의 의미부류</note>
+			<note>2003/07/15(류희선)센스1의 대역어 수정</note>
+			<note>센스2의 의미부류수정(상태에서 감정으로)검토요망!</note>
+			<note>센스3의 의미부류수정(상태에서 현상으로)</note>
+			<note>센스3의 형용사자유구성수정</note>
+			<note>2003/09/16(박진호)센스1 의미부류 수정</note>
+			<add>~을 잡다</add>
+			<add>~을 잡다</add>
+			<add>~이 치솟다</add>
+			<add>~을 잡다</add>
+			<add>~이 치솟다</add>
+			<add>~에 휩싸이다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>저녁의 거센 바람 때문에 ~을 잡기가 더욱 어려웠다.</eg>
+				<trans>flames</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>불</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 세다</comb_aj>
+				<comb_aj type="magn">~이 거세다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 타오르다</form>
+					<frame>X-에서 ~이 타오르다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 치솟다</form>
+					<frame>X-에서 ~이 치솟다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 잡다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 휩싸이다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">장소</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그녀의 두 눈에는 증오의 ~이 타오르고 있었다.</eg>
+				<trans>flames</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>내재적심리상태</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 타오르다</form>
+					<frame>X-에 ~이 타오르다</frame>
+					<frame>X-에서 ~이 타오르다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 치솟다</form>
+					<frame>X-에 ~이 치솟다</frame>
+					<frame>X-에서 ~이 치솟다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">신체부위</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>대한 독립 만세의 ~이 전국 방방곡곡으로 번져 나갔다.</eg>
+				<trans>flames</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>인간관련현상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 거세다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 타오르다</form>
+					<frame>X-에 ~이 타오르다</frame>
+					<frame>X-에서 ~이 타오르다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 치솟다</form>
+					<frame>X-에 ~이 치솟다</frame>
+					<frame>X-에서 ~이 치솟다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">지역</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

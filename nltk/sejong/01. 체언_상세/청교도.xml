@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>청교도</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/04/18</cre_date>
+				<cre_writer>유영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/18</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note>sem수정;comb_v를 add로 이동 및 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/11</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>내적구성 정보 수정</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/06</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<add>~가 박해받다</add>
+			<add>~로 개종하다</add>
+			<add>~를 연구하다|따르다|믿다|받아들이다|수용하다|전파하다|금지하다|박해하다</add>
+			<add>~에 심취하다|빠지다</add>
+			<add>~에서 개종하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">청+교도</str>
+			<!-- px(청)+n(교도) 수정, 검토 필요 -->
+			<org lg="si">淸敎徒</org>
+		
+			<der pos="n" type="suffix">~인</der>
+			<comp pos="n" type="suffix">~신자</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그의 집안 식구들은 모두 독실한 ~ 신자였다.</eg>
+				<trans>Puritanism</trans>
+				<domain>종교</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>종교분파</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>개신교</hyper>
+					<rel>금욕주의</rel>
+					<rel>성직자</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 전파하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 박해하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

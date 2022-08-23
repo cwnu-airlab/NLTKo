@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>숯</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/13</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/19</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note>센스1의 의미부류 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/25</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1의 의미부류 수정;센스2에 동사결합 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/08</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>무생물을 상태로 수정</mod_note>
+			</mod>
+			<note>2002/05/13(이호영)sense2에 더 알맞은 의미부류 없을지</note>
+			<note>2002/08/27(김종명)센스2의미부류수정</note>
+			<note>2002/10/09(박만규)</note>
+			<note>2003/09/14(기영인)add 정보입력</note>
+			<note>센스2의 의미분할 단순 문맥적변이라 여겨짐, 검토요</note>
+			<note>2003/09/19(김진형)일단 기술 내용 유지하고 의미부류 '자연구체물'에서 '무생물'로 수정</note>
+			<note>2003/09/19(기영인)</note>
+			<add>(sense1) ~을 굽다|피우다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~이 검정 나무란다</idm>
+			<idm type="etc">가슴이 ~이 되다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>어머니는 화로에 ~을 넣고 불을 피우기 시작하셨다.</eg>
+				<trans>charcoal</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>고체연료</sem_class> <!-- 도구 수정 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 굽다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 피우다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>학교의 나무 문들은 화재로 인해 전부 검은 ~으로 변해 있었다.</eg>
+				<trans>charcoal</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>상태</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

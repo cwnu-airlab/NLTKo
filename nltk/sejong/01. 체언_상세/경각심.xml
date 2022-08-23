@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>경각심</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/28</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/19</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/29</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/12</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_v에 기술 및 정보 추가</mod_note>
+				<mod_note>s_n 삭제</mod_note>
+				<mod_note>n_v 수정</mod_note>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>sel_res 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/28</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/08/27(기영인)</note>
+			<note>2002/08/30(김종명)의미부류, 동사연어정보 수정</note>
+			<note>2002/10/07(한선혜)comb_v에 기술된 내용을 add로 이동</note>
+			<note>2003/09/19(이성헌)</note>
+			<note>comb_v에 '~을 가지다' 기재</note>
+			<note>pre_s에 'S다는 ~' 기재</note>
+			<add>~을 일으키다|일깨우다|불러일으키다|주다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_R">경각+심</str>
+			<org lg="si">警覺心</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>환경오염에 대한 시민들의 ~을 일깨워 적극적인 참여를 유도하는 것이 중요하다.</eg>
+				<trans>cautious attention</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>외향적심리상태</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 강하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar"><!--술어명사 결합 유형으로 고치고 격틀기술(송근영)-->
+					<form vcompound="no">~을 가지다</form>
+					<frame>X-이 Y-에 대해 ~을 가지다</frame>
+					<frame>X-이 S것-에 대해 ~을 가지다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred"> <!--유형값 수정(송근영)-->
+					<form vcompound="no">~을 일깨우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred"> <!--유형값 수정(송근영)-->
+					<form vcompound="no">~을 일으키다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred"> <!--유형값 수정(송근영)-->
+					<form vcompound="no">~을 불러일으키다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!--유형값 수정(송근영)-->
+					<form vcompound="no">~을 주다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred"> <!--유형값 수정(송근영)-->
+					<form vcompound="no">~을 심어주다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred"> <!--유형값 수정(송근영)-->
+					<form vcompound="no">~을 높이다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>Y-에 대한 ~</max_n_str>
+				<max_n_str>S것-에 대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

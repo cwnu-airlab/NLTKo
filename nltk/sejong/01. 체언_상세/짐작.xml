@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>짐작</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/21</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/22</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/22</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>속담 "~이 팔십 리" 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/27</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>인지추상적행위 수정;동사결합 정보 수정;논항 명사구, 논항 의미정보 수정</mod_note>
+			</mod>
+			<note>2000/08/31(박동호)</note>
+			<note>2003/02/03(서진숙)</note>
+			<note>2003/03/22(이성헌)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">斟酌</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="prefix">어림~</comp>
+			<comp pos="n" type="prefix">지레~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~이 팔십 리</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>너는 내 마음을 ~도 못할 것이다.</eg>
+				<eg>그가 돈을 챙겨 도망갈 줄은 ~도 못했습니다.</eg>
+				<eg>숨어들 만한 곳이 ~이 갔다.</eg>
+				<eg>그는 나의 ~대로 대전에 있었다.</eg>
+				<trans>guess</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>인지적행위</sem_class>
+				<lr>
+					<syn type="etc">추측</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 맞다</comb_aj>
+				<comb_aj type="appr">~이 틀리다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+				<!-- narg_vpred -->
+					<form vcompound="no">~이 가다</form>
+					<frame>X-이 Y-이 ~이 가다</frame>
+					<frame>X-이 S음-이 ~이 가다</frame>
+					<frame>X-이 S지-이 ~이 가다</frame>
+					<frame>X-이 S고 ~이 가다</frame>
+					<frame>X-이 Z-이 W-로 ~이 가다</frame>
+					<frame>X-이 Z-이 S것-로 ~이 가다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+				<!-- narg_vpred -->
+					<form vcompound="no">~이 들다</form>
+					<frame>X-이 Y-이 ~이 들다</frame>
+					<frame>X-이 S음-이 ~이 들다</frame>
+					<frame>X-이 S지-이 ~이 들다</frame>
+					<frame>X-이 S고 ~이 들다</frame>
+					<frame>X-이 Z-이 W-로 ~이 들다</frame>
+					<frame>X-이 Z-이 S것-로 ~이 들다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<!-- X-이 Y|S음|S지-를 ~을 하다 -->
+					<frame>X-이 Y-을 ~을 하다</frame>
+					<frame>X-이 S음-을 ~을 하다</frame>
+					<frame>X-이 S지-을 ~을 하다</frame>
+					<!-- 이하 추가 -->
+					<frame>X-이 S고 ~을 하다</frame>
+					<!-- X-이 Y-을 Z|S것-으로 ~을 하다 -->
+					<frame>X-이 Z-을 W-로 ~을 하다</frame>
+					<frame>X-이 Z-을 S것-로 ~을 하다</frame>
+					<!-- X-이 S것 이라고 ~을 하다 삭제 -->
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<!-- Y|S음|S지-가 ~이 되다 -->
+					<frame>Y-이 ~이 되다</frame>
+					<frame>S음-이 ~이 되다</frame>
+					<frame>S지-이 ~이 되다</frame>
+					<!-- 이하 추가 -->
+					<frame>S고 ~이 되다</frame>
+					<!-- Y-이 Z|S것-으로   ~이 되다 -->
+					<frame>Z-이 W-로 ~이 되다</frame>
+					<frame>Z-이 S것-로 ~이 되다</frame>
+					<!-- S것이라고 ~이 되다 삭제 -->
+				</comb_v>
+				<max_n_str>Y-에대한 X-의 ~</max_n_str>
+				<max_n_str>W-에대한 X-의 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간|추상적대상|행위</sel_rst>
+				<sel_rst arg="Z">인간</sel_rst>
+				<sel_rst arg="W">인간(범인|주동자)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

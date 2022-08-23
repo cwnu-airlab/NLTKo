@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>띠다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/06/18</cre_date>
+				<cre_writer>박소영</cre_writer>
+				<cre_writer>권재일</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/19</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="i"/>
+			<str>V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>착용행위</sem_class>
+				<trans>put on tie</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">신체착용물(띠|머리띠|허리띠|혁대)</sel_rst>
+					<eg>순자는 오늘 빨간 머리띠를 띠고 나타났다.</eg>
+					<eg>빨리 허리띠를 띠고 나오도록 해라.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>추상적행위</sem_class>
+				<trans>be charged with</trans>
+				<trans>be entrusted with</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(공무|사명|책임|의무|임무)</sel_rst>
+					<eg>우리는 역사적 사명을 띠고 이 땅에 태어났다.</eg>
+					<eg>그는 중대한 사명을 띠고 일본에 다녀왔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>상태변화</sem_class>
+				<trans>take on</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">인간|동물|구체물</sel_rst>
+					<sel_rst arg="Y" tht="THM">(색|색깔|빛|빛깔)</sel_rst>
+					<eg>선홍빛을 띠고 있는 조개가 신선한 것이다.</eg>
+					<eg>이 노트는 연한 녹색을 띠고 있어서 내 마음에 꼭 든다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">인간|구체물|장소</sel_rst>
+					<sel_rst arg="Y" tht="THM">(성격|기운|활기)</sel_rst>
+					<eg>그는 점차 정치적 성격을 띠기 시작했다.</eg>
+					<eg>크리스마스가 돌아오자 거리는 활기를 띠기 시작했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(미소|근심|홍조)</sel_rst>
+					<eg>그는 만면에 미소를 띠고 나를 바라보고 있었다.</eg>
+					<eg>홍조를 띤 그녀가 더욱 아름답게 보인다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

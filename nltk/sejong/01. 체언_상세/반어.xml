@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>반어</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/16</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_n 기술</mod_note>
+			</mod>
+			<note>2003/10/15(박진호)의미부류 수정. 파생어, add 추가</note>
+			<add>2003/08/16(송인욱)동사자유구성으로 '~를 쓰다|사용하다</add>
+			<add>~로 표현하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">反語</org>
+		
+			<der pos="n" type="suffix">~적</der>
+			<comp pos="n" type="suffix">~법</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>선생님께선 ~를 사용해 당대의 독재자들을 비꼬셨다.</eg>
+				<eg>그녀는 직설적으로 말하기보다는 절묘한 ~로 표현하기를 즐겼다.</eg>
+				<trans>irony</trans>
+				<sem_class>언어요소</sem_class>
+				<lr>
+					<syn type="perfect">아이러니</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 절묘하다</comb_aj>
+				<comb_n type="compound">~ 사용</comb_n>
+				<comb_n type="compound">~ 표현</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 쓰다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 사용하다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 표현하다</form>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

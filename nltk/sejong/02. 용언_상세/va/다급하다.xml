@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>다급하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/15</mod_date>
+				<mod_writer>강정연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/12/18</mod_date>
+				<mod_writer>김윤신</mod_writer>
+				<mod_note>선택제약 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>R.하</str>
+			<org lg="si">多急_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be imminent</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(일|용무|상황|시간)</sel_rst>
+					<eg>일이 다급해지자 민수는 모든 것을 털어놓았다.</eg>
+					<eg>상황이 다급하니 임시 회의를 소집해야 합니다.</eg>
+					<eg>용무가 다급하면 먼저 떠나도 좋다.</eg>
+					<eg>나는 다급한 용무가 생겨서 약속에 나갈 수 없다.</eg>
+					<eg>시간이 다급하니 어서 일을 시작합시다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S것</sel_rst>
+					<eg>이 문제를 해결하는 것이 다급합니다.</eg>
+					<eg>무엇보다도 수미를 설득하는 것이 다급하다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>내재적심리상태</sem_class>
+				<trans>be imminent</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간|(마음)</sel_rst>
+					<eg>수미는 마음이 다급해지면 말부터 더듬곤 했다.</eg>
+					<eg>마음은 다급한데 일이 손에 잡히지 않는구나.</eg>
+					<eg>민수는 다급한 마음에 수미에게 전화를 걸었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

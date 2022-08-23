@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>아이</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/26</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/24</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/10</mod_date>
+				<mod_writer>장원철</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/24</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>'자식'의 의미 sense 2 삭제</note>
+			<note>1999/09/25(백인애)</note>
+			<note>2000/05/01(백인애)</note>
+			<note>2003/02/25(김미순)sense 1 sem '인물'에서 '연령인간'으로 수정</note>
+			<note>2003/03/24(이성헌)'자녀'의 의미로 센스3 추가</note>
+			<note>comb_v add로 이동</note>
+			<note>sense 2 sem '인물'에서 '연령인간'으로 수정</note>
+			<add>sense 1 ~가 놀다|울다|웃다</add>
+			<add>sense 2  ~가 생기다|없다|있다|태어나다|들어서다</add>
+			<add>~같이 굴다|말하다|행동하다</add>
+			<add>~를 낳다|보다|배다|임신하다</add>
+			<add>~를 돌보다|때리다|보살피다|울리다</add>
+			<add>~에게 시키다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="abb">애</var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~년</comp>
+			<comp pos="n" type="suffix">~놈</comp>
+			<comp pos="n" type="suffix">~아버지</comp>
+			<comp pos="n" type="suffix">~아범</comp>
+			<comp pos="n" type="suffix">~아비</comp>
+			<comp pos="n" type="suffix">~어머니</comp>
+			<comp pos="n" type="suffix">~어멈</comp>
+			<comp pos="n" type="suffix">~어미</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~(가) 서다</idm>
+			<idm type="nv">~(가) 지다</idm>
+			<idm type="nv">~(를) 보다</idm>
+			<idm type="prv">~ 싸움이 어른 싸움 된다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>길에서 울고 있는 꼬마 ~를 인근 파출소에 데려다 주었다.</eg>
+				<trans>child</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>연령인간</sem_class>
+				<lr>
+					<syn type="etc">아동;어린아</syn>
+					<ant type="etc">어른</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 귀엽다</comb_aj>
+				<comb_aj type="appr">~가 순수하다</comb_aj>
+				<comb_aj type="appr">~가 어리다</comb_aj>
+				<comb_aj type="appr">~가 지저분하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>우리는 결혼하고서 곧 ~가 들어섰다.</eg>
+				<trans>baby</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>연령인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>선생님 댁에는 ~이 몇이나 되나요? 그 집의 ~들은 참 예의가 바르다.</eg>
+				<trans>baby</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>비대칭적친족</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

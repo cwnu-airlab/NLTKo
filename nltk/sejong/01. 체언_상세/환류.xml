@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>환류</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/16</cre_date>
+				<cre_writer>서진숙</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/27</mod_date>
+				<mod_writer>서진숙</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/01</mod_date>
+				<mod_writer>박만규</mod_writer>
+	            <mod_note>최대논항구조추가, '가 되다'추가</mod_note>
+			</mod>
+			<mod>
+		    	<mod_date>2005/02/18</mod_date>
+				<mod_writer>장원철</mod_writer>	
+		        <mod_note></mod_note>
+	        </mod>
+	        <mod>
+		    	<mod_date>2007/08/02</mod_date>
+				<mod_writer>백고운</mod_writer>	
+		        <mod_note>sense1동사결합 정보추가</mod_note>
+	        </mod>
+	        <note>sense2,3추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">還流</org>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>온도를 서서히 올려 기체를 2시간 가량 ~를 시켰다.</eg>
+				<trans>reflux</trans>
+				<domain>화학</domain>
+				<sem_class>물리화학현상</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+		    <syn_grp>
+		    <comb_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>X-이 Y-을  ~를 시키다</frame>
+				</comb_v>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>적도 해류는 대륙에 부딪혀 ~가 된다.</eg>
+				<trans>return current</trans>
+				<domain>지리</domain>
+				<sem_class>대기</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>중소기업에 지원된 자금은 곧 대기업으로 ~가 되는 구조를 개선해야 한다.</eg>
+				<trans>return current</trans>
+				<domain>경제</domain>
+				<sem_class>경제현상</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-이 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">자금</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

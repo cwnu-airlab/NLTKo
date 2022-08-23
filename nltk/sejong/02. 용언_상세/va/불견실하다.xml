@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>불견실하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/22</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>곽새라</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<org lg="si">不堅實_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be not steady or reliable</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<n_appr arg="X">성품</n_appr>
+					<n_appr arg="X">성격</n_appr>
+					<n_appr arg="X">됨됨이</n_appr>
+					<n_appr arg="X">사람됨</n_appr>
+					<n_appr arg="X">인간됨</n_appr>
+					<n_appr arg="X">능력</n_appr>
+					<n_appr arg="X">실력</n_appr>
+					<n_appr arg="X">사람</n_appr>
+					<n_appr arg="X">인간</n_appr>
+					<eg>그는 너무 불견실해서 일을 맡기기가 어렵다.</eg>
+					<eg>내 아들은 보기보다 사람이 그렇게 불견실하지 않다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be not solid or sound</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">행위</sel_rst>
+					<eg>나는 그의 행동이 무척이나 불견실하다고 생각한다.</eg>
+					<eg>그는 의욕은 넘치지만, 생각은 불견실하기 짝이 없었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

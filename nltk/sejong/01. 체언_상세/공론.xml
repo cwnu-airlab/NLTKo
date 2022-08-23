@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>공론</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/09</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/19</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/06</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/16</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>n_v 추가</mod_note>
+				<mod_note>센스1 sem 수정</mod_note>
+				<mod_note>센스1 s_n 삭제</mod_note>
+			</mod>
+			<note>2002/07/09(이성헌)의미부류 '소리'의 하위부류로 '소문|의견|여론'을 설정할 것</note>
+			<note>2002/09/29(고길수)'분분하다'를 magn에서 comb_aj로 수정</note>
+			<note>2003/09/19(이성헌)</note>
+			<note>comb_aj 표기법 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">公論</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>현재 사회에서 병역제도를 개편하자는 ~이 일고 있는데도 정부는 이를 무시하고 있다.</eg>
+				<trans>public opinion</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>인간관련현상</sem_class> <!--'소리'를 '인간관련현상'으로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 옳다</comb_aj>
+				<comb_aj type="appr">~이 그르다</comb_aj>
+				<comb_aj type="appr">~이 많다</comb_aj>
+				<comb_aj type="appr">~이 분분하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 서다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 발생하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 일다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~이 들끓다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>마을 사람들이 저수지 건설과 관련하여 공회당에서 ~을 벌였다.</eg>
+				<trans>public discussion</trans>
+				<trans>debate</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>대화</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 열띠다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 벌이다</form>
+					<frame>X-이 Z-와 Y-에 대해 ~을 벌이다</frame>
+					<frame>X-이 Z-와 S것-에 대해 ~을 벌이다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Z-와 Y-에 대해 ~을 하다</frame>
+					<frame>X-이 Z-와 S것-에 대해 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred"> <!--송근영 추가-->
+					<form vcompound="no">~에 부치다</form>
+					<frame></frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-와 Z-의 Y-에 대한 ~</max_n_str>
+				<max_n_str>X-와 Z-의 S것-에 대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">방법|생각|사실|명제</sel_rst>
+				<sel_rst arg="Z">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/09</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/19</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/06</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/16</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 n_v에 기술</mod_note>
+				<mod_note>센스2 n_aj 수정</mod_note>
+			</mod>
+			<note>2002/07/09(이성헌)</note>
+			<note>2002/09/29(고길수)'~에 그치다</note>
+			<note>2003/09/19(이성헌)</note>
+			<note>comb_v에 '~을 벌이다' 추가</note>
+			<note>~을 일삼다'를 comb_v에서 add로 수정</note>
+			<note>센스1의 기능동사에서 'X-와 Y-이 ~을 하다'를 삭제</note>
+			<note>센스1의 논항 제약에 Y 논항 정보 추가</note>
+			<note>센스2에서 '~에 불과하다'를 magn에서 add로 수정</note>
+			<add>~을 일삼다' 추가</add>
+			<add>센스1의 동사결합으로 '~에 그치다</add>
+			<add>센스2의 동사결합으로 '~에 불과하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">空論</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="prefix">탁상~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc">우물가 ~</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>민생현안들이 산더미처럼 쌓여있음에도 국회에서는 ~만을 일삼고 있다.</eg>
+				<trans>futile discussion</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>상호적언술행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 벌이다</form>
+					<frame>X-이 Y-와 ~을 벌이다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-와 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred"> 
+					<form vcompound="no">~에 그치다</form>
+					<frame></frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>부동산 가격 안정을 위해서는 금리를 인상해야 한다는 일각의 주장은 ~에 불과하다.</eg>
+				<trans>unfounded argument</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>사실명제</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr" pred="no">터무니없는 ~</comb_aj> <!--appr로 수정, 서술형 불가능 표시(송근영)-->
+				<comb_aj type="appr">~에 불과하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

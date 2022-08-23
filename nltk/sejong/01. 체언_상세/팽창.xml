@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>팽창</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/04/15</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/02</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/28</mod_date>
+				<mod_writer>정아름</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/17</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/04/15(기영인)</note>
+			<note>2001/04/16(기영인)</note>
+			<note>2001/04/17(박동호)</note>
+			<note>2001/08/10(기영인)</note>
+			<note>2003/10/02(박진호)센스1,2 의미부류, 선택제약 수정</note>
+			<note>관련어 정보 수정</note>
+			<note>기능동사 정보 수정</note>
+			<note>기능동사 정보 입력</note>
+			<note>기능동사 정보 추가</note>
+			<note>논항 선택제약 정보 입력</note>
+			<note>논항선택제약 정보 수정, 추가</note>
+			<note>동위어 정보 수정</note>
+			<note>부사적 용법 정보 입력</note>
+			<note>센스1의 대역어 정보 수정</note>
+			<note>영어대역어 정보 수정</note>
+			<note>예문 수정</note>
+			<note>의미부류 정보 수정</note>
+			<note>의미부류(과정/상태/행위/현상) 검토 필요</note>
+			<note>최대논항 정보 수정</note>
+			<note>파생어 정보 입력</note>
+			<note>형용사자유구성 정보 수정</note>
+			<note>2006/07/28(정아름) 예문 마침표 추가 , 파생어 정보 추가</note>
+			<note>sense1 의미부류 '증가'에서 '물리화학현상'으로 수정, 명사 결합 정보 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">膨脹</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~력</der>
+			<der pos="n" type="suffix">~률</der>
+			<der pos="n" type="suffix">~계</der>
+			<comp pos="n" type="suffix">~계수</comp>
+			<comp pos="n" type="suffix">~속도</comp>
+			<comp pos="n" type="suffix">~예산</comp>
+			<comp pos="n" type="suffix">~주의</comp>
+			<comp pos="n" type="suffix">~현상</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>공기를 넣어주자 풍선이 ~을 했다.</eg>
+				<trans>swelling</trans>
+				<trans>expansion</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>물리화학현상</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">수축</ant>
+					<coord>수축</coord>
+					<rel>축소</rel>
+					<rel>확장</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 급격하다</comb_aj>
+				<comb_aj type="appr">~이 빠르다</comb_aj>
+				<comb_n type="compound">단열 ~</comb_n>
+				<comb_n type="compound">등온 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>Y-이 X-를 ~을 시키다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<!--vcompound: ~시키다-->
+				<max_n_str>Y-에 의한 X(-의) ~</max_n_str>
+				<sel_rst arg="X">구체물</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|현상|행위|사건</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av>~으로</av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>최근 몇년 사이 우리 경제 규모가 많이 ~을 했다.</eg>
+				<trans>expansion</trans>
+				<trans>increase</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>증가</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">수축</ant>
+					<coord>수축</coord>
+					<coord>고정</coord>
+					<rel>확장</rel>
+					<rel>축소</rel>
+					<rel>증가</rel>
+					<rel>감소</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 급격하다</comb_aj>
+				<comb_aj type="appr">~이 지나치다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>Y-이 X-를 ~을 시키다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<!--vcompound: ~시키다-->
+				<max_n_str>Y-에 의한 X(-의) ~</max_n_str>
+				<sel_rst arg="X">크기(규모)|수량(인구)|추상적대상(세력|재정)|장소(도시)|인간집단(조직)</sel_rst>
+				<sel_rst arg="Y">현상</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av>~으로</av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

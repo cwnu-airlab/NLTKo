@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>주차장</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/30</cre_date>
+				<cre_writer>류희선</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note>str</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/07</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>nng_s에서 nng_c로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/03</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/08/24(이성헌)cl에 '개소'와 '면'을 기재</note>
+			<note>2003/06/09(이민우)</note>
+			<note>2003/06/25(김종명)</note>
+			<note>2003/07/03(이민우)</note>
+			<note>supv와 cor_v 및 sel_res에 오기된 내용 삭제</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_R">주차+장</str>
+			<org lg="si">駐車場</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~이 혼잡하오니 가급적 대중 교통기관을 이용해 주세요.</eg>
+				<eg>지하 ~은 매우 위험하기 때문에 늦은 시각에는 피해야 한다.</eg>
+				<eg>여성 전용 ~에 차를 주차 시켰다.</eg>
+				<trans>parking lot</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>교통기관관련건물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 좁다</comb_aj>
+				<comb_aj type="appr">~이 넓다</comb_aj>
+				<comb_aj type="appr">~이 협소하다</comb_aj>
+				<comb_aj type="appr">~이 충분하다</comb_aj>
+				<comb_aj type="appr">~이 부족하다</comb_aj>
+				<comb_n type="compound">지하 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 찾다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">소</cl>
+				<cl type="div">면</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

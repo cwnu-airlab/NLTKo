@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>모이다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="i"/>
+			<str>V.이2</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>증가</sem_class>
+				<trans>gather</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(돈)|(백만원)|추상적대상(자료)</sel_rst>
+					<eg>돈이 차를 한 대 살 만큼 모였다.</eg>
+					<eg>연구기금으로 천 만원이 모였다.</eg>
+					<eg>자료가 그간 많이 모였다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물|추상적대상</sel_rst>
+					<eg>냇물이 모여서 강이 되고 강이 모여서 바다가 된다.</eg>
+					<eg>작은 힘이 모이면 큰 힘이 된다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물|동물</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<eg>재활용 쓰레기가 한 곳에 따로 모여 있다.</eg>
+					<eg>비둘기떼가 공원 동상 앞에 모여 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로|에게로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(논의|얘기)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">(쪽|방향)</sel_rst>
+					<eg>얘기가 그 일을 하지 말자는 쪽으로 모였다.</eg>
+					<eg>논의가 서서히 그 계획에 찬성하는 방향으로 모였다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(관심|시선)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">추상적대상|인간</sel_rst>
+					<eg>세인들의 관심이 그 작품에 모였다.</eg>
+					<eg>사람들의 시선이 일제히 나에게 모였다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(관심)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">Q</sel_rst>
+					<eg>온 국민의 관심은 거짓말을 한 것이 탄로난 그 정치인이 오늘 기자회견에서 무슨 말을 할 것인가에 모였다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=S2-러 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="GOL">장소</sel_rst>
+					<sel_rst arg="Z" tht="PUR"/>
+					<eg>학생들이 정년퇴임을 하시는 교장선생님의 말씀을 들으러 강당에 모였다.</eg>
+					<eg>우리는 그 강연을 들으러 인문대 회의실에 모였다.</eg>
+					<eg>연병장에 부대원 전체가 모였다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

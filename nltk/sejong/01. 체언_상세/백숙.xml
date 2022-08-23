@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>백숙</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/30</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/30</mod_date>
+				<mod_writer>송인욱</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/25</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>Add정보를 센스1 n_v로 이동</mod_note>
+				<mod_note>센스1 n_v 추가</mod_note>
+			</mod>
+			<add>2003/10/30(송인욱)동사자유구성으로 '~이 끓다|식다</add>
+			<add>~을 데우다|만들다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">白熟</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>복날에는 역시 뜨거운 ~을 한 그릇 먹어야 기운이 난다.</eg>
+				<eg>아빠가 끓인 ~이 너무 맛있어서, 우리는 순식간에 다 먹어 치웠다.</eg>
+				<trans>fish or meat boiled in plain water</trans>
+				<sem_class>요리</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 뜨겁다</comb_aj>
+				<comb_aj type="appr">~이 맛있다</comb_aj>
+				<comb_aj type="appr">~이 맛없다</comb_aj>
+				<comb_n type="compound">닭 ~</comb_n>
+				<comb_n type="compound">영계 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 데우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 끓이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 끓다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 식다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">그릇</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 음식점은 특이하게도 돼지고기를 ~을 해서 내놓는데, 생각보다 맛이 꽤 괜찮다.</eg>
+				<eg>닭을 ~을 할 때 인삼과 대추 등을 함께 넣으면 비린내가 가시고 국물이 고소해진다.</eg>
+				<trans>doing meat well in plain water</trans>
+				<sem_class>지속적활동</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간|상업건물</sel_rst>
+				<sel_rst arg="Y">육류</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

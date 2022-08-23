@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>이하</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/15</cre_date>
+				<cre_writer>이성헌</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/17</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/09</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<note>2001/09/21(고길수|이성헌)</note>
+			<note>논항구조 항목 수정보완</note>
+			<note>2003/01/22(유영)sem수정, comb_v를 add로 이동</note>
+			<note>2003/06/17(이성헌)센스1의 sem을 '관계추상적대상'에서 '관계장소'로 수정</note>
+			<note>센스2의 sem을 '속성'에서 '관계속성값'으로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">以下</org>
+		
+			<hom exist="yes"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc">~ 생략|동문</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~ 생략.</eg>
+				<eg>학원 민주화 추진 위원회(~ 민추위)는 다음의 사항을 결의하였다.</eg>
+				<trans>the following</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>관계장소</sem_class>
+				<lr>
+					<syn type="etc">다음</syn>
+					<ant type="etc">이상</ant>
+					<hyper>순서</hyper>
+					<coord>이상</coord>
+					<coord>다음</coord>
+					<coord>이후</coord>
+					<coord>이전</coord>
+					<rel>순서</rel>
+					<rel>내용</rel>
+					<rel>생략</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~의 내용</comb_n>
+				<comb_n type="compound">~의 사항</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 떨어지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 내려가다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 줄어들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 줄다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 감소하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 미치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 못미치다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 이르다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 소설은 수준 ~라는 혹평을 받았다.</eg>
+				<eg>그 영화는 18세 ~가 보아서는 안되는 내용을 담고 있다.</eg>
+				<eg>내일 아침 기온이 0도 ~로 떨어질 것이라는 일기예보가 있었다.</eg>
+				<trans>under</trans>
+				<trans>below</trans>
+				<trans>beneath</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>관계속성값</sem_class>
+				<lr>
+					<syn type="etc">아래</syn>
+					<ant type="etc">이상</ant>
+					<ant type="etc">위</ant>
+					<hyper>영역</hyper>
+					<hyper>범위</hyper>
+					<coord>미만</coord>
+					<coord>초과</coord>
+					<coord>이내</coord>
+					<coord>이외</coord>
+					<rel>한계</rel>
+					<rel>한도</rel>
+					<rel>정도</rel>
+					<rel>범위</rel>
+					<rel>영역</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 합당하다</comb_aj>
+				<comb_aj type="appr">~가 적절하다</comb_aj>
+				<comb_aj type="appr">~가 맞다</comb_aj>
+				<comb_n type="compound">기준 ~</comb_n>
+				<comb_n type="compound">수준 ~</comb_n>
+				<comb_n type="compound">예상 ~</comb_n>
+				<comb_n type="compound">기대 ~</comb_n>
+				<comb_n type="compound">능력 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-이 Y-의 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 Y-의 ~이다</frame>
+				</comb_v>
+				<max_n_str>Y(-의) ~</max_n_str>
+				<sel_rst arg="X">작품|인간|행사</sel_rst>
+				<sel_rst arg="Y">추상적 대상(범위)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

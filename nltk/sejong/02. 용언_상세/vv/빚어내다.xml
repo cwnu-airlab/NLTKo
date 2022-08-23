@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>빚어내다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/26</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/08/26</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/08/15</mod_date>
+				<mod_writer>음두은</mod_writer>
+				<mod_note>sense2,3 분류, frame 수정(sense)</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>N-어V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>창조행위</sem_class>
+			<trans>make</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-로 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">용기(그릇|도자기|꽃병)</sel_rst>
+					<sel_rst arg="Z" tht="INS">구체자연물(흙|진흙|찰흙)</sel_rst>
+					<eg>주부들이 찰흙으로 그릇을 빚어내고 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체자연물(흙|진흙|찰흙)</sel_rst>
+					<eg>주부들이 찰흙을 빚어내는 중이다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">용기(그릇|도자기|꽃병)</sel_rst>
+					<eg>주부들이 도자기를 빚어내고 있는 중이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>창조행위</sem_class>
+				<trans>shape dough for</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">음식(송편|만두)</sel_rst>
+					<eg>가족들이 둘러 앉아 송편을 빚어내고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>창조행위</sem_class>
+				<trans>brew</trans>
+				<trans>distil</trans>
+				<lr>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-로 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">알콜음료(술|막걸리)</sel_rst>
+					<sel_rst arg="Z" tht="INS">곡식(찹쌀)</sel_rst>
+					<eg>할머니가 찹쌀로 술을 빚어냈던 것을 기억한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>창조행위</sem_class>
+				<trans>bring about</trans>
+				<trans>cause</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">구체물(자연|나무)|사태(부조리|행위)</sel_rst>
+					<sel_rst arg="Y" tht="THM">현상(바람소리|소나기)|추상적대상(감정|태도|물의)</sel_rst>
+					<eg>갈대숲이 빚어내는 바람소리와 갯벌 위로 물드는 노을의 아름다움을 감상한다.</eg>
+					<eg>사회 부조리가 남성의 열등감과 좌절감을 빚어낸다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+				<col type="etc"></col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+	</entry>
+</superEntry>

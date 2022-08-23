@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>열병</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/01</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/25</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/06</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>nng_c로 고치고 str 기술</mod_note>
+				<mod_note>add 정보를 n_v에 기술</mod_note>
+				<mod_note>n_aj magn을 appr로 수정</mod_note>
+				<mod_note>n_v 유형값 기능동사 변이형 결합으로 수정하고 격틀 기술</mod_note>
+				<mod_note>max_n, sel_res 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>예문 수정</mod_note>
+			</mod>
+			<note>2002/08/01(김현승)원어정보 'si(熱病)' 입력요망</note>
+			<note>2002/08/15(고길수)원어정보 입력</note>
+			<note>센스1의 의미부류를 '신체상태'에서 '질병및증세'로 수정</note>
+			<note>센스1,2의 comb_v에 '~을 앓다|치르다</note>
+			<note>~에 걸리다' 추가</note>
+			<note>센스2에 예문 추가</note>
+			<note>add 정보 추가</note>
+			<note>2002/10/04(이성헌)</note>
+			<note>2003/09/19(송인욱)센스1의 예문 추가</note>
+			<note>2003/09/25(김미현)</note>
+			<add>센스1의 동사결합으로 '~을 치유하다</add>
+			<add>~이 낫다'를 추가</add>
+			<add>센스2의 동사결합으로 '~이 들끓다|휩쓸다</add>
+			<add>~에 휩쌓이다'를 추가</add>
+			<add>2003/09/22(송인욱)센스1의 동사자유구성으로 '~처럼 번지다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">열+병</str>
+			<org lg="si">熱病</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>어머니께선 지난 번에 앓은 ~의 후유증으로 아직 제대로 거동을 못 하신다.</eg>
+				<trans>fever</trans>
+				<trans>febrile disease</trans>
+				<trans>pyrexia</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>질병및증세</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 심하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~에 걸리다</form>
+					<frame>X-이 ~에 걸리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 앓다</form>
+					<frame>X-이 ~을 앓다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 치르다</form>
+					<frame>X-이 ~을 치르다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 낫다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 치유하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단|동물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>월드컵으로 축구의 ~이 전국을 휩쓸었다.</eg>
+				<eg>그는 한창 짝사랑의 ~을 치르고 있다.</eg>
+				<trans>fever</trans>
+				<trans>enthusiasm</trans>
+				<trans>eagerness</trans>
+				<trans>exitement</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>상황값</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~에 걸리다</form>
+					<frame>X-이 Y-의 ~에 걸리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 앓다</form>
+					<frame>X-이 Y-의 ~을 앓다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 치르다</form>
+					<frame>X-이 Y-의 ~을 치르다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 휩싸이다</form>
+					<frame>X-이 Y-의 ~에 휩싸이다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 들끓다</form>
+					<frame>Y-의 ~이 들끓다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 휩쓸다</form>
+					<frame>Y-의 ~이 휩쓸다</frame>
+				</comb_v>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">상태|행위|계획사건</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/01</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/25</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/06</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 추가</mod_note>
+				<mod_note>예문 수정</mod_note>
+			</mod>
+			<note>2002/08/01(김현승)원어정보 'si(閱兵)' 입력요망</note>
+			<note>2002/08/15(고길수)원어정보 입력</note>
+			<note>예문 수정</note>
+			<note>전문영역에 '군사' 추가</note>
+			<note>의미부류를 '행위'에서 '지속적행위'로 수정</note>
+			<note>단위표현에 '차례|번' 추가</note>
+			<note>add 정보 추가</note>
+			<note>2002/10/04(이성헌)cl에 '회'추가</note>
+			<note>2003/09/19(송인욱)add에 있던 합성어 명사 정보를 해당 구획에 기술</note>
+			<note>대역어를 보다 정확하게 수정</note>
+			<note>의미부류 표기법 수정</note>
+			<note>comb_v 새로 기술</note>
+			<note>기능동사와 sel_res 기술 수정</note>
+			<note>2003/09/25(김미현)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">閱兵</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~식</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>연대장이 전 부대원들의 ~을 받고 있다.</eg>
+				<trans>troop review</trans>
+				<trans>inspection of troops</trans>
+				<domain>군사</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>지속적활동</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 힘차다</comb_aj>
+				<comb_aj type="appr">~이 정연하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~을 받다</form>
+					<frame>X-이 Y-의 ~을 받다</frame>
+				</comb_v>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">계급인간|직업인간(군인)|군대</sel_rst>
+				<cl type="uni">차례</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

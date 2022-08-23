@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>동떨어지다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/29</cre_date>
+				<cre_writer>김현권</cre_writer>
+				<cre_writer>조현경</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/08/29</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>박보연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="i"/>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>관계상태</sem_class>
+				<trans>be far from</trans>
+				<lr>
+					<hyper>떨어지다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA" cor="sym" n="01">
+				<frame>X=N0-이 Y=N1-와 (서로) A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소(집|회사|건물)</sel_rst>
+					<sel_rst arg="Y" tht="COM">장소(집|회사|건물)</sel_rst>
+					<eg>우리집은 마을과 동떨어져 있어서 조용하지만 시장보기는 불편하다.</eg>
+					<eg>문화초등학교는 주택가와 동떨어져 있어서 학생들이 선호하지 않는다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA" cor="sym" n="01">
+				<frame>X+Y=N0-이 (서로) A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소(집|회사|건물)</sel_rst>
+					<sel_rst arg="Y" tht="THM">장소(집|회사|건물)</sel_rst>
+					<eg>우리집과 학교는 동떨어져 있어서 등하교하기가 쉽지 않다.</eg>
+					<eg>회사와 식당이 동떨어져서 점심시간은 이동하는데 시간이 다 소모된다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>관계상태</sem_class>
+				<trans>be different from</trans>
+				<lr>
+					<rel>관련성이 없다</rel>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA" cor="sym" n="02">
+				<frame>X=N0-이 Y=N1-와 (서로) A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상|사태</sel_rst>
+					<sel_rst arg="Y" tht="COM">추상적대상|사태</sel_rst>
+					<eg>계획이 실제와 동떨어졌다는 것을 왜 이해하지 못하는가?</eg>
+					<eg>산과 바다는 동떨어져서 두 가지 모두를 한꺼번에 누리기는 쉽지 않다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA" cor="sym" n="02">
+				<frame>X+Y=N0-이 (서로) A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상|사태</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상|사태</sel_rst>
+					<eg>계획과 실행은 동떨어진 것임을 감안해 주세요.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

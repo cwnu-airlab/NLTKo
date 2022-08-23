@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>택하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/22</cre_date>
+				<cre_writer>임동식</cre_writer>
+				<cre_writer>권재일</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/18</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/30</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 정보 수정</mod_note>
+			</mod>
+			<note>2003/10/18(한선혜)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>R.하</str>
+			<org lg="si">擇_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>choose</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<sel_rst arg="Z" tht="FNS">인간(아내|남편)|직책(직원|부장|차장|회장|대표)</sel_rst>
+					<arg_rst>Y=N1=mdef</arg_rst>
+					<eg>왕은 가장 아름다워 보이는 처녀를 왕비로 택했다.</eg>
+					<eg>나는 그 친구를 과장으로 택했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|장소</sel_rst>
+					<sel_rst arg="Z" tht="FNS">구체물|장소</sel_rst>
+					<arg_rst>Y=N1=mdef</arg_rst>
+					<eg>나는 이 집을 우리의 새 집으로 택했다.</eg>
+					<eg>나는 이 컴퓨터를 우리 사무실에서 사용할 컴퓨터로 택했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">학문과목(철학|언어학)|(분야|일)</sel_rst>
+					<sel_rst arg="Z" tht="FNS">추상적대상(전공|직업)</sel_rst>
+					<eg>나는 물리학을 전공으로 택했다.</eg>
+					<eg>나는 외환 딜러를 내 직업으로 택했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|구체물|추상적대상(작업|활동|일)</sel_rst>
+					<eg>나는 여러 개의 의자 중 붉은 색 의자를 택했다.</eg>
+					<eg>철수는 가장 힘든 일을 택해서 고생한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

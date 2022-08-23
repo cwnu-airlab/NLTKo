@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>허용</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/24</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/17</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/17</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note>n_n 기술</mod_note>
+				<mod_note>최대논항구조 형식, 선택제약정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			 <mod>
+				<mod_date>2007/09/09</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/21(박동호)</note>
+			<note>2003/01/26(유영) comp추가, cl추가, sel_res추가</note>
+			<note>2003/06/17(이성헌)</note>
+			<note>최대논항구조 및 기능동사 일부 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">許容</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~량</der>
+			<der pos="n" type="suffix">~치</der>
+			<comp pos="n" type="suffix">~기준</comp>
+			<comp pos="n" type="suffix">~법규</comp>
+			<comp pos="n" type="suffix">~가속도</comp>
+			<comp pos="n" type="suffix">~여부</comp>
+			<comp pos="n" type="suffix">~한도</comp>
+			<comp pos="n" type="suffix">~조건</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>아버지께서는 제주도 여행을 ~을 하셨다.</eg>
+				<eg>공연 중 사진촬영은 ~이 되지 않는다.</eg>
+				<trans>permission</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>방향성행위</sem_class>
+				<lr>
+					<syn type="etc">허락</syn>
+					<syn type="etc">승낙</syn>
+					<syn type="etc">허가</syn>
+					<ant type="etc">금지</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">외출 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Z-에게 Y|S것-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y|S것-이 Z-에게 ~이 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-의 Y(-의) ~</max_n_str>
+				<max_n_str>X-에 의한 Y(-의) ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">행위</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

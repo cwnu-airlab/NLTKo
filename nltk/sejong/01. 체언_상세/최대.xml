@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>최대</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/21</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>2003/08/23(김이정)</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/07</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>eg보완;sem을 '속성'에서 '등급'으로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>2003/10/15(김진형)prt 정보 기재</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/09/05</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미부류 수정;조사제약 수정;명사결합, 동사결합, 논항 의미정보 추가;add 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>ant 기술</mod_note>
+				<mod_note>기능동사변이형(기록하다) 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/01/30</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>기록하다를 vpred로 수정</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/07</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<add>수, 양, 정도가 크다는 의미와 규모, 넓이가 크다는 의미를 분할할 필요는 없는지?</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">最大</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>지난 주 부동산 담보 대출 상품에 사상 ~의 인원이 몰렸다.</eg>
+				<trans>the greatest</trans>
+				<trans>the biggest</trans>
+				<trans>the largest</trans>
+				<trans>the maximum</trans>
+				<sem_class>대</sem_class> <!-- '등급' 수정 -->
+				<lr>
+					<ant type="compl">최소</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="lexfunc">국내 ~</comb_n>
+				<comb_n type="lexfunc">세계 ~</comb_n>
+				<comb_n type="lexfunc">인생 ~</comb_n>
+				<!-- 논항으로 기술될 수 있을지 검토 필요 -->
+				<comb_n type="lexfunc">~ 주주</comb_n>
+				<comb_n type="lexfunc">~ 관객</comb_n>
+				<comb_n type="lexfunc">~ 규모</comb_n>
+				<comb_n type="lexfunc">~ 속도</comb_n>
+				<comb_n type="lexfunc">~의 노력</comb_n>
+				<comb_n type="lexfunc">~ 판매</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이다</form>
+					<frame>X-이 ~이다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 기록하다</form>
+					<frame>X-이 ~를 기록하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">집단|크기|수량|수량시간</sel_rst>
+				<prt>~의</prt>
+				<prt>~로</prt>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

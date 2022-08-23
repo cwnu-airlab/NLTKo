@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>활용</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/04/06</cre_date>
+				<cre_writer>류희선</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/28</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/12</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note>frame 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/21</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스2 선택제약 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/03</mod_date>
+				<mod_writer>백고운</mod_writer>
+				<mod_note>합성어추가</mod_note>
+			</mod>
+			<note>2001/05/02(고길수)</note>
+			<note>2001/06/12(박동호)</note>
+			<note>2003/02/14(김진형)sense1 예문 추가</note>
+			<note>2003/02/28(이지영)sense1의 예문수정,sense2의 supv에서 시키다 삭제</note>
+			<note>sel_res 수정</note>
+			<note>sense n=2의 기능동사 수정</note>
+			<note>sense n=2의 예문 수정</note>
+			<note>sense2 예문 추가</note>
+			<note>그는 건물을 숙소로 ~을 했다와 그는 건물을 환자를 치료하는 데에|환자 치료에 ~을 했다의 차별적인 표상 방법을 고민해볼 것</note>
+			<note>대역어 보완</note>
+			<note>센스2의 의미 부류??</note>
+			<note>의미부류 수정</note>
+			<note>합성어 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">活用</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~성</der>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~어</der>
+			<der pos="n" type="prefix">재~</der>
+			<comp pos="n" type="suffix">~형</comp>
+			<comp pos="n" type="suffix">~어미</comp>
+			<comp pos="n" type="suffix">~범위</comp>
+			<comp pos="n" type="suffix">~능력</comp>
+			<comp pos="n" type="suffix">~형태</comp>
+			<comp pos="n" type="prefix">여가~</comp>
+			<comp pos="n" type="prefix">어미~</comp>
+			<comp pos="n" type="prefix">규칙~</comp>
+			<comp pos="n" type="prefix">불규칙~</comp>
+			<comp pos="n" type="prefix">동사~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이번 사업의 성패는 인력의 효율적인 ~ 여부에 달려 있다.</eg>
+				<eg>그는 여가를 ~을 하여 취미 활동을 즐긴다.</eg>
+				<trans>application</trans>
+				<trans>making the good use of</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>이용</hyper>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 Z-로 ~을 하다</frame>
+					<frame>X-이 Y-을 S것-에 ~을 하다</frame>
+					<frame>X-이 Y-을 S데-에 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에의해 S데-에 ~이 되다</frame>
+					<frame>Y-이 X-에의해 Z-에 ~이 되다</frame>
+					<frame>Y-이 X-에의해 S것-에 ~이 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-에의한 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">구체물|집단|장소|추상적대상</sel_rst>
+				<sel_rst arg="Z">구체인공물|관계구체물|속성구체물|집단|장소|행위|계획사건</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>용언은 규칙에 따라 여러 형태로 ~을 한다.</eg>
+				<eg>형용사와 동사는 어미의 ~ 방식이 서로 다르다.</eg>
+				<trans>conjugation</trans>
+				<domain>언어</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>변형</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>굴절</hyper>
+					<hypo>규칙</hypo>
+					<hypo>불규칙~</hypo>
+					<coord>곡용</coord>
+					<rel>어미</rel>
+					<rel>동사</rel>
+					<rel>형용사</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">언어범주(용언|동사|형용사)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

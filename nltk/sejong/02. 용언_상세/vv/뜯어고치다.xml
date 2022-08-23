@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>뜯어고치다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="i"/>
+			<str>V-어V</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>개선행위</sem_class>
+				<trans>tear apart and mend</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(집|방|부엌)|(옷|이불)|(기계|컴퓨터|시계)</sel_rst>
+					<eg>수미네는 지난 봄에 부엌을 뜯어고쳤다.</eg>
+					<eg>할머니는 헌 옷들을 뜯어고치느라 재봉틀을 손에서 놓지 못하셨다.</eg>
+					<eg>준오가 내 고장난 컴퓨터를 뜯어고쳤다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>개선행위</sem_class>
+				<trans>revise and adap (text)</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">텍스트담지물(문장|논문)|(소설|극본|시나리오)|(법령|법조문)</sel_rst>
+					<eg>그는 아이들이 쓴 작문을 읽으며 어색한 문장들을 뜯어고쳤다.</eg>
+					<eg>그는 지난 해에 쓴 논문을 대강 뜯어고쳐 그 잡지에 실었다.</eg>
+					<eg>이 프로듀서는 작가들이 쓴 시나리오를 사전 승낙 없이 마음대로 뜯어고쳐 욕을 먹곤 한다.</eg>
+					<eg>법령을 이렇게 해마다 뜯어고쳐서야 되겠습니까?.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>개선행위</sem_class>
+				<trans>mend one's way</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(생활|행동|태도)|(관습|습관|버릇)|(정신|생각)</sel_rst>
+					<eg>사람들로부터 사랑을 받으려면 우선 네 행동부터 뜯어고쳐야 한다.</eg>
+					<eg>내가 저 녀석의 못된 버릇을 뜯어고치고야 말겠어.</eg>
+					<eg>이 선생은 준오의 비뚤어진 생각을 뜯어고쳐 보려고 애썼다.</eg>
+					<eg>이 고비를 넘기기 위해서는 먼저 우리의 안이한 생활 습관과 정신을 뜯어고쳐야 합니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

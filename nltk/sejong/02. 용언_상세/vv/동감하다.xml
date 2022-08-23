@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>동감하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>동감.하</str>
+			<org lg="si">同感_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>agree</trans>
+			</sem_grp>
+			<frame_grp type="FIN" cor="sym" n="01">
+				<frame>X=N0-이 Z=N2-와 (서로) Y=N1-에대해 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Z" tht="COM">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(생각|의견|계획|문제)</sel_rst>
+					<eg>나는 그 문제에 대해서는 그와 동감한다.</eg>
+					<eg>나는 이번 계획에 대해서 김 선생과 동감합니다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Z" tht="COM">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S데|S것</sel_rst>
+					<eg>나는 더 이상 사건을 확대시켜서는 안 된다는 데에 대해서는 그와 동감한다.</eg>
+					<eg>나는 우선 일을 시작해야 한다는 것에 대해 김 선생과 전적으로 동감합니다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="sym" n="01">
+				<frame>X+Z=N0-이 (서로) Y=N1-에대해 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Z" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(생각|의견|계획|문제)</sel_rst>
+					<eg>그와 나는 그 문제에 대해서는 (서로) 동감하였다.</eg>
+					<eg>우리는 이번 계획에 대해 동감하지는 않았지만 서로의 의견을 존중하기로 했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Z" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S데|S것</sel_rst>
+					<eg>그와 나는 더 이상 사건을 확대시켜서는 안 된다는 데에는 동감하였다.</eg>
+					<eg>우리는 우선 일을 시작해야 한다는 것에 대해 동감하였다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에대해 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(생각|의견|계획|뜻)</sel_rst>
+					<eg>수미는 그의 생각에 전적으로 동감한다고 말했다.</eg>
+					<eg>모든 회원들은 그의 의견에 동감하였다.</eg>
+					<eg>그녀는 아이들의 불행을 막아보겠다는 남편의 뜻에 동감하였다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S데|S것</sel_rst>
+					<eg>수미는 그가 그런 생각을 하는 데에 동감하면서도 행동을 같이 할 수는 없다고 했다.</eg>
+					<eg>모든 회원들은 고인의 뜻을 살려 장학 재단을 설치하는 데에 동감하였다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

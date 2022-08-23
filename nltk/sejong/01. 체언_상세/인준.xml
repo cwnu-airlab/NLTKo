@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>인준</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/21</cre_date>
+				<cre_writer>김지수</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/21</mod_date>
+				<mod_writer>김지수</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/23</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>선택제약정보추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/30</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>의미부류 수정:검토요</mod_note>
+				<mod_note>동사결합 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">認准</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>여야는 총리 ~ 문제를 놓고 첨예하게 대치하고 있다.</eg>
+				<trans>confirmation</trans>
+				<sem_class>결과행위</sem_class> <!-- '물리적행위'를 '결과행위'로 수정:검토요(송근영)-->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>Y-이 X-에게 ~을 받다</frame> <!-- Y,X 순서 교체, X의 조사 수정(송근영) -->
+				</comb_v>
+				<comb_v type="npred_vpred"> <!--술어명사+술어동사 결합 유형으로 수정(송근영) -->
+					<form vcompound="no">~을 거부하다</form>
+				</comb_v>
+				<comb_v type="npred_vpred"><!--술어명사+술어동사 결합 유형으로 수정(송근영) -->
+					<form vcompound="no">~을 유보하다</form>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

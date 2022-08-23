@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>종양</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/22</cre_date>
+				<cre_writer>송길룡</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/13</mod_date>
+				<mod_writer>김현승</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/01</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>1999/07/22</note>
+			<note>2001/03/09(류희선)</note>
+			<note>2003/04/13(김현승)의미부류를 '질병'에서 '신체부위'로 수정</note>
+			<note>comb_v정보 기술</note>
+			<note>관련어 추가</note>
+			<note>단위표현 추가</note>
+			<note>동위어 삭제</note>
+			<note>혹의 일종이므로 의미부류가 '신체부위'인것 같으나 '질병및증세'에 해당하는 것 같기도</note>
+			<add>~을 제거하다|수술하다'</add>
+			<add>동사결합으로 '~이 나다|생기다</add>
+			<add>명사구 '악성|양성 ~' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">腫瘍</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~학</der>
+			<comp pos="n" type="suffix">~세포</comp>
+			<comp pos="n" type="prefix">악성~</comp>
+			<comp pos="n" type="prefix">양성~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 사람은 췌장에 ~이 생겼다.</eg>
+				<trans>tumor</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>이상신체부위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>질병</hyper>
+					<hypo>악성종양</hypo>
+					<hypo>양성종양</hypo>
+					<rel>암</rel>
+					<rel>육종</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 작다</comb_aj>
+				<comb_n type="compound">악성 ~</comb_n>
+				<comb_n type="compound">양성 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 제거하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 수술하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 생기다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="qnt">덩어리</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>내비치다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/03</mod_date>
+				<mod_writer>조원형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/04/08</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>VV</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>현상</sem_class>
+				<trans>be transparent</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에서 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(빛)</sel_rst>
+					<sel_rst arg="Y" tht="SRC">(창)</sel_rst>
+					<eg>그 집 유리창에서 형광등 불빛이 내비치고 있었다.</eg>
+					<eg>구름 사이로 햇빛이 반짝 내비친다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="SRC">구체물</sel_rst>
+					<eg>그녀의 블라우스에서 속옷이 살짝 내비쳤다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>소통행위</sem_class>
+				<trans>hint</trans>
+				<lr>
+					<syn type="perfect">드러내다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에서 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(의지|빛)</sel_rst>
+					<sel_rst arg="Y" tht="SRC">(표정|태도)</sel_rst>
+					<eg>그의 표정에서는 실망하는 빛이 완연히 내비쳤다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에|에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(뜻|속뜻|의중|마음|심정)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간</sel_rst>
+					<eg>그 사람은 우리들에게 은퇴할 뜻을 내비쳤다.</eg>
+					<eg>철수는 우리에게 거액을 투자할 뜻을 내비쳤다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것|S음</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간</sel_rst>
+					<eg>그 사람은 우리들에게 자기가 부자라는 것을 은연 중에 내비쳤다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>이동행위</sem_class>
+				<trans>show</trans>
+				<lr>
+					<syn type="perfect">보이다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에|에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(얼굴|눈물)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|모임회의</sel_rst>
+					<eg>그 사람은 요즘 모임에 도통 얼굴을 내비치지지 않는다.</eg>
+					<eg>그 소식을 듣자 어머님은 눈물을 내비쳤다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

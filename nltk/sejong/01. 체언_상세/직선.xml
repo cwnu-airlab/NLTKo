@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>직선</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/14</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/22</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>sem을 '속성'에서 '도형'으로 수정;av에 '~으로'기재;comb_v의 내용 중 '~으로 가다'를 삭제하고 add로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/18</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/27</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/08/27(박동호)</note>
+			<note>2003/02/03(서진숙)sem을 수학적 대상으로 놓을 수 있는지 재고</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">直線</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~로</der>
+			<comp pos="n" type="suffix">~거리</comp>
+			<comp pos="n" type="suffix">~도로</comp>
+			<comp pos="n" type="suffix">~미</comp>
+			<comp pos="n" type="suffix">~운동</comp>
+			<comp pos="n" type="suffix">~코스</comp>
+			<comp pos="n" type="prefix">일~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>길이 5 센티미터인 ~을 하나 그려라.</eg>
+				<eg>~으로 가는 것이 가장 빠르게 갈 수 있는 방법이다.</eg>
+				<trans>straight line</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>도형</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">곡선</ant>
+					<hyper>선</hyper>
+					<rel>수학</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 그리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 긋다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av>~으로</av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/14</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/22</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>cl에 '번|차례|회'기재;comb_v의 내용을 add로 이동;sel_res 수정 보완;sel_res 재고 'X가 Y를 ~을 하다'가 이상함;supv에 '되다'구문 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/18</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/27</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미부류 수정;동사결합 정보 수정;논항 명사구, 의미정보 수정</mod_note>
+			</mod>
+			<note>2000/08/27(박동호)</note>
+			<note>2003/02/03(서진숙)</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="lng">직접선거</var>
+			<str type="temp"></str>
+			<org lg="si">直選</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~제</der>
+			<comp pos="n" type="suffix">~의원</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>민주주의 사회에서는 대통령을 ~으로 뽑는다.</eg>
+				<eg>학생들의 ~에 의해 선출된 학생회장을 학교 측이 인정하지 않는 것은 문제다.</eg>
+				<trans>direct election</trans>
+				<domain>정치</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>결과행위</sem_class>
+				<!-- 단독행위 수정 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">간선</ant>
+					<hyper>선거</hyper>
+					<coord>간선</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에의해 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~으로 뽑다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~으로 뽑히다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~으로 선출되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~으로 선출하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>Y-의 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">직위인간|서열인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

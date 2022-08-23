@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>연역</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/01</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/25</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/03</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>der 수정</mod_note>
+				<mod_note>comp 기술</mod_note>
+				<mod_note>격틀정보에서 '로부터' 삭제(대표형 '에서'로 기술)</mod_note>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>sem 수정</mod_note>
+				<mod_note>sel_res 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>복합어 수정</mod_note>
+			</mod>
+			<note>2002/07/25(고길수)예문 수정</note>
+			<note>기능동사구문 수정</note>
+			<note>논항선택제약 정보 수정</note>
+			<note>2002/08/02(이성헌)cl에 '번|차례|회' 추가</note>
+			<note>2003/09/17(송인욱)파생어 형용사 새로 기술</note>
+			<note>반의어 새로 기술</note>
+			<note>의미부류의 표기법 수정</note>
+			<note>기능동사 기술에서 Z논항에 '~로부터'를 추가</note>
+			<note>2003/09/25(김미현)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">演繹</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~적</der> <!--a를 n으로 수정(송근영)-->
+			<comp pos="n" type="suffix">~법</comp>
+			<comp pos="n" type="suffix">~추리</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 전제들에서는 결코 그와 같은 결론이 ~이 될 수 없다.</eg>
+				<trans>deduction</trans>
+				<trans>deductive reasoning</trans>
+				<domain>논리</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>인지적행위</sem_class> <!--'인지추상적행위'를 '인지적행위'로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant>귀납</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Z-에서 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 Z-에서 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">관계추상적대상|사실명제|생각</sel_rst> <!--'사실|명제'를 '사실명제'로, '생각'을 '의견'으로 수정(송근영)-->
+				<sel_rst arg="Z">추상적대상|상태|사건|현상</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

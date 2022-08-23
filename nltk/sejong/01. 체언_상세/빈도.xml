@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>빈도</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/05/30</cre_date>
+				<cre_writer>김미순</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/03</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>2003/07/03(김진형)add의 동사자유구성 수정 보완</mod_note>
+				<mod_note>예문 추가</mod_note>
+				<mod_note>명사연어 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/27</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>논항명사구, 의미정보 추가</mod_note>
+				<mod_note>수식어절 정보 추가</mod_note>
+			</mod>
+			<add>~를 측정하다|조사하다</add>
+			<add>~가 감소하다|증가하다|높아지다|낮아지다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">頻度</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 책은 영어의 어휘들을 ~가 높은 순서대로 정리해 놓았다.</eg>
+				<eg>최근 서울 시내의 교통사고 발생 ~가 낮아졌다.</eg>
+				<eg>학자들은 지난 일년 동안 지진이 발생한 ~를 측정해 왔다.</eg>
+				<trans>frequency</trans>
+				<sem_class>크기</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 높다</comb_aj>
+				<comb_aj type="appr">~가 낮다</comb_aj>
+				<comb_n type="compound">사용 ~</comb_n>
+				<comb_n type="compound">발생 ~</comb_n>
+				<comb_n type="compound">출현(의) ~</comb_n>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~를 측정하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~가 증가하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~가 높아지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~가 올라가다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~가 감소하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~가 낮아지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~가 떨어지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~가 내려가다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가함 -->
+				<sel_rst arg="X">행위|사건|현상|상태변화</sel_rst> <!-- 추가함 -->
+				<cl type="uni"></cl>
+				<s_n>S는 ~</s_n> <!-- 추가함 -->
+				<s_n>S은 ~</s_n> <!-- 추가함 -->
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

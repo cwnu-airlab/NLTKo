@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>협력</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/06</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/31</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/19</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note>n_v 정보, 최대논항구조 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2008/08/04</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<note>2000/07/10(김종명)</note>
+			<note>2000/07/15</note>
+			<note>2000/07/19</note>
+			<note>2001/01/30(김미순)</note>
+			<note>2003/02/18(이민우)</note>
+			<note>2003/03/22(김종명)</note>
+			<note>2003/03/31(이민우)</note>
+			<note>가산/비가산/관계/대칭 수정</note>
+			<note>기능동사 수정</note>
+			<note>논항 선택 제약 수정</note>
+			<note>동사 자유구성 추가</note>
+			<note>분류사 하위부류 입력</note>
+			<note>선택제약 수정, '국가'를 의미부류로 설정</note>
+			<note>선택제약 추가</note>
+			<note>수식어-문장 삭제</note>
+			<note>예문 보완</note>
+			<note>최대논항-명사구 삭제</note>
+			<note>파생어 추가</note>
+			<note>합성어추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">協力</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~심</der>
+			<der pos="n" type="suffix">~자</der>
+			<comp pos="n" type="suffix">~단체</comp>
+			<comp pos="n" type="suffix">~정신</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리 경제가 더욱 발전하기 위해서는 노사가 서로 ~을 하는 것이 필요하다.</eg>
+				<trans>cooperation</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="CS"/>
+				<sem_class>대칭적행위</sem_class>
+				<lr>
+					<syn type="etc">협동</syn>
+					<ant type="temp"></ant>
+					<coord>협동</coord>
+					<rel>경제</rel>
+					<rel>발전</rel>
+					<rel>노력</rel>
+					<rel>양보</rel>
+					<rel>희생</rel>
+					<rel>관계</rel>
+					<rel>도움</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-와 Z|S데-에 ~을 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 거부하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 거절하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 도모하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 요구하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 이루다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 거부되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 거절되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 요구되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 이루어지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 필요하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-와 Y-의 Z-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">행위</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N(-의)</pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

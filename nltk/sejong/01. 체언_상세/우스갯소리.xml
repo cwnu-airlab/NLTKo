@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>우스갯소리</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/11</cre_date>
+				<cre_writer>박재연</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/11</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/02</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add의 내용을 n_v로 이동;var, org 기술;str, 의미부류, n_v 수정;n_v, 분류사 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/27</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note>var spr 삭제 xx 기술</mod_note>
+			</mod>
+			<note>2003/06/11(박재연)sem 수정</note>
+			<note>comb_v의 일부를 add로 이동</note>
+			<note>supv, sel_res 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="xx">우스개소리</var>
+			<str type="NsN">우스개+ㅅ+소리</str>
+			<org lg="etc"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~로 한 말에 그렇게 민감하게 반응할 필요가 없다.</eg>
+				<trans>joke</trans>
+				<trans>fun</trans>
+				<trans>humorous story</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>이야기</sem_class>
+				<lr>
+					<syn type="sino">배해</syn>
+					<syn type="etc">유머</syn>
+					<ant type="temp"></ant>
+					<hyper>말</hyper>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 재미있다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-에게 ~를 하다</frame>
+					<frame>X-이 Y-에게 S다는 ~를 하다</frame>
+					<frame>X-이 Y-에게 S라는 ~를 하다</frame>
+					<frame>X-이 Y-에게 S자는 ~를 하다</frame>
+					<frame>X-이 Y-에게 S냐는 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~가 있다</form>
+					<frame>S다는 ~가 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 말하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 듣다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 들려주다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 던지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 건네다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 늘어놓다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 웃다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 나돌다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에게의 S는 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="uni">마디</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av>~로</av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S다는 ~</s_n>
+				<s_n>라는 ~</s_n>
+				<s_n>자는 ~</s_n>
+				<s_n>냐는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

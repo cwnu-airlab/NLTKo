@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>멀다</orth>
+	<entry n="1" pos="va"> <!--동사로 볼 가능성 있음-->
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/04/22</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/22</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<infl type="l"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>신체상태</sem_class>
+				<trans>be blind</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(눈|귀)</sel_rst>
+					<eg>아버님은 전쟁 때 부상을 당하셔서 눈이 멀었다.</eg>
+					<eg>나이가 먹었는지 귀가 멀어 소리가 잘 안 들린다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+					<end_rst1>먼</end_rst1>
+				</morph_rst>
+			</com>
+		</sense>
+		<idm_grp>
+			<idm>N-에 눈이 멀다</idm>
+		</idm_grp>
+	</entry>
+	<entry n="2" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/04/22</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/22</mod_date>
+				<mod_writer>김현권</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<infl type="l"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>관계상태</sem_class>
+				<trans>be far from</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-에서 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소</sel_rst>
+					<sel_rst arg="Y" tht="SRC">장소</sel_rst>
+					<eg>관악산은 여기에서 아주 멀다.</eg>
+					<eg>철수의 집은서울역에서 꽤 멀다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA" cor="sym" n="01">
+				<frame>X=N0-이 Z=N2-와 Y=N1-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소</sel_rst>
+					<sel_rst arg="Y" tht="CRT">(거리)</sel_rst>
+					<sel_rst arg="Z" tht="COM">장소</sel_rst>
+					<eg>시청은 우리집과 거리가 아주 멀어.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA" cor="sym" n="01">
+				<frame>X+Z=N0-이 Y=N1-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소</sel_rst>
+					<sel_rst arg="Y" tht="CRT">(거리)</sel_rst>
+					<sel_rst arg="Z" tht="THM">장소</sel_rst>
+					<eg>시청과 우리집은 거리가 아주 멀어.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>관계상태</sem_class>
+				<trans>be unrelated</trans>
+			</sem_grp>
+			<frame_grp type="FA" cor="sym" n="02">
+				<frame>X=N0-이 Z=N2-와 Y=N1-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(사이|촌수)</sel_rst>
+					<sel_rst arg="Z" tht="COM">인간</sel_rst>
+					<eg>철수는 요즘 영희와 사이가 멀어.</eg>
+					<eg>복동이는 나와 촌수가 별로 멀지 않다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="THM">(관계)</sel_rst>
+					<sel_rst arg="Z" tht="COM">추상적대상</sel_rst>
+					<eg>패션 사업은 섬유 산업과 관계가 멀지 않다.</eg>
+					<eg>이번 옷 로비 사건은 지난 부동산 투기 사건과 관계가 멀다고는 생각지 않습니다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA" cor="sym" n="02">
+				<frame>X+Z=N0-이 Y=N1-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(사이|촌수)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">인간</sel_rst>
+					<eg>철수와 영희는 요즘 사이가 멀어.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="THM">(관계)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">추상적대상</sel_rst>
+					<eg>패션 사업과 섬유 사업은 관계가 서로멀지 않다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>정도속성값</sem_class>
+				<trans>be left</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(길)</sel_rst>
+					<eg>그 암자에 도착하려면 아직 갈 길이 멉니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>정도속성값</sem_class>
+				<trans>be placed far from here</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(산|바다|하늘)</sel_rst>
+					<eg>먼 산, 먼 바다로 가보자.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+					<end_rst1>먼</end_rst1>
+				</morph_rst>
+			</com>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>정도속성값</sem_class>
+				<trans>be repeated</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(하루|이틀|사흘)</sel_rst>
+					<eg>그 빚쟁이는 하루가 멀다 하고 찾아온다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+					<end_rst1>멀다하고</end_rst1>
+				</morph_rst>
+			</com>
+		</sense>
+		<sense n="06">
+			<sem_grp>
+				<sem_class>정도속성값</sem_class>
+				<trans>far fromnow</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(장래|미래)</sel_rst>
+					<eg>먼 장래를 바라보고 연구하자.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+					<end_rst1>먼</end_rst1>
+				</morph_rst>
+			</com>
+		</sense>
+		<sense n="07">
+			<sem_grp>
+				<sem_class>정도속성값</sem_class>
+				<trans>be noisy and not clear</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(전화|소리|감)</sel_rst>
+					<eg>전화가 너무 멀어 잘 안 들립니다.</eg>
+					<eg>감(感)이 너무 멀어 잘 안 들려요.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="08">
+			<sem_grp>
+				<sem_class>평가속성값</sem_class>
+				<trans>be not capable</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=S1-려면 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="CRT"/>
+					<eg>걔는 우리를 따라오려면 아직 멀었어요.</eg>
+					<eg>한국은 일본처럼 되려면 아직 멀었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="CRT"/>
+					<eg>이 작품은 국전에 출품하려면 아직 멀었다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+					<end_rst1>멀었다</end_rst1>
+				</morph_rst>
+			</com>
+		</sense>
+		<idm_grp>
+			<idm>N-와 거리가 멀다</idm>
+			<idm>갈 길이 멀다</idm>
+		</idm_grp>
+	</entry>
+</superEntry>

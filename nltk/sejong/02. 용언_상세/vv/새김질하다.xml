@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>새김질하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/06</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>곽새라</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2005/10/12</mod_date>
+				<mod_writer>음두은</mod_writer>
+				<mod_note>의미역 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">새김질을 하다</var>
+			<str>N.하</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>ruminate</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">짐승(소|양|염소)</sel_rst>
+					<sel_rst arg="Y" tht="THM">식물(풀|꽃|나무|열매|뿌리|채소|과일|곡식|견과류)|동물</sel_rst>
+					<eg>소가 먹은 것을 천천히 새김질하고 있다.</eg>
+					<eg>염소는 먹은 풀을 다시 새김질하기는 하지만 발굽이 갈라져있지 않아서 부정한 동물로 취급되었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>ruminate</trans>
+				<trans>memorize</trans>
+				<trans>consider carefully</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">학문과목|추상적행위|사실명제|기호|기호체계|사태|분야</sel_rst>
+					<eg>학생들은 배운 내용을 열심히 새김질하고 있었다.</eg>
+					<eg>나는 그의 이해할 수 없었던 행동을 새김질해보았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

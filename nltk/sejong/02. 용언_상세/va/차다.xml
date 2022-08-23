@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>차다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/09/20</cre_date>
+				<cre_writer>한선혜</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/06</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/12/24</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>형태 정보 구획 및 의미 정보 구획 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/02/09</mod_date>
+				<mod_writer>임동식</mod_writer>
+				<mod_note>의미정보 확장 및 형태정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/09</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note>센스4추가;센스3의 격틀추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>A</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be cold</trans>
+				<trans>be cool</trans>
+				<trans>be icy</trans>
+				<lr>
+					<syn type="perfect">춥다</syn>
+					<ant type="grad">덥다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">기상현상(날씨|바람|기온)</sel_rst>
+					<eg>기온이 차서 아이들이 감기 들까 두렵다.</eg>
+					<eg>바깥 날씨가 차니 속옷을 꼭 갖춰 입고 나가거라.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be cold</trans>
+				<trans>be cool</trans>
+				<trans>be icy</trans>
+				<lr>
+					<ant type="grad">뜨겁다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<eg>개울물이 얼음장처럼 차서 발을 담그기가 두려웠다.</eg>
+					<eg>국이 너무 차니 다시 데워야겠다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="magn">얼음장같이</col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be cold</trans>
+				<trans>be cold-hearted</trans>
+				<lr>
+					<syn type="sino">냉정하다</syn>
+					<ant type="grad">뜨겁다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|속성(마음|마음씨|성격|표정|태도|분위기)</sel_rst>
+					<eg>아내의 성격이 몹시 차다는 건 이미 알고 있었지만, 그 지경이 된 친구를 위로의 말 한 마디 없이 돌려보내는 데에는 나도 적잖이 놀랐었다.</eg>
+					<eg>평소 얼음장처럼 찬 그녀가 오늘은 무슨 일인지 다정스레 내게 말을 건넸다.</eg>
+					<eg>그는 나를 아주 차갑게 대했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="CRT">(사람)</sel_rst>
+					<eg>그는 사람이 아주 차갑다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="magn">얼음장같이</col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be cold</trans>
+				<domain>의학</domain>
+				<lr>
+					<syn type="sino">냉하다</syn>
+					<ant type="grad">덥다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">음식|자연음식물</sel_rst>
+					<n_appr arg="X">(성질)</n_appr>
+					<eg>이 음식은 찬 성질을 지니고 있어서 너 같이 열이 많은 사람에게는 좋은 음식이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>높이</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/06/15</cre_date>
+				<cre_writer>박치원</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/31</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/12</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>태그 내 나열된 정보 분할</mod_note>
+				<mod_note>동사 결합 추가</mod_note>
+				<mod_note>최대논항구조 삭제</mod_note>
+				<mod_note>내부 구조 타입, 품사 수정, 의미부류 수정(크기에서 높이)</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/29</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>hom 수정</mod_note>
+			</mod>
+			<note>2003/03/28(김현승)comb_v정보를 add항목으로 이전</note>
+			<note>2003/03/31(고길수)동형어 정보 수정, 부사사전 등재</note>
+			<note>comb_aj에서 '5미터이다' 삭제</note>
+			<note>예문 추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="A_S">높+이</str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~뛰기</comp>
+			<comp pos="n" type="suffix">~제한</comp>
+			<comp pos="n" type="prefix">눈~</comp>
+			<comp pos="n" type="prefix">소리~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 울타리의 ~는 채 1미터가 되지 않는다.</eg>
+				<eg>비행기는 2천 미터 ~를 날고 있었다.</eg>
+				<eg>묘목은 벌써 어른 어깨 정도의 ~로 자라 있었다.</eg>
+				<trans>height</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>높이</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>크기</coord>
+					<coord>넓이</coord>
+					<coord>길이</coord>
+					<coord>깊이</coord>
+					<rel>높낮이</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 높다</comb_aj>
+				<comb_aj type="appr">~가 낮다</comb_aj>
+				<comb_aj type="appr">~가 고르다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 재다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 측정하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 조절하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 높이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 낮추다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="qnt">미터</cl>
+				<cl type="qnt">센티미터</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

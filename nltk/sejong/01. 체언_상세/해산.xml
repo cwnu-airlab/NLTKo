@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>해산</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/24</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/17</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/17</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note>선택제약 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/08</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note>add(~을 돕다)를 동사결합정보로 이동, add(~이 가까워지다)를 삭제</mod_note>
+			</mod>
+			<note>2001/09/21(박동호)</note>
+			<note>2003/01/24(유영) sens1 sem수정, 예문추가, cl추가, comb_v를 add로 이동 및 추가</note>
+			<note>2003/06/17(이성헌)</note>
+			<note>동사자유구성을 형용사 자유구성으로 일부 입력</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">解産</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~달</der>
+			<der pos="n" type="suffix">~때</der>
+			<der pos="n" type="suffix">~대</der>
+			<comp pos="n" type="suffix">~미역</comp>
+			<comp pos="n" type="suffix">~바라지</comp>
+			<comp pos="n" type="suffix">~방</comp>
+			<comp pos="n" type="suffix">~쌀</comp>
+			<comp pos="n" type="suffix">~어머니</comp>
+			<comp pos="n" type="suffix">~휴가</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~한 데 개 잡기</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그의 아내는 죽음의 위험을 무릎쓰고 아들을 ~을 했다.</eg>
+				<eg>~의 고통을 겪어봐야 진정한 어머니가 될 수 있다.</eg>
+				<trans>delivery</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="etc">출산</syn>
+					<syn type="etc">분만</syn>
+					<ant type="etc">임신</ant>
+					<coord>난산</coord>
+					<coord>순산</coord>
+					<coord>조산</coord>
+					<coord>단산</coord>
+					<coord>다산</coord>
+					<rel>산모</rel>
+					<rel>임산부</rel>
+					<rel>해산고통</rel>
+					<rel>산후조리</rel>
+					<rel>태아</rel>
+					<rel>해산수발</rel>
+					<rel>진통</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 힘들다</comb_aj>
+				<comb_aj type="appr">~이 어렵다</comb_aj>
+				<comb_aj type="appr">~이 순조롭다</comb_aj>
+				<comb_aj type="appr">~이 임박하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 돕다</form>
+					<frame>X-이 Y-을 ~을 돕다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간(여자)</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/24</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/17</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/16</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note>n_v, 최대논항구조 형식 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/08</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note>add(~을 명령하다|주도하다|지휘하다|방해하다|막다|저지하다)을 삭제</mod_note>
+			</mod>
+			<note>2001/09/21(박동호)</note>
+			<note>2003/01/24(유영) comb_v를 add로 이동, sel_res추가</note>
+			<note>2003/06/17(이성헌)</note>
+			<note>기능동사,최대논항구조,논항선택제약 수정</note>
+			<note>합성어 일부 삭제</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">解散</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~판결</comp>
+			<comp pos="n" type="prefix">강제~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>군인들은 광장에 모인 시민들을 ~을 했다.</eg>
+				<eg>시위대는 강제로 ~이 되었다.</eg>
+				<eg>시장은 모여있던 군중들을 ~을 시켰다.</eg>
+				<trans>breakup</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>중단행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="etc">집합</ant>
+					<rel>분산</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">강제적인 ~</comb_aj>
+				<comb_aj type="appr">즉각적인 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+					<frame>Y-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>X-이 Y-을 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 당하다</form>
+					<frame>Y-이 X-에게 ~을 당하다</frame>
+					<frame>Y-이 X-에의해 ~을 당하다</frame>
+					<frame>Y-이 X-에의해서 ~을 당하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에게 ~이 되다</frame>
+					<frame>Y-이 X-에의해 ~이 되다</frame>
+					<frame>Y-이 X-에의해서 ~이 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<!--vcompound: ~시키다-->
+				<max_n_str>X-의 Y(-의) ~</max_n_str>
+				<max_n_str>X-에 의한 Y(-의) ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간집단(모임)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>경제적인 이유로 그는 악단을 ~을 했다</eg>
+				<eg>훈련대는 강제로 ~이 되었다</eg>
+				<eg>법원은 운영이 악화된 그 회사를 ~을 시켰다</eg>
+				<trans>disorganization</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>종료행위</sem_class>
+				<lr>
+					<syn type="etc">해체</syn>
+					<ant type="etc">조직</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">강제적인 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>X-이 Y-을 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 당하다</form>
+					<frame>Y-이 X-에게 ~을 당하다</frame>
+					<frame>Y-이 X-에의해 ~을 당하다</frame>
+					<frame>Y-이 X-에의해서 ~을 당하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에게 ~이 되다</frame>
+					<frame>Y-이 X-에의해 ~이 되다</frame>
+					<frame>Y-이 X-에의해서 ~이 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<!--vcompound: ~시키다-->
+				<max_n_str>X-의 Y(-의) ~</max_n_str>
+				<max_n_str>X-에 의한 Y(-의) ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간|모임회의</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

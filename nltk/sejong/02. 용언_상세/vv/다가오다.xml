@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>다가오다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/21</cre_date>
+				<cre_writer>한선혜</cre_writer>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2001/09/21</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/03/26</mod_date>
+				<mod_writer>목정수</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V-어V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>접근</sem_class>
+				<trans>move on toward</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=S2-러 Y=N1-에|에게|로|에게로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|동물|교통기관</sel_rst>
+					<sel_rst arg="Y" tht="GOL">장소|구체물</sel_rst>
+					<sel_rst arg="Z" tht="PUR"/>
+					<eg>낯선 사람이 우리 차에 다가온다.</eg>
+					<eg>그는 아이에게 다가와 말을 걸었다.</eg>
+					<eg>그 트럭은 빠른 속도로 건물에 다가왔다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<col_grp>
+					<col type="magn">바짝</col>
+				</col_grp>
+			</com>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>접근</sem_class>
+				<trans>approach</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게|에게로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간</sel_rst>
+					<eg>그는 수단을 가리지 않고 내게 다가왔다.</eg>
+					<eg>그녀는 그가 다가오는 것이 싫지만은 않았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>방향성행위</sem_class>
+				<trans>be familiar</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게|에게로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(말|글)|사태(말|충고|제안)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간|(마음)</sel_rst>
+					<eg>그의 충고는 내게 다가오지 않았다.</eg>
+					<eg>그런 연설은 우리 젊은이들에게 다가오기 어렵다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<col_grp>
+					<col type="magn">친숙하게</col>
+				</col_grp>
+			</com>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>접근</sem_class>
+				<trans>approach</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에|에게|에게로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(미래|고통|희망)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">인간</sel_rst>
+					<eg>암울한 미래가 그에게 다가오고 있었다.</eg>
+					<eg>어떤 역경이 우리에게 다가와도 물러서지 않을 것이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>접근</sem_class>
+				<trans>come</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">순환시간(시간|방학|여름)|기상관련재해(추위|장마)</sel_rst>
+					<eg>여름 방학이 다가오자 아이들은 들떠 있었다.</eg>
+					<eg>추석이 코 앞에 다가와 있다.</eg>
+					<eg>장마가 다가오니 대비를 해야겠다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<col_grp>
+					<col type="magn">코 앞에</col>
+					<col type="magn">눈 앞에</col>
+				</col_grp>
+			</com>
+		</sense>
+	</entry>
+</superEntry>

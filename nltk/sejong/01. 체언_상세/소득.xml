@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>소득</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/06/26</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/28</mod_date>
+				<mod_writer>김종명</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/24</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/17</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1을 돈에서 소득으로 수정;단위표현 정보 추가</mod_note>
+			</mod>
+			<note>2001/01/30(기영인)</note>
+			<note>2003/03/23(류병률)</note>
+			<note>2003/03/28(김종명)</note>
+			<note>comb_v를 add의 값으로 변환</note>
+			<note>entry하위의 sense별 구분은 세미콜론 | 로</note>
+			<note>센스1의 관련어 정보 입력</note>
+			<note>센스1의 반의어 정보 수정</note>
+			<note>센스1의 형용사 자유구성 정보 수정</note>
+			<note>센스2의 명사연어 정보 수정</note>
+			<note>센스2의 반의어 정보 입력</note>
+			<note>파생어 정보 수정</note>
+			<note>합성어 정보 수정</note>
+			<add>~을 신고하다</add>
+			<add>~을 올리다|내다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">所得</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~원</der>
+			<der pos="n" type="suffix">~액</der>
+			<comp pos="n" type="suffix">~세</comp>
+			<comp pos="n" type="suffix">~공제</comp>
+			<comp pos="n" type="suffix">~분배</comp>
+			<comp pos="n" type="prefix">근로~</comp>
+			<comp pos="n" type="prefix">불로~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 5월에 ~을 신고해야 한다.</eg>
+				<trans>income</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>소득</sem_class>
+				<lr>
+					<syn type="etc">수입</syn>
+					<ant type="etc">지출</ant>
+					<rel>봉급</rel>
+					<rel>이자</rel>
+					<rel>소비</rel>
+					<rel>경제</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 없다</comb_aj>
+				<comb_aj type="appr">~이 적다</comb_aj>
+				<comb_aj type="appr">~이 많다</comb_aj>
+				<comb_n type="compound">이자~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 늘다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 줄다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="qnt">원</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이번 원정에서 우리 팀은 큰 ~을 올렸다.</eg>
+				<trans>profits</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>결과</sem_class>
+				<lr>
+					<syn type="etc">이익</syn>
+					<syn type="etc">성과</syn>
+					<ant type="etc">손실</ant>
+					<ant type="etc">손해</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 적다</comb_aj>
+				<comb_aj type="appr">~이 없다</comb_aj>
+				<comb_aj type="appr">~이 있다</comb_aj>
+				<comb_n type="compound">의외의 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 얻다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

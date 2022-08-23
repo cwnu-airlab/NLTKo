@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>품</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/04</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/04</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/04(기영인)</note>
+			<note>2001/09/20(이성헌)</note>
+			<note>2003/02/20(남길임)</note>
+			<note>2003/02/24(김이정)센스1 comb_aj '~이 넓다|좁다' 추가</note>
+			<note>COMB_N정보 ADD로 이동</note>
+			<note>PRV 추가</note>
+			<note>동사자유구성 정보 추가</note>
+			<note>센스 2,3 통합</note>
+			<note>센스1 동의어 정보 입력</note>
+			<note>센스1 명사연어 정보 입력</note>
+			<note>센스2와 센스3의 구분 필요성 검토요망('신체부위'와 '관계장소(? 자연의 품, 조국의 품 등)')</note>
+			<note>속담/격언 정보 이동</note>
+			<note>엔트리1 중 센스2와 센스3의 구분 필요성 검토요망</note>
+			<note>엔트리2의 합성어 검토요망(독립표제어 존재여부)</note>
+			<note>의미부류 수정</note>
+			<note>형용사자유구성 정보 추가</note>
+			<add>~에서 쉬다|자다</add>
+			<add>센스1: 저고리 ~</add>
+			<add>센스2: ~에 안기다|안다|품다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="prefix">뒤~</comp>
+			<comp pos="n" type="prefix">앞~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~ 안의 자식이다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 옷은 ~이 넉넉해서 속에 다른 옷을 받쳐입어도 된다.</eg>
+				<trans>width</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>크기</sem_class>
+				<lr>
+					<syn type="etc">폭</syn>
+					<ant type="temp"></ant>
+					<hyper>넓이</hyper>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 넉넉하다</comb_aj>
+				<comb_aj type="appr">~이 작다</comb_aj>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 넓다</comb_aj>
+				<comb_aj type="appr">~이 좁다</comb_aj>
+				<comb_n type="compound">저고리 ~</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 재다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>아기가 그의 ~에 안겨 잠들었다.</eg>
+				<eg>그들은 드디어 그리던 조국의 ~에 안길 수 있었다.</eg>
+				<trans>bosom</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>신체부위</sem_class>
+				<lr>
+					<syn type="etc">가슴</syn>
+					<ant type="temp"></ant>
+					<hyper>가슴</hyper>
+					<rel>보호</rel>
+					<rel>팔</rel>
+					<rel>포옹</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 넉넉하다</comb_aj>
+				<comb_aj type="appr">~이 따뜻하다</comb_aj>
+				<comb_aj type="appr">~이 포근하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 안기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 안다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 품다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에서 쉬다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에서 자다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N-의</pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/04</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/03</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/20(이성헌)</note>
+			<note>2003/02/20(남길임)</note>
+			<note>2003/02/24(김이정)</note>
+			<note>속담/격언 정보 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~삯</comp>
+			<comp pos="n" type="suffix">~앗이</comp>
+			<comp pos="n" type="suffix">~팔이</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~(을) 갚다</idm>
+			<idm type="nv">~(을) 앗다</idm>
+			<idm type="nv">~(을) 팔다</idm>
+			<idm type="nv">~을 메다</idm>
+			<idm type="nv">~을 벼르다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 일은 적어도 열 사람의 ~이 드는 일이다.</eg>
+				<trans>labour</trans>
+				<trans>trouble</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="etc">수고</syn>
+					<syn type="etc">힘</syn>
+					<ant type="temp"></ant>
+					<rel>~앗이</rel>
+					<rel>삯</rel>
+					<rel>팔이</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 들다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 덜다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 들이다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 팔다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

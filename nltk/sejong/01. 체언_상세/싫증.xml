@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>싫증</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/26</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/01</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>내적구성정보 추가;의미부류 수정;동사결합 정보 수정;논항명사구, 선택제약 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/23</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2002/08/26(이호영)</note>
+			<note>2002/08/26(김종명)의미부류수정,조사제약수정</note>
+			<note>2003/09/16(최지임)comb_v입력</note>
+			<note>add입력</note>
+			<note>2003/09/22(고길수)단위표현 정보 추가</note>
+			<note>magn 정보 추가</note>
+			<note>comb_v 정보 보완</note>
+			<add>~을 느끼다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="etc">싫+증</str>
+			<!-- '싫'이 V? Vn? Vm?, '증'은 N? R? -->
+			<org lg="si">_症</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>동생이 오랫동안 숙제를 하여 그만 ~을 냈다.</eg>
+				<eg>나는 회사의 똑같은 일상에 ~을 느껴 버렸다.</eg>
+				<eg>계속되는 잔무에 나는 이제 ~이 났다.</eg>
+				<trans>dislike</trans>
+				<trans>disgust</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>외향적심리상태</sem_class>
+				<!-- 부정적감정 수정, 단 심리행위와 구별이 잘 안 됨 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">깊은 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~이 나다</form>
+					<frame>X-이 Y-에 ~이 나다</frame>
+					<frame>X-이 S것-에 ~이 나다</frame>
+					<frame>X-이 S기-에 ~이 나다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~을 내다</form>
+					<frame>X-이 Y-에 ~을 내다</frame>
+					<frame>X-이 S것-에 ~을 내다</frame>
+					<frame>X-이 S기-에 ~을 내다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+				<!-- narg_vpred 수정 -->
+					<form vcompound="no">~을 느끼다</form>
+					<frame>X-이 Y-에 ~을 느끼다</frame>
+					<frame>X-이 S것-에 ~을 느끼다</frame>
+					<frame>X-이 S기-에 ~을 느끼다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 S것-에대한 ~</max_n_str>
+				<max_n_str>S것-에대한 ~</max_n_str>
+				<max_n_str>X-의 S기-에대한 ~</max_n_str>
+				<max_n_str>S기-에대한 ~</max_n_str>
+				<sel_rst arg="X">인간|동물</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

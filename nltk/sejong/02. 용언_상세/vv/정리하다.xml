@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>정리하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/18</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>정리.하</str>
+			<org lg="si">整理_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>clean</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(침대|책상)|장소(자리|둘레|방|집)</sel_rst>
+					<eg>몇 달 동안 어지러진 방을 정리하다 보니 휴일이 다 갔다.</eg>
+					<eg>책상을 정리하니 공부할 맛이 난다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>arrange (text)</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(말|내용|자료)</sel_rst>
+					<eg>차 안에서 브리핑할 자료를 정리하였다.</eg>
+					<eg>협상에서 할 말을 정리하다가 밤을 샜다.</eg>
+					<eg>김 실장은 아이디어는 뛰어난데 서류를 정리하는 솜씨는 엉망이다.</eg>
+					<eg>쏟아지는 서류들을 정리하는 것도 쉬운 일은 아니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>readjust one's finances</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(채무|빚|재산|사업)</sel_rst>
+					<eg>김 진사는 죽을 때가 가까웠다는 것을 알고 재산을 정리하기 시작했다.</eg>
+					<eg>보증을 섰다 진 빚을 정리하느라 20년이 흘렀다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>adjust (a company) to sale</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|단체(경찰|정부)</sel_rst>
+					<sel_rst arg="Y" tht="THM">단체(회사|조직)</sel_rst>
+					<eg>금융 감독원은 부실 기업을 정리하기 위한 칼을 빼 들었다.</eg>
+					<eg>정부는 이름만 남아 있는 시민 단체를 월말까지 정리한다고 발표했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>make an end</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(관계)</sel_rst>
+					<eg>군대 가기 이전에 친구 관계를 정리했다.</eg>
+					<eg>그 사람과의 불륜 관계를 정리하였다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="06">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>readjust (passbook)</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(통장)</sel_rst>
+					<eg>통장을 정리했으나 입금 내역은 없었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="07">
+			<sem_grp>
+				<sem_class>지속적활동</sem_class>
+				<trans>pull one's thoughts together</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EXP">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(마음|생각)</sel_rst>
+					<eg>생각을 정리하기가 쉽지 않다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

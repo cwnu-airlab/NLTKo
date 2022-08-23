@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>인식</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/05/31</cre_date>
+				<cre_writer>홍재성;박치원</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/15</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/03</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>1999/06/15</note>
+			<note>2003/04/12(김현승)동사결합정보 추가</note>
+			<note>2003/04/15(고길수)comb_aj 정보 중 일부를 magn로 수정</note>
+			<note>comb_aj 정보의 표기법 수정</note>
+			<note>comb_aj정보 추가</note>
+			<note>comb_v 정보 추가</note>
+			<note>max_n 정보 수정</note>
+			<note>sel_res정보 추가</note>
+			<note>기능동사 정보 수정, '~이 있다|없다' 구문 추가</note>
+			<note>논항 의미정보 수정</note>
+			<note>의미 분할 문제 검토 필요, 'X-이 Y-을 ~을 하다'와 'X-이 Y-을 Z-로 ~을 하다' 구문의 경우</note>
+			<note>의미부류를 '인지'에서 '인지추상적행위'로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">認識</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~론</der>
+			<der pos="n" type="suffix">~상</der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>사람들은 그 문제에 대한 ~이 아직 피상적이다.</eg>
+				<trans>recognition</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>인지추상적행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>인지</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 올바르다</comb_aj>
+				<comb_aj type="appr">~이 그릇되다</comb_aj>
+				<comb_aj type="appr">~이 잘못되다</comb_aj>
+				<comb_aj type="magn">~이 높다</comb_aj>
+				<comb_aj type="magn">~이 깊다</comb_aj>
+				<comb_aj type="magn">~이 낮다</comb_aj>
+				<comb_aj type="magn">~이 얕다</comb_aj>
+				<comb_aj type="magn">~이 부족하다</comb_aj>
+				<comb_aj type="magn">~이 나쁘다</comb_aj>
+				<comb_aj type="magn">~이 피상적이다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 가지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y|S것-을|에대해 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y|S것-을|에대해 Z|S것-으로 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y|S것-을|에대해 S다고 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y|S것-이 X-에게|에게서 Z|S것-으로 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y|S것-이 X-에게|에게서 S다고 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 있다|없다</form>
+					<frame>X-이|에게 Y|S것-에대해 ~이 있다|없다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 팽배하다</form>
+					<frame>X-이 Y|S것-을|에대해 ~이 팽배하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 바뀌다</form>
+					<frame> Y|S것-을|에대해 ~이 바뀌다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 심어주다</form>
+					<frame>X-이 Y|S것-을|에대해 ~을 심어주다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 바꾸다</form>
+					<frame>X-이 Y|S것-을|에대해 ~을 바꾸다</frame>
+				</comb_v>
+				<max_n_str>Y|S것-에대한 X-의 S다는 ~</max_n_str>
+				<max_n_str>X-에의한 Y(-의) ~</max_n_str>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">사행|추상적대상</sel_rst>
+				<sel_rst arg="Z">사행|추상적대상</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S다는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

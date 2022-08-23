@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>감각</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/17</cre_date>
+				<cre_writer>안근종</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/31</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2003/06/05</mod_date>
+				<mod_writer>목정수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/26</mod_date>
+				<mod_writer>목정수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/03/03(이호영)센스1에 대해서 예문 수정 및 추가|의미부류 수정|형용사 연어 추가|기존 동사연어구성의 정보를 향후 추가정보로 이동|논항 선택제약 수정</note>
+			<note>2003/03/31(박만규)</note>
+			<note>센스2에 대해서 예문 추가|의미부류 수정|형용사 자유구성 기술|형용사 연어 추가|기존 동사연어구성의 정보를 수정 및 향후 추가정보로 이동|논항 선택제약 수정</note>
+			<add>~에 맞다' 추가</add>
+			<add>~을 느끼다'  추가</add>
+			<add>센스1의 동사자유구성에 '~이 마비되다|죽다|살아나다|무뎌지다|발달하다</add>
+			<add>센스2의 동사자유구성에 '~을 잃다|되찾다|유지하다|지니다|가지다|느끼다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">感覺</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~계</der>
+			<der pos="n" type="suffix">~력</der>
+			<der pos="n" type="suffix">~론</der>
+			<der pos="n" type="suffix">~성</der>
+			<der pos="n" type="suffix">~점</der>
+			<der pos="n" type="prefix">공~</der>
+			<der pos="n" type="prefix">무~</der>
+			<comp pos="n" type="suffix">~세포</comp>
+			<comp pos="n" type="suffix">~중추</comp>
+			<comp pos="n" type="suffix">~신경</comp>
+			<comp pos="n" type="suffix">~주의</comp>
+			<comp pos="n" type="suffix">~주의자</comp>
+			<comp pos="n" type="prefix">방향~</comp>
+			<comp pos="n" type="prefix">균형~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 ~이 무척 무딘 편이다.</eg>
+				<eg>그는 ~이 둔하다.</eg>
+				<eg>사고로 그는 두 다리의 ~이 마비되어 버렸다.</eg>
+				<trans>sense</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hypo>시각</hypo>
+					<hypo>미각</hypo>
+					<hypo>촉각</hypo>
+					<hypo>후각</hypo>
+					<hypo>청각</hypo>
+					<rel>눈</rel>
+					<rel>코</rel>
+					<rel>입</rel>
+					<rel>귀</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 있다</comb_aj>
+				<comb_aj type="appr">~이 없다</comb_aj>
+				<comb_aj type="magn">~이 둔하다</comb_aj>
+				<comb_aj type="magn">~이 무디다</comb_aj>
+				<comb_aj type="magn">~이 뛰어나다</comb_aj>
+				<comb_aj type="magn">~이 예민하다</comb_aj>
+				<comb_n type="compound">유머 ~</comb_n>
+				<comb_n type="compound">운동 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form> <!-- '감각을 하다'가 되나 검토 요망(목정수)-->
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에게 ~이 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">생물</sel_rst>
+				<sel_rst arg="Y">구체물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그녀는 외국어에 대한 ~이 뛰어나다.</eg>
+				<eg>이 옷은 요즘 젊은이들의 ~에 맞는다.</eg>
+				<trans>sense</trans>
+				<trans>sensibility</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hypo>시대~</hypo>
+					<hypo>현대~</hypo>
+					<hypo>패션~</hypo>
+					<hypo>언어~</hypo>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 없다</comb_aj>
+				<comb_aj type="appr">~이 있다</comb_aj>
+				<comb_aj type="magn">~이 뛰어나다</comb_aj>
+				<comb_aj type="magn">~이 예민하다</comb_aj>
+				<comb_aj type="magn">~이 둔하다</comb_aj>
+				<comb_aj type="magn">~이 무디다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 못 느끼다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 있다</form>
+					<frame>X-이 Y-에대해 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 없다</form>
+					<frame>X-이 Y-에대해 ~이 없다</frame>
+				</comb_v>
+				<!--vcompound: ~있다-->
+				<!--vcompound: ~없다-->
+				<max_n_str>Y-에대한 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">예술|(언어|유행)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

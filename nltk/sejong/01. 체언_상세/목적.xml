@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>목적</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/04</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/04</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>의미부류, 최대논항구조 수정;add 정보를 n_v로 이동:예문, n_aj 추가;n_v, 선택제약 수정 및 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/01</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2000/09/21(정유진)</note>
+			<note>2000/09/25(정유진)</note>
+			<note>2001/01/22(백인애, 강범모)</note>
+			<note>2003/02/13(기영인)의미부류 수정</note>
+			<note>2003/03/02(박동호)</note>
+			<note>2003/03/04(기영인)</note>
+			<note>add 정보추가</note>
+			<note>combaj 정보수정</note>
+			<note>combv 정보수정 일부 add로 이동</note>
+			<note>pres 정보삭제(검토요망)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">目的</org>
+		
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~격</der>
+			<der pos="n" type="suffix">~관</der>
+			<der pos="n" type="suffix">~론</der>
+			<der pos="n" type="suffix">~론적</der>
+			<der pos="n" type="suffix">~물</der>
+			<der pos="n" type="suffix">~성</der>
+			<der pos="n" type="suffix">~어</der>
+			<der pos="n" type="suffix">~지</der>
+			<comp pos="n" type="suffix">~소설</comp>
+			<comp pos="n" type="suffix">~의식</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>네가 살아가면서 이룰 ~을 똑바로 세워야 한다.</eg>
+				<eg>그의 행위는 사실로 인정하나 투기가 ~이 아니었다.</eg>
+				<trans>purpose</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/><!--CU로 되어 있었음.검토요망(김이정)-->
+				<sem_class>계획</sem_class>
+				<lr>
+					<syn type="etc">목표</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 참되다</comb_aj>
+				<comb_aj type="appr">~이 좋다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 있다</form>
+					<frame>X-이 Y-에 ~이 있다</frame>
+					<frame>X-이 S것-에 ~이 있다</frame>
+					<frame>S것-이 Y-에 ~이 있다</frame>
+					<frame>S것-이 S것-에 ~이 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 없다</form>
+					<frame>X-이 Y-에 ~이 없다</frame>
+					<frame>X-이 S것-에 ~이 없다</frame>
+					<frame>S것-이 Y-에 ~이 없다</frame>
+					<frame>S것-이 S것-에 ~이 없다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 Y-이 ~이다</frame>
+					<frame>X-이 S것-이 ~이다</frame>
+					<frame>S것-이 Y-이 ~이다</frame>
+					<frame>S것-이 S것-이 ~이다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 두다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 달성하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 이루다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 가지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 세우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~으로 삼다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단|계획사건|물리적행위|소통행위</sel_rst>
+				<sel_rst arg="Y">직업인간|추상적대상|물리적행위|추상적행위|소통행위|계획사건</sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">가지</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

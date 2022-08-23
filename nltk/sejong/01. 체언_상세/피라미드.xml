@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>피라미드</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/30</cre_date>
+				<cre_writer>이하영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/28</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/01</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2005/10/07</mod_date>
+                                <mod_writer>박만규</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<note>2002/04/30(이하영)sense2에서 의미부류 불분명</note>
+			<note>2002/05/17(박동호)sense2의 의미부류를 '수학적대상'의 '도형'으로 고치세요</note>
+			<note>2002/05/21(고길수)센스1의 의미부류가 조형물로 되어있는데, 불분명하다. 오히려 '장소'의 '건물'로 규정하는 것은 어떨지?</note>
+			<note>2003/05/30(서진숙)</note>
+			<note>2003/06/28(이성헌)</note>
+			<note>sense1,2 건물도 조형물도 이상함, 조형물에 가까운 것으로 생각됨</note>
+			<note>무덤과는 달리 특정 형태만을 지칭하는 의미를 센스2로 추가 구분</note>
+			<note>센스1의 단위표현에 '개' 추가</note>
+			<note>센스1의 동사자유구성으로 '~를 짓다'를 추가</note>
+			<note>센스2의 동사자유구성으로 '~를 쌓다|허물다'를 추가</note>
+			<note>센스3의 의미부류를 '도형'에서 모양으로 수정, 특정 형태의 사회 구조나 조직, 또는 그 형태를 이르는 말, 다만 결합행태가 불분명하기 때문에 이를 명확하게 밝히기는 어려운 듯</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="xx">피라밋</var>
+			<str type="temp"></str>
+			<org lg="en">pyramid</org>
+		
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~는 이집트의 유명한 고대 유적지이다.</eg>
+				<eg>~의 아름다움은 곧은 직선미에 있다.</eg>
+				<trans>pyramid</trans>
+				<domain>고적</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>조형물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 쌓다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+						<form vcompound="no">~를 허물다</form>
+						<frame></frame>
+					</comb_v>
+				<comb_v type="narg_vpred">
+						<form vcompound="no">~를 짓다</form>
+						<frame></frame>
+					</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>사람들은 벽돌로 ~를 쌓았다.</eg>
+				<eg>선수들은 빠르게 인간 ~를 쌓아갔다.</eg>
+				<trans>pyramid</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>조형물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">인간 ~</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>그는 사회적 지위에 있어서 ~의 정점에 있다.</eg>
+				<eg>위계적인 ~ 조직을 해체하여 수평으로 만들면 개인의 책임감이 더 강해질 것이다.</eg>
+				<trans>pyramid</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>모양</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

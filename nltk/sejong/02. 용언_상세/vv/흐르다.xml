@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>흐르다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/24</cre_date>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/05</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/10/23</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<infl type="leu"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans></trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(물|강|구름)</sel_rst>
+					<sel_rst arg="Y" tht="DIR">장소|방향</sel_rst>
+					<eg>우리 나라의 강들은 대개 서쪽으로 흐른다.</eg>
+					<eg>물은 높은 데서 낮은 데로 흐른다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(윤기|미소|정겨움|인정미)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<eg>그의 입가에는 미소가 잔잔히 흘렀다.</eg>
+					<eg>그의 말 한 마디마다 정겨움이 흘러 넘쳤다.</eg>
+					<eg>그녀의 머릿결에는 윤기가 흘렀다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(전기|전류)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">전선</sel_rst>
+					<eg>이 전선에는 고압 전류가 흐르고 있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(달빛|별빛)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<eg>달빛이 흐르는 다리를 건넜다</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(음악|공기|분위기)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<eg>다방에는 오래된 음악이 흐르고 있었다.</eg>
+					<eg>방안에는 무거운 공기가 흐르고 있었다.</eg>
+					<eg>객석에 불이꺼지고 음악이 흐르면서 연극이 시작되었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(침묵|정적)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<eg>방안에 무거운 침묵이 흐르고있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(눈물|피|땀)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">신체부위</sel_rst>
+					<eg>온 몸에 뜨거운 피가 흐르는 것을 느낄수 있었다.</eg>
+					<eg>땀이 비 오듯 흘러 내린다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(세월|시간)</sel_rst>
+					<eg>다시 3년의 세월이 흘렀다.</eg>
+					<eg>시간은 계속 흘러서 우리도 이제 노년이 되었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(바지|안경|혁대|허리띠)</sel_rst>
+					<eg>허리띠를 안 했더니 바지가 자꾸 흘러내린다.</eg>
+					<eg>땀이 나서 안경이 자꾸 흘러 내린다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|상황(정책|입장)</sel_rst>
+					<sel_rst arg="Y" tht="GOL">상황값(위기|혼란|안정)</sel_rst>
+					<eg>그는 요즘 너무 출세주의로 흐르는 것 같다.</eg>
+					<eg>경제 부처의 정책이 안정 위주로만 흘러서는 안 된다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(물|강)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<eg>이 강은 평야 지대를 흘러서 바다에 이른다.</eg>
+					<eg>이 지역을 흐르는 물은 거의 다 오염되어 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

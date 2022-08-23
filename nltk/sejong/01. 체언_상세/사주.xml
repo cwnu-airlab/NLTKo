@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>사주</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/23</cre_date>
+				<cre_writer>김진형</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/03</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/27</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>add정보이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/25</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_aj 수정;센스1과 2 domain(민속) 삭제;센스2 n_v 기술</mod_note>
+			</mod>
+			<note>'~를 풀다'를 센스 1의 동사자유구성으로 add에 추가</note>
+			<note>2002/07/22(김진형)</note>
+			<note>2002/08/02(김종명)</note>
+			<note>2003/06/27(송인욱)합성어 명사 새로 기술</note>
+			<note>2003/07/03(김미현)idna의 '~가 세다|드세다'를 삭제하고 형용사자유구성으로 통합</note>
+			<note>idna, idnv 새로 기술</note>
+			<note>pre_s에 'S을 ~' 추가(이상 센스1)</note>
+			<note>단위표현 새로 기술(이상 센스2)</note>
+			<note>의미부류가 불확실함</note>
+			<note>의미부류를 '구체인공물'에서 수정</note>
+			<note>형용사 자유구성에서 '~가 길하다|흉하다'를 관형형으로 수정</note>
+			<add>2003/06/27(송인욱)센스2의 동사자유구성으로 '~를 보내다|받다' 추가</add>
+			<add>2003/07/03(김미현)센스 1</add>
+			<add>~를 풀다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">四柱</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~팔자</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~를 보다</idm>
+			<idm type="prv">~팔자는 날 때부터 타고난다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>어머니와 나는 ~를 보기 위해 점집을 찾았다.</eg>
+				<trans>horoscopic data</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 좋다</comb_aj>
+				<comb_aj type="appr">~가 나쁘다</comb_aj>
+				<comb_aj type="appr">~가 세다</comb_aj>
+				<comb_aj type="appr">~가 드세다</comb_aj>
+				<comb_aj type="appr">~가 길하다</comb_aj>
+				<comb_aj type="appr">~가 흉하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 풀다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S다는 ~</s_n>
+				<s_n>S을 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>신랑의 집에서 신부의 집에 ~를 보내 왔다.</eg>
+				<trans>engagement document</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>텍스트담지물</sem_class>
+				<lr>
+					<syn>사주단자</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 보내다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 받다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/23</cre_date>
+				<cre_writer>김진형</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/03</mod_date>
+				<mod_writer>송인욱</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/27</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/25</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_v 기술</mod_note>
+			</mod>
+			<note>2002/07/22(김진형)</note>
+			<note>2002/08/02(김종명)</note>
+			<note>2003/06/27(송인욱)예문 추가</note>
+			<note>2003/07/03(김미현)</note>
+			<note>2003/07/03(송인욱)관리정보구획 표기법 수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">社主</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>저 사람은 말단 직원에서 시작하여 결국 ~가 되었다.</eg>
+				<eg>우리 회사의 ~는 회계 비리를 저질러 구속됐다.</eg>
+				<trans>head of a company</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>직위인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 되다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">인</cl>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/07/23</cre_date>
+				<cre_writer>김진형</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/03</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/27</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/25</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>s_n 삭제;최대논항구조 기술;의미부류 수정</mod_note>
+			</mod>
+			<note>2002/07/22(김진형)</note>
+			<note>2002/08/02(김종명)</note>
+			<note>2003/06/27(송인욱)예문 추가</note>
+			<note>2003/07/03(김미현)기능동사 구문에 '-로 하여금'은 조사가 아니므로 삭제</note>
+			<note>pre_s에 'S라고|도록' 추가</note>
+			<note>sel_res의 Z를 '물리적행위'에서 수정</note>
+			<note>supv 삭제 후 재기술</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">使嗾</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>저 범인은 친구의 ~를 받아 다른 사람들의 돈을 가로챘다.</eg>
+				<eg>그의 이번 살인을 ~한 것은 바로 나이다.</eg>
+				<trans>instigation</trans>
+				<trans>incitement</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>방향성행위</sem_class><!--보고제안을 수정(김이정)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 은밀하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-에게 Z-을 ~를 하다</frame>
+					<frame>X-이 Y-에게 S라는 ~를 하다</frame>
+					<frame>X-이 Y-에게 S라고 ~를 하다</frame>
+					<frame>X-이 Y-에게 S도록 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 받다</form>
+					<frame>Y-이 X-에게서 Z-을 ~를 받다</frame>
+					<frame>Y-이 X-에게서 S라는 ~를 받다</frame>
+					<frame>Y-이 X-에게서 S라고 ~를 받다</frame>
+					<frame>Y-이 X-에게서 S도록 ~를 받다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~받다-->
+				<max_n_str>S라는 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<sel_rst arg="Z">범죄및비행|방향성행위|대칭적행위</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

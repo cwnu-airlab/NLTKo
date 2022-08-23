@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>인색</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/19</cre_date>
+				<cre_writer>김지수</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/19</mod_date>
+				<mod_writer>김지수</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/23</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>하다 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/29</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>동사결합 정보 수정 및 추가</mod_note>
+				<mod_note>선택제약 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">吝嗇</org>
+		
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~한 부자가 손쓰는 가난뱅이보다 낫다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~하기로 소문난 철수가 거액의 장학금을 모교에 기부했다.</eg>
+				<trans>stinginess</trans>
+				<sem_class>부정적인성속성값</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~하다</form>
+					<frame>X-이 Y-에 ~하다</frame>
+					<frame>X-이 S것-에 ~하다</frame><!-- 송근영 추가-->
+				</comb_v>
+				<comb_v type="npred_vsupvar"><!-- 송근영 추가-->
+					<form vcompound="yes">~을 떨다</form>
+					<frame>X-이 Y-에 ~을 떨다</frame>
+					<frame>X-이 S것-에 ~을 떨다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar"><!-- 송근영 추가-->
+					<form vcompound="no">~을 부리다</form>
+					<frame>X-이 Y-에 ~을 부리다</frame>
+					<frame>X-이 S것-에 ~을 부리다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

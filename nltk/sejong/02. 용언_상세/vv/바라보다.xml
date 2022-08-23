@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>바라보다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/01</mod_date>
+				<mod_writer>조원형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="o"/>
+			<str>VV</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>시각적행위</sem_class>
+				<trans>look</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|방향|장소|(뒷모습)</sel_rst>
+					<sel_rst arg="Z" tht="INS"/>
+					<eg>철수가 나를 물끄러미 바라본다.</eg>
+					<eg>영희는 퀭한 눈으로 하늘을 바라본다.</eg>
+					<eg>그 사람은 그저 영희의 뒷모습을 바라보고만 있었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것</sel_rst>
+					<eg>철수가 내가 공부하고 있는 것을 물끄러미 바라본다.</eg>
+					<eg>영희는 멍하니 해가 지는 것을 바라본다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>regard</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(현실|진실)</sel_rst>
+					<eg>우리는 현실을 똑바로 바라봐야 한다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에서|로 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간|텍스트</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상</sel_rst>
+					<sel_rst arg="Z" tht="EXP">추상적대상</sel_rst>
+					<eg>그 사람들은 아주 부정적인 시각에서 그 문제를 바라보고 있다.</eg>
+					<eg>이 책은 6.25를 전혀 새로운 관점으로 바라보고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>face</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">건물|조형물</sel_rst>
+					<sel_rst arg="Y" tht="DIR">구체물|장소|방향</sel_rst>
+					<eg>광화문의 이순신 장군 동상은 남대문을 바라보고 서 있다.</eg>
+					<eg>그 쌍둥이 빌딩은 한강 쪽을 바라보고 서 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>시각적행위</sem_class>
+				<trans>look on</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<eg>저 계집애는 친구 어머니가 돌아가셨는데도 손가락 하나 까딱하지 않은 채 바라보고만 있네.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>외향적심리행위</sem_class>
+				<trans>expect</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상|구체물</sel_rst>
+					<eg>우리 모교 야구부는 전국대회 삼관왕을 바라보고 있다.</eg>
+					<eg>너희는 오늘이 아니라 내일을 바라보고 살아라.</eg>
+					<eg>자식들의 효도나 바라보고 살아서는 안 됩니다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">직위인간</sel_rst>
+					<eg>홍 교수는 총장 자리를 바라보고 열심히 뛴다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="06">
+			<sem_grp>
+				<sem_class>외향적심리행위</sem_class>
+				<trans>rely on</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<eg>어머니는 나 하나 바라보고 지금까지 살아 오셨다.</eg>
+					<eg>영희는 남편 하나 바라보고 시집왔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="07">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>approach</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="CRT">수(사십|오십|육십|육순|칠십|칠순|팔십|팔순|구십|구순)|단위(살|세)|(고희|미수|환갑|중년|노년)</sel_rst>
+					<n_appr arg="X">나이</n_appr>
+					<n_appr arg="X">연세</n_appr>
+					<n_appr arg="X">춘추</n_appr>
+					<eg>내 나이도 이제 어언 50을 바라본다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

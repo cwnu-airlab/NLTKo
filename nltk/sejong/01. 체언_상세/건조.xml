@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>건조</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/06/04</cre_date>
+				<cre_writer>신지현</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/14</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/04</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/09/05(신지현,강범모)일차교정</note>
+			<note>2001/09/15(신지현)이차교정</note>
+			<note>2003/01/03(김진형)의미부류, sel_res 정보 수정, 예문 추가</note>
+			<note>2003/01/14(이지영)supv수정(시키다 추가)|sel_res수정(인물에서 인간|인간집단)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">建造</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~물</der>
+			<der pos="n" type="suffix">~선</der>
+			<comp pos="n" type="suffix">~계획</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 조선소는 유조선의 ~가 예정보다 늦어지자 철야 작업을 진행하고 있다.</eg>
+				<eg>업체측은 선박 ~ 시 사고가 발생할 때를 대비해 미리 ~ 보험에 가입하였다.</eg>
+				<trans>construction</trans>
+				<trans>building</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>선박;건물</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다|시키다</form>
+					<frame>X-이 Y-을 ~를 하다|시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">수상교통기관|건물</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/06/04</cre_date>
+				<cre_writer>신지현</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/14</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/04</mod_date>
+				<mod_writer>전지혜</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/01/03(김진형)sense1과 sense3는 어근으로 보아 삭제. 따라서 3개 sense 중 sense2만 남긴 셈임</note>
+			<note>의미부류 수정</note>
+			<note>supv에 '하다'추가</note>
+			<note>sel_res 수정</note>
+			<note>sense1에 있던 예문 sense2로 병합</note>
+			<note>2003/01/14(이지영)supv수정(시키다를 하다로 병합)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">乾燥</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~기</der>
+			<der pos="n" type="suffix">~실</der>
+			<der pos="n" type="suffix">~제</der>
+			<der pos="n" type="suffix">~지</der>
+			<comp pos="n" type="suffix">~식품</comp>
+			<comp pos="n" type="suffix">~냉동</comp>
+			<comp pos="n" type="suffix">~야채</comp>
+			<comp pos="n" type="suffix">~기후</comp>
+			<comp pos="n" type="suffix">~지대</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<comp pos="a" type="suffix">~하다</comp>
+			<metc pos="a" type="suffix">무미~하다</metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>빨래 ~는 바람이 잘 불고, 햇볕이 드는 날에 잘 된다.</eg>
+				<eg>겨울이 되면 피부의 ~가 심해지며, 땀샘 등이 위축된다.</eg>
+				<trans>dryness</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>상태변화</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hypo>냉동~;분무~</hypo>
+					<rel>빨래;커피</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 빠르다</comb_aj>
+				<comb_aj type="appr">~가 늦다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다|시키다</form>
+					<frame>X-이 Y-을 ~를 하다|시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-이 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">구체물(옷|차|커피|빨래|가죽)</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

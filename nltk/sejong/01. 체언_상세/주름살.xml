@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>주름살</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2005/06/22</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2005/06/26</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note>n_v 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/08</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>'~투성이' 명사 결합에서 파생어로 수정</mod_note>
+				<mod_note>예문 맞춤법 수정</mod_note>
+				<mod_note>센스 1의 의미부류 수정(신체부위에서 이상신체부위로)</mod_note>
+				<mod_note>센스 2의 격틀, 최대논항 구조, 선택제약 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/05</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="abb">주름</var>
+			<str type="N_N">주름+살</str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"/>
+			<der  pos="n" type="suffix">~투성이</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나이가 들어 ~이 생기는 것은 극히 자연스러운 일이다.</eg>
+				<trans>wrinkles</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>이상신체부위</sem_class>
+				<lr>
+					<syn type="perfect">주름</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 가득하다</comb_aj>
+				<comb_aj type="appr">~이 굵다</comb_aj>
+				<comb_aj type="appr">~이 가늘다</comb_aj>				
+				<comb_n type="compound">~ 제거</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 잡히다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 생기다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 늘다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 제거하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n>S는 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>옷을 그렇게 두니 ~이 잔뜩 가서 다 구겨졌잖아.</eg>
+				<trans>wrinkles</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>모양속성값</sem_class>
+				<lr>
+					<syn type="perfect">주름</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>				
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar"><!--속성값이므로 서술성 명사로 기입(이민우)-->
+					<form vcompound="no">~이 가다</form>
+					<frame>X-에 ~이 가다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 잡다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">신체착용물|종이</sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">군데</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>겨울</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/09/03</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/07</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/20</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>예문 형식 수정, add를 n_v로</mod_note>
+			</mod>
+			<note>2002/12/22(이하영)</note>
+			<note>2003/01/06(이하영)의미부류 수정</note>
+			<note>2003/01/07(고길수)파생어 정보 표기법 수정</note>
+			<note>comb_aj에 '올|지난 ~' 추가, 단 합성어 처리 가능성 검토</note>
+			<note>lr 표기법 수정</note>
+			<note>관련어에서 '봄</note>
+			<note>동사자유구성을 add로 옮김</note>
+			<note>여름|가을'을 동위어로 수정</note>
+			<note>예문으로 '~이 가다, ~을 나다' 추가</note>
+			<note>합성어 정보 표기법 수정 및 '초|늦~' 추가</note>
+			<add>~까지 끝내다|마치다|하다' 추가</add>
+			<add>~에 보다|오다|가다|찾다</add>
+			<add>~을 보내다|맞이하다|지내다|만끽하다|알리다|준비하다|기다리다|타다</add>
+			<add>동사결합으로 '~을 나다' 추가</add>
+			<add>동사자유구성 '~이 오다|가다|되다|시작되다|끝나다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~용</der>
+			<der pos="n" type="prefix">한~</der>
+			<comp pos="n" type="suffix">~방학</comp>
+			<comp pos="n" type="suffix">~작물</comp>
+			<comp pos="n" type="suffix">~나그네</comp>
+			<comp pos="n" type="suffix">~나기</comp>
+			<comp pos="n" type="suffix">~날</comp>
+			<comp pos="n" type="suffix">~냉면</comp>
+			<comp pos="n" type="suffix">~맞이</comp>
+			<comp pos="n" type="suffix">~바람</comp>
+			<comp pos="n" type="suffix">~새</comp>
+			<comp pos="n" type="suffix">~잠</comp>
+			<comp pos="n" type="suffix">~철</comp>
+			<comp pos="n" type="prefix">초~</comp>
+			<comp pos="n" type="prefix">늦~</comp>
+			<comp pos="av" type="suffix">겨우내</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~이 지나지 않고 봄이 오랴</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>기상 이변으로 지난 ~은 너무나 포근하였다.</eg>
+				<eg>추운 ~이 가고 따스한 봄이 왔다.</eg>
+				<eg>제비들은 ~을 나기 위해 따뜻한 남쪽 지방으로 이동한다.</eg>								
+				<trans>winter</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>계절</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>계절</hyper>
+					<hypo>초</hypo>
+					<hypo>늦~</hypo>
+					<coord>봄;여름;가을</coord>
+					<mero>12월;1월;2월</mero>
+					<rel>눈;눈싸움;눈사람;스키;스케이트;설;난로;추위;얼음;입동;소설;대설;동지;방학</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 완연하다</comb_aj>
+				<comb_aj type="appr">~이 길다</comb_aj>
+				<comb_aj type="appr">~이 짧다</comb_aj>
+				<comb_aj type="appr">~이 춥다</comb_aj>
+				<comb_aj type="appr">~이 포근하다</comb_aj>
+				<comb_aj type="appr">올 ~</comb_aj>
+				<comb_aj type="appr">지난 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 오다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 가다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 시작되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 끝나다 </form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 보내다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 맞이하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 지내다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 만끽하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 알리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 준비하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 기다리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 타다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

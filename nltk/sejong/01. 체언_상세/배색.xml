@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>배색</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/03</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/03</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스2 n_v와 선택제약 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/11/03(송인욱)표준대사전에 맞추어 어의를 구분함</note>
+			<note>센스2도 기능동사 구문이 가능할 것 같기는 한데, 정형화를 시키기가 어려움</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">配色</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리는 좀더 밝은 느낌이 나도록 노란색과 흰색을 ~을 해봤지만 결과는 기대 이하였다.</eg>
+				<eg>파란색과 빨간색을 잘 ~을 하면 보라색이 나온다.</eg>
+				<trans>coloration</trans>
+				<sem_class>혼합행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-와 Z-을 ~을 하다</frame>
+					<frame>X-이 Y-을 Z-와 ~을 하다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">색속성값</sel_rst>
+				<sel_rst arg="Z">색속성값</sel_rst>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>흰색 천에 빨간색 실로 수를 놓으니 ~이 참 좋다.</eg>
+				<eg>분홍색 벽면에 ~을 하기에는 주황색은 너무 튀는 것 같다.</eg>
+				<trans>arrangement of color</trans>
+				<sem_class>배치</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 좋다</comb_aj>
+				<comb_aj type="appr">~이 나쁘다</comb_aj>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 Z-에 ~을 하다</frame>
+					<frame>X-이 Y-을 Z-로 ~을 하다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">색속성값|건물|부분장소</sel_rst>
+				<sel_rst arg="Z">색속성값</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

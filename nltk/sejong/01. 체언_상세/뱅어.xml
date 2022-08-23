@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>뱅어</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/04</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/05</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add정보를 해당 n_v로 이동</mod_note>
+				<mod_note>센스2 n_v 추가</mod_note>
+			</mod>
+			<add>2003/09/04(송인욱)센스1의 동사자유구성으로 '~가 살다|서식하다|죽다|자라다</add>
+			<add>~를 기르다|양식하다|잡다|산란하다' 추가</add>
+			<add>2003/09/04(송인욱)센스2의 동사자유구성으로 '~를 먹다|내놓다|준비하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+		
+			<comp pos="n" type="suffix">~포</comp>
+			<comp pos="n" type="suffix">~젓</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리는 ~를 잡으러 강 하구로 내려갔다.</eg>
+				<eg>~가 산란하는 시기는 4월과 5월이다.</eg>
+				<trans>Japanese icefish</trans>
+				<trans>whitebait</trans>
+				<sem_class>물고기</sem_class>
+				<lr>
+					<hypo>붕투뱅어</hypo>
+					<hypo>도화뱅어</hypo>
+					<hypo>젓뱅어</hypo>
+					<hypo>실뱅어</hypo>
+					<hypo>국수뱅어</hypo>
+					<hypo>벗꽃뱅어</hypo>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 작다</comb_aj>
+				<comb_aj type="appr">~가 싱싱하다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 살다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 서식하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 죽다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~가 자라다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">마리</cl>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>어머니는 밥상에 올라온 ~를 보자 반색을 하셨다.</eg>
+				<eg>내가 ~를 반찬으로 내놓자 아내는 입맛이 없다며 상을 물렸다.</eg>
+				<trans>Japanese icefish</trans>
+				<trans>whitebait</trans>
+				<sem_class>생선</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 작다</comb_aj>
+				<comb_aj type="appr">~가 맛있다</comb_aj>
+				<comb_aj type="appr">~가 맛없다</comb_aj>
+				<comb_aj type="appr">~가 먹음직스럽다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 먹다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 준비하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 내놓다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 굽다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 요리하다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">마리</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

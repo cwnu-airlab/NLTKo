@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+
+<superEntry>
+	<orth>눕다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>V</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>생리행위</sem_class>
+				<trans>be ill</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<eg>어머니가 병들어 누우신지도 십 년이 넘었다.</eg>
+					<eg>영희는 남편이 죽자,금방 앓아 누웠다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>몸짓및동작</sem_class>
+				<trans>lie</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<eg>피곤하면 침대에 누워 있거라.</eg>
+					<eg>할아버지는 아랫목에 누우셔서 꼼짝도 안 하신다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="LOC">추상적대상(병석|자리)</sel_rst>
+					<eg>아버지는 병석에 누워 계시면서도, 집안 걱정만 하신다.</eg>
+					<eg>이제 자리에 누우시면 일어나기 힘들 겁니다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(벼|나무)|(머리|털|수염)</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소(벌판|과수원|마을)</sel_rst>
+					<eg>태풍으로 벼가 논바닥에 다 누웠다.</eg>
+					<eg>산간마을의 집들이 산 허리에 비스듬히 누워 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>순환되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/14</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/14</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/07</mod_date>
+				<mod_writer>최정진</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">순환이 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<org lg="si">循環_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be circulated</trans>
+				<trans>rotated</trans>
+				<trans>cycled</trans>
+				<trans>recured</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">기체(공기|산소)|액체(물|호수|바닷물|혈액)</sel_rst>
+					<eg>물이 잘 순환되어야 썩지 않는다.</eg>
+					<eg>냉각통이 수증기를 공냉시켜 수증기는 배출하고 냉각된 물은 재투입되어 순환된다.</eg>
+					<eg>요가를 통하여 척추와 모든 연결부분을 부드럽게 하여 혈액이 더 잘 순환되게 한다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">기상현상(바람|대기)</sel_rst>
+					<eg>이 지역은 바람이 잘 순환된다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">돈(돈|자금)</sel_rst>
+					<eg>요즈음 자금이 순환되지 않는다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">시간(계절|요일)</sel_rst>
+					<eg>사계절이 절기에 따라 순환되는 것은 자연의 이치이다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(경제|경기)</sel_rst>
+					<eg>경기가 규칙적으로 순환되는 것은 아니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

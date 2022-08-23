@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>추도</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/07</cre_date>
+				<cre_writer>이민우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/13</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/07</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>예문 수정;영어대역어 추가;의미부류 수정;명사결합 정보 추가;동사결합 정보 수정;논항명사구 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/01/30</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/10</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">追悼</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>많은 사람들이 전사자를 ~를 하는 자리에 모였다.</eg> <!-- '전사자 ~를 위해 사람들이 모였다' 수정 -->
+				<trans>mourning</trans>
+				<trans>lamentation</trans> <!-- 추가 -->
+				<sem_class>인지적행위</sem_class> <!-- 인지추상적행위 수정 -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 모임</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">~ 연설</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">~ 예배</comb_n> <!-- 추가함 -->
+				<comb_n type="compound">~의 말</comb_n> <!-- 추가함 -->
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form> <!-- 형태정보 추가 -->
+					<frame>X-이 Y-을 ~를 하다</frame>
+					<frame>X-이 Y-에대해 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str> <!-- 추가함 -->
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|사건</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

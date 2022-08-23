@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>공채되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/03</cre_date>
+				<cre_writer>박철우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/03</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/30</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>형태정보, 의미정보, 격틀 조정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">공채가 되다</var>
+			<str>N.되</str>
+			<org lg="si">公採_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be employed openly</trans>
+				<lr>
+					<ant type="compl">특채되다</ant>
+					<hyper>채용되다</hyper>
+					<hyper>고용되다</hyper>
+					<hyper>뽑히다</hyper>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 Z=N2-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="FNS">역할인간</sel_rst>
+					<sel_rst arg="Z" tht="AGT">단체</sel_rst><!--선택제약을 "인간집단"으로 넓게 잡을 필요는 없을 듯함.-->
+					<eg>장남은 캐나다 토론토에 있는 전자 회사에 연구원으로 공채되어 국제적으로 능력을 인정받고 있다.</eg>
+					<eg>정 씨는 부산 은행에 공채되어 2학기부터 장전동 지점에 근무하게 된다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

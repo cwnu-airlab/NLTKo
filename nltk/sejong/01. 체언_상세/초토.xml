@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>초토</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/20</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>2002/08/22(김이정)</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2002/09/07</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>eg 교체</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2002/10/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/01</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>비유적 의미를 일단 분할해둠, 단 적절한지 검토 필요;의미부류 수정;동사결합 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/03/08</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>정보 확장 내용 교열</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/07</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<!-- 작성일과 수정일이 원파일에는 2002년으로 되어 있으나, 변환된 파일에는 2003으로 표기되어 있었음 -->
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str type="N_N"></str>
+			<org lg="si">焦土</org>
+		
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>마을은 전쟁으로 ~가 되었다.</eg>
+				<trans>scorched earth</trans>
+				<trans>parched earth</trans>
+				<trans>burnt ground</trans>
+				<trans>ruins of a fire</trans>
+				<trans>site of a fire</trans>
+				<sem_class>속성기능장소</sem_class> <!-- '지상장소'를 수정 -->
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~가 되다</form>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~를 만들다</form>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~로 변하다</form>
+				</comb_v>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>유래없이 강한 태풍으로 이 지방 전역이 ~가 되었다.</eg>
+				<trans>ruins</trans>
+				<sem_class>속성기능장소</sem_class> <!-- '지상장소'를 수정 -->
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+					<comb_aj type="appr"></comb_aj>
+					<comb_n type="compound"></comb_n>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~가 되다</form>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~를 만들다</form>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~로 변하다</form>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<cl type="uni"></cl>
+				<prt></prt>
+				<av></av>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

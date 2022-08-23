@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>괴리</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/23</cre_date>
+				<cre_writer>고길수</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/08/23</mod_date>
+				<mod_writer>고길수</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/21</mod_date>
+				<mod_writer>김천학</mod_writer>
+				<mod_note>통사정보구획 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/13</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/02</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>동사결합 정보 수정;논항명사구 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/04</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">乖離</org>
+			<hom exist="temp"></hom>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>현실과 ~가 된 이론은 탁상공론에 지나지 않는다.</eg>
+				<trans>estrangement</trans>
+				<trans>alienation</trans>
+				<sem_class>상황값</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 크다</comb_aj>
+				<comb_aj type="appr">~가 깊다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup"><!-- narg_vpred 수정 -->
+					<form vcompound="no">~가 있다</form>
+					<frame>X-이 Y-와 ~가 있다</frame>
+					<frame>X-와 Y-이 ~가 있다</frame>
+					<frame>X-와 Y-에 ~가 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup"><!-- 추가함 -->
+					<form vcompound="no">~가 없다</form>
+					<frame>X-이 Y-와 ~가 있다</frame>
+					<frame>X-와 Y-이 ~가 있다</frame>
+					<frame>X-와 Y-에 ~가 있다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>X-이 Y-와 ~가 되다</frame>
+					<frame>X-이 Y-에서 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-와의 ~</max_n_str>
+				<max_n_str>X-와 Y-의 ~</max_n_str>
+				<sel_rst arg="X">추상적대상</sel_rst>
+				<sel_rst arg="Y">추상적대상</sel_rst>
+				<cl type="temp"></cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

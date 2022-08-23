@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>수혜</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/26</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/17</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/25</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>동사결합 정보 수정;논항명사구 정보 추가;수식어절 정보 추가;명사결합 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>방향성행위를 획득행위로 수정;</mod_note>
+			</mod>
+			<note>2002/08/27(김종명)의미부류 수정;기능동사구문 수정;동사연어정보 추가</note>
+			<note>2002/10/07(한선혜)기능동사구문 수정;comb_n 기술</note>
+			<note>2003/09/12(기영인)논항선택제약 정보수정</note>
+			<note>2003/09/16(김진형)의미부류 '추상적대상'에서 '방향성행위'로 수정</note>
+			<note>2003/09/17(기영인)</note>
+			<add>~자</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">受惠</org>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 학생은 학비와 생활비 전부를 지원해주는 전액 장학금의 대상자로 커다란 ~를 받았다.</eg>
+				<trans>benefit</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>획득행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">큰 ~</comb_aj>
+				<comb_n type="compound">~ 대상</comb_n>
+				<comb_n type="compound">~ 범위</comb_n>
+				<comb_n type="compound">~ 지역</comb_n>
+				<comb_v type="npred_vsupvar"> <!-- narg_vpred 수정 -->
+					<form vcompound="no">~을 입다</form>
+					<frame>X-이 Y-에서 ~를 입다</frame>
+					<frame>X-이 Y-에게서 ~를 입다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 받다</form>
+					<frame>X-이 Y-에서 ~를 받다</frame> <!-- Y-에서|에게서 분할 표기 -->
+					<frame>X-이 Y-에게서 ~를 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 주다</form>
+					<frame>Y-이 X-에게 ~를 주다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가 -->
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S는 ~</s_n> <!-- 추가 -->
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

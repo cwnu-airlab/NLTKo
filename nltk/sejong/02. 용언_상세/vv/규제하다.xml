@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>규제하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/01</mod_date>
+				<mod_writer>조원형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/15</mod_date>
+				<mod_writer>김선영</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">규제를 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">規制_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>제약</sem_class>
+				<trans>regulate</trans>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-을|에대해 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단|추상적대상(법)</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상|행위|구체물</sel_rst>
+					<eg>캐나다는 불법이민을 강력하게 규제하고 있다.</eg>
+					<eg>선거관리위원회는 사전선거운동을 불법으로 규제하고 있다.</eg>
+					<eg>현행법은 성매매 행위를 불법으로 규제하고 있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단|추상적대상(법)</sel_rst>
+					<sel_rst arg="Y" tht="THM">S는것</sel_rst>
+					<eg>교장 선생님은 학생들이 어떤 이유로도 수업을 빼먹는 것을 엄격하게 규제하겠다고 말씀하셨다.</eg>
+					<eg>정부는 미성년자가 유흥업소에 출입하는 것을 강력하게 규제하겠다고 발표했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Z=S2-도록 Y=N1-을|에대해 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상|행위|구체물</sel_rst>
+					<sel_rst arg="Z" tht="PUR"/>
+					<eg>정부는 서울근교에 난개발을 못 하도록 주택건설을 규제했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Z=S2-도록 Y=N1-을|에대해 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상|행위|구체물</sel_rst>
+					<sel_rst arg="Z" tht="PUR"/>
+					<eg>정부는 서울근교에 난개발을 하지 못하게 주택건설을 규제했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

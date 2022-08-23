@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>으뜸</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/08/19</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/09</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/27</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>'기본, 근본'의 의미를 별도로 분할</note>
+			<note>2000/10/08(박동호)</note>
+			<note>2003/01/04(한동훈)동사자유구성을add로 옮김</note>
+			<note>2003/01/09(고길수)예문 추가</note>
+			<note>pre_d, pre_s에 '#' 추가</note>
+			<note>기능동사에 '~이다' 추가</note>
+			<note>논항 의미정보 추가</note>
+			<note>의미부류를 '속성값'에서 '상등급'으로 수정</note>
+			<note>의미부류수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~그림씨</comp>
+			<comp pos="n" type="suffix">~글</comp>
+			<comp pos="n" type="suffix">~꼴</comp>
+			<comp pos="n" type="suffix">~마디</comp>
+			<comp pos="n" type="suffix">~상</comp>
+			<comp pos="n" type="suffix">~셈씨</comp>
+			<comp pos="n" type="suffix">~움직씨</comp>
+			<comp pos="n" type="suffix">~월</comp>
+			<comp pos="n" type="suffix">~음</comp>
+			<comp pos="n" type="suffix">~조각</comp>
+			<comp pos="n" type="suffix">~화음</comp>
+			<comp pos="v" type="suffix">~가다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 우리 반에서 ~이 되려고 노력하고 있다.수학은 그가 당연히 우리 반에서 ~이다.그는 보석 중에 다이아몬드를 ~으로 뽑았다.</eg>
+				<trans>topbase</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>상등급</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>근본</coord>
+					<coord>버금</coord>
+					<coord>제일</coord>
+					<coord>첫째</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X|S것-이 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X|S것-이 ~이다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>수학은 모든 과학의 ~이 되는 학문이다.선행은 사람이 지켜야할 도리의 ~이다.</eg>
+				<trans>basisroot</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>추상적부분</sem_class>
+				<lr>
+					<syn type="etc">기본</syn>
+					<syn type="etc">근본</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 된다</form>
+					<frame>X|S것-이 Y|S것-에 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X|S것-이 ~이다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">온</sel_rst>
+				<sel_rst arg="Y">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n yn="no"/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

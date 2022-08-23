@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>운전자</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2005/06/27</cre_date>
+				<cre_writer>장원철</cre_writer>
+				<cre_note>"운전사"가 더 적당하지 않을까요</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2006/01/14</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>pos, str, 의미부류 수정;분류사 추가;n_v 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/07</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>동사결합정보 검토</mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_R">운전+자</str>
+			<org lg="si">運轉者</org>
+		
+			<hom exist="temp"/>
+			<der  pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~도 없이 기차를 어떻게 움직이나.</eg>
+				<trans>driver</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>행위인간</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">개인 ~</comb_n>
+				<comb_n type="compound">초보 ~</comb_n>
+				<comb_n type="compound">무사고 ~</comb_n>
+				<comb_n type="compound">자동차 ~</comb_n>
+				<comb_n type="compound">트럭 ~</comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d></pre_d>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

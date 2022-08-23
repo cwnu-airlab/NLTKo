@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>발모</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/28</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>영어대역어 기술</mod_note>
+			</mod>
+			<note>2003/08/28(송인욱)대역어 의문</note>
+			<note>'발모를 시키다'라는 기능동사 용법이 가능할 지 검토 요망</note>
+			<note>2003/10/15(박진호)합성어 추가</note>
+			<add>2003/08/28(송인욱)동사자유구성으로 '~를 촉진시키다|막다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">發毛</org>
+		
+			<comp pos="n" type="suffix">~제</comp>
+			<comp pos="n" type="suffix">~촉진제</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>자신이 대머리라는 사실을 부끄럽게 여기던 그녀는 ~를 촉진시키는 약을 써보기로 마음 먹었다.</eg>
+				<eg>우리 애는 다른 아기들보다 머리카락의 ~가 빠른 편이다.</eg>
+				<trans>hair growth</trans>
+				<sem_class>생물생리현상</sem_class>
+				<lr>
+					<ant type="grad">탈모</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 빠르다</comb_aj>
+				<comb_aj type="appr">~가 느리다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 촉진시키다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 막다</form>
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>뇌염</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/22</cre_date>
+				<cre_writer>송길룡</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/31</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/12</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>태그 내 나열된 정보 분할</mod_note>
+				<mod_note>명사 결합, 동사 결합, 최대논항구조, 선택제약 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/29</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>'심하다'를 '심한'으로 수정('~이 심하다'로는 쓰지 않는 듯. 확인요망);n_aj '위험하다' 추가;'~이 발생하다|유행하다|돌다'도 많이 쓰므로 '전염병'과 '질병및증세' 구분해야할 듯</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/20</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note>통사정보 추가</mod_note>
+			</mod>
+			<note>1999/07/22</note>
+			<note>2001/03/09(류희선)관련어 추가</note>
+			<note>2003/03/28(김현승)센스2추가</note>
+			<note>2003/03/31(고길수)센스1과 2를 통합함, '전염병'과 '질병및증세'의 구별에 대해서는 추후 논의 필요</note>
+			<note>센스1의 comb_aj정보 기술</note>
+			<note>센스1의 comb_v정보를 add항목으로 이전</note>
+			<note>센스1의 supv정보 삭제</note>
+			<note>센스1의 영어대역어로 'encephalitis cerebritis|phrenitis'추가</note>
+			<note>센스1의 의미부류를 '질병'에서 '전염병'으로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">腦炎</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~모기</comp>
+			<comp pos="n" type="prefix">일본~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~은 특히 모기에 의해 전염된다.</eg>
+				<eg>그는 ~에 걸려서 치료를 받았다.</eg>
+				<trans>brain inflammation</trans>
+				<trans>encephalitis</trans>
+				<trans>cerebritis</trans>
+				<trans>phrenitis</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>전염병</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>병</hyper>
+					<coord>감기</coord>
+					<coord>장티푸스</coord>
+					<coord>홍역</coord>
+					<rel>뇌</rel>
+					<rel>모기</rel>
+					<rel>여름</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 강하다</comb_aj>
+				<comb_aj type="appr">~이 약하다</comb_aj>
+				<comb_aj type="appr">~이 위험하다</comb_aj>
+				<comb_aj type="appr" pred="no">심한 ~</comb_aj>
+				<comb_n type="compound">~ 증세</comb_n>
+				<comb_n type="compound">~ 환자</comb_n>
+				<comb_n type="compound">~ 경보</comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~에 걸리다</form>
+					<frame>X-이 ~에 걸리다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~에 전염되다</form>
+					<frame>X-이 ~에 전염되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~에 감염되다</form>
+					<frame>X-이 ~에 감염되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 번지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 치료하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 예방하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 낫다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 퍼지다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>미약</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/07</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/11</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note>합성어 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">微弱</org>
+		
+			<hom exist="yes"/>
+			<comp pos="a" type="suffix">~하다</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 회사는 자본의 ~으로 인해 다국적기업에 인수될 처지에 놓였다.</eg>
+				<eg>그 사업의 수주 실패는 자본의 ~을 탓해야지 우리의 실력을 탓해서는 안 된다.</eg>
+				<trans>weakness</trans>
+				<sem_class>속성값</sem_class>
+				<lr>
+					<syn type="kor">약함</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<av>~으로</av>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/07</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/11</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>add(이 듣다)를 n_v로 이동</mod_note>
+			</mod>
+			<add>2003/07/08(송인욱)동사자유결합으로 '~을 먹다|복용하다</add>
+			<add>~이 듣다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">媚藥</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~의 약효가 도는지 몸이 점점 달아오르기 시작했다.</eg>
+				<eg>이 ~은 너무 강해서 한 알만 먹어도 밤새 효력이 지속된다.</eg>
+				<trans>love potion</trans>
+				<trans>aphrodisiac</trans>
+				<sem_class>약</sem_class>
+				<lr>
+					<syn type="perfect">최음제</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn" mod="no">~이 세다</comb_aj>
+				<comb_aj type="magn" mod="no">~이 약하다</comb_aj>
+				<comb_aj type="magn" mod="no">~이 독하다</comb_aj>
+				<comb_aj type="magn" mod="no">~이 강하다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 먹다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 복용하다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 듣다</form>
+				</comb_v>
+				<cl type="uni">개</cl>
+				<cl type="uni">알</cl>
+				<cl type="qnt">병</cl>
+				<cl type="qnt">봉지</cl>
+				<cl type="qnt">포</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

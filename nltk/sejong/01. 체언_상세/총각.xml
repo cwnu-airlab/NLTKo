@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>총각</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/16</cre_date>
+				<cre_writer>송근영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/27</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/14</mod_date>
+				<mod_writer>백고운</mod_writer>
+				<mod_note>n_n정보기술</mod_note>
+				<mod_note>의미부류'속성인간'을 '남성인간'으로수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/15</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/07</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<note>2001/08/10(김종명, 고길수)</note>
+			<note>2003/02/16(이지영)예문추가,문장부호입력,sem수정</note>
+			<note>2003/02/24(김진형)</note>
+			<note>2003/02/27(이지영)</note>
+			<note>유의어 정보 제시</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">總角</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="prefix">노~</der>
+			<der pos="n" type="prefix">숫~</der>
+			<comp pos="n" type="suffix">~귀신</comp>
+			<comp pos="n" type="suffix">~김치</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그는 결혼 후에도 ~ 시절의 습관을 버리지 못했다.</eg>
+				<eg>그는 사십이 넘어서도 여전히 ~이다.</eg>
+				<trans>bachelor</trans>
+				<trans>unmarried man</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>남성인간</sem_class>
+				<lr>
+					<syn type="etc">미혼남</syn>
+					<ant type="etc">처녀</ant>
+					<ant type="etc">유부남</ant>
+					<hyper>남자</hyper>
+					<coord>처녀</coord>
+					<rel>결혼</rel>
+					<rel>아저씨</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~파티</comb_n>
+					<comb_v type="narg_vpred">
+					<form vcompound="no">~이 결혼하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

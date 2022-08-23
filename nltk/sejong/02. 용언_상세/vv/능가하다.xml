@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+
+<superEntry>
+	<orth>능가하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/02/24</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">능가를 하다</var>
+			<str>V.하</str>
+			<org lg="si">凌駕_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>증가행위</sem_class>
+				<trans>surpass</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|추상적대상(능력)</sel_rst>
+					<sel_rst arg="Y" tht="CRT">인간|추상적대상(능력)</sel_rst>
+					<eg>열심히 하면 그를 능가하게 될 것이다.</eg>
+					<eg>나는 그의 창의력을 능가할 수 없다.</eg>
+					<eg>우리 회사의 경영 능력은 그 회사을 능가할 수 없다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물(제품)|추상적대상(품질)</sel_rst>
+					<sel_rst arg="Y" tht="CRT">구체물(제품)|추상적대상(품질)</sel_rst>
+					<eg>속도 면에서 어떤 전투기도 이 기종을 능가할 수 없다.</eg>
+					<eg>어떤 것도 그 차의 성능을 능가할 수 없다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

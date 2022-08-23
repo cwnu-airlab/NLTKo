@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>노릇</orth> <!--(호정은) 의존명사 사전에서 '노릇'을 다루었으므로 엔트리 자체를 삭제하여야 함. 목정수 선생님과도 상의 완료.(06/07/16)-->
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/22</cre_date>
+				<cre_writer>백인애</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/24</mod_date>
+				<mod_writer>박만규</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/07/12</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note></mod_note>
+				<mod_note>태그 내 나열된 정보 분할</mod_note>
+				<mod_note>파생어, 합성어, 명사 결합, 동사 결합 추가</mod_note>
+				<mod_note>센스1의 의미부류 수정(역할에서 일로)</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/08/25</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/17</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note>통사정보 수정</mod_note>
+			</mod>
+			<note>2000/09/14(백인애)</note>
+			<note>2001/01/30(정유진</note>
+			<note>2003/04/12(이호영)속담/격언 기술</note>
+			<note>2003/05/24(박만규)센스1,2,3 의미부류 수정</note>
+			<note>기타 유형 기술</note>
+			<note>센스1 예문 추가|동사연어구성을 향후 추가정보로 이동|명사연어 수정</note>
+			<note>센스2 예문 추가|동사연어구성을 향후 추가정보로 이동</note>
+			<note>센스3 예문 수정 및 추가|동사연어구성 삭제|한정사 제약 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="prefix">헛~</der>
+			<comp pos="n" type="prefix">병신~</comp>
+			<comp pos="n" type="prefix">종~</comp>
+			<comp pos="n" type="prefix">중~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">사자 없는 산에 토끼가 대장 ~ 한다</idm>
+			<idm type="etc">땅을 칠 ~</idm>
+		</idm_grp>
+		<sense n="1">  <!--(호정은) "직업, 직책으로 하는 일"(연세사전)-->
+			<sem_grp>
+				<eg>선생 ~을 한 지도 벌써 십수 년 째이다.</eg> 
+				<eg>이 청소부 ~을 하는 것도 이제 끝이다.</eg>
+				<trans>job</trans>
+				<domain></domain>
+				<reg>속어</reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>일</sem_class>
+				<lr>
+					<syn type="etc">역할</syn>
+					<syn type="etc">구실</syn>
+					<ant type="temp"></ant>
+					<rel>직업</rel>
+					<rel>직책</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">공무원 ~</comb_n>
+				<comb_n type="compound">선생 ~</comb_n>
+				<comb_n type="compound">관리 ~</comb_n>
+				<comb_v type="npred_vpred">                  <!--(호정은) 의존명사이기 때문에 적절하게 문형 줄 수 없음-->
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-가 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n></pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>일에 쫓겨 가족에게 남편 ~, 아비 ~ 제대로 못해 왔다.</eg>
+				<eg>그는 맏형으로서 이제까지 삼남매의 아비 ~을 해 왔었다.</eg>
+				<trans>role</trans>
+				<domain></domain>
+				<reg>속어</reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>역할</sem_class>
+				<lr>
+					<syn type="etc">짓</syn>
+					<ant type="temp"></ant>
+					<rel>역할</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">가장 ~</comb_n>
+				<comb_n type="compound">중매쟁이 ~</comb_n>
+				<comb_n type="compound">아비 ~</comb_n>
+				<comb_n type="compound">주인 ~</comb_n>
+				<comb_v type="npred_vpred">                  <!--(호정은) 의존명사이기 때문에 적절하게 문형 줄 수 없음-->
+					<form vcompound="no">~을 하다</form>
+					<frame>X-가 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n></pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>일이 그렇게 되다니, 참으로 기가 찰 ~이오.</eg>
+				<trans>situation</trans>
+				<trans>case</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>상태</sem_class>
+				<lr>
+					<syn type="etc">일</syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">                  <!--(호정은) 의존명사이기 때문에 적절하게 문형 줄 수 없음-->
+					<form vcompound="no">~ 이다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n></s_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>완벽</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/09</cre_date>
+				<cre_writer>한선혜</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/03</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/13</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v 추가</mod_note>
+				<mod_note>comp 추가</mod_note>
+				<mod_note>comb_v '~을 기하다' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>복합어, 동사결합 타입 수정</mod_note>
+			</mod>
+			<note>2003/01/13(유영) comp에 (av)추가, 예문추가, sem수정, sens1의 관련어(rel) 재고?요망</note>
+			<note>2003/02/03(이성헌)센스1의 eg수정보완('~하다'는 식의 표현 지양, 예문은 표제어가 조사와 결합한 형태를 쓸 것)</note>
+			<note>sem을 '속성값'에서 '상태'로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">完璧</org>
+			<hom exist="temp"></hom>
+			<comp pos="n" type="suffix">~성</comp>
+			<comp pos="n" type="suffix">~주의</comp>
+			<comp pos="a" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>저 체조 선수의 기교는 거의 ~에 가깝다.</eg>
+				<eg>이번 전시회로 그 화가는 자신의 능력이 거의 ~의 경지에 이르렀음을 보여주었다.</eg>
+				<trans>perfection</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>정도속성값</sem_class>
+				<lr>
+					<syn type="etc">완전</syn>
+					<ant type="temp"></ant>
+					<rel>결함</rel>
+					<rel>흠</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~에 가깝다</comb_aj>
+				<comb_n type="compound">~의 경지</comb_n>
+				<comb_n type="compound">~ 투구</comb_n>
+				<comb_n type="compound">~ 대비</comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 기하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 추구하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 이르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 도달하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n yn="no"/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

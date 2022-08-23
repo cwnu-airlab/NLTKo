@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>헤프다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/03/15</cre_date>
+				<cre_writer>강정연</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/30</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/20</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 정보 수정</mod_note>
+				<mod_note>lr 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>A</str>
+			<infl type="eu"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be wasteful</trans>
+				<trans>be not durable</trans>
+				<lr>
+					<syn type="perfect">마디다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체자연물|구체인공물</sel_rst>
+					<eg>이 비누는 물에 잘 녹아서 너무 헤프다.</eg>
+					<eg>연필을 타스 채 사 두었더니 너무 헤퍼서 안되겠다.</eg>
+					<eg>함께 쓰는 물건들은 늘 헤프게 마련이다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<n_appr>씀씀이</n_appr>
+					<eg>남편은 아내의 씀씀이가 지나치게 헤픈 것을 걱정했다.</eg>
+					<eg>그는 씀씀이가 헤퍼서 늘 돈에 허덕인다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(정|웃음|눈물|말)</sel_rst>
+					<eg>그녀는 정이 헤퍼서 큰 탈이다.</eg>
+					<eg>여자가 웃음이 헤프면 오해받기 쉬우니 조심해라.</eg>
+					<eg>그는 말이 헤퍼서 종종 친구들 사이에 불화를 일으키곤 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be not chaste</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<eg>경리과의 김양은 헤프기로 남자 사원들 사이에 소문이 나 있다.</eg>
+					<eg>동네 사람들은 그 집 딸이 헤프다고들 수군거렸다.</eg>
+					<eg>헤픈 여자를 좋아할 남자가 어디 있겠니?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

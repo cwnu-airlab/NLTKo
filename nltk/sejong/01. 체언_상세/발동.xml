@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>발동</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/19</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/06</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1 의미부류 '상태변화'를 수정, 센스1 선택제약 Y 수정, 센스3 n_v 수정 및 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스2 '개시행위', 센스3 결과행위를 수정</mod_note>
+			</mod>
+			<note>2003/10/15(박진호)센스1 의미부류 수정. 센스3 추가</note>
+			<note>2003/10/28(송인욱)센스1, 2의 예문 수정</note>
+			<add>2003/08/19(송인욱)센스1, 2의 동사자유구성으로 '~을 막다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">發動</org>
+		
+		</morph_grp>
+		<idm_grp>
+			<idm type="nv">~을 걸다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>선생님이 어느 남자분과 함께 계신 모습을 보자 우리의 호기심이 ~을 하기 시작했다.</eg>
+				<eg>경쟁이 치열해지자 또다시 그의 이기심이 ~이 되었다.</eg>
+				<trans>motion</trans>
+				<trans>activity</trans>
+				<sem_class>생성</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 Y-이 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 막다</form>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">계획</sel_rst>
+				<sel_rst arg="Y">심리상태</sel_rst>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>대통령의 비리에 대한 야당의 국정 조사권 ~ 요구에 여당은 강하게 반발했다.</eg>
+				<eg>정부는 앞으로 불법 파업에 맞서 신속하게 공권력을 ~을 하겠다고 발표했다.</eg>
+				<eg>어제부터 전국에 계엄령이 ~이 되어 거리에는 쥐새끼 한 마리도 보이지 않는다.</eg>
+				<trans>exercise</trans>
+				<sem_class>추상적행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 신속하다</comb_aj>
+				<comb_aj type="appr">~이 늦다</comb_aj>
+				<comb_n type="compound">공권력의 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에의해 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>X-이 Y-을 ~을 시키다</frame>
+				</comb_v>
+				<sel_rst arg="X">국가</sel_rst>
+				<sel_rst arg="X">국가기관(정부|의회|경찰)</sel_rst>
+				<sel_rst arg="X">군대</sel_rst>
+				<sel_rst arg="Y">추상적대상(공권력|계엄령)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>너는 미리 차에 ~을 걸고 있어라.</eg>
+				<trans>motion</trans>
+				<sem_class>개시행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 걸다</form>
+					<frame>X-이 Y-에 ~을 하다</frame>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 걸리다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 멎다</form><!--추가(김)-->
+				</comb_v>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

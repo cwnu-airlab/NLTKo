@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>발족</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/04</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/04</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>발족시키다 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스2 추가, 센스1 의미부류 '결과행위'를 수정, 센스1 n_v 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스1,2 최대논항구조 기술</mod_note>
+			</mod>
+			<add>2003/11/04(송인욱)동사자유구성으로 '~을 준비하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">發足</org>
+		
+			<comp pos="n" type="suffix">~식</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리 학회가 ~을 한 지 벌써 5년이 다 됐다.</eg>
+				<eg>이 모임의 성격이 처음 ~을 할 때와는 많이 달라진 것 같다.</eg>
+				<eg>이번에 ~이 된 산악회에 참여하겠다는 사람이 의외로 많았다.</eg>
+				<trans>starting</trans>
+				<trans>beginning</trans>
+				<sem_class>생성</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 준비하다</form>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">학술단체</sel_rst>
+				<sel_rst arg="X">종교단체</sel_rst>
+				<sel_rst arg="X">취미단체</sel_rst>
+				<sel_rst arg="X">단체의부서</sel_rst>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>이 프로그램 수료생들은 선교회를 ~을 했다.</eg>
+				<eg>1946년 1월 미군정은 남조선국방경비대를 ~을 시켰다.</eg>
+				<eg>선생의 위업을 기리기 위해 지난해 이 지역을 중심으로 기념사업회가 ~이 되었다.</eg>
+				<trans>starting</trans>
+				<trans>inauguration</trans>
+				<sem_class>창조행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 시키다</form>
+					<frame>X-이 Y-을 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">단체</sel_rst>
+				<sel_rst arg="Y">단체의부서</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

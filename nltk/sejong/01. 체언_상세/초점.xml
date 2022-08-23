@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>초점</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/20</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>2003/08/22(김이정)sense4 영어대역어, 의미부류 확인 요망</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/07</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>sense3의 sem을 '관계수학적대상'에서 '도형의부분'으로 수정;sense4의 요구 확인</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/01</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1의 의미부류 수정;동사결합 정보, 논항 명사구, 논항 의미정보 추가;센스2에 동사결합정보, 명사결합 정보, 논항 명사구, 논항 의미정보 추가;센스3에 논항 명사구, 논항 의미정보 추가;센스4에 동사결합 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>센스1 n_n 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/03/06</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>정보 확장 내용 교열</mod_note>
+				<mod_note>센스4의 의미부류를 '신체부위'에서 '추상적대상'으로 수정</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/07</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<add>sense4 ~을 잃다</add>
+			<add>~이 없다</add>
+			<add>sense1 ~을 두다|흐리다</add>
+			<add>sense2 ~이 맞다|맞지 않다|흐리다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<var type="xx">촛점</var> <!-- 추가함 -->
+			<str type="N_N"></str>
+			<org lg="si">焦點</org>
+		
+		</morph_grp>
+		<idm_grp>
+			<idm type="etc"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리는 앞으로 통신사업에 ~을 두기로 했다.</eg>
+				<trans>focus</trans>
+				<trans>focal point</trans>
+				<trans>heart</trans>
+				<trans>the very point</trans>
+				<sem_class>추상적부분</sem_class> <!-- '속성'을 수정 -->
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+					<comb_aj type="appr"></comb_aj>
+					<comb_n type="compound">관심의 ~</comb_n>
+					<comb_n type="compound">논의의 ~</comb_n>
+					<comb_n type="compound">논쟁의 ~</comb_n>
+					<comb_n type="compound">문제의 ~</comb_n>
+					<comb_v type="narg_vpred"> <!-- 추가함 -->
+						<form vcompound="no">~을 두다</form>
+					</comb_v>
+					<comb_v type="narg_vpred"> <!-- 추가함 -->
+						<form vcompound="no">~을 흐리다</form>
+					</comb_v>
+					<comb_v type="narg_vpred"> <!-- 추가함 -->
+						<form vcompound="no">~을 맞추다</form>
+					</comb_v>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가함 -->
+				<sel_rst arg="X">온</sel_rst> <!-- 추가함 -->
+				<cl type="uni"></cl>
+				<prt></prt>
+				<av></av>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 카메라의 ~을 맞췄다.</eg>
+				<trans>focus</trans>
+				<sem_class>구체물의부분</sem_class>
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+					<comb_aj type="appr">~이 흐리다</comb_aj> <!-- 추가함 -->
+					<comb_n type="compound">~ 거리</comb_n> <!-- 추가함 -->
+					<comb_v type="narg_vpred"> <!-- 추가함 -->
+						<form vcompound="no">~을 맞추다</form>
+					</comb_v>
+					<comb_v type="narg_vpred"> <!-- 추가함 -->
+						<form vcompound="no">~이 맞다</form>
+					</comb_v>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가함 -->
+				<sel_rst arg="X">도구|기구</sel_rst> <!-- 추가함 -->
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>포물선은 한 개의 ~을 가지고 있다.</eg>
+				<trans>focus</trans>
+				<domain>수학</domain>
+				<sem_class>도형의부분</sem_class>
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+					<comb_aj type="appr"></comb_aj>
+					<comb_n type="compound"></comb_n>
+					<comb_v type="narg_vpred">
+						<form vcompound="no">~을 표시하다</form>
+						<frame></frame>
+					</comb_v>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가함 -->
+				<sel_rst arg="X">도형</sel_rst> <!-- 추가함 -->
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+		<sense n="4">
+			<sem_grp>
+				<eg>그녀는 ~을 잃은 시선으로 창밖을 내다보고 있었다.</eg>
+				<trans>focus</trans>
+				<sem_class>추상적부분</sem_class><!--신체부위로 보기 어려움. '신체부위'를 일단 '추상적대상'으로 수정(김)-->
+				<lr>
+					<syn type="etc"></syn>
+					<ant type="etc"></ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+					<comb_aj type="appr"></comb_aj>
+					<comb_n type="compound"></comb_n>
+					<comb_v type="narg_vpred"> <!-- 추가함 -->
+						<form vcompound="no">~을 잃다</form>
+					</comb_v>
+					<comb_v type="narg_vpred"> <!-- 추가함 -->
+						<form vcompound="no">~을 모으다</form>
+					</comb_v>
+					<comb_v type="narg_vpred"> <!-- 추가함 -->
+						<form vcompound="no">~이 없다</form>
+					</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X"></sel_rst>
+				<cl type="uni"></cl>
+				<prt></prt>
+				<av></av>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

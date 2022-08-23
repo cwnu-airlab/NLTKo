@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>예언되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/29</cre_date>
+				<cre_writer>박철우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/06/27</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">예언이 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<org lg="si">豫言_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be prophesied</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+			<subsense>
+					<sel_rst arg="X" tht="THM">사건(일|사고|전쟁|탄생)</sel_rst>
+					<sel_rst arg="Y" tht="FNS">S것</sel_rst>
+					<eg>이탈리아, 프랑스, 스페인에서 도화선이 된 전쟁은 알프스 산록과 호수까지 황폐화시켜, 중립국 스위스도 이슬람의 말발굽에 밟힐 것으로 예언돼 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=S1-고 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="CNT"/>
+					<eg>그 북방 나라들은 문호를 개방하지 않고 공산체제를 고수하면서 동맹국이 되어 남침을 감행한다고 예언돼 있다.</eg>
+					<eg>오래된 예언서를 보니까 그 지역에서 큰 인물이 태어나리라고 예언돼 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상|상태|사건|현상|행위</sel_rst>
+					<eg>20세기 말 지구의 멸망이 그에 의해 예언되었다.</eg>
+					<eg>도선 대사에 의해 왕건의 등극과 삼국의 재통일이 예언되었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

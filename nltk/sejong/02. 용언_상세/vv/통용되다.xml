@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>통용되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/25</cre_date>
+				<cre_writer>박철우</cre_writer>
+				<cre_writer>곽새라</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/08/30</mod_date>
+				<mod_writer>박진호</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">통용이 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<org lg="si">通用_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>단독행위</sem_class>
+				<trans>be available</trans>
+				<trans>be circulated</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에서 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">돈(화폐)|단위(도량형)|구체인공물</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소|인간집단</sel_rst> <!-- 논항은 아님. -->
+					<eg>달러는 전세계에서 널리 통용된다.</eg>
+					<eg>마일을 단위로 하는 거리 계산법은 미국에서만 통용되는 것 같다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>단독행위</sem_class>
+				<trans>be understood</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">사실명제|사조|예술|작품</sel_rst>
+					<sel_rst arg="Y" tht="FNS">사실명제|사조</sel_rst>
+					<eg>낭만주의는 계몽주의에 반기를 든 사조로 통용된다.</eg>
+					<eg>디키의 예술론에서 예술계는 어떤 대상을 예술이 되게 하는 개념으로 통용된다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">사실명제|사조|예술|작품</sel_rst>
+					<sel_rst arg="Y" tht="FNS">S것</sel_rst>
+					<eg>낭만주의는 계몽주의에 반기를 든 것으로 통용된다.</eg>
+					<eg>철학에서 이성과 감성은 서로 다른 것으로 통용되어 왔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>대칭적행위</sem_class>
+				<trans>be available</trans>
+				<trans>be in common use</trans>
+			</sem_grp>
+			<frame_grp type="FIN" cor="sym" n="1">
+				<frame>X=N0-이 Y=N1-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">돈|구체인공물</sel_rst>
+					<sel_rst arg="Y" tht="COM">돈|구체인공물</sel_rst>
+					<eg>요즘에는 백화점 같은 곳에서 상품권이 화폐와 통용되기도 한다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="sym" n="1">
+				<frame>X+Y=N0-이 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">돈|구체인공물</sel_rst>
+					<sel_rst arg="Y" tht="THM">돈|구체인공물</sel_rst>
+					<eg>요즘에는 백화점 같은 곳에서 상품권과 화폐가 통용되기도 한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

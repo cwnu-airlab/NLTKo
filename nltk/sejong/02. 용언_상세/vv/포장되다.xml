@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>포장되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/07</cre_date>
+				<cre_writer>임동식</cre_writer>
+				<cre_writer>권재일</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/22</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/07/15</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<org lg="si">包裝_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>get packed</trans>
+				<trans>get wrapped</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="MAT">구체물(포장지|골판지|상자)</sel_rst>
+					<eg>선물은 초라해 보이는 종이로 포장되어 있었다.</eg>
+					<eg>화려한 종이로 포장되어 있지만 내용은 보잘것 없습니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>get overpraised</trans>
+				<trans>get flattered</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(의식|생각|발언)</sel_rst>
+					<sel_rst arg="Y" tht="INS">추상적대상(달변|수사|낱말)</sel_rst>
+					<eg>보잘 것 없는 생각을 현란한 수사로 포장하는 것도 재주라면 재주지.</eg>
+					<eg>그의 독재 행각은 구국의 결단 운운하는 화려한 낱말로 포장되었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(의식|생각|업적)</sel_rst>
+					<sel_rst arg="Y" tht="INS">추상적대상(의식|생각|업적)</sel_rst>
+					<eg>졸면서 한 헛소리가 세상을 뒤집을 위대한 사상으로 포장되다니.</eg>
+					<eg>자의식 과잉의 중얼거림이 시대의 걸작으로 포장되는 것이 작금의 문학계의 현실이다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">S는것</sel_rst>
+					<sel_rst arg="Y" tht="INS">S는것</sel_rst>
+					<eg>지나가는 말로 한 마디 한 것이 명령을 내린 것으로 포장되었다.</eg>
+					<eg>그냥 별 생각없이 중얼거린 것이 내 생각을 반영하는 것으로 포장되었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/07</cre_date>
+				<cre_writer>임동식</cre_writer>
+				<cre_writer>권재일</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/22</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2006/07/15</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<org lg="si">鋪裝_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>get paved</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소(도로|길|거리)</sel_rst>
+					<sel_rst arg="Y" tht="INS">구체물(아스팔트|돌|타일|보도블럭)</sel_rst>
+					<eg>도로가 아스팔트로 포장되니 차가 다니기에 편하다.</eg>
+					<eg>도로가 시멘트로 포장되니 눈이 부셔서 다니기에 좋지 않다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

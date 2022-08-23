@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>출력</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/23</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>2003/08/24(김이정)</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/08</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>sense1의 eg추가 보완;sense1의 sem을 '물리학적대상'에서 '힘'으로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/10</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1의 의미부류 수정;논항명사구, 의미정보 추가;센스2를 '인쇄'와 '아웃풋'으로 분할;의미부류 수정;논항명사구 추가;논항 의미부류 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>센스2와 3의 syn 추가</mod_note>
+				<mod_note>센스2와 3의 기능동사 추가(~이 되다)</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/02/17</mod_date>
+				<mod_writer>박만규</mod_writer>
+	            		<mod_note>수정보완한정보없음</mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/10</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">出力</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 차는 최고 ~이 655 마력이다.</eg>
+				<eg>최근에 구입한 양수기의 ~이 아주 좋다.</eg>
+				<trans>generating power</trans>
+				<trans>generating capacity</trans>
+				<trans>output of power</trans>
+				<sem_class>크기</sem_class> <!-- '힘' 수정, '힘' 부류보다는 '속성' 부류의 특성을 보이는 듯 -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 작다</comb_aj>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 올리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>디지털카메라로 찍은 사진을 곧바로 ~을 할 수 있는 프린터가 출시되었다.</eg>
+				<trans>print</trans>
+				<sem_class>창조행위</sem_class> <!-- 순간적행위 수정 -->
+				<lr>
+					<syn type="etc">인쇄</syn>
+					<syn type="perfect">아웃풋</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">컬러 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|기계</sel_rst>
+				<sel_rst arg="Y">회화|텍스트담지물|텍스트|작품|사실명제</sel_rst>
+				<cl type="uni">차례</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>자료 분석이 끝난 후 결과가 화면에 ~이 되었다.</eg>
+				<trans>output</trans>
+				<sem_class>종료행위</sem_class> <!-- 순간적행위 수정 -->
+				<lr>
+					<syn type="perfect">아웃풋</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form> <!-- 형태정보 추가 -->
+					<frame>X-이 Y-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에 ~이 되다</frame>
+					<frame>Y-이 X-에의해 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str> <!-- 추가함 -->
+				<max_n_str>Y-의 ~</max_n_str> <!-- 추가함 -->
+				<sel_rst arg="X">기계(컴퓨터|계산기)</sel_rst>
+				<sel_rst arg="Y">회화|텍스트담지물|텍스트|작품|사실명제|결과</sel_rst>
+				<cl type="uni">차례</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

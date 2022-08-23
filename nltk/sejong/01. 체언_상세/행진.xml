@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>행진</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/05/14</cre_date>
+				<cre_writer>홍재성;박치원</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/16</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/17</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note>n_v 형식 수정</mod_note>
+				<mod_note>최대논항구조 수정</mod_note>
+				<mod_note>대역어 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/09</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note>add를 명사결합, 동사결합정보로 이동</mod_note>
+			</mod>
+			<note>1999/06/15</note>
+			<note>2003/04/12(김현승)예문 수정</note>
+			<note>2003/04/16(고길수)예문 수정</note>
+			<note>comb_aj 정보 보충</note>
+			<note>comb_v정보 add항목으로 이전</note>
+			<note>sel_resl정보 기술</note>
+			<note>기능동사정보 'Y-을'을 삭제</note>
+			<note>단위표현 추가</note>
+			<note>명사구 정보 추가</note>
+			<note>센스2 추가</note>
+			<note>의미부류를 '행사'에서 '이동행위'로 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">行進</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~곡</der>
+			<der pos="n" type="prefix">대~</der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>시위대가 역전에서 시청으로 ~을 했다.</eg>
+				<trans>march</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>이동행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>걸음</hyper>
+					<hypo>분열</hypo>
+					<hypo>결혼</hypo>
+					<hypo>속보~</hypo>
+					<rel>행군</rel>
+					<rel>행렬</rel>
+					<rel>가장행렬</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 경쾌하다</comb_aj>
+				<comb_aj type="appr">~이 보무당당하다</comb_aj>
+				<comb_aj type="appr">~이 빠르다</comb_aj>
+				<comb_aj type="appr">~이 느리다</comb_aj>
+				<comb_n type="compound">가두 ~</comb_n>
+				<comb_n type="compound">자전거 ~</comb_n>
+				<comb_n type="compound">연승 ~</comb_n>
+				<comb_n type="compound">무역 흑자 ~</comb_n>
+				<comb_n type="compound">연속 안타 ~</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+					<frame>X-이 Z-로 ~을 하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-의 Y-로의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">지상장소|길|다리|관계장소|부분장소|지역</sel_rst>
+				<sel_rst arg="Z">장소</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>전쟁이 끝났다는 소식이 전해지면서 연일 주가의 상승 ~이 계속되고 있다.</eg>
+				<eg>우리 팀은 오늘도 이겨 열 경기째 연승 ~을 하고 있다.</eg>
+				<trans>continuance</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>증가행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 계속하다</form>
+					<frame>X-이 ~을 계속하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 멈추다</form>
+					<frame>X-이 ~을 멈추다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 시작하다</form>
+					<frame>X-이 ~을 시작하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단|속성</sel_rst>
+				<sel_rst arg="Y">행위|상태변화|현상</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

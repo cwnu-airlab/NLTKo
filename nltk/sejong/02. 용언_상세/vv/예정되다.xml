@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>예정되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/29</cre_date>
+				<cre_writer>박철우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/06/27</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">예정이 되다</var>
+			<cntr opt="opt" type="oi"/>
+			<str>N.되</str>
+			<org lg="si">豫定_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be prearranged</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">계획사건</sel_rst>
+					<sel_rst arg="Y" tht="FNS">시간|시간단위(시|일|월|년)</sel_rst>
+					<n_appr arg="X">시간</n_appr>
+					<eg>우리 모임은 7시로 예정되어 있다.</eg>
+					<eg>그 건물의 준공은 다음달 말로 예정되어 있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">계획사건</sel_rst>
+					<sel_rst arg="Y" tht="FNS">장소</sel_rst>
+					<n_appr arg="X">장소</n_appr>
+					<eg>다음 번 대회 장소는 서울로 예정되어 있다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="FNS">S기|S것</sel_rst>
+					<eg>우리 팀은 저녁 7시에 회의를 가지기로 예정되어 있다.</eg>
+					<eg>저는 11월말까지 귀국하는 것으로 예정되어 있습니다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>Y=N1-에 X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">계획사건</sel_rst>
+					<sel_rst arg="Y" tht="LOC">시간|시간단위(시|일|월|년)</sel_rst>
+					<eg>7월에는 지리산 탐사가 예정되어 있다.</eg>
+					<eg>돌아오는 봄에는 음악회가 예정되어 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

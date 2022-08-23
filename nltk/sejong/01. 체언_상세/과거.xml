@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>과거</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/09/03</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/06</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/19</mod_date>
+				<mod_writer>임근석</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/01/07(이하영)sense1,2의 예문추가</note>
+			<note>2003/03/06(고길수)센스1의 magn에 '먼 ~' 추가</note>
+			<note>sense1,2의 동사자유구성을 add 항목으로 옮김</note>
+			<note>sense1의 의미부류 수정</note>
+			<note>sense1의 형용사자유구성 '지난 ~' 삭제함</note>
+			<note>sense2의 의미부류값 불확실</note>
+			<note>센스1에 예문 추가</note>
+			<note>센스2에 예문 추가</note>
+			<note>센스2의 pre_s에 'S은 ~' 추가</note>
+			<note>센스2의 의미부류를 '시간'에서 '속성'으로 수정</note>
+			<note>센스2의 형용사 자유구성에 '복잡하다' 추가</note>
+			<note>센스3의 의미부류 재검토 필요</note>
+			<add>sense1의 동사자유구성 '~가 되다</add>
+			<add>sense2의 동사자유구성 '~가 있다</add>
+			<add>~로 돌아가다</add>
+			<add>~로부터 유래하다' 추가</add>
+			<add>~를 묻다|숨기다|들추다|알다|알리다|드러내다' 추가</add>
+			<add>~를 생각하다|회고하다|돌아보다|돌이키다|알다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">過去</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~사</der>
+			<comp pos="n" type="suffix">~분사</comp>
+			<comp pos="n" type="suffix">~동사</comp>
+			<comp pos="n" type="suffix">~완료</comp>
+			<comp pos="n" type="suffix">~진행</comp>
+			<comp pos="n" type="suffix">~지향</comp>
+			<comp pos="n" type="suffix">~시제</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>타임머신만이 ~나 미래로의 여행을 가능하게 할 것이다.~에는 생각지도 못했던 일들이 지금 현실로 다가오고 있다.그는 ~에 경찰을 했었다.그는 아직도 ~의 생활을 버리지 못하고 있다.</eg>
+				<trans>past</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>과거</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>현재;미래</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">먼 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 돌아가다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로부터 유래하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 생각하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 남자는 남에게 알리고 싶지 않은 ~가 있다.그는 그녀의 ~를 캐묻고 다녔다.그는 ~가 복잡하다.그는 사람들에게 자신의 ~를 속여왔다.그는 아직도 ~를 잊지 못하고 있다.</eg>
+				<trans>pasthistory</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>현재;미래</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 복잡하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 돌리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 묻다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 따지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 덮다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 생각하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 알리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S은 ~</s_n>
+			</syn_grp>
+		</sense>
+		<sense n="3">
+			<sem_grp>
+				<eg>영어 동사에서 -ed로 끝나는 것은 거의 ~를 뜻한다.</eg>
+				<trans>past tense</trans>
+				<domain>언어</domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>범주</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>시제</hyper>
+					<rel>과거진행;과거완료;현재;현재진행;미래;미래완료</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 만들다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/09/03</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/06</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/01</mod_date>
+				<mod_writer>임근석</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/01/07(이하영)의미부류 수정</note>
+			<note>2003/03/06(고길수)동사결합 정보 추가</note>
+			<note>동사자유구성을 add 항목으로 옮김</note>
+			<add>~에 급제하다|응시하다|대비하다' 추가</add>
+			<add>동사결합으로 '~를 치다|치르다' 추가</add>
+			<add>동사자유구성 '~를 보다|준비하다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">科擧</org>
+		
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~급제</comp>
+			<comp pos="n" type="suffix">~시험</comp>
+			<comp pos="n" type="suffix">~제도</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>예전에는 ~에 급제하는 것을 가문의 영광으로 생각하였다.</eg>
+				<trans>old state examination</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>시험</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>시험</hyper>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 어렵다</comb_aj>
+				<comb_aj type="appr">~가 쉽다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="temp">
+					<form vcompound="temp"></form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

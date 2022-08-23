@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>아마</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/20</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/20</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>syn기술</mod_note>
+				<mod_note>n_n기술</mod_note>
+				<mod_note>n_v 이하 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/01</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>형식검토</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/25</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">亞麻</org>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~의 껍질 섬유로는 리넨을 짠다.</eg>
+				<trans>flax</trans>
+				<sem_class>풀</sem_class>
+				<lr>
+					<syn type="perfect">린트</syn>
+					<syn type="perfect">양삼</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~의 대용품</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 키우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 재배하다</form>
+					<frame></frame>
+				</comb_v>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+				<s_n>S는~ </s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/20</cre_date>
+				<cre_writer>기영인</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/20</mod_date>
+				<mod_writer>기영인</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>예문을 조사 결합형으로 수정</mod_note>
+				<mod_note>엔트리3 삭제</mod_note>
+				<mod_note>sem수정</mod_note>
+				<mod_note>ant기술</mod_note>
+				<mod_note>n_v 이하 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/28</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>형식검토</mod_note>
+			</mod>
+			<note>2003/10/20(기영인)'아마'가 일본의 영어('아마추어') 차용이라는 것 표기불가, 검토요망</note>
+			<!--표기하였음(권)-->
+			<note>센스1 추후 전문영역(운동/바둑) 상세화 필요</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="lng">아마추어</var>
+			<org lg="en">ama</org><!--영어 '아마추어'의 일본식 차용임-->
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 사람은 바둑을 꽤 잘 두면서도 정식으로 등록을 하지 않고 ~로 활동하고 있다.</eg>
+				<trans>amateur</trans>
+				<domain>운동</domain>
+				<sem_class>인성속성값</sem_class>
+				<lr>
+					<ant type="compl">프로</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이다</form>
+					<frame>X-이 Y-에서 ~이다</frame>
+					<frame>X-이 Y-에대해 ~이다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~로 활동하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">행위</sel_rst>
+				<s_n>S는~ </s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

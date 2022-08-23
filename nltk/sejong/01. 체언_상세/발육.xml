@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>발육</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/04</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/04</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>'왕성하다' n_v에서 n_aj로 이동, n_aj 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<add>2003/11/04(송인욱)동사자유구성으로 '~이 왕성하다</add>
+			<add>~을 돕다|촉진시키다|막다|억제하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">發育</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그 아이는 ~이 빨라서 다른 아이들보다 머리 하나는 더 크다.</eg>
+				<eg>아이들이 정상적인 ~을 하는 데는 풍부한 영양 섭취가 가장 중요하다.</eg>
+				<eg>이 나무는 햇볕을 충분히 쐬지 못해서 ~이 잘 되지 않았다.</eg>
+				<eg>~을 인위적으로 촉진시키는 것도 결코 바람직한 일은 아니다.</eg>
+				<trans>growth</trans>
+				<trans>development</trans>
+				<sem_class>생물생리현상</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 빠르다</comb_aj>
+				<comb_aj type="appr">~이 더디다</comb_aj>
+				<comb_aj type="appr">~이 좋다</comb_aj>
+				<comb_aj type="appr">~이 나쁘다</comb_aj>
+				<comb_aj type="appr">~이 왕성하다</comb_aj>
+				<comb_aj type="appr">~이 정상적이다</comb_aj><!--관형형을 수정(김)-->
+				<comb_aj type="appr">~이 불완전하다</comb_aj><!--관형형을 수정(김)-->
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 돕다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 촉진시키다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 막다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 억제하다</form>
+				</comb_v>
+				<sel_rst arg="X">생물</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>소개하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/25</mod_date>
+				<mod_writer>허용</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/10/20</mod_date>
+				<mod_writer>음두은</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">소개를 하다</var>
+			<str>N.하</str>
+			<org lg="si">紹介_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>방향성행위</sem_class>
+				<trans>recomand</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에게|에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간|구체물(상품|제품)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|인간집단</sel_rst>
+					<eg>연구소는 그 학교에 기영이를 소개했다.</eg>
+					<eg>김과장은 그 회사에 그 땅을 소개했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>방향성행위</sem_class>
+				<trans>introduce</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에게 Y=N1-을 W=N3-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간</sel_rst>
+					<sel_rst arg="W" tht="FNS">속성인간</sel_rst>
+					<eg>영희는 오늘 저녁 철수를 부모님께 소개하려고 한다.</eg>
+					<eg>영희는 철수를 부모님께 애인으로 소개했다.</eg>
+					<eg>그는 우리들에게 깡패를 국회의원으로 소개했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에게 Y=N1-을 W=S3-다고 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">인간</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간</sel_rst>
+					<sel_rst arg="W" tht="CNT"></sel_rst>
+					<eg>영희는 부모님께 철수를 학교에서 가장 친한 친구라고 소개했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>방향성행위</sem_class>
+				<trans>present</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에게|에 Y=N1-을 W=N3-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단|텍스트</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|인간집단</sel_rst>
+					<sel_rst arg="W" tht="FNS">온</sel_rst>
+					<eg>오늘 이 자리는 저희 회사의 신제품을 고객 여러분들께 소개하기 위해 마련되었습니다.</eg>
+					<eg>이제부터는 저희 교육부의 계획을 교수님들께 간략하게 소개하고자 합니다.</eg>
+					<eg>그는 우리들에게 새로 부임해올 부장의 경력에 대해 장황하게 소개했다.</eg>
+					<eg>교수님은 우리에게 포스트구조주의를 프랑스 현대 철학 사조로 소개했다.</eg>
+					<eg>김교수는 학생들에게 들뢰즈를 프랑스 철학의 선구자로 소개했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Z=N2-에게 Y=N1-을|에대해 W=S3-다고 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단|텍스트</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|인간집단</sel_rst>
+					<sel_rst arg="W" tht="CNT"></sel_rst>
+					<eg>그는 우리들에게 새로 부임해올 부장의 경력을 장황하게 소개했다.</eg>
+					<eg>교수님은 우리에게 포스트구조주의를 프랑스 현대 철학의 주된 사조라고 소개했다.</eg>
+					<eg>김교수는 학생들에게 들뢰즈에 대해 프랑스 철학의 선구자로 볼 수 있다고 소개했다.</eg>
+					<eg>이것이 새로 나온 신제품 냉장고에 대해 소개하는 책자이다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단|텍스트</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|인간집단</sel_rst>
+					<sel_rst arg="W" tht="CNT"></sel_rst>
+					<eg>그는 동료들이 위기상황에서도 침착하게 행동했던 것을 우리에게 자랑스럽게 소개했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|인간집단|텍스트</sel_rst>
+					<sel_rst arg="Y" tht="THM">Q</sel_rst>
+					<sel_rst arg="Z" tht="GOL">인간|인간집단</sel_rst>
+					<sel_rst arg="W" tht="CNT"></sel_rst>
+					<eg>그는 어떻게 비행기 사고의 생존자를 구했는가를 언론에 상세히 소개했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

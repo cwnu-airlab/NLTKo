@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>살생</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/12</cre_date>
+				<cre_writer>김미순</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/01</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>기능동사구문 Y논항 삭제</mod_note>
+				<mod_note>논항선택제약 수정</mod_note>
+				<mod_note>동사연어 기입</mod_note>
+				<mod_note>예문 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/01</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>의미부류 물리적행위에서 파괴행위로 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/09</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>n_v 유형을 'npred_vsupvar'로 수정</mod_note>
+				<mod_note>add 사항 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/22</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">殺生</org>
+		
+			<comp pos="n" type="suffix">~부</comp> <!--'부'가 어근 목록에는 없음(호정은)-->
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>불교에서는 ~을 금하고 있다.</eg>
+				<eg>밀렵꾼들이 지리산에서 마구 ~을 저지르다가 발각되었다.</eg>
+				<trans>destruction of life</trans>
+				<sem_class>파괴행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr"></comb_aj>
+				<comb_n type="compound">~ 금지</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 저지르다</form>
+					<frame>X-이 ~을 저지르다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 범하다</form>
+					<frame>X-이 ~을 범하다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 금하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

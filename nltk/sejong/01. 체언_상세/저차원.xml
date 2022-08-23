@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>저차원</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/05</cre_date>
+				<cre_writer>유영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/23</mod_date>
+				<mod_writer>박재연</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/28</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>내부구조 정보 수정, 의미부류 속성에서 낮은정도로 수정하고 따라서 서술성명사로 처리</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/06</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/17</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note></note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="R_N">저+차원</str>
+			<org lg="si">低次元</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~적</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>우리는 재미로 보는 운세나 사행심만을 조장하는 그런 ~의 정보들은 제공하지 않습니다.</eg>
+				<trans>low dimensionbelow the level</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>낮은정도</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="dir">고차원</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~의 사고</comb_n>
+				<comb_n type="compound">~의 감정</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~이다</form><!--김성용(2005/07/28)의미부류가 속성값 부류이기 때문에 서술성 명사로 처리-->
+					<frame>X-의 Y-이 ~이다</frame>
+				</comb_v>
+				<max_n_str></max_n_str><!--김성용(2005/07/28)이 정보를 기입할 수 있을지?-->
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">심리상태|인지상태</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

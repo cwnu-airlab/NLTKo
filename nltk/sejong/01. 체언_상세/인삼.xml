@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>인삼</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/06/15</cre_date>
+				<cre_writer>정유진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/06/18</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/03</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note>add의 동사자유결합정보는 적정술어라기 보다는 일반술어에 가까워 기술하지 않고 그냥 놔둠</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/04</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>1999/10/04</note>
+			<note>2000/07/03</note>
+			<note>2003/05/20(이하영)sense1 예문 수정 및 추가</note>
+			<note>2003/06/18(고길수)</note>
+			<note>sense1 동사자유구성 중 일부 삭제, 일부는 add항목으로 옮김</note>
+			<note>sense2 예문 추가</note>
+			<note>sense2 의미부류 수정</note>
+			<note>sense2의 동사자유구성을 add항목으로 옮김</note>
+			<add>~을 먹다|달이다|복용하다|음용하다|사다|팔다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="xs">삼</var>
+			<str type="temp"></str>
+			<org lg="si">人蔘</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~차</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 곳의 토질은 ~을 재배하기에 유리하다.~을 캘 때에는 잔뿌리가 다치지 않도록 조심해야 한다.</eg>
+				<trans>ginseng</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>뿌리</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>약초</hyper>
+					<rel>산삼</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 캐다</form>
+					<frame>X-이 Y-에서 ~을 캐다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 재배하다</form>
+					<frame>X-이 Y-에서 ~을 재배하다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 수확하다</form>
+					<frame>X-이 Y-에서 ~을 수확하다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 심다</form>
+					<frame>X-이 Y-에 ~을 심다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">장소</sel_rst>
+				<cl type="uni">뿌리</cl>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>몸에 열이 많은 사람에게는 ~이 맞지 않는다.어머니가 ~을 넣고 삼계탕을 끓여주셨다.</eg>
+				<trans>ginseng</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>자연음식물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hypo>홍삼</hypo>
+					<hypo>수삼</hypo>
+					<rel>산삼</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 좋다</comb_aj>
+				<comb_aj type="appr">~이 나쁘다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 맞다</form>
+					<frame>X-이 ~이 맞다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 받다</form>
+					<frame>X-이 ~이 받다</frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 듣다</form>
+					<frame>X-이 ~이 듣다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">뿌리</cl>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

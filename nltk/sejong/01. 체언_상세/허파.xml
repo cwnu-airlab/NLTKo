@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>허파</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/01</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/31</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/17</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note>n_v 정보 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/09</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note>add(~로 숨쉬다)를 동사결합정보로 이동</mod_note>
+			</mod>
+			<note>2000/07/10(김종명)동위어 삭제</note>
+			<note>2000/07/15</note>
+			<note>2000/07/19</note>
+			<note>2001/01/30(김미순)</note>
+			<note>2001/0130</note>
+			<note>2003/02/14(이민우)</note>
+			<note>2003/03/22(김종명)</note>
+			<note>2003/03/31(이민우)</note>
+			<note>동사 자유구성 수정</note>
+			<note>동사 자유구성 추가</note>
+			<note>분류사 하위부류 입력</note>
+			<note>의미하위부류 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="n" type="suffix">~꽈리</comp>
+			<comp pos="n" type="suffix">~동맥</comp>
+			<comp pos="n" type="suffix">~디스토마</comp>
+			<comp pos="n" type="suffix">~정맥</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="prv">~에 바람(이) 들다</idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>담배를 피우면 ~에 좋지 않다</eg>
+				<trans>lung</trans>
+				<domain>의학</domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>내장</sem_class>
+				<lr>
+					<syn type="etc">폐</syn>
+					<syn type="etc">폐장</syn>
+					<ant type="temp"></ant>
+					<hyper>내장</hyper>
+					<coord>간</coord>
+					<coord>심장</coord>
+					<coord>위</coord>
+					<holo>신체</holo>
+					<mero>허파꽈리</mero>
+					<rel>기관지</rel>
+					<rel>숨</rel>
+					<rel>호흡</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 보호하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 숨쉬다</form>
+					<frame></frame>
+				</comb_v>
+				
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

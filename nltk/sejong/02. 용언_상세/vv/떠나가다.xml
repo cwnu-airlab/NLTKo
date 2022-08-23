@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>떠나가다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/20</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+				<mod_note>04년 형식 변경</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="obl" type="a"/>
+			<str>떠나.가</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>소멸</sem_class>
+				<trans>have (something) blown off</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="LOC">장소</sel_rst>
+					<eg>학생들은 교실이 떠나갈 정도로 시끄럽게 떠들었다.</eg>
+					<eg>이미자의 노래가 끝나자 청중들은 극장이 떠나가게 박수를 보냈다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>이동행위</sem_class>
+				<trans>leave</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 Z=S2-러 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|교통기관(배|기차)</sel_rst>
+					<sel_rst arg="Y" tht="DIR">장소</sel_rst>
+					<sel_rst arg="Z" tht="PUR"></sel_rst>
+					<eg>순이는 돈을 벌러 중동으로 떠나가는 애인을 바라보며 눈물을 글썽였다.</eg>
+					<eg>영수는 물리학을 공부하러 미국으로 떠나갔다.</eg>
+					<eg>석탄을 실으러 배가 인천으로 떠났다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=S2-러 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소</sel_rst>
+					<sel_rst arg="Z" tht="PUR"></sel_rst>
+					<eg>인천 화재 참사로 자식을 잃은 부모는 미련없이 한국을 떠나갔다.</eg>
+					<eg>영수는 뒤도 돌아보지 않고 집을 떠나갔다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에서 Z=S2-러 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간|(배|기차)</sel_rst>
+					<sel_rst arg="Y" tht="SRC">장소</sel_rst>
+					<sel_rst arg="Z" tht="PUR"></sel_rst>
+					<eg>말이 끝나자마자 감독관은 그 자리에서 떠나가 버렸다.</eg>
+					<eg>기차가 서울역에서 떠나가자 말자 고장났다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>불충분하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/15</cre_date>
+				<cre_writer>허용</cre_writer>
+				<cre_writer>박영준</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<org lg="si">不充分_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>낮은정도</sem_class>
+				<trans>be insufficient</trans>
+				<trans>inadequate</trans>
+				<trans>not enough</trans>
+				<trans>unsatisfactory</trans>
+				<trans>imperfect</trans>
+				<trans>not up to the mark</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(통풍|환기)|(공급)</sel_rst>
+					<eg>이력서만으로는 불충분한 지원자의 세부적인 신상파악을 위해 기업자체 내에서 별도로 입사지원서 양식을 마련하고 있습니다.</eg>
+					<eg>환기 또는 통풍이 불충분한 장소에서 예열 등 가스용접을 할 때에는 작업종료 후 밸브를 꼭 잠가야 합니다.</eg>
+					<eg>뇌졸중은 뇌신경조직에 불충분한 혈액 공급을 초래하는 병을 말합니다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

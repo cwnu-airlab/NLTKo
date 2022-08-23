@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>뿔</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/18</cre_date>
+				<cre_writer>김미순</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/07</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>2003/07/07(김진형)센스2 추가</mod_note>
+				<mod_note>형용사자유구성에 '길다, 짧다' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/27</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>센스1,2에 논항명사구, 의미정보 추가</mod_note>
+				<mod_note>센스1,2에서 수식어절 정보 삭제</mod_note>
+			</mod>
+			<add>~이 돋다</add>
+			<add>~을 자르다</add>
+			<add>~로 받다</add>
+			<add>~에 받히다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>사슴의 ~은 약으로 쓰인다.</eg>
+				<trans>horn</trans>
+				<sem_class>동물신체부위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 날카롭다</comb_aj>
+				<comb_aj type="appr">~이 뾰족하다</comb_aj>
+				<comb_aj type="appr">~이 길다</comb_aj>
+				<comb_aj type="appr">~이 짧다</comb_aj>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~이 나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred"> <!-- 추가함 -->
+					<form vcompound="no">~이 돋다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가함 -->
+				<sel_rst arg="X">동물</sel_rst> <!-- 추가함 -->
+				<cl type="uni">개</cl>
+				<!-- 수식어절 정보에서 S는 ~, S은 ~ 삭제 -->
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그의 모자 위에는 길게 ~이 두 개 붙어 있었다.</eg>
+				<trans>horn</trans>
+				<sem_class>구체물의부분</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 날카롭다</comb_aj>
+				<comb_aj type="appr">~이 뾰족하다</comb_aj>
+				<comb_aj type="appr">~이 길다</comb_aj>
+				<comb_aj type="appr">~이 짧다</comb_aj>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가함 -->
+				<sel_rst arg="X">구체물</sel_rst> <!-- 추가함 -->
+				<cl type="uni">개</cl>
+				<!-- 수식어절 정보에서 S는 ~, S은 ~ 삭제 -->
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/06/18</cre_date>
+				<cre_writer>김미순</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/07/07</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/27</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>동사결합, 논항 의미정보 추가</mod_note>
+			</mod>
+			<add>~이 나다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+		
+			<hom exist="yes"/>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>갖고 싶은 장난감을 사주지 않자, 아이는 ~이 나서 하루종일 아무 말도 하지 않았다.</eg>
+				<trans>anger</trans>
+				<sem_class>심리상태</sem_class>
+				<lr>
+					<syn type="etc">성</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsupvar"> <!-- 추가함 -->
+					<form vcompound="no">~이 나다</form>
+					<frame>X-이 ~이 나다</frame>
+				</comb_v>
+				<sel_rst arg="X">인간</sel_rst> <!-- 추가함 -->
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

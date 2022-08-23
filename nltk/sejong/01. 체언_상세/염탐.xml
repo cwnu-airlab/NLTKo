@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>염탐</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/05</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/25</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/03</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>add 정보를 der, n_v에 기술</mod_note>
+				<mod_note>격틀정보 분리</mod_note>
+				<mod_note>n_v 유형값 일부 수정, 격틀기술</mod_note>
+				<mod_note>max_n 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 추가</mod_note>
+				<mod_note>수정</mod_note>
+			</mod>
+			<note>2002/08/06/(김현승)원어정보 'si(廉探)' 입력요망</note>
+			<note>2002/08/25(고길수)예문 수정</note>
+			<note>의미부류 수정</note>
+			<note>단위표현 추가</note>
+			<note>comb_v 추가</note>
+			<note>기능동사 정보 수정, 교체되는 보문논항과 조사 정보 추가</note>
+			<note>Y 논항정보 수정</note>
+			<note>'염화(鹽化)'는 표제어에서 삭제</note>
+			<note>2002/10/04(이성헌)cl에 회 추가</note>
+			<note>2003/09/07(한동훈)의미부류를 '지속적행위'에서 '지속적활동'으로 수정</note>
+			<note>영어대역어 추가</note>
+			<note>2003/09/25(김미현)</note>
+			<add>복합어로 '~꾼' 추가</add>
+			<add>복합어로 '~꾼' 추가</add>
+			<add>동사결합구조로 '~을 보내다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">廉探</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~꾼</der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>소대장은 병사를 보내 적의 동태를 ~을 했다.</eg>
+				<trans>espionage</trans>
+				<trans>spy</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>조사</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+					<frame>X-이 S것-을 ~을 하다</frame>
+					<frame>X-이 S지-을 ~을 하다</frame>
+					<frame>X-이 S것-에대해 ~을 하다</frame>
+					<frame>X-이 S지-에대해 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 가다</form>
+					<frame>X-이 S지 ~을 가다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 나가다</form>
+					<frame>X-이 S지 ~을 나가다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 보내다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>Y ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단|장소|상태|행위|(상황)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

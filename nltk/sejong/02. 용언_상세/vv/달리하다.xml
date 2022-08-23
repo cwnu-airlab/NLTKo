@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>달리하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/04/02</mod_date>
+				<mod_writer>조원형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/04/07</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/09</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>Au.하</str>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>differ</trans>
+			</sem_grp>
+			<frame_grp type="FTR" cor="sym" n="01">
+				<frame>X=N0-이 W=N3-와 (서로) Z=N2-에대해 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">구체물|인간집단|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(생각|노선|차원)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">온</sel_rst>
+					<sel_rst arg="W" tht="COM">구체물|인간집단|추상적대상</sel_rst>
+					<eg>우리는 그 문제에 대해 너희들과 생각을 달리한다.</eg>
+					<eg>우리 당은 보수당과 노선을 달리하기 때문에 내각에 함께 참여할 수 없다.</eg>
+					<eg>이번 사건은 과거의 비슷한 종류의 사건들과는 차원을 달리한다.</eg>
+					<eg>이번에 우리 회사가 내놓은 제품은 타사 제품들과는 차원을 달리한다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="sym" n="01">
+				<frame>X+W=N0-이 Z=N2-에대해 Y=N1-을 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">구체물|인간집단|추상적대상</sel_rst>
+					<sel_rst arg="Y" tht="THM">추상적대상(생각|노선|차원)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">온</sel_rst>
+					<sel_rst arg="W" tht="AGT">구체물|인간집단|추상적대상</sel_rst>
+					<eg>우리와 너희는 그 문제에 대해 생각을 달리한다.</eg>
+					<eg>우리 당과 보수당은 노선을 달리하기 때문에 내각에 함께 참여할 수 없다.</eg>
+					<eg>이번 사건과 과거의 비슷한 종류의 사건들은 차원을 달리한다.</eg>
+					<eg>이번에 우리 회사가 내놓은 제품과 타사 제품들은 차원을 달리한다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

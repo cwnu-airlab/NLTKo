@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>추산</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/08/22</cre_date>
+				<cre_writer>김이정</cre_writer>
+				<cre_note>2003/08/24(김이정)</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/08</mod_date>
+				<mod_writer>이성헌</mod_writer>
+				<mod_note>sem에 대해 확인(현재로는 단독행위에 들어가나 차후 인지적|추상적행위의 분할과 조정이 적용되면 그 하위부류 중의 하나가 될 수 있음);supv의 구문 기술 조정(S다고 보문 논항을 다른 논항들과 분리하여 기술)</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2003/10/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/07</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>예문 수정;동사결합 정보 수정;논항 명사구 추가;논항 의미정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/10</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/01/30</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+                        <mod>
+                                <mod_date>2007/08/10</mod_date>
+                                <mod_writer>박진희</mod_writer>
+                                <mod_note></mod_note>
+                        </mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">推算</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>국내의 각종 영어 시험 응시자는 연간 약 7만명으로 ~이 되고 있다.</eg> <!-- '국내 토플·GRE·GMAT 응시자' 수정 -->
+				<trans>calculation</trans>
+				<trans>computation</trans>
+				<trans>estimate</trans>
+				<sem_class>인지적행위</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 Z-로 ~을 하다</frame>
+					<frame>X-이 Y-을 S것-로 ~을 하다</frame>
+					<frame>X-이 Y-을 S다고 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 Z-로 ~이 되다</frame>
+					<frame>Y-이 S것-로 ~이 되다</frame>
+					<frame>Y-이 S다고 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-에대한 S다는 ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 Z-로의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|돈|금전|크기|수량</sel_rst> <!-- 금전, 크기 추가 -->
+				<sel_rst arg="Z">수</sel_rst>
+				<s_n></s_n> <!-- 추가 -->
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

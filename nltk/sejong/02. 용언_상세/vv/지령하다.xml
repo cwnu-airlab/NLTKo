@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>지령하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/03</cre_date>
+				<cre_writer>김현권</cre_writer>
+				<cre_writer>조현경</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2006/09/11</mod_date>
+				<mod_writer>조원형</mod_writer>
+				<mod_note>정보확장</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">지령을 하다</var>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>N.하</str>
+			<org lg="si">指令_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>명령</sem_class>
+				<trans>order</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">계급인간(사령관|병장)</sel_rst>
+					<sel_rst arg="Y" tht="THM">사건(전진|후퇴|돌격|진압)</sel_rst>
+					<sel_rst arg="Z" tht="GOL">계급인간(군인)|인간집단</sel_rst>
+					<eg>맹호부대 사령관은 부대원들에게 돌격을 지령했지만 부대원들은 도망가기에 급급했다.</eg>
+					<eg>상관은 일병에게 벌로 팔굽혀펴기 1000개를 지령하였다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">계급인간(사령관|병장)</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것</sel_rst>
+					<sel_rst arg="Z" tht="GOL">계급인간(군인)|인간집단</sel_rst>
+					<eg>맹호부대 사령관은 부대원들에게 적진을 향해 돌격할 것을 지령했다.</eg>
+					<eg>병장은 상병들에게 체력단련을 위해 산에서 훈련을 마칠 것을 지령했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=N2-에게 Y=S1-라고 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">계급인간(사령관|국방부국장)|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="CNT"></sel_rst>
+					<sel_rst arg="Z" tht="GOL">계급인간(군인|일병)|인간집단</sel_rst>
+					<eg>국방부장관은 전국의 요새를 함락하라고 부대에 지령할 것이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>명령</sem_class>
+				<trans>instruct</trans>
+				<trans>issue an order</trans>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에|에게 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">역할인간(간첩|공작원|안전부|국가보위부)|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="THM">사태</sel_rst>
+					<sel_rst arg="Z" tht="GOL">역할인간(간첩|공작원|안전부|국가보위부)|인간집단</sel_rst>
+					<eg>국가보위부는 요원들에게 호전적 할동을 지령했다.</eg>
+					<eg>북한은 공작원에게 남한 정부요원의 살해작전을 지령했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Z=N2-에게 Y=S1-라고 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">역할인간(간첩|공작원|안전부|국가보위부)|인간집단</sel_rst>
+					<sel_rst arg="Y" tht="CNT"></sel_rst>
+					<sel_rst arg="Z" tht="GOL">역할인간(간첩|공작원|안전부|국가보위부)|인간집단</sel_rst>
+					<eg>북한은 공작원에게 남한의 정부요원을 살해하라고 지령했다.</eg>
+					<eg>간첩대장은 요원들에게 한민족체전을 실패로 만들라고 지령했다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<morph_rst>
+				</morph_rst>
+				<col_grp>
+					<col type="etc"></col>
+				</col_grp>
+				<mor_rel>
+				</mor_rel>
+			</com>
+		</sense>
+	</entry>
+</superEntry>

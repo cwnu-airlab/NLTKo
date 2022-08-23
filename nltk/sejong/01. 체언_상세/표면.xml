@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>표면</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/08/15</cre_date>
+				<cre_writer>기영인</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/10/30</mod_date>
+				<mod_writer>이선웅</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>'표면-적'과 '표-면적'의 처리 검토요망</note>
+			<note>2001/08/15(기영인)</note>
+			<note>2001/09/20(한선혜)</note>
+			<note>2003/02/18(남길임)</note>
+			<note>2003/02/23(김이정)</note>
+			<note>comb_v정보 add로 이동</note>
+			<note>관련어 정보 작세</note>
+			<note>동의어 정보 수정</note>
+			<note>센스1 반의어 정보 수정</note>
+			<note>예문 수정</note>
+			<note>의미부류 수정</note>
+			<note>파생어 정보 수정</note>
+			<note>합성어 정보 수정</note>
+			<note>'표면-적' 삭제(이선웅)</note>
+			<add>센스1: ~을 깎다|문지르다</add>
+			<add>센스2: ~에 나서다|나타나다|드러나다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">表面</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~상</der>
+			<der pos="n" type="suffix">~적</der>
+			<der pos="n" type="suffix">~화</der>
+			<comp pos="n" type="suffix">~구조</comp>
+			<comp pos="n" type="suffix">~력</comp>
+			<comp pos="n" type="suffix">~마찰</comp>
+			<comp pos="n" type="suffix">~마취</comp>
+			<comp pos="n" type="suffix">~분석</comp>
+			<comp pos="n" type="suffix">~압</comp>
+			<comp pos="n" type="suffix">~장력</comp>
+			<comp pos="n" type="suffix">~처리</comp>
+			<comp pos="n" type="suffix">~층</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 탁자의 ~이 아주 매끄럽다.</eg>
+				<trans>surface</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>구체물의부분</sem_class>
+				<lr>
+					<syn type="etc">겉면</syn>
+					<ant type="etc">내면</ant>
+					<ant type="etc">속</ant>
+					<ant type="etc">안</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 거칠다</comb_aj>
+				<comb_aj type="appr">~이 매끄럽다</comb_aj>
+				<comb_aj type="appr">~이 반짝이다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 깎다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 문지르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 다듬다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n>N(-의)</pre_n>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>필시 이 사건 뒤에는 ~에 드러나지 않는 배후 인물이 있을 게다.</eg>
+				<trans>appearance</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>관계추상적대상</sem_class>
+				<lr>
+					<syn type="etc">외부</syn>
+					<ant type="etc">내면</ant>
+					<ant type="etc">이면</ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 나서다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 나타나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 드러나다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

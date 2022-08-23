@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>논하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/17</mod_date>
+				<mod_writer>김윤신</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/06/09</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<str>R.하</str>
+			<org lg="si">論_</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>인지적행위</sem_class>
+				<trans>discuss</trans>
+			</sem_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Y=N1-에대해|을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<eg>그는 이 논문에서 공평과세 문제를 논했다.</eg>
+					<eg>연구원들은 이 보고서에서 자동차 산업의 구조조정에 대해서 심도있게 논했다.</eg>
+					<eg>그는 정치 발전에 시민의식이 미치는 영향을 논했다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">텍스트담지물|인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">S것|Q</sel_rst>
+					<eg>고속전철을 건설하는 것이 타당한지에 대해 논했다.</eg>
+					<eg>이 작품에서 신의 세계가 어떤 것인지를 종교적 관점에서 논했다.</eg>
+					<eg>신화가 초기문학에서 어떤 의미를 지니고 있는지에 대해 논했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIT">
+				<frame>X=N0-이 Z=N2-에대해|을 Y=S1-고 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">텍스트담지물|인간</sel_rst>
+					<sel_rst arg="Y" tht="CNT"></sel_rst>
+					<sel_rst arg="Z" tht="THM">추상적대상|구체물</sel_rst>
+					<eg>그는 순수과학 분야에 최우선으로 투자를 해야 한다고 논하고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

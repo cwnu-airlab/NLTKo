@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>유치원</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>1999/07/15</cre_date>
+				<cre_writer>송근영;안근종;홍재성</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/04/14</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/13</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note>센스2 동사구문 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/01/11</mod_date>
+				<mod_writer>권오희</mod_writer>
+				<mod_note>센스1, n_v 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/15</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>1999/10/08</note>
+			<note>2000/07/26(박동호)</note>
+			<note>2003/04/09(김현승)센스1의 의미부류를 '건물'에서 '기관건물'로 수정</note>
+			<note>2003/04/14(고길수)센스1의 단위표현에서 '동|채'를 삭제, '개|곳|군데' 추가</note>
+			<note>센스1의 comb_v정보 add항목으로 이전</note>
+			<note>센스2의 comb_v정보 add항목으로 이전</note>
+			<note>센스2의 의미부류를 '기관'에서 '교육기관'으로 수정</note>
+			<note>센스3(우리 ~이 합창 대회에서 일등을 했다.)을 센스2에 통합함</note>
+			<note>센스3의 의미부류를 '인물'에서 '인간집단'으로 수정</note>
+			<add>~에 다니다|가다|보내다</add>
+			<add>~에서 교육받다|배우다' 추가</add>
+			<add>~에서 나오다' 추가</add>
+			<add>~을 짓다|보수하다|증축하다</add>
+			<add>센스1의 동사결합으로 '~이 무너지다|붕괴되다</add>
+			<add>센스2의 동사결합으로 '~을 나오다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">幼稚園</org>
+		
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~생</der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 길 모퉁이를 돌아가면 아담한 ~이 하나 나옵니다.</eg>
+				<trans>kindergarten</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>기관건물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel>어린이</rel>
+					<rel>유아원</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 크다</comb_aj>
+				<comb_aj type="min">~이 작다</comb_aj>
+				<comb_aj type="appr">~이 아담하다</comb_aj>
+				<comb_aj type="appr">~이 예쁘다</comb_aj>
+				<comb_aj type="appr">~이 깨끗하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 세우다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 짓다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>우리 ~이 합창 대회에서 일등을 했다.</eg>
+				<eg>우리 아이도 ~에 갈 나이가 되었다.</eg>
+				<trans>kindergarten</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>교육기관</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>교육기관</hyper>
+					<rel>어린이</rel>
+					<rel>교사</rel>
+					<rel>원생</rel>
+					<rel>교육</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 좋다</comb_aj>
+				<comb_aj type="appr">~이 나쁘다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 다니다</form>
+					<frame></frame>
+				</comb_v>
+					<comb_v type="narg_vpred">
+					<form vcompound="no">~에 입학하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 졸업하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

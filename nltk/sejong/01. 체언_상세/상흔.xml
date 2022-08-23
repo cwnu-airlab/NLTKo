@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>상흔</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/04/27</cre_date>
+				<cre_writer>이지영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/11</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/28</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note>add정보이동</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/30</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>센스2 n_v 추가</mod_note>
+			</mod>
+			<note>%add=상흔이 남다|있다|남아 있다|생기다</note>
+			<note>2002/05/09(이지영)외래어 원어 정보 추가</note>
+			<note>2002/05/13(김진형)</note>
+			<note>2002/05/21(이성헌)%mdd기술방법수정</note>
+			<note>2003/07/01(한동훈)</note>
+			<note>2003/07/11(김미현)</note>
+			<note>@comb_v를  %add로 이동</note>
+			<note>@comb_v를 %add로 이동하고 '~을 달래다|어루만지다'를 추가</note>
+			<note>@magn기술 추가</note>
+			<note>@sem수정('사고'에서 '관계구체물'로)</note>
+			<note>sense1의 @eg수정보완</note>
+			<note>sense2의 %add=상흔이 남다|있다|남아 있다|</note>
+			<note>sense2의 @sem수정('사고'에서 '결과')</note>
+			<note>상흔을 치유하다</note>
+			<note>상흔을 치유하다|달래다|어루만지다</note>
+			<add>~을 달래다|어루만지다(센스2)</add>
+			<add>~을 치유하다(센스1)</add>
+			<add>~이 남다|있다|남아 있다|생기다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">傷痕</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그의 얼굴에 아직도 남아있는 ~은 그날의 싸움이 얼마나 격렬했었는지를 잘 보여준다.</eg>
+				<trans>scar</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>관계구체물</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 깊다</comb_aj>
+				<comb_aj type="magn">~이 뚜렷하다</comb_aj>
+				<comb_aj type="magn">~이 심하다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 치유하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 남다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 남아있다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 생기다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그 날의 충격으로 인한 ~이 우리의 마음 속에 깊이 자리잡았다.</eg>
+				<trans>wound</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>결과</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 달래다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 어루만지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 치유하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 남다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

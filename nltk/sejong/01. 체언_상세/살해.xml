@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>살해</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/25</cre_date>
+				<cre_writer>김종명</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/01/15</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/18</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>lr 속성값 수정</mod_note>
+				<mod_note>n_v 형식 수정</mod_note>
+			</mod>
+			<note>2003/01/13(이지영)예문추가|문장부호입력|sem수정|sel_res수정</note>
+			<note>2003/01/13(이지영)예문추가|문장부호입력|sem수정|sel_res수정</note>
+			<note>2003/01/15(김진형)cl정보 기입</note>
+			<note>2003/01/13(이지영)예문추가|문장부호입력|sem수정|sel_res수정</note>
+			<note>2003/01/15(김진형)cl정보 기입</note>
+			<note>comb_aj정보 기입</note>
+			<note>2003/01/13(이지영)예문추가|문장부호입력|sem수정|sel_res수정</note>
+			<note>2003/01/15(김진형)cl정보 기입</note>
+			<note>comb_aj정보 기입</note>
+			<note>supv에서 '시키다' 삭제</note>
+			<note>2003/01/13(이지영)예문추가|문장부호입력|sem수정|sel_res수정</note>
+			<note>2003/01/15(김진형)cl정보 기입</note>
+			<note>comb_aj정보 기입</note>
+			<note>supv에서 '시키다' 삭제</note>
+			<note>comb_v정보 보완</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">殺害</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~범</der>
+			<comp pos="n" type="suffix">~극</comp>
+			<comp pos="n" type="suffix">~현장</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<comp pos="v" type="suffix">~시키다</comp>
+			<comp pos="v" type="suffix">~당하다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>경찰의 부주의로 ~ 현장이 보존되지 못 했다.</eg>
+				<eg>그 ~ 사건의 유력한 용의자가 잡혔다.</eg>
+				<trans>homocide</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>범죄및비행</sem_class>
+				<lr>
+					<syn type="perfect">살인</syn>
+					<ant type="temp"></ant>
+					<hyper>범죄</hyper>
+					<hypo>교살</hypo>
+					<hypo>총살</hypo>
+					<hypo>암살</hypo>
+					<hypo>사살</hypo>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">끔찍한 ~</comb_aj>
+				<comb_aj type="appr">잔인한 ~</comb_aj>
+				<comb_aj type="appr">무자비한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~가 자행되다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 저지르다</form>
+					<frame>X-이 ~를 저지르다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 자행하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-을 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 시키다</form>
+					<frame>X-이 Y-을 ~를 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Y-이 X-에게 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 당하다</form>
+					<frame>Y-이 X-에게 ~를 당하다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<!--vcompound: ~당하다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-에 의한 Y(-의) ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>삼류</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/21</cre_date>
+				<cre_writer>김진형</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/04</mod_date>
+				<mod_writer>김미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/27</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/10/27</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>의미부류 수정</mod_note>
+			</mod>
+			<note>2002/10/08(고길수)예문에 '연기가 ~이다</note>
+			<note>2003/05/26(한동훈)의미부류를 '등급'에서 '등급속성값'으로 수정</note>
+			<note>2003/07/04(김미현)comb_n에 '~ 대학' 추가</note>
+			<note>~ 회사' 추가</note>
+			<note>기능동사 및 논항 정보 추가</note>
+			<note>명사 연어에 정보 추가</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">三流</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>그가 아무리 노력해도 그의 연기는 ~를 벗어나지 못한다.</eg>
+				<eg>그는 연기가 ~이다.</eg>
+				<eg>그는 ~ 회사에 다닌다.</eg>
+				<trans>third rate</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>낮은정도</sem_class><!--등급속성값을 수정(김이정)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 소설</comb_n>
+				<comb_n type="compound">~ 영화</comb_n>
+				<comb_n type="compound">~ 연극</comb_n>
+				<comb_n type="compound">~ 소설가</comb_n>
+				<comb_n type="compound">~ 연기자</comb_n>
+				<comb_n type="compound">~ 예술가</comb_n>
+				<comb_n type="compound">~ 극장</comb_n>
+				<comb_n type="compound">~ 호텔</comb_n>
+				<comb_n type="compound">~ 여관</comb_n>
+				<comb_n type="compound">~ 작가</comb_n>
+				<comb_n type="compound">~ 학교</comb_n>
+				<comb_n type="compound">~ 인물</comb_n>
+				<comb_n type="compound">~ 인간</comb_n>
+				<comb_n type="compound">~ 대학</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이다</form>
+					<frame>X-이 ~이다</frame>
+					<frame>S것-이 ~이다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">온</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

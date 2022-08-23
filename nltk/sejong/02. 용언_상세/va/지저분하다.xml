@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>지저분하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/15</mod_date>
+				<mod_writer>강정연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/08/03</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="etc"></var>
+			<str>R.하</str>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be messy</trans>
+				<lr>
+					<syn type="perfect">지저분스럽다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물|장소(집|방|교실|거리)</sel_rst>
+					<eg>그 물건은 지저분하니 만지지마라.</eg>
+					<eg>그릇이 지저분해서 다시 씻어야겠다.</eg>
+					<eg>땀으로 얼룩진 그의 얼굴은 보기에 민망할 만큼 지저분했다.</eg>
+					<eg>스파게티를 먹은 아이의 입가가 지저분하다.</eg>
+					<eg>방과 후 아이들은 지저분한 교실을 청소했다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA" cor="cross" n="1">
+				<frame>Y=N1-에 X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="LOC">장소(집|방|교실|거리)</sel_rst>
+					<eg>거리에 쓰레기들이 지저분하다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA" cor="cross" n="1">
+				<frame>X=N0-이 Y=N1-로 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소(집|방|교실|거리)</sel_rst>
+					<sel_rst arg="Y" tht="INS">구체물|장소(집|방|교실|거리)</sel_rst>
+					<eg>거리가 쓰레기들로 온통 지저분하다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be dirty</trans>
+				<lr>
+					<syn type="perfect">지저분스럽다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|행위(행동|행실|언행|말|이야기|농담)</sel_rst>
+					<eg>그 남자는 행실이 지저분하기로 이름나 있다.</eg>
+					<eg>그는 행동이 추잡하고 지저분하다.</eg>
+					<eg>그의 이야기는 지저분하기 이를 데 없다.</eg>
+					<eg>그들은 지저분한 농담을 주고받으며 낄낄거렸다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

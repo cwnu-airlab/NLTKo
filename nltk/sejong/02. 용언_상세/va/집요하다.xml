@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>집요하다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/03/15</mod_date>
+				<mod_writer>강정연</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/31</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/12/24</mod_date>
+				<mod_writer>김건희</mod_writer>
+				<mod_note>형태 정보 구획 및 의미 정보 구획 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="VDelCCon"/>
+			<str>R.하</str>
+			<org lg="si">執拗_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class></sem_class>
+				<trans>be obstinate</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(성품|성질)|인간</sel_rst>
+					<eg>이 친구의 수사 방식은 우리들 중 가장 집요하다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(추적|질문|조사|심문|고문)</sel_rst>
+					<eg>경찰의 추적이 무척 집요해서 범인들은 더이상 숨어다닐 수가 없었다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-에 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간|동물</sel_rst>
+					<sel_rst arg="Y" tht="GOL">(추적|질문|조사|심문|고문|사냥)</sel_rst>
+					<eg>그 경찰은 범인 추적에 집요하다.</eg>
+					<eg>호랑이는 먹이 사냥에 집요하다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=S데1-에 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="MAG">인간|동물</sel_rst>
+					<sel_rst arg="Y" tht="LOC">온</sel_rst>
+					<eg>박 형사는 범인들을 추적하는 데에 집요하다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>협정</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/14</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/08</mod_date>
+				<mod_writer>이지영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/15</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note>n_v 정보 형식 수정</mod_note>
+				<mod_note>sense 2의 단위표현 정보 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<note>2001/07/20(고길수)</note>
+			<note>2001/08/05(이성헌)</note>
+			<note>2003/02/03(김진형)sense2(사건 의미) 삭제</note>
+			<note>2003/02/08(이지영)cl추가</note>
+			<note>sel_res 수정</note>
+			<note>sense 1 예문 수정</note>
+			<note>sense 3 의미부류 수정</note>
+			<note>sense 구분을 할 필요가 있을지?</note>
+			<note>sense1 예문 수정 및 추가</note>
+			<note>기능동사 입력</note>
+			<note>기능동사, 최대논항구조 수정</note>
+			<note>동사-자유구성 추가</note>
+			<note>동의어 입력</note>
+			<note>센스 구분</note>
+			<note>예문 수정</note>
+			<note>의미부류 수정</note>
+			<note>합성어 수정</note>
+			<note>형용사-연어 입력</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">協定</org>
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~문</der>
+			<comp pos="n" type="suffix">~가격</comp>
+			<comp pos="n" type="suffix">~관세</comp>
+			<comp pos="n" type="suffix">~무역</comp>
+			<comp pos="n" type="suffix">~세계시</comp>
+			<comp pos="n" type="suffix">~세율</comp>
+			<comp pos="n" type="suffix">~안</comp>
+			<comp pos="n" type="prefix">신사~</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>수십 년이 지나는 동안 두 나라 사이에 체결한 상호 교류에 관한 ~이 유명무실해졌다.</eg>
+				<eg>두 나라는 지난주에 공동 해역에서의 조업에 관한 ~을 맺었다.</eg>
+				<trans>agreement</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="CS"/>
+				<sem_class>협정</sem_class>
+				<lr>
+					<syn type="etc">규약</syn>
+					<syn type="etc">약정</syn>
+					<syn type="etc">협약</syn>
+					<ant type="temp"></ant>
+					<rel>협상</rel>
+					<rel>협의</rel>
+					<rel>협약</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 맺다</form>
+					<frame>X-이 Y-와 Z|S것-을 ~을 하다</frame>
+					<frame>X-이 Y-와 Z|S것-에대해 ~을 하다</frame>
+					<frame>X-와 Y-이 Z|S것-을 ~을 하다</frame>
+					<frame>X-와 Y-이 Z|S것-에대해 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 체결하다</form>
+					<frame>X-이 Y-와 Z|S것-을 ~을 하다</frame>
+					<frame>X-이 Y-와 Z|S것-에대해 ~을 하다</frame>
+					<frame>X-와 Y-이 Z|S것-을 ~을 하다</frame>
+					<frame>X-와 Y-이 Z|S것-에대해 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-와 Z|S것-을 ~을 하다</frame>
+					<frame>X-이 Y-와 Z|S것-에대해 ~을 하다</frame>
+					<frame>X-와 Y-이 Z|S것-을 ~을 하다</frame>
+					<frame>X-와 Y-이 Z|S것-에대해 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Z|S것-이 X-와 Y-에의해 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>Z|S것-에대한 X-와 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">추상적대상|행위|사건</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">건</cl>
+				<cl type="uni">차</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>그는 우리 사이에 맺은 ~을 파기하였다</eg>
+				<eg>두 단체는 이미 과거의 ~ 내용을 충실히 준수하기로 하였으나 잘 지켜지지 않았다.</eg>
+				<trans>agreement</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="CS"/>
+				<sem_class>추상적 대상</sem_class>
+				<lr>
+					<syn type="etc">협약</syn>
+					<ant type="temp"></ant>
+					<rel>협상</rel>
+					<rel>협의</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">세세한 ~</comb_aj>
+				<comb_aj type="magn">세밀한 ~</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 없다</form>
+					<frame>X-와 Y-사이|간-에 Z|S것-에대한 ~이 있다|없다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 있다</form>
+					<frame>X-와 Y-사이|간-에 Z|S것-에대한 ~이 있다|없다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 파기하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 깨뜨리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 지키다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 준수하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>Z|S것-에대한 X-와 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<sel_rst arg="Z">추상적대상|행위|사건</sel_rst>
+				<cl type="uni">개</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

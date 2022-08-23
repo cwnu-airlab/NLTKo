@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>파괴되다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/18</cre_date>
+				<cre_writer>이해윤</cre_writer>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/03/29</mod_date>
+				<mod_writer>목정수</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/10/21</mod_date>
+				<mod_writer>한선혜</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/28</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>var 정보 추가</mod_note>
+				<mod_note>str 정보 수정</mod_note>
+				<mod_note>lr 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">파괴가 되다</var>
+			<str>N.되</str>
+			<org lg="si">破壞_</org>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>피동적행위</sem_class>
+				<trans>be destroyed</trans>
+				<lr>
+					<ant type="compl">건설되다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<eg>더구나 큰 배가 들어올 부두들은 전혀 쓸모없게 파괴되었다.</eg>
+					<eg>울창한 산림이 마구 파괴되었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간집단(집단|조직|가정)</sel_rst>
+					<eg>해방에 앞서 가족이라는 공동체가 파괴되리라고 그는 우려하고 있었다.</eg>
+					<eg>강물도 더러워지고 주변생태계도 파괴되었다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(생명)</sel_rst>
+					<eg>생명이 송두리째 파괴되어 다시는 소생하지 못한다는데 무슨 성장이란 말인가?</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

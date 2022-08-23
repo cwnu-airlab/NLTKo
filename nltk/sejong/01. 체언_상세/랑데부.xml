@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>랑데부</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/17</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/21</mod_date>
+				<mod_writer>김미현</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/07</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note>변이형 항목추가</mod_note>
+				<mod_note>원어정보 형식수정</mod_note>
+				<mod_note>의미부류 수정, 검토요망</mod_note>
+				<mod_note>동사결합 항목추가</mod_note>
+				<mod_note>최대논항구조 항목추가</mod_note>
+				<mod_note>논항 선텍제약 항목추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/14</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/29</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>의미부류 모임회의에서 대칭적행위로 수정</mod_note>
+			</mod>
+			<note>2003/10/21(김미현)단위표현에서 '개|가지' 삭제, '번|차례' 추가</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="xx">랑데뷰</var>
+			<org lg="etc">랑데부</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>나는 극적으로 그녀와 외국의 공항에서 ~를 했다.</eg>
+				<trans>rendezvous</trans>
+				<sem_class>대칭적행위</sem_class> <!-- '지속적활동'? -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-와 ~를 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-와 Y-이 ~를 하다</frame>
+				</comb_v>
+				<max_n_str>X-와 Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

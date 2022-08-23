@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+
+
+
+<superEntry>
+	<orth>학술강연회</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/05/01</cre_date>
+				<cre_writer>유영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/05/01</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/16</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>변이형 정보 추가, 합성어 정보를 복합어 정보로 이동, 의미부류 연설에서 학술모임회의로 수정, 서술성 명사로 처리</mod_note>
+			</mod>
+			<note>2003/05/01(유영) sem수정</note>
+			<note>comb_aj기술</note>
+			<note>comb_v를 add로 이동 및 추가</note>
+			<add>~가 끝나다</add>
+			<add>~를 주최하다|개최하다|시작하다|열다|마치다|끝내다|알리다|준비하다</add>
+			<add>~에 가다|참석하다|초청되다|초청받다</add>
+			<add>~에서 연설하다|강연하다|만나다|듣다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="spr">학술 강연회</var>
+			<str type="N_N">학술+강연회</str>
+			<org lg="si">學術講演會</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>오늘 저녁 김교수의 정년기념 ~가 대강당에서 열릴 예정이다.</eg>
+				<trans>science lecture meeting</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>학술모임회의</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>강연회</hyper>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 한산하다</comb_aj>
+				<comb_aj type="magn">~가 훌륭하다</comb_aj>
+				<comb_n type="compound">국제 ~</comb_n>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~를 열다</form>
+					<frame>X-이 ~를 열다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~가 열리다</form>
+					<frame>X-에 의해서 ~를 열다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">학술단체</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">회</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

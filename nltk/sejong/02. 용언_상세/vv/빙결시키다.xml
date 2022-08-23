@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>빙결시키다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/22</cre_date>
+				<cre_writer>김현권</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/22</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/08/15</mod_date>
+				<mod_writer>음두은</mod_writer>
+				<mod_note>동의어 기입, subsense로 통합</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr">빙결을 시키다</var>
+			<str>N.시</str>
+			<org lg="si">氷結</org>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>freeze</trans>
+				<trans>congeal</trans>
+				<lr>
+					<syn type="perfect">동결시키다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">기상현상(강추위|고기압|북풍)</sel_rst>
+					<sel_rst arg="Y" tht="THM">액체(물|강물|호수물)</sel_rst>
+					<eg>강추위가 강물을 빙결시켰다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="EFF">기상현상(강추위|고기압|북풍)</sel_rst>
+					<sel_rst arg="Y" tht="THM">장소(호수|강|도로|집앞)</sel_rst>
+					<eg>강추위가 북부지방도로를 모두 빙결시켰다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

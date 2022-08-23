@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>세다</orth>
+	<entry n="1" pos="va">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/10/29</cre_date>
+				<cre_writer>한선혜</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/11/01</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/17</mod_date>
+				<mod_writer>박철우</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/12</mod_date>
+				<mod_writer>박철우</mod_writer>
+				<mod_note>형식 변경에 따른 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="e"/>
+			<str>A</str>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be strong</trans>
+				<trans>be powerful</trans>
+				<lr>
+					<ant type="grad">약하다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간|동물</sel_rst>
+					<sel_rst arg="Y" tht="CRT">속성(힘|기운)|신체부위(팔|주먹)</sel_rst>
+					<eg>그는 기운이 세기로 동네에서도 유명하다.</eg>
+					<eg>사냥꾼들은 힘이 센 멧돼지를 사로잡기 위해 안간힘을 다했다.</eg>
+					<eg>상대는 주먹이 센 선수이니 가능한 한 정면 대결을 피하는 것이 좋다.</eg>
+				</subsense>
+			</frame_grp>
+			<com>
+				<col_grp>
+					<col type="magn">장사처럼</col>
+					<col type="magn">황소처럼</col>
+				</col_grp>
+			</com>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be stubborn</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="CRT">(고집|기|배짱|자존심)</sel_rst>
+					<eg>우리 둘째는 너무 고집이 센 게 흠이다.</eg>
+					<eg>그는 기가 센 여자를 별로 좋아하지 않는다고 대답했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be strong</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="CRT">(입심|말발)</sel_rst>
+					<eg>그녀는 아파트 주민들 중에서 말발이 제일 센 사람으로 통한다.</eg>
+					<eg>시장에서 닳고닳은 그녀는 입심이 세어서 말싸움이 벌어지면 지는 법이 없었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be good</trans>
+				<trans>be strong</trans>
+				<lr>
+					<ant type="grad">약하다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 Y=N1-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">인간</sel_rst>
+					<sel_rst arg="Y" tht="CRT">(술|주량)|(바둑|장기)</sel_rst>
+					<eg>아버지를 닮아 그녀도 술이 센 편이었다.</eg>
+					<eg>그는 우리들 중에서는 바둑이 제일 세다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="05">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be violent</trans>
+				<trans>be intense</trans>
+				<lr>
+					<ant type="grad">약하다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">기상현상(바람|파도)|크기(압력|전력)</sel_rst>
+					<eg>오늘은 파도가 유난히 세니 바다에 나가지 않는 것이 좋겠다.</eg>
+					<eg>용기 내부의 압력이 센 상태이니 함부로 뚜껑을 열지 마십시오.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="06">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be hard</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체자연물(물)|구체인공물(풀)|신체부위(털|머리카락)</sel_rst>
+					<eg>우리 동네는 물이 세어 연수기를 달아야 할 지경이다.</eg>
+					<eg>풀기가 너무 세었는지 빨래가 뻣뻣해진 것 같다.</eg>
+					<eg>처음엔 솜털같이 부드럽던 아이의 머리털이 자랄수록 세고 뻣뻣해진다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="07">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be severe</trans>
+				<trans>be strict</trans>
+				<lr>
+					<ant type="grad">약하다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">추상적대상(규율|규범|군기)</sel_rst>
+					<eg>우리 부대는 군기가 세기로 유명했었다.</eg>
+					<eg>그 학교는 선후배간의 규율이 센 편이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="08">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be high (in price)</trans>
+				<lr>
+					<ant type="grad">약하다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">값(월급|전셋값|집값)</sel_rst>
+					<eg>이 동네는 땅값이 서울에서도 제일 세다.</eg>
+					<eg>그 회사는 일은 고되지만 월급이 센 것이 장점이라면 장점이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="09">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be hard</trans>
+				<trans>be tiring</trans>
+				<lr>
+					<ant type="grad">약하다</ant>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">행위(일|훈련)</sel_rst>
+					<eg>이 회사는 그녀가 감당하기에는 일이 좀 센 편이다.</eg>
+					<eg>축구부 아이들은 감독이 바뀐 후 훈련이 너무 세다고 불평을 했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="10">
+			<sem_grp>
+				<sem_class>높은정도</sem_class>
+				<trans>be unlucky</trans>
+			</sem_grp>
+			<frame_grp type="FA">
+				<frame>X=N0-이 A</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">(터)|(운수|팔자)</sel_rst>
+					<eg>점쟁이는 모든 불운이 집터가 세어 생긴 일이라고 말했다.</eg>
+					<eg>그녀는 어쩌면 이렇게 팔자가 센지 모르겠다고 하소연했다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<idm_grp>
+			<idm>콧대가 세다</idm>
+		</idm_grp>
+	</entry>
+</superEntry>

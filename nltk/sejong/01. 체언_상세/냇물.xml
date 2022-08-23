@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>냇물</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/20</cre_date>
+				<cre_writer>최지임</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/05</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/15</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/09/26</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>센스1(액체), 2(하천) 통합</mod_note>
+			</mod>
+			<note>2002/08/20(최지임)</note>
+			<note>2002/09/18(김종명)</note>
+			<note>2003/06/16(고길수)센스1에 예문 추가</note>
+			<note>2003/07/05(이홍식)</note>
+			<note>add 정보 수정 및 보완</note>
+			<note>센스1에 형용사자유구성 정보 추가</note>
+			<note>센스2에 예문 추가</note>
+			<add>센스 2의 동위어 '강|바다|호수'</add>
+			<add>센스1의 동사결합으로 '~이 마르다|범람하다|불다|늘다'</add>
+			<add>센스1의 동위어? '강물|바닷물'</add>
+			<add>센스2의 동사결합으로 '~이 흐르다, ~을 건너다'</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="NsN">내+ㅅ+물</str>
+			<org lg="temp"></org>
+		
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>홍수로 ~이 불어났다.</eg>
+				<eg>계속되는 가뭄으로 ~이 다 말라버렸다.</eg>
+				<eg>아이들은 ~에 발을 담그고 물장구를 치며 놀았다.</eg>
+				<eg>나그네는 신발을 벗고, 바지를 걷어올리고 ~을 건넜다.</eg>
+				<trans>stream</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>하천</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 맑다</comb_aj>
+				<comb_aj type="appr">~이 깨끗하다</comb_aj>
+				<comb_aj type="appr">~이 더럽다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 흐르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 불다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 마르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 건너다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

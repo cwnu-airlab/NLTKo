@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>폭정</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/20</cre_date>
+				<cre_writer>김성용</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/02</mod_date>
+				<mod_writer>이홍식</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/26</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>의미부류 '추상적대상'을 '지속적활동'으로 수정</mod_note>
+				<mod_note>add를 n_v로 이동하고 추가 기술</mod_note>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>sel_rst 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/01</mod_date>
+				<mod_writer>이광호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/2/15</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note>예문 보완</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/03</mod_date>
+				<mod_writer>하신영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/11/02(이홍식)의미부류 '행위'나 하위부류 고려 요망</note>
+			<add>~에 시달리다</add>
+			<add>~을 일삼다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">暴政</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>165년 연나부 조의 명림답부가 ~을 한 차대왕을 죽이고 태조대왕의 막내동생 백고를 임금으로 모신다.</eg>
+				<eg>그들은 ~을 일삼는 군주를 몰아내려고 했다.</eg>
+				<trans>tyranny</trans>
+				<trans>despotism</trans>
+				<trans>despotic government</trans>
+				<sem_class>지속적활동</sem_class>
+				<lr>
+					<syn type="perfect">학정</syn>
+					<ant type="conv">선정</ant>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 저지르다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 일삼다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 시달리다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<sel_rst arg="X">직위인간</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

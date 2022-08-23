@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>혜택</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/07/08</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/03/31</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/04</mod_date>
+				<mod_writer>박진희</mod_writer>
+                <mod_note>n_n 정보 기술</mod_note>
+				<mod_note>최대논항구조 기술</mod_note>
+				<mod_note>pre_n, s_n 정보 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/08</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+			</mod>
+			<note>2000/07/10(김종명)</note>
+			<note>2000/07/14</note>
+			<note>2000/07/15</note>
+			<note>2000/07/19</note>
+			<note>2001/01/30(김미순)</note>
+			<note>2003/02/19(이민우)</note>
+			<note>2003/03/22(김종명)</note>
+			<note>2003/03/31(이민우)</note>
+			<note>관련어 추가</note>
+			<note>기능동사 수정</note>
+			<note>동사 자유구성 추가</note>
+			<note>동사-자유구성 삭제</note>
+			<note>동의어 삭제</note>
+			<note>선택제약 수정, '국가' 의미부류 설정</note>
+			<note>선택제약 추가</note>
+			<note>의미하위부류 검토 필요</note>
+			<note>의미하위부류 추가</note>
+			<note>최대논항-명사구 수정</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">惠澤</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~받다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>열심히 공부한 사람에게는 장학금의 ~이 돌아간다.</eg>
+				<eg>같은 지역 출신이라고 진급에 ~을 주었다.</eg>
+				<trans>benefit</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>방향성행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>은혜</coord>
+					<rel>덕택</rel>
+					<rel>도움</rel>
+					<rel>금전</rel>
+					<rel>물질</rel>
+					<rel>고마움</rel>
+					<rel>보답</rel>
+					<rel>특혜</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_n type="compound">세금 ~</comb_n>
+				<comb_n type="compound">감면 ~</comb_n>
+				<comb_n type="compound">복지 ~</comb_n>
+				<comb_n type="compound">장학금 ~</comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 입다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 받다</form>
+					<frame>X-이 Y-로부터 ~을 받다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 주다</form>
+					<frame>Y-이 X-에게 ~을 주다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 얻다</form>
+					<frame>X-이 Y-로부터 ~을 얻다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 누리다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 돌아가다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~이 주어지다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>X-의 Y-로부터의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">인간|인간집단</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n></pre_n>
+				<s_n></s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

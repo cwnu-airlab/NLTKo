@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>불비</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/10/25</cre_date>
+				<cre_writer>한동훈</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/28</mod_date>
+				<mod_writer>한동훈</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/24</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>예문 수정, 의미부류 수정</mod_note>
+				<mod_note>동사결합 정보 수정 및 추가</mod_note>
+				<mod_note>논항명사구 추가, 논항 의미정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/10</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">不備</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>시설의 ~로 아직은 건물을 사용할 수 없다.</eg> <!-- 이 사무실은 아직 시설이 ~가 되어 있다 수정 -->
+				<trans>defect</trans>
+				<trans>lack</trans>
+				<trans>deficiency</trans>
+				<trans>inadequacy</trans>
+				<sem_class>상황값</sem_class> <!-- 상태 수정 -->
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup"> <!-- 쓰이는지?? -->
+					<form vcompound="yes">~가 되다</form> <!-- ~이 되다 수정 -->
+					<frame>X-이 ~가 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 있다</form> <!-- 쓰이는지?? -->
+					<frame>X-에 ~가 있다</frame>
+					<!-- 신고내용에 형식상의 불비가 있거나 중요한 사항의 기재불충분 또는 당초 신고내용에 변경이 있는 경우에 -->
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가함 -->
+				<sel_rst arg="X">구체물|장소|추상적대상</sel_rst> <!-- 장소 추가 -->
+				<cl type="uni"></cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

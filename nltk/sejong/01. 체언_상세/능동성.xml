@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>능동성</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/01</cre_date>
+				<cre_writer>유경명</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/04</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/06</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>str 속성값 수정</mod_note>
+				<mod_note>예문 형식 수정</mod_note>
+				<mod_note>trans 형식 수정</mod_note>
+				<mod_note>n_v 형식 수정</mod_note>
+			</mod>
+			<note></note>
+			<add>~이 요구되다|있다</add>
+			<add>~이 요구되다|있다</add>
+			<add>~을 요구하다|기르다|키우다|갖추다|지니다|발휘하다|북돋우다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="xx">능동썽</var>
+			<str type="N_S">능동+성</str>
+			<org lg="si">能動性</org>
+		
+			<comp pos="n" type="suffix">~면역</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>이 업무는 무엇보다도 창의성과 ~이 요구됩니다.</eg>
+				<eg>우리의 목표는 아이들에게 적극성과 ~을 키워주는 것입니다.</eg>
+				<trans>spontaneity</trans>
+				<trans>spontaneousness</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성</sem_class>
+				<rel_n>수동성;적극성</rel_n>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 크다</comb_aj>
+				<comb_aj type="appr">~이 없다</comb_aj>
+				<comb_aj type="appr">~이 부족하다</comb_aj>
+				<comb_aj type="appr">~이 결여되다</comb_aj>
+				<comb_n type="temp">sup</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 있다</form>
+					<frame></frame>
+					</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 요구하다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 기르다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 키우다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 갖추다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 지니다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 발휘하다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 북돋우다</form>
+					<frame></frame>	
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+			</syn_grp>	
+		</sense>
+	</entry>
+</superEntry>

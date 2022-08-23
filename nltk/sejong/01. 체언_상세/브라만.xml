@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>브라만</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/05/09</cre_date>
+				<cre_writer>김미순</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/05/13</mod_date>
+				<mod_writer>김진형</mod_writer>
+				<mod_note>2003/05/13(김진형)의미부류 수정</mod_note>
+				<mod_note>명사연어 기입</mod_note>
+				<mod_note>오표기 변이형 기입</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/10/03</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note>원어정보 '인도어' 확인요망</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/05</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>'계층계급'에서 '계급인간'으로 수정;도메인에서 '역사' 삭제</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/10/08</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>단위표현 정보 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="xx">브라아만</var>
+			<var type="xx">브라흐만</var>
+			<org lg="etc">Brahman</org> <!--힌디어-->
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~은 가장 높은 계급으로 온갖 특혜를 누렸다.</eg> <!-- 인도의 카스트 제도에서 가장 높은 계급인 ~은 온갖 특혜를 누렸다. 수정 -->
+				<trans>Brahman</trans>
+				<domain></domain>
+				<sem_class>계급인간</sem_class> <!-- 계급인간, 사회계급인간 ?? -->
+				<lr>
+					<syn type="etc">브라흐마나</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">~ 계급</comb_n>
+				<cl type="uni">명</cl>
+				<cl type="uni">사람</cl>
+				<cl type="uni">인</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>나날</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/15</cre_date>
+				<cre_writer>이상규</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/03</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/03</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note>n_v 형식 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/02</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>나날(부사)와 동형어처리?</note>
+			<add>~을 보내다|지내다|세다</add>
+			<add>~을 보내다|지내다|세다</add>
+			<add>~이 지나가다|흐르다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<str type="N_N">날+날</str>
+			<org lg="temp"></org>
+			<comp pos="n" type="suffix">~계</comp>
+			<comp pos="n" type="suffix">~꽃</comp>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>힘들고 어려운 시기를 넘긴 후 우리 가족은 편안하고 조용한 ~을 보내고있었다.</eg>
+				<trans>every day</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>수량시간</sem_class>
+				<lr>
+					<syn type="etc">하루하루</syn>
+					<rel>달력</rel>
+					<rel>시간</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~이 바쁘다</comb_aj>
+				<comb_aj type="appr">~이 조용하다</comb_aj>
+				<comb_aj type="appr">~이 시끄럽다</comb_aj>
+				<comb_aj type="appr">~이 한가롭다</comb_aj>
+				<comb_aj type="appr">~이 즐겁다</comb_aj>
+				<comb_aj type="appr">~이 새롭다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 보내다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 지내다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 세다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 지나가다</form>
+					<frame></frame>	
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~이 흐르다</form>
+					<frame></frame>	
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

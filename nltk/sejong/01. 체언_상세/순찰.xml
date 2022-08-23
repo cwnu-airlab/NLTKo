@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>순찰</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/05/09</cre_date>
+				<cre_writer>이호영</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/17</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/07/25</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>의미부류 수정;동사결합 정보 수정;논항명사구 정보 추가;선택제약 정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/22</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>'돌다'를 기능동사로 수정;맥스엔 보완;Y 선택제약에서 지역을 장소로 수정</mod_note>
+			</mod>
+			<note>2002/05/17(김종명)</note>
+			<note>2002/05/22(박동호)</note>
+			<note>2003/09/13(기영인)의미부류 수정;combv 일부 정보 add로 이동;논항선택제약 정보수정</note>
+			<note>2003/09/16(김진형)분류사 '회' 추가</note>
+			<note>2003/09/17(기영인)</note>
+			<add>~을 가다|나가다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">巡察</org>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>경찰들이 우범 지역을 ~을 돌고 있다.</eg>
+				<trans>patrol</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>돌아다니기</sem_class> <!-- 지속적활동 수정 -->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsupvar"> <!-- narg_vpred 수정 -->
+					<form vcompound="no">~을 돌다</form>
+					<frame>X-이 Y-을 ~을 돌다</frame>
+					<frame>X-이 Y-에 ~을 돌다</frame>
+					<frame>X-이 Y-에서 ~을 돌다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame> <!-- Y-을|에서 분할 표기 -->
+					<frame>X-이 Y-에서 ~을 하다</frame>
+				</comb_v>
+				<max_n_str>X-의 Y-의 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>X-의 Y-에의 ~</max_n_str>
+				<max_n_str>X-의 Y-에대한 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>X-의 Y ~</max_n_str> <!-- 추가 -->
+				<max_n_str>X-의 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>Y-의 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>Y-에의 ~</max_n_str>
+				<max_n_str>Y-에대한 ~</max_n_str> <!-- 추가 -->
+				<max_n_str>Y ~</max_n_str> <!-- 추가 -->
+				<sel_rst arg="X">직업인간(경찰)|인간</sel_rst>
+				<sel_rst arg="Y">장소</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

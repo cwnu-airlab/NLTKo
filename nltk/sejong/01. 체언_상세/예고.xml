@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>예고</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/18</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/03</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/13</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>comp '입법~' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>명사결합 추가, 문형 정리</mod_note>
+				<mod_note>복합어 수정</mod_note>
+			</mod>
+			<note>2001/09/21(김종명)</note>
+			<note>entry n=1 합성어 추가</note>
+			<note>예문 수정</note>
+			<note>형용사-자유구성 입력</note>
+			<note>기능동사 수정</note>
+			<note>entry n=2 동의어 입력</note>
+			<note>단위 표현 입력</note>
+			<note>동사-자유구성 입력</note>
+			<note>2003/01/26(남길임)기능동사 수정</note>
+			<note>선택 제약 수정</note>
+			<note>있다|없다 구성 검토 바람.</note>
+			<note>2003/02/03(김이정) supv에서 있다|없다 구성 삭제</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">豫告</org>
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~적</der>
+			<comp pos="n" type="suffix">~장</comp>
+			<comp pos="n" type="suffix">~기간</comp>
+			<comp pos="n" type="suffix">~등기</comp>
+			<comp pos="n" type="suffix">~수당</comp>
+			<comp pos="n" type="suffix">~편</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>선생님은 학생들에게 다음 주에 학생 회장 선거가 있다는 ~를 하였다.</eg>
+				<trans>advance notice</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>보고제안</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>예보</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">사전 ~</comb_n>
+				<comb_n type="compound">~ 방송</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-에게 Z-을 ~를 하다</frame>
+					<frame>X-이 Y-에게 Z-에대해 ~를 하다</frame>
+					<frame>X-이 Y-에게 S것-을|~를 하다</frame>
+					<frame>X-이 Y-에게 S것-에대해 ~를 하다</frame>
+					<frame>X-이 Y-에게 S다고 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~가 되다</form>
+					<frame>Z-이 Y-에게 ~가 되다</frame>
+					<frame>S것-이 Y-에게 ~가 되다</frame>
+					<frame>Y-에게 S다고 ~가 되다</frame>
+				</comb_v>
+				<max_n_str>X-의 Z-에대한 ~</max_n_str>
+				<max_n_str>X-의  S것-에대한 ~</max_n_str>
+				<max_n_str>S다는 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<sel_rst arg="Y">인간</sel_rst>
+				<sel_rst arg="Z">사행|추상적대상(규범|제도)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<cl type="uni">회</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n>S다는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/09/18</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/03</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/13</mod_date>
+				<mod_writer>신선옥</mod_writer>
+				<mod_note>add를 comb_v로 이동</mod_note>
+				<mod_note>comb_v '~을 졸업하다' 추가</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>수정 없음</mod_note>
+			</mod>
+			<note>2003/01/26(남길임)</note>
+			<note>의미부류 수정</note>
+			<note>COMBAJ기술</note>
+			<note>2003/02/03(김이정)센스구분 요망('기관건물'과 '교육기관')</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="lng">예술 고등학교</var>
+			<str type="temp"></str>
+			<org lg="si">藝高</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>음악에 소질이 있는 그는 ~에 입학하려고 준비 중이다.</eg>
+				<trans>high school of arts</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="C"/>
+				<sem_class>교육기관</sem_class>
+				<lr>
+					<syn type="etc">예술고</syn>
+					<ant type="temp"></ant>
+					<hyper>고등학교</hyper>
+					<coord>농고</coord>
+					<coord>상고</coord>
+					<coord>과학고</coord>
+					<coord>외고</coord>
+					<rel>음악</rel>
+					<rel>무용</rel>
+					<rel>연극</rel>
+					<rel>영화</rel>
+					<rel>미술</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="appr">~가 많다</comb_aj>
+				<comb_aj type="appr">~가 적다</comb_aj>
+				<comb_aj type="appr">~가 좋다</comb_aj>
+				<comb_aj type="appr">~가 나쁘다</comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 다니다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 들어가다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 나오다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 졸업하다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">개</cl>
+				<cl type="uni">곳</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

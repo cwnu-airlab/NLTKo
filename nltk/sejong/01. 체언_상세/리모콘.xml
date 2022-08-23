@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>리모콘</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/07/04</cre_date>
+				<cre_writer>류희선</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/31</mod_date>
+				<mod_writer>김미현</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/09/24</mod_date>
+				<mod_writer>기영인</mod_writer>
+				<mod_note>형태 변이형 항목추가</mod_note>
+				<mod_note>원어정보 수정</mod_note>
+				<mod_note>예문 삭제</mod_note>
+				<mod_note>예문 수정</mod_note>
+				<mod_note>동사결합 항목추가하여 add의 정보입력</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/12/29</mod_date>
+				<mod_writer>김성용</mod_writer>
+				<mod_note>원어정보 수정</mod_note>
+			</mod>
+			<note>2003/07/04(류희선)의미부류(전기전자기구 아닌지?)</note>
+			<note>2003/10/31(김미현)의미부류를 '도구'로 놔둠</note>
+			<note>add에 동사자유구성으로 '~을 켜다|끄다' 추가</note>
+			<add>2003/10/31(김미현)~을 켜다|끄다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="xs">리모컨</var>
+			<org lg="etc">리모콘</org> <!--일본어 'remo con'에서 온 것 표시방법은?-->
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>단추를 직접 조정할 필요 없이 ~으로 소리를 좀 더 키워주세요.</eg>
+				<trans>remote control</trans>
+				<sem_class>도구</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 켜다</form>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~을 끄다</form>
+				</comb_v>
+				<cl type="uni">개</cl>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

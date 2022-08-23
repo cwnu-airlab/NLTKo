@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>상업성</orth>
+	<entry n="1" pos="nng_c">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/05</cre_date>
+				<cre_writer>권우진</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/07/05</mod_date>
+				<mod_writer>유영</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/11/01</mod_date>
+				<mod_writer>허영인</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/07</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note>예문 분할 표기;동사정보 분할 표기;'띠다, 지니다'를 기능동사로 수정;'있다'에 프레임 정보 추가;맥스엔, 논항 의미부류 정보 추가</mod_note>
+			</mod>
+			<note></note>
+			<add>~을 배제하다|추구하다|지향하다||띠다|지니다|비난하다</add>
+			<add>~에 빠지다|반대하다|찬성하다</add>
+			<add>~에서 벗어나다|탈피하다</add>
+			<add>~이 있다</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="N_N">상업+성</str>
+			<org lg="si">商業性</org>
+			<hom exist="temp"></hom>
+			<der pos="temp" type="temp"></der>
+			<comp pos="temp" type="temp"></comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>지난 LA올림픽은 성공적으로 개최되긴 했지만 지나치게 ~을 띠었다는 비난을 받았다.</eg>
+				<eg>게시판의 글 중에서 이익을 추구하는 ~ 광고나 음란 사이트 광고는 삭제합니다.</eg>
+				<trans>nature of commerce</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성값</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<hyper>성질</hyper>
+					<coord>공익성</coord>
+					<coord>특수성</coord>
+					<coord>일반성</coord>
+					<coord>타당성</coord>
+					<coord>독자성</coord>
+					<coord>순수성</coord>
+					<rel>사업</rel>
+					<rel>무역</rel>
+					<rel>장사</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="magn">~이 뛰어나다</comb_aj>
+				<comb_aj type="magn">~이 대단하다</comb_aj>
+				<comb_aj type="magn">~이 높다</comb_aj>
+				<comb_aj type="magn">~이 다분하다(*다분한)</comb_aj>
+				<comb_aj type="magn">~이 낮다</comb_aj>
+				<comb_aj type="magn">~이 부족하다</comb_aj>
+				<comb_aj type="magn">~이 결여되다</comb_aj>
+				<comb_aj type="magn">~이 없다</comb_aj>
+				<comb_n type="compound">~ 광고</comb_n>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 배제하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 추구하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 지향하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 비난하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에 빠지다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에서 벗어나다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~에서 탈피하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 띠다</form>
+					<frame>X-이 ~을 띠다</frame>
+					<frame>S것-이 ~을 띠다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 지니다</form>
+					<frame>X-이 ~을 지니다</frame>
+					<frame>S것-이 ~을 지니다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 있다</form>
+					<frame>X-이 ~이 있다</frame>
+					<frame>X-에 ~이 있다</frame>
+					<frame>S것-이 ~이 있다</frame>
+					<frame>S것-에 ~이 있다</frame>
+				</comb_v>
+				<max_n_str>X-의 ~</max_n_str>
+				<max_n_str>S것-의 ~</max_n_str>
+				<sel_rst arg="X">텍스트|예술|방법</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

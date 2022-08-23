@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>연하다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/09</cre_date>
+				<cre_writer>박철우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/09</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2005/09/14</mod_date>
+				<mod_writer>안소진</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="spr"></var>
+			<str>R.하</str>
+			<org lg="si">連_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01"> <!--공간적 개념-->
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>adjoin</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="LOC">구체물</sel_rst>
+					<eg>우리 집은 이발소 건물에 연하여 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="sym" n="1">
+				<frame>X=N0-이 Y=N1-와 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="COM">구체물</sel_rst>
+					<eg>우리 집은 이발소 건물과 연하여 있다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN" cor="sym" n="1">
+				<frame>X+Y=N0-이 (서로) V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">구체물</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물</sel_rst>
+					<eg>그 골목엔 오래된 한옥 건물들이 연하여 늘어서 있다.</eg>
+					<eg>난 헌책방들이 연하여 있는 그 거리를 서성이는 것이 즐겁다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02"> <!--시간적 개념-->
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>be successive</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">사건|행위|현상|상태변화</sel_rst>
+					<sel_rst arg="Y" tht="LOC">사건|행위|현상|상태변화</sel_rst>
+					<eg>지난 달의 참사에 연하여 이번 달에 또 사고가 일어났다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame> <!--X는 복수-->
+				<subsense>
+					<sel_rst arg="X" tht="THM">사건|행위|현상|상태변화</sel_rst>
+					<eg>막 공항에 도착한 그 선수에게 기자들은 연하여 질문을 했다.</eg>
+					<eg>그녀는 사람들이 연하여 선물을 가져오는 바람에 즐거운 비명을 지르고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/09</cre_date>
+				<cre_writer>박철우</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/09/09</mod_date>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">沿_</org>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>be bounded by</trans>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">장소</sel_rst>
+					<sel_rst arg="Y" tht="LOC">물장소</sel_rst>
+					<eg>그 도시는 바다에 연하여 있어 해산물이 풍부하다.</eg>
+					<eg>그 언덕에 오르면 강에 연한 마을 풍경이 한 눈에 들어온다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

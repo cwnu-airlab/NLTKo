@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>이용</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/03</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/05</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/28</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/02/03(한동훈)센스1,2의 예문 추가</note>
+			<note>2003/02/05(고길수)예문 수정</note>
+			<note>magn의 '효율적|비효율적 ~'은 add로 수정</note>
+			<note>pre_d에서 '~' 삭제</note>
+			<note>selres 정보 수정, 단 W 논항의 적절한 의미분포 재검토 필요</note>
+			<note>논항 의미정보 수정</note>
+			<note>센스1,2의 단위표현 정보 수정</note>
+			<note>센스1의 기능동사 정보 수정</note>
+			<note>센스1의 의미부류를 '행위'에서 '단독 행위'로 수정</note>
+			<note>센스2의 기능동사 정보 수정</note>
+			<note>센스2의 예문 수정</note>
+			<note>센스2의 의미부류를 '행위'에서 '단독행위'로 수정</note>
+			<add>'비효율적|효율적 ~' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">利用</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~상</der>
+			<der pos="n" type="suffix">~성</der>
+			<der pos="n" type="suffix">~도</der>
+			<der pos="n" type="suffix">~률</der>
+			<der pos="n" type="suffix">~물</der>
+			<der pos="n" type="suffix">~법</der>
+			<der pos="n" type="suffix">~자</der>
+			<der pos="n" type="suffix">~품</der>
+			<comp pos="n" type="suffix">~녹지</comp>
+			<comp pos="n" type="suffix">~조합</comp>
+			<comp pos="n" type="suffix">~행위</comp>
+			<comp pos="n" type="suffix">~후생</comp>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~당하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>장비의 효율적 ~은 생산성을 높인다.사람은 자신이 가진 능력의 십분의 일도 ~을 하지 못하고 만다.</eg>
+				<trans>useutilization</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>도용</coord>
+					<coord>사용</coord>
+					<coord>적용</coord>
+					<coord>활용</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 Z|S것|S데-에 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 W-로 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에 의해 Z|S것|S데-에 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에게|에게서|에 의해 W-으로 ~이 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-에 의한  Y-(의) ~</max_n_str>
+				<sel_rst arg="X">생물|집단</sel_rst>
+				<sel_rst arg="Y">구체물|장소|추상적대상</sel_rst>
+				<sel_rst arg="Z">행위|사건</sel_rst>
+				<sel_rst arg="W">구체인공물|장소</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		<sense n="2">
+			<sem_grp>
+				<eg>남의 약점 ~은 비겁한 짓이다.그들은 실컷 그를 ~만을 하다가 내팽개쳤다.</eg>
+				<trans>taking advantage of</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>단독행위</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<coord>도용</coord>
+					<coord>사용</coord>
+					<coord>적용</coord>
+					<coord>활용</coord>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 Z|S것|S데-에 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 W-로 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 당하다</form>
+					<frame>Y-이 X-에게|에 의해 Z|S것|S데-에 ~을 당하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에게|에 의해 Z|S것|S데-에 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 X-에게|에 의해 W-로 ~이 되다</frame>
+				</comb_v>
+				<!--vcompound: ~하다-->
+				<!--vcompound: ~되다-->
+				<max_n_str>X-의 Y ~</max_n_str>
+				<max_n_str>X-에 의한  Y-(의) ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">구체물|장소|추상적대상|사행</sel_rst>
+				<sel_rst arg="Z">돈|행위|사건</sel_rst>
+				<sel_rst arg="W">구체인공물(도구|미끼)|수동적행위인간(희생양)</sel_rst>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2000/09/03</cre_date>
+				<cre_writer>이호승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/02/05</mod_date>
+				<mod_writer>고길수</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/28</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2003/02/03(한동훈)의미부류를 '행위'에서 '방향성 행위'로 수정</note>
+			<note>2003/02/05(고길수)의미부류를 '행위'에서 '산업'으로 수정</note>
+			<note>동사자유구성을 add 로 옮김</note>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">理容</org>
+		
+			<hom exist="yes"/>
+			<der pos="n" type="suffix">~사</der>
+			<der pos="n" type="suffix">~소</der>
+			<der pos="n" type="suffix">~업</der>
+			<comp pos="n" type="suffix">~학원</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>~에 종사하는 수는 남성보다 여성이 많다.</eg>
+				<trans>haircut</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>산업</sem_class>
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<mero>미용</mero>
+					<mero>이발</mero>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~에 종사하다</form>
+					<frame>X-이 ~에 종사하다</frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="X">인간</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

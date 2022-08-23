@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>훈화</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/09/16</cre_date>
+				<cre_writer>서진숙</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/10/30</mod_date>
+				<mod_writer>서진숙</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/10/27</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>예문 추가, cl 기술, frame의 'S다고, S다는'을 'S라고, S라는'으로 수정, frame 추가, 동의어 훈계를 훈시로 수정, n_n와 max_n 기술</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/02/04</mod_date>
+				<mod_writer>임유종</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/10</mod_date>
+				<mod_writer>백고운</mod_writer>
+				<mod_note>복합명사추가</mod_note>
+			</mod>
+			<add>~를 꺼내다</add><!--불가능한 듯하여 n_v에 옮기지 않았음(김)-->
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">訓話</org>
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>선생님께서 아이들에게 또 ~를 하시더니 나가셨단다.</eg>
+				<eg>선생님은 물싸움 하지 말라고, 물자 절약을 하라고 수없이 ~를 하셨다.</eg>
+				<trans>admonition</trans>
+				<trans>precepts</trans>
+				<trans>admonitory speech</trans>
+				<sem_class>명령</sem_class><!--연설?(김)-->
+				<lr>
+					<syn type="perfect">훈시</syn>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_n type="compound">교장 ~</comb_n>
+				<comb_n type="compound">~ 자료</comb_n>
+				<comb_n type="compound">~ 말씀</comb_n>
+				<comb_n type="compound">~ 방송</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~를 하다</form>
+					<frame>X-이 Y-에게 S라고 ~를 하다</frame>
+					<frame>X-이 Y-에게 S라는 ~를 하다</frame>
+					<frame>X-이 Y-에게 ~를 하다</frame><!--추가(김)-->
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~를 듣다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str>Y-에대한 X-의 ~</max_n_str>
+				<sel_rst arg="X">인간(어른|선생님)</sel_rst>
+				<sel_rst arg="Y">인간(어린이|학생)</sel_rst>
+				<cl type="uni">회</cl>
+				<cl type="uni">번</cl>
+				<cl type="uni">차례</cl>
+				<s_n>S라는 ~</s_n>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

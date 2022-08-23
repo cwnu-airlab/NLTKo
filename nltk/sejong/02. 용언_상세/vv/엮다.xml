@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>엮다</orth>
+	<entry n="1" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/06/01</cre_date>
+				<cre_writer>노윤채</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2002/10/14</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2003/07/15</mod_date>
+				<mod_writer>노윤채</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/05</mod_date>
+				<mod_writer>임동식</mod_writer>
+				<mod_note>의미정보 확장 및 형태정보 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<cntr opt="opt" type="i"/>
+			<infl type="reg"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결박</sem_class>
+				<trans>tie (with a rope)</trans>
+				<lr>
+					<syn type="perfect">묶다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물</sel_rst>
+					<eg>시래기는 푸른 무청을 새끼 등으로 엮어 겨우내 말린 것으로 오래 푹 삶아 찬물에 우렸다가 각종 반찬을 만들어 먹는다.</eg>
+					<eg>그 곳에는 곰이 열매를 따먹고 나뭇가지를 엮어 선반처럼 해 놓은 상사리 뿐만 아니라, 산죽을 엮어 만들어 등을 기대며 쉼터로 사용하는 탱이를 볼 수 있었다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>put together</trans>
+				<lr>
+					<syn type="perfect">모으다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">온</sel_rst>
+					<eg>삼성 팀은 투런홈런, 2타점 2루타, 와일드피치 등을 엮어 5대1로 역전시키며 초반에 승기를 잡아갔다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="03">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>weave a history</trans>
+				<lr>
+					<syn type="perfect">잇다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">텍스트(이야기|말)</sel_rst>
+					<eg>판소리란 우리 전통 음악의 한 갈래로서 소리하는 이가 혼자 서서 몸짓과 노래와 말로 춘향전이나 심청전 같은 긴 이야기를 엮어 나가는 것을 말합니다.</eg>
+					<eg>쓸모 없는 말을 엮어 늘어놓는 천 마디보다 들으면 마음이 가라앉는 한 마디가 훨씬 뛰어난 말이다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="04">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>edit</trans>
+				<lr>
+					<syn type="sino">편집하다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Y=N1-을 Z=N2-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">기호|기호체계</sel_rst>
+					<sel_rst arg="Z" tht="FNS">텍스트|텍스트담지물</sel_rst>
+					<eg>이것은 제가 그 동안 틈틈이 발표한 글을 책으로 엮은 것입니다.</eg>
+					<eg>동물들의 재미있는 표정과 모습 등의 사진으로 엮어 보았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "vv.dtd">
+<superEntry>
+	<orth>괴다</orth><!--"사랑하다" 의미의 "괴다'에 대해서는 기술하지 않음.-->
+	<entry n="1" pos="vv"><!--"직함을 받들어쓰다"의 의미에 대해서는 기술하지 않음.-->
+		<mnt_grp>
+			<cre>
+				<cre_date></cre_date>
+				<cre_writer>???</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/06/07</mod_date>
+				<mod_writer>김종명</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2005/09/30</mod_date>
+				<mod_writer>김민선</mod_writer>
+				<mod_note>형태정보, 의미정보, 격틀 조정</mod_note>
+				<mod_note>센스 대폭 조정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="lng">고이다</var>
+			<str>V</str>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>결과행위</sem_class>
+				<trans>support</trans>
+				<lr>
+					<syn type="perfect">받치다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR" cor="cross" n="1">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물|신체부위(손)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">장소|구체물|신체부위(턱)</sel_rst>
+					<eg>기사는 트럭 바퀴에 돌을 괴었다.</eg>
+					<eg>턱에 손등을 괸 채 명상에 잠긴다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FTR" cor="cross" n="1">
+				<frame>X=N0-이 Z=N2-로 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">장소|구체물|신체부위(턱)</sel_rst>
+					<sel_rst arg="Z" tht="INS">구체물|신체부위(손)</sel_rst>
+					<eg>기사는 돌로 트럭 바퀴를 괴었다.</eg>
+					<eg>손등으로 턱을 괸 채 명상에 잠긴다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+		<sense n="02">
+			<sem_grp>
+				<sem_class>배치</sem_class>
+				<trans>arrange</trans>
+				<lr>
+					<syn type="perfect">쌓아올리다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FTR">
+				<frame>X=N0-이 Z=N2-에 Y=N1-을 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">구체물(과일|떡)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">그릇|가구(상)</sel_rst>
+					<eg>제기에 과일을 좀 괴어라.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="AGT">인간</sel_rst>
+					<sel_rst arg="Y" tht="THM">(장작|꼴)</sel_rst>
+					<sel_rst arg="Z" tht="LOC">장소</sel_rst>
+					<eg>장작 한 더미를 구석에 괴어 놓았다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2005/09/30</cre_date>
+				<cre_writer>김민선</cre_writer>
+				<cre_note>"액체" 관련 "괴다"에 대해 기술</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="lng">고이다</var>
+			<str>V</str>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>상태</sem_class>
+				<trans>stagnate</trans>
+				<lr>
+					<syn type="perfect">모이다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-에 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">액체</sel_rst>
+					<sel_rst arg="Y" tht="GOL">장소|구체물</sel_rst>
+					<eg>빗물이 웅덩이에 괬다.</eg>
+				</subsense>
+				<subsense>
+					<sel_rst arg="X" tht="THM">분비물</sel_rst>
+					<sel_rst arg="Y" tht="GOL">신체부위(눈)</sel_rst>
+					<eg>눈물이 눈에 한가득 괸 채 그 아이는 소녀를 바라보았다.</eg>
+				</subsense>
+			</frame_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 Y=N1-로 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">액체</sel_rst>
+					<sel_rst arg="Y" tht="DIR">장소|구체물</sel_rst>
+					<eg>빗물이 웅덩이로 괬다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+	<entry n="3" pos="vv">
+		<mnt_grp>
+			<cre>
+				<cre_date>2005/09/30</cre_date>
+				<cre_writer>김민선</cre_writer>
+				<cre_note>"발효" 관련 "괴다"에 대해 기술</cre_note>
+			</cre>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<var type="lng">고이다</var>
+			<str>V</str>
+			<infl type="yeo"/>
+		</morph_grp>
+		<sense n="01">
+			<sem_grp>
+				<sem_class>전이</sem_class>
+				<trans>ferment</trans>
+				<lr>
+					<syn type="sino">발효하다</syn>
+				</lr>
+			</sem_grp>
+			<frame_grp type="FIN">
+				<frame>X=N0-이 V</frame>
+				<subsense>
+					<sel_rst arg="X" tht="THM">알콜음료|발효식품(간장|된장)</sel_rst>
+					<eg>거품을 일으키며 술이 괴고 있다.</eg>
+				</subsense>
+			</frame_grp>
+		</sense>
+	</entry>
+</superEntry>

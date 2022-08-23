@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>완결</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/16</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/08</mod_date>
+				<mod_writer>김미순</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/04</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>n_v 기능동사 및 격틀정보 분리제시</mod_note>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>sem 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 추가</mod_note>
+			</mod>
+			<note>2002/08/27(고길수)의미부류를 '행위'에서 '단독행위'로 수정</note>
+			<note>기능동사 정보 수정, 보문 논항 추가</note>
+			<note>add 정보 추가</note>
+			<note>2002/10/11(이성헌)</note>
+			<note>2003/09/08(김미순)센스 1 예문수정</note>
+			<note>센스 2 예문수정</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">完結</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>지난해부터 준비하던 작품의 ~이 눈앞에 다가왔다.</eg>
+				<trans>conclusion</trans>
+				<trans>completion</trans>
+				<trans>end</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>종료행위</sem_class> <!--'단독행위'를 '종료행위'로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="temp"></comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 ~을 하다</frame>
+					<frame>X-이 S것-을 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="no">~을 시키다</form>
+					<frame>X-이 Y-을 ~을 시키다</frame>
+					<frame>X-이 S것-을 ~을 시키다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 ~이 되다</frame>
+					<frame>S것-이 ~이 되다</frame>
+				</comb_v>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">작품|역할|텍스트|행위|공연</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+	<entry n="2" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2002/08/16</cre_date>
+				<cre_writer>김현승</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/09/08</mod_date>
+				<mod_writer>김미순</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2005/08/04</mod_date>
+				<mod_writer>송근영</mod_writer>
+				<mod_note>격틀정보 분리</mod_note>
+				<mod_note>일부 n_v 술어명사 결합유형으로 수정, 격틀 기술</mod_note>
+				<mod_note>max_n 기술</mod_note>
+				<mod_note>sem 수정</mod_note>
+				<mod_note>sel_res 수정</mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/01/23</mod_date>
+				<mod_writer>이민우</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/07/29</mod_date>
+				<mod_writer>호정은</mod_writer>
+				<mod_note>합성어 추가</mod_note>
+				<mod_note>문형 띄어쓰기 수정</mod_note>
+			</mod>
+			<note>2002/08/27(고길수)의미부류를 '행위'에서 '인지적|추상적행위'로 수정</note>
+			<note>comb_v 정보 추가</note>
+			<note>기능동사 정보 수정, 불분명한 논항 및 구조 정보를 수정</note>
+			<note>논항정보 수정</note>
+			<note>2002/10/11(이성헌)</note>
+			<note>2003/09/08(김미순)</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">完決</org>
+			<hom exist="yes"/>
+			<der pos="temp" type="temp"></der>
+			<comp pos="v" type="suffix">~하다</comp>
+			<comp pos="v" type="suffix">~되다</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>마침내 위원회는그 안건에 대해 ~을 지었다.</eg>
+				<trans>definite decision</trans>
+				<trans>conclusive decision</trans>
+				<trans>final determination</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<sem_class>종료행위</sem_class> <!--'인지추상적행위'를 '종료행위'로 수정(송근영)-->
+				<lr>
+					<syn type="temp"></syn>
+					<ant type="temp"></ant>
+					<rel></rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~ 사항</comb_n>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 Y-을 Z-로 ~을 하다</frame>
+					<frame>X-이 Y-을 S것-로 ~을 하다</frame>
+					<frame>X-이 Y-을 S기-로 ~을 하다</frame>								
+					<frame>X-이 Y-에대해 Z-로 ~을 하다</frame>
+					<frame>X-이 Y-에대해 S것-로 ~을 하다</frame>
+					<frame>X-이 Y-에대해 S기-로 ~을 하다</frame>
+					<frame>X-이 S것-을 Z-로 ~을 하다</frame>
+					<frame>X-이 S것-을 S것-로 ~을 하다</frame>
+					<frame>X-이 S것-을 S기-로 ~을 하다</frame>								
+					<frame>X-이 S것-에대해 Z-로 ~을 하다</frame>
+					<frame>X-이 S것-에대해 S것-로 ~을 하다</frame>
+					<frame>X-이 S것-에대해 S기-로 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>Y-이 Z-로 ~이 되다</frame>
+					<frame>Y-이 S것-로 ~이 되다</frame>
+					<frame>Y-이 S기-로 ~이 되다</frame>
+					<frame>S것-이 Z-로 ~이 되다</frame>
+					<frame>S것-이 S것-로 ~이 되다</frame>
+					<frame>S것-이 S기-로 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 짓다</form>
+					<frame>X-이 Y-을 Z-로 ~을 짓다</frame>
+					<frame>X-이 Y-을 S것-로 ~을 짓다</frame>
+					<frame>X-이 Y-을 S기-로 ~을 짓다</frame>								
+					<frame>X-이 Y-에대해 Z-로 ~을 짓다</frame>
+					<frame>X-이 Y-에대해 S것-로 ~을 짓다</frame>
+					<frame>X-이 Y-에대해 S기-로 ~을 짓다</frame>
+					<frame>X-이 S것-을 Z-로 ~을 짓다</frame>
+					<frame>X-이 S것-을 S것-로 ~을 짓다</frame>
+					<frame>X-이 S것-을 S기-로 ~을 짓다</frame>								
+					<frame>X-이 S것-에대해 Z-로 ~을 짓다</frame>
+					<frame>X-이 S것-에대해 S것-로 ~을 짓다</frame>
+					<frame>X-이 S것-에대해 S기-로 ~을 짓다</frame>
+				</comb_v>
+				<comb_v type="npred_vsupvar">
+					<form vcompound="no">~을 내다</form>
+					<frame>X-이 Y-을 Z-로 ~을 내다</frame>
+					<frame>X-이 Y-을 S것-로 ~을 내다</frame>
+					<frame>X-이 Y-을 S기-로 ~을 내다</frame>								
+					<frame>X-이 Y-에대해 Z-로 ~을 내다</frame>
+					<frame>X-이 Y-에대해 S것-로 ~을 내다</frame>
+					<frame>X-이 Y-에대해 S기-로 ~을 내다</frame>
+					<frame>X-이 S것-을 Z-로 ~을 내다</frame>
+					<frame>X-이 S것-을 S것-로 ~을 내다</frame>
+					<frame>X-이 S것-을 S기-로 ~을 내다</frame>								
+					<frame>X-이 S것-에대해 Z-로 ~을 내다</frame>
+					<frame>X-이 S것-에대해 S것-로 ~을 내다</frame>
+					<frame>X-이 S것-에대해 S기-로 ~을 내다</frame>
+				</comb_v>
+				<max_n_str>Y-의 ~</max_n_str>
+				<sel_rst arg="X">인간|인간집단</sel_rst>
+				<sel_rst arg="Y">방법(방법)|의견(계획|의견)|(안건|사항)|행위</sel_rst> <!--'생각'을 '의견'으로 수정(송근영)-->
+				<sel_rst arg="Z">속성값|행위</sel_rst>
+				<cl type="temp"></cl>
+				<prt></prt>
+				<av></av>
+				<pre_d/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>

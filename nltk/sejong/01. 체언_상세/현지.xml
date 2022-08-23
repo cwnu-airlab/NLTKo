@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+
+<superEntry>
+	<orth>현지</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2001/07/14</cre_date>
+				<cre_writer>김미순</cre_writer>
+				<cre_note></cre_note>
+			</cre>
+			<mod>
+				<mod_date>2003/10/04</mod_date>
+				<mod_writer>박진호</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/09/19</mod_date>
+				<mod_writer>박진희</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2006/11/25</mod_date>
+				<mod_writer>이홍식</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/09/09</mod_date>
+				<mod_writer>전미현</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<note>2001/07/20(고길수)</note>
+			<note>2003/10/04(박진호)센스1 의미부류 수정, 명사연어 추가. 센스2 의미부류 수정, comb_v 추가</note>
+			<note>센스 추가 요망</note>
+			<note>센스1의 단위명사가 현지를 세는 명사인가 아니면 부분을 나타내는 것인가?</note>
+			<add></add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<see></see>
+		<morph_grp>
+			<var type="temp"></var>
+			<str type="temp"></str>
+			<org lg="si">現地</org>
+		
+			<hom exist="temp"></hom>
+			<der pos="n" type="suffix">~인</der>
+			<der pos="n" type="suffix">~성</der>
+			<comp pos="n" type="suffix">~금융</comp>
+			<comp pos="n" type="suffix">~답사</comp>
+			<comp pos="n" type="suffix">~대부</comp>
+			<comp pos="n" type="suffix">~로케이션</comp>
+			<comp pos="n" type="suffix">~방송</comp>
+			<comp pos="n" type="suffix">~법인</comp>
+			<comp pos="n" type="suffix">~보도</comp>
+			<comp pos="n" type="suffix">~보호</comp>
+			<comp pos="n" type="suffix">~임관</comp>
+			<comp pos="n" type="suffix">~촬영</comp>
+			<comp pos="n" type="prefix">사고~</comp>
+			<comp pos="n" type="prefix">사건~</comp>
+			<metc pos="temp" type="temp"></metc>
+			<img type="temp"></img>
+		</morph_grp>
+		<idm_grp>
+			<idm type="temp"></idm>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>좋은 야영 장소를 찾기 위해 우리는 ~를 미리 답사하였다</eg>
+				<trans>the actual place</trans>
+				<domain></domain>
+				<reg></reg>
+				<con></con>
+				<curs type="U"/>
+				<sem_class>속성기능장소</sem_class>
+				<lr>
+					<syn type="etc">현장</syn>
+					<ant type="temp"></ant>
+					<rel>답사</rel>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_aj type="temp"></comb_aj>
+				<comb_n type="compound">~(의) 주민</comb_n>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 답사하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 조사하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~를 방문하다</form>
+					<frame></frame>
+				</comb_v>
+				<comb_v type="narg_vpred">
+					<form vcompound="no">~로 떠나다</form>
+					<frame></frame>
+				</comb_v>
+				<max_n_str></max_n_str>
+				<sel_rst arg="temp"></sel_rst>
+				<cl type="uni">곳</cl>
+				<cl type="uni">군데</cl>
+				<prt></prt>
+				<av></av>
+				<pre_d yn="no"/>
+				<pre_n/>
+				<s_n/>
+			</syn_grp>
+		</sense>
+		
+	</entry>
+</superEntry>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE superEntry SYSTEM "2007nn.dtd">
+<superEntry>
+	<orth>발흥</orth>
+	<entry n="1" pos="nng_s">
+		<mnt_grp>
+			<cre>
+				<cre_date>2003/11/04</cre_date>
+				<cre_writer>송인욱</cre_writer>
+			</cre>
+			<mod>
+				<mod_date>2003/11/04</mod_date>
+				<mod_writer>송인욱</mod_writer>
+			</mod>
+			<mod>
+				<mod_date>2004/11/07</mod_date>
+				<mod_writer>서진숙</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2004/11/08</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note></mod_note>
+			</mod>
+			<mod>
+				<mod_date>2007/08/23</mod_date>
+				<mod_writer>김이정</mod_writer>
+				<mod_note>n_v 수정</mod_note>
+			</mod>
+			<add>2003/11/04(송인욱)동사자유구성으로 '~을 막다|목도하다' 추가</add>
+			<mod>
+				<mod_date>2009/11/01</mod_date>
+				<mod_writer>김민호</mod_writer>
+				<mod_note>UTF-8로 변경, XML 태그 오류 수정</mod_note>
+			</mod>
+		</mnt_grp>
+		<morph_grp>
+			<org lg="si">勃興</org>
+		
+		</morph_grp>
+		<idm_grp>
+		</idm_grp>
+		<sense n="1">
+			<sem_grp>
+				<eg>인문학이 쇠퇴하고 응용과학이 ~을 하는 것이 오늘날의 현실이다.</eg>
+				<eg>역사의 교훈을 잊은 채 21세기 초에 또다시 제국주의가 ~이 되고 있다.</eg>
+				<eg>참된 통일을 원한다면 냉전세력의 ~을 이대로 보고만 있어서는 안 된다.</eg>
+				<trans>sudden rise</trans>
+				<trans>sudden increase in power</trans>
+				<sem_class>생성</sem_class>
+				<lr>
+				</lr>
+			</sem_grp>
+			<syn_grp>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~을 하다</form>
+					<frame>X-이 ~을 하다</frame>
+				</comb_v>
+				<comb_v type="npred_vsup">
+					<form vcompound="yes">~이 되다</form>
+					<frame>X-이 ~이 되다</frame>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 막다</form>
+				</comb_v>
+				<comb_v type="npred_vpred">
+					<form vcompound="no">~을 목도하다</form>
+				</comb_v>
+				<sel_rst arg="X">국가</sel_rst>
+				<sel_rst arg="X">종족</sel_rst>
+				<sel_rst arg="X">학문과목</sel_rst>
+				<sel_rst arg="X">종교</sel_rst>
+				<sel_rst arg="X">사조</sel_rst>
+				<sel_rst arg="X">예술</sel_rst>
+			</syn_grp>
+		</sense>
+	</entry>
+</superEntry>
