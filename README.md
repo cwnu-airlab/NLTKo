@@ -1,4 +1,4 @@
-# Manual [NLTKo]
+# Manual [NLTKo][^3]
 
 ## **Revision History**
 
@@ -19,7 +19,7 @@
 | 13   | NLTKo(version 1.1.3)<br />pos_tag 모듈 수정(nouns, word_segmentor) | 홍성태 | 22.07.29 |
 | 14   | NLTKo(version 1.1.4)<br />형태소분석기 동적라이브러리 생성을 위한 setup.py 수정 | 홍성태 | 22.08.19 |
 
-
+[^3]: https://koreascience.kr/article/CFKO202130060745839.view?orgId=anpor&hide=breadcrumb,journalinfo
 
 <div style="page-break-after: always;"></div>
 
@@ -75,7 +75,7 @@
 
 ### 2.1 토크나이저
 
-​	자연어 문서를 분석하기 위해서 긴 문자열을 나누어야 한다. 이 문자열 단위를 토큰 (token) 이라고 하고  문자열을 토큰으로 나누는 작업을 토큰 생성(tokenizing) 이라 한다.  현재 ko_nltk에서는 사용자가 분석에 필요한 작업 토큰의 단위에 따라 **문장, 어절, 음절 토크나이징**이 모두 가능하다.
+​	자연어 문서를 분석하기 위해서 긴 문자열을 나누어야 한다. 이 문자열 단위를 토큰 (token) 이라고 하고  문자열을 토큰으로 나누는 작업을 토큰 생성(tokenizing) 이라 한다.  현재 NLTKo에서는 사용자가 분석에 필요한 작업 토큰의 단위에 따라 **문장, 어절, 음절 토크나이징**이 모두 가능하다.
 
 ### 2.2 세종전자사전 활용[^1]  
 
@@ -149,7 +149,7 @@ entrys(word)
 
 ```h
 $ git config --global http.sslVerify false
-$ pip install git+https://modi.changwon.ac.kr/air_cwnu/nlp_tool/nltk_ko
+$ pip install git+https://github.com/cwnu-airlab/NLTKo
 
 Collecting git+https://modi.changwon.ac.kr/air_cwnu/nlp_tool/nltk_ko.git
 Cloning https://modi.changwon.ac.kr/air_cwnu/nlp_tool/nltk_ko.git to /tmp/pip-req-build-1dychja8

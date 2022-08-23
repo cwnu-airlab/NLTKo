@@ -24,7 +24,7 @@ module1 = Extension("nltk.tag.espresso.libs.network",
 setup(
   name='nltk',
   version='1.1.4',
-	url='https://modi.changwon.ac.kr/air_cwnu/nlp_tool/nltk_ko.git',
+	url='https://github.com/cwnu-air/NLTKo.git',
   packages=find_packages(exclude=[]),
   install_requires=['regex==2020.7.14','numpy','requests','beautifulSoup4'],
   package_data={'': extra_files},
