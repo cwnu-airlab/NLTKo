@@ -141,28 +141,33 @@ entrys(word)
 
 - 운영체제 : Ubuntu 18.04
 - 언어 : python3
-- 라이브러리 : nltk (version 1.1.3)  **※ 해당 nltk는 영어 nltk를 내포하고 있음 ※**
+- 라이브러리 : nltk (version 1.1.4)  **※ 해당 nltk는 영어 nltk를 내포하고 있음 ※**
 
 ### 3.1 라이브러리 설치
 
-   해당 라이브러리를 설치하기 위해서 아래와 동일하게 명령어 라인에서 입력하여 다운로드 받을 때, 사용자의  2가지  정보가 필요하다. 'modi.changwon.ac.kr' 내 사용하는 **사용자의 ID와 PW를 입력**해주어야만 다운로드가 가능하다.
+   해당 라이브러리를 설치하기 위해서 아래와 동일하게 명령어 라인에서 입력하여 다운로드 가능하다.
 
 ```h
 $ git config --global http.sslVerify false
 $ pip install git+https://github.com/cwnu-airlab/NLTKo
 
-Collecting git+https://modi.changwon.ac.kr/air_cwnu/nlp_tool/nltk_ko.git
-Cloning https://modi.changwon.ac.kr/air_cwnu/nlp_tool/nltk_ko.git to /tmp/pip-req-build-1dychja8
-Username for 'https://modi.changwon.ac.kr': seongtae (gitlab의 사용자 ID)
-Password for 'https://seongtae@modi.changwon.ac.kr': (gitlab의 사용자 PW)
-Requirement already satisfied: regex==2020.7.14 in ./mac/lib/python3.6/site-packages (from nltk==1.0.1) (2020.7.14)
+
+Collecting git+https://github.com/cwnu-airlab/NLTKo
+  Cloning https://github.com/cwnu-airlab/NLTKo to /tmp/pip-req-build-_u64swgw
+  Running command git clone --filter=blob:none -q https://github.com/cwnu-airlab/NLTKo /tmp/pip-req-build-_u64swgw
+  Resolved https://github.com/cwnu-airlab/NLTKo to commit 9a95d89ee954af3610a7a61295cd5c1b40a9b33f
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: regex==2020.7.14 in /mnt/data4/ghdchlwls123/virtual_env/real/lib/python3.6/site-packages (from nltk==1.1.4) (2020.7.14)
+Requirement already satisfied: numpy in /mnt/data4/ghdchlwls123/virtual_env/real/lib/python3.6/site-packages (from nltk==1.1.4) (1.19.5)
+... 
+Requirement already satisfied: certifi>=2017.4.17 in /mnt/data4/ghdchlwls123/virtual_env/real/lib/python3.6/site-packages (from requests->nltk==1.1.4) (2022.6.15)
 Building wheels for collected packages: nltk
   Building wheel for nltk (setup.py) ... done
-  Created wheel for nltk: filename=nltk-1.0.1-py3-none-any.whl size=47028553 sha256=bd14c5ee5672a27557ac92965b6c2a639fe4e595b1777dadf4aee35b3384a947
-  Stored in directory: /tmp/pip-ephem-wheel-cache-4otqpoux/wheels/9e/cc/cc/96c8c07aaef3aee9a5168e352fdc588a7d120da6236501ef61
+  Created wheel for nltk: filename=nltk-1.1.4-cp36-cp36m-linux_x86_64.whl size=55523456 sha256=0c8b9d1c9d901d0db7fb7baea5c67a2aea9b1e1d5edc62e9ae32a46bdfe31351
+  Stored in directory: /tmp/pip-ephem-wheel-cache-49yua750/wheels/b0/8d/9a/424cab1626f590f8f204c9376833c732276777a79f4906120e
 Successfully built nltk
 Installing collected packages: nltk
-Successfully installed nltk-1.0.1 
+Successfully installed nltk-1.1.4
 ```
 
 <div style="page-break-after: always;"></div>
