@@ -18,6 +18,7 @@
 | 12   | NLTKo(version 1.1.2)<br />trans.py (papago key auto update) & pos_tag engine Espresso5로 변경 | 홍성태 | 22.07.08 |
 | 13   | NLTKo(version 1.1.3)<br />pos_tag 모듈 수정(nouns, word_segmentor) | 홍성태 | 22.07.29 |
 | 14   | NLTKo(version 1.1.4)<br />형태소분석기 동적라이브러리 생성을 위한 setup.py 수정 | 홍성태 | 22.08.19 |
+| 15    | NLTKo (version1.0.5)<br /> README.md 수정 | 관리자 | 23.01.18 |
 
 [^3]: https://koreascience.kr/article/CFKO202130060745839.view?orgId=anpor&hide=breadcrumb,journalinfo
 
@@ -903,7 +904,7 @@ Returns
 '''
 pos_tag(token, tagset=None, lang='eng') //nltk와 함수 공유
 	* args
-			tokens : syllable_tokens (list)
+			tokens : 문장 (str)
 			tagset : None 
 			lang : 'kor' //한국어 품사 태깅		
 	* return : pos-tagging (tuple of list)
@@ -921,30 +922,32 @@ word_segmentor(sent)
 	* return : 어절 리스트(list)
 '''
 
->>> sent="오픈소스에 관심 많은 멋진 개발자님들!"
+>>> sent="반가워요, 창원대학교 입니다."
 
 >>> tagged=pos_tag(sent,lang='kor')
 >>> tagged
-[('오픈', 'NN'), ('소스', 'NN'), ('에', 'JJ'), ('관심', 'NN'), ('많', 'VB'), ('은', 'EE'), ('멋지', 'VB'), ('ㄴ', 'EE'), ('개발자', 'NN'), ('님들', 'XN'), ('!', 'SY')]
+[('반갑', 'VB'), ('어', 'EE'), ('요', 'EE'), (',', 'SY'), ('창원대학교', 'NN'), ('이', 'VB'), ('니다', 'EE'), ('.', 'SY')]
 
 >>> nouns_list=nouns(sent)
 >>> nouns_list
-['오픈', '소스', '관심', '개발자']
+['창원대학교']
 
->>> sent="오픈소스에관심많은멋진개발자님들!"
->>> seg = word_segmentor(sent)
->>> seg
-['오픈', '소스에', '관심', '많은', '멋진', '개발자님들']
-
-
->>> sent="우리 다시 사랑하자"
 >>> token=syllable_tokenize(sent)
+>>> token
+['반', '가', '워', '요', ',', '창', '원', '대', '학', '교', '입', '니', '다', '.']
+>>> token_str="".join(token)
+>>> token_str
+'반가워요,창원대학교입니다.'
 
->>> pos_tag(token,lang='kor')
-[('우리', 'NN'), ('다시', 'MA'), ('사랑', 'NN'), ('하', 'XV'), ('자', 'EE')]
+>>> seg = word_segmentor(token_str)
+>>> seg
+['반가워요', ',', '창원', '대학교입니다']
+
+>>> pos_tag(token_str,lang='kor')
+[('반갑', 'VB'), ('어', 'EE'), ('요', 'EE'), (',', 'SY'), ('창원대학교', 'NN'), ('이', 'VB'), ('니다', 'EE'), ('.', 'SY')]
 
 >>> pos_tag_with_verb_form(sent)
-[('우리', 'NN'), ('다시', 'MA'), ('사랑하', 'VB'), ('자', 'EE')]
+[('반갑', 'VB'), ('어', 'EE'), ('요', 'EE'), (',', 'SY'), ('창원대학교', 'NN'), ('이', 'VB'), ('니다', 'EE'), ('.', 'SY')]
 ~~~
 
 
