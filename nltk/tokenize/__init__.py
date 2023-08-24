@@ -158,6 +158,3 @@ def syllable_tokenize(text,language="korean",blank=False):
 
     return ko_tokenize.eumjeol_tokenize(text,blank)
 
-
-
-

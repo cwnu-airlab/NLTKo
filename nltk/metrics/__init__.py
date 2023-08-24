@@ -49,3 +49,5 @@ from nltk.metrics.spearman import (
     ranks_from_scores,
 )
 from nltk.metrics.aline import align
+from nltk.metrics.eval import StringMetric
+from nltk.metrics.classical import DefaultMetric

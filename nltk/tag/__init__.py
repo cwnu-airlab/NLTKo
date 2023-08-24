@@ -142,8 +142,8 @@ def _pos_tag(tokens, tagset=None, tagger=None, lang=None):
     elif lang=="kor":
 
           #이전 분석기
-          #tagged_tokens=tagger.pos_tag(tokens)
-          #return tagged_tokens
+        #   tagged_tokens=tagger.pos_tag(tokens)
+        #   return tagged_tokens
 
           #현재 분석기(espresso5)
           tagged_tokens=tagger.tag(tokens)
@@ -195,6 +195,11 @@ def pos_tag(tokens, tagset=None, lang="eng"):
     :return: The tagged tokens
     :rtype: list(tuple(str, str))
     """
+    # 일시적으로 Pos_tag를 막음
+    raise NotImplementedError(
+            "Currently, NLTK pos_tag is not supported. "
+            "It will be supported in the future"
+    )
     tagger = _get_tagger(lang)
     return _pos_tag(tokens, tagset, tagger, lang)
 

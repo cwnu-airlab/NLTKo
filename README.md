@@ -1,4 +1,4 @@
-# Manual [NLTKo][^3]
+# Manual [NLTKo]
 
 ## **Revision History**
 
@@ -18,9 +18,10 @@
 | 12   | NLTKo(version 1.1.2)<br />trans.py (papago key auto update) & pos_tag engine Espresso5로 변경 | 홍성태 | 22.07.08 |
 | 13   | NLTKo(version 1.1.3)<br />pos_tag 모듈 수정(nouns, word_segmentor) | 홍성태 | 22.07.29 |
 | 14   | NLTKo(version 1.1.4)<br />형태소분석기 동적라이브러리 생성을 위한 setup.py 수정 | 홍성태 | 22.08.19 |
-| 15    | NLTKo (version1.0.5)<br /> README.md 수정 | 관리자 | 23.01.18 |
-
-[^3]: https://koreascience.kr/article/CFKO202130060745839.view?orgId=anpor&hide=breadcrumb,journalinfo
+| 15   | NLTKo(version 1.1.5)<br />Python3.8에서 실행을 위해 setup.py 수정 | 김도원 | 23.07.20 |
+| 16   | NLTKo(version 1.2.0)<br />string2string 기능 추가 | 김도원 | 23.08.16 |
+| 17   | NLTKo(version 1.2.1)<br />Metrics 통합 | 김도원 | 23.08.24 |
+| 18   | NLTKo(version 1.2.2)<br />Metrics 클래스 명칭 정리 | 김도원 | 23.08.24 |
 
 <div style="page-break-after: always;"></div>
 
@@ -37,6 +38,7 @@
   + [2.5 기계 번역 평가](#25-기계-번역-평가)
   + [2.6 pos_tag](#26-pos_tag)
   + [2.7 Translate](#27-Translate)
+  * [2.8 string2string](#28-string2string)
 * [3. 사용 환경](#3-사용-환경)
   * [3.1 라이브러리 설치](#31-라이브러리-설치)
 * [4.실행](#4-실행)
@@ -48,8 +50,8 @@
     * [4.2.4 entry 함수 사용법 & 결과](#424-entry-함수-사용법--결과)
     * [4.2.5 sense 함수 사용법 & 결과](#425-sense-함수-사용법--결과)
   * [4.3 한국어 전처리 (korchar)](#43-한국어전처리-korchar)
-  * [4.4 분류 모델 평가 (metric)](#44-분류모델평가-metric)
-  * [4.5 기계 번역 평가 (eval)](#45-기계번역평가-eval)
+  * [4.4 분류 모델 평가 (DefaultMetric)](#44-분류모델평가-DefaultMetric)
+  * [4.5 기계 번역 평가 (StringMetric)](#45-기계번역평가-StringMetric)
     * [4.5.1 WER/CER](#451-WER/CER)
     * [4.5.2 BLEU](#452-bleu)
     * [4.5.3 ROUGE](#453-rouge)
@@ -57,7 +59,31 @@
     * [4.5.5 METEOR](#455-meteor)
   * [4.6 pos-tag](#46-pos_tag)
   * [4.7 Translate](#47-Translate)
-  * [4.8 etc](#48-etc)
+  * [4.8 정렬 (alignment)](#48-정렬-alignment)
+	* [4.8.1 Needleman-Wunsch 알고리즘](#481-Needleman-Wunsch-알고리즘)
+	* [4.8.2 Hirschberg 알고리즘](#482-Hirschberg-알고리즘)
+	* [4.8.3 Smith-Waterman 알고리즘](#483-Smith-Waterman-알고리즘)
+	* [4.8.4 DTW](#484-DTW)
+	* [4.8.5 Longest Common Subsequence](#485-Longest-Common-Subsequence)
+	* [4.8.6 Longest Common Substring](#486-Longest-Common-Substring)
+  * [4.9 거리 (distance)](#49-거리-distance)
+	* [4.9.1 Levenshtein Edit Distance](#491-Levenshtein-Edit-Distance)
+	* [4.9.2 Hamming Distance](#492-Hamming-Distance)
+	* [4.9.3 Damerau-Levenshtein Distance](#493-Damerau-Levenshtein-Distance)
+  * [4.10 유사도 (similarity)](#410-유사도-similarity)
+	* [4.10.1 코사인 유사도 (Cosine Similarity)](#4101-코사인-유사도-Cosine-Similarity)
+	* [4.10.2 BERT Score](#4102-BERT-Score)
+	* [4.10.3 BART Score](#4103-BART-Score)
+	* [4.10.4 LCSubstring Similarity](#4104-LCSubstring-Similarity)
+	* [4.10.5 LCSubsequence Similarity](#4105-LCSubsequence-Similarity)
+	* [4.10.6 Jaro Similarity](#4106-Jaro-Similarity)
+  * [4.11 검색 (search)](#411-검색-search)
+	* [4.11.1 Naive Search](#4111-Naive-Search)
+	* [4.11.2 Rabin-Karp 검색](#4112-Rabin-Karp-검색)
+	* [4.11.3 KMP 검색 알고리즘](#4113-KMP-검색-알고리즘)
+	* [4.11.4 Boyer-Moore 검색 알고리즘](#4114-Boyer-Moore-검색-알고리즘)
+	* [4.11.5 Faiss-Semantic 검색](#4115-Faiss-Semantic-검색)
+  * [4.12 etc](#412-etc)
 * [5.사용예제 코드](#5-사용예제-코드)
   * [5.1 세종전자사전 예제 코드](#51-세종전자사전-예제-코드)
   * [5.2 한국어 전처리 예제 코드](#52-한국어-전처리-예제-코드)
@@ -76,13 +102,11 @@
 
 ### 2.1 토크나이저
 
-​	자연어 문서를 분석하기 위해서 긴 문자열을 나누어야 한다. 이 문자열 단위를 토큰 (token) 이라고 하고  문자열을 토큰으로 나누는 작업을 토큰 생성(tokenizing) 이라 한다.  현재 NLTKo에서는 사용자가 분석에 필요한 작업 토큰의 단위에 따라 **문장, 어절, 음절 토크나이징**이 모두 가능하다.
+​	자연어 문서를 분석하기 위해서 긴 문자열을 나누어야 한다. 이 문자열 단위를 토큰 (token) 이라고 하고  문자열을 토큰으로 나누는 작업을 토큰 생성(tokenizing) 이라 한다.  현재 ko_nltk에서는 사용자가 분석에 필요한 작업 토큰의 단위에 따라 **문장, 어절, 음절 토크나이징**이 모두 가능하다.
 
-### 2.2 세종전자사전 활용[^1]  
+### 2.2 세종전자사전 활용
 
-​	세종 전자사전의 단어 XML 파일을 이용하여 **단어의 파생어, 복합어, 숙어, 동의어, 반의어, 동위어, 상위어, 하위어, 전체어, 부분어, 관련어, 영어, 예시, 형용사 결합, 명사 결합, 동사 결합, 선택제약, 경로, 유사도 정보**의 리스트를 반환한다. 아래의 XML tag에 따라 ko_nltk에서 사용가능한 기능들을 구분하였으며, 아래 그림은 해당 entry의 대표 구조도와 같다. 
-
-[^1]: 세종의미사전에 대한 국립국어원의 공개 협의를 마침
+​	세종 전자사전의 단어 XML 파일을 이용하여 **단어의 파생어, 복합어, 숙어, 동의어, 반의어, 동위어, 상위어, 하위어, 전체어, 부분어, 관련어, 영어, 예시, 형용사 결합, 명사 결합, 동사 결합, 선택제약, 경로, 유사도 정보**의 리스트를 반환한다. 아래의 XML tag에 따라 ko_nltk에서 사용가능한 기능들을 구분하였으며, 아래 그림은 해당 entry의 대표 구조도와 같다.  
 
 ~~~h
 entrys(word)
@@ -128,25 +152,27 @@ entrys(word)
 
 ​	 **BLEU, ROUGE, METEOR, WER/CER, CIDER**는 기계 번역과 같이 문장간의 품질을 측정하는 데 사용되며 평가할 문장 결과의 정확성을 입증하는데 일반적으로 사용하는 평가 지표들이다. 
 
-### 2.6 pos_tag[^2]
+### 2.6 pos_tag
 
-​	 의미가 있는 최소한의 단위인 형태소로 분리하는 작업인 형태소 분석을 수행하며 관련 함수 총 4가지 함수를 제공한다.
-
-[^2]: [nlpnet](http://nilc.icmc.usp.br/nlpnet/)의 코드를 차용하여 한국어에 맞게 수정하였다.
+​	 의미가 있는 최소한의 단위인 형태소로 분리하는 작업인 형태소 분석을 수행하며 관련 함수 총 4가지 함수를 제공하며 품사태거는 nlpnet의 코드를 차용하여 한국어에 맞게 수정하였다.
 
 ### 2.7 Translate
 
 ​	 파파고를 이용한 번역을 제공한다.
 
+### 2.8 string2string
+	
+	string2string에 있는 기능을 제공한다.
+
 ## 3. 사용 환경
 
 - 운영체제 : Ubuntu 18.04
 - 언어 : python3
-- 라이브러리 : nltk (version 1.1.4)  **※ 해당 nltk는 영어 nltk를 내포하고 있음 ※**
+- 라이브러리 : nltk (version 1.2.2)  **※ 해당 nltk는 영어 nltk를 포함하고 있음 ※**
 
 ### 3.1 라이브러리 설치
 
-   해당 라이브러리를 설치하기 위해서 아래와 동일하게 명령어 라인에서 입력하여 다운로드 가능하다.
+   해당 라이브러리를 설치하기 위해서 아래와 동일하게 명령어 라인에서 입력하여 다운로드 받을 때, 사용자의  2가지  정보가 필요하다. 'modi.changwon.ac.kr' 내 사용하는 **사용자의 ID와 PW를 입력**해주어야만 다운로드가 가능하다.
 
 ```h
 $ git config --global http.sslVerify false
@@ -168,7 +194,7 @@ Building wheels for collected packages: nltk
   Stored in directory: /tmp/pip-ephem-wheel-cache-49yua750/wheels/b0/8d/9a/424cab1626f590f8f204c9376833c732276777a79f4906120e
 Successfully built nltk
 Installing collected packages: nltk
-Successfully installed nltk-1.1.4
+Successfully installed nltk-1.2.2
 ```
 
 <div style="page-break-after: always;"></div>
@@ -531,7 +557,7 @@ Sense('눈.nng_s.1.1')
 
 <div style="page-break-after: always;"></div>
 
-### 4.4 분류모델평가 (metric)
+### 4.4 분류모델평가 (DefaultMetric)
 
 ​	분류 모델에 대하여 성능을 평가할 수 있는 대표적인 방법 Accuracy, Precision, Recall, F1_score 사용이 가능하며 이진 데이터와 그 이상의 데이터 모두 사용 가능하다. 입력 형식은 리스트이며 정답과 예측 리스트의 길이가 같아야 한다. Accuracy를 제외하고 평균('micro'/'macro')을 선택할 수 있으며 default는 micro로 설정되어있다.
 
@@ -545,10 +571,10 @@ Sense('눈.nng_s.1.1')
 * f1_score: Precision과 Recall의 조화평균 값 반환
 * pos_eval: 형태소 분석 결과 스코어를 계산하여 값 반환 (예제확인)
 
-**4.4.2. metric.py 사용법 & 결과**
+**4.4.2. 사용법 & 결과**
 
 ```python
-from nltk import metric
+from nltk.metrics import DefaultMetric
 
 # 정답 & 예측 데이터 
 # y_true=[1,1,1,0,1],  y_pred=[1,0,1,1,0]
@@ -556,28 +582,28 @@ from nltk import metric
 >>> y_pred = [0, 2, 1, 0, 0, 1]
 
 # accuracy
->>> metric.accuracy_score(y_true,y_pred)
+>>> DefaultMetric().accuracy_score(y_true,y_pred)
 0.3333333333333333
 
 # precision
->>> metric.precision_score(y_true, y_pred,'micro')
+>>> DefaultMetric().precision_score(y_true, y_pred,'micro')
 0.3333333333333333
 
->>> metric.precision_score(y_true, y_pred,'macro')
+>>> DefaultMetric().precision_score(y_true, y_pred,'macro')
 0.2222222222222222
 
 # recall
->>> metric.recall_score(y_true,y_pred,'micro')
+>>> DefaultMetric().recall_score(y_true,y_pred,'micro')
 0.3333333333333333
 
->>> metric.recall_score(y_true,y_pred,'macro')
+>>> DefaultMetric().recall_score(y_true,y_pred,'macro')
 0.3333333333333333
 
 # f1_score
->>> metric.f1_score(y_true,y_pred,'micro')
+>>> DefaultMetric().f1_score(y_true,y_pred,'micro')
 0.3333333333333333
 
->>> metric.f1_score(y_true,y_pred,'macro')
+>>> DefaultMetric().f1_score(y_true,y_pred,'macro')
 0.26666666666666666
 
 '''
@@ -593,7 +619,7 @@ from nltk import metric
 경제적가치가	경제적가치/NNG+가/JKS	경제적가치/NNG+가/JKS
 '''
 
->>> metric.pos_eval(test.txt)
+>>> DefaultMetric().pos_eval(test.txt)
 '''
 입력 텍스트 파일 형식
 : 어절	정답	결과
@@ -608,7 +634,7 @@ from nltk import metric
 
 <div style="page-break-after: always;"></div>
 
-### 4.5 기계번역평가 (eval)
+### 4.5 기계번역평가 (StringMetric)
 
 ​	문장 간 평가를 위한 방법인 WER/CER, BLEU, ROUGE, CIDER 사용이 가능하다. 각 평가 방법마다 입력 형식이 다르므로 주의하여 사용해야 한다. **각 평가 방법에 대한 자세한 설명과 논문은 부록에서 확인할 수 있다.**
 
@@ -621,10 +647,10 @@ from nltk import metric
 
 
 
-**eval.py (WER/CER)사용법 & 결과**
+**(WER/CER)사용법 & 결과**
 
 ```python
-from nltk import eval
+from nltk.metrics import StringMetric
 
 '''
 Args
@@ -641,11 +667,11 @@ Returns
 
 
 # CER
->>> eval.cer(ref,hyp)
+>>> StringMetric().cer(ref,hyp)
 0.3333333333333333
 
 # WER
->>>eval.wer(ref,hyp)
+>>> StringMetric().wer(ref,hyp)
 0.8
 ```
 
@@ -661,10 +687,10 @@ Returns
 
   (1~4)-gram을 모두 고려한 스코어이며 일반적인 의미의 bleu 스코어 (0.25,0.25,0.25,0.25)
 
-**eval.py (BLEU)사용법 & 결과**
+**BLEU 사용법 & 결과**
 
 ```python
->>> from nltk import eval
+>>> from nltk.metrics import StringMetric
 '''
 Args
 	reference : list of str
@@ -685,20 +711,20 @@ Returns
 >>> ref=['빛을 쐬는 사람은 완벽한 어둠에서 잠든 사람과 비교할 때 우울증이 심해질 기회가 훨씬 높았다']
 
 # BLEU-N
->>> eval.bleu_n(ref,can,1)
+>>> StringMetric().bleu_n(ref,can,1)
 0.714285714285714
 
->>> eval.bleu_n(ref,can,2)
+>>> StringMetric().bleu_n(ref,can,2)
 0.384615384615385
 
->>> eval.bleu_n(ref,can,3)
+>>> StringMetric().bleu_n(ref,can,3)
 0.166666666666667
 
->>> eval.bleu_n(ref,can,4)
+>>> StringMetric().bleu_n(ref,can,4)
 0.090909090909091
 
 # BLEU_Score
->>> eval.bleu(ref,can)
+>>> StringMetric().bleu(ref,can)
 0.25400289715191
 ```
 
@@ -722,10 +748,10 @@ Returns
 
   
 
-**eval.py (ROUGE)사용법 & 결과**
+**ROUGE 사용법 & 결과**
 
 ```python
-from nltk import eval
+from nltk.metrics import StringMetric
 
 '''
 Args
@@ -752,25 +778,25 @@ Returns
 
 
 # rouge_n
->>> eval.rouge_n(ref_list,hyp,1)
+>>> StringMetric().rouge_n(ref_list,hyp,1)
 0.8888888888888888
->>> eval.rouge_n(ref_list,hyp,2)
+>>> StringMetric().rouge_n(ref_list,hyp,2)
 0.7647058823529411
->>> eval.rouge_n(ref_list,hyp,3)
+>>> StringMetric().rouge_n(ref_list,hyp,3)
 0.625
 
 
 # rouge_l
->>> eval.rouge_l(ref_list,hyp)
+>>> StringMetric().rouge_l(ref_list,hyp)
 0.9411764705882353
 
 
 # rouge_s
->>> eval.rouge_s(ref_list,hyp,1)
+>>> StringMetric().rouge_s(ref_list,hyp,1)
 0.8064516129032258
->>> eval.rouge_s(ref_list,hyp,2)
+>>> StringMetric().rouge_s(ref_list,hyp,2)
 0.8222222222222222
->>> eval.rouge_s(ref_list,hyp,3)
+>>> StringMetric().rouge_s(ref_list,hyp,3)
 0.8275862068965517
 ```
 
@@ -784,10 +810,10 @@ Returns
 
   
 
-**eval.py (CIDER)사용법 & 결과**
+**CIDER 사용법 & 결과**
 
 ```python
-from nltk import eval
+from nltk.metrics import StringMetric
 
 '''
 Args
@@ -812,16 +838,16 @@ Returns
 >>> hyp=['긴 머리를 가진 소가 초원 위에 서있다']
 
 # cider (single reference)
->>> eval.cider(ref1,hyp)
+>>> StringMetric().cider(ref1,hyp)
 0.2404762
->>> eval.cider(ref2,hyp)
+>>> StringMetric().cider(ref2,hyp)
 0.1091321
 
 
 >>> ref_list=['뿔 달린 소 한마리가 초원 위에 서있다','뿔과 긴 머리로 얼굴을 덮은 소 한마리가 초원 위에 있다']
 
 # cider (multiple references)
->>> eval.cider(ref_list,hyp)
+>>> StringMetric().cider(ref_list,hyp)
 0.1933312
 ```
 
@@ -837,10 +863,10 @@ Returns
 
 * **동의어 추출은 세종의미사전을 활용하였으며 본 라이브러리의 형태소 분석기를 이용하였다.** 
 
-**eval.py (METEOR)사용법 & 결과**
+**METEOR 사용법 & 결과**
 
 ```python
->>> from nltk import eval
+>>> from nltk.metrics import StringMetric
 
 '''
 Args
@@ -865,7 +891,7 @@ Returns
 
 
 # Meteor (single reference)
->>> eval.meteor(ref,hyp)
+>>> StringMetric().meteor(ref,hyp)
 0.5
 
 >>> hyp='현재 식량이 매우 부족하다.'
@@ -873,13 +899,13 @@ Returns
 
 
 # Meteor (Multiple reference) : return max score
->>> eval.meteor(ref,hyp)
+>>> StringMetric().meteor(ref,hyp)
 0.9921875
 
 >>> hyp='봉준호 감독이 아카데미에서 국제영화상을 수상했다.'
 >>> ref=['봉준호가 아카데미에서 각본상을 탔다.']
 
->>> eval.meteor(ref,hyp)
+>>> StringMetric().meteor(ref,hyp)
 0.36585365
 ```
 
@@ -904,7 +930,7 @@ Returns
 '''
 pos_tag(token, tagset=None, lang='eng') //nltk와 함수 공유
 	* args
-			tokens : 문장 (str)
+			tokens : syllable_tokens (list)
 			tagset : None 
 			lang : 'kor' //한국어 품사 태깅		
 	* return : pos-tagging (tuple of list)
@@ -922,32 +948,30 @@ word_segmentor(sent)
 	* return : 어절 리스트(list)
 '''
 
->>> sent="반가워요, 창원대학교 입니다."
+>>> sent="오픈소스에 관심 많은 멋진 개발자님들!"
 
 >>> tagged=pos_tag(sent,lang='kor')
 >>> tagged
-[('반갑', 'VB'), ('어', 'EE'), ('요', 'EE'), (',', 'SY'), ('창원대학교', 'NN'), ('이', 'VB'), ('니다', 'EE'), ('.', 'SY')]
+[('오픈', 'NN'), ('소스', 'NN'), ('에', 'JJ'), ('관심', 'NN'), ('많', 'VB'), ('은', 'EE'), ('멋지', 'VB'), ('ㄴ', 'EE'), ('개발자', 'NN'), ('님들', 'XN'), ('!', 'SY')]
 
 >>> nouns_list=nouns(sent)
 >>> nouns_list
-['창원대학교']
+['오픈', '소스', '관심', '개발자']
 
->>> token=syllable_tokenize(sent)
->>> token
-['반', '가', '워', '요', ',', '창', '원', '대', '학', '교', '입', '니', '다', '.']
->>> token_str="".join(token)
->>> token_str
-'반가워요,창원대학교입니다.'
-
->>> seg = word_segmentor(token_str)
+>>> sent="오픈소스에관심많은멋진개발자님들!"
+>>> seg = word_segmentor(sent)
 >>> seg
-['반가워요', ',', '창원', '대학교입니다']
+['오픈', '소스에', '관심', '많은', '멋진', '개발자님들']
 
->>> pos_tag(token_str,lang='kor')
-[('반갑', 'VB'), ('어', 'EE'), ('요', 'EE'), (',', 'SY'), ('창원대학교', 'NN'), ('이', 'VB'), ('니다', 'EE'), ('.', 'SY')]
+
+>>> sent="우리 다시 사랑하자"
+>>> token=syllable_tokenize(sent)
+
+>>> pos_tag(token,lang='kor')
+[('우리', 'NN'), ('다시', 'MA'), ('사랑', 'NN'), ('하', 'XV'), ('자', 'EE')]
 
 >>> pos_tag_with_verb_form(sent)
-[('반갑', 'VB'), ('어', 'EE'), ('요', 'EE'), (',', 'SY'), ('창원대학교', 'NN'), ('이', 'VB'), ('니다', 'EE'), ('.', 'SY')]
+[('우리', 'NN'), ('다시', 'MA'), ('사랑하', 'VB'), ('자', 'EE')]
 ~~~
 
 
@@ -986,11 +1010,350 @@ e2k[k2e](sentence(s))
 ["넷플릭스를 통해 전 세계에 동시 방송된 드라마 시리즈 '오징어 게임'의 인기가 구글의 인기 검색어로도 확인됐다."]
 ~~~
 
+### 4.8. 정렬 (alignment)
+
+두 문장의 정렬 결과를 반환하는 함수이다.
+
+##### 4.8.1. Needleman-Wunsch 알고리즘
+
+* get_alignment(str1: str|List[str], str2: str|List[str], return_score_matrix: bool = False) -> Tuple(str|List[str], str|List[str], ndarray|None) : 두 문장의 글로벌 정렬 결과를 반환한다.
+
+**사용법 & 결과**
+
+~~~python
+>>> from nltk.alignment import NeedlemanWunsch
+
+>>> sent1 = '나는 학생이다.'
+>>> sent2 = '그는 선생님이다.'
+
+>>> result1, result2 = NeedlemanWunsch().get_alignment(sent1, sent2)
+>>> print(result1, '\n', result2)
+나 | 는 |   | 학 | 생 | - | 이 | 다 | .
+그 | 는 |   | 선 | 생 | 님 | 이 | 다 | .
+~~~
+
+##### 4.8.2. Hirschberg 알고리즘
+
+* get_alignment(str1: str|List[str], str2: str|List[str]) -> Tuple(str|List[str], str|List[str]) : 두 문장의 글로벌 정렬 결과를 반환한다.
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.alignment import Hirschberg
+
+>>> sent1 = '나는 학생이다.'
+>>> sent2 = '그는 선생님이다.'
+
+>>> result1, result2 = Hirschberg().get_alignment(sent1, sent2)
+>>> print(result1, '\n', result2)
+나 | 는 |   | 학 | 생 | - | 이 | 다 | .
+그 | 는 |   | 선 | 생 | 님 | 이 | 다 | .
+~~~
+
+##### 4.8.3. Smith-Waterman 알고리즘
+
+* get_alignment(str1: str | List[str], str2: str | List[str], return_score_matrix: bool = False) -> Tuple[str | List[str], str | List[str]] : 두 문장의 로컬 정렬 결과를 반환한다.
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.alignment import SmithWaterman
+
+>>> sent1 = '나는 학생이다.'
+>>> sent2 = '그는 선생님이다.'
+
+>>> result1, result2 = SmithWaterman().get_alignment(sent1, sent2)
+>>> print(f"{result1}\n{result2}")
+는 |   | 학 | 생 | - | 이 | 다 | .
+는 |   | 선 | 생 | 님 | 이 | 다 | .
+~~~
+
+##### 4.8.4. DTW
+
+* get_alignment_path(sequence1: str | List[str] | int | List[int] | float | List[float] | ndarray, sequence2: str | List[str] | int | List[int] | float | List[float] | ndarray, distance='absolute_difference', p_value: int | None = None) -> List[Tuple[int, int]] : DTW 알고리즘을 사용하여 두 시퀀스의 정렬 인덱스를 반환한다.
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.alignment import DTW
+
+>>> sent1 = '나는 학생이다.'
+>>> sent2 = '그는 선생님이다.'
+
+>>> result = DTW().get_alignment_path(sent1, sent2)
+>>> print(result)
+[(0, 0), (1, 1), (2, 2), (3, 3), (4, 4), (4, 5), (5, 6), (6, 7), (7, 8)]
+~~~
+
+##### 4.8.5. Longest Common Subsequence
+
+* compute(str1: str | List[str], str2: str | List[str], returnCandidates: bool = False) -> Tuple[float, List[str] | List[List[str]]] : 두 문자열의 가장 긴 공통 서브시퀀스를 계산한다.
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.alignment import LongestCommonSubsequence
+
+>>> sent1 = '나는 학생이다.'
+>>> sent2 = '그는 선생님이다.'
+
+>>> result = LongestCommonSubsequence().compute(sent1, sent2)
+>>> print(result)
+(6.0, None)
+~~~
+
+##### 4.8.1.6. Longest Common Substring
+
+* compute(str1: str | List[str], str2: str | List[str], returnCandidates: bool = False) -> Tuple[float, List[str] | List[List[str]]] : 두 문자열의 가장 긴 공통 서브스트링을 계산한다.
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.alignment import LongestCommonSubstring
+
+>>> sent1 = '나는 학생이다.'
+>>> sent2 = '그는 선생님이다.'
+
+>>> result = LongestCommonSubstring().compute(sent1, sent2)
+>>> print(result)
+(3, None)
+~~~
+
+### 4.9. 거리 (Distance)
+
+##### 4.9.1. Levenshtein Edit Distance
+
+* compute(str1: str | List[str], str2: str | List[str], method: str = 'dynamic-programming')→ float : 두 문자열의 Levenshtein 거리를 계산한다.
+	* method : 'dynamic-programming' | 'recursive' | 'recursive-memoization'
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.distance import LevenshteinEditDistance
+
+>>> sent1 = '나는 학생이다.'
+>>> sent2 = '그는 선생님이다.'
+
+>>> result = LevenshteinEditDistance().compute(sent1, sent2)
+>>> print(result)
+3.0
+~~~
+
+##### 4.9.2. Hamming Distance
+
+* compute(str1: str | List[str], str2: str | List[str])→ float : 두 문자열의 Hamming 거리를 계산한다.
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.distance import HammingDistance
+
+>>> sent1 = '나는 학생이었다.'
+>>> sent2 = '그는 선생님이다.'
+
+>>> result = HammingDistance().compute(sent1, sent2)
+>>> print(result)
+4.0
+~~~
+
+##### 4.9.3. Damereau-Levenshtein Distance
+
+* compute(str1: str | List[str], str2: str | List[str]) -> float : 두 문자열의 Damereau-Levenshtein 거리를 계산한다.
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.distance import DamereauLevenshteinDistance
+
+>>> sent1 = '나는 학생이다.'
+>>> sent2 = '그는 선생님이다.'
+
+>>> result = DamereauLevenshteinDistance().compute(sent1, sent2)
+>>> print(result)
+3.0
+~~~
+
+### 4.10. 유사도 (Similarity)
+
+##### 4.10.1. 코사인 유사도 (Cosine Similarity)
+
+* compute(x1: Tensor | ndarray, x2: Tensor | ndarray, dim: int = 0, eps: float = 1e-08) -> Tensor | ndarray : 두 벡터의 코사인 유사도를 계산한다.
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.similarity import CosineSimilarity
+>>> import numpy as np
+
+>>> x1 = np.array([1, 2, 3, 4, 5])
+>>> x2 = np.array([3, 7, 8, 3, 1])
+
+>>> result = CosineSimilarity().compute(x1, x2)
+>>> print(result)
+0.6807061638788793
+~~~
+
+##### 4.10.2. BERT Score
+
+* __init__(model_name_or_path: str | None = None, lang: str | None = None, num_layers: int | None = None, all_layers: bool = False, use_fast_tokenizer: bool = False, device: str = 'cpu', baseline_path: str | None = None) -> None : BERT Score를 초기화하는 생성자입니다.
+	* model_name_or_path : BERT 모델의 이름 또는 경로 (huggingface.co에서 가져옵니다.)
+	* lang : BERT 모델의 언어 (kor | eng)
+	* num_layers : BERT 모델의 레이어 수
+	* device : BERT 모델을 실행할 장치 (cpu | cuda)
+* compute(source_sentences: List[str], target_sentences: List[str] | List[List[str]], batch_size: int = 4, idf: bool = False, nthreads: int = 4, return_hash: bool = False, rescale_with_baseline: bool = False, verbose: bool = False) -> dict | str | None : 두 문장의 BERT Score를 계산한다.
+* 모델은 huggingface.co에서 다운받습니다. (https://huggingface.co/bert-base-uncased)
+	* model_name_or_path 파라미터에는 hunggingface.co/ 뒷부분을 넣어줍니다. `model_name_or_path = 'bert-base-uncased'` (https://huggingface.co/<mark>bert-base-uncased</mark>)
 
 
-### 4.8 etc
+**사용법 & 결과**
+~~~python
+>>> from nltk.similarity import BERTScore
+>>> sent1 = '나는 학생이다.'
+>>> sent2 = '그는 선생님이다.'
 
-##### 4.8.1. 
+>>> result = BERTScore(model_name_or_path='bert-base-uncased', lang='kor', num_layers=12).compute([sent1], [sent2])
+>>> print(result)
+{'precision': array([0.9097364], dtype=float32), 'recall': array([0.8958888], dtype=float32), 'f1': array([0.9027595], dtype=float32)}
+~~~
+
+##### 4.10.3. BART Score
+
+* __init__(model_name_or_path='facebook/bart-large-cnn', tokenizer_name_or_path: str | None = None, device: str = 'cpu', max_length=1024) -> None : BART Score를 초기화하는 생성자입니다.
+	* model_name_or_path : BART 모델의 이름 또는 경로 (huggingface.co에서 가져옵니다.)
+	* device : BART 모델을 실행할 장치 (cpu | cuda)
+* compute(source_sentences: List[str], target_sentences: List[str] | List[List[str]], batch_size: int = 4, agg: str = 'mean') -> Dict[str, List[float]] : 두 문장의 BART Score를 계산한다.
+* 모델은 huggingface.co에서 다운받습니다. (https://huggingface.co/facebook/bart-large-cnn)
+	* model_name_or_path 파라미터에는 hunggingface.co/ 뒷부분을 넣어줍니다. `model_name_or_path = 'facebook/bart-large-cnn'` (https://huggingface.co/<mark>facebook/bart-large-cnn</mark>)
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.similarity import BARTScore
+>>> sent1 = '나는 학생이다.'
+>>> sent2 = '그는 선생님이다.'
+
+>>> result = BARTScore().compute([sent1], [sent2])
+>>> print(result)
+{'score': array([-2.97229409])}
+~~~
+
+##### 4.10.4. LCSubstring Similarity
+
+* compute(str1: str | List[str], str2: str | List[str], denominator: str = 'max') -> float : 두 문자열의 LCSubstring 유사도를 계산한다.
+	* denominator : (max | sum)
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.similarity import LCSubstringSimilarity
+>>> sent1 = '나는 학생이다.'
+>>> sent2 = '그는 선생님이다.'
+
+>>> result = LCSubstringSimilarity().compute(sent1, sent2)
+>>> print(result)
+0.3333333333333333
+~~~
+
+##### 4.10.5. LCSubsequence Similarity
+
+* compute(str1: str | List[str], str2: str | List[str], denominator: str = 'max') -> float : 두 문자열의 LCSubsequence 유사도를 계산한다.
+	* denominator : (max | sum)
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.similarity import LCSubsequenceSimilarity
+>>> sent1 = '나는 학생이다.'
+>>> sent2 = '그는 선생님이다.'
+
+>>> result = LCSubsequenceSimilarity().compute(sent1, sent2)
+>>> print(result)
+0.6666666666666666
+~~~
+
+##### 4.10.6. Jaro Similarity
+
+* compute(str1: str | List[str], str2: str | List[str])→ float : 두 문자열의 Jaro 유사도를 반환한다.
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.similarity import JaroSimilarity
+>>> sent1 = '나는 학생이다.'
+>>> sent2 = '그는 선생님이다.'
+
+>>> result = JaroSimilarity().compute(sent1, sent2)
+>>> print(result)
+0.8055555555555555
+~~~
+
+### 4.11. 검색 (Search)
+
+##### 4.11.1 Navie Search
+
+* search(pattern: str, text: str) -> int : 텍스트에서 패턴을 검색한다.
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.search import NaiveSearch
+>>> pattern = "학생"
+>>> text = "나는 학생이다."
+
+>>> result = NaiveSearch().search(pattern, text)
+>>> print(result)
+3
+~~~
+
+##### 4.11.2 Rabin-Karp 검색
+
+* search(pattern: str, text: str) -> int : 텍스트에서 패턴을 검색한다.
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.search import RabinKarpSearch
+>>> pattern = "학생"
+>>> text = "나는 학생이다."
+
+>>> result = RabinKarpSearch().search(pattern, text)
+>>> print(result)
+3
+~~~
+
+##### 4.11.3 KMP 검색
+
+* search(pattern: str, text: str) -> int : 텍스트에서 패턴을 검색한다.
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.search import KMPSearch
+>>> pattern = "학생"
+>>> text = "나는 학생이다."
+
+>>> result = KMPSearch().search(pattern, text)
+>>> print(result)
+3
+~~~
+
+##### 4.11.4 Boyer-Moore 검색
+
+* search(pattern: str, text: str) -> int : 텍스트에서 패턴을 검색한다.
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.search import BoyerMooreSearch
+>>> pattern = "학생"
+>>> text = "나는 학생이다."
+
+>>> result = BoyerMooreSearch().search(pattern, text)
+>>> print(result)
+3
+~~~
+
+##### 4.11.5 Faiss-Semanic 검색
+
+* __init__(model_name_or_path: str = 'facebook/bart-large', tokenizer_name_or_path: str = 'facebook/bart-large', device: str = 'cpu')→ None : FaissSearh를 초기화 합니다.
+* add_faiss_index(column_name: str = 'embeddings', metric_type: int | None = None, batch_size: int = 8, **kwargs)→ None : FAISS index를 dataset에 추가합니다.
+* get_embeddings(text: str | List[str], embedding_type: str = 'last_hidden_state', batch_size: int = 8, num_workers: int = 4)→ Tensor : 텍스트를 임베딩합니다.
+* get_last_hidden_state(embeddings: Tensor)→ Tensor : 임베딩된 텍스트의 last hidden state를 반환합니다.
+* get_mean_pooling(embeddings: Tensor)→ Tensor : 입력 임베딩의 mean pooling을 반환합니다.
+* initialize_corpus(corpus: Dict[str, List[str]] | DataFrame | Dataset, section: str = 'text', index_column_name: str = 'embeddings', embedding_type: str = 'last_hidden_state', batch_size: int | None = None, num_workers: int | None = None, save_path: str | None = None)→ Dataset : 데이터셋을 초기화합니다.
+* load_dataset_from_json(json_path: str)→ Dataset : json 파일에서 데이터셋을 로드합니다.
+* load_faiss_index(index_name: str, file_path: str, device: str = 'cpu')→ None : FAISS index를 로드합니다.
+* save_faiss_index(index_name: str, file_path: str)→ None : 특정한 파일 경로로 FAISS index를 저장합니다.
+* search(query: str, k: int = 1, index_column_name: str = 'embeddings')→ DataFrame : 데이터셋에서 쿼리를 검색합니다.
+
+`>>> from nltk.search import FaissSearch`
+
+### 4.12 etc
+
+##### 4.12.1. 
 
 * parse_morph : 예제 확인
 
@@ -1189,28 +1552,28 @@ f1_score :  0.32407407407407407
 ##### 5.4 기계 번역 평가 예제 코드
 
 ~~~python
-from nltk import eval
+from nltk import StringMetric
 
 can='빛을 쐬는 노인은 완벽한 어두운곳에서 잠든 사람과 비교할 때 강박증이 심해질 기회가 훨씬 높았다'
 ref='빛을 쐬는 사람은 완벽한 어둠에서 잠든 사람과 비교할 때 우울증이 심해질 기회가 훨씬 높았다'
 # BLEU SCORE
-print('bleu-1 : ',eval.bleu_n([ref],[can],1))
-print('bleu-2 : ',eval.bleu_n([ref],[can],2))
-print('bleu-3 :',eval.bleu_n([ref],[can],3))
-print('bleu-4 : ',eval.bleu_n([ref],[can],4))
-print('bleu   : ',eval.bleu([ref],[can]))
+print('bleu-1 : ',StringMetric().bleu_n([ref],[can],1))
+print('bleu-2 : ',StringMetric().bleu_n([ref],[can],2))
+print('bleu-3 :',StringMetric().bleu_n([ref],[can],3))
+print('bleu-4 : ',StringMetric().bleu_n([ref],[can],4))
+print('bleu   : ',StringMetric().bleu([ref],[can]))
 # WER/CER
-print('wer    : ',eval.wer(ref,can))
-print('cer    : ',eval.cer(ref,can))
+print('wer    : ',StringMetric().wer(ref,can))
+print('cer    : ',StringMetric().cer(ref,can))
 # ROUGE SCORE
-print('rouge-n(1) : ',eval.rouge_n([ref],can,1))
-print('rouge-n(2) : ',eval.rouge_n([ref],can,2))
-print('rouge-n(3) : ',eval.rouge_n([ref],can,3))
-print('rouge-l    : ',eval.rouge_l([ref],can))
-print('rouge-s(1) : ',eval.rouge_s([ref],can,1))
-print('rouge-s(2) : ',eval.rouge_s([ref],can,2))
+print('rouge-n(1) : ',StringMetric().rouge_n([ref],can,1))
+print('rouge-n(2) : ',StringMetric().rouge_n([ref],can,2))
+print('rouge-n(3) : ',StringMetric().rouge_n([ref],can,3))
+print('rouge-l    : ',StringMetric().rouge_l([ref],can))
+print('rouge-s(1) : ',StringMetric().rouge_s([ref],can,1))
+print('rouge-s(2) : ',StringMetric().rouge_s([ref],can,2))
 # CIDER SCORE
-print('CIDER : ',eval.cider([ref],[can]))
+print('CIDER : ',StringMetric().cider([ref],[can]))
 ~~~
 
 
@@ -1325,6 +1688,4 @@ print(seg)
 * **CIDER**
 
   paper : https://ieeexplore.ieee.org/document/7299087
-
-
 
