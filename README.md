@@ -1013,6 +1013,7 @@ e2k[k2e](sentence(s))
 ### 4.8. 정렬 (alignment)
 
 두 문장의 정렬 결과를 반환하는 함수이다.
+해당 함수는 sting2sting의 코드를 참고하거나 포함하고 있다. (https://github.com/stanfordnlp/string2string)
 
 ##### 4.8.1. Needleman-Wunsch 알고리즘
 
@@ -1116,6 +1117,8 @@ e2k[k2e](sentence(s))
 
 ### 4.9. 거리 (Distance)
 
+해당 함수는 sting2sting의 코드를 참고하거나 포함하고 있다. (https://github.com/stanfordnlp/string2string)
+
 ##### 4.9.1. Levenshtein Edit Distance
 
 * compute(str1: str | List[str], str2: str | List[str], method: str = 'dynamic-programming')→ float : 두 문자열의 Levenshtein 거리를 계산한다.
@@ -1166,6 +1169,8 @@ e2k[k2e](sentence(s))
 ~~~
 
 ### 4.10. 유사도 (Similarity)
+
+해당 함수는 sting2sting의 코드를 참고하거나 포함하고 있다. (https://github.com/stanfordnlp/string2string)
 
 ##### 4.10.1. 코사인 유사도 (Cosine Similarity)
 
@@ -1275,6 +1280,8 @@ e2k[k2e](sentence(s))
 ~~~
 
 ### 4.11. 검색 (Search)
+
+해당 함수는 sting2sting의 코드를 참고하거나 포함하고 있다. (https://github.com/stanfordnlp/string2string)
 
 ##### 4.11.1 Navie Search
 
