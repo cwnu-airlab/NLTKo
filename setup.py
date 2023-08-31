@@ -23,7 +23,7 @@ module1 = Extension("nltk.tag.espresso.libs.network",
 
 setup(
   name='nltk',
-  version='1.2.2',
+  version='1.2.3',
 	url='https://modi.changwon.ac.kr/air_cwnu/nlp_tool/nltk_ko.git',
   packages=find_packages(exclude=[]),
   python_requires='>=3.7',
@@ -38,7 +38,7 @@ setup(
     "pandas",
     "joblib",
     'regex==2020.7.14',
-    'numpy',
+    'numpy==1.23',
     'requests',
     'beautifulSoup4',
     ],
