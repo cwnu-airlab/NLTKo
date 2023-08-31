@@ -143,7 +143,7 @@ class EspressoTagger:
 
     def _download_model(self):
         """Downloads the model from the server"""
-        temp_path = os.path.dirname(__file__)
+        temp_path = os.path.dirname(__file__) + '/data.zip'
         url = "https://air.changwon.ac.kr/~airdemo/storage/espresso_data_1/data.zip"
         print("Downloading Espresso5 model...")
         with requests.get(url, stream=True) as r:
