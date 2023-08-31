@@ -6,17 +6,16 @@ Taggers wrapping the neural networks.
 
 import logging
 import numpy as np
-#from itertools import izip
 
 from . import utils
 from . import config
-#from . import attributes
+from . import attributes
 from .metadata import Metadata
 from .pos import POSReader
-#from .ner import NERReader
-#from .wsd import WSDReader
-#from .srl import SRLReader
-#from .parse import DependencyReader
+from .ner import NERReader
+from .wsd import WSDReader
+from .srl import SRLReader
+from .parse import DependencyReader
 from .network import Network, ConvolutionalNetwork, ConvolutionalDependencyNetwork
 #from functools import reduce
 
@@ -36,6 +35,7 @@ def load_network(md):
 				net_class = ConvolutionalDependencyNetwork
 		else:
 				net_class = Network
+
 		nn = net_class.load_from_file(md.paths[md.network])
 		
 		logger.info('Done')
@@ -201,7 +201,7 @@ If you don't have the trained models, download them from http://air.cwnu.ac.kr/e
 						self.paths = config.FILES
 				else:
 						self.paths = config.get_config_paths(data_dir)
-
+				
 				self.data_dir = data_dir
 				self.language = language
 				self._load_data()
@@ -352,80 +352,76 @@ class DependencyParser(Tagger):
 				return result
 		
 		def tag_tokens(self, tokens):
-				"""
-				Parse the given sentence. This function is just an alias for
-				`parse_sentence`.
-				"""
-				return self.parse_sentence(tokens)
+			"""
+			Parse the given sentence. This function is just an alias for
+			`parse_sentence`.
+			"""
+			return self.parse_sentence(tokens)
 		
 		def parse_sentence(self, tokens):
-				"""
-				Parse the given sentence. It must be already tokenized; if you
-				want nlpnet to tokenize the text, use the method `parse` instead.
-				
-				:param tokens: a list of strings (sentences)
-				:return: a ParsedSentence instance
-				"""
-				original_tokens = tokens
-				udep_tokens_obj = []
-				ldep_tokens_obj = []
-				
-				# if the parser uses POS a feature, have a tagger tag it first
-				if self.use_pos:
-						eojeols, eojeol_features = self.pos_tagger.tag_tokens_for_parser(tokens, return_tokens=True)
-						##tokens = self.pos_tagger.tag_tokens(tokens, return_tokens=True)
-						#print("**", eojeols)
-						#print(eojeol_features)
-				
-				for token in zip(eojeols, eojeol_features):
-						#if self.use_pos:
-						#		# if we tagged for POS, each item is a tuple
-						#		word, pos = token
-						#else:
-						#		pos = None
-						print(token)
-						word, feature = token
-						#m_h, t_h, m_t, t_t = feature
-						#udep_tokens_obj.append(attributes.Token(word, morph_h=m_h, pos_h=t_h, morph_t=m_t, pos_t=t_t))
-						#ldep_tokens_obj.append(attributes.Token(word, morph_h=' ', pos_h=t_h, morph_t=m_t, pos_t=t_t))
-						m_h, t_h, m_t, t_t = feature
-						udep_tokens_obj.append(attributes.Token(word, pos_h=t_h, morph_t=m_t, pos_t=t_t))
-						ldep_tokens_obj.append(attributes.Token(word, pos_h=t_h, morph_t=m_t, pos_t=t_t))
-				
-				converted_tokens = self.unlabeled_reader.codify_sentence(udep_tokens_obj)
-				#print(converted_tokens)
-				heads = self.unlabeled_nn.tag_sentence(converted_tokens)
-				#print(heads)
-				
-				# the root is returned having a value == len(sentence)
-				root = heads.argmax()
-				heads[root] = root
-				
-				converted_tokens = self.labeled_reader.codify_sentence(ldep_tokens_obj)
-				label_codes = self.labeled_nn.tag_sentence(converted_tokens, heads)
-				labels = [self.itd[code] for code in label_codes]
-				#print(label_codes)
-				#print(labels)
-				
-				# to the final answer, signal the root with -1
-				heads[root] = -1
-				if self.use_pos:
-						# unzip
-						#pos_tags = zip(*tokens)[1]
-						pos_tags = None
-				else:
-						pos_tags = None
-						
-				parsed = ParsedSentence(eojeols, heads, labels, pos_tags)
-				#parsed = ParsedSentence(original_tokens, heads, labels, pos_tags)
-				return parsed
+			"""
+			Parse the given sentence. It must be already tokenized; if you
+			want nlpnet to tokenize the text, use the method `parse` instead.
+			
+			:param tokens: a list of strings (sentences)
+			:return: a ParsedSentence instance
+			"""
+			original_tokens = tokens
+			udep_tokens_obj = []
+			ldep_tokens_obj = []
+			
+			# if the parser uses POS a feature, have a tagger tag it first
+			if self.use_pos:
+				eojeols, eojeol_features = self.pos_tagger.tag_tokens_for_parser(tokens, return_tokens=True)
+				##tokens = self.pos_tagger.tag_tokens(tokens, return_tokens=True)
+				#print("**", eojeols)
+				#print(eojeol_features)
+			
+			for token in zip(eojeols, eojeol_features):
+				#if self.use_pos:
+				#		# if we tagged for POS, each item is a tuple
+				#		word, pos = token
+				#else:
+				#		pos = None
+				#---print(token)
+				word, feature = token
+				#m_h, t_h, m_t, t_t = feature
+				#udep_tokens_obj.append(attributes.Token(word, morph_h=m_h, pos_h=t_h, morph_t=m_t, pos_t=t_t))
+				#ldep_tokens_obj.append(attributes.Token(word, morph_h=' ', pos_h=t_h, morph_t=m_t, pos_t=t_t))
+				m_h, t_h, m_t, t_t = feature
+				udep_tokens_obj.append(attributes.Token(word, pos_h=t_h, morph_t=m_t, pos_t=t_t))
+				ldep_tokens_obj.append(attributes.Token(word, pos_h=t_h, morph_t=m_t, pos_t=t_t))
+			
+			converted_tokens = self.unlabeled_reader.codify_sentence(udep_tokens_obj)
+			#print(converted_tokens)
+			heads = self.unlabeled_nn.tag_sentence(converted_tokens)
+			#print(heads)
+			
+			# the root is returned having a value == len(sentence)
+			root = heads.argmax()
+			heads[root] = root
+			
+			converted_tokens = self.labeled_reader.codify_sentence(ldep_tokens_obj)
+			label_codes = self.labeled_nn.tag_sentence(converted_tokens, heads)
+			labels = [self.itd[code] for code in label_codes]
+			#print(label_codes)
+			#print(labels)
+			
+			# to the final answer, signal the root with -1
+			heads[root] = -1
+			pos_tags = None if self.use_pos else None
+			#pos_tags = zip(*tokens)[1] if self.use_pos else None
+					
+			parsed = ParsedSentence(eojeols, heads, labels, pos_tags)
+			#parsed = ParsedSentence(original_tokens, heads, labels, pos_tags)
+			return parsed
 		
 		def tag(self, text):
-				"""
-				Parse the given text. This is just an alias for the 
-				`parse` method.
-				"""
-				return self.parse(text)
+			"""
+			Parse the given text. This is just an alias for the 
+			`parse` method.
+			"""
+			return self.parse(text)
 
 
 class WSDTagger(Tagger):
@@ -573,6 +569,7 @@ class POSTagger(Tagger):
 				:param text: a string or unicode object. Strings assumed to be utf-8
 				:returns: a list of lists (sentences with tokens).
 						Each sentence has (token, tag) tuples.
+				#TODO: tag() 함수의 파라미터로 mode를 추가할까? 
 				"""
 				tokens = utils.tokenize(text, self.language)
 				result = []
@@ -597,7 +594,7 @@ class POSTagger(Tagger):
 						as a list of tuples (token, tag).
 				:returns: a list of strings (the tags)
 				"""
-				converter = self.reader.converter
+				converter = self.reader.converter			# 클래스 지정 
 				converted_tokens = np.array([converter.convert('*space*') if token==' ' else converter.convert(token) 
 																		 for token in tokens])
 				#print("0", converted_tokens)
@@ -712,8 +709,11 @@ class POSTagger(Tagger):
 					try:
 						l = self.co_lexicon[_morphs[i]].split('|')
 					except:
-						print("----")
-						l = [_morphs[i]+'/NN']
+						print("----", _morphs[i])
+						#l = [_morphs[i]+'/NN']
+						morphs.append(_morphs[i])
+						morph_tags.append('NN')
+						continue
 					#print(l)
 					max_p = -1000
 					max_idx = 0
@@ -746,7 +746,7 @@ class POSTagger(Tagger):
 					morph_tags = morph_tags[:-1]+[x.split('/')[1] for x in max_list[s:-1]]
 				else:
 					if i>0 and morphs[-1] in ['ㄴ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅆ'] and morph_tags[-1] == 'EE' \
-							and _tags[i]=='EE':
+							and t=='EE':
 						morphs = morphs[:-1] + [morphs[-1]+_morphs[i]]
 					elif i>0 and morph_tags[-1] == 'NN' and t == 'EE': # '가수다'
 						morphs.append('이')

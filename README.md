@@ -22,6 +22,7 @@
 | 16   | NLTKo(version 1.2.0)<br />string2string 기능 추가 | 김도원 | 23.08.16 |
 | 17   | NLTKo(version 1.2.1)<br />Metrics 통합 | 김도원 | 23.08.24 |
 | 18   | NLTKo(version 1.2.2)<br />Metrics 클래스 명칭 정리 | 김도원 | 23.08.24 |
+| 19   | NLTKo(version 1.2.3)<br />Espresoo5 pos tag 추가 | 김도원 | 23.08.31 |
 
 <div style="page-break-after: always;"></div>
 
@@ -57,7 +58,7 @@
     * [4.5.3 ROUGE](#453-rouge)
     * [4.5.4 CIDER](#454-cider)
     * [4.5.5 METEOR](#455-meteor)
-  * [4.6 pos-tag](#46-pos_tag)
+  * [4.6 pos-tag (Espresso5)](#46-pos_tag-Espresso5)
   * [4.7 Translate](#47-Translate)
   * [4.8 정렬 (alignment)](#48-정렬-alignment)
 	* [4.8.1 Needleman-Wunsch 알고리즘](#481-Needleman-Wunsch-알고리즘)
@@ -911,69 +912,24 @@ Returns
 
 <div style="page-break-after: always;"></div> 
 
-### 4.6 pos_tag 
+### 4.6 pos_tag (Espresso5)
 
 형태소 분석 결과로, 품사와 같은 추가 정보를 이용하여  문장의 각 토큰에 태그를 지정하는 인터페이스이며 기능은 아래와 같다.
 
 ##### 4.6.1. 
 
-* pos_tag : 품사 태깅 결과 반환 (신)
-* nouns : 명사 추출 결과 반환 (신)
-* pos_tag_with_verb_form : 보조 동사 결합 결과 반환 (구)
-* word_segmentor : 구분되지 않은 문장 입력을 분리하여 반환 (구)
+* tag(task: str, sentence: str) -> List[str] : 문장의 각 토큰에 대한 task의 태깅 결과를 반환한다.
 
 **사용법 & 결과**
 
 ~~~python
->>> from nltk import pos_tag, nouns, word_segmentor, pos_tag_with_verb_form
->>> from nltk.tokenize import syllable_tokenize
-'''
-pos_tag(token, tagset=None, lang='eng') //nltk와 함수 공유
-	* args
-			tokens : syllable_tokens (list)
-			tagset : None 
-			lang : 'kor' //한국어 품사 태깅		
-	* return : pos-tagging (tuple of list)
+>>> from nltk.tag import EspressoTagger
+>>> sent = "나는 아름다운 강산에 살고있다."
 
-pos_tag_with_verb_form(sent)
-	* args : 문장 (str)
-	* return : pos_tag_with_verb_form (list)
-
-nouns(sent)
-	* args : 문장 (str)
-	* return : 명사 리스트(list)
-	
-word_segmentor(sent)
-	* args : 문장 (str)
-	* return : 어절 리스트(list)
-'''
-
->>> sent="오픈소스에 관심 많은 멋진 개발자님들!"
-
->>> tagged=pos_tag(sent,lang='kor')
->>> tagged
-[('오픈', 'NN'), ('소스', 'NN'), ('에', 'JJ'), ('관심', 'NN'), ('많', 'VB'), ('은', 'EE'), ('멋지', 'VB'), ('ㄴ', 'EE'), ('개발자', 'NN'), ('님들', 'XN'), ('!', 'SY')]
-
->>> nouns_list=nouns(sent)
->>> nouns_list
-['오픈', '소스', '관심', '개발자']
-
->>> sent="오픈소스에관심많은멋진개발자님들!"
->>> seg = word_segmentor(sent)
->>> seg
-['오픈', '소스에', '관심', '많은', '멋진', '개발자님들']
-
-
->>> sent="우리 다시 사랑하자"
->>> token=syllable_tokenize(sent)
-
->>> pos_tag(token,lang='kor')
-[('우리', 'NN'), ('다시', 'MA'), ('사랑', 'NN'), ('하', 'XV'), ('자', 'EE')]
-
->>> pos_tag_with_verb_form(sent)
-[('우리', 'NN'), ('다시', 'MA'), ('사랑하', 'VB'), ('자', 'EE')]
+>>> tagger = EspressoTagger()
+>>> print(tagger.tag('pos', sent))
+['나_NN', '는_JJ', ' _SP', '아름답_VB', 'ㄴ_EE', ' _SP', '강산_NN', '에_JJ', ' _SP', '살_VB', '고_EE', '있_VB', '다_EE', '._SY']
 ~~~
-
 
 
 ### 4.7 Translate

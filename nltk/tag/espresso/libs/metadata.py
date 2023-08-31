@@ -115,7 +115,6 @@ class Metadata(object):
         
         # the actual content of the file is the __dict__ member variable, which contain all
         # the instance's data
-
         with open(paths['metadata_%s' % task], 'rb') as f:
             data = _pickle.load(f)
         md.__dict__.update(data)

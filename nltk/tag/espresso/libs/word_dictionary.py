@@ -15,6 +15,8 @@ class WordDictionary(dict):
 	rare = '*RARE*'
 	
 	number_transformation = {ord(c): '9' for c in '012345678'}
+	#english_transformation = {ord(c): 'a' for c in 'abcdefghijklmnopqrstuvwxyz'}
+	# 한자 처리 필요 korChar.hanja_syllable() 사용 
 	
 	def __init__(self, tokens, size=None, minimum_occurrences=None, wordlist=None):
 		"""

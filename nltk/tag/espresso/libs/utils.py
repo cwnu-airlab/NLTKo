@@ -17,6 +17,7 @@ import numpy as np
 from . import attributes
 
 #_tokenizer_regexp = ur'''(?ux)
+"""
 _tokenizer_regexp = r'''(?ux)
 		# the order of the patterns is important!!
 		([^\W\d_]\.)+|								# one letter abbreviations, e.g. E.U.A.
@@ -50,6 +51,7 @@ _clitic_regexp_str = '''(?ux)
 		lhes)(?![-\w])										# or digits or hyphens
 '''
 _clitic_regexp = re.compile(_clitic_regexp_str)
+"""
 
 def get_word_from_morph_lexicon(root, word, tags, space_flag):
 	'''
@@ -100,22 +102,17 @@ def get_word(root, word, tags, space_flag=False) :
 
 
 
-def tokenize(text, language):
+def tokenize(text, language='ko'):
 		"""
 		Call the tokenizer function for the given language.
 		The returned tokens are in a list of lists, one for each sentence.
 		
-		:param language: two letter code (en, pt)
+		:param language: two letter code (en, ko)
 		"""
-		#if not isinstance(text, unicode):
-		#		text = unicode(text, 'utf-8')
-		
 		if language == 'ko':
 				return tokenize_kr(text)
 		elif language == 'en':
 				return tokenize_en(text)
-		#elif language == 'pt':
-		#		return tokenize_pt(text, False)
 
 def tokenize_kr(text):
 		"""
@@ -137,6 +134,7 @@ def tokenize_en(text, user_lexicon):
 								 for sentence in sent_tokenizer.tokenize(text)]
 		return sentences
 		
+'''
 def tokenize_pt(text, clean=True):
 		"""
 		Returns a list of lists of the tokens in text, separated by sentences.
@@ -186,9 +184,9 @@ def clean_text(text, correct=True):
 		text = text.replace(u'…', '...')
 		
 		return text
+'''
 
-
-
+"""
 _contractible_base = r'''(?iux)
 		(
 		[ao]s?|								# definite articles
@@ -205,7 +203,8 @@ _contractible_base = r'''(?iux)
 _contractible_de = re.compile(_contractible_base % u'|aqui|aí|ali|entre')
 _contractible_em = re.compile(_contractible_base % '')
 _contractible_art = re.compile('[oa]s?')
-
+"""
+'''
 def contract(w1, w2):
 		"""
 		Makes a contraction of two words (in Portuguese).
@@ -252,6 +251,8 @@ def contract(w1, w2):
 				raise ValueError('Unexpected contraction: "%s" and "%s"' % (w1, w2))
 		
 		return attributes.capitalize(contraction, cap) 
+'''
+
 
 def generate_feature_vectors(num_vectors, num_features, min_value=-0.1, max_value=0.1):
 		"""
@@ -380,6 +381,8 @@ def create_feature_tables(args, md, text_reader):
 		#print(len(feature_tables))
 		return feature_tables
 
+
+
 def set_distance_features(max_dist=None, 
 													num_target_features=None, num_pred_features=None):
 		"""
@@ -400,6 +403,7 @@ def set_distance_features(max_dist=None,
 		
 		return [target_dist, pred_dist]
 
+'''
 def make_contractions_srl(sentences, predicates):
 		"""
 		Makes preposition contractions in the input data for SRL with Portuguese text. 
@@ -471,6 +475,7 @@ def make_contractions_srl(sentences, predicates):
 												contract(u'às', 'ao')
 		
 		return (sentences, predicates)
+'''
 
 def set_logger(level):
 		"""Sets the logger to be used throughout the system."""

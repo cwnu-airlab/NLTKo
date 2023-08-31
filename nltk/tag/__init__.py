@@ -94,6 +94,7 @@ from nltk.data import load, find
 #이전 분석기
 from nltk.tag.pos import _get_postagger
 #현재 분석기(espresso5)
+from nltk.tag.espresso.espresso_tag import EspressoTagger
 import nltk.tag.espresso
 from nltk.tag.espresso.libs import taggers
 import os
