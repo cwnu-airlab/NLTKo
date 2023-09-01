@@ -28,7 +28,7 @@ setup(
   packages=find_packages(exclude=[]),
   python_requires='>=3.7',
   install_requires=[
-    "safetensors==0.3.1",
+    "safetensors",
     "torch",
     "transformers",
     "datasets",

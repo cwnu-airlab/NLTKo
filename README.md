@@ -169,7 +169,7 @@ entrys(word)
 
 - 운영체제 : Ubuntu 18.04
 - 언어 : python3
-- 라이브러리 : nltk (version 1.2.2)  **※ 해당 nltk는 영어 nltk를 포함하고 있음 ※**
+- 라이브러리 : nltk (version 1.2.2)  **※ 해당 NLTKo는 영어 NLTK를 포함하고 있음 ※**
 
 ### 3.1 라이브러리 설치
 
