@@ -167,8 +167,8 @@ entrys(word)
 
 ## 3. 사용 환경
 
-- 운영체제 : Ubuntu 18.04
-- 언어 : python3
+- 운영체제 : Ubuntu 18.04, MacOS
+- 언어 : `python3.8` (pos tag는 현재 python3.8에서만 가능합니다.), `python3.9`, `python3.10`, `python3.11`
 - 라이브러리 : nltk (version 1.2.2)  **※ 해당 NLTKo는 영어 NLTK를 포함하고 있음 ※**
 
 ### 3.1 라이브러리 설치
