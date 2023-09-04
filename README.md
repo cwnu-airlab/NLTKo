@@ -169,11 +169,11 @@ entrys(word)
 
 - 운영체제 : Ubuntu 18.04, MacOS
 - 언어 : `python3.8` (pos tag는 현재 python3.8에서만 가능합니다.), `python3.9`, `python3.10`, `python3.11`
-- 라이브러리 : nltk (version 1.2.2)  **※ 해당 NLTKo는 영어 NLTK를 포함하고 있음 ※**
+- 라이브러리 : nltk==1.1.3, numpy==1.23, faiss-cpu==1.7.3  **※ 해당 NLTKo는 영어 NLTK를 포함하고 있음 ※**
 
 ### 3.1 라이브러리 설치
 
-   해당 라이브러리를 설치하기 위해서 아래와 동일하게 명령어 라인에서 입력하여 다운로드 받을 때, 사용자의  2가지  정보가 필요하다. 'modi.changwon.ac.kr' 내 사용하는 **사용자의 ID와 PW를 입력**해주어야만 다운로드가 가능하다.
+터미널에 다음과 같은 명령어를 입력하여 NLTKo를 설치한다.
 
 ```h
 $ git config --global http.sslVerify false
