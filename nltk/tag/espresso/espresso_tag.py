@@ -35,21 +35,23 @@ class EspressoTagger:
         :param task: 'pos', ner', 'wsd', 'srl' or 'dependency'
         :param use_tokenizer: whether to use built-in tokenizer
         """
-        # set_data_dir(self.data_dir)
+        
         use_tokenizer = not use_tokenizer
         task_lower = task.lower()
         
         if not self._check_model():
             self._download_model()
 
+        set_data_dir(self.data_dir)
+
         if task_lower == 'pos':
                 tagger = taggers.POSTagger(language=self.lang, data_dir=self.data_dir)
         elif task_lower == 'ner':
-                tagger = taggers.NERTagger(language=self.lang)
+                tagger = taggers.NERTagger(language=self.lang, data_dir=self.data_dir)
         elif task_lower == 'wsd':
-                tagger = taggers.WSDTagger(language=self.lang)
+                tagger = taggers.WSDTagger(language=self.lang, data_dir=self.data_dir)
         elif task_lower == 'srl':
-                tagger = taggers.SRLTagger(language=self.lang)
+                tagger = taggers.SRLTagger(language=self.lang, data_dir=self.data_dir)
         elif task_lower == 'dependency':
                 tagger = taggers.DependencyParser(language=self.lang)
         else:
@@ -85,13 +87,13 @@ class EspressoTagger:
 
         ##TODO: print부분 return으로 변경
         if task == 'pos':
-                return self._result_tagged_pos(tagged_sents)
+                return self._return_tagged_pos(tagged_sents)
         elif task == 'ner':
-                self._print_tagged_ner(tagged_sents)
+                return self._return_tagged_ner(tagged_sents)
         elif task == 'wsd':
-                self._print_tagged_wsd(tagged_sents)
+                return self._return_tagged_wsd(tagged_sents)
         elif task == 'srl':
-                self._print_tagged_srl(tagged_sents)
+                return self._return_tagged_srl(tagged_sents)
         elif task == 'dependency':
                 return self._return_parsed_dependency(tagged_sents)
         else:
@@ -107,7 +109,7 @@ class EspressoTagger:
                 #print ('\n')
         return result
 
-    def _result_tagged_pos(self, tagged_sents):
+    def _return_tagged_pos(self, tagged_sents):
         """Prints one sentence per line as token_tag"""
         result = []
         for sent in tagged_sents:
@@ -118,7 +120,7 @@ class EspressoTagger:
 
         return result
 
-    def _print_tagged_srl(self, tagged_sents):
+    def _return_tagged_srl(self, tagged_sents):
         for sent in tagged_sents:
                 print (' '.join(sent.tokens))
                 for predicate, arg_structure in sent.arg_structures:
@@ -129,17 +131,25 @@ class EspressoTagger:
                                 print (line)
                 print ('\n')
 
-    def _print_tagged_ner(self, tagged_sents):
-            """Prints one sentence per line as token_tag"""
-            for sent in tagged_sents:
-                    s = ' '.join('_'.join(item) for item in sent)
-                    print (s)
+    def _return_tagged_ner(self, tagged_sents):
+        """Prints one sentence per line as token_tag"""
+        result = []
+        for sent in tagged_sents:
+            for item in sent:
+                s = '_'.join(item)
+                result.append(s)
+        
+        return result
 
-    def _print_tagged_wsd(self, tagged_sents):
-            """Prints one sentence per line as token_tag"""
-            for sent in tagged_sents:
-                    s = ' '.join('_'.join(item) for item in sent)
-                    print (s)
+    def _return_tagged_wsd(self, tagged_sents):
+        """Prints one sentence per line as token_tag"""
+        result = []
+        for sent in tagged_sents:
+            for item in sent:
+                s = '_'.join(item)
+                result.append(s)
+        
+        return result
 
     def _download_model(self):
         """Downloads the model from the server"""

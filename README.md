@@ -22,7 +22,8 @@
 | 16   | NLTKo(version 1.2.0)<br />string2string 기능 추가 | 김도원 | 23.08.16 |
 | 17   | NLTKo(version 1.2.1)<br />Metrics 통합 | 김도원 | 23.08.24 |
 | 18   | NLTKo(version 1.2.2)<br />Metrics 클래스 명칭 정리 | 김도원 | 23.08.24 |
-| 19   | NLTKo(version 1.2.3)<br />Espresoo5 pos tag 추가 | 김도원 | 23.08.31 |
+| 19   | NLTKo(version 1.2.3)<br />Espresso5 pos tag 추가 | 김도원 | 23.08.31 |
+| 20   | NLTKo(version 1.2.4)<br />Espresso5 'ner tag', 'wsd tag', 'dependency parser' 추가 | 김도원 | 23.09.11 |
 
 <div style="page-break-after: always;"></div>
 
@@ -58,7 +59,11 @@
     * [4.5.3 ROUGE](#453-rouge)
     * [4.5.4 CIDER](#454-cider)
     * [4.5.5 METEOR](#455-meteor)
-  * [4.6 pos-tag (Espresso5)](#46-pos_tag-espresso5)
+  * [4.6 Espresso5](#46-espresso5)
+	* [4.6.1 pos tag](#461-pos-tag)
+	* [4.6.2 dependency parse](#462-dependency-parse)
+	* [4.6.3 wsd tag](#463-wsd-tag)
+	* [4.6.4 ner tag](#464-ner-tag)
   * [4.7 Translate](#47-translate)
   * [4.8 정렬 (alignment)](#48-정렬-alignment)
 	* [4.8.1 Needleman-Wunsch 알고리즘](#481-needleman-wunsch-알고리즘)
@@ -167,9 +172,12 @@ entrys(word)
 
 ## 3. 사용 환경
 
-- 운영체제 : Ubuntu 18.04, MacOS
-- 언어 : `python3.8` (pos tag는 현재 python3.8에서만 가능합니다.), `python3.9`, `python3.10`, `python3.11`
-- 라이브러리 : nltk==1.1.3, numpy==1.23, faiss-cpu==1.7.3  **※ 해당 NLTKo는 영어 NLTK를 포함하고 있음 ※**
+- 운영체제 : ubuntu 18.04, ubuntu 22.04, MacOS
+- 언어 : `python3.8`, `python3.9`, `python3.10`, `python3.11`
+- 라이브러리 : nltk==1.1.3, numpy==1.23, faiss-cpu=1.7.3   **※ 해당 NLTKo는 영어 NLTK를 포함하고 있음 ※**
+
+**주의사항**
+- Espresso5의 EspressoTagger는 현재 `MacOS`, `python3.8`에서만 사용 가능하다. 
 
 ### 3.1 라이브러리 설치
 
@@ -179,23 +187,6 @@ entrys(word)
 $ git config --global http.sslVerify false
 $ pip install git+https://github.com/cwnu-airlab/NLTKo
 
-
-Collecting git+https://github.com/cwnu-airlab/NLTKo
-  Cloning https://github.com/cwnu-airlab/NLTKo to /tmp/pip-req-build-_u64swgw
-  Running command git clone --filter=blob:none -q https://github.com/cwnu-airlab/NLTKo /tmp/pip-req-build-_u64swgw
-  Resolved https://github.com/cwnu-airlab/NLTKo to commit 9a95d89ee954af3610a7a61295cd5c1b40a9b33f
-  Preparing metadata (setup.py) ... done
-Requirement already satisfied: regex==2020.7.14 in /mnt/data4/ghdchlwls123/virtual_env/real/lib/python3.6/site-packages (from nltk==1.1.4) (2020.7.14)
-Requirement already satisfied: numpy in /mnt/data4/ghdchlwls123/virtual_env/real/lib/python3.6/site-packages (from nltk==1.1.4) (1.19.5)
-... 
-Requirement already satisfied: certifi>=2017.4.17 in /mnt/data4/ghdchlwls123/virtual_env/real/lib/python3.6/site-packages (from requests->nltk==1.1.4) (2022.6.15)
-Building wheels for collected packages: nltk
-  Building wheel for nltk (setup.py) ... done
-  Created wheel for nltk: filename=nltk-1.1.4-cp36-cp36m-linux_x86_64.whl size=55523456 sha256=0c8b9d1c9d901d0db7fb7baea5c67a2aea9b1e1d5edc62e9ae32a46bdfe31351
-  Stored in directory: /tmp/pip-ephem-wheel-cache-49yua750/wheels/b0/8d/9a/424cab1626f590f8f204c9376833c732276777a79f4906120e
-Successfully built nltk
-Installing collected packages: nltk
-Successfully installed nltk-1.2.2
 ```
 
 <div style="page-break-after: always;"></div>
@@ -912,13 +903,16 @@ Returns
 
 <div style="page-break-after: always;"></div> 
 
-### 4.6 pos_tag (Espresso5)
+### 4.6. Espresso5
 
-형태소 분석 결과로, 품사와 같은 추가 정보를 이용하여  문장의 각 토큰에 태그를 지정하는 인터페이스이며 기능은 아래와 같다.
+Espresso5 모델을 사용한 tagger를 사용할 수 있다.
 
-##### 4.6.1. 
+**주의사항**
+현재 Espresso5 모델은 `MacOS` & `python3.8` 환경에서만 사용할 수 있다.
 
 * tag(task: str, sentence: str) -> List[str] : 문장의 각 토큰에 대한 task의 태깅 결과를 반환한다.
+
+##### 4.6.1. pos tag
 
 **사용법 & 결과**
 
@@ -931,8 +925,46 @@ Returns
 ['나_NN', '는_JJ', ' _SP', '아름답_VB', 'ㄴ_EE', ' _SP', '강산_NN', '에_JJ', ' _SP', '살_VB', '고_EE', '있_VB', '다_EE', '._SY']
 ~~~
 
+##### 4.6.2. dependency parse
 
-### 4.7 Translate
+**사용법 & 결과**
+
+~~~python
+>>> from nltk.tag import EspressoTagger
+>>> sent = "나는 아름다운 강산에 살고있다."
+
+>>> tagger = EspressoTagger()
+>>> print(tagger.tag('dependency', sent))
+['1\t나는\t4\tNP_SBJ\n2\t아름답ㄴ\t3\tVP_MOD\n3\t강산에\t4\tNP_AJT\n4\t살고있다\t0\tVP']
+~~~
+
+##### 4.6.3. wsd tag
+
+**사용법 & 결과**
+
+~~~python
+>>> from nltk.tag import EspressoTagger
+>>> sent = "나는 아름다운 강산에 살고있다."
+
+>>> tagger = EspressoTagger()
+>>> print(tagger.tag('wsd', sent))
+['나_*', '는_*', '아름답_*', 'ㄴ_*', '강산_01', '에_*', '살_01', '고_*', '있_*', '다_*', '._*']
+~~~
+
+##### 4.6.4. ner tag
+
+**사용법 & 결과**
+
+~~~python
+>>> from nltk.tag import EspressoTagger
+>>> sent = "나는 배가 고프다."
+
+>>> tagger = EspressoTagger()
+>>> print(tagger.tag('ner', sent))
+['나_*', '는_*', '배_AM-S', '가_*', '고프_*', '다_*', '._*']
+~~~
+
+### 4.7. Translate 
 
 파파고 번역기를 이용한 한/영간 번역 기능의 함수이다.
 
@@ -1239,7 +1271,7 @@ e2k[k2e](sentence(s))
 
 해당 함수는 sting2sting의 코드를 참고하거나 포함하고 있다. (https://github.com/stanfordnlp/string2string)
 
-##### 4.11.1 Navie Search
+##### 4.11.1. Navie Search
 
 * search(pattern: str, text: str) -> int : 텍스트에서 패턴을 검색한다.
 
@@ -1254,7 +1286,7 @@ e2k[k2e](sentence(s))
 3
 ~~~
 
-##### 4.11.2 Rabin-Karp 검색
+##### 4.11.2. Rabin-Karp 검색
 
 * search(pattern: str, text: str) -> int : 텍스트에서 패턴을 검색한다.
 
@@ -1269,7 +1301,7 @@ e2k[k2e](sentence(s))
 3
 ~~~
 
-##### 4.11.3 KMP 검색
+##### 4.11.3. KMP 검색
 
 * search(pattern: str, text: str) -> int : 텍스트에서 패턴을 검색한다.
 
@@ -1284,7 +1316,7 @@ e2k[k2e](sentence(s))
 3
 ~~~
 
-##### 4.11.4 Boyer-Moore 검색
+##### 4.11.4. Boyer-Moore 검색
 
 * search(pattern: str, text: str) -> int : 텍스트에서 패턴을 검색한다.
 
@@ -1299,7 +1331,7 @@ e2k[k2e](sentence(s))
 3
 ~~~
 
-##### 4.11.5 Faiss-Semanic 검색
+##### 4.11.5. Faiss-Semanic 검색
 
 * __init__(model_name_or_path: str = 'facebook/bart-large', tokenizer_name_or_path: str = 'facebook/bart-large', device: str = 'cpu')→ None : FaissSearh를 초기화 합니다.
 * add_faiss_index(column_name: str = 'embeddings', metric_type: int | None = None, batch_size: int = 8, **kwargs)→ None : FAISS index를 dataset에 추가합니다.
