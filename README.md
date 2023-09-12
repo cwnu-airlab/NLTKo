@@ -43,6 +43,7 @@
   * [2.8 string2string](#28-string2string)
 * [3. 사용 환경](#3-사용-환경)
   * [3.1 라이브러리 설치](#31-라이브러리-설치)
+	* [3.1.1 설치 도중 오류 발생시 해결 방법](#311-설치-도중-오류-발생시-해결-방법)
 * [4.실행](#4-실행)
   * [4.1 토크나이저 (tokenizer)](#41-토크나이저-tokenizer)
   * [4.2 세종전자사전 (ssem)](#42-세종전자사전-ssem)
@@ -188,6 +189,25 @@ $ git config --global http.sslVerify false
 $ pip install git+https://github.com/cwnu-airlab/NLTKo
 
 ```
+
+##### 3.1.1. 설치 도중 오류 발생시 해결 방법
+- 만약 ubuntu에서 `pip install`을 진행하였을 때, 오류가 발생하여 제대로 설치가 되지않는다면, 아래의 명령어들을 실행하여 해결할 수 있다.
+
+~~~h
+apt update
+apt-get install g++
+apt install software-properties-common
+add-apt-repository ppa:deadsnakes/ppa
+apt-cache policy python3.8
+apt install python3.8
+apt install python3.8-dev
+apt-get install python3.8-distutils
+apt install git
+
+~~~
+
+- `apt install pythonx.x-dev` (x.x는 사용자의 python 버전에 맞게 입력)
+- `apt-get install pythonx.x-distutils` (x.x는 사용자의 python 버전에 맞게 입력)
 
 <div style="page-break-after: always;"></div>
 
