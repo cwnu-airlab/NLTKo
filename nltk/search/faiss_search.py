@@ -40,15 +40,16 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 import torch
 from transformers import AutoTokenizer, AutoModel
 from datasets import Dataset
+from nltk.search.kobert_tokenizer import KoBERTTokenizer
 
 import pandas as pd
 
 # FAISS library wrapper class
 class FaissSearch:
     def __init__(self, 
-        model_name_or_path: str = 'facebook/bart-large',
-        tokenizer_name_or_path: str = 'facebook/bart-large',
-        device: str = 'cpu',
+        model_name_or_path: str = 'klue/bert-base',
+        tokenizer_name_or_path: str = 'klue/bert-base',
+        device: str = 'cpu'
         ) -> None:
         r"""
         This function initializes the wrapper for the FAISS library, which is used to perform semantic search.
@@ -91,7 +92,10 @@ class FaissSearch:
             tokenizer_name_or_path = model_name_or_path
 
         # Load the tokenizer
-        self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name_or_path)
+        if tokenizer_name_or_path == 'skt/kobert-base-v1':
+            self.tokenizer = KoBERTTokenizer.from_pretrained(tokenizer_name_or_path)
+        else:
+            self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name_or_path)
 
         # Load the model
         self.model = AutoModel.from_pretrained(model_name_or_path).to(self.device)

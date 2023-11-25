@@ -22,6 +22,7 @@ from nltk.chat.iesha import iesha_chat
 from nltk.chat.rude import rude_chat
 from nltk.chat.suntsu import suntsu_chat
 from nltk.chat.zen import zen_chat
+from nltk.chat.gptapi import GPT_sentence_maker, GPTSentence
 
 bots = [
     (eliza_chat, "Eliza (psycho-babble)"),

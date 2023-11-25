@@ -7,3 +7,4 @@ from .classical import (
     BoyerMooreSearch,
 )
 from .faiss_search import FaissSearch
+from .kobert_tokenizer import KoBERTTokenizer

@@ -2,6 +2,9 @@ from nltk.metrics import confusionmatrix
 import os
 import argparse
 from collections import defaultdict
+from typing import List, Union
+import torch
+import numpy as np
 
 class DefaultMetric:
 	def __init__(self):
@@ -220,3 +223,73 @@ class DefaultMetric:
 		return 2 * p * r / (p + r) if p + r else 0
 			
 
+	def precision_at_k(self, true: List[int], pred: List[int], k: int) -> float:
+		"""
+		avg = ['micro', 'macro']
+		"""
+		
+		relevant = 0
+
+		if k > len(pred):
+			raise ValueError("`k` is bigger than pred's length")
+
+		pred = pred[:k]
+
+		for t in true:
+			if t in pred:
+				relevant += 1
+		
+		
+		return float(relevant/len(pred))
+
+	def recall_at_k(self, true: List[int], pred: List[int], k: int) -> float:
+
+		relevant = 0
+
+		if k > len(pred):
+			raise ValueError("`k` is bigger than pred's length")
+
+		pred = pred[:k]
+
+		for t in true:
+			if t in pred:
+				relevant += 1
+		
+		
+		return float(relevant/len(true))
+
+	def hit_rate_at_k(self, user: List[List[int]], pred: List[List[int]], k: int) -> float:
+		hit = 0
+
+		for u_list, p_list in zip(user, pred):
+			try:
+				p_list = p_list[:k]
+			except:
+				raise ValueError("`k` is bigger thant pred's length ")
+			for u in u_list:
+				if u in p_list:
+					hit += 1
+					break
+
+		return float(hit/len(user))
+
+	def mean_absolute_error(self, true: Union[torch.Tensor, np.ndarray], pred: Union[torch.Tensor, np.ndarray]) -> float:
+		pass
+
+	def root_mean_square_error(self, true: Union[torch.Tensor, np.ndarray], pred: Union[torch.Tensor, np.ndarray]) -> float:
+		pass
+
+def demo():
+	y_pred = [5, 2, 4, 1, 3, 2, 5, 6, 7]
+	y_true = [1, 3, 6, 7, 1, 5]
+
+	user = [[5, 3, 2], [9, 1, 2], [3, 5, 6], [7, 2, 1]]
+	h_pred = [[15, 6, 21, 3], [15, 77, 23, 14], [51, 23, 21, 2], [53, 2, 1, 5]]
+
+	metric = DefaultMetric()
+	print(metric.precision_at_k(y_true,  y_pred, 3))
+	print(metric.recall_at_k(y_true,y_pred, 3))
+	print(metric.hit_rate_at_k(user, h_pred, 2))
+
+if __name__=="__main__":
+	demo()

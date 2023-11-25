@@ -51,3 +51,6 @@ from nltk.metrics.spearman import (
 from nltk.metrics.aline import align
 from nltk.metrics.eval import StringMetric
 from nltk.metrics.classical import DefaultMetric
+from nltk.metrics.mauve import Mauve
+from .bertscore import BERTScore
+from .bartscore import BARTScore

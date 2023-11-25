@@ -104,9 +104,18 @@ class EspressoTagger:
     def _return_parsed_dependency(self, parsed_sents):
         """Prints one token per line and its head"""
         result = []
+        temp_list = []
+        temp_list2 = []
         for sent in parsed_sents:
-            result.append(sent.to_conll())
-                #print ('\n')
+            temp_list = sent.to_conll().split('\t')
+            temp_list = temp_list[1:]
+            for ele in temp_list:
+                if '\n' in ele:
+                    ele = ele[:ele.find('\n')]
+                temp_list2.append(ele)
+            result.append(self._dependency_after(temp_list2)[:])
+            temp_list2 = []
+            
         return result
 
     def _return_tagged_pos(self, tagged_sents):
@@ -154,7 +163,7 @@ class EspressoTagger:
     def _download_model(self):
         """Downloads the model from the server"""
         temp_path = os.path.dirname(__file__) + '/data.zip'
-        url = "https://air.changwon.ac.kr/~airdemo/storage/espresso_data_2/data.zip"
+        url = "https://air.changwon.ac.kr/~airdemo/storage/espresso_data_1/data.zip"
         print("Downloading Espresso5 model...")
         with requests.get(url, stream=True) as r:
             r.raise_for_status()
@@ -177,6 +186,20 @@ class EspressoTagger:
             return False
         else:
             return True
+
+    def _dependency_after(self, list):
+        len_list = len(list)
+        temp_list = []
+        repeat = len_list//3
+        for i in range(repeat):
+            index = i*3
+            tup1 = (i+1, )
+            tup2 = tuple(list[index:index+3])
+            tup = tup1 + tup2
+            temp_list.append(tup[:])
+            
+            
+        return temp_list
 
 if __name__ == '__main__':
     tagger = EspressoTagger()

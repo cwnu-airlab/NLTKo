@@ -24,6 +24,10 @@
 | 18   | NLTKo(version 1.2.2)<br />Metrics 클래스 명칭 정리 | 김도원 | 23.08.24 |
 | 19   | NLTKo(version 1.2.3)<br />Espresso5 pos tag 추가 | 김도원 | 23.08.31 |
 | 20   | NLTKo(version 1.2.4)<br />Espresso5 'ner tag', 'wsd tag', 'dependency parser' 추가 | 김도원 | 23.09.11 |
+| 21   | NLTKo(version 1.2.5)<br />Kobert Tokenizer 추가, MAUVE 평가 지표 추가 | 김도원 | 23.11.17 |
+| 22   | NLTKo(version 1.2.6)<br />BERTScore, BARTScore 위치 변경, 'dependency parser'출력 형식 변경 | 김도원 | 23.11.17 |
+| 23   | NLTKo(version 1.2.7)<br />Precision@K, Recall@K, HitRate@K, Wasserstein Distance 추가 | 김도원 | 23.11.23 |
+
 
 <div style="page-break-after: always;"></div>
 
@@ -53,7 +57,19 @@
     * [4.2.4 entry 함수 사용법 & 결과](#424-entry-함수-사용법--결과)
     * [4.2.5 sense 함수 사용법 & 결과](#425-sense-함수-사용법--결과)
   * [4.3 한국어 전처리 (korchar)](#43-한국어전처리-korchar)
-  * [4.4 분류 모델 평가 (DefaultMetric)](#44-분류모델평가-defaultmetric)
+  * [4.4 분류 모델 평가](#44-분류모델평가)
+    * [4.4.1 DefaultMetric](#441-defaultmetric)
+        * macro
+        * accuracy
+        * precision
+        * recall
+        * f1_score
+        * precision@k
+        * recall@k
+        * hitrate@k
+    * [4.4.2 MAUVE](#442-mauve)
+    * [4.4.3 BERT Score](#443-bert-score)
+    * [4.4.4 BART Score](#444-bart-score)
   * [4.5 기계 번역 평가 (StringMetric)](#45-기계번역평가-stringmetric)
     * [4.5.1 WER/CER](#451-wercer)
     * [4.5.2 BLEU](#452-bleu)
@@ -61,35 +77,34 @@
     * [4.5.4 CIDER](#454-cider)
     * [4.5.5 METEOR](#455-meteor)
   * [4.6 Espresso5](#46-espresso5)
-	* [4.6.1 pos tag](#461-pos-tag)
-	* [4.6.2 dependency parse](#462-dependency-parse)
-	* [4.6.3 wsd tag](#463-wsd-tag)
-	* [4.6.4 ner tag](#464-ner-tag)
+	  * [4.6.1 pos tag](#461-pos-tag)
+	  * [4.6.2 dependency parse](#462-dependency-parse)
+	  * [4.6.3 wsd tag](#463-wsd-tag)
+	  * [4.6.4 ner tag](#464-ner-tag)
   * [4.7 Translate](#47-translate)
   * [4.8 정렬 (alignment)](#48-정렬-alignment)
-	* [4.8.1 Needleman-Wunsch 알고리즘](#481-needleman-wunsch-알고리즘)
-	* [4.8.2 Hirschberg 알고리즘](#482-hirschberg-알고리즘)
-	* [4.8.3 Smith-Waterman 알고리즘](#483-smith-waterman-알고리즘)
-	* [4.8.4 DTW](#484-dtw)
-	* [4.8.5 Longest Common Subsequence](#485-longest-common-subsequence)
-	* [4.8.6 Longest Common Substring](#486-longest-common-substring)
+	  * [4.8.1 Needleman-Wunsch 알고리즘](#481-needleman-wunsch-알고리즘)
+	  * [4.8.2 Hirschberg 알고리즘](#482-hirschberg-알고리즘)
+	  * [4.8.3 Smith-Waterman 알고리즘](#483-smith-waterman-알고리즘)
+	  * [4.8.4 DTW](#484-dtw)
+	  * [4.8.5 Longest Common Subsequence](#485-longest-common-subsequence)
+	  * [4.8.6 Longest Common Substring](#486-longest-common-substring)
   * [4.9 거리 (distance)](#49-거리-distance)
-	* [4.9.1 Levenshtein Edit Distance](#491-levenshtein-edit-distance)
-	* [4.9.2 Hamming Distance](#492-hamming-distance)
-	* [4.9.3 Damerau-Levenshtein Distance](#493-damerau-levenshtein-distance)
+	  * [4.9.1 Levenshtein Edit Distance](#491-levenshtein-edit-distance)
+	  * [4.9.2 Hamming Distance](#492-hamming-distance)
+	  * [4.9.3 Damerau-Levenshtein Distance](#493-damerau-levenshtein-distance)
+    * [4.9.4 Wasserstein Distance](#494-wasserstein-distance)
   * [4.10 유사도 (similarity)](#410-유사도-similarity)
-	* [4.10.1 코사인 유사도 (Cosine Similarity)](#4101-코사인-유사도-cosine-similarity)
-	* [4.10.2 BERT Score](#4102-bert-score)
-	* [4.10.3 BART Score](#4103-bart-score)
-	* [4.10.4 LCSubstring Similarity](#4104-lcsubstring-similarity)
-	* [4.10.5 LCSubsequence Similarity](#4105-lcsubsequence-similarity)
-	* [4.10.6 Jaro Similarity](#4106-jaro-similarity)
+	  * [4.10.1 코사인 유사도 (Cosine Similarity)](#4101-코사인-유사도-cosine-similarity)
+	  * [4.10.2 LCSubstring Similarity](#4102-lcsubstring-similarity)
+	  * [4.10.3 LCSubsequence Similarity](#4103-lcsubsequence-similarity)
+	  * [4.10.4 Jaro Similarity](#4104-jaro-similarity)
   * [4.11 검색 (search)](#411-검색-search)
-	* [4.11.1 Naive Search](#4111-naive-search)
-	* [4.11.2 Rabin-Karp 검색](#4112-rabin-karp-검색)
-	* [4.11.3 KMP 검색 알고리즘](#4113-kmp-검색)
-	* [4.11.4 Boyer-Moore 검색 알고리즘](#4114-boyer-moore-검색)
-	* [4.11.5 Faiss-Semantic 검색](#4115-faiss-semantic-검색)
+	  * [4.11.1 Naive Search](#4111-naive-search)
+	  * [4.11.2 Rabin-Karp 검색](#4112-rabin-karp-검색)
+	  * [4.11.3 KMP 검색 알고리즘](#4113-kmp-검색)
+	  * [4.11.4 Boyer-Moore 검색 알고리즘](#4114-boyer-moore-검색)
+	  * [4.11.5 Faiss-Semantic 검색](#4115-faiss-semantic-검색)
   * [4.12 etc](#412-etc)
 * [5.사용예제 코드](#5-사용예제-코드)
   * [5.1 세종전자사전 예제 코드](#51-세종전자사전-예제-코드)
@@ -180,15 +195,18 @@ entrys(word)
 **주의사항**
 - Espresso5의 EspressoTagger는 현재 `MacOS`, `python3.8`에서만 사용 가능하다. 
 
+
+
 ### 3.1 라이브러리 설치
 
-터미널에 다음과 같은 명령어를 입력하여 NLTKo를 설치한다.
+   해당 라이브러리를 설치하기 위해서 아래와 동일하게 명령어 라인에서 입력하여 다운로드 받을 때, 사용자의  2가지  정보가 필요하다. 'modi.changwon.ac.kr' 내 사용하는 **사용자의 ID와 PW를 입력**해주어야만 다운로드가 가능하다.
 
-```h
+
+~~~h
 $ git config --global http.sslVerify false
 $ pip install git+https://github.com/cwnu-airlab/NLTKo
-
-```
+ 
+~~~
 
 ##### 3.1.1. 설치 도중 오류 발생시 해결 방법
 - 만약 ubuntu에서 `pip install`을 진행하였을 때, 오류가 발생하여 제대로 설치가 되지않는다면, 아래의 명령어들을 실행하여 해결할 수 있다.
@@ -569,11 +587,11 @@ Sense('눈.nng_s.1.1')
 
 <div style="page-break-after: always;"></div>
 
-### 4.4 분류모델평가 (DefaultMetric)
+### 4.4 분류모델평가
 
 ​	분류 모델에 대하여 성능을 평가할 수 있는 대표적인 방법 Accuracy, Precision, Recall, F1_score 사용이 가능하며 이진 데이터와 그 이상의 데이터 모두 사용 가능하다. 입력 형식은 리스트이며 정답과 예측 리스트의 길이가 같아야 한다. Accuracy를 제외하고 평균('micro'/'macro')을 선택할 수 있으며 default는 micro로 설정되어있다.
 
-**4.4.1. 전체 개념**
+##### 4.4.1. DefaultMetric
 
 * micro : 전체 값들의 평균
 * macro : 각 분류 카테고리 평균들의 평균 
@@ -582,8 +600,11 @@ Sense('눈.nng_s.1.1')
 * recall : 재현율 반환 [ 재현율이란 실제 True인 것 중 모델이 True라고 예측한 것의 비율 ]
 * f1_score: Precision과 Recall의 조화평균 값 반환
 * pos_eval: 형태소 분석 결과 스코어를 계산하여 값 반환 (예제확인)
+* precision@k : precision@k는 k개 추천 결과에 대한 Precision을 계산한 것으로, 모델이 추천한 아이템 k개 중에 실제 사용자가 관심있는 아이템의 비율을 의미
+* recall@k : recall@k는 k개 추천 결과에 대한 Recall을 계산한 것으로, 사용자가 관심있는 모든 아이템 중에서 모델의 추천한 아이템 k개가 얼마나 포함되는지 비율을 의미
+* hitrate@k : 전체 사용자들의 추천 결과에 대해서 상위 k 안에 선호 아이템이 있는 추천 결과 개수를 전체 사용자의 수로 나누어 평균을 계산한다.
 
-**4.4.2. 사용법 & 결과**
+**사용법 & 결과**
 
 ```python
 from nltk.metrics import DefaultMetric
@@ -618,6 +639,20 @@ from nltk.metrics import DefaultMetric
 >>> DefaultMetric().f1_score(y_true,y_pred,'macro')
 0.26666666666666666
 
+>>> y_pred = [5, 2, 4, 1, 3, 2, 5, 6, 7]
+>>> y_true = [1, 3, 6, 7, 1, 5]
+
+>>> DefaultMetric().precision_at_k(y_true,  y_pred, 5)
+0.8
+>>> DefaultMetric().recall_at_k(y_true,y_pred, 5)
+0.6666666
+
+>>> user = [[5, 3, 2], [9, 1, 2], [3, 5, 6], [7, 2, 1]]
+>>> h_pred = [[15, 6, 21, 3], [15, 77, 23, 14], [51, 23, 21, 2], [53, 2, 1, 5]]
+
+>>> DefaultMetric().hit_rate_at_k(user, h_pred, 3)
+0.25
+
 '''
 우리	우리/NP	우리/NP
 나라에	나라/NNG+에/JKB	나라/NNG+에/JKB
@@ -643,6 +678,125 @@ from nltk.metrics import DefaultMetric
 '''
 (0.8, 0.8636363636363636, 0.8636363636363636, 0.8636363636363636)
 ```
+
+##### 4.4.2. MAUVE
+
+개방형 텍스트 생성의 뉴럴 텍스트와 인간 텍스트 비교 측정 지표이다. <br/><br/>
+참고 논문 : https://arxiv.org/abs/2102.01454
+
+**주의 사항**
+한국어의 경우 p와 q의 문장 개수가 각각 최소 50개 이상이여야 제대로 된 결과가 나옵니다.
+
+* __init__(model_name_or_path: str) -> None : 토크나이징과 임베딩을 진행할 모델을 입력받아 Mauve 클래스를 초기화 한다.
+  * model은 현재 huggingface에서 제공되는 모델만 사용가능합니다. 로컬 모델은 안됩니다.
+* compute(self,
+            p_features=None, q_features=None,
+            p_tokens=None, q_tokens=None,
+            p_text=None, q_text=None,
+            num_buckets='auto', pca_max_data=-1, kmeans_explained_var=0.9,
+            kmeans_num_redo=5, kmeans_max_iter=500,
+            device_id=-1, max_text_length=1024,
+            divergence_curve_discretization_size=25, mauve_scaling_factor=5,
+            verbose=False, seed=25, batch_size=1, use_float64=False,
+  ) -> SimpleNamespace(mauve, frontier_integral, p_hist, q_hist, divergence_curve)
+  * ``p_features``: (n, d) 모양의 ``numpy.ndarray``, 여기서 n은 생성 개수
+  * ``q_features``: (n, d) 모양의 ``numpy.ndarray``, 여기서 n은 생성 개수
+  * ``p_tokens``: 길이 n의 리스트, 각 항목은 모양 (1, 길이)의 torch.LongTensor
+  * ``q_tokens``: 길이 n의 리스트, 각 항목은 모양 (1, 길이)의 torch.LongTensor
+  * ``p_text``: 길이가 n인 리스트, 각 항목은 문자열
+  * ``q_text``: 길이가 n인 리스트, 각 항목은 문자열
+  * ``num_buckets``: P와 Q를 양자화할 히스토그램의 크기, Options: ``'auto'`` (default, n/10를 뜻함) 또는 정수
+  * ``pca_max_data``: PCA에 사용할 데이터 포인터의 수, ``-1``이면 모든 데이터를 사용, Default -1
+  * ``kmeans_explained_var``: PCA에 의한 차원 축소를 유지하기 위한 데이터 분산의 양, Default 0.9
+  * ``kmeans_num_redo``: k-평균 클러스터링을 다시 실행하는 횟수(최상의 목표가 유지됨), Default 5
+  * ``kmeans_max_iter``: k-평균 반복의 최대 횟수, Default 500
+  * ``device_id``: 기능화를 위한 장치. GPU를 사용하려면 gpu_id(예: 0 또는 3)를 제공, CPU를 사용하려면 -1
+  * ``max_text_length``: 고려해야 할 최대 토큰 수, Default 1024
+  * ``divergence_curve_discretization_size``: 발산 곡선에서 고려해야 할 점의 수. Default 25.
+  * ``mauve_scaling_factor``: 논문의 상수``c`` Default 5
+  * ``verbose``: True인 경우 실행 시간 업데이트를 화면에 출력
+  * ``seed``: k-평균 클러스터 할당을 초기화하기 위한 무작위 시드
+  * ``batch_size``: 특징 추출을 위한 배치 크기
+
+  :return
+  * ``out.mauve``, MAUVE 점수인 0에서 1 사이의 숫자, 값이 높을수록 P가 Q에 더 가깝다는 의미
+  * ``out.frontier_integral``, 0과 1 사이의 숫자, 값이 낮을수록 P가 Q에 더 가깝다는 것을 의미
+  * ``out.p_hist``, P에 대해 얻은 히스토그램, ``out.q_hist``와 동일
+  * ``out.divergence_curve``에는 발산 곡선의 점이 포함, 모양은 (m, 2), 여기서 m은 ``divergence_curve_discretization_size``
+
+**사용법 & 결과**
+
+```python
+>>> from nltk.metrics import Mauve
+
+>>> p_ko = ['누나가 동생을 등에 업는다.',
+'나는 퀴즈의 정답을 맞혔다.',
+'입에 고기를 마구 욱여넣었다.',
+'마음이 너무 설렌다.', ...
+
+'봄눈이 녹고 있다.',
+'길이 얼어 있다.',
+] # total 88
+
+>>> q_ko = ['안녕하세요! 오늘은 어떤 날씨인가요?',
+'한국 음식 중 어떤 것이 제일 좋아하세요?',
+'학교에서 친구들과 함께 공부하는 게 즐거워요.',
+'주말에는 가족과 함께 시간을 보내는 것이 좋아요.', ...
+
+'좋아하는 책을 읽으면서 여유로운 주말을 보내는 것이 행복해요.',
+'한국의 다양한 음식을 맛보는 것이 여행의 매력 중 하나에요.',
+] # total 88
+
+>>> result = Mauve('skt/kobert-base-v1').compute(p_text=p_ko, q_text=q_ko, device_id = 0, max_text_length=256, verbose=False)
+>>> print(result.mauve)
+0.6333866808068385
+
+```
+
+##### 4.4.3. BERT Score
+
+* __init__(model_name_or_path: str | None = None, lang: str | None = None, num_layers: int | None = None, all_layers: bool = False, use_fast_tokenizer: bool = False, device: str = 'cpu', baseline_path: str | None = None) -> None : BERT Score를 초기화하는 생성자입니다.
+	* model_name_or_path : BERT 모델의 이름 또는 경로 (huggingface.co에서 가져옵니다.)
+	* lang : BERT 모델의 언어 (kor | eng)
+	* num_layers : BERT 모델의 레이어 수
+	* device : BERT 모델을 실행할 장치 (cpu | cuda)
+* compute(source_sentences: List[str], target_sentences: List[str] | List[List[str]], batch_size: int = 4, idf: bool = False, nthreads: int = 4, return_hash: bool = False, rescale_with_baseline: bool = False, verbose: bool = False) -> dict | str | None : 두 문장의 BERT Score를 계산한다.
+* 모델은 huggingface.co에서 다운받습니다. (https://huggingface.co/bert-base-uncased)
+	* model_name_or_path 파라미터에는 hunggingface.co/ 뒷부분을 넣어줍니다. `model_name_or_path = 'bert-base-uncased'` (https://huggingface.co/<mark>bert-base-uncased</mark>)
+
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.metrics import BERTScore
+>>> sent1 = '나는 학생이다.'
+>>> sent2 = '그는 선생님이다.'
+
+>>> result = BERTScore(model_name_or_path='skt/kobert-base-v1', lang='kor', num_layers=12).compute([sent1], [sent2])
+>>> print(result)
+{'precision': array([0.78243864], dtype=float32), 'recall': array([0.78243864], dtype=float32), 'f1': array([0.78243864], dtype=float32)}
+~~~
+
+
+##### 4.4.4. BART Score
+
+* __init__(model_name_or_path='facebook/bart-large-cnn', tokenizer_name_or_path: str | None = None, device: str = 'cpu', max_length=1024) -> None : BART Score를 초기화하는 생성자입니다.
+	* model_name_or_path : BART 모델의 이름 또는 경로 (huggingface.co에서 가져옵니다.)
+	* device : BART 모델을 실행할 장치 (cpu | cuda)
+* compute(source_sentences: List[str], target_sentences: List[str] | List[List[str]], batch_size: int = 4, agg: str = 'mean') -> Dict[str, List[float]] : 두 문장의 BART Score를 계산한다.
+* 모델은 huggingface.co에서 다운받습니다. (https://huggingface.co/facebook/bart-large-cnn)
+	* model_name_or_path 파라미터에는 hunggingface.co/ 뒷부분을 넣어줍니다. `model_name_or_path = 'facebook/bart-large-cnn'` (https://huggingface.co/<mark>facebook/bart-large-cnn</mark>)
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.metrics import BARTScore
+>>> sent1 = '나는 학생이다.'
+>>> sent2 = '그는 선생님이다.'
+
+>>> result = BARTScore().compute([sent1], [sent2])
+>>> print(result)
+{'score': array([-2.97229409])}
+~~~
+
 
 <div style="page-break-after: always;"></div>
 
@@ -951,11 +1105,11 @@ Espresso5 모델을 사용한 tagger를 사용할 수 있다.
 
 ~~~python
 >>> from nltk.tag import EspressoTagger
->>> sent = "나는 아름다운 강산에 살고있다."
+>>> sent = "나는 배가 고프다. 나는 아름다운 강산에 살고있다."
 
 >>> tagger = EspressoTagger()
 >>> print(tagger.tag('dependency', sent))
-['1\t나는\t4\tNP_SBJ\n2\t아름답ㄴ\t3\tVP_MOD\n3\t강산에\t4\tNP_AJT\n4\t살고있다\t0\tVP']
+[[(1, '나는', '3', 'NP_SBJ'), (2, '배가', '3', 'NP_SBJ'), (3, '고프다', '0', 'VP')], [(1, '나는', '4', 'NP_SBJ'), (2, '아름답ㄴ', '3', 'VP_MOD'), (3, '강산에', '4', 'NP_AJT'), (4, '살고있다', '0', 'VP')]]
 ~~~
 
 ##### 4.6.3. wsd tag
@@ -1176,6 +1330,46 @@ e2k[k2e](sentence(s))
 3.0
 ~~~
 
+##### 4.9.4. Wasserstein Distance
+
+* compute_kullback(p: np.ndarray | torch.Tensor, q: np.ndarray | torch.Tensor) -> float : 두 Tensor간의 Kullback-Leibler 거리를 계산한다.
+* compute_wasserstein(p: np.ndarray | torch.Tensor, q: np.ndarray | torch.Tensor) -> float : 두 Tensor간의 Wasserstein 거리를 계산한다.
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.distance import WassersteinDistance
+>>> import torch
+
+>>> P =  np.array([0.6, 0.1, 0.1, 0.1, 0.1])
+>>> Q1 = np.array([0.1, 0.1, 0.6, 0.1, 0.1])
+>>> Q2 = np.array([0.1, 0.1, 0.1, 0.1, 0.6])
+
+# Tensor도 입력 가능
+>>> P = torch.from_numpy(P) # numpy convert to Tensor
+>>> Q1 = torch.from_numpy(Q1) # numpy convert to Tensor
+>>> Q2 = torch.from_numpy(Q2) # numpy convert to Tensor
+
+>>> kl_p_q1 = WassersteinDistance().compute_kullback(P, Q1)
+>>> kl_p_q2 = WassersteinDistance().compute_kullback(P, Q2)
+
+>>> wass_p_q1 = WassersteinDistance().compute_wasserstein(P, Q1)
+>>> wass_p_q2 = WassersteinDistance().compute_wasserstein(P, Q2)
+
+>>> print("\nKullback-Leibler distances: ")
+>>> print("P to Q1 : %0.4f " % kl_p_q1)
+>>> print("P to Q2 : %0.4f " % kl_p_q2)
+Kullback-Leibler distances:
+P to Q1 : 1.7918
+P to Q2 : 1.7918
+
+>>> print("\nWasserstein distances: ")
+>>> print("P to Q1 : %0.4f " % wass_p_q1)
+>>> print("P to Q2 : %0.4f " % wass_p_q2)
+Wasserstein distances:
+P to Q1 : 1.0000
+P to Q2 : 2.0000
+~~~
+
 ### 4.10. 유사도 (Similarity)
 
 해당 함수는 sting2sting의 코드를 참고하거나 포함하고 있다. (https://github.com/stanfordnlp/string2string)
@@ -1197,50 +1391,8 @@ e2k[k2e](sentence(s))
 0.6807061638788793
 ~~~
 
-##### 4.10.2. BERT Score
 
-* __init__(model_name_or_path: str | None = None, lang: str | None = None, num_layers: int | None = None, all_layers: bool = False, use_fast_tokenizer: bool = False, device: str = 'cpu', baseline_path: str | None = None) -> None : BERT Score를 초기화하는 생성자입니다.
-	* model_name_or_path : BERT 모델의 이름 또는 경로 (huggingface.co에서 가져옵니다.)
-	* lang : BERT 모델의 언어 (kor | eng)
-	* num_layers : BERT 모델의 레이어 수
-	* device : BERT 모델을 실행할 장치 (cpu | cuda)
-* compute(source_sentences: List[str], target_sentences: List[str] | List[List[str]], batch_size: int = 4, idf: bool = False, nthreads: int = 4, return_hash: bool = False, rescale_with_baseline: bool = False, verbose: bool = False) -> dict | str | None : 두 문장의 BERT Score를 계산한다.
-* 모델은 huggingface.co에서 다운받습니다. (https://huggingface.co/bert-base-uncased)
-	* model_name_or_path 파라미터에는 hunggingface.co/ 뒷부분을 넣어줍니다. `model_name_or_path = 'bert-base-uncased'` (https://huggingface.co/<mark>bert-base-uncased</mark>)
-
-
-**사용법 & 결과**
-~~~python
->>> from nltk.similarity import BERTScore
->>> sent1 = '나는 학생이다.'
->>> sent2 = '그는 선생님이다.'
-
->>> result = BERTScore(model_name_or_path='bert-base-uncased', lang='kor', num_layers=12).compute([sent1], [sent2])
->>> print(result)
-{'precision': array([0.9097364], dtype=float32), 'recall': array([0.8958888], dtype=float32), 'f1': array([0.9027595], dtype=float32)}
-~~~
-
-##### 4.10.3. BART Score
-
-* __init__(model_name_or_path='facebook/bart-large-cnn', tokenizer_name_or_path: str | None = None, device: str = 'cpu', max_length=1024) -> None : BART Score를 초기화하는 생성자입니다.
-	* model_name_or_path : BART 모델의 이름 또는 경로 (huggingface.co에서 가져옵니다.)
-	* device : BART 모델을 실행할 장치 (cpu | cuda)
-* compute(source_sentences: List[str], target_sentences: List[str] | List[List[str]], batch_size: int = 4, agg: str = 'mean') -> Dict[str, List[float]] : 두 문장의 BART Score를 계산한다.
-* 모델은 huggingface.co에서 다운받습니다. (https://huggingface.co/facebook/bart-large-cnn)
-	* model_name_or_path 파라미터에는 hunggingface.co/ 뒷부분을 넣어줍니다. `model_name_or_path = 'facebook/bart-large-cnn'` (https://huggingface.co/<mark>facebook/bart-large-cnn</mark>)
-
-**사용법 & 결과**
-~~~python
->>> from nltk.similarity import BARTScore
->>> sent1 = '나는 학생이다.'
->>> sent2 = '그는 선생님이다.'
-
->>> result = BARTScore().compute([sent1], [sent2])
->>> print(result)
-{'score': array([-2.97229409])}
-~~~
-
-##### 4.10.4. LCSubstring Similarity
+##### 4.10.2. LCSubstring Similarity
 
 * compute(str1: str | List[str], str2: str | List[str], denominator: str = 'max') -> float : 두 문자열의 LCSubstring 유사도를 계산한다.
 	* denominator : (max | sum)
@@ -1256,7 +1408,7 @@ e2k[k2e](sentence(s))
 0.3333333333333333
 ~~~
 
-##### 4.10.5. LCSubsequence Similarity
+##### 4.10.3. LCSubsequence Similarity
 
 * compute(str1: str | List[str], str2: str | List[str], denominator: str = 'max') -> float : 두 문자열의 LCSubsequence 유사도를 계산한다.
 	* denominator : (max | sum)
@@ -1272,7 +1424,7 @@ e2k[k2e](sentence(s))
 0.6666666666666666
 ~~~
 
-##### 4.10.6. Jaro Similarity
+##### 4.10.4. Jaro Similarity
 
 * compute(str1: str | List[str], str2: str | List[str])→ float : 두 문자열의 Jaro 유사도를 반환한다.
 
@@ -1421,6 +1573,9 @@ e2k[k2e](sentence(s))
 ~~~python
 >>> from nltk.search import FaissSearch
 
+# if you use model and tokenizer in local 
+# faiss = FaissSearch(model_name_or_path = '~/test_model/trained_model/', tokenizer_name_or_path = '~/test_model/trained_model/')
+
 >>> faiss = FaissSearch(model_name_or_path = 'facebook/bart-large')
 >>> corpus = {
         'text': [
@@ -1486,6 +1641,7 @@ Adding FAISS index...
 
 
 ~~~
+
 
 
 ### 4.12 etc

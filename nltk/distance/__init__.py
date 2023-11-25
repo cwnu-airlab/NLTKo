@@ -1,6 +1,7 @@
 # Import relevant libraries and dependencies
 from typing import List, Union, Dict, Tuple
 import numpy as np
+from .wasserstein import WassersteinDistance
 
 """
 add string2string module code, src = https://github.com/stanfordnlp/string2string
