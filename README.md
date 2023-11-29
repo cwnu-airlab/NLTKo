@@ -193,7 +193,7 @@ entrys(word)
 - 라이브러리 : nltk==1.1.3, numpy==1.23, faiss-cpu=1.7.3   **※ 해당 NLTKo는 영어 NLTK를 포함하고 있음 ※**
 
 **주의사항**
-- Espresso5의 EspressoTagger는 현재 `MacOS`, `python3.8`에서만 사용 가능하다. 
+- Espresso5의 EspressoTagger는 현재 `MacOS`, `ubuntu`, `python3.8`에서만 사용 가능하다. 
 
 
 
