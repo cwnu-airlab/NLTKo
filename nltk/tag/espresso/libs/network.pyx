@@ -246,7 +246,7 @@ Output size: %d
     
         def __set__(self, np.ndarray padding_left):
             self.padding_left = padding_left
-            self.pre_padding = np.array((self.word_window_size / 2) * [padding_left])
+            self.pre_padding = np.array((self.word_window_size // 2) * [padding_left])
     
     property padding_right:
         """
@@ -258,7 +258,7 @@ Output size: %d
     
         def __set__(self, np.ndarray padding_right):
             self.padding_right = padding_right
-            self.pos_padding = np.array((self.word_window_size / 2) * [padding_right])
+            self.pos_padding = np.array((self.word_window_size // 2) * [padding_right])
     
     def tag_sentence(self, np.ndarray sentence):
         """
@@ -899,8 +899,8 @@ Output size: %d
         
         nn.padding_left = data['padding_left']
         nn.padding_right = data['padding_right']
-        nn.pre_padding = np.array((nn.word_window_size / 2) * [nn.padding_left])
-        nn.pos_padding = np.array((nn.word_window_size / 2) * [nn.padding_right])
+        nn.pre_padding = np.array((nn.word_window_size // 2) * [nn.padding_left])
+        nn.pos_padding = np.array((nn.word_window_size // 2) * [nn.padding_right])
         nn.feature_tables = list(data['feature_tables'])
         nn.network_filename = filename
         
