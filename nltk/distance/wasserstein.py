@@ -65,6 +65,17 @@ class WassersteinDistance:
         b = self.kullback_leibler(q, p)
         return a + b
 
+    def compute_jesson_shannon(self, p, q):
+        if "torch" in str(type(p)):
+            p = p.numpy() 
+        if "torch" in str(type(q)):
+            q = q.numpy()
+        
+        a = self.kullback_leibler(p, (p + q)/2)
+        b = self.kullback_leibler(q, (p + q)/2)
+        return (a + b)/2
+
+
 def demo():
     print("\nBegin Wasserstein distance demo ")
 
@@ -81,6 +92,9 @@ def demo():
     wass_p_q1 = WassersteinDistance().compute_wasserstein(P, Q1)
     wass_p_q2 = WassersteinDistance().compute_wasserstein(P, Q2)
 
+    jesson_p_q1 = WassersteinDistance().compute_jesson_shannon(P, Q1)
+    jesson_p_q2 = WassersteinDistance().compute_jesson_shannon(P, Q2)
+
     print("\nKullback-Leibler distances: ")
     print("P to Q1 : %0.4f " % kl_p_q1)
     print("P to Q2 : %0.4f " % kl_p_q2)
@@ -88,6 +102,10 @@ def demo():
     print("\nWasserstein distances: ")
     print("P to Q1 : %0.4f " % wass_p_q1)
     print("P to Q2 : %0.4f " % wass_p_q2)
+
+    print("\nJesson-Shannon distances: ")
+    print("P to Q1 : %0.4f " % jesson_p_q1)
+    print("P to Q2 : %0.4f " % jesson_p_q2)
 
     print("\nEnd demo ")
 
