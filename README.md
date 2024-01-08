@@ -4,20 +4,7 @@
 
 | 번호 | 내용                                                         | 작성자 | 날짜     |
 | ---- | ------------------------------------------------------------ | ------ | -------- |
-| 1    | NLTKo (version1.0.1) : ssem, word_tokenize                   | 홍성태 | 20.12.28 |
-| 2    | NLTKo (version1.0.2) : tokenize 완성, korChar 추가           | 홍성태 | 20.12.31 |
-| 3    | NLTKo (version1.0.3) : korChar.py 수정 (naming convention)   | 홍성태 | 21.01.05 |
-| 4    | NLTKo (version1.0.4) <br />metric.py (accuracy, recall, precision,f_score) 추가<br />eval.py (bleu, rouge, wer, rouge) 추가 | 홍성태 | 21.02.01 |
-| 5    | NLTKo (version1.0.5)<br />eval.py (rouge-s, rouge-l) & README.md 수정 | 홍성태 | 21.02.02 |
-| 6    | NLTKo (version1.0.6)<br />eval.py (cider) 추가 & README.md 수정 | 홍성태 | 21.02.19 |
-| 7    | NLTKo (version1.0.7)<br />metric.py (pos_eval) 추가 & README.md 수정 | 홍성태 | 21.03.31 |
-| 8    | NLTKo (version1.0.8)<br />metric.py (pos_eval) 수정 & README.md 수정 | 홍성태 | 21.04.02 |
-| 9    | NLTKo(version 1.0.9)<br />Tag(형태소분석) 관련 함수 추가 & README.md 수정 | 홍성태 | 21.06.21 |
-| 10   | NLTKo(version 1.1.0)<br />eval.py (Meteor 추가) &  parser.py 추가 & README.md 수정 | 홍성태 | 21.07.20 |
-| 11   | NLTKo(version 1.1.1)<br />trans.py (papago 추가) & parser ➔ etc 변경 & 음절 토크나이저 blank 수정 | 홍성태 | 21.12.09 |
-| 12   | NLTKo(version 1.1.2)<br />trans.py (papago key auto update) & pos_tag engine Espresso5로 변경 | 홍성태 | 22.07.08 |
-| 13   | NLTKo(version 1.1.3)<br />pos_tag 모듈 수정(nouns, word_segmentor) | 홍성태 | 22.07.29 |
-| 14   | NLTKo(version 1.1.4)<br />형태소분석기 동적라이브러리 생성을 위한 setup.py 수정 | 홍성태 | 22.08.19 |
+| 1~14    | NLTKo (version1.1.4) : 초기버전                   | 홍성태 | 22.08.19 |
 | 15   | NLTKo(version 1.1.5)<br />Python3.8에서 실행을 위해 setup.py 수정 | 김도원 | 23.07.20 |
 | 16   | NLTKo(version 1.2.0)<br />string2string 기능 추가 | 김도원 | 23.08.16 |
 | 17   | NLTKo(version 1.2.1)<br />Metrics 통합 | 김도원 | 23.08.24 |
