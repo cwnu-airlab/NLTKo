@@ -377,8 +377,7 @@ class StringMetric:
 		# hyp  structor 
 			i=0
 			for t1 in hyp_split_list:
-				if t1[1] != 'SP':
-					temp_list.append(t1)
+				temp_list.append(t1)
 				for t2 in hyp_pos_verb_list[i:]:		
 					if t2[0] not in '…':
 						temp_list.append(t2)
