@@ -23,7 +23,7 @@ module1 = Extension("nltk.tag.espresso.libs.network",
 
 setup(
   name='nltk',
-  version='1.2.7',
+  version='1.2.9',
 	url='https://modi.changwon.ac.kr/air_cwnu/nlp_tool/nltk_ko.git',
   packages=find_packages(exclude=[]),
   python_requires='>=3.7',
@@ -33,7 +33,7 @@ setup(
     "torch",
     "transformers>=4.8.2",
     "datasets",
-    "faiss-cpu==1.7.3",
+    "faiss-cpu>=1.7.3",
     "bert_score",
     "fasttext",
     "pandas",

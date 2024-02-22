@@ -25,6 +25,7 @@ class EspressoTagger:
             self.data_dir = path
         #     print(path)
         self.lang = lang
+        self.path = ""
 
     def tag(self, task, text, use_tokenizer=False):
         """
@@ -41,6 +42,7 @@ class EspressoTagger:
         
         if not self._check_model():
             self._download_model()
+
 
         set_data_dir(self.data_dir)
 

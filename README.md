@@ -4,7 +4,20 @@
 
 | 번호 | 내용                                                         | 작성자 | 날짜     |
 | ---- | ------------------------------------------------------------ | ------ | -------- |
-| 1~14    | NLTKo (version1.1.4) : 초기버전                   | 홍성태 | 22.08.19 |
+| 1    | NLTKo (version1.0.1) : ssem, word_tokenize                   | 홍성태 | 20.12.28 |
+| 2    | NLTKo (version1.0.2) : tokenize 완성, korChar 추가           | 홍성태 | 20.12.31 |
+| 3    | NLTKo (version1.0.3) : korChar.py 수정 (naming convention)   | 홍성태 | 21.01.05 |
+| 4    | NLTKo (version1.0.4) <br />metric.py (accuracy, recall, precision,f_score) 추가<br />eval.py (bleu, rouge, wer, rouge) 추가 | 홍성태 | 21.02.01 |
+| 5    | NLTKo (version1.0.5)<br />eval.py (rouge-s, rouge-l) & README.md 수정 | 홍성태 | 21.02.02 |
+| 6    | NLTKo (version1.0.6)<br />eval.py (cider) 추가 & README.md 수정 | 홍성태 | 21.02.19 |
+| 7    | NLTKo (version1.0.7)<br />metric.py (pos_eval) 추가 & README.md 수정 | 홍성태 | 21.03.31 |
+| 8    | NLTKo (version1.0.8)<br />metric.py (pos_eval) 수정 & README.md 수정 | 홍성태 | 21.04.02 |
+| 9    | NLTKo(version 1.0.9)<br />Tag(형태소분석) 관련 함수 추가 & README.md 수정 | 홍성태 | 21.06.21 |
+| 10   | NLTKo(version 1.1.0)<br />eval.py (Meteor 추가) &  parser.py 추가 & README.md 수정 | 홍성태 | 21.07.20 |
+| 11   | NLTKo(version 1.1.1)<br />trans.py (papago 추가) & parser ➔ etc 변경 & 음절 토크나이저 blank 수정 | 홍성태 | 21.12.09 |
+| 12   | NLTKo(version 1.1.2)<br />trans.py (papago key auto update) & pos_tag engine Espresso5로 변경 | 홍성태 | 22.07.08 |
+| 13   | NLTKo(version 1.1.3)<br />pos_tag 모듈 수정(nouns, word_segmentor) | 홍성태 | 22.07.29 |
+| 14   | NLTKo(version 1.1.4)<br />형태소분석기 동적라이브러리 생성을 위한 setup.py 수정 | 홍성태 | 22.08.19 |
 | 15   | NLTKo(version 1.1.5)<br />Python3.8에서 실행을 위해 setup.py 수정 | 김도원 | 23.07.20 |
 | 16   | NLTKo(version 1.2.0)<br />string2string 기능 추가 | 김도원 | 23.08.16 |
 | 17   | NLTKo(version 1.2.1)<br />Metrics 통합 | 김도원 | 23.08.24 |
@@ -14,6 +27,8 @@
 | 21   | NLTKo(version 1.2.5)<br />Kobert Tokenizer 추가, MAUVE 평가 지표 추가 | 김도원 | 23.11.17 |
 | 22   | NLTKo(version 1.2.6)<br />BERTScore, BARTScore 위치 변경, 'dependency parser'출력 형식 변경 | 김도원 | 23.11.17 |
 | 23   | NLTKo(version 1.2.7)<br />Precision@K, Recall@K, HitRate@K, Wasserstein Distance 추가 | 김도원 | 23.11.23 |
+| 24   | NLTKo(version 1.2.8)<br />Jesson-Shannon distance 추가, Espresso5 ubuntu환경에서 실행 가능하도록 변경 | 김도원 | 23.11.30 |
+| 25   | NLTKo(version 1.2.9)<br />METEOR Score 복원 | 김도원 | 24.02.22 |
 
 
 <div style="page-break-after: always;"></div>
@@ -81,6 +96,9 @@
 	  * [4.9.2 Hamming Distance](#492-hamming-distance)
 	  * [4.9.3 Damerau-Levenshtein Distance](#493-damerau-levenshtein-distance)
     * [4.9.4 Wasserstein Distance](#494-wasserstein-distance)
+      * Wasserstein Distance
+      * Kullback-Leibler Distance
+      * Jensen-Shannon Distance
   * [4.10 유사도 (similarity)](#410-유사도-similarity)
 	  * [4.10.1 코사인 유사도 (Cosine Similarity)](#4101-코사인-유사도-cosine-similarity)
 	  * [4.10.2 LCSubstring Similarity](#4102-lcsubstring-similarity)
@@ -180,7 +198,7 @@ entrys(word)
 - 라이브러리 : nltk==1.1.3, numpy==1.23, faiss-cpu=1.7.3   **※ 해당 NLTKo는 영어 NLTK를 포함하고 있음 ※**
 
 **주의사항**
-- Espresso5의 EspressoTagger의 사용가능 환경은 다음과 같다. 
+- Espresso5의 EspressoTagger의 사용가능 환경은 다음과 같다.
 
 | OS | python | 아키텍처 |
 |----| ------|------|
@@ -188,9 +206,12 @@ entrys(word)
 | ubuntu | python3.8 python3.9 python3.10 python3.11 | arm64, x86_64 |
 
 
+
+
 ### 3.1 라이브러리 설치
 
-터미널에 다음과 같은 명령어를 입력하여 NLTKo를 설치한다.
+   해당 라이브러리를 설치하기 위해서 아래와 동일하게 명령어 라인에서 입력하여 다운로드 받을 때, 사용자의  2가지  정보가 필요하다. 'modi.changwon.ac.kr' 내 사용하는 **사용자의 ID와 PW를 입력**해주어야만 다운로드가 가능하다.
+
 
 ~~~h
 $ git config --global http.sslVerify false
@@ -1071,9 +1092,6 @@ Returns
 
 Espresso5 모델을 사용한 tagger를 사용할 수 있다.
 
-**주의사항**
-현재 Espresso5 모델은 `MacOS` & `python3.8` 환경에서만 사용할 수 있다.
-
 * tag(task: str, sentence: str) -> List[str] : 문장의 각 토큰에 대한 task의 태깅 결과를 반환한다.
 
 ##### 4.6.1. pos tag
@@ -1358,6 +1376,17 @@ P to Q2 : 1.7918
 Wasserstein distances:
 P to Q1 : 1.0000
 P to Q2 : 2.0000
+
+>>> jesson_p_q1 = WassersteinDistance().compute_jesson_shannon(P, Q1)
+>>> jesson_p_q2 = WassersteinDistance().compute_jesson_shannon(P, Q2)
+
+>>> print("\nJesson-Shannon distances: ")
+>>> print("P to Q1 : %0.4f " % jesson_p_q1)
+>>> print("P to Q2 : %0.4f " % jesson_p_q2)
+Jesson-Shannon distances:
+P to Q1 : 0.1981
+P to Q2 : 0.1981
+
 ~~~
 
 ### 4.10. 유사도 (Similarity)

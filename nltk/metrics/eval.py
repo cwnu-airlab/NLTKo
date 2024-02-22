@@ -7,8 +7,9 @@ from nltk.util import ngrams, skipgrams
 from nltk.cider.cider import Cider
 import sys
 import itertools
-from nltk.tag import pos_tag, pos_tag_with_verb_form
+from nltk.tag import pos_tag, pos_tag_with_verb_form, EspressoTagger
 from nltk.sejong import ssem
+
 
 class StringMetric:
 	def __init__(self):
@@ -328,11 +329,19 @@ class StringMetric:
 
 		return float(score)
 
+	def _process_espresso_output_format(self, result_list):
+		temp_list = []
+		for k in result_list:
+			k = k.split('_')
+			if k[1] == 'SP':
+				continue
+			temp_list.append(k)
+		return temp_list
 
 	def meteor(self, ref, hyp):
 		
-		return None
-		'''
+		#return None
+		
 		meteors=[]
 		ref_lists=[]
 		match_chunk=[]
@@ -357,15 +366,19 @@ class StringMetric:
 			temp_list=[]
 
 			#pos_tag_with_verb_form ==> pos_tag
-			hyp_pos_verb_list=pos_tag(hyp,lang='kor')
+			#hyp_pos_verb_list=pos_tag(hyp,lang='kor')
+			hyp_pos_verb_list=EspressoTagger().tag('pos',hyp)
+			hyp_pos_verb_list = self._process_espresso_output_format(hyp_pos_verb_list)
 			hyp_stem_list=[]
-			ref_pos_verb_list=pos_tag(tmp,lang='kor')
+			ref_pos_verb_list=EspressoTagger().tag('pos',tmp)
+			ref_pos_verb_list = self._process_espresso_output_format(ref_pos_verb_list)
 			ref_stem_list=[]
 
 		# hyp  structor 
 			i=0
 			for t1 in hyp_split_list:
-				temp_list.append(t1)
+				if t1[1] != 'SP':
+					temp_list.append(t1)
 				for t2 in hyp_pos_verb_list[i:]:		
 					if t2[0] not in '…':
 						temp_list.append(t2)
@@ -380,8 +393,11 @@ class StringMetric:
 			for t1 in hyp_stem_list:
 				for t2 in t1:
 					if 'EE' in t2:
-						new = pos_tag('을 '+t1[0],lang='kor')[1:]
+						new = EspressoTagger().tag('pos', '을 '+t1[0])[1:]
+						new = self._process_espresso_output_format(new)
 						new.insert(0,t1[0])
+						print("testing :", t1)
+						print("testing 3343 :", hyp_stem_list)
 						hyp_stem_list[hyp_stem_list.index(t1)]=new
 			
 
@@ -402,7 +418,8 @@ class StringMetric:
 			for t1 in ref_stem_list:
 				for t2 in t1:
 					if 'EE' in t2:
-						new = pos_tag('을 '+t1[0],lang='kor')[1:]
+						new = EspressoTagger().tag('pos', '을 '+t1[0])[1:]
+						new = self._process_espresso_output_format(new)
 						new.insert(0,t1[0])
 						ref_stem_list[ref_stem_list.index(t1)]=new
 			
@@ -412,7 +429,9 @@ class StringMetric:
 			print(hyp_stem_list)
 			print('@@@@@@@@@')
 
-			
+			temp_ref=ref_stem_list.copy()
+			temp_hyp=hyp_stem_list.copy()
+
 			temp_match=[]
 			# @@@@ simple matching @@@@
 			for p_t in temp_hyp:
@@ -425,9 +444,9 @@ class StringMetric:
 
 
 
-
-			temp_ref=ref_stem_list.copy()
-			temp_hyp=hyp_stem_list.copy()
+			# 0222 이전 
+			#temp_ref=ref_stem_list.copy()
+			#temp_hyp=hyp_stem_list.copy()
 
 			match_chunk.append(tup)
 			ref_stem_list.remove(r_t)
@@ -521,5 +540,11 @@ class StringMetric:
 			match_chunk=[]
 		
 		return max(meteors)
-	'''
+
 			
+if __name__=="__main__":
+	hyp='봉준호 감독이 아카데미에서 국제영화상을 수상했다.'
+	ref=['봉준호가 아카데미에서 각본상을 탔다.']
+	metric = StringMetric()
+	re = metric.meteor(ref, hyp)
+	print(re)

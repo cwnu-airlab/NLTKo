@@ -196,11 +196,7 @@ def pos_tag(tokens, tagset=None, lang="eng"):
     :return: The tagged tokens
     :rtype: list(tuple(str, str))
     """
-    # 일시적으로 Pos_tag를 막음
-    raise NotImplementedError(
-            "Currently, NLTK pos_tag is not supported. "
-            "It will be supported in the future"
-    )
+
     tagger = _get_tagger(lang)
     return _pos_tag(tokens, tagset, tagger, lang)
 
