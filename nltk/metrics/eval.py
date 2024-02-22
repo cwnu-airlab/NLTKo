@@ -396,8 +396,6 @@ class StringMetric:
 						new = EspressoTagger().tag('pos', '을 '+t1[0])[1:]
 						new = self._process_espresso_output_format(new)
 						new.insert(0,t1[0])
-						print("testing :", t1)
-						print("testing 3343 :", hyp_stem_list)
 						hyp_stem_list[hyp_stem_list.index(t1)]=new
 			
 
@@ -423,11 +421,6 @@ class StringMetric:
 						new.insert(0,t1[0])
 						ref_stem_list[ref_stem_list.index(t1)]=new
 			
-			print('초기')
-			print(match_chunk)
-			print(ref_stem_list)
-			print(hyp_stem_list)
-			print('@@@@@@@@@')
 
 			temp_ref=ref_stem_list.copy()
 			temp_hyp=hyp_stem_list.copy()
@@ -454,11 +447,6 @@ class StringMetric:
 
 
 
-			print('단순매칭')
-			print(match_chunk)
-			print(ref_stem_list)
-			print(hyp_stem_list)
-			print('@@@@@@@@@@@')
 
 
 
@@ -475,11 +463,6 @@ class StringMetric:
 						except:
 							continue
 
-			print('초기')
-			print(match_chunk)
-			print(ref_stem_list)
-			print(hyp_stem_list)
-			print('초기')
 
 
 			# @@@@ synonym matching @@@@
@@ -511,9 +494,6 @@ class StringMetric:
 						match_chunk.append(tup)
 						hyp_stem_list.remove(hw)
 
-			print(match_chunk)
-			print(ref_stem_list)
-			print(hyp_stem_list)
 
 			matches  = sorted(match_chunk, key=lambda tup: tup[0])
 
