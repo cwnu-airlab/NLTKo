@@ -9,7 +9,16 @@ import sys
 import itertools
 from nltk.tag import pos_tag, pos_tag_with_verb_form, EspressoTagger
 from nltk.sejong import ssem
+from typing import Callable, Iterable, List, Tuple
+from copy import deepcopy
 
+# Natural Language Toolkit: Machine Translation
+#
+# Copyright (C) 2001-2023 NLTK Project
+# Author: Uday Krishna <udaykrishna5@gmail.com>
+# Contributor: Tom Aarsen
+# URL: <https://www.nltk.org/>
+# For license information, see LICENSE.TXT
 
 class StringMetric:
 	def __init__(self):
@@ -333,192 +342,307 @@ class StringMetric:
 		temp_list = []
 		for k in result_list:
 			k = k.split('_')
-			if k[1] == 'SP':
+			if k[1] == 'SP' or k[1] == 'SY':
 				continue
 			temp_list.append(k)
 		return temp_list
 
-	def meteor(self, ref, hyp):
-		
-		#return None
-		
-		meteors=[]
-		ref_lists=[]
-		match_chunk=[]
+	def _generate_enum(self, ref, hyp):
+		result_hyp = []
+		result_ref = []
+		for h in hyp:
+			enum_hyp_list = list(enumerate(h))
+			result_hyp.append(enum_hyp_list)
+		for r in ref:
+			enum_ref_list = list(enumerate(r))
+			result_ref.append(enum_ref_list)
+		return result_hyp, result_ref
 
-		# [ref1, ref2, re3, ... ]
-		for tmp in ref:
-		
-			m=0
-			ref_len=len(tmp)
+	def _tag_pos_meteor(self, sent_list):
+		result_list = list()
+		for sent in sent_list:
+			tagged_sent = EspressoTagger().tag('pos', sent)
+			tagged_sent = self._process_espresso_output_format(tagged_sent)
+			result_list.append(tagged_sent)
+		return result_list
 
+	def _match_enums(self,
+		enum_hypothesis_list: List[Tuple[int, str]],
+		enum_reference_list: List[Tuple[int, str]],
+	) -> Tuple[List[Tuple[int, int]], List[Tuple[int, str]], List[Tuple[int, str]]]:
+		"""
+		matches exact words in hypothesis and reference and returns
+		a word mapping between enum_hypothesis_list and enum_reference_list
+		based on the enumerated word id.
 
-			hyp=hyp.replace(' ','…')
-			hyp=hyp+'…'
-			hyp_split_list=hyp.split('…')
-			hyp_split_list=hyp_split_list[:-1]
+		:param enum_hypothesis_list: enumerated hypothesis list
+		:param enum_reference_list: enumerated reference list
+		:return: enumerated matched tuples, enumerated unmatched hypothesis tuples,
+				enumerated unmatched reference tuples
+		"""
+		word_match = []
+		# print("test 213" , enum_hypothesis_list)
+		# print("test 124" , enum_reference_list)
+		for i in range(len(enum_hypothesis_list))[::-1]:
+			for j in range(len(enum_reference_list))[::-1]:
+				print(f"\n \t {enum_hypothesis_list[i][1]} \t {enum_reference_list[j][1]}")
+				if enum_hypothesis_list[i][1] == enum_reference_list[j][1]:
 
-			tmp = tmp.replace(' ','…')
-			tmp=tmp+'…'
-			ref_split_list=tmp.split('…')
-			ref_split_list=ref_split_list[:-1]
-
-			temp_list=[]
-
-			#pos_tag_with_verb_form ==> pos_tag
-			#hyp_pos_verb_list=pos_tag(hyp,lang='kor')
-			hyp_pos_verb_list=EspressoTagger().tag('pos',hyp)
-			hyp_pos_verb_list = self._process_espresso_output_format(hyp_pos_verb_list)
-			hyp_stem_list=[]
-			ref_pos_verb_list=EspressoTagger().tag('pos',tmp)
-			ref_pos_verb_list = self._process_espresso_output_format(ref_pos_verb_list)
-			ref_stem_list=[]
-
-		# hyp  structor 
-			i=0
-			for t1 in hyp_split_list:
-				temp_list.append(t1)
-				for t2 in hyp_pos_verb_list[i:]:		
-					if t2[0] not in '…':
-						temp_list.append(t2)
-						i=i+1
-					elif t2[0] == '…':
-						hyp_stem_list.append(temp_list)
-						temp_list=[]
-						i=i+1
-						break
-			
-			
-			for t1 in hyp_stem_list:
-				for t2 in t1:
-					if 'EE' in t2:
-						new = EspressoTagger().tag('pos', '을 '+t1[0])[1:]
-						new = self._process_espresso_output_format(new)
-						new.insert(0,t1[0])
-						hyp_stem_list[hyp_stem_list.index(t1)]=new
-			
-
-		# ref structor
-			i=0
-			for t1 in ref_split_list:
-				temp_list.append(t1)
-				for t2 in ref_pos_verb_list[i:]:		
-					if t2[0] not in '…':
-						temp_list.append(t2)
-						i=i+1
-					elif t2[0] == '…':
-						ref_stem_list.append(temp_list)
-						temp_list=[]
-						i=i+1
-						break
-			
-			for t1 in ref_stem_list:
-				for t2 in t1:
-					if 'EE' in t2:
-						new = EspressoTagger().tag('pos', '을 '+t1[0])[1:]
-						new = self._process_espresso_output_format(new)
-						new.insert(0,t1[0])
-						ref_stem_list[ref_stem_list.index(t1)]=new
-			
-
-			temp_ref=ref_stem_list.copy()
-			temp_hyp=hyp_stem_list.copy()
-
-			temp_match=[]
-			# @@@@ simple matching @@@@
-			for p_t in temp_hyp:
-				for r_t in temp_ref:	
-					if p_t[0] in r_t[0]:
-						m=m+1
-						tup=(hyp_split_list.index(p_t[0]),ref_split_list.index(r_t[0]))
-						temp_match.append(tup)
+					# print("Check!!")
+					word_match.append(
+						(enum_hypothesis_list[i][0], enum_reference_list[j][0])
+					)
+					enum_hypothesis_list.pop(i)
+					enum_reference_list.pop(j)
+					break
+		return word_match, enum_hypothesis_list, enum_reference_list
 
 
+	def _count_chunks(self, matches: List[Tuple[int, int]]) -> int:
+		"""
+		Counts the fewest possible number of chunks such that matched unigrams
+		of each chunk are adjacent to each other. This is used to calculate the
+		fragmentation part of the metric.
 
-
-			# 0222 이전 
-			#temp_ref=ref_stem_list.copy()
-			#temp_hyp=hyp_stem_list.copy()
-
-			match_chunk.append(tup)
-			ref_stem_list.remove(r_t)
-			hyp_stem_list.remove(p_t)
-
-
-
-
-
-
-			#	@@@@ stem matching @@@@
-			for hw in hyp_stem_list:
-				for rw in ref_stem_list:	
-					if hw[1] == rw[1]:
-						m=m+1
-						tup=(hyp_split_list.index(hw[0]),ref_split_list.index(rw[0]))
-						try:
-							match_chunk.append(tup)
-							ref_stem_list.remove(rw)
-							hyp_stem_list.remove(hw)
-						except:
-							continue
-
-
-
-			# @@@@ synonym matching @@@@
-			for rw in ref_stem_list:
-
-				# 원형 복구
-				org_word=''
-
-				if rw[1][1]=='VB':
-					org_word=rw[1][0]+'다'
-				else: 
-					org_word=rw[1][0]
-
-				# 동의어 리스트 반환
-				word_list=ssem._syn(org_word)
-
-				for hw in hyp_stem_list:
-					syn_word=''
-
-					if hw[1][1]=='VB':
-						syn_word=hw[1][0]+'다'					
-					else: 
-						syn_word=hw[1][0]
-		
-
-					if syn_word in word_list:
-						m=m+1
-						tup=(hyp_split_list.index(hw[0]),ref_split_list.index(rw[0]))
-						match_chunk.append(tup)
-						hyp_stem_list.remove(hw)
-
-
-			matches  = sorted(match_chunk, key=lambda tup: tup[0])
-
-			prec = m/len(hyp_split_list)
-			rec = m/len(ref_split_list)
-			fscore = (10*prec*rec) / (rec+9*prec)
-
-
-			i = 0 
-			chunks = 1 
-		
-			while i < len(matches) - 1:
-				if (matches[i + 1][0] == matches[i][0] + 1) and (matches[i + 1][1] == matches[i][1] + 1):
-					i += 1
-					continue
+		:param matches: list containing a mapping of matched words (output of align_words)
+		:return: Number of chunks a sentence is divided into post alignment
+		"""
+		i = 0
+		chunks = 1
+		while i < len(matches) - 1:
+			if (matches[i + 1][0] == matches[i][0] + 1) and (
+				matches[i + 1][1] == matches[i][1] + 1
+			):
 				i += 1
-				chunks += 1
-			
-			penalty=0.5*((chunks/m)**3)
-			meteor=fscore*(1-penalty)
+				continue
+			i += 1
+			chunks += 1
+		return chunks
 
-			meteors.append(meteor)
-			m=0
-			match_chunk=[]
+	def meteor(self, ref, hyp):
+		ref_tag = self._tag_pos_meteor(ref)
+		hyp_tag = self._tag_pos_meteor(hyp)
+		meteors = []
+		alpha = 0.9
+		beta = 3.0
+		gamma = 0.5
+		enum_hyp, enum_ref = self._generate_enum(ref_tag, hyp_tag)
+		print("test 13333 ", enum_hyp)
+		for reference in enum_ref:
+			hyp_len = len(enum_hyp[0])
+			ref_len = len(reference)
+
+			# 단어/어간 매칭
+			word_match, enum_hyp_list, enum_ref_list = self._match_enums(deepcopy(enum_hyp[0]), reference)
+
+			#최종 결과 계산
+			word_match_count = len(word_match)
+
 		
+			precision = float(word_match_count) / hyp_len
+			recall = float(word_match_count) / ref_len
+			fmean = (precision * recall) / (alpha * precision + (1 - alpha) * recall)
+			chunk_count = float(self._count_chunks(word_match))
+			frag = 0.0
+			if word_match_count != 0:
+				frag = chunk_count / word_match_count
+			else:
+				frag = 0.0
+			penalty = gamma * frag ** beta
+			meteors.append((1 - penalty) * fmean)
+
+			print(word_match)
+
 		return max(meteors)
+
+		# print(f"test1 {enum_hyp}, \n \t {enum_ref}")
+
+
+	# def meteor(self, ref, hyp):
+		
+	# 	#return None
+		
+	# 	meteors=[]
+	# 	ref_lists=[]
+	# 	match_chunk=[]
+
+	# 	# [ref1, ref2, re3, ... ]
+	# 	for tmp in ref:
+		
+	# 		m=0
+	# 		ref_len=len(tmp)
+
+
+	# 		hyp=hyp.replace(' ','…')
+	# 		hyp=hyp+'…'
+	# 		hyp_split_list=hyp.split('…')
+	# 		hyp_split_list=hyp_split_list[:-1]
+
+	# 		tmp = tmp.replace(' ','…')
+	# 		tmp=tmp+'…'
+	# 		ref_split_list=tmp.split('…')
+	# 		ref_split_list=ref_split_list[:-1]
+
+	# 		temp_list=[]
+
+	# 		#pos_tag_with_verb_form ==> pos_tag
+	# 		#hyp_pos_verb_list=pos_tag(hyp,lang='kor')
+	# 		hyp_pos_verb_list=EspressoTagger().tag('pos',hyp)
+	# 		hyp_pos_verb_list = self._process_espresso_output_format(hyp_pos_verb_list)
+	# 		print("hyp pos verb " , hyp_pos_verb_list)
+	# 		hyp_stem_list=[]
+	# 		ref_pos_verb_list=EspressoTagger().tag('pos',tmp)
+	# 		ref_pos_verb_list = self._process_espresso_output_format(ref_pos_verb_list)
+	# 		ref_stem_list=[]
+
+	# 	# hyp  structor 
+	# 		i=0
+	# 		for t1 in hyp_split_list:
+	# 			temp_list.append(t1)
+	# 			for t2 in hyp_pos_verb_list[i:]:		
+	# 				if t2[0] not in '…':
+	# 					temp_list.append(t2)
+	# 					i=i+1
+	# 				elif t2[0] == '…':
+	# 					hyp_stem_list.append(temp_list)
+	# 					temp_list=[]
+	# 					i=i+1
+	# 					break
+			
+			
+	# 		for t1 in hyp_stem_list:
+	# 			for t2 in t1:
+	# 				if 'EE' in t2:
+	# 					new = EspressoTagger().tag('pos', '을 '+t1[0])[1:]
+	# 					new = self._process_espresso_output_format(new)
+	# 					new.insert(0,t1[0])
+						
+	# 					hyp_stem_list[hyp_stem_list.index(t1)]=new
+			
+
+	# 	# ref structor
+	# 		i=0
+	# 		for t1 in ref_split_list:
+	# 			temp_list.append(t1)
+	# 			for t2 in ref_pos_verb_list[i:]:		
+	# 				if t2[0] not in '…':
+	# 					temp_list.append(t2)
+	# 					i=i+1
+	# 				elif t2[0] == '…':
+	# 					ref_stem_list.append(temp_list)
+	# 					temp_list=[]
+	# 					i=i+1
+	# 					break
+			
+	# 		for t1 in ref_stem_list:
+	# 			for t2 in t1:
+	# 				if 'EE' in t2:
+	# 					new = EspressoTagger().tag('pos', '을 '+t1[0])[1:]
+	# 					new = self._process_espresso_output_format(new)
+	# 					new.insert(0,t1[0])
+	# 					ref_stem_list[ref_stem_list.index(t1)]=new
+			
+
+	# 		temp_ref=ref_stem_list.copy()
+	# 		temp_hyp=hyp_stem_list.copy()
+
+	# 		temp_match=[]
+	# 		# @@@@ simple matching @@@@
+	# 		for p_t in temp_hyp:
+	# 			for r_t in temp_ref:	
+	# 				if p_t[0] in r_t[0]:
+	# 					m=m+1
+	# 					tup=(hyp_split_list.index(p_t[0]),ref_split_list.index(r_t[0]))
+	# 					temp_match.append(tup)
+
+
+
+
+	# 		# 0222 이전 
+	# 		#temp_ref=ref_stem_list.copy()
+	# 		#temp_hyp=hyp_stem_list.copy()
+
+	# 		match_chunk.append(tup)
+	# 		ref_stem_list.remove(r_t)
+	# 		hyp_stem_list.remove(p_t)
+
+
+	# 		print("hyp_stem_list ", hyp_stem_list)
+	# 		print("ref_stem_list ", ref_stem_list)
+
+
+	# 		#	@@@@ stem matching @@@@
+	# 		for hw in hyp_stem_list:
+	# 			for rw in ref_stem_list:
+	# 				# print(f"hw : {hw}, rw : {rw}")	
+	# 				if hw[1] == rw[1]:
+	# 					m=m+1
+	# 					tup=(hyp_split_list.index(hw[0]),ref_split_list.index(rw[0]))
+	# 					try:
+	# 						match_chunk.append(tup)
+	# 						ref_stem_list.remove(rw)
+	# 						hyp_stem_list.remove(hw)
+	# 					except:
+	# 						continue
+
+
+
+	# 		# @@@@ synonym matching @@@@
+	# 		for rw in ref_stem_list:
+
+	# 			# 원형 복구
+	# 			org_word=''
+
+	# 			if rw[1][1]=='VB':
+	# 				org_word=rw[1][0]+'다'
+	# 			else: 
+	# 				org_word=rw[1][0]
+
+	# 			# 동의어 리스트 반환
+	# 			word_list=ssem._syn(org_word)
+
+	# 			for hw in hyp_stem_list:
+	# 				syn_word=''
+
+	# 				if hw[1][1]=='VB':
+	# 					syn_word=hw[1][0]+'다'					
+	# 				else: 
+	# 					syn_word=hw[1][0]
+		
+
+	# 				if syn_word in word_list:
+	# 					m=m+1
+	# 					tup=(hyp_split_list.index(hw[0]),ref_split_list.index(rw[0]))
+	# 					match_chunk.append(tup)
+	# 					hyp_stem_list.remove(hw)
+
+
+	# 		matches  = sorted(match_chunk, key=lambda tup: tup[0])
+
+	# 		prec = m/len(hyp_split_list)
+	# 		rec = m/len(ref_split_list)
+	# 		fscore = (10*prec*rec) / (rec+9*prec)
+
+
+	# 		i = 0 
+	# 		chunks = 1 
+		
+	# 		while i < len(matches) - 1:
+	# 			if (matches[i + 1][0] == matches[i][0] + 1) and (matches[i + 1][1] == matches[i][1] + 1):
+	# 				i += 1
+	# 				continue
+	# 			i += 1
+	# 			chunks += 1
+			
+	# 		penalty=0.5*((chunks/m)**3)
+	# 		meteor=fscore*(1-penalty)
+
+	# 		meteors.append(meteor)
+	# 		m=0
+	# 		match_chunk=[]
+	# 	print("meteors ", meteors)
+
+	# 	return max(meteors)
 
 			
 if __name__=="__main__":

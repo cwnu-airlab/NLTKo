@@ -1,10 +1,23 @@
 import numpy as np
-import torch
 
 """
 source code = https://visualstudiomagazine.com/articles/2021/08/16/wasserstein-distance.aspx
 By James McCaffrey
 """
+
+from nltk.make_requirement import make_requirement
+try:
+    import torch
+except ImportError:
+    requirement = ['torch']
+    file_path = make_requirement(requirement)
+    raise Exception(f"""
+    Need to install Libraries, please pip install below libraries
+    \t pip install torch
+    Or, use pip install requirement.txt
+    \t  pip install -r {file_path}
+    """)
+
 
 class WassersteinDistance:
     def __init__(self) -> None:

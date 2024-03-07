@@ -14,10 +14,22 @@
 # limitations under the License.
 
 from typing import Any, Dict, List, Optional
-from transformers.tokenization_utils import AddedToken
-from transformers import XLNetTokenizer
-from transformers import SPIECE_UNDERLINE
-
+from nltk.make_requirement import make_requirement
+try:
+    from transformers.tokenization_utils import AddedToken
+    from transformers import XLNetTokenizer
+    from transformers import SPIECE_UNDERLINE
+    import sentencepiece
+except ImportError:
+    requirement = ['transformers>=4.8.2', 'sentencepiece']
+    file_path = make_requirement(requirement)
+    raise Exception(f"""
+    Need to install Libraries, please pip install below libraries
+    \t pip install transformers>=4.8.2
+    \t pip install sentencepiece
+    Or, use pip install requirement.txt
+    \t  pip install -r {file_path}
+    """)
 
 class KoBERTTokenizer(XLNetTokenizer):
     padding_side = "right"

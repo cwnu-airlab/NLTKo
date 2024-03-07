@@ -28,27 +28,13 @@ setup(
   packages=find_packages(exclude=[]),
   python_requires='>=3.7',
   install_requires=[
-    'regex==2020.7.14',
-    "safetensors",
-    "torch",
-    "transformers>=4.8.2",
+    'regex',
     "datasets",
-    "faiss-cpu>=1.7.3",
-    "bert_score",
-    "fasttext",
-    "pandas",
-    "joblib",
-
+    'tqdm>=4.40.0',
     
     'numpy==1.23',
     'requests',
     'beautifulSoup4',
-    'sentencepiece',
-    'protobuf',
-    
-
-    'scikit-learn>=0.22.1',
-    'tqdm>=4.40.0',
 
     ],
   package_data={'': extra_files},

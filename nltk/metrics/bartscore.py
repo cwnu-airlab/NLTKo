@@ -53,11 +53,21 @@ SOFTWARE.
 import numpy as np
 from typing import List, Union, Dict
 import traceback
-
-import torch
-import torch.nn as nn
-from transformers import BartTokenizer, BartForConditionalGeneration
-
+from nltk.make_requirement import make_requirement
+try:
+    import torch
+    import torch.nn as nn
+    from transformers import BartTokenizer, BartForConditionalGeneration
+except ImportError:
+    requirement = ['torch', 'transformers>=4.8.2']
+    file_path = make_requirement(requirement)
+    raise Exception(f"""
+    Need to install Libraries, please pip install below libraries
+    \t pip install torch
+    \t pip install transformers>=4.8.2
+    Or, use pip install requirement.txt
+    \t  pip install -r {file_path}
+    """)
 
 # BARTScore class
 class BARTScore:

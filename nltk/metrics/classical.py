@@ -3,8 +3,21 @@ import os
 import argparse
 from collections import defaultdict
 from typing import List, Union
-import torch
+
 import numpy as np
+from nltk.make_requirement import make_requirement
+
+try:
+    import torch
+except ImportError:
+	file_path = make_requirement(['torch'])
+	raise Exception(f"""
+    Need to install Libraries, please pip install below libraries
+    \t pip install torch
+	Or, use pip install requirement.txt
+    \t  pip install -r {file_path}
+    """)
+
 
 class DefaultMetric:
 	def __init__(self):

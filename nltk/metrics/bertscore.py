@@ -51,13 +51,31 @@ from typing import List, Union, Optional, Tuple
 import os
 import sys
 import time
-import pandas as pd
+
 from collections import defaultdict
-import torch
+
+
+from nltk.search.kobert_tokenizer import KoBERTTokenizer
+from nltk.make_requirement import make_requirement
+try:
+    import torch
+    import pandas as pd
+    import bert_score
+except ImportError:
+    requirement = ['torch', 'pandas', 'bert_score']
+    file_path = make_requirement(requirement)
+    raise Exception(f"""
+    Need to install Libraries, please pip install below libraries
+    \t pip install torch
+    \t pip install pandas
+    \t pip install bert_score
+    Or, use pip install requirement.txt
+    \t  pip install -r {file_path}
+    """)
+
 from bert_score.utils import (bert_cos_score_idf, get_hash, 
                               get_idf_dict, get_model, get_tokenizer,
                               lang2model, model2layers)
-from nltk.search.kobert_tokenizer import KoBERTTokenizer
 
 class BERTScore:
     """

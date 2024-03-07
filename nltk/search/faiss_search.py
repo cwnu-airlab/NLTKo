@@ -36,13 +36,27 @@ This module contains a wrapper for the Faiss library by Facebook AI Research.
 from typing import List, Union, Optional, Dict, Any
 import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
-
-import torch
-from transformers import AutoTokenizer, AutoModel
 from datasets import Dataset
+from nltk.make_requirement import make_requirement
+try:
+    import torch
+    from transformers import AutoTokenizer, AutoModel
+    import pandas as pd
+except ImportError:
+    requirment = ['torch', 'transformers>=4.8.2', 'pandas']
+    file_path = make_requirement(requirment)
+    raise Exception(f"""
+    Need to install Libraries, please pip install below libraries
+    \t pip install transformers>=4.8.2
+    \t pip install torch
+    \t pip install pandas
+    Or, use pip install requirement.txt
+    \t  pip install -r {file_path}
+    """)
+
 from nltk.search.kobert_tokenizer import KoBERTTokenizer
 
-import pandas as pd
+
 
 # FAISS library wrapper class
 class FaissSearch:

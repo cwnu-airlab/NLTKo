@@ -5,12 +5,27 @@ import math
 import numpy as np
 import time
 from types import SimpleNamespace
-
-import faiss
-from sklearn.preprocessing import normalize
-from sklearn.decomposition import PCA
-from sklearn.metrics import auc as compute_area_under_curve
-
+from nltk.make_requirement import make_requirement
+try:
+    import faiss
+    from sklearn.preprocessing import normalize
+    from sklearn.decomposition import PCA
+    from sklearn.metrics import auc as compute_area_under_curve
+    import torch
+    from transformers import AutoModel, AutoTokenizer
+except ImportError:
+    requirement = ['torch', 'faiss-cpu>=1.7.3', 'tqdm>=4.40.0', 'scikit-learn>=0.22.1', 'transformers>=4.8.2']
+    file_path = make_requirement(requirement)
+    raise Exception(f"""
+    Need to install Libraries, please pip install below libraries
+    \t pip install torch
+    \t pip install faiss-cpu>=1.7.3
+    \t pip install tqdm>=4.40.0
+    \t pip install scikit-learn>=0.22.1
+    \t pip install transformers>=4.8.2
+    Or, use pip install requirement.txt
+    \t  pip install -r {file_path}
+    """)
 try:
     import torch
     FOUND_TORCH = True

@@ -34,13 +34,25 @@ This module implements the word embeddings class.
 # from tqdm import tqdm
 import numpy as np
 from typing import List, Union
-import torch
+#import torch
 import os
-from torch import Tensor
-from torch.nn import functional as F
-import fasttext
-import fasttext.util
-
+from nltk.make_requirement import make_requirement
+try:
+    import torch
+    from torch import Tensor
+    from torch.nn import functional as F
+    import fasttext
+    import fasttext.util
+except ImportError:
+    requirement = ['torch', 'fasttext']
+    file_path = make_requirement(requirement)
+    raise Exception(f"""
+    Need to install Libraries, please pip install below libraries
+    \t pip install torch
+    \t pip install fasttext
+    Or, use pip install requirement.txt
+    \t  pip install -r {file_path}
+    """)
 # for dev purposes
 import sys
 # sys.path.append("/Users/dowon/nltk_ko/nltk/misc")

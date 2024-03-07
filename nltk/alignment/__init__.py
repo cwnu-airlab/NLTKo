@@ -29,10 +29,25 @@ SOFTWARE.
 """
 
 import multiprocessing
-from joblib import Parallel, delayed
-from tqdm import tqdm
+
 from typing import List, Union, Tuple, Optional
 import numpy as np
+from nltk.make_requirement import make_requirement
+
+try:
+    from joblib import Parallel, delayed
+    from tqdm import tqdm
+except ImportError:
+    requirement = ['joblib', 'tqdm>=4.40.0']
+    file_path = make_requirement(requirement)
+    raise Exception(f"""
+    Need to install Libraries, please pip install below libraries
+    \t pip install joblib
+    \t pip install tqdm>=4.40.0
+    Or, use pip install requirement.txt
+    \t  pip install -r {file_path}
+    """)
+
 
 # for dev purposes
 import sys

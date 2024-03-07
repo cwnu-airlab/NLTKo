@@ -54,9 +54,46 @@ import numpy as np
 from typing import List, Union, Dict
 import traceback
 
-import torch
-import torch.nn as nn
-from transformers import BartTokenizer, BartForConditionalGeneration
+# import torch
+# import torch.nn as nn
+# from transformers import BartTokenizer, BartForConditionalGeneration
+
+import subprocess
+import sys
+from nltk.make_requirement import make_requirement
+
+# def install_and_import(package):
+#     try:
+#         __import__(package)
+#     except ImportError:
+#         print(f"{package} not found, installing with pip...")
+#         subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+#     finally:
+#         globals()[package] = __import__(package)
+
+# # 사용 예시
+# install_and_import('numpy')
+
+
+# # 사용 예시
+# install_and_import('torch')
+# install_and_import('transformers', '>=4.8.2')
+
+try:
+    import torch
+    import torch.nn as nn
+    from transformers import BartTokenizer, BartForConditionalGeneration
+except ImportError:
+    requirement = ['torch', 'transformers>=4.8.2']
+    file_path = make_requirement(requirement)
+    raise Exception(f"""You need to install Library 
+    please pip install below Libaries
+    \t pip install torch
+    \t pip install transformers>=4.8.2
+    Or, use pip install requirement.txt
+    \t  pip install -r {file_path}
+    """)
+
 
 
 # BARTScore class
