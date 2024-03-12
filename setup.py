@@ -29,13 +29,12 @@ setup(
   python_requires='>=3.7',
   install_requires=[
     'regex',
-    "datasets",
     'tqdm>=4.40.0',
-    
+    'joblib',
     'numpy==1.23',
     'requests',
     'beautifulSoup4',
-
+    'lazy_import',
     ],
   package_data={'': extra_files},
 	ext_modules=[module1],
