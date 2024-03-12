@@ -21,8 +21,12 @@ from copy import deepcopy
 # For license information, see LICENSE.TXT
 
 class StringMetric:
-	def __init__(self):
-		self.tokenize=lambda ref: word_tokenize(ref,'korean')
+	def __init__(self, lang="korean"):
+		self.lang = lang
+		if lang not in ["korean", "english"]:
+			raise Exception("Only \"korean\" or \"english\" in lang parameter")
+		self.tokenize=lambda ref: word_tokenize(ref,self.lang)
+		self.skip_pos = ['EE']
 
 
 	def _W_CER(self, r, h):
@@ -64,15 +68,15 @@ class StringMetric:
 
 
 	def wer(self, reference, candidate):
-		r = word_tokenize(reference,"korean")
-		h = word_tokenize(candidate,"korean")
+		r = word_tokenize(reference, self.lang)
+		h = word_tokenize(candidate, self.lang)
 		
 		return self._W_CER(r,h)
 
 
 	def cer(self, reference,candidate):
-		r = syllable_tokenize(reference,"korean")
-		h = syllable_tokenize(candidate,"korean")
+		r = syllable_tokenize(reference, self.lang)
+		h = syllable_tokenize(candidate, self.lang)
 		
 		return self._W_CER(r,h)
 
@@ -84,7 +88,7 @@ class StringMetric:
 			return
 
 		reference=list(map(self.tokenize,reference))
-		candidate=word_tokenize(candidate,'korean')
+		candidate=word_tokenize(candidate,self.lang)
 
 		return sentence_bleu(reference,candidate,weights)
 
@@ -105,17 +109,17 @@ class StringMetric:
 
 	def _hyp_sent_split_remove(self, can):
 
-		can_sent=[[tmp.rstrip('.'or'?'or'!'or','or'\n')] for tmp in sent_tokenize(can,'korean')]
+		can_sent=[[tmp.rstrip('.'or'?'or'!'or','or'\n')] for tmp in sent_tokenize(can, self.lang)]
 		return can_sent
 
 	def _ref_sent_split_remove(self, ref):
 
-		ref_sent=[sent_tokenize(tmp,'korean') for tmp in ref]
+		ref_sent=[sent_tokenize(tmp,self.lang) for tmp in ref]
 		ref_sent_c=[]
 		for tmp in ref_sent:
 			ref_sent_in=[]
 			for tmp2 in tmp:
-				ref_sent_in.append(word_tokenize(tmp2.rstrip('.'or'?'or'!'or','or'\n'),'korean'))
+				ref_sent_in.append(word_tokenize(tmp2.rstrip('.'or'?'or'!'or','or'\n'),self.lang))
 			ref_sent_c.append(ref_sent_in)
 
 		return ref_sent_c
@@ -156,7 +160,7 @@ class StringMetric:
 		rec,prec=0,0
 
 		can_sent=self._hyp_sent_split_remove(can)
-		can_word=list(itertools.chain(*[word_tokenize(tmp,'korean') for tmp in can_sent]))
+		can_word=list(itertools.chain(*[word_tokenize(tmp,self.lang) for tmp in can_sent]))
 		ref=self._ref_sent_split_remove(ref)
 
 		r_list=[]
@@ -179,7 +183,7 @@ class StringMetric:
 		#check=0
 
 		can= self._hyp_sent_split_remove(can)
-		can=[word_tokenize(tmp,'korean') for tmp in can]
+		can=[word_tokenize(tmp,self.lang) for tmp in can]
 		refs=self._ref_sent_split_remove(ref)
 
 		can_word=list(itertools.chain(*can))
@@ -287,7 +291,7 @@ class StringMetric:
 		ref_len=0
 
 		candidate=list(skipgrams(can,2,n))
-		can_sent=[word_tokenize(tmp,'korean') for tmp in can_sent]
+		can_sent=[word_tokenize(tmp,self.lang) for tmp in can_sent]
 		can_sk_len=0
 
 		for tmp in ref_stoken:
@@ -312,7 +316,7 @@ class StringMetric:
 	def rouge_s(self, ref, can, n):
 
 		can_sent= self._hyp_sent_split_remove(can)
-		can_word=list(itertools.chain(*[word_tokenize(tmp,'korean') for tmp in can_sent]))
+		can_word=list(itertools.chain(*[word_tokenize(tmp,self.lang) for tmp in can_sent]))
 		ref= self._ref_sent_split_remove(ref)
 
 
@@ -385,7 +389,7 @@ class StringMetric:
 		# print("test 124" , enum_reference_list)
 		for i in range(len(enum_hypothesis_list))[::-1]:
 			for j in range(len(enum_reference_list))[::-1]:
-				print(f"\n \t {enum_hypothesis_list[i][1]} \t {enum_reference_list[j][1]}")
+				# print(f"\n \t {enum_hypothesis_list[i][1]} \t {enum_reference_list[j][1]}")
 				if enum_hypothesis_list[i][1] == enum_reference_list[j][1]:
 
 					# print("Check!!")
@@ -419,6 +423,18 @@ class StringMetric:
 			chunks += 1
 		return chunks
 
+	def _match_syn_with_sejong(self, hyp_list, ref_list):
+		syn_match = []
+		for i in range(len(hyp_list))[::-1]:
+			print("test 344434: ", hyp_list[i])
+			if hyp_list[i][1][1] not in self.skip_pos:
+				entrys = ssem.entrys(hyp_list[i][1][0])
+				for entry in entrys:
+					for sense in entry.senses():
+						print("\t test 1233", sense)
+
+		return syn_match, hyp_list, ref_list
+		
 	def meteor(self, ref, hyp):
 		ref_tag = self._tag_pos_meteor(ref)
 		hyp_tag = self._tag_pos_meteor(hyp)
@@ -434,6 +450,10 @@ class StringMetric:
 
 			# 단어/어간 매칭
 			word_match, enum_hyp_list, enum_ref_list = self._match_enums(deepcopy(enum_hyp[0]), reference)
+			syn_match, enum_hyp_list, enum_ref_list = self._match_syn_with_sejong(enum_hyp_list, enum_ref_list)
+			# print("test 123344 " ,enum_ref_list) ## [(0, ['오늘', 'NN']), (6, ['이', 'VB']), (7, ['었다', 'EE'])]
+
+
 
 			#최종 결과 계산
 			word_match_count = len(word_match)

@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 #cython: embedsignature=True
 #cython: profile=True
+#cython: language_level=3
 
 """
 A neural network for NLP tagging tasks.
@@ -15,7 +16,9 @@ from cpython cimport bool
 #from itertools import izip
 import logging
 
+#ctypedef float FLOAT_t
 ctypedef np.float_t FLOAT_t
+#ctypedef int INT_t
 ctypedef np.int_t INT_t
 ctypedef np.double_t DOUBLE_t
 
@@ -221,7 +224,8 @@ Output size: %d
                                                           self.pos_padding))
         
         # make sure it works on 32 bit python installations
-        padded_sentence = padded_sentence.astype(np.int32)
+        padded_sentence = padded_sentence.astype(int)
+        #padded_sentence = padded_sentence.astype(np.int64)
         
         self.sentence_lookup = np.empty((len(padded_sentence), self.features_per_token))
         ind_from = 0
@@ -398,7 +402,8 @@ Output size: %d
         # dC / dftheta
         self.net_gradients = np.zeros((len(tags), self.output_size))
         # dC / dA
-        self.trans_gradients = np.zeros_like(self.transitions, np.float)
+        #self.trans_gradients = np.zeros_like(self.transitions, float)
+        self.trans_gradients = np.zeros_like(self.transitions, np.float64)
         
         # things get nasty from here
         # refer to the papers to understand what exactly is going on
@@ -511,7 +516,8 @@ Output size: %d
             return scores.argmax(1)
             
         path_scores = np.empty_like(scores)
-        path_backtrack = np.empty_like(scores, np.int)
+        #path_backtrack = np.empty_like(scores, np.int64)
+        path_backtrack = np.empty_like(scores, int)
         
         # now the actual Viterbi algorithm
         # first, get the scores for each tag at token 0
@@ -533,7 +539,8 @@ Output size: %d
                                                   output_range] + scores[i]
             
         # now find the maximum score for the last token and follow the backtrack
-        answer = np.empty(len(scores), dtype=np.int)
+        #answer = np.empty(len(scores), dtype=np.int64)
+        answer = np.empty(len(scores), dtype=int)
         answer[-1] = path_scores[-1].argmax()
         self.answer_score = path_scores[-1][answer[-1]]
         previous_tag = path_backtrack[-1][answer[-1]]
@@ -644,7 +651,6 @@ Output size: %d
             last_accuracy = self.accuracy
             last_error = self.error
         
-        #self.save_text()
         self.num_tokens = 0
             
     def _print_epoch_report(self, int num):
@@ -827,46 +833,6 @@ Output size: %d
                  padding_right=self.padding_right, transitions=self.transitions,
                  feature_tables=self.feature_tables)
 
-    def save_text(self):
-        """
-        Saves the neural network to a file.
-        It will save the weights, biases, sizes, padding, 
-        and feature tables.
-        """
-        tmpf = self.network_text_filename[:-4]
-        self.network_text_filename = "%s_%s.txt" % (tmpf, "hidden_weights")
-        np.savetxt(self.network_text_filename, self.hidden_weights, fmt='%.15f')
-        self.network_text_filename = "%s_%s.txt" % (tmpf, "output_weights")
-        np.savetxt(self.network_text_filename, self.output_weights, fmt='%.15f')
-        self.network_text_filename = "%s_%s.txt" % (tmpf, "hidden_bias")
-        np.savetxt(self.network_text_filename, self.hidden_bias, fmt='%.15f')
-        self.network_text_filename = "%s_%s.txt" % (tmpf, "output_bias")
-        np.savetxt(self.network_text_filename, self.output_bias, fmt='%.15f')
-        self.network_text_filename = "%s_%s.txt" % (tmpf, "word_window_size")
-        with open(self.network_text_filename, 'wt') as f:
-            f.write("%d" % self.word_window_size)
-        self.network_text_filename = "%s_%s.txt" % (tmpf, "input_size")
-        with open(self.network_text_filename, 'wt') as f:
-            f.write("%d" % self.input_size)
-        self.network_text_filename = "%s_%s.txt" % (tmpf, "hidden_size")
-        with open(self.network_text_filename, 'wt') as f:
-            f.write("%d" % self.hidden_size)
-        self.network_text_filename = "%s_%s.txt" % (tmpf, "output_size")
-        with open(self.network_text_filename, 'wt') as f:
-            f.write("%d" % self.output_size)
-        self.network_text_filename = "%s_%s.txt" % (tmpf, "padding_left")
-        np.savetxt(self.network_text_filename, self.padding_left, fmt='%.15f')
-        self.network_text_filename = "%s_%s.txt" % (tmpf, "padding_right")
-        np.savetxt(self.network_text_filename, self.padding_right, fmt='%.15f')
-        self.network_text_filename = "%s_%s.txt" % (tmpf, "transitions0")
-        np.savetxt(self.network_text_filename, self.transitions[-1], fmt='%.15f')
-        self.network_text_filename = "%s_%s.txt" % (tmpf, "transitions")
-        np.savetxt(self.network_text_filename, self.transitions[:-1], fmt='%.15f')
-        self.network_text_filename = "%s_%s.txt" % (tmpf, "feature_tables")
-        with open(self.network_text_filename, 'wt') as f:
-            for xLL in self.feature_tables:
-                for xL in xLL:
-                    f.write("%s\n" % (" ".join(format(x, ".15f") for x in xL)))
 
     @classmethod
     def load_from_file(cls, filename):
@@ -904,7 +870,7 @@ Output size: %d
         nn.feature_tables = list(data['feature_tables'])
         nn.network_filename = filename
         
-        return nn
+        return nn 
         
 # include the files for other networks
 # this comes here after the Network class has already been defined

@@ -50,7 +50,13 @@ from nltk.metrics.spearman import (
 )
 from nltk.metrics.aline import align
 from nltk.metrics.eval import StringMetric
-from nltk.metrics.classical import DefaultMetric
-from nltk.metrics.mauve import Mauve
-from .bertscore import BERTScore
-from .bartscore import BARTScore
+
+import lazy_import
+DefaultMetric = lazy_import.lazy_callable("nltk.metrics.classical.DefaultMetric")
+# from nltk.metrics.classical import DefaultMetric
+Mauve = lazy_import.lazy_callable("nltk.metrics.mauve.Mauve")
+# from nltk.metrics.mauve import Mauve
+BERTScore = lazy_import.lazy_callable("nltk.metrics.bertscore.BERTScore")
+# from .bertscore import BERTScore
+BARTScore = lazy_import.lazy_callable("nltk.metrics.bartscore.BARTScore")
+# from .bartscore import BARTScore

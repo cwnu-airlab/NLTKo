@@ -110,18 +110,64 @@ def tokenize(text, language='ko'):
 		:param language: two letter code (en, ko)
 		"""
 		if language == 'ko':
-				return tokenize_kr(text)
+				return tokenize_ko(text)
 		elif language == 'en':
 				return tokenize_en(text)
 
-def tokenize_kr(text):
+def tokenize_ko(text, clean=True):
 		"""
+		text: string
 		Return a list of lists of the tokens in text, separated by sentences.
 		"""
+		if clean:
+			text = clean_kotext(text)
+
 		## False: 띄어쓰기 무시, True: 띄어쓰기 고려 
 		sentences = [syllable_tokenize(sentence,"korean", True) for sentence in sent_tokenize(text, "korean")]
 		return sentences
 		
+def clean_kotext(text, correct=False):
+		"""
+		1. 특수 공백문자를 공백으로 처리 
+		Apply some transformations to the text, such as 
+		replacing digits for 9 and simplifying quotation marks.
+		
+		:param correct: If True, tries to correct punctuation misspellings. 
+		"""		
+		# replaces different kinds of quotation marks with "
+		# take care not to remove apostrophes
+		'''
+		text = re.sub(r"(?u)(^|\W)[‘’′`']", r'\1"', text)
+		text = re.sub(r"(?u)[‘’`′'](\W|$)", r'"\1', text)
+		text = re.sub(r'(?u)[«»“”]', '"', text)
+		
+		if correct:
+				# tries to fix mistyped tokens (common in Wikipedia-pt) as ,, '' ..
+				text = re.sub(r'(?<!\.)\.\.(?!\.)', '.', text) # take care with ellipses 
+				text = re.sub(r'([,";:])\1,', r'\1', text)
+				
+				# inserts space after leading hyphen. It happens sometimes in cases like:
+				# blablabla -that is, bloblobloblo
+				text = re.sub(' -(?=[^\W\d_])', ' - ', text)
+		'''
+
+		# replaces numbers with the 9's
+		text = re.sub(r'\xa0', ' ', text)
+		text = re.sub(u'　', ' ', text)
+		text = re.sub(u' ', ' ', text)
+		# replaces numbers with the 9's, 사전쪽과 같이 판단할 것 
+		#text = re.sub(r'\d', '9', text)
+		# replaces english character with the a's
+		#text = re.sub(r'[a-zA-Z]', 'a', text)
+		# replaces chinses character with the 家's
+		#for x in re.findall(r'[\u4e00-\u9fff]', text):
+		#	text = re.sub(x, '家', text)
+		
+		# replaces special ellipsis character 
+		text = text.replace(u'…', '...')
+		
+		return text
+
 
 
 def tokenize_en(text, user_lexicon):
@@ -368,7 +414,7 @@ def create_feature_tables(args, md, text_reader):
 				logger.info("Generating POS features...")
 				num_pos_tags = text_reader.get_num_pos_tags()
 				pos_table = generate_feature_vectors(num_pos_tags, args.pos)
-				feature_tables.append(pos_table) # head
+				#feature_tables.append(pos_table) # head    # 여기와 *_reader의 converter와 일치해야 한다. 
 				feature_tables.append(pos_table) # tail
 		
 		# chunk tags

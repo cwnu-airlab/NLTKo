@@ -70,7 +70,7 @@ class EspressoTagger:
         #         if not text : break
                 
         if use_tokenizer:
-                result = tagger.tag(text)
+                result = tagger.tag(text, mode='standard')
         else:
                 tokens = text.split()
                 if task_lower != 'dependency':
@@ -132,15 +132,18 @@ class EspressoTagger:
         return result
 
     def _return_tagged_srl(self, tagged_sents):
+        result = []
         for sent in tagged_sents:
                 print (' '.join(sent.tokens))
                 for predicate, arg_structure in sent.arg_structures:
                         print (predicate)
                         for label in arg_structure:
                                 argument = ' '.join(arg_structure[label])
-                                line = '\t%s: %s' % (label, argument)
-                                print (line)
-                print ('\n')
+                                # line = '\t%s: %s' % (label, argument)
+                                # print (line)
+                                result.append((label, argument))
+                # print ('\n')
+        return result
 
     def _return_tagged_ner(self, tagged_sents):
         """Prints one sentence per line as token_tag"""

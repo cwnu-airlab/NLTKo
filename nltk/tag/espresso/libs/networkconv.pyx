@@ -33,7 +33,7 @@ cdef class ConvolutionalNetwork(Network):
     # number of targets (all tokens in a sentence or the provided arguments)
     # and variables for argument classifying
     cdef int num_targets
-    cdef bool only_classify
+    #cdef bool only_classify
     
     # for faster access 
     cdef int half_window
@@ -210,12 +210,12 @@ Output size: %d
         
         nn.target_dist_table = data['target_dist_table']
         nn.pred_dist_table = data['pred_dist_table']
-        transitions = data['transitions']
-        nn.transitions = transitions if transitions.shape != () else None
+        #transitions = data['transitions']
+        #nn.transitions = transitions if transitions.shape != () else None
         nn.padding_left = data['padding_left']
         nn.padding_right = data['padding_right']
-        nn.pre_padding = np.array(int(nn.word_window_size / 2) * [nn.padding_left])
-        nn.pos_padding = np.array(int(nn.word_window_size / 2) * [nn.padding_right])
+        nn.pre_padding = np.array(int(nn.word_window_size // 2) * [nn.padding_left])
+        nn.pos_padding = np.array(int(nn.word_window_size // 2) * [nn.padding_right])
         nn.feature_tables = list(data['feature_tables'])
         nn.network_filename = filename
         
@@ -228,7 +228,7 @@ Output size: %d
         It will load weights, biases, sizes, padding and 
         distance tables, and other feature tables.
         """
-        data = np.load(filename)
+        data = np.load(filename, allow_pickle=True) # 수정 
         return cls._load_from_file(data, filename)
     
     def _load_parameters(self):
@@ -286,7 +286,7 @@ Output size: %d
         """
         self.num_sentences = len(sentences)
         self.num_tokens = sum(len(sent) for sent in sentences)
-        self.only_classify = arguments is not None
+        #self.only_classify = arguments is not None
         
         logger = logging.getLogger("Logger")
         logger.info("Training for up to %d epochs" % epochs)
@@ -393,7 +393,7 @@ Output size: %d
         :param allow_repeats: a boolean indicating whether to allow repeated
             argument classes (only for separate argument classification).
         """
-        self.only_classify = arguments is not None
+        #self.only_classify = arguments is not None
         return self._tag_sentence(sentence, predicates, argument_blocks=arguments, 
                                   logprob=logprob, allow_repeats=allow_repeats)
     
@@ -404,6 +404,7 @@ Output size: %d
         distances = positions.copy()
         
         # the ones before the argument
+        #print(argument)
         lo = np.less(positions, argument[0])
         distances[lo] -= argument[0]
         
@@ -448,7 +449,8 @@ Output size: %d
         if training:
             # hidden sent values: results after tanh
             self.hidden_values = np.zeros((self.num_targets, self.hidden_size))
-            self.max_indices = np.empty((self.num_targets, self.hidden_size), np.int)
+            self.max_indices = np.empty((self.num_targets, self.hidden_size), int)
+            #self.max_indices = np.empty((self.num_targets, self.hidden_size), np.int)
     
         # predicate distances are the same across all targets
         pred_dist_indices = np.arange(len(sentence)) - predicate
@@ -469,6 +471,7 @@ Output size: %d
                 target_dist_indices = np.arange(len(sentence)) - target
             else:
                 argument = argument_blocks[target]
+                #print(argument_blocks)
                 target_dist_indices = self.argument_distances(np.arange(len(sentence)), argument)
             
             target_dist_values = self.target_convolution_lookup.take(target_dist_indices + self.target_dist_offset,
@@ -542,7 +545,8 @@ Output size: %d
         cdef np.ndarray[FLOAT_t, ndim=2] token_scores
         
         for i, predicate in enumerate(predicates):
-            pred_arguments = None if not self.only_classify else argument_blocks[i]
+            #pred_arguments = None if not self.only_classify else argument_blocks[i]
+            pred_arguments = argument_blocks[i]
             
             token_scores = self._sentence_convolution(sentence, predicate, pred_arguments, training)
             pred_answer = self._viterbi(token_scores, allow_repeats)
@@ -556,8 +560,8 @@ Output size: %d
                     self._adjust_features(sentence, predicate)
             
             if logprob:
-                if self.only_classify:
-                    raise NotImplementedError('Confidence measure not implemented for argument classifying')
+                #if self.only_classify:
+                #    raise NotImplementedError('Confidence measure not implemented for argument classifying')
                 
                 all_scores = self._calculate_all_scores(token_scores)
                 last_token = len(sentence) - 1
@@ -587,7 +591,8 @@ Output size: %d
                                                 self.validation_predicates, 
                                                 self.validation_tags):
             if self.validation_arguments is not None:
-                sent_args = i_args.next()
+                sent_args = next(i_args)
+                #sent_args = i_args.next()
             
             answer = self._tag_sentence(sent, sent_preds, None, sent_args)
             for predicate_answer, predicate_tags in zip(answer, sent_tags):
@@ -603,10 +608,11 @@ Output size: %d
     
     def _calculate_gradients(self, tags, scores):
         """Delegates the call to the appropriate function."""
-        if self.only_classify:
-            return self._calculate_gradients_classify(tags, scores)
-        else:
-            return self._calculate_gradients_sll(tags, scores)
+        #if self.only_classify:
+        #    return self._calculate_gradients_classify(tags, scores)
+        #else:
+        #    return self._calculate_gradients_sll(tags, scores)
+        return self._calculate_gradients_classify(tags, scores)
     
     def _calculate_gradients_classify(self, tags, scores):
         """
@@ -617,7 +623,8 @@ Output size: %d
         
         :returns: whether a correction is necessary or not.
         """
-        self.net_gradients = np.zeros_like(scores, np.float)
+        self.net_gradients = np.zeros_like(scores, float)
+        #self.net_gradients = np.zeros_like(scores, np.float)
         correction = False
         
         for i, tag_scores in enumerate(scores):
@@ -730,7 +737,8 @@ Output size: %d
         self.hidden_bias += self.hidden_gradients.sum(0) * self.learning_rate
         
         # Adjusts the transition scores table with the calculated gradients.
-        if not self.only_classify and self.transitions is not None:
+        #if not self.only_classify and self.transitions is not None:
+        if self.transitions is not None:
             self.transitions += self.trans_gradients * self.learning_rate_trans
             
     @cython.boundscheck(False)
@@ -761,11 +769,13 @@ Output size: %d
             # for this target
             convolution_max = self.max_indices[target]
             
-            if not self.only_classify:
-                target_dists = convolution_max - target
-            else:
-                argument = arguments[target]
-                target_dists = self.argument_distances(convolution_max, argument)
+            #if not self.only_classify:
+            #    target_dists = convolution_max - target
+            #else:
+            #    argument = arguments[target]
+            #    target_dists = self.argument_distances(convolution_max, argument)
+            argument = arguments[target]
+            target_dists = self.argument_distances(convolution_max, argument)
             
             target_dists = np.clip(target_dists + self.target_dist_offset, 0,
                                    self.target_dist_lookup.shape[0] - 1)
@@ -882,7 +892,8 @@ Output size: %d
             return best_scores
         
         path_scores = np.empty_like(scores)
-        path_backtrack = np.empty_like(scores, np.int)
+        path_backtrack = np.empty_like(scores, int)
+        #path_backtrack = np.empty_like(scores, np.int)
         
         # now the actual Viterbi algorithm
         # first, get the scores for each tag at token 0
@@ -900,7 +911,8 @@ Output size: %d
                                                   np.arange(self.output_size)] + scores[i]
             
         # now find the maximum score for the last token and follow the backtrack
-        answer = np.empty(len(scores), dtype=np.int)
+        answer = np.empty(len(scores), dtype=int)
+        #answer = np.empty(len(scores), dtype=np.int)
         answer[-1] = path_scores[-1].argmax()
         self.answer_score = path_scores[-1][answer[-1]]
         previous_tag = path_backtrack[-1][answer[-1]]
@@ -987,7 +999,7 @@ Output size: %d
             padded_sentence = sentence
         
         self.convolution_lookup = np.empty((len(sentence), self.hidden_size))
-        #print(len(sentence), self.convolution_lookup)
+        #print(len(sentence), self.hidden_size, len(self.convolution_lookup[0]))
         
         # first window
         cdef np.ndarray window = padded_sentence[:self.word_window_size]
@@ -999,7 +1011,6 @@ Output size: %d
                                                              self.feature_tables)
                                      ]
                                     )
-        
         self.convolution_lookup[0] = self.hidden_weights.dot(input_data)
         if training:
             # store the values of each input -- needed when adjusting features

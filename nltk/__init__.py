@@ -163,6 +163,48 @@ corpus = lazyimport.LazyModule("nltk.corpus", locals(), globals())
 draw = lazyimport.LazyModule("nltk.draw", locals(), globals())
 toolbox = lazyimport.LazyModule("nltk.toolbox", locals(), globals())
 
+### 240308 추가 
+# collocations = lazyimport.LazyModule("nltk.collocations", locals(), globals())
+# decorators = lazyimport.LazyModule("nltk.decorators", locals(), globals() )
+# featstruct = lazyimport.LazyModule("nltk.featstruct", locals(), globals())
+# grammar = lazyimport.LazyModule("nltk.grammar", locals(), globals())
+# probability = lazyimport.LazyModule("nltk.probability", locals(), globals())
+# text = lazyimport.LazyModule("nltk.text", locals(), globals())
+# tree = lazyimport.LazyModule("nltk.tree", locals(), globals())
+# util = lazyimport.LazyModule("nltk.util", locals(), globals())
+# jsontags = lazyimport.LazyModule("nltk.jsontags", locals(), globals())
+
+# chunk = lazyimport.LazyModule("nltk.chunk", locals(), globals())
+
+# # Classify
+# classify = lazyimport.LazyModule("nltk.classify", locals(), globals())
+
+# # Inference
+# inference = lazyimport.LazyModule("nltk.inference", locals(), globals())
+
+# # Metrics
+# metrics = lazyimport.LazyModule("nltk.metrics", locals(), globals())
+
+# # Parse
+# parse = lazyimport.LazyModule("nltk.parse", locals(), globals())
+
+# # Tag
+# tag = lazyimport.LazyModule("nltk.tag", locals(), globals())
+
+# # Tokenize
+# tokenize = lazyimport.LazyModule("nltk.tokenize", locals(), globals())
+
+# # Translate
+# translate = lazyimport.LazyModule("nltk.translate", locals(), globals())
+
+# # Sem
+# sem = lazyimport.LazyModule("nltk.sem", locals(), globals())
+
+# # Stem
+# stem = lazyimport.LazyModule("nltk.stem", locals(), globals())
+
+###
+
 # Optional loading
 
 try:

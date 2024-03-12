@@ -35,7 +35,7 @@ class Metadata(object):
         # dependency edge filter doesn't use an actual neural network, so 
         # we call it "model" to be more consistent
         self.model = self.network
-        
+        '''
         if task == 'srl_boundary':
             self.pred_dist_table = 'pred_dist_table_boundary'
             self.target_dist_table = 'target_dist_table_boundary'
@@ -74,7 +74,14 @@ class Metadata(object):
             self.chunk_features = 'chunk_features_%s' % task
             self.suffix_features = 'suffix_features_%s' % task
             self.prefix_features = 'prefix_features_%s' % task
-    
+        '''
+        self.type_features = 'type_features_%s' % task
+        self.caps_features = 'caps_features_%s' % task
+        self.pos_features = 'pos_features_%s' % task
+        #self.chunk_features = 'chunk_features_%s' % task
+        self.suffix_features = 'suffix_features_%s' % task
+        self.prefix_features = 'prefix_features_%s' % task
+
     def __str__(self):
         """Shows the task at hand and which attributes are used."""
         lines = []

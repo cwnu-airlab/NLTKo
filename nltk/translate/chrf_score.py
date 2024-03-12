@@ -1,15 +1,14 @@
-# -*- coding: utf-8 -*-
 # Natural Language Toolkit: ChrF score
 #
-# Copyright (C) 2001-2020 NLTK Project
+# Copyright (C) 2001-2023 NLTK Project
 # Authors: Maja Popovic
 # Contributors: Liling Tan, Aleš Tamchyna (Memsource)
-# URL: <http://nltk.org/>
+# URL: <https://www.nltk.org/>
 # For license information, see LICENSE.TXT
 
 """ ChrF score implementation """
-from collections import Counter, defaultdict
 import re
+from collections import Counter, defaultdict
 
 from nltk.util import ngrams
 
@@ -21,10 +20,10 @@ def sentence_chrf(
     Calculates the sentence level CHRF (Character n-gram F-score) described in
      - Maja Popovic. 2015. CHRF: Character n-gram F-score for Automatic MT Evaluation.
        In Proceedings of the 10th Workshop on Machine Translation.
-       http://www.statmt.org/wmt15/pdf/WMT49.pdf
+       https://www.statmt.org/wmt15/pdf/WMT49.pdf
      - Maja Popovic. 2016. CHRF Deconstructed: β Parameters and n-gram Weights.
        In Proceedings of the 1st Conference on Machine Translation.
-       http://www.statmt.org/wmt16/pdf/W16-2341.pdf
+       https://www.statmt.org/wmt16/pdf/W16-2341.pdf
 
     This implementation of CHRF only supports a single reference at the moment.
 
@@ -35,7 +34,7 @@ def sentence_chrf(
     following options: -nw 0 -b 3
 
     An example from the original BLEU paper
-    http://www.aclweb.org/anthology/P02-1040.pdf
+    https://www.aclweb.org/anthology/P02-1040.pdf
 
         >>> ref1 = str('It is a guide to action that ensures that the military '
         ...            'will forever heed Party commands').split()
@@ -145,7 +144,7 @@ def chrf_precision_recall_fscore_support(
     try:
         prec = tp / tpfp  # precision
         rec = tp / tpfn  # recall
-        factor = beta ** 2
+        factor = beta**2
         fscore = (1 + factor) * (prec * rec) / (factor * prec + rec)
     except ZeroDivisionError:
         prec = rec = fscore = epsilon
@@ -195,11 +194,10 @@ def corpus_chrf(
     num_sents = len(hypotheses)
 
     # Keep f-scores for each n-gram order separate
-    ngram_fscores = defaultdict(lambda: list())
+    ngram_fscores = defaultdict(list)
 
     # Iterate through each hypothesis and their corresponding references.
     for reference, hypothesis in zip(references, hypotheses):
-
         # preprocess both reference and hypothesis
         reference = _preprocess(reference, ignore_whitespace)
         hypothesis = _preprocess(hypothesis, ignore_whitespace)

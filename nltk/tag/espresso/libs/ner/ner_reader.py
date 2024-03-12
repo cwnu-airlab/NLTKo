@@ -14,6 +14,7 @@ class ConllNER(object):
 	word = 1
 	pos = 2
 	ner = 3
+	link = 4
 	SEP = '\t'
 
 class NERReader(TaggerReader):
@@ -74,16 +75,15 @@ class NERReader(TaggerReader):
 				if line == '':
 					if len(sentence) > 0:
 						self.sentences.append(sentence)
-						sentence = []
-						continue
+					sentence = [] # 문장 끝나고 빈 라인이 여러개 있는 것에 대비 
+					continue
 				
-				#line = unicode(line, 'utf-8')
 				fields = line.split(ConllNER.SEP)
 				word = fields[ConllNER.word]
 				pos = fields[ConllNER.pos]
 				ner = fields[ConllNER.ner]
+				link = fields[ConllNER.link]
 				sentence.append((word, ner))
-				#sentence.append((word, pos, ner))
 		
 		if len(sentence) > 0:
 			self.sentences.append(sentence)

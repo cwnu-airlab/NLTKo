@@ -209,8 +209,9 @@ def get_args():
 		# argument boundary identification / argument classification / 
 		# (id + class) in one step
 		parser_srl = subparsers.add_parser('srl', help='Semantic Role Labeling',
+																			parents=[network_parser, conv_parser],
 																			 formatter_class=argparse.RawDescriptionHelpFormatter)
-		parser_srl.set_defaults(identify=False, predicates=False, classify=False)
+		#parser_srl.set_defaults(identify=False, predicates=False, classify=False)
 
 		desc = '''SRL has 3 steps: predicate	detection, argument identification and 
 argument classification. Each one depends on the one before.
@@ -221,6 +222,7 @@ full SRL.
 
 Type %(prog)s [SUBTASK] -h to get subtask-specific help.'''
 		
+		'''
 		srl_subparsers = parser_srl.add_subparsers(title='SRL subtasks',
 																							 dest='subtask',
 																							 description=desc)
@@ -247,30 +249,32 @@ Type %(prog)s [SUBTASK] -h to get subtask-specific help.'''
 		srl_subparsers.add_parser('1step', parents=[network_parser, conv_parser],
 															help='Argument identification and '\
 															'classification together')
-		defaults['srl'] = dict(window=3, hidden=150, convolution=200, iterations=15,
+		'''
+		defaults['srl'] = dict(window=3, hidden=150, convolution=200, iterations=35,
+														pos = 5,
 													 learning_rate=0.001, learning_rate_features=0.001,
 													 learning_rate_transitions=0.001)
 		
 		
 		args = parser.parse_args()
 		
-		if args.task == 'srl':
-				if args.subtask == 'class':
-						args.task = 'srl_classify'
-						args.classify = True
-				elif args.subtask == 'id':
-						args.task = 'srl_boundary'
-						args.identify = True
-				elif args.subtask == 'pred':
-						args.task = 'srl_predicates'
-						args.predicates = True
-		elif args.task == 'dependency':
-				if args.subtask == 'labeled':
-						args.task = 'labeled_dependency'
-						args.labeled = True
-				elif args.subtask == 'unlabeled':
-						args.task = 'unlabeled_dependency'
-						args.labeled = False
+		#if args.task == 'srl':
+			#	if args.subtask == 'class':
+			#			args.task = 'srl_classify'
+			#			args.classify = True
+			#	elif args.subtask == 'id':
+			#			args.task = 'srl_boundary'
+			#			args.identify = True
+			#	elif args.subtask == 'pred':
+			#			args.task = 'srl_predicates'
+			#			args.predicates = True
+		if args.task == 'dependency':
+			if args.subtask == 'labeled':
+				args.task = 'labeled_dependency'
+				args.labeled = True
+			elif args.subtask == 'unlabeled':
+				args.task = 'unlabeled_dependency'
+				args.labeled = False
 				
 		fill_defaults(args, defaults)
 		return args
