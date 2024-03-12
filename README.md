@@ -29,7 +29,7 @@
 | 23   | NLTKo(version 1.2.7)<br />Precision@K, Recall@K, HitRate@K, Wasserstein Distance 추가 | 김도원 | 23.11.23 |
 | 24   | NLTKo(version 1.2.8)<br />Jesson-Shannon distance 추가, Espresso5 ubuntu환경에서 실행 가능하도록 변경 | 김도원 | 23.11.30 |
 | 25   | NLTKo(version 1.2.9)<br />METEOR Score 복원 | 김도원 | 24.02.22 |
-| 26   | NLTKo(version 1.2.10)<br />METEOR Score 오류 수정, SRL tagger 추가 | 김도원 | 24.02.22 |
+| 26   | NLTKo(version 1.2.10)<br />METEOR Score 오류 수정, SRL tagger 추가 | 김도원 | 24.03.12 |
 
 
 <div style="page-break-after: always;"></div>
