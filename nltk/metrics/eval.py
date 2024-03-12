@@ -426,12 +426,45 @@ class StringMetric:
 	def _match_syn_with_sejong(self, hyp_list, ref_list):
 		syn_match = []
 		for i in range(len(hyp_list))[::-1]:
-			print("test 344434: ", hyp_list[i])
+			temp_syn_list = []
+			#print("test 344434: ", hyp_list[i])
 			if hyp_list[i][1][1] not in self.skip_pos:
 				entrys = ssem.entrys(hyp_list[i][1][0])
 				for entry in entrys:
 					for sense in entry.senses():
-						print("\t test 1233", sense)
+						if sense.syn():
+							temp_syn_list.append(sense.syn())
+			if temp_syn_list:
+				hyp_list[i][1].append(deepcopy(temp_syn_list))
+			
+			for j in range(len(ref_list))[::-1]:
+				is_break = False
+				if len(hyp_list[i][1]) == 3:
+					for syn in hyp_list[i][1][2]:
+
+						if syn[0] == ref_list[j][1][0]:
+							syn_match.append(
+								(hyp_list[i][0], ref_list[j][0])
+							)
+							is_break = True
+							hyp_list.pop(i)
+							ref_list.pop(j)
+							break
+				else:
+					if hyp_list[i][1] == ref_list[1][1]:
+						syn_match.append(
+							(hyp_list[i][0], ref_list[j][0])
+						)
+						is_break = True
+						hyp_list.pop(i)
+						ref_list.pop(j)
+				if is_break:
+					break
+					
+
+
+			# print("test 231232 ", hyp_list[i])
+
 
 		return syn_match, hyp_list, ref_list
 		
@@ -443,7 +476,7 @@ class StringMetric:
 		beta = 3.0
 		gamma = 0.5
 		enum_hyp, enum_ref = self._generate_enum(ref_tag, hyp_tag)
-		print("test 13333 ", enum_hyp)
+		# print("test 13333 ", enum_hyp)
 		for reference in enum_ref:
 			hyp_len = len(enum_hyp[0])
 			ref_len = len(reference)
@@ -453,19 +486,19 @@ class StringMetric:
 			syn_match, enum_hyp_list, enum_ref_list = self._match_syn_with_sejong(enum_hyp_list, enum_ref_list)
 			# print("test 123344 " ,enum_ref_list) ## [(0, ['오늘', 'NN']), (6, ['이', 'VB']), (7, ['었다', 'EE'])]
 
-
+			final_match = sorted(word_match + syn_match)
 
 			#최종 결과 계산
-			word_match_count = len(word_match)
+			final_match_count = len(final_match)
 
 		
-			precision = float(word_match_count) / hyp_len
-			recall = float(word_match_count) / ref_len
+			precision = float(final_match_count) / hyp_len
+			recall = float(final_match_count) / ref_len
 			fmean = (precision * recall) / (alpha * precision + (1 - alpha) * recall)
-			chunk_count = float(self._count_chunks(word_match))
+			chunk_count = float(self._count_chunks(final_match))
 			frag = 0.0
-			if word_match_count != 0:
-				frag = chunk_count / word_match_count
+			if final_match_count != 0:
+				frag = chunk_count / final_match_count
 			else:
 				frag = 0.0
 			penalty = gamma * frag ** beta

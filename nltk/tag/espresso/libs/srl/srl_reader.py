@@ -118,7 +118,7 @@ class SRLReader(reader.TaggerReader):
 			tag = self._read_role(tag)	
 			sent_tags.append((int(parse)-1, tag))			# note: codify_sentences
 
-			token = attributes.Token(word=hmorph, pos_h=hpos, morph_t=tmorph, pos_t=tpos, chunk=rel)
+			token = attributes.Token(word=word, morph_h=hmorph, morph_t=tmorph, pos_t=tpos, chunk=rel)
 			#token = attributes.Token(word, morph_h=hmorph, pos_h=hpos, morph_t=tmorph, pos_t=tpos, chunk=rel)
 			tokens.append(token)
 			if is_predicate:

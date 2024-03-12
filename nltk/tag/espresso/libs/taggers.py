@@ -421,7 +421,6 @@ class DependencyParser(Tagger):
 			# if the parser uses POS a feature, have a tagger tag it first
 			if self.use_pos:
 				eojeols, eojeol_features = self.pos_tagger.tag_tokens_for_parser(tokens, return_tokens=True)
-				##tokens = self.pos_tagger.tag_tokens(tokens, return_tokens=True)
 				#print("**", eojeols)
 				#print(eojeol_features)
 			
@@ -639,7 +638,7 @@ class POSTagger(Tagger):
 				#print("0", converted_tokens)
 						
 				answer = self.nn.tag_sentence(converted_tokens)
-				tags = [self.itd[tag] for tag in answer]				# 번호를 수로 표현
+				tags = [self.itd[tag] for tag in answer]				# 번호를 문자로 표현
 
 				morphs, morph_tags = self.get_morph_tokens(tokens, tags, mode)
 				#print("1", morphs, morph_tags)
@@ -649,7 +648,7 @@ class POSTagger(Tagger):
 
 				return morph_tags
 
-		def tag_tokens_for_parser(self, tokens, mode="eumjeol", return_tokens=False):
+		def tag_tokens_for_parser(self, tokens, mode="verb", return_tokens=False):
 				"""
 				Tags a given list of eojeol tokens.
 
@@ -761,12 +760,12 @@ class POSTagger(Tagger):
 			if mode=='eumjeol':
 				eumjeols, eumjeol_tags = self.get_eumjeol_tokens(morphs, morph_tags)
 				return eumjeols, eumjeol_tags
-			elif mode=='verb':
-				return morphs, morph_tags # 수정할 것
 
 			morphs, morph_tags = self.handling_co_tags(morphs, morph_tags)
 			#print("3", morphs, morph_tags)  # 원형복원 
 
+			if mode=='verb':
+				return morphs, morph_tags # 수정할 것
 
 
 			return morphs, morph_tags
@@ -869,7 +868,7 @@ class POSTagger(Tagger):
 
 			return morphs, morph_tags
 
-		def get_eojeol_tokens(self, tokens, tags, mode="eumjeol"):
+		def get_eojeol_tokens(self, tokens, tags, mode="verb"):
 			"""
 			# 복원 후 떨어진 형태소 연결, 구문분석에서 XV 형태소 연결하기
 			# 사랑+하 -> 사랑하 (구문분석)

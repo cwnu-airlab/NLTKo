@@ -250,7 +250,7 @@ Type %(prog)s [SUBTASK] -h to get subtask-specific help.'''
 															help='Argument identification and '\
 															'classification together')
 		'''
-		defaults['srl'] = dict(window=3, hidden=150, convolution=200, iterations=35,
+		defaults['srl'] = dict(window=3, hidden=150, convolution=200, iterations=8,
 														pos = 5,
 													 learning_rate=0.001, learning_rate_features=0.001,
 													 learning_rate_transitions=0.001)

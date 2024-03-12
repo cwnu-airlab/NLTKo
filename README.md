@@ -29,6 +29,7 @@
 | 23   | NLTKo(version 1.2.7)<br />Precision@K, Recall@K, HitRate@K, Wasserstein Distance 추가 | 김도원 | 23.11.23 |
 | 24   | NLTKo(version 1.2.8)<br />Jesson-Shannon distance 추가, Espresso5 ubuntu환경에서 실행 가능하도록 변경 | 김도원 | 23.11.30 |
 | 25   | NLTKo(version 1.2.9)<br />METEOR Score 복원 | 김도원 | 24.02.22 |
+| 26   | NLTKo(version 1.2.10)<br />METEOR Score 오류 수정, SRL tagger 추가 | 김도원 | 24.02.22 |
 
 
 <div style="page-break-after: always;"></div>
@@ -83,6 +84,7 @@
 	  * [4.6.2 dependency parse](#462-dependency-parse)
 	  * [4.6.3 wsd tag](#463-wsd-tag)
 	  * [4.6.4 ner tag](#464-ner-tag)
+    * [4.6.5 srl tag](#465-srl-tag)
   * [4.7 Translate](#47-translate)
   * [4.8 정렬 (alignment)](#48-정렬-alignment)
 	  * [4.8.1 Needleman-Wunsch 알고리즘](#481-needleman-wunsch-알고리즘)
@@ -1063,27 +1065,26 @@ Returns
 '''
 
 
->>> hyp = '현재 식량이 매우 부족하다.'
->>> ref = ['오늘 매우 양식이 부족하였다.']
-
+>>>hyp=['봉준호 감독이 아카데미에서 국제영화상을 수상했다.']
+>>>ref=['봉준호가 아카데미에서 각본상을 탔다.']
 
 # Meteor (single reference)
 >>> StringMetric().meteor(ref,hyp)
-0.5
+0.4536585365853659
 
->>> hyp='현재 식량이 매우 부족하다.'
->>> ref=['오늘 양식이 매우 부족하였다.', '오늘 매우 양식이 부족하였다.']
+>>>hyp=['현재 식량이 매우 부족하다.']
+>>>ref=['오늘 매우 양식이 부족하였다.']
 
+
+>>> StringMetric().meteor(ref,hyp)
+0.5645569620253165
+
+>>>hyp=['현재 식량이 매우 부족하다.']
+>>>ref=['오늘 양식이 매우 부족하였다.', '오늘 매우 양식이 부족하였다.', '오늘 식량이 매우 부족하였다.']
 
 # Meteor (Multiple reference) : return max score
 >>> StringMetric().meteor(ref,hyp)
-0.9921875
-
->>> hyp='봉준호 감독이 아카데미에서 국제영화상을 수상했다.'
->>> ref=['봉준호가 아카데미에서 각본상을 탔다.']
-
->>> StringMetric().meteor(ref,hyp)
-0.36585365
+0.6303797468354431
 ```
 
 <div style="page-break-after: always;"></div> 
@@ -1145,6 +1146,19 @@ Espresso5 모델을 사용한 tagger를 사용할 수 있다.
 >>> print(tagger.tag('ner', sent))
 ['나_*', '는_*', '배_AM-S', '가_*', '고프_*', '다_*', '._*']
 ~~~
+
+##### 4.6.5 srl tag
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.tag import EspressoTagger
+>>> sent = "나는 배가 고프다. 나는 아름다운 강산에 살고있다."
+
+>>> tagger = EspressoTagger()
+>>> print(tagger.tag('srl', sent))
+[('ARG0', '나는'), ('ARG1', '배가'), ('ARG0', '나는'), ('ARG1', '강산에')]
+~~~
+
 
 ### 4.7. Translate 
 
