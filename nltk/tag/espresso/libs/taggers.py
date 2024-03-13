@@ -27,10 +27,10 @@ def load_network(md):
 		"""
 		Loads the network from the default file and returns it.
 		"""
-		logger = logging.getLogger("Logger")
+		# logger = logging.getLogger("Logger")
 		is_srl = md.task == 'srl'
 		
-		logger.info('Loading network')
+		# logger.info('Loading network')
 		if is_srl :
 				net_class = ConvolutionalNetwork
 		elif md.task.endswith('dependency'):
@@ -40,7 +40,7 @@ def load_network(md):
 		
 		nn = net_class.load_from_file(md.paths[md.network])
 		
-		logger.info('Done')
+		# logger.info('Done')
 		return nn
 
 
@@ -51,8 +51,8 @@ def create_reader(md, gold_file=None):
 		:param gold_file: path to a file with gold standard data, if
 				the reader will be used for testing.
 		"""
-		logger = logging.getLogger('Logger')
-		logger.info('Loading text reader...')
+		# logger = logging.getLogger('Logger')
+		# logger.info('Loading text reader...')
 		
 		if md.task == 'pos':
 				tr = POSReader(md, filename=gold_file)
@@ -73,7 +73,7 @@ def create_reader(md, gold_file=None):
 		else:
 				raise ValueError("Unknown task: %s" % md.task)
 		
-		logger.info('Done')
+		# logger.info('Done')
 		return tr
 
 def _group_arguments(tokens, predicate_positions, boundaries, labels):

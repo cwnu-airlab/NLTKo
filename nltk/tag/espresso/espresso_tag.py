@@ -27,7 +27,7 @@ class EspressoTagger:
         self.lang = lang
         self.path = ""
 
-    def tag(self, task, text, use_tokenizer=False):
+    def tag(self, task, text, use_tokenizer=False, lemma=True):
         """
         This function provides an interactive environment for running the system.
         It receives text from the standard input, tokenizes it, and calls the function
@@ -69,14 +69,18 @@ class EspressoTagger:
 
         #         if not text : break
                 
-        if use_tokenizer:
+        if use_tokenizer and lemma:
                 result = tagger.tag(text, mode='standard')
+        elif use_tokenizer and not lemma:
+                result = tagger.tag(text, mode='eumjeol')
         else:
                 tokens = text.split()
                 if task_lower != 'dependency':
                         result = [tagger.tag_tokens(tokens, True)]
                 else:
-                        result = [tagger.tag_tokens(tokens)]						
+                        result = [tagger.tag_tokens(tokens)]
+
+					
         return self._result_tagged(result, task_lower)
 
     def _result_tagged(self, tagged_sents, task):

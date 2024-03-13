@@ -817,6 +817,8 @@ from nltk.metrics import DefaultMetric
 
 ​	문장 간 평가를 위한 방법인 WER/CER, BLEU, ROUGE, CIDER 사용이 가능하다. 각 평가 방법마다 입력 형식이 다르므로 주의하여 사용해야 한다. **각 평가 방법에 대한 자세한 설명과 논문은 부록에서 확인할 수 있다.**
 
+**영어 사용시 주의사항** <br/>
+영어에 대한 StringMetric을 사용할땐 `StringMetric(lang='english')`로 생성자를 변경해야한다.
 
 
 ##### 4.5.1. WER/CER
@@ -1047,23 +1049,6 @@ Returns
 ```python
 >>> from nltk.metrics import StringMetric
 
-'''
-Args
-	reference : list of str(sentences)
-	hypothesis: str (sentence)
-
-Returns
-	meteor score : flaot
-	
-::
-		hypothesis=hyp sentence
-
-		multi_reference=[
-					ref1_sentence,
-					ref2_sentence,
-					...]
-'''
-
 
 >>>hyp=['봉준호 감독이 아카데미에서 국제영화상을 수상했다.']
 >>>ref=['봉준호가 아카데미에서 각본상을 탔다.']
@@ -1107,6 +1092,19 @@ Espresso5 모델을 사용한 tagger를 사용할 수 있다.
 >>> print(tagger.tag('pos', sent))
 ['나_NN', '는_JJ', ' _SP', '아름답_VB', 'ㄴ_EE', ' _SP', '강산_NN', '에_JJ', ' _SP', '살_VB', '고_EE', '있_VB', '다_EE', '._SY']
 ~~~
+
+* `lemma=False` 파라미터를 주어서 원형 복원을 하지않고 품사 태깅을 할 수 있다.
+
+**사용법 & 결과**
+~~~python
+>>> from nltk.tag import EspressoTagger
+>>> sent = "나는 아름다운 강산에 살고있다."
+
+>>> tagger = EspressoTagger()
+>>> print(tagger.tag('pos', sent, lemma=False))
+['나_NN', '는_JJ', ' _SP', '아름다운_VB', ' _SP', '강산_NN', '에_JJ', ' _SP', '살_VB', '고_EE', '있_VB', '다_EE', '._SY']
+~~~
+
 
 ##### 4.6.2. dependency parse
 
