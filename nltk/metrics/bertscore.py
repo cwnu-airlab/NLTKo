@@ -55,20 +55,25 @@ import time
 from collections import defaultdict
 
 
-from nltk.search.kobert_tokenizer import KoBERTTokenizer
+# from nltk.search.kobert_tokenizer import KoBERTTokenizer
 from nltk.make_requirement import make_requirement
 try:
     import torch
     import pandas as pd
     import bert_score
+    from transformers import AutoTokenizer, AutoModel, XLNetTokenizer
+    # import protobuf
 except ImportError:
-    requirement = ['torch', 'pandas', 'bert_score']
+    requirement = ['torch', 'pandas', 'bert_score', 'transformers', "protobuf", "sentencepiece"]
     file_path = make_requirement(requirement)
     raise Exception(f"""
     Need to install Libraries, please pip install below libraries
     \t pip install torch
     \t pip install pandas
     \t pip install bert_score
+    \t pip install transformers
+    \t pip install protobuf
+    \t pip install sentencepiece
     Or, use pip install requirement.txt
     \t  pip install -r {file_path}
     """)
@@ -159,7 +164,8 @@ class BERTScore:
 
         # Load model and tokenizer
         if self.model_name_or_path == 'skt/kobert-base-v1':
-            self.tokenizer = KoBERTTokenizer.from_pretrained(self.model_name_or_path)
+            # self.tokenizer = KoBERTTokenizer.from_pretrained(self.model_name_or_path)
+            self.tokenizer = XLNetTokenizer.from_pretrained(self.model_name_or_path)
         else:
             self.tokenizer = get_tokenizer(self.model_name_or_path, self.use_fast_tokenizer)
         self.model = get_model(self.model_name_or_path, self.num_layers, self.all_layers)

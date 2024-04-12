@@ -2,6 +2,7 @@
 
 import itertools
 from collections import Counter, OrderedDict as OD
+from nltk import korChar
 
 class WordDictionary(dict):
 	"""
@@ -55,17 +56,6 @@ class WordDictionary(dict):
 			#for c in words:
 			#	print c.encode('utf-8')
 
-		# 마지막에 넣고 
-		#special_symbols = [WordDictionary.rare, 
-		#				   WordDictionary.padding_left, 
-		#				   WordDictionary.padding_right]
-		#for symbol in special_symbols :
-		#	words.update(symbol)
-		#	#words.append(symbol)
-
-		# 정렬 함
-		#words = sorted(words)
-		
 		# verifies the maximum size
 		if size is None:
 			size = len(words)

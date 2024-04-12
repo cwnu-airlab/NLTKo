@@ -30,6 +30,7 @@
 | 24   | NLTKo(version 1.2.8)<br />Jesson-Shannon distance 추가, Espresso5 ubuntu환경에서 실행 가능하도록 변경 | 김도원 | 23.11.30 |
 | 25   | NLTKo(version 1.2.9)<br />METEOR Score 복원 | 김도원 | 24.02.22 |
 | 26   | NLTKo(version 1.2.10)<br />METEOR Score 오류 수정, SRL tagger 추가 | 김도원 | 24.03.12 |
+| 27   | NLTKo(version 1.2.11)<br />Espresso SRL 출력 형식 변경, KoBERTTokenizer 변경, Espresso tag 사용방법 변경 | 김도원 | 24.04.01 |
 
 
 <div style="page-break-after: always;"></div>
@@ -909,6 +910,23 @@ Returns
 0.25400289715191
 ```
 
+**Smoothing Function 사용방법** <br/>
+- 값이 너무 적은 경우 `Smoothing Function`을 사용하라는 경고가 뜰 수 있다.
+
+~~~python
+>>> from nltk.metrics import StringMetric
+>>> from nltk.translate.bleu_score import SmoothingFunction
+
+"""
+SmoothingFunction has method0~7
+"""
+
+>>> can=['빛을 쐬는 노인은 완벽한 어두운곳에서 잠든 사람과 비교할 때 강박증이 심해질 기회가 훨씬 높았다']
+>>> ref=['빛을 쐬는 사람은 완벽한 어둠에서 잠든 사람과 비교할 때 우울증이 심해질 기회가 훨씬 높았다']
+
+>>> StringMetric().bleu(ref, can, smoothing_function=SmoothingFunction().method4)
+0.4001601601922499
+~~~
 
 
 ##### 4.5.3. ROUGE
@@ -1088,8 +1106,8 @@ Espresso5 모델을 사용한 tagger를 사용할 수 있다.
 >>> from nltk.tag import EspressoTagger
 >>> sent = "나는 아름다운 강산에 살고있다."
 
->>> tagger = EspressoTagger()
->>> print(tagger.tag('pos', sent))
+>>> tagger = EspressoTagger(task='pos')
+>>> print(tagger.tag(sent))
 ['나_NN', '는_JJ', ' _SP', '아름답_VB', 'ㄴ_EE', ' _SP', '강산_NN', '에_JJ', ' _SP', '살_VB', '고_EE', '있_VB', '다_EE', '._SY']
 ~~~
 
@@ -1100,8 +1118,8 @@ Espresso5 모델을 사용한 tagger를 사용할 수 있다.
 >>> from nltk.tag import EspressoTagger
 >>> sent = "나는 아름다운 강산에 살고있다."
 
->>> tagger = EspressoTagger()
->>> print(tagger.tag('pos', sent, lemma=False))
+>>> tagger = EspressoTagger(task='pos')
+>>> print(tagger.tag(sent, lemma=False))
 ['나_NN', '는_JJ', ' _SP', '아름다운_VB', ' _SP', '강산_NN', '에_JJ', ' _SP', '살_VB', '고_EE', '있_VB', '다_EE', '._SY']
 ~~~
 
@@ -1114,8 +1132,8 @@ Espresso5 모델을 사용한 tagger를 사용할 수 있다.
 >>> from nltk.tag import EspressoTagger
 >>> sent = "나는 배가 고프다. 나는 아름다운 강산에 살고있다."
 
->>> tagger = EspressoTagger()
->>> print(tagger.tag('dependency', sent))
+>>> tagger = EspressoTagger(task='dependency')
+>>> print(tagger.tag(sent))
 [[(1, '나는', '3', 'NP_SBJ'), (2, '배가', '3', 'NP_SBJ'), (3, '고프다', '0', 'VP')], [(1, '나는', '4', 'NP_SBJ'), (2, '아름답ㄴ', '3', 'VP_MOD'), (3, '강산에', '4', 'NP_AJT'), (4, '살고있다', '0', 'VP')]]
 ~~~
 
@@ -1127,8 +1145,8 @@ Espresso5 모델을 사용한 tagger를 사용할 수 있다.
 >>> from nltk.tag import EspressoTagger
 >>> sent = "나는 아름다운 강산에 살고있다."
 
->>> tagger = EspressoTagger()
->>> print(tagger.tag('wsd', sent))
+>>> tagger = EspressoTagger(task='wsd')
+>>> print(tagger.tag(sent))
 ['나_*', '는_*', '아름답_*', 'ㄴ_*', '강산_01', '에_*', '살_01', '고_*', '있_*', '다_*', '._*']
 ~~~
 
@@ -1140,8 +1158,8 @@ Espresso5 모델을 사용한 tagger를 사용할 수 있다.
 >>> from nltk.tag import EspressoTagger
 >>> sent = "나는 배가 고프다."
 
->>> tagger = EspressoTagger()
->>> print(tagger.tag('ner', sent))
+>>> tagger = EspressoTagger(task='ner')
+>>> print(tagger.tag(sent))
 ['나_*', '는_*', '배_AM-S', '가_*', '고프_*', '다_*', '._*']
 ~~~
 
@@ -1152,9 +1170,9 @@ Espresso5 모델을 사용한 tagger를 사용할 수 있다.
 >>> from nltk.tag import EspressoTagger
 >>> sent = "나는 배가 고프다. 나는 아름다운 강산에 살고있다."
 
->>> tagger = EspressoTagger()
->>> print(tagger.tag('srl', sent))
-[('ARG0', '나는'), ('ARG1', '배가'), ('ARG0', '나는'), ('ARG1', '강산에')]
+>>> tagger = EspressoTagger(task='srl')
+>>> print(tagger.tag(sent))
+[{'고프다.': {'ARG0': '나는', 'ARG1': '배가'}}, {'아름다운': {}, '살고있다.': {'ARG0': '나는', 'ARG1': '강산에'}}]
 ~~~
 
 

@@ -17,7 +17,7 @@ import requests
 import zipfile
 
 class EspressoTagger:
-    def __init__(self, data_dir=None, lang='ko'):
+    def __init__(self, data_dir=None, lang='ko', task="pos"):
         self.data_dir = data_dir
         if data_dir == None:
             path=os.path.dirname(__file__)
@@ -26,8 +26,31 @@ class EspressoTagger:
         #     print(path)
         self.lang = lang
         self.path = ""
+        self.tagger = None
 
-    def tag(self, task, text, use_tokenizer=False, lemma=True):
+        task_lower = task.lower()
+        self.task = task_lower
+        if not self._check_model():
+            self._download_model()
+
+
+        set_data_dir(self.data_dir)
+
+        if task_lower == 'pos':
+                self.tagger = taggers.POSTagger(language=self.lang, data_dir=self.data_dir)
+        elif task_lower == 'ner':
+                self.tagger = taggers.NERTagger(language=self.lang, data_dir=self.data_dir)
+        elif task_lower == 'wsd':
+                self.tagger = taggers.WSDTagger(language=self.lang, data_dir=self.data_dir)
+        elif task_lower == 'srl':
+                self.tagger = taggers.SRLTagger(language=self.lang, data_dir=self.data_dir)
+        elif task_lower == 'dependency':
+                self.tagger = taggers.DependencyParser(language=self.lang)
+        else:
+                raise ValueError('Unknown task: %s' % self.task)
+        
+
+    def tag(self, text, use_tokenizer=False, lemma=True):
         """
         This function provides an interactive environment for running the system.
         It receives text from the standard input, tokenizes it, and calls the function
@@ -38,26 +61,26 @@ class EspressoTagger:
         """
         
         use_tokenizer = not use_tokenizer
-        task_lower = task.lower()
+        # task_lower = task.lower()
         
-        if not self._check_model():
-            self._download_model()
+        # if not self._check_model():
+        #     self._download_model()
 
 
-        set_data_dir(self.data_dir)
+        # set_data_dir(self.data_dir)
 
-        if task_lower == 'pos':
-                tagger = taggers.POSTagger(language=self.lang, data_dir=self.data_dir)
-        elif task_lower == 'ner':
-                tagger = taggers.NERTagger(language=self.lang, data_dir=self.data_dir)
-        elif task_lower == 'wsd':
-                tagger = taggers.WSDTagger(language=self.lang, data_dir=self.data_dir)
-        elif task_lower == 'srl':
-                tagger = taggers.SRLTagger(language=self.lang, data_dir=self.data_dir)
-        elif task_lower == 'dependency':
-                tagger = taggers.DependencyParser(language=self.lang)
-        else:
-                raise ValueError('Unknown task: %s' % task)
+        # if task_lower == 'pos':
+        #         tagger = taggers.POSTagger(language=self.lang, data_dir=self.data_dir)
+        # elif task_lower == 'ner':
+        #         tagger = taggers.NERTagger(language=self.lang, data_dir=self.data_dir)
+        # elif task_lower == 'wsd':
+        #         tagger = taggers.WSDTagger(language=self.lang, data_dir=self.data_dir)
+        # elif task_lower == 'srl':
+        #         tagger = taggers.SRLTagger(language=self.lang, data_dir=self.data_dir)
+        # elif task_lower == 'dependency':
+        #         tagger = taggers.DependencyParser(language=self.lang)
+        # else:
+        #         raise ValueError('Unknown task: %s' % task)
         
         # while True:
         #         try:
@@ -70,18 +93,18 @@ class EspressoTagger:
         #         if not text : break
                 
         if use_tokenizer and lemma:
-                result = tagger.tag(text, mode='standard')
+                result = self.tagger.tag(text, mode='standard')
         elif use_tokenizer and not lemma:
-                result = tagger.tag(text, mode='eumjeol')
+                result = self.tagger.tag(text, mode='eumjeol')
         else:
                 tokens = text.split()
-                if task_lower != 'dependency':
-                        result = [tagger.tag_tokens(tokens, True)]
+                if self.task != 'dependency':
+                        result = [self.tagger.tag_tokens(tokens, True)]
                 else:
-                        result = [tagger.tag_tokens(tokens)]
+                        result = [self.tagger.tag_tokens(tokens)]
 
 					
-        return self._result_tagged(result, task_lower)
+        return self._result_tagged(result, self.task)
 
     def _result_tagged(self, tagged_sents, task):
         """
@@ -138,15 +161,25 @@ class EspressoTagger:
     def _return_tagged_srl(self, tagged_sents):
         result = []
         for sent in tagged_sents:
-                print (' '.join(sent.tokens))
+                # print (' '.join(sent.tokens))
+                temp_dict1 = {}
                 for predicate, arg_structure in sent.arg_structures:
-                        print (predicate)
+                        # print ("test 1 :", predicate)
+                        # print("te22 :", arg_structure)
+                        
+                        temp_dict2 = {}
                         for label in arg_structure:
                                 argument = ' '.join(arg_structure[label])
                                 # line = '\t%s: %s' % (label, argument)
                                 # print (line)
-                                result.append((label, argument))
+                                temp_dict2[label] = argument
+                                
+                                # result.append((label, argument))
                 # print ('\n')
+                        temp_dict1[predicate] = temp_dict2
+
+                result.append(temp_dict1)
+
         return result
 
     def _return_tagged_ner(self, tagged_sents):
@@ -211,5 +244,5 @@ class EspressoTagger:
         return temp_list
 
 if __name__ == '__main__':
-    tagger = EspressoTagger()
-    print(tagger.tag('pos', "나는 아름다운 강산에 살고있다."))
+    tagger = EspressoTagger(task='pos')
+    print(tagger.tag("나는 아름다운 강산에 살고있다."))

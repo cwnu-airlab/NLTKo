@@ -1429,6 +1429,7 @@ struct __pyx_obj_4libs_7network_ConvolutionalNetwork {
   PyArrayObject *convolution_lookup;
   PyArrayObject *max_indices;
   int num_targets;
+  PyBoolObject *only_classify;
   int half_window;
   PyArrayObject *hidden_gradients;
   PyArrayObject *hidden2_gradients;
@@ -1588,7 +1589,7 @@ struct __pyx_obj_4libs_7network___pyx_scope_struct_8_train {
  *         """
  *         self.num_sentences = len(sentences)
  *         self.num_tokens = sum(len(sent) for sent in sentences)             # <<<<<<<<<<<<<<
- *         #self.only_classify = arguments is not None
+ *         self.only_classify = arguments is not None
  * 
  */
 struct __pyx_obj_4libs_7network___pyx_scope_struct_9_genexpr {
@@ -2372,6 +2373,9 @@ static CYTHON_INLINE PyObject *__Pyx_PyIter_Next2(PyObject *, PyObject *);
 /* None.proto */
 static CYTHON_INLINE void __Pyx_RaiseUnboundLocalError(const char *varname);
 
+/* RaiseException.proto */
+static void __Pyx_Raise(PyObject *type, PyObject *value, PyObject *tb, PyObject *cause);
+
 /* ListAppend.proto */
 #if CYTHON_USE_PYLIST_INTERNALS && CYTHON_ASSUME_SAFE_MACROS
 static CYTHON_INLINE int __Pyx_PyList_Append(PyObject* list, PyObject* x) {
@@ -2433,9 +2437,6 @@ static PyObject *__Pyx_Import(PyObject *name, PyObject *from_list, int level);
 
 /* ImportFrom.proto */
 static PyObject* __Pyx_ImportFrom(PyObject* module, PyObject* name);
-
-/* RaiseException.proto */
-static void __Pyx_Raise(PyObject *type, PyObject *value, PyObject *tb, PyObject *cause);
 
 /* HasAttr.proto */
 static CYTHON_INLINE int __Pyx_HasAttr(PyObject *, PyObject *);
@@ -2908,6 +2909,7 @@ static PyObject *__pyx_builtin_xrange;
 static PyObject *__pyx_builtin_zip;
 static PyObject *__pyx_builtin_FloatingPointError;
 static PyObject *__pyx_builtin_super;
+static PyObject *__pyx_builtin_NotImplementedError;
 static PyObject *__pyx_builtin_ImportError;
 static const char __pyx_k_[] = ", ";
 static const char __pyx_k_T[] = "T";
@@ -2916,7 +2918,7 @@ static const char __pyx_k_f[] = "f";
 static const char __pyx_k__2[] = "\n";
 static const char __pyx_k__7[] = "   ";
 static const char __pyx_k_np[] = "np";
-static const char __pyx_k__11[] = "    ";
+static const char __pyx_k__12[] = "    ";
 static const char __pyx_k_add[] = "add";
 static const char __pyx_k_dot[] = "dot";
 static const char __pyx_k_exp[] = "exp";
@@ -3093,6 +3095,7 @@ static const char __pyx_k_create_pred_lookup[] = "_create_pred_lookup";
 static const char __pyx_k_generate_save_dict[] = "_generate_save_dict";
 static const char __pyx_k_print_epoch_report[] = "_print_epoch_report";
 static const char __pyx_k_Feature_table_sizes[] = "\nFeature table sizes: ";
+static const char __pyx_k_NotImplementedError[] = "NotImplementedError";
 static const char __pyx_k_calculate_gradients[] = "_calculate_gradients";
 static const char __pyx_k_set_validation_data[] = "set_validation_data";
 static const char __pyx_k_target_dist_weights[] = "target_dist_weights";
@@ -3129,12 +3132,14 @@ static const char __pyx_k_corrections_skipped_learning_ra[] = " corrections skip
 static const char __pyx_k_numpy_core_multiarray_failed_to[] = "numpy.core.multiarray failed to import";
 static const char __pyx_k_tag_sentence_labeled_dependency[] = "_tag_sentence_labeled_dependency";
 static const char __pyx_k_tag_sentence_unlabeled_dependen[] = "_tag_sentence_unlabeled_dependency";
+static const char __pyx_k_Confidence_measure_not_implement[] = "Confidence measure not implemented for argument classifying";
 static const char __pyx_k_Incompatible_checksums_0x_x_vs_0[] = "Incompatible checksums (0x%x vs (0xc0e08fa, 0x72479d4, 0xd248f0d) = (accuracy, answer_score, decay_factor, error, feature_tables, features_per_token, float_errors, hidden_bias, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, net_gradients, network_filename, network_text_filename, num_tokens, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, sentence_accuracy, sentence_lookup, skips, trans_gradients, transitions, use_learning_rate_decay, validation_sentences, validation_tags, word_window_size))";
 static const char __pyx_k_numpy_core_umath_failed_to_impor[] = "numpy.core.umath failed to import";
-static const char __pyx_k_Incompatible_checksums_0x_x_vs_0_2[] = "Incompatible checksums (0x%x vs (0x796d6c2, 0xd7cf482, 0x316b313) = (accuracy, answer_score, convolution_lookup, decay_factor, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_predicates, validation_sentences, validation_tags, word_window_size))";
-static const char __pyx_k_Incompatible_checksums_0x_x_vs_0_3[] = "Incompatible checksums (0x%x vs (0xeb21070, 0x72312ae, 0x5bb78a3) = (accuracy, answer_score, convolution_lookup, decay_factor, dependency_weights, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_heads, validation_predicates, validation_sentences, validation_tags, word_window_size))";
+static const char __pyx_k_Incompatible_checksums_0x_x_vs_0_2[] = "Incompatible checksums (0x%x vs (0x8e85e02, 0x2f64fba, 0x8d42e09) = (accuracy, answer_score, convolution_lookup, decay_factor, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, only_classify, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_predicates, validation_sentences, validation_tags, word_window_size))";
+static const char __pyx_k_Incompatible_checksums_0x_x_vs_0_3[] = "Incompatible checksums (0x%x vs (0x1a87293, 0xca52c1e, 0x8b21fc2) = (accuracy, answer_score, convolution_lookup, decay_factor, dependency_weights, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, only_classify, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_heads, validation_predicates, validation_sentences, validation_tags, word_window_size))";
 static PyObject *__pyx_kp_u_;
 static PyObject *__pyx_kp_u_Accuracy;
+static PyObject *__pyx_kp_u_Confidence_measure_not_implement;
 static PyObject *__pyx_kp_u_Convolution_layer_size;
 static PyObject *__pyx_n_s_ConvolutionalDependencyNetwork;
 static PyObject *__pyx_n_s_ConvolutionalNetwork;
@@ -3150,6 +3155,7 @@ static PyObject *__pyx_n_s_Infinity;
 static PyObject *__pyx_kp_u_Input_layer_size;
 static PyObject *__pyx_n_u_Logger;
 static PyObject *__pyx_n_s_Network;
+static PyObject *__pyx_n_s_NotImplementedError;
 static PyObject *__pyx_kp_u_Output_size;
 static PyObject *__pyx_n_s_PickleError;
 static PyObject *__pyx_kp_u_Saved_model;
@@ -3159,7 +3165,7 @@ static PyObject *__pyx_n_s_T;
 static PyObject *__pyx_kp_u_Token_accuracy;
 static PyObject *__pyx_kp_u_Training_for_up_to_d_epochs;
 static PyObject *__pyx_kp_u_Word_window_size;
-static PyObject *__pyx_kp_u__11;
+static PyObject *__pyx_kp_u__12;
 static PyObject *__pyx_kp_u__2;
 static PyObject *__pyx_kp_u__7;
 static PyObject *__pyx_n_s_add;
@@ -3551,36 +3557,37 @@ static PyObject *__pyx_float_neg_1_0;
 static PyObject *__pyx_int_0;
 static PyObject *__pyx_int_1;
 static PyObject *__pyx_int_2;
-static PyObject *__pyx_int_51819283;
-static PyObject *__pyx_int_96172195;
-static PyObject *__pyx_int_119739054;
+static PyObject *__pyx_int_27816595;
+static PyObject *__pyx_int_49696698;
 static PyObject *__pyx_int_119830996;
-static PyObject *__pyx_int_127325890;
+static PyObject *__pyx_int_145891266;
+static PyObject *__pyx_int_148123145;
+static PyObject *__pyx_int_149446146;
 static PyObject *__pyx_int_202246394;
+static PyObject *__pyx_int_212151326;
 static PyObject *__pyx_int_220499725;
-static PyObject *__pyx_int_226292866;
-static PyObject *__pyx_int_246550640;
 static PyObject *__pyx_int_neg_1;
 static PyObject *__pyx_int_neg_2;
 static PyObject *__pyx_int_neg_1000;
 static PyObject *__pyx_slice__3;
 static PyObject *__pyx_slice__4;
 static PyObject *__pyx_slice__5;
-static PyObject *__pyx_slice__8;
+static PyObject *__pyx_slice__9;
 static PyObject *__pyx_tuple__6;
-static PyObject *__pyx_tuple__9;
-static PyObject *__pyx_slice__10;
-static PyObject *__pyx_tuple__13;
-static PyObject *__pyx_tuple__15;
-static PyObject *__pyx_tuple__17;
+static PyObject *__pyx_tuple__8;
+static PyObject *__pyx_slice__11;
+static PyObject *__pyx_tuple__10;
+static PyObject *__pyx_tuple__14;
+static PyObject *__pyx_tuple__16;
 static PyObject *__pyx_tuple__18;
 static PyObject *__pyx_tuple__19;
 static PyObject *__pyx_tuple__20;
 static PyObject *__pyx_tuple__21;
 static PyObject *__pyx_tuple__22;
-static PyObject *__pyx_codeobj__12;
-static PyObject *__pyx_codeobj__14;
-static PyObject *__pyx_codeobj__16;
+static PyObject *__pyx_tuple__23;
+static PyObject *__pyx_codeobj__13;
+static PyObject *__pyx_codeobj__15;
+static PyObject *__pyx_codeobj__17;
 /* Late includes */
 
 /* "libs/network.pyx":28
@@ -21222,7 +21229,7 @@ static PyObject *__pyx_gb_4libs_7network_20ConvolutionalNetwork_5train_2generato
  *         """
  *         self.num_sentences = len(sentences)
  *         self.num_tokens = sum(len(sent) for sent in sentences)             # <<<<<<<<<<<<<<
- *         #self.only_classify = arguments is not None
+ *         self.only_classify = arguments is not None
  * 
  */
 
@@ -21372,9 +21379,9 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
   Py_ssize_t __pyx_t_2;
   PyObject *__pyx_t_3 = NULL;
   int __pyx_t_4;
-  PyObject *__pyx_t_5 = NULL;
+  int __pyx_t_5;
   PyObject *__pyx_t_6 = NULL;
-  int __pyx_t_7;
+  PyObject *__pyx_t_7 = NULL;
   int __pyx_t_8;
   PyObject *(*__pyx_t_9)(PyObject *);
   PyObject *__pyx_t_10 = NULL;
@@ -21402,7 +21409,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
  *         """
  *         self.num_sentences = len(sentences)             # <<<<<<<<<<<<<<
  *         self.num_tokens = sum(len(sent) for sent in sentences)
- *         #self.only_classify = arguments is not None
+ *         self.only_classify = arguments is not None
  */
   __pyx_t_1 = __pyx_cur_scope->__pyx_v_sentences;
   __Pyx_INCREF(__pyx_t_1);
@@ -21418,7 +21425,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
  *         """
  *         self.num_sentences = len(sentences)
  *         self.num_tokens = sum(len(sent) for sent in sentences)             # <<<<<<<<<<<<<<
- *         #self.only_classify = arguments is not None
+ *         self.only_classify = arguments is not None
  * 
  */
   __pyx_t_1 = __pyx_pf_4libs_7network_20ConvolutionalNetwork_5train_genexpr(((PyObject*)__pyx_cur_scope)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 288, __pyx_L1_error)
@@ -21430,8 +21437,25 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_v_self->__pyx_base.num_tokens = __pyx_t_4;
 
+  /* "networkconv.pyx":289
+ *         self.num_sentences = len(sentences)
+ *         self.num_tokens = sum(len(sent) for sent in sentences)
+ *         self.only_classify = arguments is not None             # <<<<<<<<<<<<<<
+ * 
+ *         logger = logging.getLogger("Logger")
+ */
+  __pyx_t_5 = (__pyx_v_arguments != ((PyObject*)Py_None));
+  __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_t_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 289, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  if (!(likely(__Pyx_TypeTest(__pyx_t_3, __pyx_ptype_7cpython_4bool_bool)))) __PYX_ERR(1, 289, __pyx_L1_error)
+  __Pyx_GIVEREF(__pyx_t_3);
+  __Pyx_GOTREF(__pyx_v_self->only_classify);
+  __Pyx_DECREF(((PyObject *)__pyx_v_self->only_classify));
+  __pyx_v_self->only_classify = ((PyBoolObject *)__pyx_t_3);
+  __pyx_t_3 = 0;
+
   /* "networkconv.pyx":291
- *         #self.only_classify = arguments is not None
+ *         self.only_classify = arguments is not None
  * 
  *         logger = logging.getLogger("Logger")             # <<<<<<<<<<<<<<
  *         logger.info("Training for up to %d epochs" % epochs)
@@ -21439,24 +21463,24 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
  */
   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_logging); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 291, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_getLogger); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 291, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_getLogger); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 291, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = NULL;
-  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
-    __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_5);
+  if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_6))) {
+    __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_6);
     if (likely(__pyx_t_1)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
       __Pyx_INCREF(__pyx_t_1);
       __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_5, function);
+      __Pyx_DECREF_SET(__pyx_t_6, function);
     }
   }
-  __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_1, __pyx_n_u_Logger) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_n_u_Logger);
+  __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_6, __pyx_t_1, __pyx_n_u_Logger) : __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_n_u_Logger);
   __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 291, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __pyx_v_logger = __pyx_t_3;
   __pyx_t_3 = 0;
 
@@ -21467,29 +21491,29 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
  *         last_accuracy = 0
  *         top_accuracy = 0
  */
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_logger, __pyx_n_s_info); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 292, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_v_logger, __pyx_n_s_info); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 292, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_6);
   __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_epochs); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 292, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_6 = PyUnicode_Format(__pyx_kp_u_Training_for_up_to_d_epochs, __pyx_t_1); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 292, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_6);
+  __pyx_t_7 = PyUnicode_Format(__pyx_kp_u_Training_for_up_to_d_epochs, __pyx_t_1); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 292, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_1 = NULL;
-  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
-    __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_5);
+  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_6))) {
+    __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_6);
     if (likely(__pyx_t_1)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
       __Pyx_INCREF(__pyx_t_1);
       __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_5, function);
+      __Pyx_DECREF_SET(__pyx_t_6, function);
     }
   }
-  __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_1, __pyx_t_6) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_6);
+  __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_6, __pyx_t_1, __pyx_t_7) : __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_t_7);
   __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+  __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 292, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
   /* "networkconv.pyx":293
@@ -21519,11 +21543,11 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
  */
   __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 295, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_Infinity); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 295, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_Infinity); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 295, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_v_last_error = __pyx_t_5;
-  __pyx_t_5 = 0;
+  __pyx_v_last_error = __pyx_t_6;
+  __pyx_t_6 = 0;
 
   /* "networkconv.pyx":297
  *         last_error = np.Infinity
@@ -21532,8 +21556,8 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
  *             self.set_validation_data(sentences, predicates, tags, arguments)
  * 
  */
-  __pyx_t_7 = (__pyx_v_self->__pyx_base.validation_sentences == ((PyObject*)Py_None));
-  __pyx_t_8 = (__pyx_t_7 != 0);
+  __pyx_t_5 = (__pyx_v_self->__pyx_base.validation_sentences == ((PyObject*)Py_None));
+  __pyx_t_8 = (__pyx_t_5 != 0);
   if (__pyx_t_8) {
 
     /* "networkconv.pyx":298
@@ -21545,13 +21569,13 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
  */
     __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_set_validation_data); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 298, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_6 = NULL;
+    __pyx_t_7 = NULL;
     __pyx_t_4 = 0;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
-      __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_3);
-      if (likely(__pyx_t_6)) {
+      __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_3);
+      if (likely(__pyx_t_7)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
-        __Pyx_INCREF(__pyx_t_6);
+        __Pyx_INCREF(__pyx_t_7);
         __Pyx_INCREF(function);
         __Pyx_DECREF_SET(__pyx_t_3, function);
         __pyx_t_4 = 1;
@@ -21559,25 +21583,25 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
     }
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_3)) {
-      PyObject *__pyx_temp[5] = {__pyx_t_6, __pyx_cur_scope->__pyx_v_sentences, __pyx_v_predicates, __pyx_v_tags, __pyx_v_arguments};
-      __pyx_t_5 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_4, 4+__pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 298, __pyx_L1_error)
-      __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __Pyx_GOTREF(__pyx_t_5);
+      PyObject *__pyx_temp[5] = {__pyx_t_7, __pyx_cur_scope->__pyx_v_sentences, __pyx_v_predicates, __pyx_v_tags, __pyx_v_arguments};
+      __pyx_t_6 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_4, 4+__pyx_t_4); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 298, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_GOTREF(__pyx_t_6);
     } else
     #endif
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_3)) {
-      PyObject *__pyx_temp[5] = {__pyx_t_6, __pyx_cur_scope->__pyx_v_sentences, __pyx_v_predicates, __pyx_v_tags, __pyx_v_arguments};
-      __pyx_t_5 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_4, 4+__pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 298, __pyx_L1_error)
-      __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __Pyx_GOTREF(__pyx_t_5);
+      PyObject *__pyx_temp[5] = {__pyx_t_7, __pyx_cur_scope->__pyx_v_sentences, __pyx_v_predicates, __pyx_v_tags, __pyx_v_arguments};
+      __pyx_t_6 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_4, 4+__pyx_t_4); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 298, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
+      __Pyx_GOTREF(__pyx_t_6);
     } else
     #endif
     {
       __pyx_t_1 = PyTuple_New(4+__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 298, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      if (__pyx_t_6) {
-        __Pyx_GIVEREF(__pyx_t_6); PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_6); __pyx_t_6 = NULL;
+      if (__pyx_t_7) {
+        __Pyx_GIVEREF(__pyx_t_7); PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_7); __pyx_t_7 = NULL;
       }
       __Pyx_INCREF(__pyx_cur_scope->__pyx_v_sentences);
       __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_sentences);
@@ -21591,12 +21615,12 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
       __Pyx_INCREF(__pyx_v_arguments);
       __Pyx_GIVEREF(__pyx_v_arguments);
       PyTuple_SET_ITEM(__pyx_t_1, 3+__pyx_t_4, __pyx_v_arguments);
-      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_1, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 298, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_5);
+      __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_1, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 298, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_6);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
     /* "networkconv.pyx":297
  *         last_error = np.Infinity
@@ -21614,41 +21638,41 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
  *             self.decrease_learning_rates(i)
  *             self._train_epoch(sentences, predicates, tags, arguments)
  */
-  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_epochs); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 300, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_xrange, __pyx_t_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 300, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_int(__pyx_v_epochs); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 300, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_6);
+  __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_xrange, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 300, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   if (likely(PyList_CheckExact(__pyx_t_3)) || PyTuple_CheckExact(__pyx_t_3)) {
-    __pyx_t_5 = __pyx_t_3; __Pyx_INCREF(__pyx_t_5); __pyx_t_2 = 0;
+    __pyx_t_6 = __pyx_t_3; __Pyx_INCREF(__pyx_t_6); __pyx_t_2 = 0;
     __pyx_t_9 = NULL;
   } else {
-    __pyx_t_2 = -1; __pyx_t_5 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 300, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_9 = Py_TYPE(__pyx_t_5)->tp_iternext; if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 300, __pyx_L1_error)
+    __pyx_t_2 = -1; __pyx_t_6 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 300, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __pyx_t_9 = Py_TYPE(__pyx_t_6)->tp_iternext; if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 300, __pyx_L1_error)
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   for (;;) {
     if (likely(!__pyx_t_9)) {
-      if (likely(PyList_CheckExact(__pyx_t_5))) {
-        if (__pyx_t_2 >= PyList_GET_SIZE(__pyx_t_5)) break;
+      if (likely(PyList_CheckExact(__pyx_t_6))) {
+        if (__pyx_t_2 >= PyList_GET_SIZE(__pyx_t_6)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_3 = PyList_GET_ITEM(__pyx_t_5, __pyx_t_2); __Pyx_INCREF(__pyx_t_3); __pyx_t_2++; if (unlikely(0 < 0)) __PYX_ERR(1, 300, __pyx_L1_error)
+        __pyx_t_3 = PyList_GET_ITEM(__pyx_t_6, __pyx_t_2); __Pyx_INCREF(__pyx_t_3); __pyx_t_2++; if (unlikely(0 < 0)) __PYX_ERR(1, 300, __pyx_L1_error)
         #else
-        __pyx_t_3 = PySequence_ITEM(__pyx_t_5, __pyx_t_2); __pyx_t_2++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 300, __pyx_L1_error)
+        __pyx_t_3 = PySequence_ITEM(__pyx_t_6, __pyx_t_2); __pyx_t_2++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 300, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         #endif
       } else {
-        if (__pyx_t_2 >= PyTuple_GET_SIZE(__pyx_t_5)) break;
+        if (__pyx_t_2 >= PyTuple_GET_SIZE(__pyx_t_6)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_5, __pyx_t_2); __Pyx_INCREF(__pyx_t_3); __pyx_t_2++; if (unlikely(0 < 0)) __PYX_ERR(1, 300, __pyx_L1_error)
+        __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_6, __pyx_t_2); __Pyx_INCREF(__pyx_t_3); __pyx_t_2++; if (unlikely(0 < 0)) __PYX_ERR(1, 300, __pyx_L1_error)
         #else
-        __pyx_t_3 = PySequence_ITEM(__pyx_t_5, __pyx_t_2); __pyx_t_2++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 300, __pyx_L1_error)
+        __pyx_t_3 = PySequence_ITEM(__pyx_t_6, __pyx_t_2); __pyx_t_2++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 300, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         #endif
       }
     } else {
-      __pyx_t_3 = __pyx_t_9(__pyx_t_5);
+      __pyx_t_3 = __pyx_t_9(__pyx_t_6);
       if (unlikely(!__pyx_t_3)) {
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
@@ -21671,18 +21695,18 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
  */
     __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_decrease_learning_rates); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 301, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_6 = NULL;
+    __pyx_t_7 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
-      __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_1);
-      if (likely(__pyx_t_6)) {
+      __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_1);
+      if (likely(__pyx_t_7)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
-        __Pyx_INCREF(__pyx_t_6);
+        __Pyx_INCREF(__pyx_t_7);
         __Pyx_INCREF(function);
         __Pyx_DECREF_SET(__pyx_t_1, function);
       }
     }
-    __pyx_t_3 = (__pyx_t_6) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_6, __pyx_v_i) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_v_i);
-    __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
+    __pyx_t_3 = (__pyx_t_7) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_7, __pyx_v_i) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_v_i);
+    __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 301, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -21697,13 +21721,13 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
  */
     __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_train_epoch); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 302, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_6 = NULL;
+    __pyx_t_7 = NULL;
     __pyx_t_4 = 0;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_1))) {
-      __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_1);
-      if (likely(__pyx_t_6)) {
+      __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_1);
+      if (likely(__pyx_t_7)) {
         PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
-        __Pyx_INCREF(__pyx_t_6);
+        __Pyx_INCREF(__pyx_t_7);
         __Pyx_INCREF(function);
         __Pyx_DECREF_SET(__pyx_t_1, function);
         __pyx_t_4 = 1;
@@ -21711,25 +21735,25 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
     }
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_1)) {
-      PyObject *__pyx_temp[5] = {__pyx_t_6, __pyx_cur_scope->__pyx_v_sentences, __pyx_v_predicates, __pyx_v_tags, __pyx_v_arguments};
+      PyObject *__pyx_temp[5] = {__pyx_t_7, __pyx_cur_scope->__pyx_v_sentences, __pyx_v_predicates, __pyx_v_tags, __pyx_v_arguments};
       __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_4, 4+__pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 302, __pyx_L1_error)
-      __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_GOTREF(__pyx_t_3);
     } else
     #endif
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
-      PyObject *__pyx_temp[5] = {__pyx_t_6, __pyx_cur_scope->__pyx_v_sentences, __pyx_v_predicates, __pyx_v_tags, __pyx_v_arguments};
+      PyObject *__pyx_temp[5] = {__pyx_t_7, __pyx_cur_scope->__pyx_v_sentences, __pyx_v_predicates, __pyx_v_tags, __pyx_v_arguments};
       __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_4, 4+__pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 302, __pyx_L1_error)
-      __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_GOTREF(__pyx_t_3);
     } else
     #endif
     {
       __pyx_t_10 = PyTuple_New(4+__pyx_t_4); if (unlikely(!__pyx_t_10)) __PYX_ERR(1, 302, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      if (__pyx_t_6) {
-        __Pyx_GIVEREF(__pyx_t_6); PyTuple_SET_ITEM(__pyx_t_10, 0, __pyx_t_6); __pyx_t_6 = NULL;
+      if (__pyx_t_7) {
+        __Pyx_GIVEREF(__pyx_t_7); PyTuple_SET_ITEM(__pyx_t_10, 0, __pyx_t_7); __pyx_t_7 = NULL;
       }
       __Pyx_INCREF(__pyx_cur_scope->__pyx_v_sentences);
       __Pyx_GIVEREF(__pyx_cur_scope->__pyx_v_sentences);
@@ -21911,8 +21935,8 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
  *                 or self.accuracy >= desired_accuracy > 0 \
  *                 or (self.accuracy < last_accuracy and self.error > last_error):
  */
-    __pyx_t_7 = ((__pyx_v_epochs_between_reports > 0) != 0);
-    if (!__pyx_t_7) {
+    __pyx_t_5 = ((__pyx_v_epochs_between_reports > 0) != 0);
+    if (!__pyx_t_5) {
       goto __pyx_L9_next_or;
     } else {
     }
@@ -21924,11 +21948,11 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
     __pyx_t_3 = __Pyx_PyInt_EqObjC(__pyx_t_1, __pyx_int_0, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 315, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_7 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_7 < 0)) __PYX_ERR(1, 315, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(1, 315, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (!__pyx_t_7) {
+    if (!__pyx_t_5) {
     } else {
-      __pyx_t_8 = __pyx_t_7;
+      __pyx_t_8 = __pyx_t_5;
       goto __pyx_L8_bool_binop_done;
     }
     __pyx_L9_next_or:;
@@ -21940,11 +21964,11 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
  *                 or (self.accuracy < last_accuracy and self.error > last_error):
  * 
  */
-    __pyx_t_7 = (__pyx_v_self->__pyx_base.accuracy >= __pyx_v_desired_accuracy);
-    if (__pyx_t_7) {
-      __pyx_t_7 = (__pyx_v_desired_accuracy > 0.0);
+    __pyx_t_5 = (__pyx_v_self->__pyx_base.accuracy >= __pyx_v_desired_accuracy);
+    if (__pyx_t_5) {
+      __pyx_t_5 = (__pyx_v_desired_accuracy > 0.0);
     }
-    __pyx_t_12 = (__pyx_t_7 != 0);
+    __pyx_t_12 = (__pyx_t_5 != 0);
     if (!__pyx_t_12) {
     } else {
       __pyx_t_8 = __pyx_t_12;
@@ -21993,18 +22017,18 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_t_10 = __Pyx_PyInt_AddObjC(__pyx_v_i, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_10)) __PYX_ERR(1, 319, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_10);
-      __pyx_t_6 = NULL;
+      __pyx_t_7 = NULL;
       if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
-        __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_3);
-        if (likely(__pyx_t_6)) {
+        __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_3);
+        if (likely(__pyx_t_7)) {
           PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
-          __Pyx_INCREF(__pyx_t_6);
+          __Pyx_INCREF(__pyx_t_7);
           __Pyx_INCREF(function);
           __Pyx_DECREF_SET(__pyx_t_3, function);
         }
       }
-      __pyx_t_1 = (__pyx_t_6) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_6, __pyx_t_10) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_10);
-      __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __pyx_t_1 = (__pyx_t_7) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_7, __pyx_t_10) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_10);
+      __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_10); __pyx_t_10 = 0;
       if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 319, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
@@ -22022,10 +22046,10 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
       if (__pyx_t_12) {
         __pyx_t_12 = (__pyx_v_desired_accuracy > 0.0);
       }
-      __pyx_t_7 = (__pyx_t_12 != 0);
-      if (!__pyx_t_7) {
+      __pyx_t_5 = (__pyx_t_12 != 0);
+      if (!__pyx_t_5) {
       } else {
-        __pyx_t_8 = __pyx_t_7;
+        __pyx_t_8 = __pyx_t_5;
         goto __pyx_L14_bool_binop_done;
       }
 
@@ -22036,19 +22060,19 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
  *                     # accuracy is falling, the network is probably diverging
  *                     # or overfitting
  */
-      __pyx_t_7 = ((__pyx_v_self->__pyx_base.accuracy < __pyx_v_last_accuracy) != 0);
-      if (__pyx_t_7) {
+      __pyx_t_5 = ((__pyx_v_self->__pyx_base.accuracy < __pyx_v_last_accuracy) != 0);
+      if (__pyx_t_5) {
       } else {
-        __pyx_t_8 = __pyx_t_7;
+        __pyx_t_8 = __pyx_t_5;
         goto __pyx_L14_bool_binop_done;
       }
       __pyx_t_1 = PyFloat_FromDouble(__pyx_v_self->__pyx_base.error); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 322, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __pyx_t_3 = PyObject_RichCompare(__pyx_t_1, __pyx_v_last_error, Py_GT); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 322, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_7 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_7 < 0)) __PYX_ERR(1, 322, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_IsTrue(__pyx_t_3); if (unlikely(__pyx_t_5 < 0)) __PYX_ERR(1, 322, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_8 = __pyx_t_7;
+      __pyx_t_8 = __pyx_t_5;
       __pyx_L14_bool_binop_done:;
 
       /* "networkconv.pyx":321
@@ -22118,7 +22142,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
  */
   }
   __pyx_L5_break:;
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
   /* "networkconv.pyx":330
  *             last_error = self.error
@@ -22157,12 +22181,12 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
       __Pyx_DECREF_SET(__pyx_t_3, function);
     }
   }
-  __pyx_t_5 = (__pyx_t_1) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_1) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
+  __pyx_t_6 = (__pyx_t_1) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_1) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 332, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_5);
+  if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 332, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
   /* "networkconv.pyx":275
  *         self.validation_arguments = validation_arguments
@@ -22178,8 +22202,8 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_18train(struct _
   __pyx_L1_error:;
   __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
+  __Pyx_XDECREF(__pyx_t_7);
   __Pyx_XDECREF(__pyx_t_10);
   __Pyx_AddTraceback("libs.network.ConvolutionalNetwork.train", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
@@ -23447,62 +23471,80 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_26tag_sentence(s
   PyObject *__pyx_r = NULL;
   __Pyx_TraceDeclarations
   __Pyx_RefNannyDeclarations
-  PyObject *__pyx_t_1 = NULL;
+  int __pyx_t_1;
   PyObject *__pyx_t_2 = NULL;
   PyObject *__pyx_t_3 = NULL;
   PyObject *__pyx_t_4 = NULL;
+  PyObject *__pyx_t_5 = NULL;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("tag_sentence", 0);
   __Pyx_TraceCall("tag_sentence", __pyx_f[1], 381, 0, __PYX_ERR(1, 381, __pyx_L1_error));
 
+  /* "networkconv.pyx":396
+ *             argument classes (only for separate argument classification).
+ *         """
+ *         self.only_classify = arguments is not None             # <<<<<<<<<<<<<<
+ *         return self._tag_sentence(sentence, predicates, argument_blocks=arguments,
+ *                                   logprob=logprob, allow_repeats=allow_repeats)
+ */
+  __pyx_t_1 = (__pyx_v_arguments != ((PyObject*)Py_None));
+  __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 396, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  if (!(likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_7cpython_4bool_bool)))) __PYX_ERR(1, 396, __pyx_L1_error)
+  __Pyx_GIVEREF(__pyx_t_2);
+  __Pyx_GOTREF(__pyx_v_self->only_classify);
+  __Pyx_DECREF(((PyObject *)__pyx_v_self->only_classify));
+  __pyx_v_self->only_classify = ((PyBoolObject *)__pyx_t_2);
+  __pyx_t_2 = 0;
+
   /* "networkconv.pyx":397
  *         """
- *         #self.only_classify = arguments is not None
+ *         self.only_classify = arguments is not None
  *         return self._tag_sentence(sentence, predicates, argument_blocks=arguments,             # <<<<<<<<<<<<<<
  *                                   logprob=logprob, allow_repeats=allow_repeats)
  * 
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_tag_sentence); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 397, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 397, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_tag_sentence); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 397, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 397, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
   __Pyx_INCREF(((PyObject *)__pyx_v_sentence));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_sentence));
-  PyTuple_SET_ITEM(__pyx_t_2, 0, ((PyObject *)__pyx_v_sentence));
+  PyTuple_SET_ITEM(__pyx_t_3, 0, ((PyObject *)__pyx_v_sentence));
   __Pyx_INCREF(((PyObject *)__pyx_v_predicates));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_predicates));
-  PyTuple_SET_ITEM(__pyx_t_2, 1, ((PyObject *)__pyx_v_predicates));
-  __pyx_t_3 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 397, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_3);
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_argument_blocks, __pyx_v_arguments) < 0) __PYX_ERR(1, 397, __pyx_L1_error)
+  PyTuple_SET_ITEM(__pyx_t_3, 1, ((PyObject *)__pyx_v_predicates));
+  __pyx_t_4 = __Pyx_PyDict_NewPresized(3); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 397, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_4);
+  if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_argument_blocks, __pyx_v_arguments) < 0) __PYX_ERR(1, 397, __pyx_L1_error)
 
   /* "networkconv.pyx":398
- *         #self.only_classify = arguments is not None
+ *         self.only_classify = arguments is not None
  *         return self._tag_sentence(sentence, predicates, argument_blocks=arguments,
  *                                   logprob=logprob, allow_repeats=allow_repeats)             # <<<<<<<<<<<<<<
  * 
  *     cdef np.ndarray argument_distances(self, positions, argument):
  */
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_logprob, ((PyObject *)__pyx_v_logprob)) < 0) __PYX_ERR(1, 397, __pyx_L1_error)
-  if (PyDict_SetItem(__pyx_t_3, __pyx_n_s_allow_repeats, ((PyObject *)__pyx_v_allow_repeats)) < 0) __PYX_ERR(1, 397, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_logprob, ((PyObject *)__pyx_v_logprob)) < 0) __PYX_ERR(1, 397, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_4, __pyx_n_s_allow_repeats, ((PyObject *)__pyx_v_allow_repeats)) < 0) __PYX_ERR(1, 397, __pyx_L1_error)
 
   /* "networkconv.pyx":397
  *         """
- *         #self.only_classify = arguments is not None
+ *         self.only_classify = arguments is not None
  *         return self._tag_sentence(sentence, predicates, argument_blocks=arguments,             # <<<<<<<<<<<<<<
  *                                   logprob=logprob, allow_repeats=allow_repeats)
  * 
  */
-  __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_2, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 397, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_4);
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+  __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_3, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 397, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_r = __pyx_t_4;
-  __pyx_t_4 = 0;
+  __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
+  __pyx_r = __pyx_t_5;
+  __pyx_t_5 = 0;
   goto __pyx_L0;
 
   /* "networkconv.pyx":381
@@ -23515,10 +23557,10 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_26tag_sentence(s
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
   __Pyx_XDECREF(__pyx_t_4);
+  __Pyx_XDECREF(__pyx_t_5);
   __Pyx_AddTraceback("libs.network.ConvolutionalNetwork.tag_sentence", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
@@ -25588,7 +25630,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_32_tag_sentence(
  *         cdef np.ndarray[FLOAT_t, ndim=2] token_scores
  * 
  *         for i, predicate in enumerate(predicates):             # <<<<<<<<<<<<<<
- *             #pred_arguments = None if not self.only_classify else argument_blocks[i]
+ *             pred_arguments = None if not self.only_classify else argument_blocks[i]
  *             pred_arguments = argument_blocks[i]
  */
   __Pyx_INCREF(__pyx_int_0);
@@ -25642,9 +25684,33 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_32_tag_sentence(
     __pyx_t_1 = __pyx_t_6;
     __pyx_t_6 = 0;
 
+    /* "networkconv.pyx":548
+ * 
+ *         for i, predicate in enumerate(predicates):
+ *             pred_arguments = None if not self.only_classify else argument_blocks[i]             # <<<<<<<<<<<<<<
+ *             pred_arguments = argument_blocks[i]
+ * 
+ */
+    __pyx_t_2 = __Pyx_PyObject_IsTrue(((PyObject *)__pyx_v_self->only_classify)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(1, 548, __pyx_L1_error)
+    if (((!__pyx_t_2) != 0)) {
+      __Pyx_INCREF(Py_None);
+      __pyx_t_6 = Py_None;
+    } else {
+      if (unlikely(__pyx_v_argument_blocks == Py_None)) {
+        PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
+        __PYX_ERR(1, 548, __pyx_L1_error)
+      }
+      __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_v_argument_blocks, __pyx_v_i); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 548, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      __pyx_t_6 = __pyx_t_4;
+      __pyx_t_4 = 0;
+    }
+    __Pyx_XDECREF_SET(__pyx_v_pred_arguments, __pyx_t_6);
+    __pyx_t_6 = 0;
+
     /* "networkconv.pyx":549
  *         for i, predicate in enumerate(predicates):
- *             #pred_arguments = None if not self.only_classify else argument_blocks[i]
+ *             pred_arguments = None if not self.only_classify else argument_blocks[i]
  *             pred_arguments = argument_blocks[i]             # <<<<<<<<<<<<<<
  * 
  *             token_scores = self._sentence_convolution(sentence, predicate, pred_arguments, training)
@@ -25655,7 +25721,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_32_tag_sentence(
     }
     __pyx_t_6 = __Pyx_PyObject_GetItem(__pyx_v_argument_blocks, __pyx_v_i); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 549, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_XDECREF_SET(__pyx_v_pred_arguments, __pyx_t_6);
+    __Pyx_DECREF_SET(__pyx_v_pred_arguments, __pyx_t_6);
     __pyx_t_6 = 0;
 
     /* "networkconv.pyx":551
@@ -26101,14 +26167,46 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_32_tag_sentence(
  *                     self._adjust_features(sentence, predicate)
  * 
  *             if logprob:             # <<<<<<<<<<<<<<
- *                 #if self.only_classify:
- *                 #    raise NotImplementedError('Confidence measure not implemented for argument classifying')
+ *                 if self.only_classify:
+ *                     raise NotImplementedError('Confidence measure not implemented for argument classifying')
  */
     __pyx_t_2 = __Pyx_PyObject_IsTrue(((PyObject *)__pyx_v_logprob)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(1, 562, __pyx_L1_error)
     if (__pyx_t_2) {
 
+      /* "networkconv.pyx":563
+ * 
+ *             if logprob:
+ *                 if self.only_classify:             # <<<<<<<<<<<<<<
+ *                     raise NotImplementedError('Confidence measure not implemented for argument classifying')
+ * 
+ */
+      __pyx_t_2 = __Pyx_PyObject_IsTrue(((PyObject *)__pyx_v_self->only_classify)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(1, 563, __pyx_L1_error)
+      if (unlikely(__pyx_t_2)) {
+
+        /* "networkconv.pyx":564
+ *             if logprob:
+ *                 if self.only_classify:
+ *                     raise NotImplementedError('Confidence measure not implemented for argument classifying')             # <<<<<<<<<<<<<<
+ * 
+ *                 all_scores = self._calculate_all_scores(token_scores)
+ */
+        __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_NotImplementedError, __pyx_tuple__8, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 564, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_6);
+        __Pyx_Raise(__pyx_t_6, 0, 0, 0);
+        __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+        __PYX_ERR(1, 564, __pyx_L1_error)
+
+        /* "networkconv.pyx":563
+ * 
+ *             if logprob:
+ *                 if self.only_classify:             # <<<<<<<<<<<<<<
+ *                     raise NotImplementedError('Confidence measure not implemented for argument classifying')
+ * 
+ */
+      }
+
       /* "networkconv.pyx":566
- *                 #    raise NotImplementedError('Confidence measure not implemented for argument classifying')
+ *                     raise NotImplementedError('Confidence measure not implemented for argument classifying')
  * 
  *                 all_scores = self._calculate_all_scores(token_scores)             # <<<<<<<<<<<<<<
  *                 last_token = len(sentence) - 1
@@ -26256,8 +26354,8 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_32_tag_sentence(
  *                     self._adjust_features(sentence, predicate)
  * 
  *             if logprob:             # <<<<<<<<<<<<<<
- *                 #if self.only_classify:
- *                 #    raise NotImplementedError('Confidence measure not implemented for argument classifying')
+ *                 if self.only_classify:
+ *                     raise NotImplementedError('Confidence measure not implemented for argument classifying')
  */
     }
 
@@ -26274,7 +26372,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_32_tag_sentence(
  *         cdef np.ndarray[FLOAT_t, ndim=2] token_scores
  * 
  *         for i, predicate in enumerate(predicates):             # <<<<<<<<<<<<<<
- *             #pred_arguments = None if not self.only_classify else argument_blocks[i]
+ *             pred_arguments = None if not self.only_classify else argument_blocks[i]
  *             pred_arguments = argument_blocks[i]
  */
   }
@@ -27065,7 +27163,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_34_validate(stru
  * 
  *     def _calculate_gradients(self, tags, scores):             # <<<<<<<<<<<<<<
  *         """Delegates the call to the appropriate function."""
- *         #if self.only_classify:
+ *         if self.only_classify:
  */
 
 /* Python wrapper */
@@ -27137,90 +27235,171 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_36_calculate_gra
   PyObject *__pyx_r = NULL;
   __Pyx_TraceDeclarations
   __Pyx_RefNannyDeclarations
-  PyObject *__pyx_t_1 = NULL;
+  int __pyx_t_1;
   PyObject *__pyx_t_2 = NULL;
   PyObject *__pyx_t_3 = NULL;
-  int __pyx_t_4;
-  PyObject *__pyx_t_5 = NULL;
+  PyObject *__pyx_t_4 = NULL;
+  int __pyx_t_5;
+  PyObject *__pyx_t_6 = NULL;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_calculate_gradients", 0);
   __Pyx_TraceCall("_calculate_gradients", __pyx_f[1], 609, 0, __PYX_ERR(1, 609, __pyx_L1_error));
 
-  /* "networkconv.pyx":615
- *         #else:
- *         #    return self._calculate_gradients_sll(tags, scores)
- *         return self._calculate_gradients_classify(tags, scores)             # <<<<<<<<<<<<<<
+  /* "networkconv.pyx":611
+ *     def _calculate_gradients(self, tags, scores):
+ *         """Delegates the call to the appropriate function."""
+ *         if self.only_classify:             # <<<<<<<<<<<<<<
+ *             return self._calculate_gradients_classify(tags, scores)
+ *         else:
+ */
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(((PyObject *)__pyx_v_self->only_classify)); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(1, 611, __pyx_L1_error)
+  if (__pyx_t_1) {
+
+    /* "networkconv.pyx":612
+ *         """Delegates the call to the appropriate function."""
+ *         if self.only_classify:
+ *             return self._calculate_gradients_classify(tags, scores)             # <<<<<<<<<<<<<<
+ *         else:
+ *             return self._calculate_gradients_sll(tags, scores)
+ */
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_calculate_gradients_classify); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 612, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_4 = NULL;
+    __pyx_t_5 = 0;
+    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+      __pyx_t_4 = PyMethod_GET_SELF(__pyx_t_3);
+      if (likely(__pyx_t_4)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
+        __Pyx_INCREF(__pyx_t_4);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_3, function);
+        __pyx_t_5 = 1;
+      }
+    }
+    #if CYTHON_FAST_PYCALL
+    if (PyFunction_Check(__pyx_t_3)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_4, __pyx_v_tags, __pyx_v_scores};
+      __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 612, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
+      __Pyx_GOTREF(__pyx_t_2);
+    } else
+    #endif
+    #if CYTHON_FAST_PYCCALL
+    if (__Pyx_PyFastCFunction_Check(__pyx_t_3)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_4, __pyx_v_tags, __pyx_v_scores};
+      __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 612, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
+      __Pyx_GOTREF(__pyx_t_2);
+    } else
+    #endif
+    {
+      __pyx_t_6 = PyTuple_New(2+__pyx_t_5); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 612, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_6);
+      if (__pyx_t_4) {
+        __Pyx_GIVEREF(__pyx_t_4); PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_4); __pyx_t_4 = NULL;
+      }
+      __Pyx_INCREF(__pyx_v_tags);
+      __Pyx_GIVEREF(__pyx_v_tags);
+      PyTuple_SET_ITEM(__pyx_t_6, 0+__pyx_t_5, __pyx_v_tags);
+      __Pyx_INCREF(__pyx_v_scores);
+      __Pyx_GIVEREF(__pyx_v_scores);
+      PyTuple_SET_ITEM(__pyx_t_6, 1+__pyx_t_5, __pyx_v_scores);
+      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_6, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 612, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_r = __pyx_t_2;
+    __pyx_t_2 = 0;
+    goto __pyx_L0;
+
+    /* "networkconv.pyx":611
+ *     def _calculate_gradients(self, tags, scores):
+ *         """Delegates the call to the appropriate function."""
+ *         if self.only_classify:             # <<<<<<<<<<<<<<
+ *             return self._calculate_gradients_classify(tags, scores)
+ *         else:
+ */
+  }
+
+  /* "networkconv.pyx":614
+ *             return self._calculate_gradients_classify(tags, scores)
+ *         else:
+ *             return self._calculate_gradients_sll(tags, scores)             # <<<<<<<<<<<<<<
  * 
  *     def _calculate_gradients_classify(self, tags, scores):
  */
-  __Pyx_XDECREF(__pyx_r);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_calculate_gradients_classify); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 615, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = NULL;
-  __pyx_t_4 = 0;
-  if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
-    __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_2);
-    if (likely(__pyx_t_3)) {
-      PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_2);
-      __Pyx_INCREF(__pyx_t_3);
-      __Pyx_INCREF(function);
-      __Pyx_DECREF_SET(__pyx_t_2, function);
-      __pyx_t_4 = 1;
+  /*else*/ {
+    __Pyx_XDECREF(__pyx_r);
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_calculate_gradients_sll); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 614, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_6 = NULL;
+    __pyx_t_5 = 0;
+    if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
+      __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_3);
+      if (likely(__pyx_t_6)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_3);
+        __Pyx_INCREF(__pyx_t_6);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_3, function);
+        __pyx_t_5 = 1;
+      }
     }
-  }
-  #if CYTHON_FAST_PYCALL
-  if (PyFunction_Check(__pyx_t_2)) {
-    PyObject *__pyx_temp[3] = {__pyx_t_3, __pyx_v_tags, __pyx_v_scores};
-    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_4, 2+__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 615, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __Pyx_GOTREF(__pyx_t_1);
-  } else
-  #endif
-  #if CYTHON_FAST_PYCCALL
-  if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
-    PyObject *__pyx_temp[3] = {__pyx_t_3, __pyx_v_tags, __pyx_v_scores};
-    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_4, 2+__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 615, __pyx_L1_error)
-    __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __Pyx_GOTREF(__pyx_t_1);
-  } else
-  #endif
-  {
-    __pyx_t_5 = PyTuple_New(2+__pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 615, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_5);
-    if (__pyx_t_3) {
-      __Pyx_GIVEREF(__pyx_t_3); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_3); __pyx_t_3 = NULL;
+    #if CYTHON_FAST_PYCALL
+    if (PyFunction_Check(__pyx_t_3)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_6, __pyx_v_tags, __pyx_v_scores};
+      __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 614, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __Pyx_GOTREF(__pyx_t_2);
+    } else
+    #endif
+    #if CYTHON_FAST_PYCCALL
+    if (__Pyx_PyFastCFunction_Check(__pyx_t_3)) {
+      PyObject *__pyx_temp[3] = {__pyx_t_6, __pyx_v_tags, __pyx_v_scores};
+      __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 614, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __Pyx_GOTREF(__pyx_t_2);
+    } else
+    #endif
+    {
+      __pyx_t_4 = PyTuple_New(2+__pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 614, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_4);
+      if (__pyx_t_6) {
+        __Pyx_GIVEREF(__pyx_t_6); PyTuple_SET_ITEM(__pyx_t_4, 0, __pyx_t_6); __pyx_t_6 = NULL;
+      }
+      __Pyx_INCREF(__pyx_v_tags);
+      __Pyx_GIVEREF(__pyx_v_tags);
+      PyTuple_SET_ITEM(__pyx_t_4, 0+__pyx_t_5, __pyx_v_tags);
+      __Pyx_INCREF(__pyx_v_scores);
+      __Pyx_GIVEREF(__pyx_v_scores);
+      PyTuple_SET_ITEM(__pyx_t_4, 1+__pyx_t_5, __pyx_v_scores);
+      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_4, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 614, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_2);
+      __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     }
-    __Pyx_INCREF(__pyx_v_tags);
-    __Pyx_GIVEREF(__pyx_v_tags);
-    PyTuple_SET_ITEM(__pyx_t_5, 0+__pyx_t_4, __pyx_v_tags);
-    __Pyx_INCREF(__pyx_v_scores);
-    __Pyx_GIVEREF(__pyx_v_scores);
-    PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_4, __pyx_v_scores);
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 615, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_r = __pyx_t_2;
+    __pyx_t_2 = 0;
+    goto __pyx_L0;
   }
-  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_r = __pyx_t_1;
-  __pyx_t_1 = 0;
-  goto __pyx_L0;
 
   /* "networkconv.pyx":609
  *         self.error /= num_items
  * 
  *     def _calculate_gradients(self, tags, scores):             # <<<<<<<<<<<<<<
  *         """Delegates the call to the appropriate function."""
- *         #if self.only_classify:
+ *         if self.only_classify:
  */
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_1);
   __Pyx_XDECREF(__pyx_t_2);
   __Pyx_XDECREF(__pyx_t_3);
-  __Pyx_XDECREF(__pyx_t_5);
+  __Pyx_XDECREF(__pyx_t_4);
+  __Pyx_XDECREF(__pyx_t_6);
   __Pyx_AddTraceback("libs.network.ConvolutionalNetwork._calculate_gradients", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
@@ -27230,8 +27409,8 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_36_calculate_gra
   return __pyx_r;
 }
 
-/* "networkconv.pyx":617
- *         return self._calculate_gradients_classify(tags, scores)
+/* "networkconv.pyx":616
+ *             return self._calculate_gradients_sll(tags, scores)
  * 
  *     def _calculate_gradients_classify(self, tags, scores):             # <<<<<<<<<<<<<<
  *         """
@@ -27273,11 +27452,11 @@ static PyObject *__pyx_pw_4libs_7network_20ConvolutionalNetwork_39_calculate_gra
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_scores)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_calculate_gradients_classify", 1, 2, 2, 1); __PYX_ERR(1, 617, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_calculate_gradients_classify", 1, 2, 2, 1); __PYX_ERR(1, 616, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_calculate_gradients_classify") < 0)) __PYX_ERR(1, 617, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_calculate_gradients_classify") < 0)) __PYX_ERR(1, 616, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -27290,7 +27469,7 @@ static PyObject *__pyx_pw_4libs_7network_20ConvolutionalNetwork_39_calculate_gra
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_calculate_gradients_classify", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 617, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_calculate_gradients_classify", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 616, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("libs.network.ConvolutionalNetwork._calculate_gradients_classify", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -27330,18 +27509,18 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_calculate_gradients_classify", 0);
-  __Pyx_TraceCall("_calculate_gradients_classify", __pyx_f[1], 617, 0, __PYX_ERR(1, 617, __pyx_L1_error));
+  __Pyx_TraceCall("_calculate_gradients_classify", __pyx_f[1], 616, 0, __PYX_ERR(1, 616, __pyx_L1_error));
 
-  /* "networkconv.pyx":626
+  /* "networkconv.pyx":625
  *         :returns: whether a correction is necessary or not.
  *         """
  *         self.net_gradients = np.zeros_like(scores, float)             # <<<<<<<<<<<<<<
  *         #self.net_gradients = np.zeros_like(scores, np.float)
  *         correction = False
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 626, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 625, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_zeros_like); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 626, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_zeros_like); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 625, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_t_2 = NULL;
@@ -27359,7 +27538,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_3)) {
     PyObject *__pyx_temp[3] = {__pyx_t_2, __pyx_v_scores, ((PyObject *)(&PyFloat_Type))};
-    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_4, 2+__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 626, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_4, 2+__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 625, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_GOTREF(__pyx_t_1);
   } else
@@ -27367,13 +27546,13 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_3)) {
     PyObject *__pyx_temp[3] = {__pyx_t_2, __pyx_v_scores, ((PyObject *)(&PyFloat_Type))};
-    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_4, 2+__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 626, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_4, 2+__pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 625, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_GOTREF(__pyx_t_1);
   } else
   #endif
   {
-    __pyx_t_5 = PyTuple_New(2+__pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 626, __pyx_L1_error)
+    __pyx_t_5 = PyTuple_New(2+__pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 625, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     if (__pyx_t_2) {
       __Pyx_GIVEREF(__pyx_t_2); PyTuple_SET_ITEM(__pyx_t_5, 0, __pyx_t_2); __pyx_t_2 = NULL;
@@ -27384,19 +27563,19 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
     __Pyx_INCREF(((PyObject *)(&PyFloat_Type)));
     __Pyx_GIVEREF(((PyObject *)(&PyFloat_Type)));
     PyTuple_SET_ITEM(__pyx_t_5, 1+__pyx_t_4, ((PyObject *)(&PyFloat_Type)));
-    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 626, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_5, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 625, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 626, __pyx_L1_error)
+  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 625, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
   __Pyx_GOTREF(__pyx_v_self->__pyx_base.net_gradients);
   __Pyx_DECREF(((PyObject *)__pyx_v_self->__pyx_base.net_gradients));
   __pyx_v_self->__pyx_base.net_gradients = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":628
+  /* "networkconv.pyx":627
  *         self.net_gradients = np.zeros_like(scores, float)
  *         #self.net_gradients = np.zeros_like(scores, np.float)
  *         correction = False             # <<<<<<<<<<<<<<
@@ -27405,7 +27584,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
  */
   __pyx_v_correction = 0;
 
-  /* "networkconv.pyx":630
+  /* "networkconv.pyx":629
  *         correction = False
  * 
  *         for i, tag_scores in enumerate(scores):             # <<<<<<<<<<<<<<
@@ -27418,26 +27597,26 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
     __pyx_t_3 = __pyx_v_scores; __Pyx_INCREF(__pyx_t_3); __pyx_t_6 = 0;
     __pyx_t_7 = NULL;
   } else {
-    __pyx_t_6 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_v_scores); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 630, __pyx_L1_error)
+    __pyx_t_6 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_v_scores); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 629, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_7 = Py_TYPE(__pyx_t_3)->tp_iternext; if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 630, __pyx_L1_error)
+    __pyx_t_7 = Py_TYPE(__pyx_t_3)->tp_iternext; if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 629, __pyx_L1_error)
   }
   for (;;) {
     if (likely(!__pyx_t_7)) {
       if (likely(PyList_CheckExact(__pyx_t_3))) {
         if (__pyx_t_6 >= PyList_GET_SIZE(__pyx_t_3)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_5 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_6); __Pyx_INCREF(__pyx_t_5); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 630, __pyx_L1_error)
+        __pyx_t_5 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_6); __Pyx_INCREF(__pyx_t_5); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 629, __pyx_L1_error)
         #else
-        __pyx_t_5 = PySequence_ITEM(__pyx_t_3, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 630, __pyx_L1_error)
+        __pyx_t_5 = PySequence_ITEM(__pyx_t_3, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 629, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
         #endif
       } else {
         if (__pyx_t_6 >= PyTuple_GET_SIZE(__pyx_t_3)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_5 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_6); __Pyx_INCREF(__pyx_t_5); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 630, __pyx_L1_error)
+        __pyx_t_5 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_6); __Pyx_INCREF(__pyx_t_5); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 629, __pyx_L1_error)
         #else
-        __pyx_t_5 = PySequence_ITEM(__pyx_t_3, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 630, __pyx_L1_error)
+        __pyx_t_5 = PySequence_ITEM(__pyx_t_3, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 629, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
         #endif
       }
@@ -27447,7 +27626,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(1, 630, __pyx_L1_error)
+          else __PYX_ERR(1, 629, __pyx_L1_error)
         }
         break;
       }
@@ -27457,34 +27636,34 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
     __pyx_t_5 = 0;
     __Pyx_INCREF(__pyx_t_1);
     __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_1);
-    __pyx_t_5 = __Pyx_PyInt_AddObjC(__pyx_t_1, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 630, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyInt_AddObjC(__pyx_t_1, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 629, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_1);
     __pyx_t_1 = __pyx_t_5;
     __pyx_t_5 = 0;
 
-    /* "networkconv.pyx":631
+    /* "networkconv.pyx":630
  * 
  *         for i, tag_scores in enumerate(scores):
  *             tag = tags[i]             # <<<<<<<<<<<<<<
  * 
  *             exponentials = np.exp(tag_scores)
  */
-    __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_tags, __pyx_v_i); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 631, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_tags, __pyx_v_i); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 630, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_XDECREF_SET(__pyx_v_tag, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "networkconv.pyx":633
+    /* "networkconv.pyx":632
  *             tag = tags[i]
  * 
  *             exponentials = np.exp(tag_scores)             # <<<<<<<<<<<<<<
  *             exp_sum = np.sum(exponentials)
  *             logadd = np.log(exp_sum)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 633, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 632, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_exp); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 633, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_exp); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 632, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_2 = NULL;
@@ -27499,22 +27678,22 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
     }
     __pyx_t_5 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_8, __pyx_t_2, __pyx_v_tag_scores) : __Pyx_PyObject_CallOneArg(__pyx_t_8, __pyx_v_tag_scores);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 633, __pyx_L1_error)
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 632, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_XDECREF_SET(__pyx_v_exponentials, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "networkconv.pyx":634
+    /* "networkconv.pyx":633
  * 
  *             exponentials = np.exp(tag_scores)
  *             exp_sum = np.sum(exponentials)             # <<<<<<<<<<<<<<
  *             logadd = np.log(exp_sum)
  * 
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_np); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 634, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_np); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 633, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_sum); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 634, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_sum); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 633, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __pyx_t_8 = NULL;
@@ -27529,22 +27708,22 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
     }
     __pyx_t_5 = (__pyx_t_8) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_8, __pyx_v_exponentials) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_v_exponentials);
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 634, __pyx_L1_error)
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 633, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_XDECREF_SET(__pyx_v_exp_sum, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "networkconv.pyx":635
+    /* "networkconv.pyx":634
  *             exponentials = np.exp(tag_scores)
  *             exp_sum = np.sum(exponentials)
  *             logadd = np.log(exp_sum)             # <<<<<<<<<<<<<<
  * 
  *             # update the total error
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 635, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 634, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_log); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 635, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_log); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 634, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_t_2 = NULL;
@@ -27559,56 +27738,56 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
     }
     __pyx_t_5 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_8, __pyx_t_2, __pyx_v_exp_sum) : __Pyx_PyObject_CallOneArg(__pyx_t_8, __pyx_v_exp_sum);
     __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 635, __pyx_L1_error)
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 634, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_XDECREF_SET(__pyx_v_logadd, __pyx_t_5);
     __pyx_t_5 = 0;
 
-    /* "networkconv.pyx":638
+    /* "networkconv.pyx":637
  * 
  *             # update the total error
  *             error = logadd - tag_scores[tag]             # <<<<<<<<<<<<<<
  *             self.error += error
  * 
  */
-    __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_tag_scores, __pyx_v_tag); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 638, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_tag_scores, __pyx_v_tag); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 637, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_8 = PyNumber_Subtract(__pyx_v_logadd, __pyx_t_5); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 638, __pyx_L1_error)
+    __pyx_t_8 = PyNumber_Subtract(__pyx_v_logadd, __pyx_t_5); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 637, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_XDECREF_SET(__pyx_v_error, __pyx_t_8);
     __pyx_t_8 = 0;
 
-    /* "networkconv.pyx":639
+    /* "networkconv.pyx":638
  *             # update the total error
  *             error = logadd - tag_scores[tag]
  *             self.error += error             # <<<<<<<<<<<<<<
  * 
  *             # like the non-convolutional network, don't adjust weights if the error
  */
-    __pyx_t_8 = PyFloat_FromDouble(__pyx_v_self->__pyx_base.error); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 639, __pyx_L1_error)
+    __pyx_t_8 = PyFloat_FromDouble(__pyx_v_self->__pyx_base.error); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 638, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_5 = PyNumber_InPlaceAdd(__pyx_t_8, __pyx_v_error); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 639, __pyx_L1_error)
+    __pyx_t_5 = PyNumber_InPlaceAdd(__pyx_t_8, __pyx_v_error); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 638, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __pyx_t_9 = __pyx_PyFloat_AsFloat(__pyx_t_5); if (unlikely((__pyx_t_9 == (float)-1) && PyErr_Occurred())) __PYX_ERR(1, 639, __pyx_L1_error)
+    __pyx_t_9 = __pyx_PyFloat_AsFloat(__pyx_t_5); if (unlikely((__pyx_t_9 == (float)-1) && PyErr_Occurred())) __PYX_ERR(1, 638, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_v_self->__pyx_base.error = __pyx_t_9;
 
-    /* "networkconv.pyx":644
+    /* "networkconv.pyx":643
  *             # is too low. An error of 0.01 means a log-prob of -0.01 for the right
  *             # tag, i.e., more than 99% probability
  *             if error <= 0.01:             # <<<<<<<<<<<<<<
  *                 self.skips += 1
  *                 continue
  */
-    __pyx_t_5 = PyObject_RichCompare(__pyx_v_error, __pyx_float_0_01, Py_LE); __Pyx_XGOTREF(__pyx_t_5); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 644, __pyx_L1_error)
-    __pyx_t_10 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely(__pyx_t_10 < 0)) __PYX_ERR(1, 644, __pyx_L1_error)
+    __pyx_t_5 = PyObject_RichCompare(__pyx_v_error, __pyx_float_0_01, Py_LE); __Pyx_XGOTREF(__pyx_t_5); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 643, __pyx_L1_error)
+    __pyx_t_10 = __Pyx_PyObject_IsTrue(__pyx_t_5); if (unlikely(__pyx_t_10 < 0)) __PYX_ERR(1, 643, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     if (__pyx_t_10) {
 
-      /* "networkconv.pyx":645
+      /* "networkconv.pyx":644
  *             # tag, i.e., more than 99% probability
  *             if error <= 0.01:
  *                 self.skips += 1             # <<<<<<<<<<<<<<
@@ -27617,7 +27796,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
  */
       __pyx_v_self->__pyx_base.skips = (__pyx_v_self->__pyx_base.skips + 1);
 
-      /* "networkconv.pyx":646
+      /* "networkconv.pyx":645
  *             if error <= 0.01:
  *                 self.skips += 1
  *                 continue             # <<<<<<<<<<<<<<
@@ -27626,7 +27805,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
  */
       goto __pyx_L3_continue;
 
-      /* "networkconv.pyx":644
+      /* "networkconv.pyx":643
  *             # is too low. An error of 0.01 means a log-prob of -0.01 for the right
  *             # tag, i.e., more than 99% probability
  *             if error <= 0.01:             # <<<<<<<<<<<<<<
@@ -27635,7 +27814,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
  */
     }
 
-    /* "networkconv.pyx":648
+    /* "networkconv.pyx":647
  *                 continue
  * 
  *             correction = True             # <<<<<<<<<<<<<<
@@ -27644,22 +27823,22 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
  */
     __pyx_v_correction = 1;
 
-    /* "networkconv.pyx":649
+    /* "networkconv.pyx":648
  * 
  *             correction = True
  *             self.net_gradients[i] = - exponentials / exp_sum             # <<<<<<<<<<<<<<
  *             self.net_gradients[i, tag] += 1
  * 
  */
-    __pyx_t_5 = PyNumber_Negative(__pyx_v_exponentials); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 649, __pyx_L1_error)
+    __pyx_t_5 = PyNumber_Negative(__pyx_v_exponentials); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 648, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_8 = __Pyx_PyNumber_Divide(__pyx_t_5, __pyx_v_exp_sum); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 649, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyNumber_Divide(__pyx_t_5, __pyx_v_exp_sum); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 648, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_self->__pyx_base.net_gradients), __pyx_v_i, __pyx_t_8) < 0)) __PYX_ERR(1, 649, __pyx_L1_error)
+    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_self->__pyx_base.net_gradients), __pyx_v_i, __pyx_t_8) < 0)) __PYX_ERR(1, 648, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-    /* "networkconv.pyx":650
+    /* "networkconv.pyx":649
  *             correction = True
  *             self.net_gradients[i] = - exponentials / exp_sum
  *             self.net_gradients[i, tag] += 1             # <<<<<<<<<<<<<<
@@ -27668,7 +27847,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
  */
     __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.net_gradients));
     __pyx_t_11 = __pyx_v_self->__pyx_base.net_gradients;
-    __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 650, __pyx_L1_error)
+    __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 649, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_INCREF(__pyx_v_i);
     __Pyx_GIVEREF(__pyx_v_i);
@@ -27676,17 +27855,17 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
     __Pyx_INCREF(__pyx_v_tag);
     __Pyx_GIVEREF(__pyx_v_tag);
     PyTuple_SET_ITEM(__pyx_t_8, 1, __pyx_v_tag);
-    __pyx_t_5 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_t_11), __pyx_t_8); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 650, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_t_11), __pyx_t_8); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 649, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_2 = __Pyx_PyInt_AddObjC(__pyx_t_5, __pyx_int_1, 1, 1, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 650, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_AddObjC(__pyx_t_5, __pyx_int_1, 1, 1, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 649, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_t_11), __pyx_t_8, __pyx_t_2) < 0)) __PYX_ERR(1, 650, __pyx_L1_error)
+    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_t_11), __pyx_t_8, __pyx_t_2) < 0)) __PYX_ERR(1, 649, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(((PyObject *)__pyx_t_11)); __pyx_t_11 = 0;
 
-    /* "networkconv.pyx":630
+    /* "networkconv.pyx":629
  *         correction = False
  * 
  *         for i, tag_scores in enumerate(scores):             # <<<<<<<<<<<<<<
@@ -27698,7 +27877,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":652
+  /* "networkconv.pyx":651
  *             self.net_gradients[i, tag] += 1
  * 
  *         return correction             # <<<<<<<<<<<<<<
@@ -27706,14 +27885,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
  *     def _backpropagate(self):
  */
   __Pyx_XDECREF(__pyx_r);
-  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_correction); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 652, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_correction); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 651, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_r = __pyx_t_1;
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "networkconv.pyx":617
- *         return self._calculate_gradients_classify(tags, scores)
+  /* "networkconv.pyx":616
+ *             return self._calculate_gradients_sll(tags, scores)
  * 
  *     def _calculate_gradients_classify(self, tags, scores):             # <<<<<<<<<<<<<<
  *         """
@@ -27744,7 +27923,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_38_calculate_gra
   return __pyx_r;
 }
 
-/* "networkconv.pyx":654
+/* "networkconv.pyx":653
  *         return correction
  * 
  *     def _backpropagate(self):             # <<<<<<<<<<<<<<
@@ -27781,16 +27960,16 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_40_backpropagate
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_backpropagate", 0);
-  __Pyx_TraceCall("_backpropagate", __pyx_f[1], 654, 0, __PYX_ERR(1, 654, __pyx_L1_error));
+  __Pyx_TraceCall("_backpropagate", __pyx_f[1], 653, 0, __PYX_ERR(1, 653, __pyx_L1_error));
 
-  /* "networkconv.pyx":664
+  /* "networkconv.pyx":663
  * 
  *         # derivative with respect to the non-linearity layer (tanh)
  *         dCd_tanh = self.net_gradients.dot(self.output_weights)             # <<<<<<<<<<<<<<
  * 
  *         if self.hidden2_weights is not None:
  */
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->__pyx_base.net_gradients), __pyx_n_s_dot); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 664, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->__pyx_base.net_gradients), __pyx_n_s_dot); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 663, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __pyx_t_3 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
@@ -27804,13 +27983,13 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_40_backpropagate
   }
   __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_3, ((PyObject *)__pyx_v_self->__pyx_base.output_weights)) : __Pyx_PyObject_CallOneArg(__pyx_t_2, ((PyObject *)__pyx_v_self->__pyx_base.output_weights));
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 664, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 663, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
   __pyx_v_dCd_tanh = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":666
+  /* "networkconv.pyx":665
  *         dCd_tanh = self.net_gradients.dot(self.output_weights)
  * 
  *         if self.hidden2_weights is not None:             # <<<<<<<<<<<<<<
@@ -27821,7 +28000,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_40_backpropagate
   __pyx_t_5 = (__pyx_t_4 != 0);
   if (__pyx_t_5) {
 
-    /* "networkconv.pyx":668
+    /* "networkconv.pyx":667
  *         if self.hidden2_weights is not None:
  *             # derivative with respect to the second hidden layer
  *             dCd_hidden2 = dCd_tanh * hardtanhd(self.hidden2_before_activation)             # <<<<<<<<<<<<<<
@@ -27830,23 +28009,23 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_40_backpropagate
  */
     __pyx_t_1 = ((PyObject *)__pyx_v_self->hidden2_before_activation);
     __Pyx_INCREF(__pyx_t_1);
-    __pyx_t_2 = __pyx_f_4libs_7network_hardtanhd(((PyArrayObject *)__pyx_t_1)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 668, __pyx_L1_error)
+    __pyx_t_2 = __pyx_f_4libs_7network_hardtanhd(((PyArrayObject *)__pyx_t_1)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 667, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = PyNumber_Multiply(__pyx_v_dCd_tanh, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 668, __pyx_L1_error)
+    __pyx_t_1 = PyNumber_Multiply(__pyx_v_dCd_tanh, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 667, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __pyx_v_dCd_hidden2 = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "networkconv.pyx":669
+    /* "networkconv.pyx":668
  *             # derivative with respect to the second hidden layer
  *             dCd_hidden2 = dCd_tanh * hardtanhd(self.hidden2_before_activation)
  *             self.hidden2_gradients = dCd_hidden2             # <<<<<<<<<<<<<<
  * 
  *             self.hidden_gradients = self.hidden2_gradients.dot(self.hidden2_weights)
  */
-    if (!(likely(((__pyx_v_dCd_hidden2) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_dCd_hidden2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 669, __pyx_L1_error)
+    if (!(likely(((__pyx_v_dCd_hidden2) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_dCd_hidden2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 668, __pyx_L1_error)
     __pyx_t_1 = __pyx_v_dCd_hidden2;
     __Pyx_INCREF(__pyx_t_1);
     __Pyx_GIVEREF(__pyx_t_1);
@@ -27855,14 +28034,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_40_backpropagate
     __pyx_v_self->hidden2_gradients = ((PyArrayObject *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "networkconv.pyx":671
+    /* "networkconv.pyx":670
  *             self.hidden2_gradients = dCd_hidden2
  * 
  *             self.hidden_gradients = self.hidden2_gradients.dot(self.hidden2_weights)             # <<<<<<<<<<<<<<
  *         else:
  *             # the non-linearity appears right after the convolution max
  */
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->hidden2_gradients), __pyx_n_s_dot); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 671, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->hidden2_gradients), __pyx_n_s_dot); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 670, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_t_3 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_2))) {
@@ -27876,17 +28055,17 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_40_backpropagate
     }
     __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_3, ((PyObject *)__pyx_v_self->hidden2_weights)) : __Pyx_PyObject_CallOneArg(__pyx_t_2, ((PyObject *)__pyx_v_self->hidden2_weights));
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 671, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 670, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 671, __pyx_L1_error)
+    if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 670, __pyx_L1_error)
     __Pyx_GIVEREF(__pyx_t_1);
     __Pyx_GOTREF(__pyx_v_self->hidden_gradients);
     __Pyx_DECREF(((PyObject *)__pyx_v_self->hidden_gradients));
     __pyx_v_self->hidden_gradients = ((PyArrayObject *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "networkconv.pyx":666
+    /* "networkconv.pyx":665
  *         dCd_tanh = self.net_gradients.dot(self.output_weights)
  * 
  *         if self.hidden2_weights is not None:             # <<<<<<<<<<<<<<
@@ -27896,7 +28075,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_40_backpropagate
     goto __pyx_L3;
   }
 
-  /* "networkconv.pyx":674
+  /* "networkconv.pyx":673
  *         else:
  *             # the non-linearity appears right after the convolution max
  *             self.hidden_gradients = dCd_tanh * hardtanhd(self.hidden_before_activation)             # <<<<<<<<<<<<<<
@@ -27906,13 +28085,13 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_40_backpropagate
   /*else*/ {
     __pyx_t_1 = ((PyObject *)__pyx_v_self->hidden_before_activation);
     __Pyx_INCREF(__pyx_t_1);
-    __pyx_t_2 = __pyx_f_4libs_7network_hardtanhd(((PyArrayObject *)__pyx_t_1)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 674, __pyx_L1_error)
+    __pyx_t_2 = __pyx_f_4libs_7network_hardtanhd(((PyArrayObject *)__pyx_t_1)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 673, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = PyNumber_Multiply(__pyx_v_dCd_tanh, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 674, __pyx_L1_error)
+    __pyx_t_1 = PyNumber_Multiply(__pyx_v_dCd_tanh, __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 673, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 674, __pyx_L1_error)
+    if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 673, __pyx_L1_error)
     __Pyx_GIVEREF(__pyx_t_1);
     __Pyx_GOTREF(__pyx_v_self->hidden_gradients);
     __Pyx_DECREF(((PyObject *)__pyx_v_self->hidden_gradients));
@@ -27921,7 +28100,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_40_backpropagate
   }
   __pyx_L3:;
 
-  /* "networkconv.pyx":654
+  /* "networkconv.pyx":653
  *         return correction
  * 
  *     def _backpropagate(self):             # <<<<<<<<<<<<<<
@@ -27947,7 +28126,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_40_backpropagate
   return __pyx_r;
 }
 
-/* "networkconv.pyx":678
+/* "networkconv.pyx":677
  *     @cython.boundscheck(False)
  *     @cython.wraparound(False)
  *     def _adjust_weights(self, predicate, arguments=None):             # <<<<<<<<<<<<<<
@@ -27995,7 +28174,7 @@ static PyObject *__pyx_pw_4libs_7network_20ConvolutionalNetwork_43_adjust_weight
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_adjust_weights") < 0)) __PYX_ERR(1, 678, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_adjust_weights") < 0)) __PYX_ERR(1, 677, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -28011,7 +28190,7 @@ static PyObject *__pyx_pw_4libs_7network_20ConvolutionalNetwork_43_adjust_weight
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_adjust_weights", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 678, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_adjust_weights", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 677, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("libs.network.ConvolutionalNetwork._adjust_weights", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -28066,11 +28245,12 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
   int __pyx_t_15;
   PyObject *__pyx_t_16 = NULL;
   PyObject *__pyx_t_17 = NULL;
+  int __pyx_t_18;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_adjust_weights", 0);
-  __Pyx_TraceCall("_adjust_weights", __pyx_f[1], 678, 0, __PYX_ERR(1, 678, __pyx_L1_error));
+  __Pyx_TraceCall("_adjust_weights", __pyx_f[1], 677, 0, __PYX_ERR(1, 677, __pyx_L1_error));
   __pyx_pybuffer_gradients_t.pybuffer.buf = NULL;
   __pyx_pybuffer_gradients_t.refcount = 0;
   __pyx_pybuffernd_gradients_t.data = NULL;
@@ -28092,7 +28272,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
   __pyx_pybuffernd_input_values.data = NULL;
   __pyx_pybuffernd_input_values.rcbuffer = &__pyx_pybuffer_input_values;
 
-  /* "networkconv.pyx":686
+  /* "networkconv.pyx":685
  *         cdef np.ndarray[FLOAT_t, ndim=2] last_values, deltas, grad_matrix, input_values
  * 
  *         last_values = self.hidden2_values if self.hidden2_weights is not None else self.hidden_values             # <<<<<<<<<<<<<<
@@ -28122,21 +28302,21 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
       __pyx_t_4 = __pyx_t_5 = __pyx_t_6 = 0;
     }
     __pyx_pybuffernd_last_values.diminfo[0].strides = __pyx_pybuffernd_last_values.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_last_values.diminfo[0].shape = __pyx_pybuffernd_last_values.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_last_values.diminfo[1].strides = __pyx_pybuffernd_last_values.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_last_values.diminfo[1].shape = __pyx_pybuffernd_last_values.rcbuffer->pybuffer.shape[1];
-    if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(1, 686, __pyx_L1_error)
+    if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(1, 685, __pyx_L1_error)
   }
   __pyx_v_last_values = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":687
+  /* "networkconv.pyx":686
  * 
  *         last_values = self.hidden2_values if self.hidden2_weights is not None else self.hidden_values
  *         deltas = self.net_gradients.T.dot(last_values) * self.learning_rate             # <<<<<<<<<<<<<<
  *         self.output_weights += deltas
  *         self.output_bias += self.net_gradients.sum(0) * self.learning_rate
  */
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->__pyx_base.net_gradients), __pyx_n_s_T); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 687, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->__pyx_base.net_gradients), __pyx_n_s_T); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 686, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_dot); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 687, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_dot); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 686, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __pyx_t_7 = NULL;
@@ -28151,16 +28331,16 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
   }
   __pyx_t_1 = (__pyx_t_7) ? __Pyx_PyObject_Call2Args(__pyx_t_8, __pyx_t_7, ((PyObject *)__pyx_v_last_values)) : __Pyx_PyObject_CallOneArg(__pyx_t_8, ((PyObject *)__pyx_v_last_values));
   __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 687, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 686, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  __pyx_t_8 = PyFloat_FromDouble(__pyx_v_self->__pyx_base.learning_rate); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 687, __pyx_L1_error)
+  __pyx_t_8 = PyFloat_FromDouble(__pyx_v_self->__pyx_base.learning_rate); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 686, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
-  __pyx_t_7 = PyNumber_Multiply(__pyx_t_1, __pyx_t_8); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 687, __pyx_L1_error)
+  __pyx_t_7 = PyNumber_Multiply(__pyx_t_1, __pyx_t_8); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 686, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  if (!(likely(((__pyx_t_7) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_7, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 687, __pyx_L1_error)
+  if (!(likely(((__pyx_t_7) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_7, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 686, __pyx_L1_error)
   __pyx_t_9 = ((PyArrayObject *)__pyx_t_7);
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -28177,36 +28357,36 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
       __pyx_t_6 = __pyx_t_5 = __pyx_t_4 = 0;
     }
     __pyx_pybuffernd_deltas.diminfo[0].strides = __pyx_pybuffernd_deltas.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_deltas.diminfo[0].shape = __pyx_pybuffernd_deltas.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_deltas.diminfo[1].strides = __pyx_pybuffernd_deltas.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_deltas.diminfo[1].shape = __pyx_pybuffernd_deltas.rcbuffer->pybuffer.shape[1];
-    if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(1, 687, __pyx_L1_error)
+    if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(1, 686, __pyx_L1_error)
   }
   __pyx_t_9 = 0;
   __pyx_v_deltas = ((PyArrayObject *)__pyx_t_7);
   __pyx_t_7 = 0;
 
-  /* "networkconv.pyx":688
+  /* "networkconv.pyx":687
  *         last_values = self.hidden2_values if self.hidden2_weights is not None else self.hidden_values
  *         deltas = self.net_gradients.T.dot(last_values) * self.learning_rate
  *         self.output_weights += deltas             # <<<<<<<<<<<<<<
  *         self.output_bias += self.net_gradients.sum(0) * self.learning_rate
  * 
  */
-  __pyx_t_7 = PyNumber_InPlaceAdd(((PyObject *)__pyx_v_self->__pyx_base.output_weights), ((PyObject *)__pyx_v_deltas)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 688, __pyx_L1_error)
+  __pyx_t_7 = PyNumber_InPlaceAdd(((PyObject *)__pyx_v_self->__pyx_base.output_weights), ((PyObject *)__pyx_v_deltas)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 687, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (!(likely(((__pyx_t_7) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_7, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 688, __pyx_L1_error)
+  if (!(likely(((__pyx_t_7) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_7, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 687, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_7);
   __Pyx_GOTREF(__pyx_v_self->__pyx_base.output_weights);
   __Pyx_DECREF(((PyObject *)__pyx_v_self->__pyx_base.output_weights));
   __pyx_v_self->__pyx_base.output_weights = ((PyArrayObject *)__pyx_t_7);
   __pyx_t_7 = 0;
 
-  /* "networkconv.pyx":689
+  /* "networkconv.pyx":688
  *         deltas = self.net_gradients.T.dot(last_values) * self.learning_rate
  *         self.output_weights += deltas
  *         self.output_bias += self.net_gradients.sum(0) * self.learning_rate             # <<<<<<<<<<<<<<
  * 
  *         if self.hidden2_weights is not None:
  */
-  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->__pyx_base.net_gradients), __pyx_n_s_sum); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 689, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->__pyx_base.net_gradients), __pyx_n_s_sum); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 688, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __pyx_t_1 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_8))) {
@@ -28220,26 +28400,26 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
   }
   __pyx_t_7 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_8, __pyx_t_1, __pyx_int_0) : __Pyx_PyObject_CallOneArg(__pyx_t_8, __pyx_int_0);
   __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 689, __pyx_L1_error)
+  if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 688, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  __pyx_t_8 = PyFloat_FromDouble(__pyx_v_self->__pyx_base.learning_rate); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 689, __pyx_L1_error)
+  __pyx_t_8 = PyFloat_FromDouble(__pyx_v_self->__pyx_base.learning_rate); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 688, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
-  __pyx_t_1 = PyNumber_Multiply(__pyx_t_7, __pyx_t_8); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 689, __pyx_L1_error)
+  __pyx_t_1 = PyNumber_Multiply(__pyx_t_7, __pyx_t_8); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 688, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  __pyx_t_8 = PyNumber_InPlaceAdd(((PyObject *)__pyx_v_self->__pyx_base.output_bias), __pyx_t_1); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 689, __pyx_L1_error)
+  __pyx_t_8 = PyNumber_InPlaceAdd(((PyObject *)__pyx_v_self->__pyx_base.output_bias), __pyx_t_1); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 688, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (!(likely(((__pyx_t_8) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_8, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 689, __pyx_L1_error)
+  if (!(likely(((__pyx_t_8) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_8, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 688, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_8);
   __Pyx_GOTREF(__pyx_v_self->__pyx_base.output_bias);
   __Pyx_DECREF(((PyObject *)__pyx_v_self->__pyx_base.output_bias));
   __pyx_v_self->__pyx_base.output_bias = ((PyArrayObject *)__pyx_t_8);
   __pyx_t_8 = 0;
 
-  /* "networkconv.pyx":691
+  /* "networkconv.pyx":690
  *         self.output_bias += self.net_gradients.sum(0) * self.learning_rate
  * 
  *         if self.hidden2_weights is not None:             # <<<<<<<<<<<<<<
@@ -28250,16 +28430,16 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
   __pyx_t_10 = (__pyx_t_2 != 0);
   if (__pyx_t_10) {
 
-    /* "networkconv.pyx":692
+    /* "networkconv.pyx":691
  * 
  *         if self.hidden2_weights is not None:
  *             deltas = self.hidden2_gradients.T.dot(self.hidden_values) * self.learning_rate             # <<<<<<<<<<<<<<
  *             self.hidden2_weights += deltas
  *             self.hidden2_bias += self.hidden2_gradients.sum(0) * self.learning_rate
  */
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->hidden2_gradients), __pyx_n_s_T); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 692, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->hidden2_gradients), __pyx_n_s_T); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 691, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_dot); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 692, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_dot); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 691, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_t_1 = NULL;
@@ -28274,16 +28454,16 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
     }
     __pyx_t_8 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_7, __pyx_t_1, ((PyObject *)__pyx_v_self->__pyx_base.hidden_values)) : __Pyx_PyObject_CallOneArg(__pyx_t_7, ((PyObject *)__pyx_v_self->__pyx_base.hidden_values));
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 692, __pyx_L1_error)
+    if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 691, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = PyFloat_FromDouble(__pyx_v_self->__pyx_base.learning_rate); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 692, __pyx_L1_error)
+    __pyx_t_7 = PyFloat_FromDouble(__pyx_v_self->__pyx_base.learning_rate); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 691, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_1 = PyNumber_Multiply(__pyx_t_8, __pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 692, __pyx_L1_error)
+    __pyx_t_1 = PyNumber_Multiply(__pyx_t_8, __pyx_t_7); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 691, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 692, __pyx_L1_error)
+    if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 691, __pyx_L1_error)
     __pyx_t_9 = ((PyArrayObject *)__pyx_t_1);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -28300,36 +28480,36 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
         __pyx_t_4 = __pyx_t_5 = __pyx_t_6 = 0;
       }
       __pyx_pybuffernd_deltas.diminfo[0].strides = __pyx_pybuffernd_deltas.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_deltas.diminfo[0].shape = __pyx_pybuffernd_deltas.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_deltas.diminfo[1].strides = __pyx_pybuffernd_deltas.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_deltas.diminfo[1].shape = __pyx_pybuffernd_deltas.rcbuffer->pybuffer.shape[1];
-      if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(1, 692, __pyx_L1_error)
+      if (unlikely(__pyx_t_3 < 0)) __PYX_ERR(1, 691, __pyx_L1_error)
     }
     __pyx_t_9 = 0;
     __Pyx_DECREF_SET(__pyx_v_deltas, ((PyArrayObject *)__pyx_t_1));
     __pyx_t_1 = 0;
 
-    /* "networkconv.pyx":693
+    /* "networkconv.pyx":692
  *         if self.hidden2_weights is not None:
  *             deltas = self.hidden2_gradients.T.dot(self.hidden_values) * self.learning_rate
  *             self.hidden2_weights += deltas             # <<<<<<<<<<<<<<
  *             self.hidden2_bias += self.hidden2_gradients.sum(0) * self.learning_rate
  * 
  */
-    __pyx_t_1 = PyNumber_InPlaceAdd(((PyObject *)__pyx_v_self->hidden2_weights), ((PyObject *)__pyx_v_deltas)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 693, __pyx_L1_error)
+    __pyx_t_1 = PyNumber_InPlaceAdd(((PyObject *)__pyx_v_self->hidden2_weights), ((PyObject *)__pyx_v_deltas)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 692, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 693, __pyx_L1_error)
+    if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 692, __pyx_L1_error)
     __Pyx_GIVEREF(__pyx_t_1);
     __Pyx_GOTREF(__pyx_v_self->hidden2_weights);
     __Pyx_DECREF(((PyObject *)__pyx_v_self->hidden2_weights));
     __pyx_v_self->hidden2_weights = ((PyArrayObject *)__pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "networkconv.pyx":694
+    /* "networkconv.pyx":693
  *             deltas = self.hidden2_gradients.T.dot(self.hidden_values) * self.learning_rate
  *             self.hidden2_weights += deltas
  *             self.hidden2_bias += self.hidden2_gradients.sum(0) * self.learning_rate             # <<<<<<<<<<<<<<
  * 
  *         # now adjust weights from input to convolution. these will be trickier.
  */
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->hidden2_gradients), __pyx_n_s_sum); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 694, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->hidden2_gradients), __pyx_n_s_sum); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 693, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __pyx_t_8 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
@@ -28343,26 +28523,26 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
     }
     __pyx_t_1 = (__pyx_t_8) ? __Pyx_PyObject_Call2Args(__pyx_t_7, __pyx_t_8, __pyx_int_0) : __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_int_0);
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 694, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 693, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = PyFloat_FromDouble(__pyx_v_self->__pyx_base.learning_rate); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 694, __pyx_L1_error)
+    __pyx_t_7 = PyFloat_FromDouble(__pyx_v_self->__pyx_base.learning_rate); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 693, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_8 = PyNumber_Multiply(__pyx_t_1, __pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 694, __pyx_L1_error)
+    __pyx_t_8 = PyNumber_Multiply(__pyx_t_1, __pyx_t_7); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 693, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-    __pyx_t_7 = PyNumber_InPlaceAdd(((PyObject *)__pyx_v_self->hidden2_bias), __pyx_t_8); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 694, __pyx_L1_error)
+    __pyx_t_7 = PyNumber_InPlaceAdd(((PyObject *)__pyx_v_self->hidden2_bias), __pyx_t_8); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 693, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (!(likely(((__pyx_t_7) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_7, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 694, __pyx_L1_error)
+    if (!(likely(((__pyx_t_7) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_7, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 693, __pyx_L1_error)
     __Pyx_GIVEREF(__pyx_t_7);
     __Pyx_GOTREF(__pyx_v_self->hidden2_bias);
     __Pyx_DECREF(((PyObject *)__pyx_v_self->hidden2_bias));
     __pyx_v_self->hidden2_bias = ((PyArrayObject *)__pyx_t_7);
     __pyx_t_7 = 0;
 
-    /* "networkconv.pyx":691
+    /* "networkconv.pyx":690
  *         self.output_bias += self.net_gradients.sum(0) * self.learning_rate
  * 
  *         if self.hidden2_weights is not None:             # <<<<<<<<<<<<<<
@@ -28371,7 +28551,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
  */
   }
 
-  /* "networkconv.pyx":701
+  /* "networkconv.pyx":700
  *         # I tried vectorizing this loop but it got a bit slower, probably because
  *         # of the overhead in building matrices/tensors with the max indices
  *         for i, neuron_maxes in enumerate(self.max_indices):             # <<<<<<<<<<<<<<
@@ -28383,26 +28563,26 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
     __pyx_t_7 = ((PyObject *)__pyx_v_self->max_indices); __Pyx_INCREF(__pyx_t_7); __pyx_t_11 = 0;
     __pyx_t_12 = NULL;
   } else {
-    __pyx_t_11 = -1; __pyx_t_7 = PyObject_GetIter(((PyObject *)__pyx_v_self->max_indices)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 701, __pyx_L1_error)
+    __pyx_t_11 = -1; __pyx_t_7 = PyObject_GetIter(((PyObject *)__pyx_v_self->max_indices)); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 700, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
-    __pyx_t_12 = Py_TYPE(__pyx_t_7)->tp_iternext; if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 701, __pyx_L1_error)
+    __pyx_t_12 = Py_TYPE(__pyx_t_7)->tp_iternext; if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 700, __pyx_L1_error)
   }
   for (;;) {
     if (likely(!__pyx_t_12)) {
       if (likely(PyList_CheckExact(__pyx_t_7))) {
         if (__pyx_t_11 >= PyList_GET_SIZE(__pyx_t_7)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_8 = PyList_GET_ITEM(__pyx_t_7, __pyx_t_11); __Pyx_INCREF(__pyx_t_8); __pyx_t_11++; if (unlikely(0 < 0)) __PYX_ERR(1, 701, __pyx_L1_error)
+        __pyx_t_8 = PyList_GET_ITEM(__pyx_t_7, __pyx_t_11); __Pyx_INCREF(__pyx_t_8); __pyx_t_11++; if (unlikely(0 < 0)) __PYX_ERR(1, 700, __pyx_L1_error)
         #else
-        __pyx_t_8 = PySequence_ITEM(__pyx_t_7, __pyx_t_11); __pyx_t_11++; if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 701, __pyx_L1_error)
+        __pyx_t_8 = PySequence_ITEM(__pyx_t_7, __pyx_t_11); __pyx_t_11++; if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 700, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_8);
         #endif
       } else {
         if (__pyx_t_11 >= PyTuple_GET_SIZE(__pyx_t_7)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_8 = PyTuple_GET_ITEM(__pyx_t_7, __pyx_t_11); __Pyx_INCREF(__pyx_t_8); __pyx_t_11++; if (unlikely(0 < 0)) __PYX_ERR(1, 701, __pyx_L1_error)
+        __pyx_t_8 = PyTuple_GET_ITEM(__pyx_t_7, __pyx_t_11); __Pyx_INCREF(__pyx_t_8); __pyx_t_11++; if (unlikely(0 < 0)) __PYX_ERR(1, 700, __pyx_L1_error)
         #else
-        __pyx_t_8 = PySequence_ITEM(__pyx_t_7, __pyx_t_11); __pyx_t_11++; if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 701, __pyx_L1_error)
+        __pyx_t_8 = PySequence_ITEM(__pyx_t_7, __pyx_t_11); __pyx_t_11++; if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 700, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_8);
         #endif
       }
@@ -28412,7 +28592,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(1, 701, __pyx_L1_error)
+          else __PYX_ERR(1, 700, __pyx_L1_error)
         }
         break;
       }
@@ -28423,22 +28603,22 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
     __pyx_v_i = __pyx_t_3;
     __pyx_t_3 = (__pyx_t_3 + 1);
 
-    /* "networkconv.pyx":704
+    /* "networkconv.pyx":703
  *             # i indicates the i-th target
  * 
  *             gradients_t = self.hidden_gradients[i] * self.learning_rate             # <<<<<<<<<<<<<<
  * 
  *             # table containing in each line the input values selected for each convolution neuron
  */
-    __pyx_t_8 = __Pyx_GetItemInt(((PyObject *)__pyx_v_self->hidden_gradients), __pyx_v_i, int, 1, __Pyx_PyInt_From_int, 0, 0, 0); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 704, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_GetItemInt(((PyObject *)__pyx_v_self->hidden_gradients), __pyx_v_i, int, 1, __Pyx_PyInt_From_int, 0, 0, 0); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 703, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_1 = PyFloat_FromDouble(__pyx_v_self->__pyx_base.learning_rate); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 704, __pyx_L1_error)
+    __pyx_t_1 = PyFloat_FromDouble(__pyx_v_self->__pyx_base.learning_rate); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 703, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_13 = PyNumber_Multiply(__pyx_t_8, __pyx_t_1); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 704, __pyx_L1_error)
+    __pyx_t_13 = PyNumber_Multiply(__pyx_t_8, __pyx_t_1); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 703, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (!(likely(((__pyx_t_13) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_13, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 704, __pyx_L1_error)
+    if (!(likely(((__pyx_t_13) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_13, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 703, __pyx_L1_error)
     __pyx_t_14 = ((PyArrayObject *)__pyx_t_13);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -28455,20 +28635,20 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
         __pyx_t_6 = __pyx_t_5 = __pyx_t_4 = 0;
       }
       __pyx_pybuffernd_gradients_t.diminfo[0].strides = __pyx_pybuffernd_gradients_t.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_gradients_t.diminfo[0].shape = __pyx_pybuffernd_gradients_t.rcbuffer->pybuffer.shape[0];
-      if (unlikely(__pyx_t_15 < 0)) __PYX_ERR(1, 704, __pyx_L1_error)
+      if (unlikely(__pyx_t_15 < 0)) __PYX_ERR(1, 703, __pyx_L1_error)
     }
     __pyx_t_14 = 0;
     __Pyx_XDECREF_SET(__pyx_v_gradients_t, ((PyArrayObject *)__pyx_t_13));
     __pyx_t_13 = 0;
 
-    /* "networkconv.pyx":707
+    /* "networkconv.pyx":706
  * 
  *             # table containing in each line the input values selected for each convolution neuron
  *             input_values = self.input_sent_values.take(neuron_maxes, 0)             # <<<<<<<<<<<<<<
  * 
  *             # stack the gradients to multiply all weights for a neuron
  */
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->__pyx_base.input_sent_values), __pyx_n_s_take); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 707, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->__pyx_base.input_sent_values), __pyx_n_s_take); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 706, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __pyx_t_8 = NULL;
     __pyx_t_15 = 0;
@@ -28485,7 +28665,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_1)) {
       PyObject *__pyx_temp[3] = {__pyx_t_8, __pyx_v_neuron_maxes, __pyx_int_0};
-      __pyx_t_13 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_15, 2+__pyx_t_15); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 707, __pyx_L1_error)
+      __pyx_t_13 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_15, 2+__pyx_t_15); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 706, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_GOTREF(__pyx_t_13);
     } else
@@ -28493,13 +28673,13 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
       PyObject *__pyx_temp[3] = {__pyx_t_8, __pyx_v_neuron_maxes, __pyx_int_0};
-      __pyx_t_13 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_15, 2+__pyx_t_15); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 707, __pyx_L1_error)
+      __pyx_t_13 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_15, 2+__pyx_t_15); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 706, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_GOTREF(__pyx_t_13);
     } else
     #endif
     {
-      __pyx_t_16 = PyTuple_New(2+__pyx_t_15); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 707, __pyx_L1_error)
+      __pyx_t_16 = PyTuple_New(2+__pyx_t_15); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 706, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_16);
       if (__pyx_t_8) {
         __Pyx_GIVEREF(__pyx_t_8); PyTuple_SET_ITEM(__pyx_t_16, 0, __pyx_t_8); __pyx_t_8 = NULL;
@@ -28510,12 +28690,12 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
       __Pyx_INCREF(__pyx_int_0);
       __Pyx_GIVEREF(__pyx_int_0);
       PyTuple_SET_ITEM(__pyx_t_16, 1+__pyx_t_15, __pyx_int_0);
-      __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_16, NULL); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 707, __pyx_L1_error)
+      __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_16, NULL); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 706, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_13);
       __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (!(likely(((__pyx_t_13) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_13, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 707, __pyx_L1_error)
+    if (!(likely(((__pyx_t_13) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_13, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 706, __pyx_L1_error)
     __pyx_t_9 = ((PyArrayObject *)__pyx_t_13);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -28532,27 +28712,27 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
         __pyx_t_4 = __pyx_t_5 = __pyx_t_6 = 0;
       }
       __pyx_pybuffernd_input_values.diminfo[0].strides = __pyx_pybuffernd_input_values.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_input_values.diminfo[0].shape = __pyx_pybuffernd_input_values.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_input_values.diminfo[1].strides = __pyx_pybuffernd_input_values.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_input_values.diminfo[1].shape = __pyx_pybuffernd_input_values.rcbuffer->pybuffer.shape[1];
-      if (unlikely(__pyx_t_15 < 0)) __PYX_ERR(1, 707, __pyx_L1_error)
+      if (unlikely(__pyx_t_15 < 0)) __PYX_ERR(1, 706, __pyx_L1_error)
     }
     __pyx_t_9 = 0;
     __Pyx_XDECREF_SET(__pyx_v_input_values, ((PyArrayObject *)__pyx_t_13));
     __pyx_t_13 = 0;
 
-    /* "networkconv.pyx":710
+    /* "networkconv.pyx":709
  * 
  *             # stack the gradients to multiply all weights for a neuron
  *             grad_matrix = np.tile(gradients_t, [self.input_size, 1]).T             # <<<<<<<<<<<<<<
  *             self.hidden_weights += grad_matrix * input_values
  * 
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 710, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 709, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_16 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_tile); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 710, __pyx_L1_error)
+    __pyx_t_16 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_tile); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 709, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_16);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.input_size); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 710, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.input_size); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 709, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_8 = PyList_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 710, __pyx_L1_error)
+    __pyx_t_8 = PyList_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 709, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_GIVEREF(__pyx_t_1);
     PyList_SET_ITEM(__pyx_t_8, 0, __pyx_t_1);
@@ -28575,7 +28755,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_16)) {
       PyObject *__pyx_temp[3] = {__pyx_t_1, ((PyObject *)__pyx_v_gradients_t), __pyx_t_8};
-      __pyx_t_13 = __Pyx_PyFunction_FastCall(__pyx_t_16, __pyx_temp+1-__pyx_t_15, 2+__pyx_t_15); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 710, __pyx_L1_error)
+      __pyx_t_13 = __Pyx_PyFunction_FastCall(__pyx_t_16, __pyx_temp+1-__pyx_t_15, 2+__pyx_t_15); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 709, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_GOTREF(__pyx_t_13);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -28584,14 +28764,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_16)) {
       PyObject *__pyx_temp[3] = {__pyx_t_1, ((PyObject *)__pyx_v_gradients_t), __pyx_t_8};
-      __pyx_t_13 = __Pyx_PyCFunction_FastCall(__pyx_t_16, __pyx_temp+1-__pyx_t_15, 2+__pyx_t_15); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 710, __pyx_L1_error)
+      __pyx_t_13 = __Pyx_PyCFunction_FastCall(__pyx_t_16, __pyx_temp+1-__pyx_t_15, 2+__pyx_t_15); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 709, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_GOTREF(__pyx_t_13);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     } else
     #endif
     {
-      __pyx_t_17 = PyTuple_New(2+__pyx_t_15); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 710, __pyx_L1_error)
+      __pyx_t_17 = PyTuple_New(2+__pyx_t_15); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 709, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
       if (__pyx_t_1) {
         __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_17, 0, __pyx_t_1); __pyx_t_1 = NULL;
@@ -28602,15 +28782,15 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
       __Pyx_GIVEREF(__pyx_t_8);
       PyTuple_SET_ITEM(__pyx_t_17, 1+__pyx_t_15, __pyx_t_8);
       __pyx_t_8 = 0;
-      __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_16, __pyx_t_17, NULL); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 710, __pyx_L1_error)
+      __pyx_t_13 = __Pyx_PyObject_Call(__pyx_t_16, __pyx_t_17, NULL); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 709, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_13);
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     }
     __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-    __pyx_t_16 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_n_s_T); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 710, __pyx_L1_error)
+    __pyx_t_16 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_n_s_T); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 709, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_16);
     __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-    if (!(likely(((__pyx_t_16) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_16, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 710, __pyx_L1_error)
+    if (!(likely(((__pyx_t_16) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_16, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 709, __pyx_L1_error)
     __pyx_t_9 = ((PyArrayObject *)__pyx_t_16);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -28627,32 +28807,32 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
         __pyx_t_6 = __pyx_t_5 = __pyx_t_4 = 0;
       }
       __pyx_pybuffernd_grad_matrix.diminfo[0].strides = __pyx_pybuffernd_grad_matrix.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_grad_matrix.diminfo[0].shape = __pyx_pybuffernd_grad_matrix.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_grad_matrix.diminfo[1].strides = __pyx_pybuffernd_grad_matrix.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_grad_matrix.diminfo[1].shape = __pyx_pybuffernd_grad_matrix.rcbuffer->pybuffer.shape[1];
-      if (unlikely(__pyx_t_15 < 0)) __PYX_ERR(1, 710, __pyx_L1_error)
+      if (unlikely(__pyx_t_15 < 0)) __PYX_ERR(1, 709, __pyx_L1_error)
     }
     __pyx_t_9 = 0;
     __Pyx_XDECREF_SET(__pyx_v_grad_matrix, ((PyArrayObject *)__pyx_t_16));
     __pyx_t_16 = 0;
 
-    /* "networkconv.pyx":711
+    /* "networkconv.pyx":710
  *             # stack the gradients to multiply all weights for a neuron
  *             grad_matrix = np.tile(gradients_t, [self.input_size, 1]).T
  *             self.hidden_weights += grad_matrix * input_values             # <<<<<<<<<<<<<<
  * 
  *             # target distance weights
  */
-    __pyx_t_16 = PyNumber_Multiply(((PyObject *)__pyx_v_grad_matrix), ((PyObject *)__pyx_v_input_values)); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 711, __pyx_L1_error)
+    __pyx_t_16 = PyNumber_Multiply(((PyObject *)__pyx_v_grad_matrix), ((PyObject *)__pyx_v_input_values)); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 710, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_16);
-    __pyx_t_13 = PyNumber_InPlaceAdd(((PyObject *)__pyx_v_self->__pyx_base.hidden_weights), __pyx_t_16); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 711, __pyx_L1_error)
+    __pyx_t_13 = PyNumber_InPlaceAdd(((PyObject *)__pyx_v_self->__pyx_base.hidden_weights), __pyx_t_16); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 710, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
     __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-    if (!(likely(((__pyx_t_13) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_13, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 711, __pyx_L1_error)
+    if (!(likely(((__pyx_t_13) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_13, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 710, __pyx_L1_error)
     __Pyx_GIVEREF(__pyx_t_13);
     __Pyx_GOTREF(__pyx_v_self->__pyx_base.hidden_weights);
     __Pyx_DECREF(((PyObject *)__pyx_v_self->__pyx_base.hidden_weights));
     __pyx_v_self->__pyx_base.hidden_weights = ((PyArrayObject *)__pyx_t_13);
     __pyx_t_13 = 0;
 
-    /* "networkconv.pyx":715
+    /* "networkconv.pyx":714
  *             # target distance weights
  *             # get the relative distance from each max token to its target
  *             if arguments is None:             # <<<<<<<<<<<<<<
@@ -28663,22 +28843,22 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
     __pyx_t_2 = (__pyx_t_10 != 0);
     if (__pyx_t_2) {
 
-      /* "networkconv.pyx":716
+      /* "networkconv.pyx":715
  *             # get the relative distance from each max token to its target
  *             if arguments is None:
  *                 target_dists = neuron_maxes - i             # <<<<<<<<<<<<<<
  *             else:
  *                 argument = arguments[i]
  */
-      __pyx_t_13 = __Pyx_PyInt_From_int(__pyx_v_i); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 716, __pyx_L1_error)
+      __pyx_t_13 = __Pyx_PyInt_From_int(__pyx_v_i); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 715, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_13);
-      __pyx_t_16 = PyNumber_Subtract(__pyx_v_neuron_maxes, __pyx_t_13); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 716, __pyx_L1_error)
+      __pyx_t_16 = PyNumber_Subtract(__pyx_v_neuron_maxes, __pyx_t_13); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 715, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_16);
       __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
       __Pyx_XDECREF_SET(__pyx_v_target_dists, __pyx_t_16);
       __pyx_t_16 = 0;
 
-      /* "networkconv.pyx":715
+      /* "networkconv.pyx":714
  *             # target distance weights
  *             # get the relative distance from each max token to its target
  *             if arguments is None:             # <<<<<<<<<<<<<<
@@ -28688,7 +28868,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
       goto __pyx_L6;
     }
 
-    /* "networkconv.pyx":718
+    /* "networkconv.pyx":717
  *                 target_dists = neuron_maxes - i
  *             else:
  *                 argument = arguments[i]             # <<<<<<<<<<<<<<
@@ -28696,40 +28876,40 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
  * 
  */
     /*else*/ {
-      __pyx_t_16 = __Pyx_GetItemInt(__pyx_v_arguments, __pyx_v_i, int, 1, __Pyx_PyInt_From_int, 0, 0, 0); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 718, __pyx_L1_error)
+      __pyx_t_16 = __Pyx_GetItemInt(__pyx_v_arguments, __pyx_v_i, int, 1, __Pyx_PyInt_From_int, 0, 0, 0); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 717, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_16);
       __Pyx_XDECREF_SET(__pyx_v_argument, __pyx_t_16);
       __pyx_t_16 = 0;
 
-      /* "networkconv.pyx":719
+      /* "networkconv.pyx":718
  *             else:
  *                 argument = arguments[i]
  *                 target_dists = self.argument_distances(neuron_maxes, argument)             # <<<<<<<<<<<<<<
  * 
  *             dist_features = self.target_dist_lookup.take(target_dists + self.target_dist_offset,
  */
-      __pyx_t_16 = ((PyObject *)((struct __pyx_vtabstruct_4libs_7network_ConvolutionalNetwork *)__pyx_v_self->__pyx_vtab)->argument_distances(__pyx_v_self, __pyx_v_neuron_maxes, __pyx_v_argument)); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 719, __pyx_L1_error)
+      __pyx_t_16 = ((PyObject *)((struct __pyx_vtabstruct_4libs_7network_ConvolutionalNetwork *)__pyx_v_self->__pyx_vtab)->argument_distances(__pyx_v_self, __pyx_v_neuron_maxes, __pyx_v_argument)); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 718, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_16);
       __Pyx_XDECREF_SET(__pyx_v_target_dists, __pyx_t_16);
       __pyx_t_16 = 0;
     }
     __pyx_L6:;
 
-    /* "networkconv.pyx":721
+    /* "networkconv.pyx":720
  *                 target_dists = self.argument_distances(neuron_maxes, argument)
  * 
  *             dist_features = self.target_dist_lookup.take(target_dists + self.target_dist_offset,             # <<<<<<<<<<<<<<
  *                                                          0, mode='clip')
  *             grad_matrix = np.tile(gradients_t, [self.target_dist_weights.shape[0], 1]).T
  */
-    __pyx_t_16 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->target_dist_lookup), __pyx_n_s_take); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 721, __pyx_L1_error)
+    __pyx_t_16 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->target_dist_lookup), __pyx_n_s_take); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 720, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_16);
-    __pyx_t_13 = __Pyx_PyInt_From_int(__pyx_v_self->target_dist_offset); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 721, __pyx_L1_error)
+    __pyx_t_13 = __Pyx_PyInt_From_int(__pyx_v_self->target_dist_offset); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 720, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
-    __pyx_t_17 = PyNumber_Add(__pyx_v_target_dists, __pyx_t_13); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 721, __pyx_L1_error)
+    __pyx_t_17 = PyNumber_Add(__pyx_v_target_dists, __pyx_t_13); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 720, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-    __pyx_t_13 = PyTuple_New(2); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 721, __pyx_L1_error)
+    __pyx_t_13 = PyTuple_New(2); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 720, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
     __Pyx_GIVEREF(__pyx_t_17);
     PyTuple_SET_ITEM(__pyx_t_13, 0, __pyx_t_17);
@@ -28738,25 +28918,25 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
     PyTuple_SET_ITEM(__pyx_t_13, 1, __pyx_int_0);
     __pyx_t_17 = 0;
 
-    /* "networkconv.pyx":722
+    /* "networkconv.pyx":721
  * 
  *             dist_features = self.target_dist_lookup.take(target_dists + self.target_dist_offset,
  *                                                          0, mode='clip')             # <<<<<<<<<<<<<<
  *             grad_matrix = np.tile(gradients_t, [self.target_dist_weights.shape[0], 1]).T
  *             self.target_dist_weights += (grad_matrix * dist_features).T
  */
-    __pyx_t_17 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 722, __pyx_L1_error)
+    __pyx_t_17 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 721, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
-    if (PyDict_SetItem(__pyx_t_17, __pyx_n_s_mode, __pyx_n_u_clip) < 0) __PYX_ERR(1, 722, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_17, __pyx_n_s_mode, __pyx_n_u_clip) < 0) __PYX_ERR(1, 721, __pyx_L1_error)
 
-    /* "networkconv.pyx":721
+    /* "networkconv.pyx":720
  *                 target_dists = self.argument_distances(neuron_maxes, argument)
  * 
  *             dist_features = self.target_dist_lookup.take(target_dists + self.target_dist_offset,             # <<<<<<<<<<<<<<
  *                                                          0, mode='clip')
  *             grad_matrix = np.tile(gradients_t, [self.target_dist_weights.shape[0], 1]).T
  */
-    __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_16, __pyx_t_13, __pyx_t_17); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 721, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_16, __pyx_t_13, __pyx_t_17); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 720, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
     __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
@@ -28764,21 +28944,21 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
     __Pyx_XDECREF_SET(__pyx_v_dist_features, __pyx_t_8);
     __pyx_t_8 = 0;
 
-    /* "networkconv.pyx":723
+    /* "networkconv.pyx":722
  *             dist_features = self.target_dist_lookup.take(target_dists + self.target_dist_offset,
  *                                                          0, mode='clip')
  *             grad_matrix = np.tile(gradients_t, [self.target_dist_weights.shape[0], 1]).T             # <<<<<<<<<<<<<<
  *             self.target_dist_weights += (grad_matrix * dist_features).T
  * 
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_n_s_np); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 723, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_n_s_np); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 722, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
-    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_n_s_tile); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 723, __pyx_L1_error)
+    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_n_s_tile); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 722, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-    __pyx_t_17 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->target_dist_weights->dimensions[0])); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 723, __pyx_L1_error)
+    __pyx_t_17 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->target_dist_weights->dimensions[0])); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 722, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
-    __pyx_t_16 = PyList_New(2); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 723, __pyx_L1_error)
+    __pyx_t_16 = PyList_New(2); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 722, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_16);
     __Pyx_GIVEREF(__pyx_t_17);
     PyList_SET_ITEM(__pyx_t_16, 0, __pyx_t_17);
@@ -28801,7 +28981,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_13)) {
       PyObject *__pyx_temp[3] = {__pyx_t_17, ((PyObject *)__pyx_v_gradients_t), __pyx_t_16};
-      __pyx_t_8 = __Pyx_PyFunction_FastCall(__pyx_t_13, __pyx_temp+1-__pyx_t_15, 2+__pyx_t_15); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 723, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyFunction_FastCall(__pyx_t_13, __pyx_temp+1-__pyx_t_15, 2+__pyx_t_15); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 722, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
@@ -28810,14 +28990,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_13)) {
       PyObject *__pyx_temp[3] = {__pyx_t_17, ((PyObject *)__pyx_v_gradients_t), __pyx_t_16};
-      __pyx_t_8 = __Pyx_PyCFunction_FastCall(__pyx_t_13, __pyx_temp+1-__pyx_t_15, 2+__pyx_t_15); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 723, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyCFunction_FastCall(__pyx_t_13, __pyx_temp+1-__pyx_t_15, 2+__pyx_t_15); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 722, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_17); __pyx_t_17 = 0;
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
     } else
     #endif
     {
-      __pyx_t_1 = PyTuple_New(2+__pyx_t_15); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 723, __pyx_L1_error)
+      __pyx_t_1 = PyTuple_New(2+__pyx_t_15); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 722, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       if (__pyx_t_17) {
         __Pyx_GIVEREF(__pyx_t_17); PyTuple_SET_ITEM(__pyx_t_1, 0, __pyx_t_17); __pyx_t_17 = NULL;
@@ -28828,15 +29008,15 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
       __Pyx_GIVEREF(__pyx_t_16);
       PyTuple_SET_ITEM(__pyx_t_1, 1+__pyx_t_15, __pyx_t_16);
       __pyx_t_16 = 0;
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_t_1, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 723, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_t_1, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 722, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     }
     __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_T); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 723, __pyx_L1_error)
+    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_T); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 722, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (!(likely(((__pyx_t_13) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_13, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 723, __pyx_L1_error)
+    if (!(likely(((__pyx_t_13) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_13, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 722, __pyx_L1_error)
     __pyx_t_9 = ((PyArrayObject *)__pyx_t_13);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -28853,61 +29033,61 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
         __pyx_t_4 = __pyx_t_5 = __pyx_t_6 = 0;
       }
       __pyx_pybuffernd_grad_matrix.diminfo[0].strides = __pyx_pybuffernd_grad_matrix.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_grad_matrix.diminfo[0].shape = __pyx_pybuffernd_grad_matrix.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_grad_matrix.diminfo[1].strides = __pyx_pybuffernd_grad_matrix.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_grad_matrix.diminfo[1].shape = __pyx_pybuffernd_grad_matrix.rcbuffer->pybuffer.shape[1];
-      if (unlikely(__pyx_t_15 < 0)) __PYX_ERR(1, 723, __pyx_L1_error)
+      if (unlikely(__pyx_t_15 < 0)) __PYX_ERR(1, 722, __pyx_L1_error)
     }
     __pyx_t_9 = 0;
     __Pyx_DECREF_SET(__pyx_v_grad_matrix, ((PyArrayObject *)__pyx_t_13));
     __pyx_t_13 = 0;
 
-    /* "networkconv.pyx":724
+    /* "networkconv.pyx":723
  *                                                          0, mode='clip')
  *             grad_matrix = np.tile(gradients_t, [self.target_dist_weights.shape[0], 1]).T
  *             self.target_dist_weights += (grad_matrix * dist_features).T             # <<<<<<<<<<<<<<
  * 
  *             # predicate distance weights
  */
-    __pyx_t_13 = PyNumber_Multiply(((PyObject *)__pyx_v_grad_matrix), __pyx_v_dist_features); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 724, __pyx_L1_error)
+    __pyx_t_13 = PyNumber_Multiply(((PyObject *)__pyx_v_grad_matrix), __pyx_v_dist_features); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 723, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
-    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_n_s_T); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 724, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_13, __pyx_n_s_T); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 723, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-    __pyx_t_13 = PyNumber_InPlaceAdd(((PyObject *)__pyx_v_self->target_dist_weights), __pyx_t_8); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 724, __pyx_L1_error)
+    __pyx_t_13 = PyNumber_InPlaceAdd(((PyObject *)__pyx_v_self->target_dist_weights), __pyx_t_8); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 723, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (!(likely(((__pyx_t_13) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_13, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 724, __pyx_L1_error)
+    if (!(likely(((__pyx_t_13) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_13, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 723, __pyx_L1_error)
     __Pyx_GIVEREF(__pyx_t_13);
     __Pyx_GOTREF(__pyx_v_self->target_dist_weights);
     __Pyx_DECREF(((PyObject *)__pyx_v_self->target_dist_weights));
     __pyx_v_self->target_dist_weights = ((PyArrayObject *)__pyx_t_13);
     __pyx_t_13 = 0;
 
-    /* "networkconv.pyx":728
+    /* "networkconv.pyx":727
  *             # predicate distance weights
  *             # get the distance from each max token to its predicate
  *             pred_dists = neuron_maxes - predicate             # <<<<<<<<<<<<<<
  *             dist_features = self.pred_dist_lookup.take(pred_dists + self.pred_dist_offset,
  *                                                        0, mode='clip')
  */
-    __pyx_t_13 = PyNumber_Subtract(__pyx_v_neuron_maxes, __pyx_v_predicate); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 728, __pyx_L1_error)
+    __pyx_t_13 = PyNumber_Subtract(__pyx_v_neuron_maxes, __pyx_v_predicate); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 727, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
     __Pyx_XDECREF_SET(__pyx_v_pred_dists, __pyx_t_13);
     __pyx_t_13 = 0;
 
-    /* "networkconv.pyx":729
+    /* "networkconv.pyx":728
  *             # get the distance from each max token to its predicate
  *             pred_dists = neuron_maxes - predicate
  *             dist_features = self.pred_dist_lookup.take(pred_dists + self.pred_dist_offset,             # <<<<<<<<<<<<<<
  *                                                        0, mode='clip')
  *             # try to recycle the grad_matrix if sizes match
  */
-    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->pred_dist_lookup), __pyx_n_s_take); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 729, __pyx_L1_error)
+    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->pred_dist_lookup), __pyx_n_s_take); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 728, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
-    __pyx_t_8 = __Pyx_PyInt_From_int(__pyx_v_self->pred_dist_offset); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 729, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyInt_From_int(__pyx_v_self->pred_dist_offset); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 728, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_1 = PyNumber_Add(__pyx_v_pred_dists, __pyx_t_8); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 729, __pyx_L1_error)
+    __pyx_t_1 = PyNumber_Add(__pyx_v_pred_dists, __pyx_t_8); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 728, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 729, __pyx_L1_error)
+    __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 728, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_GIVEREF(__pyx_t_1);
     PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_1);
@@ -28916,25 +29096,25 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
     PyTuple_SET_ITEM(__pyx_t_8, 1, __pyx_int_0);
     __pyx_t_1 = 0;
 
-    /* "networkconv.pyx":730
+    /* "networkconv.pyx":729
  *             pred_dists = neuron_maxes - predicate
  *             dist_features = self.pred_dist_lookup.take(pred_dists + self.pred_dist_offset,
  *                                                        0, mode='clip')             # <<<<<<<<<<<<<<
  *             # try to recycle the grad_matrix if sizes match
  *             if self.target_dist_weights.shape[0] != self.pred_dist_weights.shape[0]:
  */
-    __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 730, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 729, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_mode, __pyx_n_u_clip) < 0) __PYX_ERR(1, 730, __pyx_L1_error)
+    if (PyDict_SetItem(__pyx_t_1, __pyx_n_s_mode, __pyx_n_u_clip) < 0) __PYX_ERR(1, 729, __pyx_L1_error)
 
-    /* "networkconv.pyx":729
+    /* "networkconv.pyx":728
  *             # get the distance from each max token to its predicate
  *             pred_dists = neuron_maxes - predicate
  *             dist_features = self.pred_dist_lookup.take(pred_dists + self.pred_dist_offset,             # <<<<<<<<<<<<<<
  *                                                        0, mode='clip')
  *             # try to recycle the grad_matrix if sizes match
  */
-    __pyx_t_16 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_t_8, __pyx_t_1); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 729, __pyx_L1_error)
+    __pyx_t_16 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_t_8, __pyx_t_1); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 728, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_16);
     __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -28942,7 +29122,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
     __Pyx_DECREF_SET(__pyx_v_dist_features, __pyx_t_16);
     __pyx_t_16 = 0;
 
-    /* "networkconv.pyx":732
+    /* "networkconv.pyx":731
  *                                                        0, mode='clip')
  *             # try to recycle the grad_matrix if sizes match
  *             if self.target_dist_weights.shape[0] != self.pred_dist_weights.shape[0]:             # <<<<<<<<<<<<<<
@@ -28952,21 +29132,21 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
     __pyx_t_2 = (((__pyx_v_self->target_dist_weights->dimensions[0]) != (__pyx_v_self->pred_dist_weights->dimensions[0])) != 0);
     if (__pyx_t_2) {
 
-      /* "networkconv.pyx":733
+      /* "networkconv.pyx":732
  *             # try to recycle the grad_matrix if sizes match
  *             if self.target_dist_weights.shape[0] != self.pred_dist_weights.shape[0]:
  *                 grad_matrix = np.tile(gradients_t, [self.pred_dist_weights.shape[0], 1]).T             # <<<<<<<<<<<<<<
  * 
  *             self.pred_dist_weights += (grad_matrix * dist_features).T
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 733, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 732, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_tile); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 733, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_tile); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 732, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-      __pyx_t_1 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->pred_dist_weights->dimensions[0])); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 733, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->pred_dist_weights->dimensions[0])); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 732, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
-      __pyx_t_13 = PyList_New(2); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 733, __pyx_L1_error)
+      __pyx_t_13 = PyList_New(2); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 732, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_13);
       __Pyx_GIVEREF(__pyx_t_1);
       PyList_SET_ITEM(__pyx_t_13, 0, __pyx_t_1);
@@ -28989,7 +29169,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
       #if CYTHON_FAST_PYCALL
       if (PyFunction_Check(__pyx_t_8)) {
         PyObject *__pyx_temp[3] = {__pyx_t_1, ((PyObject *)__pyx_v_gradients_t), __pyx_t_13};
-        __pyx_t_16 = __Pyx_PyFunction_FastCall(__pyx_t_8, __pyx_temp+1-__pyx_t_15, 2+__pyx_t_15); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 733, __pyx_L1_error)
+        __pyx_t_16 = __Pyx_PyFunction_FastCall(__pyx_t_8, __pyx_temp+1-__pyx_t_15, 2+__pyx_t_15); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 732, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
         __Pyx_GOTREF(__pyx_t_16);
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
@@ -28998,14 +29178,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
       #if CYTHON_FAST_PYCCALL
       if (__Pyx_PyFastCFunction_Check(__pyx_t_8)) {
         PyObject *__pyx_temp[3] = {__pyx_t_1, ((PyObject *)__pyx_v_gradients_t), __pyx_t_13};
-        __pyx_t_16 = __Pyx_PyCFunction_FastCall(__pyx_t_8, __pyx_temp+1-__pyx_t_15, 2+__pyx_t_15); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 733, __pyx_L1_error)
+        __pyx_t_16 = __Pyx_PyCFunction_FastCall(__pyx_t_8, __pyx_temp+1-__pyx_t_15, 2+__pyx_t_15); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 732, __pyx_L1_error)
         __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
         __Pyx_GOTREF(__pyx_t_16);
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
       } else
       #endif
       {
-        __pyx_t_17 = PyTuple_New(2+__pyx_t_15); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 733, __pyx_L1_error)
+        __pyx_t_17 = PyTuple_New(2+__pyx_t_15); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 732, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_17);
         if (__pyx_t_1) {
           __Pyx_GIVEREF(__pyx_t_1); PyTuple_SET_ITEM(__pyx_t_17, 0, __pyx_t_1); __pyx_t_1 = NULL;
@@ -29016,15 +29196,15 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
         __Pyx_GIVEREF(__pyx_t_13);
         PyTuple_SET_ITEM(__pyx_t_17, 1+__pyx_t_15, __pyx_t_13);
         __pyx_t_13 = 0;
-        __pyx_t_16 = __Pyx_PyObject_Call(__pyx_t_8, __pyx_t_17, NULL); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 733, __pyx_L1_error)
+        __pyx_t_16 = __Pyx_PyObject_Call(__pyx_t_8, __pyx_t_17, NULL); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 732, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_16);
         __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
       }
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_16, __pyx_n_s_T); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 733, __pyx_L1_error)
+      __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_16, __pyx_n_s_T); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 732, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-      if (!(likely(((__pyx_t_8) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_8, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 733, __pyx_L1_error)
+      if (!(likely(((__pyx_t_8) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_8, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 732, __pyx_L1_error)
       __pyx_t_9 = ((PyArrayObject *)__pyx_t_8);
       {
         __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -29041,13 +29221,13 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
           __pyx_t_6 = __pyx_t_5 = __pyx_t_4 = 0;
         }
         __pyx_pybuffernd_grad_matrix.diminfo[0].strides = __pyx_pybuffernd_grad_matrix.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_grad_matrix.diminfo[0].shape = __pyx_pybuffernd_grad_matrix.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_grad_matrix.diminfo[1].strides = __pyx_pybuffernd_grad_matrix.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_grad_matrix.diminfo[1].shape = __pyx_pybuffernd_grad_matrix.rcbuffer->pybuffer.shape[1];
-        if (unlikely(__pyx_t_15 < 0)) __PYX_ERR(1, 733, __pyx_L1_error)
+        if (unlikely(__pyx_t_15 < 0)) __PYX_ERR(1, 732, __pyx_L1_error)
       }
       __pyx_t_9 = 0;
       __Pyx_DECREF_SET(__pyx_v_grad_matrix, ((PyArrayObject *)__pyx_t_8));
       __pyx_t_8 = 0;
 
-      /* "networkconv.pyx":732
+      /* "networkconv.pyx":731
  *                                                        0, mode='clip')
  *             # try to recycle the grad_matrix if sizes match
  *             if self.target_dist_weights.shape[0] != self.pred_dist_weights.shape[0]:             # <<<<<<<<<<<<<<
@@ -29056,29 +29236,29 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
  */
     }
 
-    /* "networkconv.pyx":735
+    /* "networkconv.pyx":734
  *                 grad_matrix = np.tile(gradients_t, [self.pred_dist_weights.shape[0], 1]).T
  * 
  *             self.pred_dist_weights += (grad_matrix * dist_features).T             # <<<<<<<<<<<<<<
  * 
  *         self.hidden_bias += self.hidden_gradients.sum(0) * self.learning_rate
  */
-    __pyx_t_8 = PyNumber_Multiply(((PyObject *)__pyx_v_grad_matrix), __pyx_v_dist_features); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 735, __pyx_L1_error)
+    __pyx_t_8 = PyNumber_Multiply(((PyObject *)__pyx_v_grad_matrix), __pyx_v_dist_features); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 734, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_16 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_T); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 735, __pyx_L1_error)
+    __pyx_t_16 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_T); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 734, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_16);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __pyx_t_8 = PyNumber_InPlaceAdd(((PyObject *)__pyx_v_self->pred_dist_weights), __pyx_t_16); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 735, __pyx_L1_error)
+    __pyx_t_8 = PyNumber_InPlaceAdd(((PyObject *)__pyx_v_self->pred_dist_weights), __pyx_t_16); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 734, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-    if (!(likely(((__pyx_t_8) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_8, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 735, __pyx_L1_error)
+    if (!(likely(((__pyx_t_8) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_8, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 734, __pyx_L1_error)
     __Pyx_GIVEREF(__pyx_t_8);
     __Pyx_GOTREF(__pyx_v_self->pred_dist_weights);
     __Pyx_DECREF(((PyObject *)__pyx_v_self->pred_dist_weights));
     __pyx_v_self->pred_dist_weights = ((PyArrayObject *)__pyx_t_8);
     __pyx_t_8 = 0;
 
-    /* "networkconv.pyx":701
+    /* "networkconv.pyx":700
  *         # I tried vectorizing this loop but it got a bit slower, probably because
  *         # of the overhead in building matrices/tensors with the max indices
  *         for i, neuron_maxes in enumerate(self.max_indices):             # <<<<<<<<<<<<<<
@@ -29088,14 +29268,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
   }
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "networkconv.pyx":737
+  /* "networkconv.pyx":736
  *             self.pred_dist_weights += (grad_matrix * dist_features).T
  * 
  *         self.hidden_bias += self.hidden_gradients.sum(0) * self.learning_rate             # <<<<<<<<<<<<<<
  * 
  *         # Adjusts the transition scores table with the calculated gradients.
  */
-  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->hidden_gradients), __pyx_n_s_sum); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 737, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->hidden_gradients), __pyx_n_s_sum); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 736, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __pyx_t_16 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_8))) {
@@ -29109,68 +29289,77 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
   }
   __pyx_t_7 = (__pyx_t_16) ? __Pyx_PyObject_Call2Args(__pyx_t_8, __pyx_t_16, __pyx_int_0) : __Pyx_PyObject_CallOneArg(__pyx_t_8, __pyx_int_0);
   __Pyx_XDECREF(__pyx_t_16); __pyx_t_16 = 0;
-  if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 737, __pyx_L1_error)
+  if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 736, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  __pyx_t_8 = PyFloat_FromDouble(__pyx_v_self->__pyx_base.learning_rate); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 737, __pyx_L1_error)
+  __pyx_t_8 = PyFloat_FromDouble(__pyx_v_self->__pyx_base.learning_rate); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 736, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
-  __pyx_t_16 = PyNumber_Multiply(__pyx_t_7, __pyx_t_8); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 737, __pyx_L1_error)
+  __pyx_t_16 = PyNumber_Multiply(__pyx_t_7, __pyx_t_8); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 736, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_16);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  __pyx_t_8 = PyNumber_InPlaceAdd(((PyObject *)__pyx_v_self->__pyx_base.hidden_bias), __pyx_t_16); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 737, __pyx_L1_error)
+  __pyx_t_8 = PyNumber_InPlaceAdd(((PyObject *)__pyx_v_self->__pyx_base.hidden_bias), __pyx_t_16); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 736, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-  if (!(likely(((__pyx_t_8) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_8, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 737, __pyx_L1_error)
+  if (!(likely(((__pyx_t_8) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_8, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 736, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_8);
   __Pyx_GOTREF(__pyx_v_self->__pyx_base.hidden_bias);
   __Pyx_DECREF(((PyObject *)__pyx_v_self->__pyx_base.hidden_bias));
   __pyx_v_self->__pyx_base.hidden_bias = ((PyArrayObject *)__pyx_t_8);
   __pyx_t_8 = 0;
 
-  /* "networkconv.pyx":741
+  /* "networkconv.pyx":739
+ * 
  *         # Adjusts the transition scores table with the calculated gradients.
- *         #if not self.only_classify and self.transitions is not None:
- *         if self.transitions is not None:             # <<<<<<<<<<<<<<
+ *         if not self.only_classify and self.transitions is not None:             # <<<<<<<<<<<<<<
  *             self.transitions += self.trans_gradients * self.learning_rate_trans
  * 
  */
-  __pyx_t_2 = (((PyObject *)__pyx_v_self->__pyx_base.transitions) != Py_None);
-  __pyx_t_10 = (__pyx_t_2 != 0);
-  if (__pyx_t_10) {
+  __pyx_t_10 = __Pyx_PyObject_IsTrue(((PyObject *)__pyx_v_self->only_classify)); if (unlikely(__pyx_t_10 < 0)) __PYX_ERR(1, 739, __pyx_L1_error)
+  __pyx_t_18 = ((!__pyx_t_10) != 0);
+  if (__pyx_t_18) {
+  } else {
+    __pyx_t_2 = __pyx_t_18;
+    goto __pyx_L9_bool_binop_done;
+  }
+  __pyx_t_18 = (((PyObject *)__pyx_v_self->__pyx_base.transitions) != Py_None);
+  __pyx_t_10 = (__pyx_t_18 != 0);
+  __pyx_t_2 = __pyx_t_10;
+  __pyx_L9_bool_binop_done:;
+  if (__pyx_t_2) {
 
-    /* "networkconv.pyx":742
- *         #if not self.only_classify and self.transitions is not None:
- *         if self.transitions is not None:
+    /* "networkconv.pyx":740
+ *         # Adjusts the transition scores table with the calculated gradients.
+ *         if not self.only_classify and self.transitions is not None:
  *             self.transitions += self.trans_gradients * self.learning_rate_trans             # <<<<<<<<<<<<<<
  * 
  *     @cython.boundscheck(False)
  */
-    __pyx_t_8 = PyFloat_FromDouble(__pyx_v_self->__pyx_base.learning_rate_trans); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 742, __pyx_L1_error)
+    __pyx_t_8 = PyFloat_FromDouble(__pyx_v_self->__pyx_base.learning_rate_trans); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 740, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_16 = PyNumber_Multiply(((PyObject *)__pyx_v_self->__pyx_base.trans_gradients), __pyx_t_8); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 742, __pyx_L1_error)
+    __pyx_t_16 = PyNumber_Multiply(((PyObject *)__pyx_v_self->__pyx_base.trans_gradients), __pyx_t_8); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 740, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_16);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __pyx_t_8 = PyNumber_InPlaceAdd(((PyObject *)__pyx_v_self->__pyx_base.transitions), __pyx_t_16); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 742, __pyx_L1_error)
+    __pyx_t_8 = PyNumber_InPlaceAdd(((PyObject *)__pyx_v_self->__pyx_base.transitions), __pyx_t_16); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 740, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
-    if (!(likely(((__pyx_t_8) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_8, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 742, __pyx_L1_error)
+    if (!(likely(((__pyx_t_8) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_8, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 740, __pyx_L1_error)
     __Pyx_GIVEREF(__pyx_t_8);
     __Pyx_GOTREF(__pyx_v_self->__pyx_base.transitions);
     __Pyx_DECREF(((PyObject *)__pyx_v_self->__pyx_base.transitions));
     __pyx_v_self->__pyx_base.transitions = ((PyArrayObject *)__pyx_t_8);
     __pyx_t_8 = 0;
 
-    /* "networkconv.pyx":741
+    /* "networkconv.pyx":739
+ * 
  *         # Adjusts the transition scores table with the calculated gradients.
- *         #if not self.only_classify and self.transitions is not None:
- *         if self.transitions is not None:             # <<<<<<<<<<<<<<
+ *         if not self.only_classify and self.transitions is not None:             # <<<<<<<<<<<<<<
  *             self.transitions += self.trans_gradients * self.learning_rate_trans
  * 
  */
   }
 
-  /* "networkconv.pyx":678
+  /* "networkconv.pyx":677
  *     @cython.boundscheck(False)
  *     @cython.wraparound(False)
  *     def _adjust_weights(self, predicate, arguments=None):             # <<<<<<<<<<<<<<
@@ -29224,7 +29413,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_42_adjust_weight
   return __pyx_r;
 }
 
-/* "networkconv.pyx":746
+/* "networkconv.pyx":744
  *     @cython.boundscheck(False)
  *     @cython.wraparound(False)
  *     def _calculate_input_deltas(self, np.ndarray sentence, int predicate,             # <<<<<<<<<<<<<<
@@ -29249,7 +29438,7 @@ static PyObject *__pyx_pw_4libs_7network_20ConvolutionalNetwork_45_calculate_inp
     static PyObject **__pyx_pyargnames[] = {&__pyx_n_s_sentence,&__pyx_n_s_predicate,&__pyx_n_s_arguments,0};
     PyObject* values[3] = {0,0,0};
 
-    /* "networkconv.pyx":747
+    /* "networkconv.pyx":745
  *     @cython.wraparound(False)
  *     def _calculate_input_deltas(self, np.ndarray sentence, int predicate,
  *                                  object arguments=None):             # <<<<<<<<<<<<<<
@@ -29279,7 +29468,7 @@ static PyObject *__pyx_pw_4libs_7network_20ConvolutionalNetwork_45_calculate_inp
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_predicate)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_calculate_input_deltas", 0, 2, 3, 1); __PYX_ERR(1, 746, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_calculate_input_deltas", 0, 2, 3, 1); __PYX_ERR(1, 744, __pyx_L3_error)
         }
         CYTHON_FALLTHROUGH;
         case  2:
@@ -29289,7 +29478,7 @@ static PyObject *__pyx_pw_4libs_7network_20ConvolutionalNetwork_45_calculate_inp
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_calculate_input_deltas") < 0)) __PYX_ERR(1, 746, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_calculate_input_deltas") < 0)) __PYX_ERR(1, 744, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -29302,21 +29491,21 @@ static PyObject *__pyx_pw_4libs_7network_20ConvolutionalNetwork_45_calculate_inp
       }
     }
     __pyx_v_sentence = ((PyArrayObject *)values[0]);
-    __pyx_v_predicate = __Pyx_PyInt_As_int(values[1]); if (unlikely((__pyx_v_predicate == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 746, __pyx_L3_error)
+    __pyx_v_predicate = __Pyx_PyInt_As_int(values[1]); if (unlikely((__pyx_v_predicate == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 744, __pyx_L3_error)
     __pyx_v_arguments = values[2];
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_calculate_input_deltas", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 746, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_calculate_input_deltas", 0, 2, 3, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 744, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("libs.network.ConvolutionalNetwork._calculate_input_deltas", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_sentence), __pyx_ptype_5numpy_ndarray, 1, "sentence", 0))) __PYX_ERR(1, 746, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_sentence), __pyx_ptype_5numpy_ndarray, 1, "sentence", 0))) __PYX_ERR(1, 744, __pyx_L1_error)
   __pyx_r = __pyx_pf_4libs_7network_20ConvolutionalNetwork_44_calculate_input_deltas(((struct __pyx_obj_4libs_7network_ConvolutionalNetwork *)__pyx_v_self), __pyx_v_sentence, __pyx_v_predicate, __pyx_v_arguments);
 
-  /* "networkconv.pyx":746
+  /* "networkconv.pyx":744
  *     @cython.boundscheck(False)
  *     @cython.wraparound(False)
  *     def _calculate_input_deltas(self, np.ndarray sentence, int predicate,             # <<<<<<<<<<<<<<
@@ -29342,7 +29531,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_44_calculate_inp
   PyArrayObject *__pyx_v_convolution_max = 0;
   PyArrayObject *__pyx_v_target_dists = 0;
   CYTHON_UNUSED PyArrayObject *__pyx_v_column_numbers = 0;
-  int __pyx_v_target;
+  PyObject *__pyx_v_target = NULL;
   PyObject *__pyx_v_argument = NULL;
   PyObject *__pyx_v_pred_dists = NULL;
   __Pyx_LocalBuf_ND __pyx_pybuffernd_column_numbers;
@@ -29377,17 +29566,18 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_44_calculate_inp
   PyObject *__pyx_t_11 = NULL;
   PyArrayObject *__pyx_t_12 = NULL;
   PyArrayObject *__pyx_t_13 = NULL;
-  int __pyx_t_14;
-  int __pyx_t_15;
-  PyArrayObject *__pyx_t_16 = NULL;
+  PyObject *(*__pyx_t_14)(PyObject *);
+  PyArrayObject *__pyx_t_15 = NULL;
+  int __pyx_t_16;
   int __pyx_t_17;
   PyObject *__pyx_t_18 = NULL;
-  PyArrayObject *__pyx_t_19 = NULL;
+  PyObject *__pyx_t_19 = NULL;
+  PyArrayObject *__pyx_t_20 = NULL;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_calculate_input_deltas", 0);
-  __Pyx_TraceCall("_calculate_input_deltas", __pyx_f[1], 746, 0, __PYX_ERR(1, 746, __pyx_L1_error));
+  __Pyx_TraceCall("_calculate_input_deltas", __pyx_f[1], 744, 0, __PYX_ERR(1, 744, __pyx_L1_error));
   __pyx_pybuffer_hidden_gradients.pybuffer.buf = NULL;
   __pyx_pybuffer_hidden_gradients.refcount = 0;
   __pyx_pybuffernd_hidden_gradients.data = NULL;
@@ -29421,24 +29611,24 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_44_calculate_inp
   __pyx_pybuffernd_column_numbers.data = NULL;
   __pyx_pybuffernd_column_numbers.rcbuffer = &__pyx_pybuffer_column_numbers;
 
-  /* "networkconv.pyx":758
+  /* "networkconv.pyx":756
  *         # matrices accumulating gradients over each target
  *         # each matrix has a whole window in each line
  *         input_gradients = np.zeros((len(sentence), self.hidden_size))             # <<<<<<<<<<<<<<
  *         target_dist_gradients = np.zeros((self.target_dist_lookup.shape[0], self.hidden_size))
  *         pred_dist_gradients = np.zeros((self.pred_dist_lookup.shape[0], self.hidden_size))
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 758, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 756, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_zeros); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 758, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_zeros); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 756, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __pyx_t_4 = PyObject_Length(((PyObject *)__pyx_v_sentence)); if (unlikely(__pyx_t_4 == ((Py_ssize_t)-1))) __PYX_ERR(1, 758, __pyx_L1_error)
-  __pyx_t_2 = PyInt_FromSsize_t(__pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 758, __pyx_L1_error)
+  __pyx_t_4 = PyObject_Length(((PyObject *)__pyx_v_sentence)); if (unlikely(__pyx_t_4 == ((Py_ssize_t)-1))) __PYX_ERR(1, 756, __pyx_L1_error)
+  __pyx_t_2 = PyInt_FromSsize_t(__pyx_t_4); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 756, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.hidden_size); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 758, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.hidden_size); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 756, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 758, __pyx_L1_error)
+  __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 756, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_GIVEREF(__pyx_t_2);
   PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_2);
@@ -29459,10 +29649,10 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_44_calculate_inp
   __pyx_t_1 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_t_6) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_6);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 758, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 756, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 758, __pyx_L1_error)
+  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 756, __pyx_L1_error)
   __pyx_t_7 = ((PyArrayObject *)__pyx_t_1);
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -29479,29 +29669,29 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_44_calculate_inp
       __pyx_t_9 = __pyx_t_10 = __pyx_t_11 = 0;
     }
     __pyx_pybuffernd_input_gradients.diminfo[0].strides = __pyx_pybuffernd_input_gradients.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_input_gradients.diminfo[0].shape = __pyx_pybuffernd_input_gradients.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_input_gradients.diminfo[1].strides = __pyx_pybuffernd_input_gradients.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_input_gradients.diminfo[1].shape = __pyx_pybuffernd_input_gradients.rcbuffer->pybuffer.shape[1];
-    if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(1, 758, __pyx_L1_error)
+    if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(1, 756, __pyx_L1_error)
   }
   __pyx_t_7 = 0;
   __pyx_v_input_gradients = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":759
+  /* "networkconv.pyx":757
  *         # each matrix has a whole window in each line
  *         input_gradients = np.zeros((len(sentence), self.hidden_size))
  *         target_dist_gradients = np.zeros((self.target_dist_lookup.shape[0], self.hidden_size))             # <<<<<<<<<<<<<<
  *         pred_dist_gradients = np.zeros((self.pred_dist_lookup.shape[0], self.hidden_size))
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 759, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 757, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_zeros); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 759, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_zeros); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 757, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  __pyx_t_3 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->target_dist_lookup->dimensions[0])); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 759, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->target_dist_lookup->dimensions[0])); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 757, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.hidden_size); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 759, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.hidden_size); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 757, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 759, __pyx_L1_error)
+  __pyx_t_2 = PyTuple_New(2); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 757, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_GIVEREF(__pyx_t_3);
   PyTuple_SET_ITEM(__pyx_t_2, 0, __pyx_t_3);
@@ -29522,10 +29712,10 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_44_calculate_inp
   __pyx_t_1 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_6, __pyx_t_5, __pyx_t_2) : __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_t_2);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 759, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 757, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 759, __pyx_L1_error)
+  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 757, __pyx_L1_error)
   __pyx_t_12 = ((PyArrayObject *)__pyx_t_1);
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -29542,29 +29732,29 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_44_calculate_inp
       __pyx_t_11 = __pyx_t_10 = __pyx_t_9 = 0;
     }
     __pyx_pybuffernd_target_dist_gradients.diminfo[0].strides = __pyx_pybuffernd_target_dist_gradients.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_target_dist_gradients.diminfo[0].shape = __pyx_pybuffernd_target_dist_gradients.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_target_dist_gradients.diminfo[1].strides = __pyx_pybuffernd_target_dist_gradients.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_target_dist_gradients.diminfo[1].shape = __pyx_pybuffernd_target_dist_gradients.rcbuffer->pybuffer.shape[1];
-    if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(1, 759, __pyx_L1_error)
+    if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(1, 757, __pyx_L1_error)
   }
   __pyx_t_12 = 0;
   __pyx_v_target_dist_gradients = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":760
+  /* "networkconv.pyx":758
  *         input_gradients = np.zeros((len(sentence), self.hidden_size))
  *         target_dist_gradients = np.zeros((self.target_dist_lookup.shape[0], self.hidden_size))
  *         pred_dist_gradients = np.zeros((self.pred_dist_lookup.shape[0], self.hidden_size))             # <<<<<<<<<<<<<<
  * 
  *         # avoid multiplying by the learning rate multiple times
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 760, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 758, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_zeros); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 760, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_zeros); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 758, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  __pyx_t_6 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->pred_dist_lookup->dimensions[0])); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 760, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->pred_dist_lookup->dimensions[0])); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 758, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.hidden_size); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 760, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.hidden_size); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 758, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 760, __pyx_L1_error)
+  __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 758, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_GIVEREF(__pyx_t_6);
   PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_6);
@@ -29585,10 +29775,10 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_44_calculate_inp
   __pyx_t_1 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_2, __pyx_t_5, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_2, __pyx_t_3);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 760, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 758, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 760, __pyx_L1_error)
+  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 758, __pyx_L1_error)
   __pyx_t_12 = ((PyArrayObject *)__pyx_t_1);
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -29605,25 +29795,25 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_44_calculate_inp
       __pyx_t_9 = __pyx_t_10 = __pyx_t_11 = 0;
     }
     __pyx_pybuffernd_pred_dist_gradients.diminfo[0].strides = __pyx_pybuffernd_pred_dist_gradients.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_pred_dist_gradients.diminfo[0].shape = __pyx_pybuffernd_pred_dist_gradients.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_pred_dist_gradients.diminfo[1].strides = __pyx_pybuffernd_pred_dist_gradients.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_pred_dist_gradients.diminfo[1].shape = __pyx_pybuffernd_pred_dist_gradients.rcbuffer->pybuffer.shape[1];
-    if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(1, 760, __pyx_L1_error)
+    if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(1, 758, __pyx_L1_error)
   }
   __pyx_t_12 = 0;
   __pyx_v_pred_dist_gradients = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":763
+  /* "networkconv.pyx":761
  * 
  *         # avoid multiplying by the learning rate multiple times
  *         hidden_gradients = self.hidden_gradients * self.learning_rate_features             # <<<<<<<<<<<<<<
  *         cdef np.ndarray[INT_t, ndim=1] column_numbers = np.arange(self.hidden_size)
  * 
  */
-  __pyx_t_1 = PyFloat_FromDouble(__pyx_v_self->__pyx_base.learning_rate_features); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 763, __pyx_L1_error)
+  __pyx_t_1 = PyFloat_FromDouble(__pyx_v_self->__pyx_base.learning_rate_features); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 761, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = PyNumber_Multiply(((PyObject *)__pyx_v_self->hidden_gradients), __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 763, __pyx_L1_error)
+  __pyx_t_2 = PyNumber_Multiply(((PyObject *)__pyx_v_self->hidden_gradients), __pyx_t_1); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 761, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 763, __pyx_L1_error)
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 761, __pyx_L1_error)
   __pyx_t_7 = ((PyArrayObject *)__pyx_t_2);
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -29640,25 +29830,25 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_44_calculate_inp
       __pyx_t_11 = __pyx_t_10 = __pyx_t_9 = 0;
     }
     __pyx_pybuffernd_hidden_gradients.diminfo[0].strides = __pyx_pybuffernd_hidden_gradients.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_hidden_gradients.diminfo[0].shape = __pyx_pybuffernd_hidden_gradients.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_hidden_gradients.diminfo[1].strides = __pyx_pybuffernd_hidden_gradients.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_hidden_gradients.diminfo[1].shape = __pyx_pybuffernd_hidden_gradients.rcbuffer->pybuffer.shape[1];
-    if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(1, 763, __pyx_L1_error)
+    if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(1, 761, __pyx_L1_error)
   }
   __pyx_t_7 = 0;
   __pyx_v_hidden_gradients = ((PyArrayObject *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "networkconv.pyx":764
+  /* "networkconv.pyx":762
  *         # avoid multiplying by the learning rate multiple times
  *         hidden_gradients = self.hidden_gradients * self.learning_rate_features
  *         cdef np.ndarray[INT_t, ndim=1] column_numbers = np.arange(self.hidden_size)             # <<<<<<<<<<<<<<
  * 
  *         for target in range(self.num_targets):
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 764, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 762, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_arange); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 764, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_arange); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 762, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.hidden_size); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 764, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.hidden_size); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 762, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_5 = NULL;
   if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_3))) {
@@ -29673,16 +29863,16 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_44_calculate_inp
   __pyx_t_2 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_t_1) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_1);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 764, __pyx_L1_error)
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 762, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 764, __pyx_L1_error)
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 762, __pyx_L1_error)
   __pyx_t_13 = ((PyArrayObject *)__pyx_t_2);
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
     if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_column_numbers.rcbuffer->pybuffer, (PyObject*)__pyx_t_13, &__Pyx_TypeInfo_nn___pyx_t_4libs_7network_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {
       __pyx_v_column_numbers = ((PyArrayObject *)Py_None); __Pyx_INCREF(Py_None); __pyx_pybuffernd_column_numbers.rcbuffer->pybuffer.buf = NULL;
-      __PYX_ERR(1, 764, __pyx_L1_error)
+      __PYX_ERR(1, 762, __pyx_L1_error)
     } else {__pyx_pybuffernd_column_numbers.diminfo[0].strides = __pyx_pybuffernd_column_numbers.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_column_numbers.diminfo[0].shape = __pyx_pybuffernd_column_numbers.rcbuffer->pybuffer.shape[0];
     }
   }
@@ -29690,34 +29880,77 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_44_calculate_inp
   __pyx_v_column_numbers = ((PyArrayObject *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "networkconv.pyx":766
+  /* "networkconv.pyx":764
  *         cdef np.ndarray[INT_t, ndim=1] column_numbers = np.arange(self.hidden_size)
  * 
  *         for target in range(self.num_targets):             # <<<<<<<<<<<<<<
  * 
  *             # array with the tokens that yielded the maximum value in each neuron
  */
-  __pyx_t_8 = __pyx_v_self->num_targets;
-  __pyx_t_14 = __pyx_t_8;
-  for (__pyx_t_15 = 0; __pyx_t_15 < __pyx_t_14; __pyx_t_15+=1) {
-    __pyx_v_target = __pyx_t_15;
+  __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->num_targets); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 764, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
+  __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 764, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_3);
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+  if (likely(PyList_CheckExact(__pyx_t_3)) || PyTuple_CheckExact(__pyx_t_3)) {
+    __pyx_t_2 = __pyx_t_3; __Pyx_INCREF(__pyx_t_2); __pyx_t_4 = 0;
+    __pyx_t_14 = NULL;
+  } else {
+    __pyx_t_4 = -1; __pyx_t_2 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 764, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_2);
+    __pyx_t_14 = Py_TYPE(__pyx_t_2)->tp_iternext; if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 764, __pyx_L1_error)
+  }
+  __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+  for (;;) {
+    if (likely(!__pyx_t_14)) {
+      if (likely(PyList_CheckExact(__pyx_t_2))) {
+        if (__pyx_t_4 >= PyList_GET_SIZE(__pyx_t_2)) break;
+        #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
+        __pyx_t_3 = PyList_GET_ITEM(__pyx_t_2, __pyx_t_4); __Pyx_INCREF(__pyx_t_3); __pyx_t_4++; if (unlikely(0 < 0)) __PYX_ERR(1, 764, __pyx_L1_error)
+        #else
+        __pyx_t_3 = PySequence_ITEM(__pyx_t_2, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 764, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_3);
+        #endif
+      } else {
+        if (__pyx_t_4 >= PyTuple_GET_SIZE(__pyx_t_2)) break;
+        #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
+        __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_2, __pyx_t_4); __Pyx_INCREF(__pyx_t_3); __pyx_t_4++; if (unlikely(0 < 0)) __PYX_ERR(1, 764, __pyx_L1_error)
+        #else
+        __pyx_t_3 = PySequence_ITEM(__pyx_t_2, __pyx_t_4); __pyx_t_4++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 764, __pyx_L1_error)
+        __Pyx_GOTREF(__pyx_t_3);
+        #endif
+      }
+    } else {
+      __pyx_t_3 = __pyx_t_14(__pyx_t_2);
+      if (unlikely(!__pyx_t_3)) {
+        PyObject* exc_type = PyErr_Occurred();
+        if (exc_type) {
+          if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
+          else __PYX_ERR(1, 764, __pyx_L1_error)
+        }
+        break;
+      }
+      __Pyx_GOTREF(__pyx_t_3);
+    }
+    __Pyx_XDECREF_SET(__pyx_v_target, __pyx_t_3);
+    __pyx_t_3 = 0;
 
-    /* "networkconv.pyx":770
+    /* "networkconv.pyx":768
  *             # array with the tokens that yielded the maximum value in each neuron
  *             # for this target
  *             convolution_max = self.max_indices[target]             # <<<<<<<<<<<<<<
  * 
- *             #if not self.only_classify:
+ *             if not self.only_classify:
  */
-    __pyx_t_2 = __Pyx_GetItemInt(((PyObject *)__pyx_v_self->max_indices), __pyx_v_target, int, 1, __Pyx_PyInt_From_int, 0, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 770, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 770, __pyx_L1_error)
-    __pyx_t_16 = ((PyArrayObject *)__pyx_t_2);
+    __pyx_t_3 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_self->max_indices), __pyx_v_target); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 768, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    if (!(likely(((__pyx_t_3) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_3, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 768, __pyx_L1_error)
+    __pyx_t_15 = ((PyArrayObject *)__pyx_t_3);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
       __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_convolution_max.rcbuffer->pybuffer);
-      __pyx_t_17 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_convolution_max.rcbuffer->pybuffer, (PyObject*)__pyx_t_16, &__Pyx_TypeInfo_nn___pyx_t_4libs_7network_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack);
-      if (unlikely(__pyx_t_17 < 0)) {
+      __pyx_t_8 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_convolution_max.rcbuffer->pybuffer, (PyObject*)__pyx_t_15, &__Pyx_TypeInfo_nn___pyx_t_4libs_7network_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack);
+      if (unlikely(__pyx_t_8 < 0)) {
         PyErr_Fetch(&__pyx_t_9, &__pyx_t_10, &__pyx_t_11);
         if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_convolution_max.rcbuffer->pybuffer, (PyObject*)__pyx_v_convolution_max, &__Pyx_TypeInfo_nn___pyx_t_4libs_7network_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {
           Py_XDECREF(__pyx_t_9); Py_XDECREF(__pyx_t_10); Py_XDECREF(__pyx_t_11);
@@ -29728,38 +29961,203 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_44_calculate_inp
         __pyx_t_9 = __pyx_t_10 = __pyx_t_11 = 0;
       }
       __pyx_pybuffernd_convolution_max.diminfo[0].strides = __pyx_pybuffernd_convolution_max.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_convolution_max.diminfo[0].shape = __pyx_pybuffernd_convolution_max.rcbuffer->pybuffer.shape[0];
-      if (unlikely(__pyx_t_17 < 0)) __PYX_ERR(1, 770, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(1, 768, __pyx_L1_error)
     }
-    __pyx_t_16 = 0;
-    __Pyx_XDECREF_SET(__pyx_v_convolution_max, ((PyArrayObject *)__pyx_t_2));
-    __pyx_t_2 = 0;
+    __pyx_t_15 = 0;
+    __Pyx_XDECREF_SET(__pyx_v_convolution_max, ((PyArrayObject *)__pyx_t_3));
+    __pyx_t_3 = 0;
 
-    /* "networkconv.pyx":777
- *             #    argument = arguments[target]
- *             #    target_dists = self.argument_distances(convolution_max, argument)
- *             argument = arguments[target]             # <<<<<<<<<<<<<<
- *             target_dists = self.argument_distances(convolution_max, argument)
+    /* "networkconv.pyx":770
+ *             convolution_max = self.max_indices[target]
+ * 
+ *             if not self.only_classify:             # <<<<<<<<<<<<<<
+ *                 target_dists = convolution_max - target
+ *             else:
+ */
+    __pyx_t_16 = __Pyx_PyObject_IsTrue(((PyObject *)__pyx_v_self->only_classify)); if (unlikely(__pyx_t_16 < 0)) __PYX_ERR(1, 770, __pyx_L1_error)
+    __pyx_t_17 = ((!__pyx_t_16) != 0);
+    if (__pyx_t_17) {
+
+      /* "networkconv.pyx":771
+ * 
+ *             if not self.only_classify:
+ *                 target_dists = convolution_max - target             # <<<<<<<<<<<<<<
+ *             else:
+ *                 argument = arguments[target]
+ */
+      __pyx_t_3 = PyNumber_Subtract(((PyObject *)__pyx_v_convolution_max), __pyx_v_target); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 771, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      if (!(likely(((__pyx_t_3) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_3, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 771, __pyx_L1_error)
+      __pyx_t_15 = ((PyArrayObject *)__pyx_t_3);
+      {
+        __Pyx_BufFmt_StackElem __pyx_stack[1];
+        __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_target_dists.rcbuffer->pybuffer);
+        __pyx_t_8 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_target_dists.rcbuffer->pybuffer, (PyObject*)__pyx_t_15, &__Pyx_TypeInfo_nn___pyx_t_4libs_7network_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack);
+        if (unlikely(__pyx_t_8 < 0)) {
+          PyErr_Fetch(&__pyx_t_11, &__pyx_t_10, &__pyx_t_9);
+          if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_target_dists.rcbuffer->pybuffer, (PyObject*)__pyx_v_target_dists, &__Pyx_TypeInfo_nn___pyx_t_4libs_7network_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {
+            Py_XDECREF(__pyx_t_11); Py_XDECREF(__pyx_t_10); Py_XDECREF(__pyx_t_9);
+            __Pyx_RaiseBufferFallbackError();
+          } else {
+            PyErr_Restore(__pyx_t_11, __pyx_t_10, __pyx_t_9);
+          }
+          __pyx_t_11 = __pyx_t_10 = __pyx_t_9 = 0;
+        }
+        __pyx_pybuffernd_target_dists.diminfo[0].strides = __pyx_pybuffernd_target_dists.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_target_dists.diminfo[0].shape = __pyx_pybuffernd_target_dists.rcbuffer->pybuffer.shape[0];
+        if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(1, 771, __pyx_L1_error)
+      }
+      __pyx_t_15 = 0;
+      __Pyx_XDECREF_SET(__pyx_v_target_dists, ((PyArrayObject *)__pyx_t_3));
+      __pyx_t_3 = 0;
+
+      /* "networkconv.pyx":770
+ *             convolution_max = self.max_indices[target]
+ * 
+ *             if not self.only_classify:             # <<<<<<<<<<<<<<
+ *                 target_dists = convolution_max - target
+ *             else:
+ */
+      goto __pyx_L5;
+    }
+
+    /* "networkconv.pyx":773
+ *                 target_dists = convolution_max - target
+ *             else:
+ *                 argument = arguments[target]             # <<<<<<<<<<<<<<
+ *                 target_dists = self.argument_distances(convolution_max, argument)
  * 
  */
-    __pyx_t_2 = __Pyx_GetItemInt(__pyx_v_arguments, __pyx_v_target, int, 1, __Pyx_PyInt_From_int, 0, 0, 0); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 777, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_XDECREF_SET(__pyx_v_argument, __pyx_t_2);
-    __pyx_t_2 = 0;
+    /*else*/ {
+      __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_v_arguments, __pyx_v_target); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 773, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_XDECREF_SET(__pyx_v_argument, __pyx_t_3);
+      __pyx_t_3 = 0;
 
-    /* "networkconv.pyx":778
- *             #    target_dists = self.argument_distances(convolution_max, argument)
- *             argument = arguments[target]
- *             target_dists = self.argument_distances(convolution_max, argument)             # <<<<<<<<<<<<<<
+      /* "networkconv.pyx":774
+ *             else:
+ *                 argument = arguments[target]
+ *                 target_dists = self.argument_distances(convolution_max, argument)             # <<<<<<<<<<<<<<
  * 
  *             target_dists = np.clip(target_dists + self.target_dist_offset, 0,
  */
-    __pyx_t_2 = ((PyObject *)((struct __pyx_vtabstruct_4libs_7network_ConvolutionalNetwork *)__pyx_v_self->__pyx_vtab)->argument_distances(__pyx_v_self, ((PyObject *)__pyx_v_convolution_max), __pyx_v_argument)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 778, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
+      __pyx_t_3 = ((PyObject *)((struct __pyx_vtabstruct_4libs_7network_ConvolutionalNetwork *)__pyx_v_self->__pyx_vtab)->argument_distances(__pyx_v_self, ((PyObject *)__pyx_v_convolution_max), __pyx_v_argument)); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 774, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      {
+        __Pyx_BufFmt_StackElem __pyx_stack[1];
+        __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_target_dists.rcbuffer->pybuffer);
+        __pyx_t_8 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_target_dists.rcbuffer->pybuffer, (PyObject*)((PyArrayObject *)__pyx_t_3), &__Pyx_TypeInfo_nn___pyx_t_4libs_7network_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack);
+        if (unlikely(__pyx_t_8 < 0)) {
+          PyErr_Fetch(&__pyx_t_9, &__pyx_t_10, &__pyx_t_11);
+          if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_target_dists.rcbuffer->pybuffer, (PyObject*)__pyx_v_target_dists, &__Pyx_TypeInfo_nn___pyx_t_4libs_7network_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {
+            Py_XDECREF(__pyx_t_9); Py_XDECREF(__pyx_t_10); Py_XDECREF(__pyx_t_11);
+            __Pyx_RaiseBufferFallbackError();
+          } else {
+            PyErr_Restore(__pyx_t_9, __pyx_t_10, __pyx_t_11);
+          }
+          __pyx_t_9 = __pyx_t_10 = __pyx_t_11 = 0;
+        }
+        __pyx_pybuffernd_target_dists.diminfo[0].strides = __pyx_pybuffernd_target_dists.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_target_dists.diminfo[0].shape = __pyx_pybuffernd_target_dists.rcbuffer->pybuffer.shape[0];
+        if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(1, 774, __pyx_L1_error)
+      }
+      __Pyx_XDECREF_SET(__pyx_v_target_dists, ((PyArrayObject *)__pyx_t_3));
+      __pyx_t_3 = 0;
+    }
+    __pyx_L5:;
+
+    /* "networkconv.pyx":776
+ *                 target_dists = self.argument_distances(convolution_max, argument)
+ * 
+ *             target_dists = np.clip(target_dists + self.target_dist_offset, 0,             # <<<<<<<<<<<<<<
+ *                                    self.target_dist_lookup.shape[0] - 1)
+ *             pred_dists = convolution_max - predicate
+ */
+    __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 776, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_clip); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 776, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->target_dist_offset); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 776, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_6 = PyNumber_Add(((PyObject *)__pyx_v_target_dists), __pyx_t_1); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 776, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_6);
+    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+
+    /* "networkconv.pyx":777
+ * 
+ *             target_dists = np.clip(target_dists + self.target_dist_offset, 0,
+ *                                    self.target_dist_lookup.shape[0] - 1)             # <<<<<<<<<<<<<<
+ *             pred_dists = convolution_max - predicate
+ *             pred_dists = np.clip(pred_dists + self.pred_dist_offset, 0,
+ */
+    __pyx_t_1 = __Pyx_PyInt_From_long(((__pyx_v_self->target_dist_lookup->dimensions[0]) - 1)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 777, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_18 = NULL;
+    __pyx_t_8 = 0;
+    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
+      __pyx_t_18 = PyMethod_GET_SELF(__pyx_t_5);
+      if (likely(__pyx_t_18)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+        __Pyx_INCREF(__pyx_t_18);
+        __Pyx_INCREF(function);
+        __Pyx_DECREF_SET(__pyx_t_5, function);
+        __pyx_t_8 = 1;
+      }
+    }
+    #if CYTHON_FAST_PYCALL
+    if (PyFunction_Check(__pyx_t_5)) {
+      PyObject *__pyx_temp[4] = {__pyx_t_18, __pyx_t_6, __pyx_int_0, __pyx_t_1};
+      __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_8, 3+__pyx_t_8); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 776, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_18); __pyx_t_18 = 0;
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    } else
+    #endif
+    #if CYTHON_FAST_PYCCALL
+    if (__Pyx_PyFastCFunction_Check(__pyx_t_5)) {
+      PyObject *__pyx_temp[4] = {__pyx_t_18, __pyx_t_6, __pyx_int_0, __pyx_t_1};
+      __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_5, __pyx_temp+1-__pyx_t_8, 3+__pyx_t_8); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 776, __pyx_L1_error)
+      __Pyx_XDECREF(__pyx_t_18); __pyx_t_18 = 0;
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    } else
+    #endif
+    {
+      __pyx_t_19 = PyTuple_New(3+__pyx_t_8); if (unlikely(!__pyx_t_19)) __PYX_ERR(1, 776, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_19);
+      if (__pyx_t_18) {
+        __Pyx_GIVEREF(__pyx_t_18); PyTuple_SET_ITEM(__pyx_t_19, 0, __pyx_t_18); __pyx_t_18 = NULL;
+      }
+      __Pyx_GIVEREF(__pyx_t_6);
+      PyTuple_SET_ITEM(__pyx_t_19, 0+__pyx_t_8, __pyx_t_6);
+      __Pyx_INCREF(__pyx_int_0);
+      __Pyx_GIVEREF(__pyx_int_0);
+      PyTuple_SET_ITEM(__pyx_t_19, 1+__pyx_t_8, __pyx_int_0);
+      __Pyx_GIVEREF(__pyx_t_1);
+      PyTuple_SET_ITEM(__pyx_t_19, 2+__pyx_t_8, __pyx_t_1);
+      __pyx_t_6 = 0;
+      __pyx_t_1 = 0;
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_5, __pyx_t_19, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 776, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_3);
+      __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
+    }
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+
+    /* "networkconv.pyx":776
+ *                 target_dists = self.argument_distances(convolution_max, argument)
+ * 
+ *             target_dists = np.clip(target_dists + self.target_dist_offset, 0,             # <<<<<<<<<<<<<<
+ *                                    self.target_dist_lookup.shape[0] - 1)
+ *             pred_dists = convolution_max - predicate
+ */
+    if (!(likely(((__pyx_t_3) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_3, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 776, __pyx_L1_error)
+    __pyx_t_15 = ((PyArrayObject *)__pyx_t_3);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
       __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_target_dists.rcbuffer->pybuffer);
-      __pyx_t_17 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_target_dists.rcbuffer->pybuffer, (PyObject*)((PyArrayObject *)__pyx_t_2), &__Pyx_TypeInfo_nn___pyx_t_4libs_7network_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack);
-      if (unlikely(__pyx_t_17 < 0)) {
+      __pyx_t_8 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_target_dists.rcbuffer->pybuffer, (PyObject*)__pyx_t_15, &__Pyx_TypeInfo_nn___pyx_t_4libs_7network_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack);
+      if (unlikely(__pyx_t_8 < 0)) {
         PyErr_Fetch(&__pyx_t_11, &__pyx_t_10, &__pyx_t_9);
         if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_target_dists.rcbuffer->pybuffer, (PyObject*)__pyx_v_target_dists, &__Pyx_TypeInfo_nn___pyx_t_4libs_7network_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {
           Py_XDECREF(__pyx_t_11); Py_XDECREF(__pyx_t_10); Py_XDECREF(__pyx_t_9);
@@ -29770,107 +30168,127 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_44_calculate_inp
         __pyx_t_11 = __pyx_t_10 = __pyx_t_9 = 0;
       }
       __pyx_pybuffernd_target_dists.diminfo[0].strides = __pyx_pybuffernd_target_dists.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_target_dists.diminfo[0].shape = __pyx_pybuffernd_target_dists.rcbuffer->pybuffer.shape[0];
-      if (unlikely(__pyx_t_17 < 0)) __PYX_ERR(1, 778, __pyx_L1_error)
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(1, 776, __pyx_L1_error)
     }
-    __Pyx_XDECREF_SET(__pyx_v_target_dists, ((PyArrayObject *)__pyx_t_2));
-    __pyx_t_2 = 0;
+    __pyx_t_15 = 0;
+    __Pyx_DECREF_SET(__pyx_v_target_dists, ((PyArrayObject *)__pyx_t_3));
+    __pyx_t_3 = 0;
 
-    /* "networkconv.pyx":780
- *             target_dists = self.argument_distances(convolution_max, argument)
- * 
- *             target_dists = np.clip(target_dists + self.target_dist_offset, 0,             # <<<<<<<<<<<<<<
+    /* "networkconv.pyx":778
+ *             target_dists = np.clip(target_dists + self.target_dist_offset, 0,
  *                                    self.target_dist_lookup.shape[0] - 1)
- *             pred_dists = convolution_max - predicate
+ *             pred_dists = convolution_max - predicate             # <<<<<<<<<<<<<<
+ *             pred_dists = np.clip(pred_dists + self.pred_dist_offset, 0,
+ *                                  self.pred_dist_lookup.shape[0] - 1)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 780, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_predicate); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 778, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_clip); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 780, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_self->target_dist_offset); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 780, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_5 = PyNumber_Add(((PyObject *)__pyx_v_target_dists), __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 780, __pyx_L1_error)
+    __pyx_t_5 = PyNumber_Subtract(((PyObject *)__pyx_v_convolution_max), __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 778, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_XDECREF_SET(__pyx_v_pred_dists, __pyx_t_5);
+    __pyx_t_5 = 0;
 
-    /* "networkconv.pyx":781
+    /* "networkconv.pyx":779
+ *                                    self.target_dist_lookup.shape[0] - 1)
+ *             pred_dists = convolution_max - predicate
+ *             pred_dists = np.clip(pred_dists + self.pred_dist_offset, 0,             # <<<<<<<<<<<<<<
+ *                                  self.pred_dist_lookup.shape[0] - 1)
  * 
- *             target_dists = np.clip(target_dists + self.target_dist_offset, 0,
- *                                    self.target_dist_lookup.shape[0] - 1)             # <<<<<<<<<<<<<<
+ */
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 779, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_19 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_clip); if (unlikely(!__pyx_t_19)) __PYX_ERR(1, 779, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_19);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_self->pred_dist_offset); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 779, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_3);
+    __pyx_t_1 = PyNumber_Add(__pyx_v_pred_dists, __pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 779, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_1);
+    __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
+
+    /* "networkconv.pyx":780
  *             pred_dists = convolution_max - predicate
  *             pred_dists = np.clip(pred_dists + self.pred_dist_offset, 0,
+ *                                  self.pred_dist_lookup.shape[0] - 1)             # <<<<<<<<<<<<<<
+ * 
+ *             gradients = hidden_gradients[target]
  */
-    __pyx_t_3 = __Pyx_PyInt_From_long(((__pyx_v_self->target_dist_lookup->dimensions[0]) - 1)); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 781, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyInt_From_long(((__pyx_v_self->pred_dist_lookup->dimensions[0]) - 1)); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 780, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_6 = NULL;
-    __pyx_t_17 = 0;
-    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
-      __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_1);
+    __pyx_t_8 = 0;
+    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_19))) {
+      __pyx_t_6 = PyMethod_GET_SELF(__pyx_t_19);
       if (likely(__pyx_t_6)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_19);
         __Pyx_INCREF(__pyx_t_6);
         __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_1, function);
-        __pyx_t_17 = 1;
+        __Pyx_DECREF_SET(__pyx_t_19, function);
+        __pyx_t_8 = 1;
       }
     }
     #if CYTHON_FAST_PYCALL
-    if (PyFunction_Check(__pyx_t_1)) {
-      PyObject *__pyx_temp[4] = {__pyx_t_6, __pyx_t_5, __pyx_int_0, __pyx_t_3};
-      __pyx_t_2 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_17, 3+__pyx_t_17); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 780, __pyx_L1_error)
+    if (PyFunction_Check(__pyx_t_19)) {
+      PyObject *__pyx_temp[4] = {__pyx_t_6, __pyx_t_1, __pyx_int_0, __pyx_t_3};
+      __pyx_t_5 = __Pyx_PyFunction_FastCall(__pyx_t_19, __pyx_temp+1-__pyx_t_8, 3+__pyx_t_8); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 779, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __Pyx_GOTREF(__pyx_t_2);
-      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __Pyx_GOTREF(__pyx_t_5);
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     } else
     #endif
     #if CYTHON_FAST_PYCCALL
-    if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
-      PyObject *__pyx_temp[4] = {__pyx_t_6, __pyx_t_5, __pyx_int_0, __pyx_t_3};
-      __pyx_t_2 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_17, 3+__pyx_t_17); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 780, __pyx_L1_error)
+    if (__Pyx_PyFastCFunction_Check(__pyx_t_19)) {
+      PyObject *__pyx_temp[4] = {__pyx_t_6, __pyx_t_1, __pyx_int_0, __pyx_t_3};
+      __pyx_t_5 = __Pyx_PyCFunction_FastCall(__pyx_t_19, __pyx_temp+1-__pyx_t_8, 3+__pyx_t_8); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 779, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_6); __pyx_t_6 = 0;
-      __Pyx_GOTREF(__pyx_t_2);
-      __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+      __Pyx_GOTREF(__pyx_t_5);
+      __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     } else
     #endif
     {
-      __pyx_t_18 = PyTuple_New(3+__pyx_t_17); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 780, __pyx_L1_error)
+      __pyx_t_18 = PyTuple_New(3+__pyx_t_8); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 779, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_18);
       if (__pyx_t_6) {
         __Pyx_GIVEREF(__pyx_t_6); PyTuple_SET_ITEM(__pyx_t_18, 0, __pyx_t_6); __pyx_t_6 = NULL;
       }
-      __Pyx_GIVEREF(__pyx_t_5);
-      PyTuple_SET_ITEM(__pyx_t_18, 0+__pyx_t_17, __pyx_t_5);
+      __Pyx_GIVEREF(__pyx_t_1);
+      PyTuple_SET_ITEM(__pyx_t_18, 0+__pyx_t_8, __pyx_t_1);
       __Pyx_INCREF(__pyx_int_0);
       __Pyx_GIVEREF(__pyx_int_0);
-      PyTuple_SET_ITEM(__pyx_t_18, 1+__pyx_t_17, __pyx_int_0);
+      PyTuple_SET_ITEM(__pyx_t_18, 1+__pyx_t_8, __pyx_int_0);
       __Pyx_GIVEREF(__pyx_t_3);
-      PyTuple_SET_ITEM(__pyx_t_18, 2+__pyx_t_17, __pyx_t_3);
-      __pyx_t_5 = 0;
+      PyTuple_SET_ITEM(__pyx_t_18, 2+__pyx_t_8, __pyx_t_3);
+      __pyx_t_1 = 0;
       __pyx_t_3 = 0;
-      __pyx_t_2 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_18, NULL); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 780, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_2);
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_t_19, __pyx_t_18, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 779, __pyx_L1_error)
+      __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
     }
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
+    __Pyx_DECREF_SET(__pyx_v_pred_dists, __pyx_t_5);
+    __pyx_t_5 = 0;
 
-    /* "networkconv.pyx":780
- *             target_dists = self.argument_distances(convolution_max, argument)
+    /* "networkconv.pyx":782
+ *                                  self.pred_dist_lookup.shape[0] - 1)
  * 
- *             target_dists = np.clip(target_dists + self.target_dist_offset, 0,             # <<<<<<<<<<<<<<
- *                                    self.target_dist_lookup.shape[0] - 1)
- *             pred_dists = convolution_max - predicate
+ *             gradients = hidden_gradients[target]             # <<<<<<<<<<<<<<
+ * 
+ *             # sparse matrix with gradients to be applied over the input
  */
-    if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 780, __pyx_L1_error)
-    __pyx_t_16 = ((PyArrayObject *)__pyx_t_2);
+    __pyx_t_5 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_hidden_gradients), __pyx_v_target); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 782, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    if (!(likely(((__pyx_t_5) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_5, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 782, __pyx_L1_error)
+    __pyx_t_20 = ((PyArrayObject *)__pyx_t_5);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
-      __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_target_dists.rcbuffer->pybuffer);
-      __pyx_t_17 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_target_dists.rcbuffer->pybuffer, (PyObject*)__pyx_t_16, &__Pyx_TypeInfo_nn___pyx_t_4libs_7network_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack);
-      if (unlikely(__pyx_t_17 < 0)) {
+      __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_gradients.rcbuffer->pybuffer);
+      __pyx_t_8 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_gradients.rcbuffer->pybuffer, (PyObject*)__pyx_t_20, &__Pyx_TypeInfo_nn___pyx_t_4libs_7network_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack);
+      if (unlikely(__pyx_t_8 < 0)) {
         PyErr_Fetch(&__pyx_t_9, &__pyx_t_10, &__pyx_t_11);
-        if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_target_dists.rcbuffer->pybuffer, (PyObject*)__pyx_v_target_dists, &__Pyx_TypeInfo_nn___pyx_t_4libs_7network_INT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {
+        if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_gradients.rcbuffer->pybuffer, (PyObject*)__pyx_v_gradients, &__Pyx_TypeInfo_nn___pyx_t_4libs_7network_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {
           Py_XDECREF(__pyx_t_9); Py_XDECREF(__pyx_t_10); Py_XDECREF(__pyx_t_11);
           __Pyx_RaiseBufferFallbackError();
         } else {
@@ -29878,384 +30296,264 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_44_calculate_inp
         }
         __pyx_t_9 = __pyx_t_10 = __pyx_t_11 = 0;
       }
-      __pyx_pybuffernd_target_dists.diminfo[0].strides = __pyx_pybuffernd_target_dists.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_target_dists.diminfo[0].shape = __pyx_pybuffernd_target_dists.rcbuffer->pybuffer.shape[0];
-      if (unlikely(__pyx_t_17 < 0)) __PYX_ERR(1, 780, __pyx_L1_error)
+      __pyx_pybuffernd_gradients.diminfo[0].strides = __pyx_pybuffernd_gradients.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_gradients.diminfo[0].shape = __pyx_pybuffernd_gradients.rcbuffer->pybuffer.shape[0];
+      if (unlikely(__pyx_t_8 < 0)) __PYX_ERR(1, 782, __pyx_L1_error)
     }
-    __pyx_t_16 = 0;
-    __Pyx_DECREF_SET(__pyx_v_target_dists, ((PyArrayObject *)__pyx_t_2));
-    __pyx_t_2 = 0;
-
-    /* "networkconv.pyx":782
- *             target_dists = np.clip(target_dists + self.target_dist_offset, 0,
- *                                    self.target_dist_lookup.shape[0] - 1)
- *             pred_dists = convolution_max - predicate             # <<<<<<<<<<<<<<
- *             pred_dists = np.clip(pred_dists + self.pred_dist_offset, 0,
- *                                  self.pred_dist_lookup.shape[0] - 1)
- */
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_predicate); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 782, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_1 = PyNumber_Subtract(((PyObject *)__pyx_v_convolution_max), __pyx_t_2); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 782, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_XDECREF_SET(__pyx_v_pred_dists, __pyx_t_1);
-    __pyx_t_1 = 0;
-
-    /* "networkconv.pyx":783
- *                                    self.target_dist_lookup.shape[0] - 1)
- *             pred_dists = convolution_max - predicate
- *             pred_dists = np.clip(pred_dists + self.pred_dist_offset, 0,             # <<<<<<<<<<<<<<
- *                                  self.pred_dist_lookup.shape[0] - 1)
- * 
- */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 783, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_clip); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 783, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_18);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->pred_dist_offset); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 783, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_3 = PyNumber_Add(__pyx_v_pred_dists, __pyx_t_2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 783, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-
-    /* "networkconv.pyx":784
- *             pred_dists = convolution_max - predicate
- *             pred_dists = np.clip(pred_dists + self.pred_dist_offset, 0,
- *                                  self.pred_dist_lookup.shape[0] - 1)             # <<<<<<<<<<<<<<
- * 
- *             gradients = hidden_gradients[target]
- */
-    __pyx_t_2 = __Pyx_PyInt_From_long(((__pyx_v_self->pred_dist_lookup->dimensions[0]) - 1)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 784, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_5 = NULL;
-    __pyx_t_17 = 0;
-    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_18))) {
-      __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_18);
-      if (likely(__pyx_t_5)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_18);
-        __Pyx_INCREF(__pyx_t_5);
-        __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_18, function);
-        __pyx_t_17 = 1;
-      }
-    }
-    #if CYTHON_FAST_PYCALL
-    if (PyFunction_Check(__pyx_t_18)) {
-      PyObject *__pyx_temp[4] = {__pyx_t_5, __pyx_t_3, __pyx_int_0, __pyx_t_2};
-      __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_18, __pyx_temp+1-__pyx_t_17, 3+__pyx_t_17); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 783, __pyx_L1_error)
-      __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __Pyx_GOTREF(__pyx_t_1);
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    } else
-    #endif
-    #if CYTHON_FAST_PYCCALL
-    if (__Pyx_PyFastCFunction_Check(__pyx_t_18)) {
-      PyObject *__pyx_temp[4] = {__pyx_t_5, __pyx_t_3, __pyx_int_0, __pyx_t_2};
-      __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_18, __pyx_temp+1-__pyx_t_17, 3+__pyx_t_17); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 783, __pyx_L1_error)
-      __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __Pyx_GOTREF(__pyx_t_1);
-      __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    } else
-    #endif
-    {
-      __pyx_t_6 = PyTuple_New(3+__pyx_t_17); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 783, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_6);
-      if (__pyx_t_5) {
-        __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_5); __pyx_t_5 = NULL;
-      }
-      __Pyx_GIVEREF(__pyx_t_3);
-      PyTuple_SET_ITEM(__pyx_t_6, 0+__pyx_t_17, __pyx_t_3);
-      __Pyx_INCREF(__pyx_int_0);
-      __Pyx_GIVEREF(__pyx_int_0);
-      PyTuple_SET_ITEM(__pyx_t_6, 1+__pyx_t_17, __pyx_int_0);
-      __Pyx_GIVEREF(__pyx_t_2);
-      PyTuple_SET_ITEM(__pyx_t_6, 2+__pyx_t_17, __pyx_t_2);
-      __pyx_t_3 = 0;
-      __pyx_t_2 = 0;
-      __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_18, __pyx_t_6, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 783, __pyx_L1_error)
-      __Pyx_GOTREF(__pyx_t_1);
-      __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    }
-    __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-    __Pyx_DECREF_SET(__pyx_v_pred_dists, __pyx_t_1);
-    __pyx_t_1 = 0;
+    __pyx_t_20 = 0;
+    __Pyx_XDECREF_SET(__pyx_v_gradients, ((PyArrayObject *)__pyx_t_5));
+    __pyx_t_5 = 0;
 
     /* "networkconv.pyx":786
- *                                  self.pred_dist_lookup.shape[0] - 1)
- * 
- *             gradients = hidden_gradients[target]             # <<<<<<<<<<<<<<
- * 
- *             # sparse matrix with gradients to be applied over the input
- */
-    __pyx_t_1 = __Pyx_GetItemInt(((PyObject *)__pyx_v_hidden_gradients), __pyx_v_target, int, 1, __Pyx_PyInt_From_int, 0, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 786, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 786, __pyx_L1_error)
-    __pyx_t_19 = ((PyArrayObject *)__pyx_t_1);
-    {
-      __Pyx_BufFmt_StackElem __pyx_stack[1];
-      __Pyx_SafeReleaseBuffer(&__pyx_pybuffernd_gradients.rcbuffer->pybuffer);
-      __pyx_t_17 = __Pyx_GetBufferAndValidate(&__pyx_pybuffernd_gradients.rcbuffer->pybuffer, (PyObject*)__pyx_t_19, &__Pyx_TypeInfo_nn___pyx_t_4libs_7network_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack);
-      if (unlikely(__pyx_t_17 < 0)) {
-        PyErr_Fetch(&__pyx_t_11, &__pyx_t_10, &__pyx_t_9);
-        if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_gradients.rcbuffer->pybuffer, (PyObject*)__pyx_v_gradients, &__Pyx_TypeInfo_nn___pyx_t_4libs_7network_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 1, 0, __pyx_stack) == -1)) {
-          Py_XDECREF(__pyx_t_11); Py_XDECREF(__pyx_t_10); Py_XDECREF(__pyx_t_9);
-          __Pyx_RaiseBufferFallbackError();
-        } else {
-          PyErr_Restore(__pyx_t_11, __pyx_t_10, __pyx_t_9);
-        }
-        __pyx_t_11 = __pyx_t_10 = __pyx_t_9 = 0;
-      }
-      __pyx_pybuffernd_gradients.diminfo[0].strides = __pyx_pybuffernd_gradients.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_gradients.diminfo[0].shape = __pyx_pybuffernd_gradients.rcbuffer->pybuffer.shape[0];
-      if (unlikely(__pyx_t_17 < 0)) __PYX_ERR(1, 786, __pyx_L1_error)
-    }
-    __pyx_t_19 = 0;
-    __Pyx_XDECREF_SET(__pyx_v_gradients, ((PyArrayObject *)__pyx_t_1));
-    __pyx_t_1 = 0;
-
-    /* "networkconv.pyx":790
  *             # sparse matrix with gradients to be applied over the input
  *             # line i has the gradients for the i-th token in the sentence
  *             input_gradients[convolution_max, np.arange(self.hidden_size)] += gradients             # <<<<<<<<<<<<<<
  * 
  *             # distance deltas
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_n_s_np); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 790, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_19, __pyx_n_s_np); if (unlikely(!__pyx_t_19)) __PYX_ERR(1, 786, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_19);
+    __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_t_19, __pyx_n_s_arange); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 786, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_18, __pyx_n_s_arange); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 790, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-    __pyx_t_18 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.hidden_size); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 790, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_18);
-    __pyx_t_2 = NULL;
-    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_6))) {
-      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_6);
-      if (likely(__pyx_t_2)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
-        __Pyx_INCREF(__pyx_t_2);
+    __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
+    __pyx_t_19 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.hidden_size); if (unlikely(!__pyx_t_19)) __PYX_ERR(1, 786, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_19);
+    __pyx_t_3 = NULL;
+    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_18))) {
+      __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_18);
+      if (likely(__pyx_t_3)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_18);
+        __Pyx_INCREF(__pyx_t_3);
         __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_6, function);
+        __Pyx_DECREF_SET(__pyx_t_18, function);
       }
     }
-    __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_6, __pyx_t_2, __pyx_t_18) : __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_t_18);
-    __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_5 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_18, __pyx_t_3, __pyx_t_19) : __Pyx_PyObject_CallOneArg(__pyx_t_18, __pyx_t_19);
+    __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 786, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 790, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 790, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
+    __pyx_t_18 = PyTuple_New(2); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 786, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_18);
     __Pyx_INCREF(((PyObject *)__pyx_v_convolution_max));
     __Pyx_GIVEREF(((PyObject *)__pyx_v_convolution_max));
-    PyTuple_SET_ITEM(__pyx_t_6, 0, ((PyObject *)__pyx_v_convolution_max));
-    __Pyx_GIVEREF(__pyx_t_1);
-    PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_t_1);
-    __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_input_gradients), __pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 790, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_18 = PyNumber_InPlaceAdd(__pyx_t_1, ((PyObject *)__pyx_v_gradients)); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 790, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_18);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_input_gradients), __pyx_t_6, __pyx_t_18) < 0)) __PYX_ERR(1, 790, __pyx_L1_error)
+    PyTuple_SET_ITEM(__pyx_t_18, 0, ((PyObject *)__pyx_v_convolution_max));
+    __Pyx_GIVEREF(__pyx_t_5);
+    PyTuple_SET_ITEM(__pyx_t_18, 1, __pyx_t_5);
+    __pyx_t_5 = 0;
+    __pyx_t_5 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_input_gradients), __pyx_t_18); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 786, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __pyx_t_19 = PyNumber_InPlaceAdd(__pyx_t_5, ((PyObject *)__pyx_v_gradients)); if (unlikely(!__pyx_t_19)) __PYX_ERR(1, 786, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_19);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_input_gradients), __pyx_t_18, __pyx_t_19) < 0)) __PYX_ERR(1, 786, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "networkconv.pyx":793
+    /* "networkconv.pyx":789
  * 
  *             # distance deltas
  *             target_dist_gradients[target_dists, np.arange(self.hidden_size)] += gradients             # <<<<<<<<<<<<<<
  *             pred_dist_gradients[pred_dists, np.arange(self.hidden_size)] += gradients
  * 
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_n_s_np); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 793, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_18);
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_18, __pyx_n_s_arange); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 793, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-    __pyx_t_18 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.hidden_size); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 793, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_18);
-    __pyx_t_2 = NULL;
-    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_1))) {
-      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_1);
-      if (likely(__pyx_t_2)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_1);
-        __Pyx_INCREF(__pyx_t_2);
+    __Pyx_GetModuleGlobalName(__pyx_t_19, __pyx_n_s_np); if (unlikely(!__pyx_t_19)) __PYX_ERR(1, 789, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_19);
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_19, __pyx_n_s_arange); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 789, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
+    __pyx_t_19 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.hidden_size); if (unlikely(!__pyx_t_19)) __PYX_ERR(1, 789, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_19);
+    __pyx_t_3 = NULL;
+    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
+      __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_5);
+      if (likely(__pyx_t_3)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_5);
+        __Pyx_INCREF(__pyx_t_3);
         __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_1, function);
+        __Pyx_DECREF_SET(__pyx_t_5, function);
       }
     }
-    __pyx_t_6 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_2, __pyx_t_18) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_t_18);
-    __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 793, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = PyTuple_New(2); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 793, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
+    __pyx_t_18 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_3, __pyx_t_19) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_19);
+    __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
+    if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 789, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_18);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 789, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
     __Pyx_INCREF(((PyObject *)__pyx_v_target_dists));
     __Pyx_GIVEREF(((PyObject *)__pyx_v_target_dists));
-    PyTuple_SET_ITEM(__pyx_t_1, 0, ((PyObject *)__pyx_v_target_dists));
-    __Pyx_GIVEREF(__pyx_t_6);
-    PyTuple_SET_ITEM(__pyx_t_1, 1, __pyx_t_6);
-    __pyx_t_6 = 0;
-    __pyx_t_6 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_target_dist_gradients), __pyx_t_1); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 793, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_18 = PyNumber_InPlaceAdd(__pyx_t_6, ((PyObject *)__pyx_v_gradients)); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 793, __pyx_L1_error)
+    PyTuple_SET_ITEM(__pyx_t_5, 0, ((PyObject *)__pyx_v_target_dists));
+    __Pyx_GIVEREF(__pyx_t_18);
+    PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_t_18);
+    __pyx_t_18 = 0;
+    __pyx_t_18 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_target_dist_gradients), __pyx_t_5); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 789, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_target_dist_gradients), __pyx_t_1, __pyx_t_18) < 0)) __PYX_ERR(1, 793, __pyx_L1_error)
+    __pyx_t_19 = PyNumber_InPlaceAdd(__pyx_t_18, ((PyObject *)__pyx_v_gradients)); if (unlikely(!__pyx_t_19)) __PYX_ERR(1, 789, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_19);
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_target_dist_gradients), __pyx_t_5, __pyx_t_19) < 0)) __PYX_ERR(1, 789, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "networkconv.pyx":794
+    /* "networkconv.pyx":790
  *             # distance deltas
  *             target_dist_gradients[target_dists, np.arange(self.hidden_size)] += gradients
  *             pred_dist_gradients[pred_dists, np.arange(self.hidden_size)] += gradients             # <<<<<<<<<<<<<<
  * 
  *         self.input_deltas = input_gradients.dot(self.hidden_weights)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_18, __pyx_n_s_np); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 794, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_19, __pyx_n_s_np); if (unlikely(!__pyx_t_19)) __PYX_ERR(1, 790, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_19);
+    __pyx_t_18 = __Pyx_PyObject_GetAttrStr(__pyx_t_19, __pyx_n_s_arange); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 790, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_18);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_18, __pyx_n_s_arange); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 794, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
-    __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-    __pyx_t_18 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.hidden_size); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 794, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_18);
-    __pyx_t_2 = NULL;
-    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_6))) {
-      __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_6);
-      if (likely(__pyx_t_2)) {
-        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_6);
-        __Pyx_INCREF(__pyx_t_2);
+    __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
+    __pyx_t_19 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.hidden_size); if (unlikely(!__pyx_t_19)) __PYX_ERR(1, 790, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_19);
+    __pyx_t_3 = NULL;
+    if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_18))) {
+      __pyx_t_3 = PyMethod_GET_SELF(__pyx_t_18);
+      if (likely(__pyx_t_3)) {
+        PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_18);
+        __Pyx_INCREF(__pyx_t_3);
         __Pyx_INCREF(function);
-        __Pyx_DECREF_SET(__pyx_t_6, function);
+        __Pyx_DECREF_SET(__pyx_t_18, function);
       }
     }
-    __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_6, __pyx_t_2, __pyx_t_18) : __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_t_18);
-    __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
+    __pyx_t_5 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_18, __pyx_t_3, __pyx_t_19) : __Pyx_PyObject_CallOneArg(__pyx_t_18, __pyx_t_19);
+    __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
+    __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 790, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 794, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 794, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_6);
+    __pyx_t_18 = PyTuple_New(2); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 790, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_18);
     __Pyx_INCREF(__pyx_v_pred_dists);
     __Pyx_GIVEREF(__pyx_v_pred_dists);
-    PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_v_pred_dists);
-    __Pyx_GIVEREF(__pyx_t_1);
-    PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_t_1);
-    __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_pred_dist_gradients), __pyx_t_6); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 794, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_18 = PyNumber_InPlaceAdd(__pyx_t_1, ((PyObject *)__pyx_v_gradients)); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 794, __pyx_L1_error)
-    __Pyx_GOTREF(__pyx_t_18);
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_pred_dist_gradients), __pyx_t_6, __pyx_t_18) < 0)) __PYX_ERR(1, 794, __pyx_L1_error)
+    PyTuple_SET_ITEM(__pyx_t_18, 0, __pyx_v_pred_dists);
+    __Pyx_GIVEREF(__pyx_t_5);
+    PyTuple_SET_ITEM(__pyx_t_18, 1, __pyx_t_5);
+    __pyx_t_5 = 0;
+    __pyx_t_5 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_pred_dist_gradients), __pyx_t_18); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 790, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_5);
+    __pyx_t_19 = PyNumber_InPlaceAdd(__pyx_t_5, ((PyObject *)__pyx_v_gradients)); if (unlikely(!__pyx_t_19)) __PYX_ERR(1, 790, __pyx_L1_error)
+    __Pyx_GOTREF(__pyx_t_19);
+    __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
+    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_pred_dist_gradients), __pyx_t_18, __pyx_t_19) < 0)) __PYX_ERR(1, 790, __pyx_L1_error)
+    __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
     __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-    __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-  }
 
-  /* "networkconv.pyx":796
+    /* "networkconv.pyx":764
+ *         cdef np.ndarray[INT_t, ndim=1] column_numbers = np.arange(self.hidden_size)
+ * 
+ *         for target in range(self.num_targets):             # <<<<<<<<<<<<<<
+ * 
+ *             # array with the tokens that yielded the maximum value in each neuron
+ */
+  }
+  __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
+
+  /* "networkconv.pyx":792
  *             pred_dist_gradients[pred_dists, np.arange(self.hidden_size)] += gradients
  * 
  *         self.input_deltas = input_gradients.dot(self.hidden_weights)             # <<<<<<<<<<<<<<
  *         self.target_dist_deltas = target_dist_gradients.dot(self.target_dist_weights.T)
  *         self.pred_dist_deltas = pred_dist_gradients.dot(self.pred_dist_weights.T)
  */
-  __pyx_t_18 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_input_gradients), __pyx_n_s_dot); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 796, __pyx_L1_error)
+  __pyx_t_18 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_input_gradients), __pyx_n_s_dot); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 792, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_18);
-  __pyx_t_1 = NULL;
+  __pyx_t_19 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_18))) {
-    __pyx_t_1 = PyMethod_GET_SELF(__pyx_t_18);
-    if (likely(__pyx_t_1)) {
+    __pyx_t_19 = PyMethod_GET_SELF(__pyx_t_18);
+    if (likely(__pyx_t_19)) {
       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_18);
-      __Pyx_INCREF(__pyx_t_1);
+      __Pyx_INCREF(__pyx_t_19);
       __Pyx_INCREF(function);
       __Pyx_DECREF_SET(__pyx_t_18, function);
     }
   }
-  __pyx_t_6 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_18, __pyx_t_1, ((PyObject *)__pyx_v_self->__pyx_base.hidden_weights)) : __Pyx_PyObject_CallOneArg(__pyx_t_18, ((PyObject *)__pyx_v_self->__pyx_base.hidden_weights));
-  __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 796, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_6);
+  __pyx_t_2 = (__pyx_t_19) ? __Pyx_PyObject_Call2Args(__pyx_t_18, __pyx_t_19, ((PyObject *)__pyx_v_self->__pyx_base.hidden_weights)) : __Pyx_PyObject_CallOneArg(__pyx_t_18, ((PyObject *)__pyx_v_self->__pyx_base.hidden_weights));
+  __Pyx_XDECREF(__pyx_t_19); __pyx_t_19 = 0;
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 792, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-  if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 796, __pyx_L1_error)
-  __Pyx_GIVEREF(__pyx_t_6);
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 792, __pyx_L1_error)
+  __Pyx_GIVEREF(__pyx_t_2);
   __Pyx_GOTREF(__pyx_v_self->input_deltas);
   __Pyx_DECREF(((PyObject *)__pyx_v_self->input_deltas));
-  __pyx_v_self->input_deltas = ((PyArrayObject *)__pyx_t_6);
-  __pyx_t_6 = 0;
+  __pyx_v_self->input_deltas = ((PyArrayObject *)__pyx_t_2);
+  __pyx_t_2 = 0;
 
-  /* "networkconv.pyx":797
+  /* "networkconv.pyx":793
  * 
  *         self.input_deltas = input_gradients.dot(self.hidden_weights)
  *         self.target_dist_deltas = target_dist_gradients.dot(self.target_dist_weights.T)             # <<<<<<<<<<<<<<
  *         self.pred_dist_deltas = pred_dist_gradients.dot(self.pred_dist_weights.T)
  * 
  */
-  __pyx_t_18 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_target_dist_gradients), __pyx_n_s_dot); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 797, __pyx_L1_error)
+  __pyx_t_18 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_target_dist_gradients), __pyx_n_s_dot); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 793, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_18);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->target_dist_weights), __pyx_n_s_T); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 797, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = NULL;
+  __pyx_t_19 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->target_dist_weights), __pyx_n_s_T); if (unlikely(!__pyx_t_19)) __PYX_ERR(1, 793, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_19);
+  __pyx_t_5 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_18))) {
-    __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_18);
-    if (likely(__pyx_t_2)) {
+    __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_18);
+    if (likely(__pyx_t_5)) {
       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_18);
-      __Pyx_INCREF(__pyx_t_2);
+      __Pyx_INCREF(__pyx_t_5);
       __Pyx_INCREF(function);
       __Pyx_DECREF_SET(__pyx_t_18, function);
     }
   }
-  __pyx_t_6 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_18, __pyx_t_2, __pyx_t_1) : __Pyx_PyObject_CallOneArg(__pyx_t_18, __pyx_t_1);
-  __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 797, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_6);
+  __pyx_t_2 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_18, __pyx_t_5, __pyx_t_19) : __Pyx_PyObject_CallOneArg(__pyx_t_18, __pyx_t_19);
+  __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 793, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-  if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 797, __pyx_L1_error)
-  __Pyx_GIVEREF(__pyx_t_6);
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 793, __pyx_L1_error)
+  __Pyx_GIVEREF(__pyx_t_2);
   __Pyx_GOTREF(__pyx_v_self->target_dist_deltas);
   __Pyx_DECREF(((PyObject *)__pyx_v_self->target_dist_deltas));
-  __pyx_v_self->target_dist_deltas = ((PyArrayObject *)__pyx_t_6);
-  __pyx_t_6 = 0;
+  __pyx_v_self->target_dist_deltas = ((PyArrayObject *)__pyx_t_2);
+  __pyx_t_2 = 0;
 
-  /* "networkconv.pyx":798
+  /* "networkconv.pyx":794
  *         self.input_deltas = input_gradients.dot(self.hidden_weights)
  *         self.target_dist_deltas = target_dist_gradients.dot(self.target_dist_weights.T)
  *         self.pred_dist_deltas = pred_dist_gradients.dot(self.pred_dist_weights.T)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __pyx_t_18 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_pred_dist_gradients), __pyx_n_s_dot); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 798, __pyx_L1_error)
+  __pyx_t_18 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_pred_dist_gradients), __pyx_n_s_dot); if (unlikely(!__pyx_t_18)) __PYX_ERR(1, 794, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_18);
-  __pyx_t_1 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->pred_dist_weights), __pyx_n_s_T); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 798, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = NULL;
+  __pyx_t_19 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->pred_dist_weights), __pyx_n_s_T); if (unlikely(!__pyx_t_19)) __PYX_ERR(1, 794, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_19);
+  __pyx_t_5 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_18))) {
-    __pyx_t_2 = PyMethod_GET_SELF(__pyx_t_18);
-    if (likely(__pyx_t_2)) {
+    __pyx_t_5 = PyMethod_GET_SELF(__pyx_t_18);
+    if (likely(__pyx_t_5)) {
       PyObject* function = PyMethod_GET_FUNCTION(__pyx_t_18);
-      __Pyx_INCREF(__pyx_t_2);
+      __Pyx_INCREF(__pyx_t_5);
       __Pyx_INCREF(function);
       __Pyx_DECREF_SET(__pyx_t_18, function);
     }
   }
-  __pyx_t_6 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_18, __pyx_t_2, __pyx_t_1) : __Pyx_PyObject_CallOneArg(__pyx_t_18, __pyx_t_1);
-  __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
-  __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 798, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_t_6);
+  __pyx_t_2 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_18, __pyx_t_5, __pyx_t_19) : __Pyx_PyObject_CallOneArg(__pyx_t_18, __pyx_t_19);
+  __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
+  __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 794, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_18); __pyx_t_18 = 0;
-  if (!(likely(((__pyx_t_6) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_6, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 798, __pyx_L1_error)
-  __Pyx_GIVEREF(__pyx_t_6);
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 794, __pyx_L1_error)
+  __Pyx_GIVEREF(__pyx_t_2);
   __Pyx_GOTREF(__pyx_v_self->pred_dist_deltas);
   __Pyx_DECREF(((PyObject *)__pyx_v_self->pred_dist_deltas));
-  __pyx_v_self->pred_dist_deltas = ((PyArrayObject *)__pyx_t_6);
-  __pyx_t_6 = 0;
+  __pyx_v_self->pred_dist_deltas = ((PyArrayObject *)__pyx_t_2);
+  __pyx_t_2 = 0;
 
-  /* "networkconv.pyx":746
+  /* "networkconv.pyx":744
  *     @cython.boundscheck(False)
  *     @cython.wraparound(False)
  *     def _calculate_input_deltas(self, np.ndarray sentence, int predicate,             # <<<<<<<<<<<<<<
@@ -30273,6 +30571,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_44_calculate_inp
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_18);
+  __Pyx_XDECREF(__pyx_t_19);
   { PyObject *__pyx_type, *__pyx_value, *__pyx_tb;
     __Pyx_PyThreadState_declare
     __Pyx_PyThreadState_assign
@@ -30307,6 +30606,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_44_calculate_inp
   __Pyx_XDECREF((PyObject *)__pyx_v_convolution_max);
   __Pyx_XDECREF((PyObject *)__pyx_v_target_dists);
   __Pyx_XDECREF((PyObject *)__pyx_v_column_numbers);
+  __Pyx_XDECREF(__pyx_v_target);
   __Pyx_XDECREF(__pyx_v_argument);
   __Pyx_XDECREF(__pyx_v_pred_dists);
   __Pyx_XGIVEREF(__pyx_r);
@@ -30315,7 +30615,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_44_calculate_inp
   return __pyx_r;
 }
 
-/* "networkconv.pyx":801
+/* "networkconv.pyx":797
  * 
  * 
  *     def _adjust_features(self, sentence, predicate):             # <<<<<<<<<<<<<<
@@ -30358,11 +30658,11 @@ static PyObject *__pyx_pw_4libs_7network_20ConvolutionalNetwork_47_adjust_featur
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_predicate)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_adjust_features", 1, 2, 2, 1); __PYX_ERR(1, 801, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_adjust_features", 1, 2, 2, 1); __PYX_ERR(1, 797, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_adjust_features") < 0)) __PYX_ERR(1, 801, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_adjust_features") < 0)) __PYX_ERR(1, 797, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -30375,7 +30675,7 @@ static PyObject *__pyx_pw_4libs_7network_20ConvolutionalNetwork_47_adjust_featur
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_adjust_features", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 801, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_adjust_features", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 797, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("libs.network.ConvolutionalNetwork._adjust_features", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -30430,9 +30730,9 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_adjust_features", 0);
-  __Pyx_TraceCall("_adjust_features", __pyx_f[1], 801, 0, __PYX_ERR(1, 801, __pyx_L1_error));
+  __Pyx_TraceCall("_adjust_features", __pyx_f[1], 797, 0, __PYX_ERR(1, 797, __pyx_L1_error));
 
-  /* "networkconv.pyx":805
+  /* "networkconv.pyx":801
  *         # compute each token in the window separately and
  *         # separate the feature deltas into tables
  *         start_from = 0             # <<<<<<<<<<<<<<
@@ -30442,7 +30742,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
   __Pyx_INCREF(__pyx_int_0);
   __pyx_v_start_from = __pyx_int_0;
 
-  /* "networkconv.pyx":806
+  /* "networkconv.pyx":802
  *         # separate the feature deltas into tables
  *         start_from = 0
  *         dist_target_from = 0             # <<<<<<<<<<<<<<
@@ -30452,7 +30752,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
   __Pyx_INCREF(__pyx_int_0);
   __pyx_v_dist_target_from = __pyx_int_0;
 
-  /* "networkconv.pyx":807
+  /* "networkconv.pyx":803
  *         start_from = 0
  *         dist_target_from = 0
  *         dist_pred_from = 0             # <<<<<<<<<<<<<<
@@ -30462,19 +30762,19 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
   __Pyx_INCREF(__pyx_int_0);
   __pyx_v_dist_pred_from = __pyx_int_0;
 
-  /* "networkconv.pyx":811
+  /* "networkconv.pyx":807
  *         # number of times that the minimum and maximum distances are repeated
  *         # in the lookup distance tables
  *         pre_dist = self.word_window_size             # <<<<<<<<<<<<<<
  *         pos_dist = 1
  *         if self.word_window_size > 1:
  */
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.word_window_size); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 811, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.word_window_size); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 807, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_pre_dist = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":812
+  /* "networkconv.pyx":808
  *         # in the lookup distance tables
  *         pre_dist = self.word_window_size
  *         pos_dist = 1             # <<<<<<<<<<<<<<
@@ -30484,7 +30784,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
   __Pyx_INCREF(__pyx_int_1);
   __pyx_v_pos_dist = __pyx_int_1;
 
-  /* "networkconv.pyx":813
+  /* "networkconv.pyx":809
  *         pre_dist = self.word_window_size
  *         pos_dist = 1
  *         if self.word_window_size > 1:             # <<<<<<<<<<<<<<
@@ -30494,27 +30794,27 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
   __pyx_t_2 = ((__pyx_v_self->__pyx_base.word_window_size > 1) != 0);
   if (__pyx_t_2) {
 
-    /* "networkconv.pyx":814
+    /* "networkconv.pyx":810
  *         pos_dist = 1
  *         if self.word_window_size > 1:
  *             padded_sentence = np.concatenate((self.pre_padding,             # <<<<<<<<<<<<<<
  *                                               sentence,
  *                                               self.pos_padding))
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 814, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 810, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_concatenate); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 814, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_concatenate); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 810, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "networkconv.pyx":816
+    /* "networkconv.pyx":812
  *             padded_sentence = np.concatenate((self.pre_padding,
  *                                               sentence,
  *                                               self.pos_padding))             # <<<<<<<<<<<<<<
  *         else:
  *             padded_sentence = sentence
  */
-    __pyx_t_3 = PyTuple_New(3); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 814, __pyx_L1_error)
+    __pyx_t_3 = PyTuple_New(3); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 810, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.pre_padding));
     __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.pre_padding));
@@ -30538,13 +30838,13 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     __pyx_t_1 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_5, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 814, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 810, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_v_padded_sentence = __pyx_t_1;
     __pyx_t_1 = 0;
 
-    /* "networkconv.pyx":813
+    /* "networkconv.pyx":809
  *         pre_dist = self.word_window_size
  *         pos_dist = 1
  *         if self.word_window_size > 1:             # <<<<<<<<<<<<<<
@@ -30554,7 +30854,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     goto __pyx_L3;
   }
 
-  /* "networkconv.pyx":818
+  /* "networkconv.pyx":814
  *                                               self.pos_padding))
  *         else:
  *             padded_sentence = sentence             # <<<<<<<<<<<<<<
@@ -30567,7 +30867,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
   }
   __pyx_L3:;
 
-  /* "networkconv.pyx":820
+  /* "networkconv.pyx":816
  *             padded_sentence = sentence
  * 
  *         for i in range(self.word_window_size):             # <<<<<<<<<<<<<<
@@ -30579,7 +30879,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
   for (__pyx_t_8 = 0; __pyx_t_8 < __pyx_t_7; __pyx_t_8+=1) {
     __pyx_v_i = __pyx_t_8;
 
-    /* "networkconv.pyx":822
+    /* "networkconv.pyx":818
  *         for i in range(self.word_window_size):
  * 
  *             for j, table in enumerate(self.feature_tables):             # <<<<<<<<<<<<<<
@@ -30592,40 +30892,40 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     for (;;) {
       if (__pyx_t_9 >= PyList_GET_SIZE(__pyx_t_4)) break;
       #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-      __pyx_t_3 = PyList_GET_ITEM(__pyx_t_4, __pyx_t_9); __Pyx_INCREF(__pyx_t_3); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(1, 822, __pyx_L1_error)
+      __pyx_t_3 = PyList_GET_ITEM(__pyx_t_4, __pyx_t_9); __Pyx_INCREF(__pyx_t_3); __pyx_t_9++; if (unlikely(0 < 0)) __PYX_ERR(1, 818, __pyx_L1_error)
       #else
-      __pyx_t_3 = PySequence_ITEM(__pyx_t_4, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 822, __pyx_L1_error)
+      __pyx_t_3 = PySequence_ITEM(__pyx_t_4, __pyx_t_9); __pyx_t_9++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 818, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       #endif
       __Pyx_XDECREF_SET(__pyx_v_table, __pyx_t_3);
       __pyx_t_3 = 0;
       __Pyx_INCREF(__pyx_t_1);
       __Pyx_XDECREF_SET(__pyx_v_j, __pyx_t_1);
-      __pyx_t_3 = __Pyx_PyInt_AddObjC(__pyx_t_1, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 822, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyInt_AddObjC(__pyx_t_1, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 818, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_1);
       __pyx_t_1 = __pyx_t_3;
       __pyx_t_3 = 0;
 
-      /* "networkconv.pyx":825
+      /* "networkconv.pyx":821
  *                 # this is the column for the i-th position in the window
  *                 # regarding features from the j-th table
  *                 table_deltas = self.input_deltas[:, start_from:start_from + table.shape[1]]             # <<<<<<<<<<<<<<
  *                 start_from += table.shape[1]
  * 
  */
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_table, __pyx_n_s_shape); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 825, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_table, __pyx_n_s_shape); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 821, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_3, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 825, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_3, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 821, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_3 = PyNumber_Add(__pyx_v_start_from, __pyx_t_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 825, __pyx_L1_error)
+      __pyx_t_3 = PyNumber_Add(__pyx_v_start_from, __pyx_t_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 821, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = PySlice_New(__pyx_v_start_from, __pyx_t_3, Py_None); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 825, __pyx_L1_error)
+      __pyx_t_5 = PySlice_New(__pyx_v_start_from, __pyx_t_3, Py_None); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 821, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 825, __pyx_L1_error)
+      __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 821, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_INCREF(__pyx_slice__3);
       __Pyx_GIVEREF(__pyx_slice__3);
@@ -30633,40 +30933,40 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
       __Pyx_GIVEREF(__pyx_t_5);
       PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_t_5);
       __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_self->input_deltas), __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 825, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_self->input_deltas), __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 821, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_XDECREF_SET(__pyx_v_table_deltas, __pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "networkconv.pyx":826
+      /* "networkconv.pyx":822
  *                 # regarding features from the j-th table
  *                 table_deltas = self.input_deltas[:, start_from:start_from + table.shape[1]]
  *                 start_from += table.shape[1]             # <<<<<<<<<<<<<<
  * 
  *                 for token, deltas in zip(padded_sentence[i:], table_deltas):
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_table, __pyx_n_s_shape); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 826, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_table, __pyx_n_s_shape); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 822, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_3 = __Pyx_GetItemInt(__pyx_t_5, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 826, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_GetItemInt(__pyx_t_5, 1, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 822, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = PyNumber_InPlaceAdd(__pyx_v_start_from, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 826, __pyx_L1_error)
+      __pyx_t_5 = PyNumber_InPlaceAdd(__pyx_v_start_from, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 822, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF_SET(__pyx_v_start_from, __pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "networkconv.pyx":828
+      /* "networkconv.pyx":824
  *                 start_from += table.shape[1]
  * 
  *                 for token, deltas in zip(padded_sentence[i:], table_deltas):             # <<<<<<<<<<<<<<
  *                     table[token[j]] += deltas
  * 
  */
-      __pyx_t_5 = __Pyx_PyObject_GetSlice(__pyx_v_padded_sentence, __pyx_v_i, 0, NULL, NULL, NULL, 1, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 828, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_GetSlice(__pyx_v_padded_sentence, __pyx_v_i, 0, NULL, NULL, NULL, 1, 0, 1); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 824, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 828, __pyx_L1_error)
+      __pyx_t_3 = PyTuple_New(2); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 824, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_GIVEREF(__pyx_t_5);
       PyTuple_SET_ITEM(__pyx_t_3, 0, __pyx_t_5);
@@ -30674,16 +30974,16 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
       __Pyx_GIVEREF(__pyx_v_table_deltas);
       PyTuple_SET_ITEM(__pyx_t_3, 1, __pyx_v_table_deltas);
       __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_zip, __pyx_t_3, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 828, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_Call(__pyx_builtin_zip, __pyx_t_3, NULL); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 824, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       if (likely(PyList_CheckExact(__pyx_t_5)) || PyTuple_CheckExact(__pyx_t_5)) {
         __pyx_t_3 = __pyx_t_5; __Pyx_INCREF(__pyx_t_3); __pyx_t_10 = 0;
         __pyx_t_11 = NULL;
       } else {
-        __pyx_t_10 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 828, __pyx_L1_error)
+        __pyx_t_10 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 824, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
-        __pyx_t_11 = Py_TYPE(__pyx_t_3)->tp_iternext; if (unlikely(!__pyx_t_11)) __PYX_ERR(1, 828, __pyx_L1_error)
+        __pyx_t_11 = Py_TYPE(__pyx_t_3)->tp_iternext; if (unlikely(!__pyx_t_11)) __PYX_ERR(1, 824, __pyx_L1_error)
       }
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       for (;;) {
@@ -30691,17 +30991,17 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
           if (likely(PyList_CheckExact(__pyx_t_3))) {
             if (__pyx_t_10 >= PyList_GET_SIZE(__pyx_t_3)) break;
             #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-            __pyx_t_5 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_10); __Pyx_INCREF(__pyx_t_5); __pyx_t_10++; if (unlikely(0 < 0)) __PYX_ERR(1, 828, __pyx_L1_error)
+            __pyx_t_5 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_10); __Pyx_INCREF(__pyx_t_5); __pyx_t_10++; if (unlikely(0 < 0)) __PYX_ERR(1, 824, __pyx_L1_error)
             #else
-            __pyx_t_5 = PySequence_ITEM(__pyx_t_3, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 828, __pyx_L1_error)
+            __pyx_t_5 = PySequence_ITEM(__pyx_t_3, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 824, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_5);
             #endif
           } else {
             if (__pyx_t_10 >= PyTuple_GET_SIZE(__pyx_t_3)) break;
             #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-            __pyx_t_5 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_10); __Pyx_INCREF(__pyx_t_5); __pyx_t_10++; if (unlikely(0 < 0)) __PYX_ERR(1, 828, __pyx_L1_error)
+            __pyx_t_5 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_10); __Pyx_INCREF(__pyx_t_5); __pyx_t_10++; if (unlikely(0 < 0)) __PYX_ERR(1, 824, __pyx_L1_error)
             #else
-            __pyx_t_5 = PySequence_ITEM(__pyx_t_3, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 828, __pyx_L1_error)
+            __pyx_t_5 = PySequence_ITEM(__pyx_t_3, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 824, __pyx_L1_error)
             __Pyx_GOTREF(__pyx_t_5);
             #endif
           }
@@ -30711,7 +31011,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
             PyObject* exc_type = PyErr_Occurred();
             if (exc_type) {
               if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-              else __PYX_ERR(1, 828, __pyx_L1_error)
+              else __PYX_ERR(1, 824, __pyx_L1_error)
             }
             break;
           }
@@ -30723,7 +31023,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
           if (unlikely(size != 2)) {
             if (size > 2) __Pyx_RaiseTooManyValuesError(2);
             else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-            __PYX_ERR(1, 828, __pyx_L1_error)
+            __PYX_ERR(1, 824, __pyx_L1_error)
           }
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
           if (likely(PyTuple_CheckExact(sequence))) {
@@ -30736,15 +31036,15 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
           __Pyx_INCREF(__pyx_t_12);
           __Pyx_INCREF(__pyx_t_13);
           #else
-          __pyx_t_12 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 828, __pyx_L1_error)
+          __pyx_t_12 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 824, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_12);
-          __pyx_t_13 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 828, __pyx_L1_error)
+          __pyx_t_13 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 824, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_13);
           #endif
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
         } else {
           Py_ssize_t index = -1;
-          __pyx_t_14 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 828, __pyx_L1_error)
+          __pyx_t_14 = PyObject_GetIter(__pyx_t_5); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 824, __pyx_L1_error)
           __Pyx_GOTREF(__pyx_t_14);
           __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
           __pyx_t_15 = Py_TYPE(__pyx_t_14)->tp_iternext;
@@ -30752,7 +31052,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
           __Pyx_GOTREF(__pyx_t_12);
           index = 1; __pyx_t_13 = __pyx_t_15(__pyx_t_14); if (unlikely(!__pyx_t_13)) goto __pyx_L10_unpacking_failed;
           __Pyx_GOTREF(__pyx_t_13);
-          if (__Pyx_IternextUnpackEndCheck(__pyx_t_15(__pyx_t_14), 2) < 0) __PYX_ERR(1, 828, __pyx_L1_error)
+          if (__Pyx_IternextUnpackEndCheck(__pyx_t_15(__pyx_t_14), 2) < 0) __PYX_ERR(1, 824, __pyx_L1_error)
           __pyx_t_15 = NULL;
           __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
           goto __pyx_L11_unpacking_done;
@@ -30760,7 +31060,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
           __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
           __pyx_t_15 = NULL;
           if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-          __PYX_ERR(1, 828, __pyx_L1_error)
+          __PYX_ERR(1, 824, __pyx_L1_error)
           __pyx_L11_unpacking_done:;
         }
         __Pyx_XDECREF_SET(__pyx_v_token, __pyx_t_12);
@@ -30768,25 +31068,25 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
         __Pyx_XDECREF_SET(__pyx_v_deltas, __pyx_t_13);
         __pyx_t_13 = 0;
 
-        /* "networkconv.pyx":829
+        /* "networkconv.pyx":825
  * 
  *                 for token, deltas in zip(padded_sentence[i:], table_deltas):
  *                     table[token[j]] += deltas             # <<<<<<<<<<<<<<
  * 
  *             dist_deltas = self.target_dist_deltas[:, dist_target_from : dist_target_from + self.target_dist_table.shape[1] ]
  */
-        __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_token, __pyx_v_j); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 829, __pyx_L1_error)
+        __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_token, __pyx_v_j); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 825, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_5);
-        __pyx_t_13 = __Pyx_PyObject_GetItem(__pyx_v_table, __pyx_t_5); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 829, __pyx_L1_error)
+        __pyx_t_13 = __Pyx_PyObject_GetItem(__pyx_v_table, __pyx_t_5); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 825, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_13);
-        __pyx_t_12 = PyNumber_InPlaceAdd(__pyx_t_13, __pyx_v_deltas); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 829, __pyx_L1_error)
+        __pyx_t_12 = PyNumber_InPlaceAdd(__pyx_t_13, __pyx_v_deltas); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 825, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_12);
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
-        if (unlikely(PyObject_SetItem(__pyx_v_table, __pyx_t_5, __pyx_t_12) < 0)) __PYX_ERR(1, 829, __pyx_L1_error)
+        if (unlikely(PyObject_SetItem(__pyx_v_table, __pyx_t_5, __pyx_t_12) < 0)) __PYX_ERR(1, 825, __pyx_L1_error)
         __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
         __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-        /* "networkconv.pyx":828
+        /* "networkconv.pyx":824
  *                 start_from += table.shape[1]
  * 
  *                 for token, deltas in zip(padded_sentence[i:], table_deltas):             # <<<<<<<<<<<<<<
@@ -30796,7 +31096,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
       }
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-      /* "networkconv.pyx":822
+      /* "networkconv.pyx":818
  *         for i in range(self.word_window_size):
  * 
  *             for j, table in enumerate(self.feature_tables):             # <<<<<<<<<<<<<<
@@ -30807,22 +31107,22 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-    /* "networkconv.pyx":831
+    /* "networkconv.pyx":827
  *                     table[token[j]] += deltas
  * 
  *             dist_deltas = self.target_dist_deltas[:, dist_target_from : dist_target_from + self.target_dist_table.shape[1] ]             # <<<<<<<<<<<<<<
  *             pre_deltas = dist_deltas.take(np.arange(pre_dist), 0).sum(0)
  *             pos_deltas = dist_deltas.take(np.arange(-pos_dist, 0), 0).sum(0)
  */
-    __pyx_t_1 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->target_dist_table->dimensions[1])); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 831, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->target_dist_table->dimensions[1])); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 827, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_4 = PyNumber_Add(__pyx_v_dist_target_from, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 831, __pyx_L1_error)
+    __pyx_t_4 = PyNumber_Add(__pyx_v_dist_target_from, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 827, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = PySlice_New(__pyx_v_dist_target_from, __pyx_t_4, Py_None); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 831, __pyx_L1_error)
+    __pyx_t_1 = PySlice_New(__pyx_v_dist_target_from, __pyx_t_4, Py_None); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 827, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 831, __pyx_L1_error)
+    __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 827, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_INCREF(__pyx_slice__3);
     __Pyx_GIVEREF(__pyx_slice__3);
@@ -30830,24 +31130,24 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     __Pyx_GIVEREF(__pyx_t_1);
     PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_1);
     __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_self->target_dist_deltas), __pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 831, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_self->target_dist_deltas), __pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 827, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_XDECREF_SET(__pyx_v_dist_deltas, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "networkconv.pyx":832
+    /* "networkconv.pyx":828
  * 
  *             dist_deltas = self.target_dist_deltas[:, dist_target_from : dist_target_from + self.target_dist_table.shape[1] ]
  *             pre_deltas = dist_deltas.take(np.arange(pre_dist), 0).sum(0)             # <<<<<<<<<<<<<<
  *             pos_deltas = dist_deltas.take(np.arange(-pos_dist, 0), 0).sum(0)
  *             self.target_dist_table[1:-1, :] += dist_deltas[pre_dist : -pos_dist]
  */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_dist_deltas, __pyx_n_s_take); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 832, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_dist_deltas, __pyx_n_s_take); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 828, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __Pyx_GetModuleGlobalName(__pyx_t_12, __pyx_n_s_np); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 832, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_12, __pyx_n_s_np); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 828, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_12);
-    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_n_s_arange); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 832, __pyx_L1_error)
+    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_n_s_arange); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 828, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
     __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
     __pyx_t_12 = NULL;
@@ -30862,7 +31162,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     }
     __pyx_t_5 = (__pyx_t_12) ? __Pyx_PyObject_Call2Args(__pyx_t_13, __pyx_t_12, __pyx_v_pre_dist) : __Pyx_PyObject_CallOneArg(__pyx_t_13, __pyx_v_pre_dist);
     __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
-    if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 832, __pyx_L1_error)
+    if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 828, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
     __pyx_t_13 = NULL;
@@ -30880,7 +31180,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_3)) {
       PyObject *__pyx_temp[3] = {__pyx_t_13, __pyx_t_5, __pyx_int_0};
-      __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 832, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 828, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -30889,14 +31189,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_3)) {
       PyObject *__pyx_temp[3] = {__pyx_t_13, __pyx_t_5, __pyx_int_0};
-      __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 832, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 828, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     } else
     #endif
     {
-      __pyx_t_12 = PyTuple_New(2+__pyx_t_16); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 832, __pyx_L1_error)
+      __pyx_t_12 = PyTuple_New(2+__pyx_t_16); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 828, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
       if (__pyx_t_13) {
         __Pyx_GIVEREF(__pyx_t_13); PyTuple_SET_ITEM(__pyx_t_12, 0, __pyx_t_13); __pyx_t_13 = NULL;
@@ -30907,12 +31207,12 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
       __Pyx_GIVEREF(__pyx_int_0);
       PyTuple_SET_ITEM(__pyx_t_12, 1+__pyx_t_16, __pyx_int_0);
       __pyx_t_5 = 0;
-      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_12, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 832, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_12, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 828, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
     }
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_sum); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 832, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_sum); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 828, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_t_4 = NULL;
@@ -30927,27 +31227,27 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     }
     __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_4, __pyx_int_0) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_int_0);
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 832, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 828, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_XDECREF_SET(__pyx_v_pre_deltas, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "networkconv.pyx":833
+    /* "networkconv.pyx":829
  *             dist_deltas = self.target_dist_deltas[:, dist_target_from : dist_target_from + self.target_dist_table.shape[1] ]
  *             pre_deltas = dist_deltas.take(np.arange(pre_dist), 0).sum(0)
  *             pos_deltas = dist_deltas.take(np.arange(-pos_dist, 0), 0).sum(0)             # <<<<<<<<<<<<<<
  *             self.target_dist_table[1:-1, :] += dist_deltas[pre_dist : -pos_dist]
  *             self.target_dist_table[0] += pre_deltas
  */
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_dist_deltas, __pyx_n_s_take); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 833, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_dist_deltas, __pyx_n_s_take); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 829, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 833, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 829, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_arange); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 833, __pyx_L1_error)
+    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_arange); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 829, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_5 = PyNumber_Negative(__pyx_v_pos_dist); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 833, __pyx_L1_error)
+    __pyx_t_5 = PyNumber_Negative(__pyx_v_pos_dist); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 829, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_14 = NULL;
     __pyx_t_16 = 0;
@@ -30964,7 +31264,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_13)) {
       PyObject *__pyx_temp[3] = {__pyx_t_14, __pyx_t_5, __pyx_int_0};
-      __pyx_t_12 = __Pyx_PyFunction_FastCall(__pyx_t_13, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 833, __pyx_L1_error)
+      __pyx_t_12 = __Pyx_PyFunction_FastCall(__pyx_t_13, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 829, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_14); __pyx_t_14 = 0;
       __Pyx_GOTREF(__pyx_t_12);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
@@ -30973,14 +31273,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_13)) {
       PyObject *__pyx_temp[3] = {__pyx_t_14, __pyx_t_5, __pyx_int_0};
-      __pyx_t_12 = __Pyx_PyCFunction_FastCall(__pyx_t_13, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 833, __pyx_L1_error)
+      __pyx_t_12 = __Pyx_PyCFunction_FastCall(__pyx_t_13, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 829, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_14); __pyx_t_14 = 0;
       __Pyx_GOTREF(__pyx_t_12);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     } else
     #endif
     {
-      __pyx_t_17 = PyTuple_New(2+__pyx_t_16); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 833, __pyx_L1_error)
+      __pyx_t_17 = PyTuple_New(2+__pyx_t_16); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 829, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
       if (__pyx_t_14) {
         __Pyx_GIVEREF(__pyx_t_14); PyTuple_SET_ITEM(__pyx_t_17, 0, __pyx_t_14); __pyx_t_14 = NULL;
@@ -30991,7 +31291,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
       __Pyx_GIVEREF(__pyx_int_0);
       PyTuple_SET_ITEM(__pyx_t_17, 1+__pyx_t_16, __pyx_int_0);
       __pyx_t_5 = 0;
-      __pyx_t_12 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_t_17, NULL); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 833, __pyx_L1_error)
+      __pyx_t_12 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_t_17, NULL); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 829, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     }
@@ -31011,7 +31311,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_4)) {
       PyObject *__pyx_temp[3] = {__pyx_t_13, __pyx_t_12, __pyx_int_0};
-      __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 833, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 829, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
@@ -31020,14 +31320,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
       PyObject *__pyx_temp[3] = {__pyx_t_13, __pyx_t_12, __pyx_int_0};
-      __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 833, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 829, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
     } else
     #endif
     {
-      __pyx_t_17 = PyTuple_New(2+__pyx_t_16); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 833, __pyx_L1_error)
+      __pyx_t_17 = PyTuple_New(2+__pyx_t_16); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 829, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_17);
       if (__pyx_t_13) {
         __Pyx_GIVEREF(__pyx_t_13); PyTuple_SET_ITEM(__pyx_t_17, 0, __pyx_t_13); __pyx_t_13 = NULL;
@@ -31038,12 +31338,12 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
       __Pyx_GIVEREF(__pyx_int_0);
       PyTuple_SET_ITEM(__pyx_t_17, 1+__pyx_t_16, __pyx_int_0);
       __pyx_t_12 = 0;
-      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_17, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 833, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_17, NULL); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 829, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_sum); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 833, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_sum); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 829, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __pyx_t_3 = NULL;
@@ -31058,13 +31358,13 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     }
     __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_3, __pyx_int_0) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_int_0);
     __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 833, __pyx_L1_error)
+    if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 829, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_XDECREF_SET(__pyx_v_pos_deltas, __pyx_t_1);
     __pyx_t_1 = 0;
 
-    /* "networkconv.pyx":834
+    /* "networkconv.pyx":830
  *             pre_deltas = dist_deltas.take(np.arange(pre_dist), 0).sum(0)
  *             pos_deltas = dist_deltas.take(np.arange(-pos_dist, 0), 0).sum(0)
  *             self.target_dist_table[1:-1, :] += dist_deltas[pre_dist : -pos_dist]             # <<<<<<<<<<<<<<
@@ -31073,25 +31373,25 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
  */
     __Pyx_INCREF(((PyObject *)__pyx_v_self->target_dist_table));
     __pyx_t_18 = __pyx_v_self->target_dist_table;
-    __Pyx_INCREF(__pyx_tuple__9);
-    __pyx_t_19 = __pyx_tuple__9;
-    __pyx_t_1 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_t_18), __pyx_t_19); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 834, __pyx_L1_error)
+    __Pyx_INCREF(__pyx_tuple__10);
+    __pyx_t_19 = __pyx_tuple__10;
+    __pyx_t_1 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_t_18), __pyx_t_19); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 830, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_4 = PyNumber_Negative(__pyx_v_pos_dist); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 834, __pyx_L1_error)
+    __pyx_t_4 = PyNumber_Negative(__pyx_v_pos_dist); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 830, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_3 = __Pyx_PyObject_GetSlice(__pyx_v_dist_deltas, 0, 0, &__pyx_v_pre_dist, &__pyx_t_4, NULL, 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 834, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetSlice(__pyx_v_dist_deltas, 0, 0, &__pyx_v_pre_dist, &__pyx_t_4, NULL, 0, 0, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 830, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = PyNumber_InPlaceAdd(__pyx_t_1, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 834, __pyx_L1_error)
+    __pyx_t_4 = PyNumber_InPlaceAdd(__pyx_t_1, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 830, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_t_18), __pyx_t_19, __pyx_t_4) < 0)) __PYX_ERR(1, 834, __pyx_L1_error)
+    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_t_18), __pyx_t_19, __pyx_t_4) < 0)) __PYX_ERR(1, 830, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
     __Pyx_DECREF(((PyObject *)__pyx_t_18)); __pyx_t_18 = 0;
 
-    /* "networkconv.pyx":835
+    /* "networkconv.pyx":831
  *             pos_deltas = dist_deltas.take(np.arange(-pos_dist, 0), 0).sum(0)
  *             self.target_dist_table[1:-1, :] += dist_deltas[pre_dist : -pos_dist]
  *             self.target_dist_table[0] += pre_deltas             # <<<<<<<<<<<<<<
@@ -31101,16 +31401,16 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     __Pyx_INCREF(((PyObject *)__pyx_v_self->target_dist_table));
     __pyx_t_18 = __pyx_v_self->target_dist_table;
     __pyx_t_9 = 0;
-    __pyx_t_4 = __Pyx_GetItemInt(((PyObject *)__pyx_t_18), __pyx_t_9, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 835, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_GetItemInt(((PyObject *)__pyx_t_18), __pyx_t_9, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 831, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_3 = PyNumber_InPlaceAdd(__pyx_t_4, __pyx_v_pre_deltas); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 835, __pyx_L1_error)
+    __pyx_t_3 = PyNumber_InPlaceAdd(__pyx_t_4, __pyx_v_pre_deltas); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 831, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_t_18), __pyx_t_9, __pyx_t_3, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1) < 0)) __PYX_ERR(1, 835, __pyx_L1_error)
+    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_t_18), __pyx_t_9, __pyx_t_3, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1) < 0)) __PYX_ERR(1, 831, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(((PyObject *)__pyx_t_18)); __pyx_t_18 = 0;
 
-    /* "networkconv.pyx":836
+    /* "networkconv.pyx":832
  *             self.target_dist_table[1:-1, :] += dist_deltas[pre_dist : -pos_dist]
  *             self.target_dist_table[0] += pre_deltas
  *             self.target_dist_table[-1] += pos_deltas             # <<<<<<<<<<<<<<
@@ -31120,46 +31420,46 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     __Pyx_INCREF(((PyObject *)__pyx_v_self->target_dist_table));
     __pyx_t_18 = __pyx_v_self->target_dist_table;
     __pyx_t_9 = -1L;
-    __pyx_t_3 = __Pyx_GetItemInt(((PyObject *)__pyx_t_18), __pyx_t_9, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 836, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_GetItemInt(((PyObject *)__pyx_t_18), __pyx_t_9, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 832, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = PyNumber_InPlaceAdd(__pyx_t_3, __pyx_v_pos_deltas); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 836, __pyx_L1_error)
+    __pyx_t_4 = PyNumber_InPlaceAdd(__pyx_t_3, __pyx_v_pos_deltas); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 832, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_t_18), __pyx_t_9, __pyx_t_4, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1) < 0)) __PYX_ERR(1, 836, __pyx_L1_error)
+    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_t_18), __pyx_t_9, __pyx_t_4, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1) < 0)) __PYX_ERR(1, 832, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(((PyObject *)__pyx_t_18)); __pyx_t_18 = 0;
 
-    /* "networkconv.pyx":837
+    /* "networkconv.pyx":833
  *             self.target_dist_table[0] += pre_deltas
  *             self.target_dist_table[-1] += pos_deltas
  *             dist_target_from += self.target_dist_table.shape[1]             # <<<<<<<<<<<<<<
  * 
  *             dist_deltas = self.pred_dist_deltas[:, dist_pred_from : dist_pred_from + self.pred_dist_table.shape[1] ]
  */
-    __pyx_t_4 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->target_dist_table->dimensions[1])); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 837, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->target_dist_table->dimensions[1])); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 833, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_3 = PyNumber_InPlaceAdd(__pyx_v_dist_target_from, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 837, __pyx_L1_error)
+    __pyx_t_3 = PyNumber_InPlaceAdd(__pyx_v_dist_target_from, __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 833, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF_SET(__pyx_v_dist_target_from, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "networkconv.pyx":839
+    /* "networkconv.pyx":835
  *             dist_target_from += self.target_dist_table.shape[1]
  * 
  *             dist_deltas = self.pred_dist_deltas[:, dist_pred_from : dist_pred_from + self.pred_dist_table.shape[1] ]             # <<<<<<<<<<<<<<
  *             pre_deltas = dist_deltas.take(np.arange(pre_dist), 0).sum(0)
  *             pos_deltas = dist_deltas.take(np.arange(-pos_dist, 0), 0).sum(0)
  */
-    __pyx_t_3 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->pred_dist_table->dimensions[1])); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 839, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->pred_dist_table->dimensions[1])); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 835, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = PyNumber_Add(__pyx_v_dist_pred_from, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 839, __pyx_L1_error)
+    __pyx_t_4 = PyNumber_Add(__pyx_v_dist_pred_from, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 835, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PySlice_New(__pyx_v_dist_pred_from, __pyx_t_4, Py_None); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 839, __pyx_L1_error)
+    __pyx_t_3 = PySlice_New(__pyx_v_dist_pred_from, __pyx_t_4, Py_None); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 835, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 839, __pyx_L1_error)
+    __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 835, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_INCREF(__pyx_slice__3);
     __Pyx_GIVEREF(__pyx_slice__3);
@@ -31167,24 +31467,24 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     __Pyx_GIVEREF(__pyx_t_3);
     PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_t_3);
     __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_self->pred_dist_deltas), __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 839, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_self->pred_dist_deltas), __pyx_t_4); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 835, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF_SET(__pyx_v_dist_deltas, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "networkconv.pyx":840
+    /* "networkconv.pyx":836
  * 
  *             dist_deltas = self.pred_dist_deltas[:, dist_pred_from : dist_pred_from + self.pred_dist_table.shape[1] ]
  *             pre_deltas = dist_deltas.take(np.arange(pre_dist), 0).sum(0)             # <<<<<<<<<<<<<<
  *             pos_deltas = dist_deltas.take(np.arange(-pos_dist, 0), 0).sum(0)
  *             self.pred_dist_table[1:-1, :] += dist_deltas[pre_dist : -pos_dist]
  */
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dist_deltas, __pyx_n_s_take); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 840, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_v_dist_deltas, __pyx_n_s_take); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 836, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __Pyx_GetModuleGlobalName(__pyx_t_12, __pyx_n_s_np); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 840, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_12, __pyx_n_s_np); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 836, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_12);
-    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_n_s_arange); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 840, __pyx_L1_error)
+    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_12, __pyx_n_s_arange); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 836, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
     __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
     __pyx_t_12 = NULL;
@@ -31199,7 +31499,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     }
     __pyx_t_17 = (__pyx_t_12) ? __Pyx_PyObject_Call2Args(__pyx_t_13, __pyx_t_12, __pyx_v_pre_dist) : __Pyx_PyObject_CallOneArg(__pyx_t_13, __pyx_v_pre_dist);
     __Pyx_XDECREF(__pyx_t_12); __pyx_t_12 = 0;
-    if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 840, __pyx_L1_error)
+    if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 836, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
     __pyx_t_13 = NULL;
@@ -31217,7 +31517,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_1)) {
       PyObject *__pyx_temp[3] = {__pyx_t_13, __pyx_t_17, __pyx_int_0};
-      __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 840, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 836, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
@@ -31226,14 +31526,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_1)) {
       PyObject *__pyx_temp[3] = {__pyx_t_13, __pyx_t_17, __pyx_int_0};
-      __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 840, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_1, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 836, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     } else
     #endif
     {
-      __pyx_t_12 = PyTuple_New(2+__pyx_t_16); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 840, __pyx_L1_error)
+      __pyx_t_12 = PyTuple_New(2+__pyx_t_16); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 836, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
       if (__pyx_t_13) {
         __Pyx_GIVEREF(__pyx_t_13); PyTuple_SET_ITEM(__pyx_t_12, 0, __pyx_t_13); __pyx_t_13 = NULL;
@@ -31244,12 +31544,12 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
       __Pyx_GIVEREF(__pyx_int_0);
       PyTuple_SET_ITEM(__pyx_t_12, 1+__pyx_t_16, __pyx_int_0);
       __pyx_t_17 = 0;
-      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_12, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 840, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_1, __pyx_t_12, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 836, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
     }
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_sum); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 840, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_sum); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 836, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_t_4 = NULL;
@@ -31264,27 +31564,27 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     }
     __pyx_t_3 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_1, __pyx_t_4, __pyx_int_0) : __Pyx_PyObject_CallOneArg(__pyx_t_1, __pyx_int_0);
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 840, __pyx_L1_error)
+    if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 836, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF_SET(__pyx_v_pre_deltas, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "networkconv.pyx":841
+    /* "networkconv.pyx":837
  *             dist_deltas = self.pred_dist_deltas[:, dist_pred_from : dist_pred_from + self.pred_dist_table.shape[1] ]
  *             pre_deltas = dist_deltas.take(np.arange(pre_dist), 0).sum(0)
  *             pos_deltas = dist_deltas.take(np.arange(-pos_dist, 0), 0).sum(0)             # <<<<<<<<<<<<<<
  *             self.pred_dist_table[1:-1, :] += dist_deltas[pre_dist : -pos_dist]
  *             self.pred_dist_table[0] += pre_deltas
  */
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_dist_deltas, __pyx_n_s_take); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 841, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_dist_deltas, __pyx_n_s_take); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 837, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_n_s_np); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 841, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_17, __pyx_n_s_np); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 837, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
-    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_n_s_arange); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 841, __pyx_L1_error)
+    __pyx_t_13 = __Pyx_PyObject_GetAttrStr(__pyx_t_17, __pyx_n_s_arange); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 837, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_13);
     __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
-    __pyx_t_17 = PyNumber_Negative(__pyx_v_pos_dist); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 841, __pyx_L1_error)
+    __pyx_t_17 = PyNumber_Negative(__pyx_v_pos_dist); if (unlikely(!__pyx_t_17)) __PYX_ERR(1, 837, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_17);
     __pyx_t_5 = NULL;
     __pyx_t_16 = 0;
@@ -31301,7 +31601,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_13)) {
       PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_17, __pyx_int_0};
-      __pyx_t_12 = __Pyx_PyFunction_FastCall(__pyx_t_13, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 841, __pyx_L1_error)
+      __pyx_t_12 = __Pyx_PyFunction_FastCall(__pyx_t_13, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 837, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_GOTREF(__pyx_t_12);
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
@@ -31310,14 +31610,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_13)) {
       PyObject *__pyx_temp[3] = {__pyx_t_5, __pyx_t_17, __pyx_int_0};
-      __pyx_t_12 = __Pyx_PyCFunction_FastCall(__pyx_t_13, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 841, __pyx_L1_error)
+      __pyx_t_12 = __Pyx_PyCFunction_FastCall(__pyx_t_13, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 837, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_GOTREF(__pyx_t_12);
       __Pyx_DECREF(__pyx_t_17); __pyx_t_17 = 0;
     } else
     #endif
     {
-      __pyx_t_14 = PyTuple_New(2+__pyx_t_16); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 841, __pyx_L1_error)
+      __pyx_t_14 = PyTuple_New(2+__pyx_t_16); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 837, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
       if (__pyx_t_5) {
         __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_14, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -31328,7 +31628,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
       __Pyx_GIVEREF(__pyx_int_0);
       PyTuple_SET_ITEM(__pyx_t_14, 1+__pyx_t_16, __pyx_int_0);
       __pyx_t_17 = 0;
-      __pyx_t_12 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_t_14, NULL); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 841, __pyx_L1_error)
+      __pyx_t_12 = __Pyx_PyObject_Call(__pyx_t_13, __pyx_t_14, NULL); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 837, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_12);
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
     }
@@ -31348,7 +31648,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_4)) {
       PyObject *__pyx_temp[3] = {__pyx_t_13, __pyx_t_12, __pyx_int_0};
-      __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 841, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 837, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
@@ -31357,14 +31657,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
       PyObject *__pyx_temp[3] = {__pyx_t_13, __pyx_t_12, __pyx_int_0};
-      __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 841, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_16, 2+__pyx_t_16); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 837, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_13); __pyx_t_13 = 0;
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_12); __pyx_t_12 = 0;
     } else
     #endif
     {
-      __pyx_t_14 = PyTuple_New(2+__pyx_t_16); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 841, __pyx_L1_error)
+      __pyx_t_14 = PyTuple_New(2+__pyx_t_16); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 837, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_14);
       if (__pyx_t_13) {
         __Pyx_GIVEREF(__pyx_t_13); PyTuple_SET_ITEM(__pyx_t_14, 0, __pyx_t_13); __pyx_t_13 = NULL;
@@ -31375,12 +31675,12 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
       __Pyx_GIVEREF(__pyx_int_0);
       PyTuple_SET_ITEM(__pyx_t_14, 1+__pyx_t_16, __pyx_int_0);
       __pyx_t_12 = 0;
-      __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_14, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 841, __pyx_L1_error)
+      __pyx_t_1 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_14, NULL); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 837, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_1);
       __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
     }
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_sum); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 841, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_1, __pyx_n_s_sum); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 837, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __pyx_t_1 = NULL;
@@ -31395,13 +31695,13 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     }
     __pyx_t_3 = (__pyx_t_1) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_1, __pyx_int_0) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_int_0);
     __Pyx_XDECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 841, __pyx_L1_error)
+    if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 837, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF_SET(__pyx_v_pos_deltas, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "networkconv.pyx":842
+    /* "networkconv.pyx":838
  *             pre_deltas = dist_deltas.take(np.arange(pre_dist), 0).sum(0)
  *             pos_deltas = dist_deltas.take(np.arange(-pos_dist, 0), 0).sum(0)
  *             self.pred_dist_table[1:-1, :] += dist_deltas[pre_dist : -pos_dist]             # <<<<<<<<<<<<<<
@@ -31410,25 +31710,25 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
  */
     __Pyx_INCREF(((PyObject *)__pyx_v_self->pred_dist_table));
     __pyx_t_18 = __pyx_v_self->pred_dist_table;
-    __Pyx_INCREF(__pyx_tuple__9);
-    __pyx_t_19 = __pyx_tuple__9;
-    __pyx_t_3 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_t_18), __pyx_t_19); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 842, __pyx_L1_error)
+    __Pyx_INCREF(__pyx_tuple__10);
+    __pyx_t_19 = __pyx_tuple__10;
+    __pyx_t_3 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_t_18), __pyx_t_19); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 838, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = PyNumber_Negative(__pyx_v_pos_dist); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 842, __pyx_L1_error)
+    __pyx_t_4 = PyNumber_Negative(__pyx_v_pos_dist); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 838, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_1 = __Pyx_PyObject_GetSlice(__pyx_v_dist_deltas, 0, 0, &__pyx_v_pre_dist, &__pyx_t_4, NULL, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 842, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_GetSlice(__pyx_v_dist_deltas, 0, 0, &__pyx_v_pre_dist, &__pyx_t_4, NULL, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 838, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = PyNumber_InPlaceAdd(__pyx_t_3, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 842, __pyx_L1_error)
+    __pyx_t_4 = PyNumber_InPlaceAdd(__pyx_t_3, __pyx_t_1); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 838, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_t_18), __pyx_t_19, __pyx_t_4) < 0)) __PYX_ERR(1, 842, __pyx_L1_error)
+    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_t_18), __pyx_t_19, __pyx_t_4) < 0)) __PYX_ERR(1, 838, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_19); __pyx_t_19 = 0;
     __Pyx_DECREF(((PyObject *)__pyx_t_18)); __pyx_t_18 = 0;
 
-    /* "networkconv.pyx":843
+    /* "networkconv.pyx":839
  *             pos_deltas = dist_deltas.take(np.arange(-pos_dist, 0), 0).sum(0)
  *             self.pred_dist_table[1:-1, :] += dist_deltas[pre_dist : -pos_dist]
  *             self.pred_dist_table[0] += pre_deltas             # <<<<<<<<<<<<<<
@@ -31438,16 +31738,16 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     __Pyx_INCREF(((PyObject *)__pyx_v_self->pred_dist_table));
     __pyx_t_18 = __pyx_v_self->pred_dist_table;
     __pyx_t_9 = 0;
-    __pyx_t_4 = __Pyx_GetItemInt(((PyObject *)__pyx_t_18), __pyx_t_9, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 843, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_GetItemInt(((PyObject *)__pyx_t_18), __pyx_t_9, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 839, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_1 = PyNumber_InPlaceAdd(__pyx_t_4, __pyx_v_pre_deltas); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 843, __pyx_L1_error)
+    __pyx_t_1 = PyNumber_InPlaceAdd(__pyx_t_4, __pyx_v_pre_deltas); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 839, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_t_18), __pyx_t_9, __pyx_t_1, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1) < 0)) __PYX_ERR(1, 843, __pyx_L1_error)
+    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_t_18), __pyx_t_9, __pyx_t_1, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1) < 0)) __PYX_ERR(1, 839, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
     __Pyx_DECREF(((PyObject *)__pyx_t_18)); __pyx_t_18 = 0;
 
-    /* "networkconv.pyx":844
+    /* "networkconv.pyx":840
  *             self.pred_dist_table[1:-1, :] += dist_deltas[pre_dist : -pos_dist]
  *             self.pred_dist_table[0] += pre_deltas
  *             self.pred_dist_table[-1] += pos_deltas             # <<<<<<<<<<<<<<
@@ -31457,63 +31757,63 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
     __Pyx_INCREF(((PyObject *)__pyx_v_self->pred_dist_table));
     __pyx_t_18 = __pyx_v_self->pred_dist_table;
     __pyx_t_9 = -1L;
-    __pyx_t_1 = __Pyx_GetItemInt(((PyObject *)__pyx_t_18), __pyx_t_9, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 844, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_GetItemInt(((PyObject *)__pyx_t_18), __pyx_t_9, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 840, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_4 = PyNumber_InPlaceAdd(__pyx_t_1, __pyx_v_pos_deltas); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 844, __pyx_L1_error)
+    __pyx_t_4 = PyNumber_InPlaceAdd(__pyx_t_1, __pyx_v_pos_deltas); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 840, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_t_18), __pyx_t_9, __pyx_t_4, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1) < 0)) __PYX_ERR(1, 844, __pyx_L1_error)
+    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_t_18), __pyx_t_9, __pyx_t_4, Py_ssize_t, 1, PyInt_FromSsize_t, 0, 1, 1) < 0)) __PYX_ERR(1, 840, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(((PyObject *)__pyx_t_18)); __pyx_t_18 = 0;
 
-    /* "networkconv.pyx":846
+    /* "networkconv.pyx":842
  *             self.pred_dist_table[-1] += pos_deltas
  * 
  *             pre_dist -= 1             # <<<<<<<<<<<<<<
  *             pos_dist += 1
  *             dist_pred_from += self.pred_dist_table.shape[1]
  */
-    __pyx_t_4 = __Pyx_PyInt_SubtractObjC(__pyx_v_pre_dist, __pyx_int_1, 1, 1, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 846, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyInt_SubtractObjC(__pyx_v_pre_dist, __pyx_int_1, 1, 1, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 842, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF_SET(__pyx_v_pre_dist, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "networkconv.pyx":847
+    /* "networkconv.pyx":843
  * 
  *             pre_dist -= 1
  *             pos_dist += 1             # <<<<<<<<<<<<<<
  *             dist_pred_from += self.pred_dist_table.shape[1]
  * 
  */
-    __pyx_t_4 = __Pyx_PyInt_AddObjC(__pyx_v_pos_dist, __pyx_int_1, 1, 1, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 847, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyInt_AddObjC(__pyx_v_pos_dist, __pyx_int_1, 1, 1, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 843, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF_SET(__pyx_v_pos_dist, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "networkconv.pyx":848
+    /* "networkconv.pyx":844
  *             pre_dist -= 1
  *             pos_dist += 1
  *             dist_pred_from += self.pred_dist_table.shape[1]             # <<<<<<<<<<<<<<
  * 
  *         self._create_target_lookup()
  */
-    __pyx_t_4 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->pred_dist_table->dimensions[1])); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 848, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->pred_dist_table->dimensions[1])); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 844, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_1 = PyNumber_InPlaceAdd(__pyx_v_dist_pred_from, __pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 848, __pyx_L1_error)
+    __pyx_t_1 = PyNumber_InPlaceAdd(__pyx_v_dist_pred_from, __pyx_t_4); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 844, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF_SET(__pyx_v_dist_pred_from, __pyx_t_1);
     __pyx_t_1 = 0;
   }
 
-  /* "networkconv.pyx":850
+  /* "networkconv.pyx":846
  *             dist_pred_from += self.pred_dist_table.shape[1]
  * 
  *         self._create_target_lookup()             # <<<<<<<<<<<<<<
  *         self._create_pred_lookup()
  * 
  */
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_create_target_lookup); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 850, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_create_target_lookup); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 846, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_3 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
@@ -31527,19 +31827,19 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
   }
   __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 850, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 846, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":851
+  /* "networkconv.pyx":847
  * 
  *         self._create_target_lookup()
  *         self._create_pred_lookup()             # <<<<<<<<<<<<<<
  * 
  *     @cython.boundscheck(False)
  */
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_create_pred_lookup); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 851, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self), __pyx_n_s_create_pred_lookup); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 847, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __pyx_t_3 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
@@ -31553,12 +31853,12 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
   }
   __pyx_t_1 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_4);
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 851, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 847, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":801
+  /* "networkconv.pyx":797
  * 
  * 
  *     def _adjust_features(self, sentence, predicate):             # <<<<<<<<<<<<<<
@@ -31603,7 +31903,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_46_adjust_featur
   return __pyx_r;
 }
 
-/* "networkconv.pyx":854
+/* "networkconv.pyx":850
  * 
  *     @cython.boundscheck(False)
  *     def _viterbi(self, np.ndarray[FLOAT_t, ndim=2] scores, bool allow_repeats=True):             # <<<<<<<<<<<<<<
@@ -31651,7 +31951,7 @@ static PyObject *__pyx_pw_4libs_7network_20ConvolutionalNetwork_49_viterbi(PyObj
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_viterbi") < 0)) __PYX_ERR(1, 854, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_viterbi") < 0)) __PYX_ERR(1, 850, __pyx_L3_error)
       }
     } else {
       switch (PyTuple_GET_SIZE(__pyx_args)) {
@@ -31667,14 +31967,14 @@ static PyObject *__pyx_pw_4libs_7network_20ConvolutionalNetwork_49_viterbi(PyObj
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_viterbi", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 854, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_viterbi", 0, 1, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 850, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("libs.network.ConvolutionalNetwork._viterbi", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
   return NULL;
   __pyx_L4_argument_unpacking_done:;
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_scores), __pyx_ptype_5numpy_ndarray, 1, "scores", 0))) __PYX_ERR(1, 854, __pyx_L1_error)
-  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_allow_repeats), __pyx_ptype_7cpython_4bool_bool, 1, "allow_repeats", 0))) __PYX_ERR(1, 854, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_scores), __pyx_ptype_5numpy_ndarray, 1, "scores", 0))) __PYX_ERR(1, 850, __pyx_L1_error)
+  if (unlikely(!__Pyx_ArgTypeTest(((PyObject *)__pyx_v_allow_repeats), __pyx_ptype_7cpython_4bool_bool, 1, "allow_repeats", 0))) __PYX_ERR(1, 850, __pyx_L1_error)
   __pyx_r = __pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(((struct __pyx_obj_4libs_7network_ConvolutionalNetwork *)__pyx_v_self), __pyx_v_scores, __pyx_v_allow_repeats);
 
   /* function exit code */
@@ -31725,18 +32025,18 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_viterbi", 0);
-  __Pyx_TraceCall("_viterbi", __pyx_f[1], 854, 0, __PYX_ERR(1, 854, __pyx_L1_error));
+  __Pyx_TraceCall("_viterbi", __pyx_f[1], 850, 0, __PYX_ERR(1, 850, __pyx_L1_error));
   __pyx_pybuffer_scores.pybuffer.buf = NULL;
   __pyx_pybuffer_scores.refcount = 0;
   __pyx_pybuffernd_scores.data = NULL;
   __pyx_pybuffernd_scores.rcbuffer = &__pyx_pybuffer_scores;
   {
     __Pyx_BufFmt_StackElem __pyx_stack[1];
-    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_scores.rcbuffer->pybuffer, (PyObject*)__pyx_v_scores, &__Pyx_TypeInfo_nn___pyx_t_4libs_7network_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(1, 854, __pyx_L1_error)
+    if (unlikely(__Pyx_GetBufferAndValidate(&__pyx_pybuffernd_scores.rcbuffer->pybuffer, (PyObject*)__pyx_v_scores, &__Pyx_TypeInfo_nn___pyx_t_4libs_7network_FLOAT_t, PyBUF_FORMAT| PyBUF_STRIDES, 2, 0, __pyx_stack) == -1)) __PYX_ERR(1, 850, __pyx_L1_error)
   }
   __pyx_pybuffernd_scores.diminfo[0].strides = __pyx_pybuffernd_scores.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_scores.diminfo[0].shape = __pyx_pybuffernd_scores.rcbuffer->pybuffer.shape[0]; __pyx_pybuffernd_scores.diminfo[1].strides = __pyx_pybuffernd_scores.rcbuffer->pybuffer.strides[1]; __pyx_pybuffernd_scores.diminfo[1].shape = __pyx_pybuffernd_scores.rcbuffer->pybuffer.shape[1];
 
-  /* "networkconv.pyx":860
+  /* "networkconv.pyx":856
  *         it will return the tags with the highest scores individually.
  *         """
  *         if self.transitions is None:             # <<<<<<<<<<<<<<
@@ -31747,14 +32047,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
   __pyx_t_2 = (__pyx_t_1 != 0);
   if (__pyx_t_2) {
 
-    /* "networkconv.pyx":861
+    /* "networkconv.pyx":857
  *         """
  *         if self.transitions is None:
  *             best_scores = scores.argmax(1)             # <<<<<<<<<<<<<<
  * 
  *             if allow_repeats:
  */
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_scores), __pyx_n_s_argmax); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 861, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_scores), __pyx_n_s_argmax); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 857, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
@@ -31768,23 +32068,23 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
     }
     __pyx_t_3 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_5, __pyx_int_1) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_int_1);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 861, __pyx_L1_error)
+    if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 857, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_v_best_scores = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "networkconv.pyx":863
+    /* "networkconv.pyx":859
  *             best_scores = scores.argmax(1)
  * 
  *             if allow_repeats:             # <<<<<<<<<<<<<<
  *                 return best_scores
  * 
  */
-    __pyx_t_2 = __Pyx_PyObject_IsTrue(((PyObject *)__pyx_v_allow_repeats)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(1, 863, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_IsTrue(((PyObject *)__pyx_v_allow_repeats)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(1, 859, __pyx_L1_error)
     if (__pyx_t_2) {
 
-      /* "networkconv.pyx":864
+      /* "networkconv.pyx":860
  * 
  *             if allow_repeats:
  *                 return best_scores             # <<<<<<<<<<<<<<
@@ -31796,7 +32096,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
       __pyx_r = __pyx_v_best_scores;
       goto __pyx_L0;
 
-      /* "networkconv.pyx":863
+      /* "networkconv.pyx":859
  *             best_scores = scores.argmax(1)
  * 
  *             if allow_repeats:             # <<<<<<<<<<<<<<
@@ -31805,26 +32105,26 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
  */
     }
 
-    /* "networkconv.pyx":867
+    /* "networkconv.pyx":863
  * 
  *             # we must find the combination of tags that maximizes the probabilities
  *             logadd = np.log(np.sum(np.exp(scores), 1))             # <<<<<<<<<<<<<<
  *             logprobs = (scores.T - logadd).T
  *             counts = np.bincount(best_scores)
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 867, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 863, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_log); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 867, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_log); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 863, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 867, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_6, __pyx_n_s_np); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 863, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_sum); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 867, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_6, __pyx_n_s_sum); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 863, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
-    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_np); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 867, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_8, __pyx_n_s_np); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 863, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_exp); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 867, __pyx_L1_error)
+    __pyx_t_9 = __Pyx_PyObject_GetAttrStr(__pyx_t_8, __pyx_n_s_exp); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 863, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __pyx_t_8 = NULL;
@@ -31839,7 +32139,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
     }
     __pyx_t_6 = (__pyx_t_8) ? __Pyx_PyObject_Call2Args(__pyx_t_9, __pyx_t_8, ((PyObject *)__pyx_v_scores)) : __Pyx_PyObject_CallOneArg(__pyx_t_9, ((PyObject *)__pyx_v_scores));
     __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
-    if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 867, __pyx_L1_error)
+    if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 863, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
     __pyx_t_9 = NULL;
@@ -31857,7 +32157,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_7)) {
       PyObject *__pyx_temp[3] = {__pyx_t_9, __pyx_t_6, __pyx_int_1};
-      __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_10, 2+__pyx_t_10); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 867, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_10, 2+__pyx_t_10); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 863, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
@@ -31866,14 +32166,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_7)) {
       PyObject *__pyx_temp[3] = {__pyx_t_9, __pyx_t_6, __pyx_int_1};
-      __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_10, 2+__pyx_t_10); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 867, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_7, __pyx_temp+1-__pyx_t_10, 2+__pyx_t_10); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 863, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     } else
     #endif
     {
-      __pyx_t_8 = PyTuple_New(2+__pyx_t_10); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 867, __pyx_L1_error)
+      __pyx_t_8 = PyTuple_New(2+__pyx_t_10); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 863, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       if (__pyx_t_9) {
         __Pyx_GIVEREF(__pyx_t_9); PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_9); __pyx_t_9 = NULL;
@@ -31884,7 +32184,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
       __Pyx_GIVEREF(__pyx_int_1);
       PyTuple_SET_ITEM(__pyx_t_8, 1+__pyx_t_10, __pyx_int_1);
       __pyx_t_6 = 0;
-      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_8, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 867, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_7, __pyx_t_8, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 863, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     }
@@ -31902,40 +32202,40 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
     __pyx_t_3 = (__pyx_t_7) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_7, __pyx_t_4) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_4);
     __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 867, __pyx_L1_error)
+    if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 863, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_v_logadd = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "networkconv.pyx":868
+    /* "networkconv.pyx":864
  *             # we must find the combination of tags that maximizes the probabilities
  *             logadd = np.log(np.sum(np.exp(scores), 1))
  *             logprobs = (scores.T - logadd).T             # <<<<<<<<<<<<<<
  *             counts = np.bincount(best_scores)
  * 
  */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_scores), __pyx_n_s_T); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 868, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_scores), __pyx_n_s_T); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 864, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_5 = PyNumber_Subtract(__pyx_t_3, __pyx_v_logadd); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 868, __pyx_L1_error)
+    __pyx_t_5 = PyNumber_Subtract(__pyx_t_3, __pyx_v_logadd); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 864, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_T); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 868, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_T); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 864, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_v_logprobs = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "networkconv.pyx":869
+    /* "networkconv.pyx":865
  *             logadd = np.log(np.sum(np.exp(scores), 1))
  *             logprobs = (scores.T - logadd).T
  *             counts = np.bincount(best_scores)             # <<<<<<<<<<<<<<
  * 
  *             while counts.max() != 1:
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 869, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 865, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_bincount); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 869, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_bincount); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 865, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __pyx_t_5 = NULL;
@@ -31950,13 +32250,13 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
     }
     __pyx_t_3 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_5, __pyx_v_best_scores) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_v_best_scores);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 869, __pyx_L1_error)
+    if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 865, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __pyx_v_counts = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "networkconv.pyx":871
+    /* "networkconv.pyx":867
  *             counts = np.bincount(best_scores)
  * 
  *             while counts.max() != 1:             # <<<<<<<<<<<<<<
@@ -31964,7 +32264,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
  *                 conflicting_tag = counts.argmax()
  */
     while (1) {
-      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_counts, __pyx_n_s_max); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 871, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_v_counts, __pyx_n_s_max); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 867, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __pyx_t_5 = NULL;
       if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_4))) {
@@ -31978,24 +32278,24 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
       }
       __pyx_t_3 = (__pyx_t_5) ? __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_5) : __Pyx_PyObject_CallNoArg(__pyx_t_4);
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 871, __pyx_L1_error)
+      if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 867, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-      __pyx_t_4 = __Pyx_PyInt_NeObjC(__pyx_t_3, __pyx_int_1, 1, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 871, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyInt_NeObjC(__pyx_t_3, __pyx_int_1, 1, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 867, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(1, 871, __pyx_L1_error)
+      __pyx_t_2 = __Pyx_PyObject_IsTrue(__pyx_t_4); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(1, 867, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (!__pyx_t_2) break;
 
-      /* "networkconv.pyx":873
+      /* "networkconv.pyx":869
  *             while counts.max() != 1:
  *                 # find the tag with the most conflicting args
  *                 conflicting_tag = counts.argmax()             # <<<<<<<<<<<<<<
  * 
  *                 # arguments with that tag as current maximum
  */
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_counts, __pyx_n_s_argmax); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 873, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_counts, __pyx_n_s_argmax); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 869, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __pyx_t_5 = NULL;
       if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -32009,25 +32309,25 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
       }
       __pyx_t_4 = (__pyx_t_5) ? __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_5) : __Pyx_PyObject_CallNoArg(__pyx_t_3);
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 873, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 869, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_XDECREF_SET(__pyx_v_conflicting_tag, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "networkconv.pyx":876
+      /* "networkconv.pyx":872
  * 
  *                 # arguments with that tag as current maximum
  *                 args = np.where(best_scores == conflicting_tag)[0]             # <<<<<<<<<<<<<<
  * 
  *                 # get the logprobs for those args having this tag
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 876, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 872, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_where); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 876, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_where); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 872, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      __pyx_t_3 = PyObject_RichCompare(__pyx_v_best_scores, __pyx_v_conflicting_tag, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 876, __pyx_L1_error)
+      __pyx_t_3 = PyObject_RichCompare(__pyx_v_best_scores, __pyx_v_conflicting_tag, Py_EQ); __Pyx_XGOTREF(__pyx_t_3); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 872, __pyx_L1_error)
       __pyx_t_7 = NULL;
       if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
         __pyx_t_7 = PyMethod_GET_SELF(__pyx_t_5);
@@ -32041,23 +32341,23 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
       __pyx_t_4 = (__pyx_t_7) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_7, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_3);
       __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 876, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 872, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_4, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 876, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_GetItemInt(__pyx_t_4, 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 872, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_XDECREF_SET(__pyx_v_args, __pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "networkconv.pyx":879
+      /* "networkconv.pyx":875
  * 
  *                 # get the logprobs for those args having this tag
  *                 conflicting_probs = logprobs[args, conflicting_tag]             # <<<<<<<<<<<<<<
  * 
  *                 # find the argument with the highest probability for that tag
  */
-      __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 879, __pyx_L1_error)
+      __pyx_t_5 = PyTuple_New(2); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 875, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_INCREF(__pyx_v_args);
       __Pyx_GIVEREF(__pyx_v_args);
@@ -32065,20 +32365,20 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
       __Pyx_INCREF(__pyx_v_conflicting_tag);
       __Pyx_GIVEREF(__pyx_v_conflicting_tag);
       PyTuple_SET_ITEM(__pyx_t_5, 1, __pyx_v_conflicting_tag);
-      __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_v_logprobs, __pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 879, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_v_logprobs, __pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 875, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_XDECREF_SET(__pyx_v_conflicting_probs, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "networkconv.pyx":882
+      /* "networkconv.pyx":878
  * 
  *                 # find the argument with the highest probability for that tag
  *                 highest_prob_arg = args[conflicting_probs.argmax()]             # <<<<<<<<<<<<<<
  * 
  *                 # set the score for other arguments in that tag to a low value
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_conflicting_probs, __pyx_n_s_argmax); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 882, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_v_conflicting_probs, __pyx_n_s_argmax); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 878, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_3 = NULL;
       if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
@@ -32092,37 +32392,37 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
       }
       __pyx_t_4 = (__pyx_t_3) ? __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_3) : __Pyx_PyObject_CallNoArg(__pyx_t_5);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 882, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 878, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-      __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_args, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 882, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_args, __pyx_t_4); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 878, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       __Pyx_XDECREF_SET(__pyx_v_highest_prob_arg, __pyx_t_5);
       __pyx_t_5 = 0;
 
-      /* "networkconv.pyx":885
+      /* "networkconv.pyx":881
  * 
  *                 # set the score for other arguments in that tag to a low value
  *                 other_args = args[args != highest_prob_arg]             # <<<<<<<<<<<<<<
  *                 scores[other_args, conflicting_tag] = -1000
  * 
  */
-      __pyx_t_5 = PyObject_RichCompare(__pyx_v_args, __pyx_v_highest_prob_arg, Py_NE); __Pyx_XGOTREF(__pyx_t_5); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 885, __pyx_L1_error)
-      __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_v_args, __pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 885, __pyx_L1_error)
+      __pyx_t_5 = PyObject_RichCompare(__pyx_v_args, __pyx_v_highest_prob_arg, Py_NE); __Pyx_XGOTREF(__pyx_t_5); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 881, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_GetItem(__pyx_v_args, __pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 881, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_XDECREF_SET(__pyx_v_other_args, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "networkconv.pyx":886
+      /* "networkconv.pyx":882
  *                 # set the score for other arguments in that tag to a low value
  *                 other_args = args[args != highest_prob_arg]
  *                 scores[other_args, conflicting_tag] = -1000             # <<<<<<<<<<<<<<
  * 
  *                 # and find the new maxes, without recalculating probabilities
  */
-      __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 886, __pyx_L1_error)
+      __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 882, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_INCREF(__pyx_v_other_args);
       __Pyx_GIVEREF(__pyx_v_other_args);
@@ -32130,17 +32430,17 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
       __Pyx_INCREF(__pyx_v_conflicting_tag);
       __Pyx_GIVEREF(__pyx_v_conflicting_tag);
       PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_v_conflicting_tag);
-      if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_scores), __pyx_t_4, __pyx_int_neg_1000) < 0)) __PYX_ERR(1, 886, __pyx_L1_error)
+      if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_scores), __pyx_t_4, __pyx_int_neg_1000) < 0)) __PYX_ERR(1, 882, __pyx_L1_error)
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "networkconv.pyx":889
+      /* "networkconv.pyx":885
  * 
  *                 # and find the new maxes, without recalculating probabilities
  *                 best_scores = scores.argmax(1)             # <<<<<<<<<<<<<<
  *                 counts = np.bincount(best_scores)
  * 
  */
-      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_scores), __pyx_n_s_argmax); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 889, __pyx_L1_error)
+      __pyx_t_5 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_scores), __pyx_n_s_argmax); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 885, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
       __pyx_t_3 = NULL;
       if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
@@ -32154,22 +32454,22 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
       }
       __pyx_t_4 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_3, __pyx_int_1) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_int_1);
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 889, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 885, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __Pyx_DECREF_SET(__pyx_v_best_scores, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "networkconv.pyx":890
+      /* "networkconv.pyx":886
  *                 # and find the new maxes, without recalculating probabilities
  *                 best_scores = scores.argmax(1)
  *                 counts = np.bincount(best_scores)             # <<<<<<<<<<<<<<
  * 
  *             return best_scores
  */
-      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 890, __pyx_L1_error)
+      __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 886, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_bincount); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 890, __pyx_L1_error)
+      __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_bincount); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 886, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_3);
       __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
       __pyx_t_5 = NULL;
@@ -32184,14 +32484,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
       }
       __pyx_t_4 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_v_best_scores) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_v_best_scores);
       __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-      if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 890, __pyx_L1_error)
+      if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 886, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_DECREF_SET(__pyx_v_counts, __pyx_t_4);
       __pyx_t_4 = 0;
     }
 
-    /* "networkconv.pyx":892
+    /* "networkconv.pyx":888
  *                 counts = np.bincount(best_scores)
  * 
  *             return best_scores             # <<<<<<<<<<<<<<
@@ -32203,7 +32503,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
     __pyx_r = __pyx_v_best_scores;
     goto __pyx_L0;
 
-    /* "networkconv.pyx":860
+    /* "networkconv.pyx":856
  *         it will return the tags with the highest scores individually.
  *         """
  *         if self.transitions is None:             # <<<<<<<<<<<<<<
@@ -32212,16 +32512,16 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
  */
   }
 
-  /* "networkconv.pyx":894
+  /* "networkconv.pyx":890
  *             return best_scores
  * 
  *         path_scores = np.empty_like(scores)             # <<<<<<<<<<<<<<
  *         path_backtrack = np.empty_like(scores, int)
  *         #path_backtrack = np.empty_like(scores, np.int)
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 894, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 890, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_empty_like); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 894, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_empty_like); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 890, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __pyx_t_3 = NULL;
@@ -32236,22 +32536,22 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
   }
   __pyx_t_4 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_3, ((PyObject *)__pyx_v_scores)) : __Pyx_PyObject_CallOneArg(__pyx_t_5, ((PyObject *)__pyx_v_scores));
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 894, __pyx_L1_error)
+  if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 890, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_v_path_scores = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "networkconv.pyx":895
+  /* "networkconv.pyx":891
  * 
  *         path_scores = np.empty_like(scores)
  *         path_backtrack = np.empty_like(scores, int)             # <<<<<<<<<<<<<<
  *         #path_backtrack = np.empty_like(scores, np.int)
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 895, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 891, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_empty_like); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 895, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_empty_like); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 891, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
   __pyx_t_5 = NULL;
@@ -32269,7 +32569,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
   #if CYTHON_FAST_PYCALL
   if (PyFunction_Check(__pyx_t_3)) {
     PyObject *__pyx_temp[3] = {__pyx_t_5, ((PyObject *)__pyx_v_scores), ((PyObject *)(&PyInt_Type))};
-    __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_10, 2+__pyx_t_10); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 895, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_10, 2+__pyx_t_10); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 891, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_GOTREF(__pyx_t_4);
   } else
@@ -32277,13 +32577,13 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
   #if CYTHON_FAST_PYCCALL
   if (__Pyx_PyFastCFunction_Check(__pyx_t_3)) {
     PyObject *__pyx_temp[3] = {__pyx_t_5, ((PyObject *)__pyx_v_scores), ((PyObject *)(&PyInt_Type))};
-    __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_10, 2+__pyx_t_10); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 895, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_3, __pyx_temp+1-__pyx_t_10, 2+__pyx_t_10); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 891, __pyx_L1_error)
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_GOTREF(__pyx_t_4);
   } else
   #endif
   {
-    __pyx_t_7 = PyTuple_New(2+__pyx_t_10); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 895, __pyx_L1_error)
+    __pyx_t_7 = PyTuple_New(2+__pyx_t_10); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 891, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     if (__pyx_t_5) {
       __Pyx_GIVEREF(__pyx_t_5); PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_5); __pyx_t_5 = NULL;
@@ -32294,7 +32594,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
     __Pyx_INCREF(((PyObject *)(&PyInt_Type)));
     __Pyx_GIVEREF(((PyObject *)(&PyInt_Type)));
     PyTuple_SET_ITEM(__pyx_t_7, 1+__pyx_t_10, ((PyObject *)(&PyInt_Type)));
-    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_7, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 895, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_3, __pyx_t_7, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 891, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   }
@@ -32302,25 +32602,25 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
   __pyx_v_path_backtrack = __pyx_t_4;
   __pyx_t_4 = 0;
 
-  /* "networkconv.pyx":901
+  /* "networkconv.pyx":897
  *         # first, get the scores for each tag at token 0
  *         # the last row of the transitions table has the scores for the first tag
  *         path_scores[0] = scores[0] + self.transitions[-1]             # <<<<<<<<<<<<<<
  * 
  *         for i, token in enumerate(scores[1:], 1):
  */
-  __pyx_t_4 = __Pyx_GetItemInt(((PyObject *)__pyx_v_scores), 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 901, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_GetItemInt(((PyObject *)__pyx_v_scores), 0, long, 1, __Pyx_PyInt_From_long, 0, 0, 0); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 897, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_3 = __Pyx_GetItemInt(((PyObject *)__pyx_v_self->__pyx_base.transitions), -1L, long, 1, __Pyx_PyInt_From_long, 0, 1, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 901, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_GetItemInt(((PyObject *)__pyx_v_self->__pyx_base.transitions), -1L, long, 1, __Pyx_PyInt_From_long, 0, 1, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 897, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_7 = PyNumber_Add(__pyx_t_4, __pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 901, __pyx_L1_error)
+  __pyx_t_7 = PyNumber_Add(__pyx_t_4, __pyx_t_3); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 897, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(__Pyx_SetItemInt(__pyx_v_path_scores, 0, __pyx_t_7, long, 1, __Pyx_PyInt_From_long, 0, 0, 0) < 0)) __PYX_ERR(1, 901, __pyx_L1_error)
+  if (unlikely(__Pyx_SetItemInt(__pyx_v_path_scores, 0, __pyx_t_7, long, 1, __Pyx_PyInt_From_long, 0, 0, 0) < 0)) __PYX_ERR(1, 897, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "networkconv.pyx":903
+  /* "networkconv.pyx":899
  *         path_scores[0] = scores[0] + self.transitions[-1]
  * 
  *         for i, token in enumerate(scores[1:], 1):             # <<<<<<<<<<<<<<
@@ -32329,15 +32629,15 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
  */
   __Pyx_INCREF(__pyx_int_1);
   __pyx_t_7 = __pyx_int_1;
-  __pyx_t_3 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_scores), __pyx_slice__10); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 903, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_scores), __pyx_slice__11); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 899, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   if (likely(PyList_CheckExact(__pyx_t_3)) || PyTuple_CheckExact(__pyx_t_3)) {
     __pyx_t_4 = __pyx_t_3; __Pyx_INCREF(__pyx_t_4); __pyx_t_11 = 0;
     __pyx_t_12 = NULL;
   } else {
-    __pyx_t_11 = -1; __pyx_t_4 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 903, __pyx_L1_error)
+    __pyx_t_11 = -1; __pyx_t_4 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 899, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_12 = Py_TYPE(__pyx_t_4)->tp_iternext; if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 903, __pyx_L1_error)
+    __pyx_t_12 = Py_TYPE(__pyx_t_4)->tp_iternext; if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 899, __pyx_L1_error)
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   for (;;) {
@@ -32345,17 +32645,17 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
       if (likely(PyList_CheckExact(__pyx_t_4))) {
         if (__pyx_t_11 >= PyList_GET_SIZE(__pyx_t_4)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_3 = PyList_GET_ITEM(__pyx_t_4, __pyx_t_11); __Pyx_INCREF(__pyx_t_3); __pyx_t_11++; if (unlikely(0 < 0)) __PYX_ERR(1, 903, __pyx_L1_error)
+        __pyx_t_3 = PyList_GET_ITEM(__pyx_t_4, __pyx_t_11); __Pyx_INCREF(__pyx_t_3); __pyx_t_11++; if (unlikely(0 < 0)) __PYX_ERR(1, 899, __pyx_L1_error)
         #else
-        __pyx_t_3 = PySequence_ITEM(__pyx_t_4, __pyx_t_11); __pyx_t_11++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 903, __pyx_L1_error)
+        __pyx_t_3 = PySequence_ITEM(__pyx_t_4, __pyx_t_11); __pyx_t_11++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 899, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         #endif
       } else {
         if (__pyx_t_11 >= PyTuple_GET_SIZE(__pyx_t_4)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_4, __pyx_t_11); __Pyx_INCREF(__pyx_t_3); __pyx_t_11++; if (unlikely(0 < 0)) __PYX_ERR(1, 903, __pyx_L1_error)
+        __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_4, __pyx_t_11); __Pyx_INCREF(__pyx_t_3); __pyx_t_11++; if (unlikely(0 < 0)) __PYX_ERR(1, 899, __pyx_L1_error)
         #else
-        __pyx_t_3 = PySequence_ITEM(__pyx_t_4, __pyx_t_11); __pyx_t_11++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 903, __pyx_L1_error)
+        __pyx_t_3 = PySequence_ITEM(__pyx_t_4, __pyx_t_11); __pyx_t_11++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 899, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         #endif
       }
@@ -32365,7 +32665,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(1, 903, __pyx_L1_error)
+          else __PYX_ERR(1, 899, __pyx_L1_error)
         }
         break;
       }
@@ -32375,47 +32675,47 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
     __pyx_t_3 = 0;
     __Pyx_INCREF(__pyx_t_7);
     __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_7);
-    __pyx_t_3 = __Pyx_PyInt_AddObjC(__pyx_t_7, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 903, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyInt_AddObjC(__pyx_t_7, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 899, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_7);
     __pyx_t_7 = __pyx_t_3;
     __pyx_t_3 = 0;
 
-    /* "networkconv.pyx":906
+    /* "networkconv.pyx":902
  * 
  *             # each line contains the score until each tag t plus the transition to each other tag t'
  *             prev_score_and_trans = (path_scores[i - 1] + self.transitions[:-1].T).T             # <<<<<<<<<<<<<<
  * 
  *             # find the previous tag that yielded the max score
  */
-    __pyx_t_3 = __Pyx_PyInt_SubtractObjC(__pyx_v_i, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 906, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyInt_SubtractObjC(__pyx_v_i, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 902, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_path_scores, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 906, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetItem(__pyx_v_path_scores, __pyx_t_3); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 902, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_GetSlice(((PyObject *)__pyx_v_self->__pyx_base.transitions), 0, -1L, NULL, NULL, &__pyx_slice__4, 0, 1, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 906, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetSlice(((PyObject *)__pyx_v_self->__pyx_base.transitions), 0, -1L, NULL, NULL, &__pyx_slice__4, 0, 1, 1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 902, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_T); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 906, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_T); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 902, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PyNumber_Add(__pyx_t_5, __pyx_t_8); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 906, __pyx_L1_error)
+    __pyx_t_3 = PyNumber_Add(__pyx_t_5, __pyx_t_8); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 902, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_T); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 906, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_T); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 902, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_XDECREF_SET(__pyx_v_prev_score_and_trans, __pyx_t_8);
     __pyx_t_8 = 0;
 
-    /* "networkconv.pyx":909
+    /* "networkconv.pyx":905
  * 
  *             # find the previous tag that yielded the max score
  *             path_backtrack[i] = prev_score_and_trans.argmax(0)             # <<<<<<<<<<<<<<
  *             path_scores[i] = prev_score_and_trans[path_backtrack[i],
  *                                                   np.arange(self.output_size)] + scores[i]
  */
-    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_prev_score_and_trans, __pyx_n_s_argmax); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 909, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_v_prev_score_and_trans, __pyx_n_s_argmax); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 905, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_5 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_3))) {
@@ -32429,35 +32729,35 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
     }
     __pyx_t_8 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_int_0) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_int_0);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 909, __pyx_L1_error)
+    if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 905, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(PyObject_SetItem(__pyx_v_path_backtrack, __pyx_v_i, __pyx_t_8) < 0)) __PYX_ERR(1, 909, __pyx_L1_error)
+    if (unlikely(PyObject_SetItem(__pyx_v_path_backtrack, __pyx_v_i, __pyx_t_8) < 0)) __PYX_ERR(1, 905, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-    /* "networkconv.pyx":910
+    /* "networkconv.pyx":906
  *             # find the previous tag that yielded the max score
  *             path_backtrack[i] = prev_score_and_trans.argmax(0)
  *             path_scores[i] = prev_score_and_trans[path_backtrack[i],             # <<<<<<<<<<<<<<
  *                                                   np.arange(self.output_size)] + scores[i]
  * 
  */
-    __pyx_t_8 = __Pyx_PyObject_GetItem(__pyx_v_path_backtrack, __pyx_v_i); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 910, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_PyObject_GetItem(__pyx_v_path_backtrack, __pyx_v_i); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 906, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
 
-    /* "networkconv.pyx":911
+    /* "networkconv.pyx":907
  *             path_backtrack[i] = prev_score_and_trans.argmax(0)
  *             path_scores[i] = prev_score_and_trans[path_backtrack[i],
  *                                                   np.arange(self.output_size)] + scores[i]             # <<<<<<<<<<<<<<
  * 
  *         # now find the maximum score for the last token and follow the backtrack
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 911, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 907, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_arange); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 911, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_arange); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 907, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.output_size); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 911, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.output_size); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 907, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_9 = NULL;
     if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_6))) {
@@ -32472,18 +32772,18 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
     __pyx_t_3 = (__pyx_t_9) ? __Pyx_PyObject_Call2Args(__pyx_t_6, __pyx_t_9, __pyx_t_5) : __Pyx_PyObject_CallOneArg(__pyx_t_6, __pyx_t_5);
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 911, __pyx_L1_error)
+    if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 907, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "networkconv.pyx":910
+    /* "networkconv.pyx":906
  *             # find the previous tag that yielded the max score
  *             path_backtrack[i] = prev_score_and_trans.argmax(0)
  *             path_scores[i] = prev_score_and_trans[path_backtrack[i],             # <<<<<<<<<<<<<<
  *                                                   np.arange(self.output_size)] + scores[i]
  * 
  */
-    __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 910, __pyx_L1_error)
+    __pyx_t_6 = PyTuple_New(2); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 906, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
     __Pyx_GIVEREF(__pyx_t_8);
     PyTuple_SET_ITEM(__pyx_t_6, 0, __pyx_t_8);
@@ -32491,35 +32791,35 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
     PyTuple_SET_ITEM(__pyx_t_6, 1, __pyx_t_3);
     __pyx_t_8 = 0;
     __pyx_t_3 = 0;
-    __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_v_prev_score_and_trans, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 910, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyObject_GetItem(__pyx_v_prev_score_and_trans, __pyx_t_6); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 906, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "networkconv.pyx":911
+    /* "networkconv.pyx":907
  *             path_backtrack[i] = prev_score_and_trans.argmax(0)
  *             path_scores[i] = prev_score_and_trans[path_backtrack[i],
  *                                                   np.arange(self.output_size)] + scores[i]             # <<<<<<<<<<<<<<
  * 
  *         # now find the maximum score for the last token and follow the backtrack
  */
-    __pyx_t_6 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_scores), __pyx_v_i); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 911, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_scores), __pyx_v_i); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 907, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_8 = PyNumber_Add(__pyx_t_3, __pyx_t_6); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 911, __pyx_L1_error)
+    __pyx_t_8 = PyNumber_Add(__pyx_t_3, __pyx_t_6); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 907, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-    /* "networkconv.pyx":910
+    /* "networkconv.pyx":906
  *             # find the previous tag that yielded the max score
  *             path_backtrack[i] = prev_score_and_trans.argmax(0)
  *             path_scores[i] = prev_score_and_trans[path_backtrack[i],             # <<<<<<<<<<<<<<
  *                                                   np.arange(self.output_size)] + scores[i]
  * 
  */
-    if (unlikely(PyObject_SetItem(__pyx_v_path_scores, __pyx_v_i, __pyx_t_8) < 0)) __PYX_ERR(1, 910, __pyx_L1_error)
+    if (unlikely(PyObject_SetItem(__pyx_v_path_scores, __pyx_v_i, __pyx_t_8) < 0)) __PYX_ERR(1, 906, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-    /* "networkconv.pyx":903
+    /* "networkconv.pyx":899
  *         path_scores[0] = scores[0] + self.transitions[-1]
  * 
  *         for i, token in enumerate(scores[1:], 1):             # <<<<<<<<<<<<<<
@@ -32530,30 +32830,30 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "networkconv.pyx":914
+  /* "networkconv.pyx":910
  * 
  *         # now find the maximum score for the last token and follow the backtrack
  *         answer = np.empty(len(scores), dtype=int)             # <<<<<<<<<<<<<<
  *         #answer = np.empty(len(scores), dtype=np.int)
  *         answer[-1] = path_scores[-1].argmax()
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 914, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_7, __pyx_n_s_np); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 910, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_empty); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 914, __pyx_L1_error)
+  __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_empty); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 910, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  __pyx_t_11 = PyObject_Length(((PyObject *)__pyx_v_scores)); if (unlikely(__pyx_t_11 == ((Py_ssize_t)-1))) __PYX_ERR(1, 914, __pyx_L1_error)
-  __pyx_t_7 = PyInt_FromSsize_t(__pyx_t_11); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 914, __pyx_L1_error)
+  __pyx_t_11 = PyObject_Length(((PyObject *)__pyx_v_scores)); if (unlikely(__pyx_t_11 == ((Py_ssize_t)-1))) __PYX_ERR(1, 910, __pyx_L1_error)
+  __pyx_t_7 = PyInt_FromSsize_t(__pyx_t_11); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 910, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_8 = PyTuple_New(1); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 914, __pyx_L1_error)
+  __pyx_t_8 = PyTuple_New(1); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 910, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_GIVEREF(__pyx_t_7);
   PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_7);
   __pyx_t_7 = 0;
-  __pyx_t_7 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 914, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyDict_NewPresized(1); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 910, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_dtype, ((PyObject *)(&PyInt_Type))) < 0) __PYX_ERR(1, 914, __pyx_L1_error)
-  __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_8, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 914, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_t_7, __pyx_n_s_dtype, ((PyObject *)(&PyInt_Type))) < 0) __PYX_ERR(1, 910, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_8, __pyx_t_7); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 910, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -32561,16 +32861,16 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
   __pyx_v_answer = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "networkconv.pyx":916
+  /* "networkconv.pyx":912
  *         answer = np.empty(len(scores), dtype=int)
  *         #answer = np.empty(len(scores), dtype=np.int)
  *         answer[-1] = path_scores[-1].argmax()             # <<<<<<<<<<<<<<
  *         self.answer_score = path_scores[-1][answer[-1]]
  *         previous_tag = path_backtrack[-1][answer[-1]]
  */
-  __pyx_t_7 = __Pyx_GetItemInt(__pyx_v_path_scores, -1L, long, 1, __Pyx_PyInt_From_long, 0, 1, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 916, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_GetItemInt(__pyx_v_path_scores, -1L, long, 1, __Pyx_PyInt_From_long, 0, 1, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 912, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_argmax); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 916, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(__pyx_t_7, __pyx_n_s_argmax); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 912, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __pyx_t_7 = NULL;
@@ -32585,60 +32885,60 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
   }
   __pyx_t_6 = (__pyx_t_7) ? __Pyx_PyObject_CallOneArg(__pyx_t_8, __pyx_t_7) : __Pyx_PyObject_CallNoArg(__pyx_t_8);
   __Pyx_XDECREF(__pyx_t_7); __pyx_t_7 = 0;
-  if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 916, __pyx_L1_error)
+  if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 912, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  if (unlikely(__Pyx_SetItemInt(__pyx_v_answer, -1L, __pyx_t_6, long, 1, __Pyx_PyInt_From_long, 0, 1, 0) < 0)) __PYX_ERR(1, 916, __pyx_L1_error)
+  if (unlikely(__Pyx_SetItemInt(__pyx_v_answer, -1L, __pyx_t_6, long, 1, __Pyx_PyInt_From_long, 0, 1, 0) < 0)) __PYX_ERR(1, 912, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
 
-  /* "networkconv.pyx":917
+  /* "networkconv.pyx":913
  *         #answer = np.empty(len(scores), dtype=np.int)
  *         answer[-1] = path_scores[-1].argmax()
  *         self.answer_score = path_scores[-1][answer[-1]]             # <<<<<<<<<<<<<<
  *         previous_tag = path_backtrack[-1][answer[-1]]
  * 
  */
-  __pyx_t_6 = __Pyx_GetItemInt(__pyx_v_path_scores, -1L, long, 1, __Pyx_PyInt_From_long, 0, 1, 0); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 917, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_GetItemInt(__pyx_v_path_scores, -1L, long, 1, __Pyx_PyInt_From_long, 0, 1, 0); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 913, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_8 = __Pyx_GetItemInt(__pyx_v_answer, -1L, long, 1, __Pyx_PyInt_From_long, 0, 1, 0); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 917, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_GetItemInt(__pyx_v_answer, -1L, long, 1, __Pyx_PyInt_From_long, 0, 1, 0); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 913, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
-  __pyx_t_7 = __Pyx_PyObject_GetItem(__pyx_t_6, __pyx_t_8); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 917, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetItem(__pyx_t_6, __pyx_t_8); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 913, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  __pyx_t_13 = __pyx_PyFloat_AsFloat(__pyx_t_7); if (unlikely((__pyx_t_13 == (float)-1) && PyErr_Occurred())) __PYX_ERR(1, 917, __pyx_L1_error)
+  __pyx_t_13 = __pyx_PyFloat_AsFloat(__pyx_t_7); if (unlikely((__pyx_t_13 == (float)-1) && PyErr_Occurred())) __PYX_ERR(1, 913, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __pyx_v_self->__pyx_base.answer_score = __pyx_t_13;
 
-  /* "networkconv.pyx":918
+  /* "networkconv.pyx":914
  *         answer[-1] = path_scores[-1].argmax()
  *         self.answer_score = path_scores[-1][answer[-1]]
  *         previous_tag = path_backtrack[-1][answer[-1]]             # <<<<<<<<<<<<<<
  * 
  *         for i in range(len(scores) - 2, 0, -1):
  */
-  __pyx_t_7 = __Pyx_GetItemInt(__pyx_v_path_backtrack, -1L, long, 1, __Pyx_PyInt_From_long, 0, 1, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 918, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_GetItemInt(__pyx_v_path_backtrack, -1L, long, 1, __Pyx_PyInt_From_long, 0, 1, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 914, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
-  __pyx_t_8 = __Pyx_GetItemInt(__pyx_v_answer, -1L, long, 1, __Pyx_PyInt_From_long, 0, 1, 0); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 918, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_GetItemInt(__pyx_v_answer, -1L, long, 1, __Pyx_PyInt_From_long, 0, 1, 0); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 914, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
-  __pyx_t_6 = __Pyx_PyObject_GetItem(__pyx_t_7, __pyx_t_8); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 918, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_GetItem(__pyx_t_7, __pyx_t_8); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 914, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
   __pyx_v_previous_tag = __pyx_t_6;
   __pyx_t_6 = 0;
 
-  /* "networkconv.pyx":920
+  /* "networkconv.pyx":916
  *         previous_tag = path_backtrack[-1][answer[-1]]
  * 
  *         for i in range(len(scores) - 2, 0, -1):             # <<<<<<<<<<<<<<
  *             answer[i] = previous_tag
  *             previous_tag = path_backtrack[i][previous_tag]
  */
-  __pyx_t_11 = PyObject_Length(((PyObject *)__pyx_v_scores)); if (unlikely(__pyx_t_11 == ((Py_ssize_t)-1))) __PYX_ERR(1, 920, __pyx_L1_error)
-  __pyx_t_6 = PyInt_FromSsize_t((__pyx_t_11 - 2)); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 920, __pyx_L1_error)
+  __pyx_t_11 = PyObject_Length(((PyObject *)__pyx_v_scores)); if (unlikely(__pyx_t_11 == ((Py_ssize_t)-1))) __PYX_ERR(1, 916, __pyx_L1_error)
+  __pyx_t_6 = PyInt_FromSsize_t((__pyx_t_11 - 2)); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 916, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
-  __pyx_t_8 = PyTuple_New(3); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 920, __pyx_L1_error)
+  __pyx_t_8 = PyTuple_New(3); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 916, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __Pyx_GIVEREF(__pyx_t_6);
   PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_6);
@@ -32649,16 +32949,16 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
   __Pyx_GIVEREF(__pyx_int_neg_1);
   PyTuple_SET_ITEM(__pyx_t_8, 2, __pyx_int_neg_1);
   __pyx_t_6 = 0;
-  __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_range, __pyx_t_8, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 920, __pyx_L1_error)
+  __pyx_t_6 = __Pyx_PyObject_Call(__pyx_builtin_range, __pyx_t_8, NULL); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 916, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_6);
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
   if (likely(PyList_CheckExact(__pyx_t_6)) || PyTuple_CheckExact(__pyx_t_6)) {
     __pyx_t_8 = __pyx_t_6; __Pyx_INCREF(__pyx_t_8); __pyx_t_11 = 0;
     __pyx_t_12 = NULL;
   } else {
-    __pyx_t_11 = -1; __pyx_t_8 = PyObject_GetIter(__pyx_t_6); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 920, __pyx_L1_error)
+    __pyx_t_11 = -1; __pyx_t_8 = PyObject_GetIter(__pyx_t_6); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 916, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
-    __pyx_t_12 = Py_TYPE(__pyx_t_8)->tp_iternext; if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 920, __pyx_L1_error)
+    __pyx_t_12 = Py_TYPE(__pyx_t_8)->tp_iternext; if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 916, __pyx_L1_error)
   }
   __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
   for (;;) {
@@ -32666,17 +32966,17 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
       if (likely(PyList_CheckExact(__pyx_t_8))) {
         if (__pyx_t_11 >= PyList_GET_SIZE(__pyx_t_8)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_6 = PyList_GET_ITEM(__pyx_t_8, __pyx_t_11); __Pyx_INCREF(__pyx_t_6); __pyx_t_11++; if (unlikely(0 < 0)) __PYX_ERR(1, 920, __pyx_L1_error)
+        __pyx_t_6 = PyList_GET_ITEM(__pyx_t_8, __pyx_t_11); __Pyx_INCREF(__pyx_t_6); __pyx_t_11++; if (unlikely(0 < 0)) __PYX_ERR(1, 916, __pyx_L1_error)
         #else
-        __pyx_t_6 = PySequence_ITEM(__pyx_t_8, __pyx_t_11); __pyx_t_11++; if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 920, __pyx_L1_error)
+        __pyx_t_6 = PySequence_ITEM(__pyx_t_8, __pyx_t_11); __pyx_t_11++; if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 916, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
         #endif
       } else {
         if (__pyx_t_11 >= PyTuple_GET_SIZE(__pyx_t_8)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_6 = PyTuple_GET_ITEM(__pyx_t_8, __pyx_t_11); __Pyx_INCREF(__pyx_t_6); __pyx_t_11++; if (unlikely(0 < 0)) __PYX_ERR(1, 920, __pyx_L1_error)
+        __pyx_t_6 = PyTuple_GET_ITEM(__pyx_t_8, __pyx_t_11); __Pyx_INCREF(__pyx_t_6); __pyx_t_11++; if (unlikely(0 < 0)) __PYX_ERR(1, 916, __pyx_L1_error)
         #else
-        __pyx_t_6 = PySequence_ITEM(__pyx_t_8, __pyx_t_11); __pyx_t_11++; if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 920, __pyx_L1_error)
+        __pyx_t_6 = PySequence_ITEM(__pyx_t_8, __pyx_t_11); __pyx_t_11++; if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 916, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_6);
         #endif
       }
@@ -32686,7 +32986,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(1, 920, __pyx_L1_error)
+          else __PYX_ERR(1, 916, __pyx_L1_error)
         }
         break;
       }
@@ -32695,31 +32995,31 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
     __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_6);
     __pyx_t_6 = 0;
 
-    /* "networkconv.pyx":921
+    /* "networkconv.pyx":917
  * 
  *         for i in range(len(scores) - 2, 0, -1):
  *             answer[i] = previous_tag             # <<<<<<<<<<<<<<
  *             previous_tag = path_backtrack[i][previous_tag]
  * 
  */
-    if (unlikely(PyObject_SetItem(__pyx_v_answer, __pyx_v_i, __pyx_v_previous_tag) < 0)) __PYX_ERR(1, 921, __pyx_L1_error)
+    if (unlikely(PyObject_SetItem(__pyx_v_answer, __pyx_v_i, __pyx_v_previous_tag) < 0)) __PYX_ERR(1, 917, __pyx_L1_error)
 
-    /* "networkconv.pyx":922
+    /* "networkconv.pyx":918
  *         for i in range(len(scores) - 2, 0, -1):
  *             answer[i] = previous_tag
  *             previous_tag = path_backtrack[i][previous_tag]             # <<<<<<<<<<<<<<
  * 
  *         answer[0] = previous_tag
  */
-    __pyx_t_6 = __Pyx_PyObject_GetItem(__pyx_v_path_backtrack, __pyx_v_i); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 922, __pyx_L1_error)
+    __pyx_t_6 = __Pyx_PyObject_GetItem(__pyx_v_path_backtrack, __pyx_v_i); if (unlikely(!__pyx_t_6)) __PYX_ERR(1, 918, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_6);
-    __pyx_t_7 = __Pyx_PyObject_GetItem(__pyx_t_6, __pyx_v_previous_tag); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 922, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyObject_GetItem(__pyx_t_6, __pyx_v_previous_tag); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 918, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_6); __pyx_t_6 = 0;
     __Pyx_DECREF_SET(__pyx_v_previous_tag, __pyx_t_7);
     __pyx_t_7 = 0;
 
-    /* "networkconv.pyx":920
+    /* "networkconv.pyx":916
  *         previous_tag = path_backtrack[-1][answer[-1]]
  * 
  *         for i in range(len(scores) - 2, 0, -1):             # <<<<<<<<<<<<<<
@@ -32729,16 +33029,16 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
   }
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
 
-  /* "networkconv.pyx":924
+  /* "networkconv.pyx":920
  *             previous_tag = path_backtrack[i][previous_tag]
  * 
  *         answer[0] = previous_tag             # <<<<<<<<<<<<<<
  *         return answer
  * 
  */
-  if (unlikely(__Pyx_SetItemInt(__pyx_v_answer, 0, __pyx_v_previous_tag, long, 1, __Pyx_PyInt_From_long, 0, 0, 0) < 0)) __PYX_ERR(1, 924, __pyx_L1_error)
+  if (unlikely(__Pyx_SetItemInt(__pyx_v_answer, 0, __pyx_v_previous_tag, long, 1, __Pyx_PyInt_From_long, 0, 0, 0) < 0)) __PYX_ERR(1, 920, __pyx_L1_error)
 
-  /* "networkconv.pyx":925
+  /* "networkconv.pyx":921
  * 
  *         answer[0] = previous_tag
  *         return answer             # <<<<<<<<<<<<<<
@@ -32750,7 +33050,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
   __pyx_r = __pyx_v_answer;
   goto __pyx_L0;
 
-  /* "networkconv.pyx":854
+  /* "networkconv.pyx":850
  * 
  *     @cython.boundscheck(False)
  *     def _viterbi(self, np.ndarray[FLOAT_t, ndim=2] scores, bool allow_repeats=True):             # <<<<<<<<<<<<<<
@@ -32801,7 +33101,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_48_viterbi(struc
   return __pyx_r;
 }
 
-/* "networkconv.pyx":927
+/* "networkconv.pyx":923
  *         return answer
  * 
  *     def _create_target_lookup(self):             # <<<<<<<<<<<<<<
@@ -32846,51 +33146,51 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_50_create_target
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_create_target_lookup", 0);
-  __Pyx_TraceCall("_create_target_lookup", __pyx_f[1], 927, 0, __PYX_ERR(1, 927, __pyx_L1_error));
+  __Pyx_TraceCall("_create_target_lookup", __pyx_f[1], 923, 0, __PYX_ERR(1, 923, __pyx_L1_error));
 
-  /* "networkconv.pyx":935
+  /* "networkconv.pyx":931
  *         # consider padding. if the table has 10 entries, with a word window of 3,
  *         # we would have to consider up to the distance of 11, because of the padding.
  *         num_distances = self.target_dist_table.shape[0] + self.word_window_size - 1             # <<<<<<<<<<<<<<
  *         self.target_dist_lookup = np.empty((num_distances,
  *                                             self.word_window_size * self.target_dist_table.shape[1]))
  */
-  __pyx_t_1 = __Pyx_PyInt_From_long((((__pyx_v_self->target_dist_table->dimensions[0]) + __pyx_v_self->__pyx_base.word_window_size) - 1)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 935, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_long((((__pyx_v_self->target_dist_table->dimensions[0]) + __pyx_v_self->__pyx_base.word_window_size) - 1)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 931, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_num_distances = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":936
+  /* "networkconv.pyx":932
  *         # we would have to consider up to the distance of 11, because of the padding.
  *         num_distances = self.target_dist_table.shape[0] + self.word_window_size - 1
  *         self.target_dist_lookup = np.empty((num_distances,             # <<<<<<<<<<<<<<
  *                                             self.word_window_size * self.target_dist_table.shape[1]))
  *         self.target_dist_offset = num_distances / 2
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 936, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 932, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_empty); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 936, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_empty); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 932, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "networkconv.pyx":937
+  /* "networkconv.pyx":933
  *         num_distances = self.target_dist_table.shape[0] + self.word_window_size - 1
  *         self.target_dist_lookup = np.empty((num_distances,
  *                                             self.word_window_size * self.target_dist_table.shape[1]))             # <<<<<<<<<<<<<<
  *         self.target_dist_offset = num_distances / 2
  *         window_from = 0
  */
-  __pyx_t_2 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->__pyx_base.word_window_size * (__pyx_v_self->target_dist_table->dimensions[1]))); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 937, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->__pyx_base.word_window_size * (__pyx_v_self->target_dist_table->dimensions[1]))); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 933, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
 
-  /* "networkconv.pyx":936
+  /* "networkconv.pyx":932
  *         # we would have to consider up to the distance of 11, because of the padding.
  *         num_distances = self.target_dist_table.shape[0] + self.word_window_size - 1
  *         self.target_dist_lookup = np.empty((num_distances,             # <<<<<<<<<<<<<<
  *                                             self.word_window_size * self.target_dist_table.shape[1]))
  *         self.target_dist_offset = num_distances / 2
  */
-  __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 936, __pyx_L1_error)
+  __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 932, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_INCREF(__pyx_v_num_distances);
   __Pyx_GIVEREF(__pyx_v_num_distances);
@@ -32911,30 +33211,30 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_50_create_target
   __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_2, __pyx_t_4) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4);
   __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 936, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 932, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 936, __pyx_L1_error)
+  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 932, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
   __Pyx_GOTREF(__pyx_v_self->target_dist_lookup);
   __Pyx_DECREF(((PyObject *)__pyx_v_self->target_dist_lookup));
   __pyx_v_self->target_dist_lookup = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":938
+  /* "networkconv.pyx":934
  *         self.target_dist_lookup = np.empty((num_distances,
  *                                             self.word_window_size * self.target_dist_table.shape[1]))
  *         self.target_dist_offset = num_distances / 2             # <<<<<<<<<<<<<<
  *         window_from = 0
  *         window_to = self.target_dist_table.shape[1]
  */
-  __pyx_t_1 = __Pyx_PyInt_TrueDivideObjC(__pyx_v_num_distances, __pyx_int_2, 2, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 938, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_TrueDivideObjC(__pyx_v_num_distances, __pyx_int_2, 2, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 934, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 938, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 934, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_self->target_dist_offset = __pyx_t_5;
 
-  /* "networkconv.pyx":939
+  /* "networkconv.pyx":935
  *                                             self.word_window_size * self.target_dist_table.shape[1]))
  *         self.target_dist_offset = num_distances / 2
  *         window_from = 0             # <<<<<<<<<<<<<<
@@ -32944,37 +33244,37 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_50_create_target
   __Pyx_INCREF(__pyx_int_0);
   __pyx_v_window_from = __pyx_int_0;
 
-  /* "networkconv.pyx":940
+  /* "networkconv.pyx":936
  *         self.target_dist_offset = num_distances / 2
  *         window_from = 0
  *         window_to = self.target_dist_table.shape[1]             # <<<<<<<<<<<<<<
  *         for i in range(self.word_window_size):
  *             # each token in the window will is shifted in relation to the middle one
  */
-  __pyx_t_1 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->target_dist_table->dimensions[1])); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 940, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->target_dist_table->dimensions[1])); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 936, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_window_to = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":941
+  /* "networkconv.pyx":937
  *         window_from = 0
  *         window_to = self.target_dist_table.shape[1]
  *         for i in range(self.word_window_size):             # <<<<<<<<<<<<<<
  *             # each token in the window will is shifted in relation to the middle one
  *             shift = i - self.half_window
  */
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.word_window_size); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 941, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.word_window_size); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 937, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 941, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 937, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (likely(PyList_CheckExact(__pyx_t_3)) || PyTuple_CheckExact(__pyx_t_3)) {
     __pyx_t_1 = __pyx_t_3; __Pyx_INCREF(__pyx_t_1); __pyx_t_6 = 0;
     __pyx_t_7 = NULL;
   } else {
-    __pyx_t_6 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 941, __pyx_L1_error)
+    __pyx_t_6 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 937, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_7 = Py_TYPE(__pyx_t_1)->tp_iternext; if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 941, __pyx_L1_error)
+    __pyx_t_7 = Py_TYPE(__pyx_t_1)->tp_iternext; if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 937, __pyx_L1_error)
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   for (;;) {
@@ -32982,17 +33282,17 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_50_create_target
       if (likely(PyList_CheckExact(__pyx_t_1))) {
         if (__pyx_t_6 >= PyList_GET_SIZE(__pyx_t_1)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_3 = PyList_GET_ITEM(__pyx_t_1, __pyx_t_6); __Pyx_INCREF(__pyx_t_3); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 941, __pyx_L1_error)
+        __pyx_t_3 = PyList_GET_ITEM(__pyx_t_1, __pyx_t_6); __Pyx_INCREF(__pyx_t_3); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 937, __pyx_L1_error)
         #else
-        __pyx_t_3 = PySequence_ITEM(__pyx_t_1, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 941, __pyx_L1_error)
+        __pyx_t_3 = PySequence_ITEM(__pyx_t_1, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 937, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         #endif
       } else {
         if (__pyx_t_6 >= PyTuple_GET_SIZE(__pyx_t_1)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_1, __pyx_t_6); __Pyx_INCREF(__pyx_t_3); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 941, __pyx_L1_error)
+        __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_1, __pyx_t_6); __Pyx_INCREF(__pyx_t_3); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 937, __pyx_L1_error)
         #else
-        __pyx_t_3 = PySequence_ITEM(__pyx_t_1, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 941, __pyx_L1_error)
+        __pyx_t_3 = PySequence_ITEM(__pyx_t_1, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 937, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         #endif
       }
@@ -33002,7 +33302,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_50_create_target
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(1, 941, __pyx_L1_error)
+          else __PYX_ERR(1, 937, __pyx_L1_error)
         }
         break;
       }
@@ -33011,34 +33311,34 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_50_create_target
     __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "networkconv.pyx":943
+    /* "networkconv.pyx":939
  *         for i in range(self.word_window_size):
  *             # each token in the window will is shifted in relation to the middle one
  *             shift = i - self.half_window             # <<<<<<<<<<<<<<
  * 
  *             # discount half window size because of the extra distances we added for padding
  */
-    __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_self->half_window); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 943, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_self->half_window); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 939, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = PyNumber_Subtract(__pyx_v_i, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 943, __pyx_L1_error)
+    __pyx_t_4 = PyNumber_Subtract(__pyx_v_i, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 939, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_XDECREF_SET(__pyx_v_shift, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "networkconv.pyx":946
+    /* "networkconv.pyx":942
  * 
  *             # discount half window size because of the extra distances we added for padding
  *             inds = np.arange(shift, num_distances + shift) - self.half_window             # <<<<<<<<<<<<<<
  *             inds = np.clip(inds, 0, self.target_dist_table.shape[0] - 1)
  *             self.target_dist_lookup[:,window_from : window_to] = self.target_dist_table[inds,]
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 946, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 942, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_arange); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 946, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_arange); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 942, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PyNumber_Add(__pyx_v_num_distances, __pyx_v_shift); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 946, __pyx_L1_error)
+    __pyx_t_3 = PyNumber_Add(__pyx_v_num_distances, __pyx_v_shift); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 942, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_8 = NULL;
     __pyx_t_5 = 0;
@@ -33055,7 +33355,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_50_create_target
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_2)) {
       PyObject *__pyx_temp[3] = {__pyx_t_8, __pyx_v_shift, __pyx_t_3};
-      __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 946, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 942, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -33064,14 +33364,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_50_create_target
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
       PyObject *__pyx_temp[3] = {__pyx_t_8, __pyx_v_shift, __pyx_t_3};
-      __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 946, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 942, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     } else
     #endif
     {
-      __pyx_t_9 = PyTuple_New(2+__pyx_t_5); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 946, __pyx_L1_error)
+      __pyx_t_9 = PyTuple_New(2+__pyx_t_5); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 942, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       if (__pyx_t_8) {
         __Pyx_GIVEREF(__pyx_t_8); PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_8); __pyx_t_8 = NULL;
@@ -33082,33 +33382,33 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_50_create_target
       __Pyx_GIVEREF(__pyx_t_3);
       PyTuple_SET_ITEM(__pyx_t_9, 1+__pyx_t_5, __pyx_t_3);
       __pyx_t_3 = 0;
-      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_9, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 946, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_9, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 942, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->half_window); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 946, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->half_window); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 942, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_9 = PyNumber_Subtract(__pyx_t_4, __pyx_t_2); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 946, __pyx_L1_error)
+    __pyx_t_9 = PyNumber_Subtract(__pyx_t_4, __pyx_t_2); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 942, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_XDECREF_SET(__pyx_v_inds, __pyx_t_9);
     __pyx_t_9 = 0;
 
-    /* "networkconv.pyx":947
+    /* "networkconv.pyx":943
  *             # discount half window size because of the extra distances we added for padding
  *             inds = np.arange(shift, num_distances + shift) - self.half_window
  *             inds = np.clip(inds, 0, self.target_dist_table.shape[0] - 1)             # <<<<<<<<<<<<<<
  *             self.target_dist_lookup[:,window_from : window_to] = self.target_dist_table[inds,]
  * 
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 947, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 943, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_clip); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 947, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_clip); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 943, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyInt_From_long(((__pyx_v_self->target_dist_table->dimensions[0]) - 1)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 947, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_long(((__pyx_v_self->target_dist_table->dimensions[0]) - 1)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 943, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_t_3 = NULL;
     __pyx_t_5 = 0;
@@ -33125,7 +33425,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_50_create_target
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_4)) {
       PyObject *__pyx_temp[4] = {__pyx_t_3, __pyx_v_inds, __pyx_int_0, __pyx_t_2};
-      __pyx_t_9 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_5, 3+__pyx_t_5); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 947, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_5, 3+__pyx_t_5); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 943, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -33134,14 +33434,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_50_create_target
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
       PyObject *__pyx_temp[4] = {__pyx_t_3, __pyx_v_inds, __pyx_int_0, __pyx_t_2};
-      __pyx_t_9 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_5, 3+__pyx_t_5); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 947, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_5, 3+__pyx_t_5); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 943, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     } else
     #endif
     {
-      __pyx_t_8 = PyTuple_New(3+__pyx_t_5); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 947, __pyx_L1_error)
+      __pyx_t_8 = PyTuple_New(3+__pyx_t_5); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 943, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       if (__pyx_t_3) {
         __Pyx_GIVEREF(__pyx_t_3); PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_3); __pyx_t_3 = NULL;
@@ -33155,7 +33455,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_50_create_target
       __Pyx_GIVEREF(__pyx_t_2);
       PyTuple_SET_ITEM(__pyx_t_8, 2+__pyx_t_5, __pyx_t_2);
       __pyx_t_2 = 0;
-      __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_8, NULL); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 947, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_8, NULL); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 943, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     }
@@ -33163,24 +33463,24 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_50_create_target
     __Pyx_DECREF_SET(__pyx_v_inds, __pyx_t_9);
     __pyx_t_9 = 0;
 
-    /* "networkconv.pyx":948
+    /* "networkconv.pyx":944
  *             inds = np.arange(shift, num_distances + shift) - self.half_window
  *             inds = np.clip(inds, 0, self.target_dist_table.shape[0] - 1)
  *             self.target_dist_lookup[:,window_from : window_to] = self.target_dist_table[inds,]             # <<<<<<<<<<<<<<
  * 
  *             window_from = window_to
  */
-    __pyx_t_9 = PyTuple_New(1); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 948, __pyx_L1_error)
+    __pyx_t_9 = PyTuple_New(1); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 944, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     __Pyx_INCREF(__pyx_v_inds);
     __Pyx_GIVEREF(__pyx_v_inds);
     PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_v_inds);
-    __pyx_t_4 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_self->target_dist_table), __pyx_t_9); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 948, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_self->target_dist_table), __pyx_t_9); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 944, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    __pyx_t_9 = PySlice_New(__pyx_v_window_from, __pyx_v_window_to, Py_None); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 948, __pyx_L1_error)
+    __pyx_t_9 = PySlice_New(__pyx_v_window_from, __pyx_v_window_to, Py_None); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 944, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
-    __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 948, __pyx_L1_error)
+    __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 944, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_INCREF(__pyx_slice__3);
     __Pyx_GIVEREF(__pyx_slice__3);
@@ -33188,11 +33488,11 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_50_create_target
     __Pyx_GIVEREF(__pyx_t_9);
     PyTuple_SET_ITEM(__pyx_t_8, 1, __pyx_t_9);
     __pyx_t_9 = 0;
-    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_self->target_dist_lookup), __pyx_t_8, __pyx_t_4) < 0)) __PYX_ERR(1, 948, __pyx_L1_error)
+    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_self->target_dist_lookup), __pyx_t_8, __pyx_t_4) < 0)) __PYX_ERR(1, 944, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "networkconv.pyx":950
+    /* "networkconv.pyx":946
  *             self.target_dist_lookup[:,window_from : window_to] = self.target_dist_table[inds,]
  * 
  *             window_from = window_to             # <<<<<<<<<<<<<<
@@ -33202,22 +33502,22 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_50_create_target
     __Pyx_INCREF(__pyx_v_window_to);
     __Pyx_DECREF_SET(__pyx_v_window_from, __pyx_v_window_to);
 
-    /* "networkconv.pyx":951
+    /* "networkconv.pyx":947
  * 
  *             window_from = window_to
  *             window_to += self.target_dist_table.shape[1]             # <<<<<<<<<<<<<<
  * 
  *         self.target_convolution_lookup = self.target_dist_lookup.dot(self.target_dist_weights)
  */
-    __pyx_t_4 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->target_dist_table->dimensions[1])); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 951, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->target_dist_table->dimensions[1])); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 947, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_8 = PyNumber_InPlaceAdd(__pyx_v_window_to, __pyx_t_4); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 951, __pyx_L1_error)
+    __pyx_t_8 = PyNumber_InPlaceAdd(__pyx_v_window_to, __pyx_t_4); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 947, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF_SET(__pyx_v_window_to, __pyx_t_8);
     __pyx_t_8 = 0;
 
-    /* "networkconv.pyx":941
+    /* "networkconv.pyx":937
  *         window_from = 0
  *         window_to = self.target_dist_table.shape[1]
  *         for i in range(self.word_window_size):             # <<<<<<<<<<<<<<
@@ -33227,14 +33527,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_50_create_target
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":953
+  /* "networkconv.pyx":949
  *             window_to += self.target_dist_table.shape[1]
  * 
  *         self.target_convolution_lookup = self.target_dist_lookup.dot(self.target_dist_weights)             # <<<<<<<<<<<<<<
  * 
  * 
  */
-  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->target_dist_lookup), __pyx_n_s_dot); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 953, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->target_dist_lookup), __pyx_n_s_dot); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 949, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __pyx_t_4 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_8))) {
@@ -33248,17 +33548,17 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_50_create_target
   }
   __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_8, __pyx_t_4, ((PyObject *)__pyx_v_self->target_dist_weights)) : __Pyx_PyObject_CallOneArg(__pyx_t_8, ((PyObject *)__pyx_v_self->target_dist_weights));
   __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 953, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 949, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 953, __pyx_L1_error)
+  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 949, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
   __Pyx_GOTREF(__pyx_v_self->target_convolution_lookup);
   __Pyx_DECREF(((PyObject *)__pyx_v_self->target_convolution_lookup));
   __pyx_v_self->target_convolution_lookup = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":927
+  /* "networkconv.pyx":923
  *         return answer
  * 
  *     def _create_target_lookup(self):             # <<<<<<<<<<<<<<
@@ -33291,7 +33591,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_50_create_target
   return __pyx_r;
 }
 
-/* "networkconv.pyx":956
+/* "networkconv.pyx":952
  * 
  * 
  *     def _create_pred_lookup(self):             # <<<<<<<<<<<<<<
@@ -33336,51 +33636,51 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_52_create_pred_l
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_create_pred_lookup", 0);
-  __Pyx_TraceCall("_create_pred_lookup", __pyx_f[1], 956, 0, __PYX_ERR(1, 956, __pyx_L1_error));
+  __Pyx_TraceCall("_create_pred_lookup", __pyx_f[1], 952, 0, __PYX_ERR(1, 952, __pyx_L1_error));
 
-  /* "networkconv.pyx":964
+  /* "networkconv.pyx":960
  *         # consider padding. if the table has 10 entries, with a word window of 3,
  *         # we would have to consider up to the distance of 11, because of the padding.
  *         num_distances = self.pred_dist_table.shape[0] + self.word_window_size - 1             # <<<<<<<<<<<<<<
  *         self.pred_dist_lookup = np.empty((num_distances,
  *                                           self.word_window_size * self.pred_dist_table.shape[1]))
  */
-  __pyx_t_1 = __Pyx_PyInt_From_long((((__pyx_v_self->pred_dist_table->dimensions[0]) + __pyx_v_self->__pyx_base.word_window_size) - 1)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 964, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_long((((__pyx_v_self->pred_dist_table->dimensions[0]) + __pyx_v_self->__pyx_base.word_window_size) - 1)); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 960, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_num_distances = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":965
+  /* "networkconv.pyx":961
  *         # we would have to consider up to the distance of 11, because of the padding.
  *         num_distances = self.pred_dist_table.shape[0] + self.word_window_size - 1
  *         self.pred_dist_lookup = np.empty((num_distances,             # <<<<<<<<<<<<<<
  *                                           self.word_window_size * self.pred_dist_table.shape[1]))
  *         self.pred_dist_offset = num_distances / 2
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 965, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 961, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_empty); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 965, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_empty); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 961, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "networkconv.pyx":966
+  /* "networkconv.pyx":962
  *         num_distances = self.pred_dist_table.shape[0] + self.word_window_size - 1
  *         self.pred_dist_lookup = np.empty((num_distances,
  *                                           self.word_window_size * self.pred_dist_table.shape[1]))             # <<<<<<<<<<<<<<
  *         self.pred_dist_offset = num_distances / 2
  *         window_from = 0
  */
-  __pyx_t_2 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->__pyx_base.word_window_size * (__pyx_v_self->pred_dist_table->dimensions[1]))); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 966, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->__pyx_base.word_window_size * (__pyx_v_self->pred_dist_table->dimensions[1]))); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 962, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
 
-  /* "networkconv.pyx":965
+  /* "networkconv.pyx":961
  *         # we would have to consider up to the distance of 11, because of the padding.
  *         num_distances = self.pred_dist_table.shape[0] + self.word_window_size - 1
  *         self.pred_dist_lookup = np.empty((num_distances,             # <<<<<<<<<<<<<<
  *                                           self.word_window_size * self.pred_dist_table.shape[1]))
  *         self.pred_dist_offset = num_distances / 2
  */
-  __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 965, __pyx_L1_error)
+  __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 961, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
   __Pyx_INCREF(__pyx_v_num_distances);
   __Pyx_GIVEREF(__pyx_v_num_distances);
@@ -33401,30 +33701,30 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_52_create_pred_l
   __pyx_t_1 = (__pyx_t_2) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_2, __pyx_t_4) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_4);
   __Pyx_XDECREF(__pyx_t_2); __pyx_t_2 = 0;
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 965, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 961, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 965, __pyx_L1_error)
+  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 961, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
   __Pyx_GOTREF(__pyx_v_self->pred_dist_lookup);
   __Pyx_DECREF(((PyObject *)__pyx_v_self->pred_dist_lookup));
   __pyx_v_self->pred_dist_lookup = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":967
+  /* "networkconv.pyx":963
  *         self.pred_dist_lookup = np.empty((num_distances,
  *                                           self.word_window_size * self.pred_dist_table.shape[1]))
  *         self.pred_dist_offset = num_distances / 2             # <<<<<<<<<<<<<<
  *         window_from = 0
  *         window_to = self.pred_dist_table.shape[1]
  */
-  __pyx_t_1 = __Pyx_PyInt_TrueDivideObjC(__pyx_v_num_distances, __pyx_int_2, 2, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 967, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_TrueDivideObjC(__pyx_v_num_distances, __pyx_int_2, 2, 0, 0); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 963, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 967, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_5 == (int)-1) && PyErr_Occurred())) __PYX_ERR(1, 963, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_v_self->pred_dist_offset = __pyx_t_5;
 
-  /* "networkconv.pyx":968
+  /* "networkconv.pyx":964
  *                                           self.word_window_size * self.pred_dist_table.shape[1]))
  *         self.pred_dist_offset = num_distances / 2
  *         window_from = 0             # <<<<<<<<<<<<<<
@@ -33434,37 +33734,37 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_52_create_pred_l
   __Pyx_INCREF(__pyx_int_0);
   __pyx_v_window_from = __pyx_int_0;
 
-  /* "networkconv.pyx":969
+  /* "networkconv.pyx":965
  *         self.pred_dist_offset = num_distances / 2
  *         window_from = 0
  *         window_to = self.pred_dist_table.shape[1]             # <<<<<<<<<<<<<<
  *         for i in range(self.word_window_size):
  *             # each token in the window will is shifted in relation to the middle one
  */
-  __pyx_t_1 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->pred_dist_table->dimensions[1])); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 969, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->pred_dist_table->dimensions[1])); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 965, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_v_window_to = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":970
+  /* "networkconv.pyx":966
  *         window_from = 0
  *         window_to = self.pred_dist_table.shape[1]
  *         for i in range(self.word_window_size):             # <<<<<<<<<<<<<<
  *             # each token in the window will is shifted in relation to the middle one
  *             shift = i - self.half_window
  */
-  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.word_window_size); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 970, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.word_window_size); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 966, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 970, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_CallOneArg(__pyx_builtin_range, __pyx_t_1); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 966, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   if (likely(PyList_CheckExact(__pyx_t_3)) || PyTuple_CheckExact(__pyx_t_3)) {
     __pyx_t_1 = __pyx_t_3; __Pyx_INCREF(__pyx_t_1); __pyx_t_6 = 0;
     __pyx_t_7 = NULL;
   } else {
-    __pyx_t_6 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 970, __pyx_L1_error)
+    __pyx_t_6 = -1; __pyx_t_1 = PyObject_GetIter(__pyx_t_3); if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 966, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_1);
-    __pyx_t_7 = Py_TYPE(__pyx_t_1)->tp_iternext; if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 970, __pyx_L1_error)
+    __pyx_t_7 = Py_TYPE(__pyx_t_1)->tp_iternext; if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 966, __pyx_L1_error)
   }
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   for (;;) {
@@ -33472,17 +33772,17 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_52_create_pred_l
       if (likely(PyList_CheckExact(__pyx_t_1))) {
         if (__pyx_t_6 >= PyList_GET_SIZE(__pyx_t_1)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_3 = PyList_GET_ITEM(__pyx_t_1, __pyx_t_6); __Pyx_INCREF(__pyx_t_3); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 970, __pyx_L1_error)
+        __pyx_t_3 = PyList_GET_ITEM(__pyx_t_1, __pyx_t_6); __Pyx_INCREF(__pyx_t_3); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 966, __pyx_L1_error)
         #else
-        __pyx_t_3 = PySequence_ITEM(__pyx_t_1, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 970, __pyx_L1_error)
+        __pyx_t_3 = PySequence_ITEM(__pyx_t_1, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 966, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         #endif
       } else {
         if (__pyx_t_6 >= PyTuple_GET_SIZE(__pyx_t_1)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_1, __pyx_t_6); __Pyx_INCREF(__pyx_t_3); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 970, __pyx_L1_error)
+        __pyx_t_3 = PyTuple_GET_ITEM(__pyx_t_1, __pyx_t_6); __Pyx_INCREF(__pyx_t_3); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 966, __pyx_L1_error)
         #else
-        __pyx_t_3 = PySequence_ITEM(__pyx_t_1, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 970, __pyx_L1_error)
+        __pyx_t_3 = PySequence_ITEM(__pyx_t_1, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 966, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_3);
         #endif
       }
@@ -33492,7 +33792,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_52_create_pred_l
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(1, 970, __pyx_L1_error)
+          else __PYX_ERR(1, 966, __pyx_L1_error)
         }
         break;
       }
@@ -33501,34 +33801,34 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_52_create_pred_l
     __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_3);
     __pyx_t_3 = 0;
 
-    /* "networkconv.pyx":972
+    /* "networkconv.pyx":968
  *         for i in range(self.word_window_size):
  *             # each token in the window will is shifted in relation to the middle one
  *             shift = i - self.half_window             # <<<<<<<<<<<<<<
  * 
  *             # discount half window size because of the extra distances we added for padding
  */
-    __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_self->half_window); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 972, __pyx_L1_error)
+    __pyx_t_3 = __Pyx_PyInt_From_int(__pyx_v_self->half_window); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 968, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = PyNumber_Subtract(__pyx_v_i, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 972, __pyx_L1_error)
+    __pyx_t_4 = PyNumber_Subtract(__pyx_v_i, __pyx_t_3); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 968, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     __Pyx_XDECREF_SET(__pyx_v_shift, __pyx_t_4);
     __pyx_t_4 = 0;
 
-    /* "networkconv.pyx":975
+    /* "networkconv.pyx":971
  * 
  *             # discount half window size because of the extra distances we added for padding
  *             inds = np.arange(shift, num_distances + shift) - self.half_window             # <<<<<<<<<<<<<<
  *             inds = np.clip(inds, 0, self.pred_dist_table.shape[0] - 1)
  *             self.pred_dist_lookup[:,window_from : window_to] = self.pred_dist_table[inds,]
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 975, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 971, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_arange); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 975, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_arange); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 971, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    __pyx_t_3 = PyNumber_Add(__pyx_v_num_distances, __pyx_v_shift); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 975, __pyx_L1_error)
+    __pyx_t_3 = PyNumber_Add(__pyx_v_num_distances, __pyx_v_shift); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 971, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __pyx_t_8 = NULL;
     __pyx_t_5 = 0;
@@ -33545,7 +33845,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_52_create_pred_l
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_2)) {
       PyObject *__pyx_temp[3] = {__pyx_t_8, __pyx_v_shift, __pyx_t_3};
-      __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 975, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 971, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
@@ -33554,14 +33854,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_52_create_pred_l
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_2)) {
       PyObject *__pyx_temp[3] = {__pyx_t_8, __pyx_v_shift, __pyx_t_3};
-      __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 975, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyCFunction_FastCall(__pyx_t_2, __pyx_temp+1-__pyx_t_5, 2+__pyx_t_5); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 971, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_8); __pyx_t_8 = 0;
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
     } else
     #endif
     {
-      __pyx_t_9 = PyTuple_New(2+__pyx_t_5); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 975, __pyx_L1_error)
+      __pyx_t_9 = PyTuple_New(2+__pyx_t_5); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 971, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       if (__pyx_t_8) {
         __Pyx_GIVEREF(__pyx_t_8); PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_8); __pyx_t_8 = NULL;
@@ -33572,33 +33872,33 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_52_create_pred_l
       __Pyx_GIVEREF(__pyx_t_3);
       PyTuple_SET_ITEM(__pyx_t_9, 1+__pyx_t_5, __pyx_t_3);
       __pyx_t_3 = 0;
-      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_9, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 975, __pyx_L1_error)
+      __pyx_t_4 = __Pyx_PyObject_Call(__pyx_t_2, __pyx_t_9, NULL); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 971, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
     }
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->half_window); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 975, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_self->half_window); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 971, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_9 = PyNumber_Subtract(__pyx_t_4, __pyx_t_2); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 975, __pyx_L1_error)
+    __pyx_t_9 = PyNumber_Subtract(__pyx_t_4, __pyx_t_2); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 971, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     __Pyx_XDECREF_SET(__pyx_v_inds, __pyx_t_9);
     __pyx_t_9 = 0;
 
-    /* "networkconv.pyx":976
+    /* "networkconv.pyx":972
  *             # discount half window size because of the extra distances we added for padding
  *             inds = np.arange(shift, num_distances + shift) - self.half_window
  *             inds = np.clip(inds, 0, self.pred_dist_table.shape[0] - 1)             # <<<<<<<<<<<<<<
  *             self.pred_dist_lookup[:,window_from : window_to] = self.pred_dist_table[inds,]
  * 
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 976, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 972, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_clip); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 976, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_2, __pyx_n_s_clip); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 972, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_2 = __Pyx_PyInt_From_long(((__pyx_v_self->pred_dist_table->dimensions[0]) - 1)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 976, __pyx_L1_error)
+    __pyx_t_2 = __Pyx_PyInt_From_long(((__pyx_v_self->pred_dist_table->dimensions[0]) - 1)); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 972, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __pyx_t_3 = NULL;
     __pyx_t_5 = 0;
@@ -33615,7 +33915,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_52_create_pred_l
     #if CYTHON_FAST_PYCALL
     if (PyFunction_Check(__pyx_t_4)) {
       PyObject *__pyx_temp[4] = {__pyx_t_3, __pyx_v_inds, __pyx_int_0, __pyx_t_2};
-      __pyx_t_9 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_5, 3+__pyx_t_5); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 976, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_5, 3+__pyx_t_5); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 972, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
@@ -33624,14 +33924,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_52_create_pred_l
     #if CYTHON_FAST_PYCCALL
     if (__Pyx_PyFastCFunction_Check(__pyx_t_4)) {
       PyObject *__pyx_temp[4] = {__pyx_t_3, __pyx_v_inds, __pyx_int_0, __pyx_t_2};
-      __pyx_t_9 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_5, 3+__pyx_t_5); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 976, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyCFunction_FastCall(__pyx_t_4, __pyx_temp+1-__pyx_t_5, 3+__pyx_t_5); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 972, __pyx_L1_error)
       __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
     } else
     #endif
     {
-      __pyx_t_8 = PyTuple_New(3+__pyx_t_5); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 976, __pyx_L1_error)
+      __pyx_t_8 = PyTuple_New(3+__pyx_t_5); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 972, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_8);
       if (__pyx_t_3) {
         __Pyx_GIVEREF(__pyx_t_3); PyTuple_SET_ITEM(__pyx_t_8, 0, __pyx_t_3); __pyx_t_3 = NULL;
@@ -33645,7 +33945,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_52_create_pred_l
       __Pyx_GIVEREF(__pyx_t_2);
       PyTuple_SET_ITEM(__pyx_t_8, 2+__pyx_t_5, __pyx_t_2);
       __pyx_t_2 = 0;
-      __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_8, NULL); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 976, __pyx_L1_error)
+      __pyx_t_9 = __Pyx_PyObject_Call(__pyx_t_4, __pyx_t_8, NULL); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 972, __pyx_L1_error)
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     }
@@ -33653,24 +33953,24 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_52_create_pred_l
     __Pyx_DECREF_SET(__pyx_v_inds, __pyx_t_9);
     __pyx_t_9 = 0;
 
-    /* "networkconv.pyx":977
+    /* "networkconv.pyx":973
  *             inds = np.arange(shift, num_distances + shift) - self.half_window
  *             inds = np.clip(inds, 0, self.pred_dist_table.shape[0] - 1)
  *             self.pred_dist_lookup[:,window_from : window_to] = self.pred_dist_table[inds,]             # <<<<<<<<<<<<<<
  * 
  *             window_from = window_to
  */
-    __pyx_t_9 = PyTuple_New(1); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 977, __pyx_L1_error)
+    __pyx_t_9 = PyTuple_New(1); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 973, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     __Pyx_INCREF(__pyx_v_inds);
     __Pyx_GIVEREF(__pyx_v_inds);
     PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_v_inds);
-    __pyx_t_4 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_self->pred_dist_table), __pyx_t_9); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 977, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetItem(((PyObject *)__pyx_v_self->pred_dist_table), __pyx_t_9); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 973, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    __pyx_t_9 = PySlice_New(__pyx_v_window_from, __pyx_v_window_to, Py_None); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 977, __pyx_L1_error)
+    __pyx_t_9 = PySlice_New(__pyx_v_window_from, __pyx_v_window_to, Py_None); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 973, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
-    __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 977, __pyx_L1_error)
+    __pyx_t_8 = PyTuple_New(2); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 973, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_INCREF(__pyx_slice__3);
     __Pyx_GIVEREF(__pyx_slice__3);
@@ -33678,11 +33978,11 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_52_create_pred_l
     __Pyx_GIVEREF(__pyx_t_9);
     PyTuple_SET_ITEM(__pyx_t_8, 1, __pyx_t_9);
     __pyx_t_9 = 0;
-    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_self->pred_dist_lookup), __pyx_t_8, __pyx_t_4) < 0)) __PYX_ERR(1, 977, __pyx_L1_error)
+    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_self->pred_dist_lookup), __pyx_t_8, __pyx_t_4) < 0)) __PYX_ERR(1, 973, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "networkconv.pyx":979
+    /* "networkconv.pyx":975
  *             self.pred_dist_lookup[:,window_from : window_to] = self.pred_dist_table[inds,]
  * 
  *             window_from = window_to             # <<<<<<<<<<<<<<
@@ -33692,22 +33992,22 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_52_create_pred_l
     __Pyx_INCREF(__pyx_v_window_to);
     __Pyx_DECREF_SET(__pyx_v_window_from, __pyx_v_window_to);
 
-    /* "networkconv.pyx":980
+    /* "networkconv.pyx":976
  * 
  *             window_from = window_to
  *             window_to += self.pred_dist_table.shape[1]             # <<<<<<<<<<<<<<
  * 
  *         self.pred_convolution_lookup = self.pred_dist_lookup.dot(self.pred_dist_weights)
  */
-    __pyx_t_4 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->pred_dist_table->dimensions[1])); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 980, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyInt_From_Py_intptr_t((__pyx_v_self->pred_dist_table->dimensions[1])); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 976, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_8 = PyNumber_InPlaceAdd(__pyx_v_window_to, __pyx_t_4); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 980, __pyx_L1_error)
+    __pyx_t_8 = PyNumber_InPlaceAdd(__pyx_v_window_to, __pyx_t_4); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 976, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF_SET(__pyx_v_window_to, __pyx_t_8);
     __pyx_t_8 = 0;
 
-    /* "networkconv.pyx":970
+    /* "networkconv.pyx":966
  *         window_from = 0
  *         window_to = self.pred_dist_table.shape[1]
  *         for i in range(self.word_window_size):             # <<<<<<<<<<<<<<
@@ -33717,14 +34017,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_52_create_pred_l
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":982
+  /* "networkconv.pyx":978
  *             window_to += self.pred_dist_table.shape[1]
  * 
  *         self.pred_convolution_lookup = self.pred_dist_lookup.dot(self.pred_dist_weights)             # <<<<<<<<<<<<<<
  * 
  *     def _create_convolution_lookup(self, sentence, training):
  */
-  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->pred_dist_lookup), __pyx_n_s_dot); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 982, __pyx_L1_error)
+  __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->pred_dist_lookup), __pyx_n_s_dot); if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 978, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_8);
   __pyx_t_4 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_8))) {
@@ -33738,17 +34038,17 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_52_create_pred_l
   }
   __pyx_t_1 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_8, __pyx_t_4, ((PyObject *)__pyx_v_self->pred_dist_weights)) : __Pyx_PyObject_CallOneArg(__pyx_t_8, ((PyObject *)__pyx_v_self->pred_dist_weights));
   __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
-  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 982, __pyx_L1_error)
+  if (unlikely(!__pyx_t_1)) __PYX_ERR(1, 978, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
-  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 982, __pyx_L1_error)
+  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 978, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
   __Pyx_GOTREF(__pyx_v_self->pred_convolution_lookup);
   __Pyx_DECREF(((PyObject *)__pyx_v_self->pred_convolution_lookup));
   __pyx_v_self->pred_convolution_lookup = ((PyArrayObject *)__pyx_t_1);
   __pyx_t_1 = 0;
 
-  /* "networkconv.pyx":956
+  /* "networkconv.pyx":952
  * 
  * 
  *     def _create_pred_lookup(self):             # <<<<<<<<<<<<<<
@@ -33781,7 +34081,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_52_create_pred_l
   return __pyx_r;
 }
 
-/* "networkconv.pyx":984
+/* "networkconv.pyx":980
  *         self.pred_convolution_lookup = self.pred_dist_lookup.dot(self.pred_dist_weights)
  * 
  *     def _create_convolution_lookup(self, sentence, training):             # <<<<<<<<<<<<<<
@@ -33824,11 +34124,11 @@ static PyObject *__pyx_pw_4libs_7network_20ConvolutionalNetwork_55_create_convol
         case  1:
         if (likely((values[1] = __Pyx_PyDict_GetItemStr(__pyx_kwds, __pyx_n_s_training)) != 0)) kw_args--;
         else {
-          __Pyx_RaiseArgtupleInvalid("_create_convolution_lookup", 1, 2, 2, 1); __PYX_ERR(1, 984, __pyx_L3_error)
+          __Pyx_RaiseArgtupleInvalid("_create_convolution_lookup", 1, 2, 2, 1); __PYX_ERR(1, 980, __pyx_L3_error)
         }
       }
       if (unlikely(kw_args > 0)) {
-        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_create_convolution_lookup") < 0)) __PYX_ERR(1, 984, __pyx_L3_error)
+        if (unlikely(__Pyx_ParseOptionalKeywords(__pyx_kwds, __pyx_pyargnames, 0, values, pos_args, "_create_convolution_lookup") < 0)) __PYX_ERR(1, 980, __pyx_L3_error)
       }
     } else if (PyTuple_GET_SIZE(__pyx_args) != 2) {
       goto __pyx_L5_argtuple_error;
@@ -33841,7 +34141,7 @@ static PyObject *__pyx_pw_4libs_7network_20ConvolutionalNetwork_55_create_convol
   }
   goto __pyx_L4_argument_unpacking_done;
   __pyx_L5_argtuple_error:;
-  __Pyx_RaiseArgtupleInvalid("_create_convolution_lookup", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 984, __pyx_L3_error)
+  __Pyx_RaiseArgtupleInvalid("_create_convolution_lookup", 1, 2, 2, PyTuple_GET_SIZE(__pyx_args)); __PYX_ERR(1, 980, __pyx_L3_error)
   __pyx_L3_error:;
   __Pyx_AddTraceback("libs.network.ConvolutionalNetwork._create_convolution_lookup", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __Pyx_RefNannyFinishContext();
@@ -33896,13 +34196,13 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("_create_convolution_lookup", 0);
-  __Pyx_TraceCall("_create_convolution_lookup", __pyx_f[1], 984, 0, __PYX_ERR(1, 984, __pyx_L1_error));
+  __Pyx_TraceCall("_create_convolution_lookup", __pyx_f[1], 980, 0, __PYX_ERR(1, 980, __pyx_L1_error));
   __pyx_pybuffer_new_data.pybuffer.buf = NULL;
   __pyx_pybuffer_new_data.refcount = 0;
   __pyx_pybuffernd_new_data.data = NULL;
   __pyx_pybuffernd_new_data.rcbuffer = &__pyx_pybuffer_new_data;
 
-  /* "networkconv.pyx":994
+  /* "networkconv.pyx":990
  * 
  *         # add padding to the sentence
  *         if self.word_window_size > 1:             # <<<<<<<<<<<<<<
@@ -33912,27 +34212,27 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
   __pyx_t_1 = ((__pyx_v_self->__pyx_base.word_window_size > 1) != 0);
   if (__pyx_t_1) {
 
-    /* "networkconv.pyx":995
+    /* "networkconv.pyx":991
  *         # add padding to the sentence
  *         if self.word_window_size > 1:
  *             padded_sentence = np.vstack((self.pre_padding,             # <<<<<<<<<<<<<<
  *                                          sentence,
  *                                          self.pos_padding))
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 995, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 991, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_vstack); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 995, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_vstack); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 991, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
 
-    /* "networkconv.pyx":997
+    /* "networkconv.pyx":993
  *             padded_sentence = np.vstack((self.pre_padding,
  *                                          sentence,
  *                                          self.pos_padding))             # <<<<<<<<<<<<<<
  *         else:
  *             padded_sentence = sentence
  */
-    __pyx_t_3 = PyTuple_New(3); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 995, __pyx_L1_error)
+    __pyx_t_3 = PyTuple_New(3); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 991, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
     __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.pre_padding));
     __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.pre_padding));
@@ -33956,22 +34256,22 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
     __pyx_t_2 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_5, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_3);
     __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
     __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-    if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 995, __pyx_L1_error)
+    if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 991, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_2);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "networkconv.pyx":995
+    /* "networkconv.pyx":991
  *         # add padding to the sentence
  *         if self.word_window_size > 1:
  *             padded_sentence = np.vstack((self.pre_padding,             # <<<<<<<<<<<<<<
  *                                          sentence,
  *                                          self.pos_padding))
  */
-    if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 995, __pyx_L1_error)
+    if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 991, __pyx_L1_error)
     __pyx_v_padded_sentence = ((PyArrayObject *)__pyx_t_2);
     __pyx_t_2 = 0;
 
-    /* "networkconv.pyx":994
+    /* "networkconv.pyx":990
  * 
  *         # add padding to the sentence
  *         if self.word_window_size > 1:             # <<<<<<<<<<<<<<
@@ -33981,7 +34281,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
     goto __pyx_L3;
   }
 
-  /* "networkconv.pyx":999
+  /* "networkconv.pyx":995
  *                                          self.pos_padding))
  *         else:
  *             padded_sentence = sentence             # <<<<<<<<<<<<<<
@@ -33989,7 +34289,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
  *         self.convolution_lookup = np.empty((len(sentence), self.hidden_size))
  */
   /*else*/ {
-    if (!(likely(((__pyx_v_sentence) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_sentence, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 999, __pyx_L1_error)
+    if (!(likely(((__pyx_v_sentence) == Py_None) || likely(__Pyx_TypeTest(__pyx_v_sentence, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 995, __pyx_L1_error)
     __pyx_t_2 = __pyx_v_sentence;
     __Pyx_INCREF(__pyx_t_2);
     __pyx_v_padded_sentence = ((PyArrayObject *)__pyx_t_2);
@@ -33997,24 +34297,24 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
   }
   __pyx_L3:;
 
-  /* "networkconv.pyx":1001
+  /* "networkconv.pyx":997
  *             padded_sentence = sentence
  * 
  *         self.convolution_lookup = np.empty((len(sentence), self.hidden_size))             # <<<<<<<<<<<<<<
  *         #print(len(sentence), self.hidden_size, len(self.convolution_lookup[0]))
  * 
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1001, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 997, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_empty); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 1001, __pyx_L1_error)
+  __pyx_t_3 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_empty); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 997, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
   __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-  __pyx_t_6 = PyObject_Length(__pyx_v_sentence); if (unlikely(__pyx_t_6 == ((Py_ssize_t)-1))) __PYX_ERR(1, 1001, __pyx_L1_error)
-  __pyx_t_4 = PyInt_FromSsize_t(__pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1001, __pyx_L1_error)
+  __pyx_t_6 = PyObject_Length(__pyx_v_sentence); if (unlikely(__pyx_t_6 == ((Py_ssize_t)-1))) __PYX_ERR(1, 997, __pyx_L1_error)
+  __pyx_t_4 = PyInt_FromSsize_t(__pyx_t_6); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 997, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
-  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.hidden_size); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 1001, __pyx_L1_error)
+  __pyx_t_5 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.hidden_size); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 997, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_5);
-  __pyx_t_7 = PyTuple_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1001, __pyx_L1_error)
+  __pyx_t_7 = PyTuple_New(2); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 997, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_GIVEREF(__pyx_t_4);
   PyTuple_SET_ITEM(__pyx_t_7, 0, __pyx_t_4);
@@ -34035,54 +34335,54 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
   __pyx_t_2 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_3, __pyx_t_5, __pyx_t_7) : __Pyx_PyObject_CallOneArg(__pyx_t_3, __pyx_t_7);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 1001, __pyx_L1_error)
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 997, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 1001, __pyx_L1_error)
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 997, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_2);
   __Pyx_GOTREF(__pyx_v_self->convolution_lookup);
   __Pyx_DECREF(((PyObject *)__pyx_v_self->convolution_lookup));
   __pyx_v_self->convolution_lookup = ((PyArrayObject *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "networkconv.pyx":1005
+  /* "networkconv.pyx":1001
  * 
  *         # first window
  *         cdef np.ndarray window = padded_sentence[:self.word_window_size]             # <<<<<<<<<<<<<<
  *         cdef np.ndarray input_data
  *         input_data = np.concatenate(
  */
-  __pyx_t_2 = __Pyx_PyObject_GetSlice(((PyObject *)__pyx_v_padded_sentence), 0, __pyx_v_self->__pyx_base.word_window_size, NULL, NULL, NULL, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 1005, __pyx_L1_error)
+  __pyx_t_2 = __Pyx_PyObject_GetSlice(((PyObject *)__pyx_v_padded_sentence), 0, __pyx_v_self->__pyx_base.word_window_size, NULL, NULL, NULL, 0, 1, 1); if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 1001, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 1005, __pyx_L1_error)
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 1001, __pyx_L1_error)
   __pyx_v_window = ((PyArrayObject *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "networkconv.pyx":1007
+  /* "networkconv.pyx":1003
  *         cdef np.ndarray window = padded_sentence[:self.word_window_size]
  *         cdef np.ndarray input_data
  *         input_data = np.concatenate(             # <<<<<<<<<<<<<<
  *                                     [table[index]
  *                                      for token_indices in window
  */
-  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 1007, __pyx_L1_error)
+  __Pyx_GetModuleGlobalName(__pyx_t_3, __pyx_n_s_np); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 1003, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_3);
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_concatenate); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1007, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(__pyx_t_3, __pyx_n_s_concatenate); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1003, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   { /* enter inner scope */
 
-    /* "networkconv.pyx":1008
+    /* "networkconv.pyx":1004
  *         cdef np.ndarray input_data
  *         input_data = np.concatenate(
  *                                     [table[index]             # <<<<<<<<<<<<<<
  *                                      for token_indices in window
  *                                      for index, table in zip(token_indices,
  */
-    __pyx_t_3 = PyList_New(0); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 1008, __pyx_L6_error)
+    __pyx_t_3 = PyList_New(0); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 1004, __pyx_L6_error)
     __Pyx_GOTREF(__pyx_t_3);
 
-    /* "networkconv.pyx":1009
+    /* "networkconv.pyx":1005
  *         input_data = np.concatenate(
  *                                     [table[index]
  *                                      for token_indices in window             # <<<<<<<<<<<<<<
@@ -34093,26 +34393,26 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
       __pyx_t_5 = ((PyObject *)__pyx_v_window); __Pyx_INCREF(__pyx_t_5); __pyx_t_6 = 0;
       __pyx_t_8 = NULL;
     } else {
-      __pyx_t_6 = -1; __pyx_t_5 = PyObject_GetIter(((PyObject *)__pyx_v_window)); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 1009, __pyx_L6_error)
+      __pyx_t_6 = -1; __pyx_t_5 = PyObject_GetIter(((PyObject *)__pyx_v_window)); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 1005, __pyx_L6_error)
       __Pyx_GOTREF(__pyx_t_5);
-      __pyx_t_8 = Py_TYPE(__pyx_t_5)->tp_iternext; if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 1009, __pyx_L6_error)
+      __pyx_t_8 = Py_TYPE(__pyx_t_5)->tp_iternext; if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 1005, __pyx_L6_error)
     }
     for (;;) {
       if (likely(!__pyx_t_8)) {
         if (likely(PyList_CheckExact(__pyx_t_5))) {
           if (__pyx_t_6 >= PyList_GET_SIZE(__pyx_t_5)) break;
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_4 = PyList_GET_ITEM(__pyx_t_5, __pyx_t_6); __Pyx_INCREF(__pyx_t_4); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 1009, __pyx_L6_error)
+          __pyx_t_4 = PyList_GET_ITEM(__pyx_t_5, __pyx_t_6); __Pyx_INCREF(__pyx_t_4); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 1005, __pyx_L6_error)
           #else
-          __pyx_t_4 = PySequence_ITEM(__pyx_t_5, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1009, __pyx_L6_error)
+          __pyx_t_4 = PySequence_ITEM(__pyx_t_5, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1005, __pyx_L6_error)
           __Pyx_GOTREF(__pyx_t_4);
           #endif
         } else {
           if (__pyx_t_6 >= PyTuple_GET_SIZE(__pyx_t_5)) break;
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-          __pyx_t_4 = PyTuple_GET_ITEM(__pyx_t_5, __pyx_t_6); __Pyx_INCREF(__pyx_t_4); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 1009, __pyx_L6_error)
+          __pyx_t_4 = PyTuple_GET_ITEM(__pyx_t_5, __pyx_t_6); __Pyx_INCREF(__pyx_t_4); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 1005, __pyx_L6_error)
           #else
-          __pyx_t_4 = PySequence_ITEM(__pyx_t_5, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1009, __pyx_L6_error)
+          __pyx_t_4 = PySequence_ITEM(__pyx_t_5, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1005, __pyx_L6_error)
           __Pyx_GOTREF(__pyx_t_4);
           #endif
         }
@@ -34122,7 +34422,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
           PyObject* exc_type = PyErr_Occurred();
           if (exc_type) {
             if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-            else __PYX_ERR(1, 1009, __pyx_L6_error)
+            else __PYX_ERR(1, 1005, __pyx_L6_error)
           }
           break;
         }
@@ -34131,14 +34431,14 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
       __Pyx_XDECREF_SET(__pyx_8genexpr7__pyx_v_token_indices, __pyx_t_4);
       __pyx_t_4 = 0;
 
-      /* "networkconv.pyx":1010
+      /* "networkconv.pyx":1006
  *                                     [table[index]
  *                                      for token_indices in window
  *                                      for index, table in zip(token_indices,             # <<<<<<<<<<<<<<
  *                                                              self.feature_tables)
  *                                      ]
  */
-      __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1010, __pyx_L6_error)
+      __pyx_t_4 = PyTuple_New(2); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1006, __pyx_L6_error)
       __Pyx_GOTREF(__pyx_t_4);
       __Pyx_INCREF(__pyx_8genexpr7__pyx_v_token_indices);
       __Pyx_GIVEREF(__pyx_8genexpr7__pyx_v_token_indices);
@@ -34146,16 +34446,16 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
       __Pyx_INCREF(__pyx_v_self->__pyx_base.feature_tables);
       __Pyx_GIVEREF(__pyx_v_self->__pyx_base.feature_tables);
       PyTuple_SET_ITEM(__pyx_t_4, 1, __pyx_v_self->__pyx_base.feature_tables);
-      __pyx_t_9 = __Pyx_PyObject_Call(__pyx_builtin_zip, __pyx_t_4, NULL); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 1010, __pyx_L6_error)
+      __pyx_t_9 = __Pyx_PyObject_Call(__pyx_builtin_zip, __pyx_t_4, NULL); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 1006, __pyx_L6_error)
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
       if (likely(PyList_CheckExact(__pyx_t_9)) || PyTuple_CheckExact(__pyx_t_9)) {
         __pyx_t_4 = __pyx_t_9; __Pyx_INCREF(__pyx_t_4); __pyx_t_10 = 0;
         __pyx_t_11 = NULL;
       } else {
-        __pyx_t_10 = -1; __pyx_t_4 = PyObject_GetIter(__pyx_t_9); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1010, __pyx_L6_error)
+        __pyx_t_10 = -1; __pyx_t_4 = PyObject_GetIter(__pyx_t_9); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1006, __pyx_L6_error)
         __Pyx_GOTREF(__pyx_t_4);
-        __pyx_t_11 = Py_TYPE(__pyx_t_4)->tp_iternext; if (unlikely(!__pyx_t_11)) __PYX_ERR(1, 1010, __pyx_L6_error)
+        __pyx_t_11 = Py_TYPE(__pyx_t_4)->tp_iternext; if (unlikely(!__pyx_t_11)) __PYX_ERR(1, 1006, __pyx_L6_error)
       }
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       for (;;) {
@@ -34163,17 +34463,17 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
           if (likely(PyList_CheckExact(__pyx_t_4))) {
             if (__pyx_t_10 >= PyList_GET_SIZE(__pyx_t_4)) break;
             #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-            __pyx_t_9 = PyList_GET_ITEM(__pyx_t_4, __pyx_t_10); __Pyx_INCREF(__pyx_t_9); __pyx_t_10++; if (unlikely(0 < 0)) __PYX_ERR(1, 1010, __pyx_L6_error)
+            __pyx_t_9 = PyList_GET_ITEM(__pyx_t_4, __pyx_t_10); __Pyx_INCREF(__pyx_t_9); __pyx_t_10++; if (unlikely(0 < 0)) __PYX_ERR(1, 1006, __pyx_L6_error)
             #else
-            __pyx_t_9 = PySequence_ITEM(__pyx_t_4, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 1010, __pyx_L6_error)
+            __pyx_t_9 = PySequence_ITEM(__pyx_t_4, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 1006, __pyx_L6_error)
             __Pyx_GOTREF(__pyx_t_9);
             #endif
           } else {
             if (__pyx_t_10 >= PyTuple_GET_SIZE(__pyx_t_4)) break;
             #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-            __pyx_t_9 = PyTuple_GET_ITEM(__pyx_t_4, __pyx_t_10); __Pyx_INCREF(__pyx_t_9); __pyx_t_10++; if (unlikely(0 < 0)) __PYX_ERR(1, 1010, __pyx_L6_error)
+            __pyx_t_9 = PyTuple_GET_ITEM(__pyx_t_4, __pyx_t_10); __Pyx_INCREF(__pyx_t_9); __pyx_t_10++; if (unlikely(0 < 0)) __PYX_ERR(1, 1006, __pyx_L6_error)
             #else
-            __pyx_t_9 = PySequence_ITEM(__pyx_t_4, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 1010, __pyx_L6_error)
+            __pyx_t_9 = PySequence_ITEM(__pyx_t_4, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 1006, __pyx_L6_error)
             __Pyx_GOTREF(__pyx_t_9);
             #endif
           }
@@ -34183,7 +34483,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
             PyObject* exc_type = PyErr_Occurred();
             if (exc_type) {
               if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-              else __PYX_ERR(1, 1010, __pyx_L6_error)
+              else __PYX_ERR(1, 1006, __pyx_L6_error)
             }
             break;
           }
@@ -34195,7 +34495,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
           if (unlikely(size != 2)) {
             if (size > 2) __Pyx_RaiseTooManyValuesError(2);
             else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-            __PYX_ERR(1, 1010, __pyx_L6_error)
+            __PYX_ERR(1, 1006, __pyx_L6_error)
           }
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
           if (likely(PyTuple_CheckExact(sequence))) {
@@ -34208,15 +34508,15 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
           __Pyx_INCREF(__pyx_t_12);
           __Pyx_INCREF(__pyx_t_13);
           #else
-          __pyx_t_12 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 1010, __pyx_L6_error)
+          __pyx_t_12 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 1006, __pyx_L6_error)
           __Pyx_GOTREF(__pyx_t_12);
-          __pyx_t_13 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 1010, __pyx_L6_error)
+          __pyx_t_13 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 1006, __pyx_L6_error)
           __Pyx_GOTREF(__pyx_t_13);
           #endif
           __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
         } else {
           Py_ssize_t index = -1;
-          __pyx_t_14 = PyObject_GetIter(__pyx_t_9); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 1010, __pyx_L6_error)
+          __pyx_t_14 = PyObject_GetIter(__pyx_t_9); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 1006, __pyx_L6_error)
           __Pyx_GOTREF(__pyx_t_14);
           __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
           __pyx_t_15 = Py_TYPE(__pyx_t_14)->tp_iternext;
@@ -34224,7 +34524,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
           __Pyx_GOTREF(__pyx_t_12);
           index = 1; __pyx_t_13 = __pyx_t_15(__pyx_t_14); if (unlikely(!__pyx_t_13)) goto __pyx_L11_unpacking_failed;
           __Pyx_GOTREF(__pyx_t_13);
-          if (__Pyx_IternextUnpackEndCheck(__pyx_t_15(__pyx_t_14), 2) < 0) __PYX_ERR(1, 1010, __pyx_L6_error)
+          if (__Pyx_IternextUnpackEndCheck(__pyx_t_15(__pyx_t_14), 2) < 0) __PYX_ERR(1, 1006, __pyx_L6_error)
           __pyx_t_15 = NULL;
           __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
           goto __pyx_L12_unpacking_done;
@@ -34232,7 +34532,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
           __Pyx_DECREF(__pyx_t_14); __pyx_t_14 = 0;
           __pyx_t_15 = NULL;
           if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-          __PYX_ERR(1, 1010, __pyx_L6_error)
+          __PYX_ERR(1, 1006, __pyx_L6_error)
           __pyx_L12_unpacking_done:;
         }
         __Pyx_XDECREF_SET(__pyx_8genexpr7__pyx_v_index, __pyx_t_12);
@@ -34240,19 +34540,19 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
         __Pyx_XDECREF_SET(__pyx_8genexpr7__pyx_v_table, __pyx_t_13);
         __pyx_t_13 = 0;
 
-        /* "networkconv.pyx":1008
+        /* "networkconv.pyx":1004
  *         cdef np.ndarray input_data
  *         input_data = np.concatenate(
  *                                     [table[index]             # <<<<<<<<<<<<<<
  *                                      for token_indices in window
  *                                      for index, table in zip(token_indices,
  */
-        __pyx_t_9 = __Pyx_PyObject_GetItem(__pyx_8genexpr7__pyx_v_table, __pyx_8genexpr7__pyx_v_index); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 1008, __pyx_L6_error)
+        __pyx_t_9 = __Pyx_PyObject_GetItem(__pyx_8genexpr7__pyx_v_table, __pyx_8genexpr7__pyx_v_index); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 1004, __pyx_L6_error)
         __Pyx_GOTREF(__pyx_t_9);
-        if (unlikely(__Pyx_ListComp_Append(__pyx_t_3, (PyObject*)__pyx_t_9))) __PYX_ERR(1, 1008, __pyx_L6_error)
+        if (unlikely(__Pyx_ListComp_Append(__pyx_t_3, (PyObject*)__pyx_t_9))) __PYX_ERR(1, 1004, __pyx_L6_error)
         __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
 
-        /* "networkconv.pyx":1010
+        /* "networkconv.pyx":1006
  *                                     [table[index]
  *                                      for token_indices in window
  *                                      for index, table in zip(token_indices,             # <<<<<<<<<<<<<<
@@ -34262,7 +34562,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
       }
       __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-      /* "networkconv.pyx":1009
+      /* "networkconv.pyx":1005
  *         input_data = np.concatenate(
  *                                     [table[index]
  *                                      for token_indices in window             # <<<<<<<<<<<<<<
@@ -34295,29 +34595,29 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
   __pyx_t_2 = (__pyx_t_5) ? __Pyx_PyObject_Call2Args(__pyx_t_7, __pyx_t_5, __pyx_t_3) : __Pyx_PyObject_CallOneArg(__pyx_t_7, __pyx_t_3);
   __Pyx_XDECREF(__pyx_t_5); __pyx_t_5 = 0;
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 1007, __pyx_L1_error)
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 1003, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-  /* "networkconv.pyx":1007
+  /* "networkconv.pyx":1003
  *         cdef np.ndarray window = padded_sentence[:self.word_window_size]
  *         cdef np.ndarray input_data
  *         input_data = np.concatenate(             # <<<<<<<<<<<<<<
  *                                     [table[index]
  *                                      for token_indices in window
  */
-  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 1007, __pyx_L1_error)
+  if (!(likely(((__pyx_t_2) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_2, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 1003, __pyx_L1_error)
   __pyx_v_input_data = ((PyArrayObject *)__pyx_t_2);
   __pyx_t_2 = 0;
 
-  /* "networkconv.pyx":1014
+  /* "networkconv.pyx":1010
  *                                      ]
  *                                     )
  *         self.convolution_lookup[0] = self.hidden_weights.dot(input_data)             # <<<<<<<<<<<<<<
  *         if training:
  *             # store the values of each input -- needed when adjusting features
  */
-  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->__pyx_base.hidden_weights), __pyx_n_s_dot); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1014, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->__pyx_base.hidden_weights), __pyx_n_s_dot); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1010, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   __pyx_t_3 = NULL;
   if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_7))) {
@@ -34331,32 +34631,32 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
   }
   __pyx_t_2 = (__pyx_t_3) ? __Pyx_PyObject_Call2Args(__pyx_t_7, __pyx_t_3, ((PyObject *)__pyx_v_input_data)) : __Pyx_PyObject_CallOneArg(__pyx_t_7, ((PyObject *)__pyx_v_input_data));
   __Pyx_XDECREF(__pyx_t_3); __pyx_t_3 = 0;
-  if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 1014, __pyx_L1_error)
+  if (unlikely(!__pyx_t_2)) __PYX_ERR(1, 1010, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
-  if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_v_self->convolution_lookup), 0, __pyx_t_2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1) < 0)) __PYX_ERR(1, 1014, __pyx_L1_error)
+  if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_v_self->convolution_lookup), 0, __pyx_t_2, long, 1, __Pyx_PyInt_From_long, 0, 0, 1) < 0)) __PYX_ERR(1, 1010, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "networkconv.pyx":1015
+  /* "networkconv.pyx":1011
  *                                     )
  *         self.convolution_lookup[0] = self.hidden_weights.dot(input_data)
  *         if training:             # <<<<<<<<<<<<<<
  *             # store the values of each input -- needed when adjusting features
  *             self.input_sent_values[0] = input_data
  */
-  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_training); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(1, 1015, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_training); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(1, 1011, __pyx_L1_error)
   if (__pyx_t_1) {
 
-    /* "networkconv.pyx":1017
+    /* "networkconv.pyx":1013
  *         if training:
  *             # store the values of each input -- needed when adjusting features
  *             self.input_sent_values[0] = input_data             # <<<<<<<<<<<<<<
  * 
  *         cdef np.ndarray[FLOAT_t, ndim=1] new_data
  */
-    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_v_self->__pyx_base.input_sent_values), 0, ((PyObject *)__pyx_v_input_data), long, 1, __Pyx_PyInt_From_long, 0, 0, 1) < 0)) __PYX_ERR(1, 1017, __pyx_L1_error)
+    if (unlikely(__Pyx_SetItemInt(((PyObject *)__pyx_v_self->__pyx_base.input_sent_values), 0, ((PyObject *)__pyx_v_input_data), long, 1, __Pyx_PyInt_From_long, 0, 0, 1) < 0)) __PYX_ERR(1, 1013, __pyx_L1_error)
 
-    /* "networkconv.pyx":1015
+    /* "networkconv.pyx":1011
  *                                     )
  *         self.convolution_lookup[0] = self.hidden_weights.dot(input_data)
  *         if training:             # <<<<<<<<<<<<<<
@@ -34365,7 +34665,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
  */
   }
 
-  /* "networkconv.pyx":1020
+  /* "networkconv.pyx":1016
  * 
  *         cdef np.ndarray[FLOAT_t, ndim=1] new_data
  *         for i, element in enumerate(padded_sentence[self.word_window_size:], 1):             # <<<<<<<<<<<<<<
@@ -34374,15 +34674,15 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
  */
   __Pyx_INCREF(__pyx_int_1);
   __pyx_t_2 = __pyx_int_1;
-  __pyx_t_7 = __Pyx_PyObject_GetSlice(((PyObject *)__pyx_v_padded_sentence), __pyx_v_self->__pyx_base.word_window_size, 0, NULL, NULL, NULL, 1, 0, 1); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1020, __pyx_L1_error)
+  __pyx_t_7 = __Pyx_PyObject_GetSlice(((PyObject *)__pyx_v_padded_sentence), __pyx_v_self->__pyx_base.word_window_size, 0, NULL, NULL, NULL, 1, 0, 1); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1016, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_7);
   if (likely(PyList_CheckExact(__pyx_t_7)) || PyTuple_CheckExact(__pyx_t_7)) {
     __pyx_t_3 = __pyx_t_7; __Pyx_INCREF(__pyx_t_3); __pyx_t_6 = 0;
     __pyx_t_8 = NULL;
   } else {
-    __pyx_t_6 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_t_7); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 1020, __pyx_L1_error)
+    __pyx_t_6 = -1; __pyx_t_3 = PyObject_GetIter(__pyx_t_7); if (unlikely(!__pyx_t_3)) __PYX_ERR(1, 1016, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_3);
-    __pyx_t_8 = Py_TYPE(__pyx_t_3)->tp_iternext; if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 1020, __pyx_L1_error)
+    __pyx_t_8 = Py_TYPE(__pyx_t_3)->tp_iternext; if (unlikely(!__pyx_t_8)) __PYX_ERR(1, 1016, __pyx_L1_error)
   }
   __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
   for (;;) {
@@ -34390,17 +34690,17 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
       if (likely(PyList_CheckExact(__pyx_t_3))) {
         if (__pyx_t_6 >= PyList_GET_SIZE(__pyx_t_3)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_7 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_6); __Pyx_INCREF(__pyx_t_7); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 1020, __pyx_L1_error)
+        __pyx_t_7 = PyList_GET_ITEM(__pyx_t_3, __pyx_t_6); __Pyx_INCREF(__pyx_t_7); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 1016, __pyx_L1_error)
         #else
-        __pyx_t_7 = PySequence_ITEM(__pyx_t_3, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1020, __pyx_L1_error)
+        __pyx_t_7 = PySequence_ITEM(__pyx_t_3, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1016, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
         #endif
       } else {
         if (__pyx_t_6 >= PyTuple_GET_SIZE(__pyx_t_3)) break;
         #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-        __pyx_t_7 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_6); __Pyx_INCREF(__pyx_t_7); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 1020, __pyx_L1_error)
+        __pyx_t_7 = PyTuple_GET_ITEM(__pyx_t_3, __pyx_t_6); __Pyx_INCREF(__pyx_t_7); __pyx_t_6++; if (unlikely(0 < 0)) __PYX_ERR(1, 1016, __pyx_L1_error)
         #else
-        __pyx_t_7 = PySequence_ITEM(__pyx_t_3, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1020, __pyx_L1_error)
+        __pyx_t_7 = PySequence_ITEM(__pyx_t_3, __pyx_t_6); __pyx_t_6++; if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1016, __pyx_L1_error)
         __Pyx_GOTREF(__pyx_t_7);
         #endif
       }
@@ -34410,7 +34710,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
         PyObject* exc_type = PyErr_Occurred();
         if (exc_type) {
           if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-          else __PYX_ERR(1, 1020, __pyx_L1_error)
+          else __PYX_ERR(1, 1016, __pyx_L1_error)
         }
         break;
       }
@@ -34420,36 +34720,36 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
     __pyx_t_7 = 0;
     __Pyx_INCREF(__pyx_t_2);
     __Pyx_XDECREF_SET(__pyx_v_i, __pyx_t_2);
-    __pyx_t_7 = __Pyx_PyInt_AddObjC(__pyx_t_2, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1020, __pyx_L1_error)
+    __pyx_t_7 = __Pyx_PyInt_AddObjC(__pyx_t_2, __pyx_int_1, 1, 0, 0); if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1016, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_2);
     __pyx_t_2 = __pyx_t_7;
     __pyx_t_7 = 0;
 
-    /* "networkconv.pyx":1021
+    /* "networkconv.pyx":1017
  *         cdef np.ndarray[FLOAT_t, ndim=1] new_data
  *         for i, element in enumerate(padded_sentence[self.word_window_size:], 1):
  *             new_data = np.concatenate([table[index] for             # <<<<<<<<<<<<<<
  *                                        index, table in zip(element, self.feature_tables)])
  * 
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 1021, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 1017, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
-    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_concatenate); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1021, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetAttrStr(__pyx_t_5, __pyx_n_s_concatenate); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1017, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
     { /* enter inner scope */
-      __pyx_t_5 = PyList_New(0); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 1021, __pyx_L19_error)
+      __pyx_t_5 = PyList_New(0); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 1017, __pyx_L19_error)
       __Pyx_GOTREF(__pyx_t_5);
 
-      /* "networkconv.pyx":1022
+      /* "networkconv.pyx":1018
  *         for i, element in enumerate(padded_sentence[self.word_window_size:], 1):
  *             new_data = np.concatenate([table[index] for
  *                                        index, table in zip(element, self.feature_tables)])             # <<<<<<<<<<<<<<
  * 
  *             # slide the window to the next element
  */
-      __pyx_t_9 = PyTuple_New(2); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 1022, __pyx_L19_error)
+      __pyx_t_9 = PyTuple_New(2); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 1018, __pyx_L19_error)
       __Pyx_GOTREF(__pyx_t_9);
       __Pyx_INCREF(__pyx_v_element);
       __Pyx_GIVEREF(__pyx_v_element);
@@ -34457,16 +34757,16 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
       __Pyx_INCREF(__pyx_v_self->__pyx_base.feature_tables);
       __Pyx_GIVEREF(__pyx_v_self->__pyx_base.feature_tables);
       PyTuple_SET_ITEM(__pyx_t_9, 1, __pyx_v_self->__pyx_base.feature_tables);
-      __pyx_t_13 = __Pyx_PyObject_Call(__pyx_builtin_zip, __pyx_t_9, NULL); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 1022, __pyx_L19_error)
+      __pyx_t_13 = __Pyx_PyObject_Call(__pyx_builtin_zip, __pyx_t_9, NULL); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 1018, __pyx_L19_error)
       __Pyx_GOTREF(__pyx_t_13);
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
       if (likely(PyList_CheckExact(__pyx_t_13)) || PyTuple_CheckExact(__pyx_t_13)) {
         __pyx_t_9 = __pyx_t_13; __Pyx_INCREF(__pyx_t_9); __pyx_t_10 = 0;
         __pyx_t_11 = NULL;
       } else {
-        __pyx_t_10 = -1; __pyx_t_9 = PyObject_GetIter(__pyx_t_13); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 1022, __pyx_L19_error)
+        __pyx_t_10 = -1; __pyx_t_9 = PyObject_GetIter(__pyx_t_13); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 1018, __pyx_L19_error)
         __Pyx_GOTREF(__pyx_t_9);
-        __pyx_t_11 = Py_TYPE(__pyx_t_9)->tp_iternext; if (unlikely(!__pyx_t_11)) __PYX_ERR(1, 1022, __pyx_L19_error)
+        __pyx_t_11 = Py_TYPE(__pyx_t_9)->tp_iternext; if (unlikely(!__pyx_t_11)) __PYX_ERR(1, 1018, __pyx_L19_error)
       }
       __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
       for (;;) {
@@ -34474,17 +34774,17 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
           if (likely(PyList_CheckExact(__pyx_t_9))) {
             if (__pyx_t_10 >= PyList_GET_SIZE(__pyx_t_9)) break;
             #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-            __pyx_t_13 = PyList_GET_ITEM(__pyx_t_9, __pyx_t_10); __Pyx_INCREF(__pyx_t_13); __pyx_t_10++; if (unlikely(0 < 0)) __PYX_ERR(1, 1022, __pyx_L19_error)
+            __pyx_t_13 = PyList_GET_ITEM(__pyx_t_9, __pyx_t_10); __Pyx_INCREF(__pyx_t_13); __pyx_t_10++; if (unlikely(0 < 0)) __PYX_ERR(1, 1018, __pyx_L19_error)
             #else
-            __pyx_t_13 = PySequence_ITEM(__pyx_t_9, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 1022, __pyx_L19_error)
+            __pyx_t_13 = PySequence_ITEM(__pyx_t_9, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 1018, __pyx_L19_error)
             __Pyx_GOTREF(__pyx_t_13);
             #endif
           } else {
             if (__pyx_t_10 >= PyTuple_GET_SIZE(__pyx_t_9)) break;
             #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
-            __pyx_t_13 = PyTuple_GET_ITEM(__pyx_t_9, __pyx_t_10); __Pyx_INCREF(__pyx_t_13); __pyx_t_10++; if (unlikely(0 < 0)) __PYX_ERR(1, 1022, __pyx_L19_error)
+            __pyx_t_13 = PyTuple_GET_ITEM(__pyx_t_9, __pyx_t_10); __Pyx_INCREF(__pyx_t_13); __pyx_t_10++; if (unlikely(0 < 0)) __PYX_ERR(1, 1018, __pyx_L19_error)
             #else
-            __pyx_t_13 = PySequence_ITEM(__pyx_t_9, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 1022, __pyx_L19_error)
+            __pyx_t_13 = PySequence_ITEM(__pyx_t_9, __pyx_t_10); __pyx_t_10++; if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 1018, __pyx_L19_error)
             __Pyx_GOTREF(__pyx_t_13);
             #endif
           }
@@ -34494,7 +34794,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
             PyObject* exc_type = PyErr_Occurred();
             if (exc_type) {
               if (likely(__Pyx_PyErr_GivenExceptionMatches(exc_type, PyExc_StopIteration))) PyErr_Clear();
-              else __PYX_ERR(1, 1022, __pyx_L19_error)
+              else __PYX_ERR(1, 1018, __pyx_L19_error)
             }
             break;
           }
@@ -34506,7 +34806,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
           if (unlikely(size != 2)) {
             if (size > 2) __Pyx_RaiseTooManyValuesError(2);
             else if (size >= 0) __Pyx_RaiseNeedMoreValuesError(size);
-            __PYX_ERR(1, 1022, __pyx_L19_error)
+            __PYX_ERR(1, 1018, __pyx_L19_error)
           }
           #if CYTHON_ASSUME_SAFE_MACROS && !CYTHON_AVOID_BORROWED_REFS
           if (likely(PyTuple_CheckExact(sequence))) {
@@ -34519,15 +34819,15 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
           __Pyx_INCREF(__pyx_t_12);
           __Pyx_INCREF(__pyx_t_14);
           #else
-          __pyx_t_12 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 1022, __pyx_L19_error)
+          __pyx_t_12 = PySequence_ITEM(sequence, 0); if (unlikely(!__pyx_t_12)) __PYX_ERR(1, 1018, __pyx_L19_error)
           __Pyx_GOTREF(__pyx_t_12);
-          __pyx_t_14 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 1022, __pyx_L19_error)
+          __pyx_t_14 = PySequence_ITEM(sequence, 1); if (unlikely(!__pyx_t_14)) __PYX_ERR(1, 1018, __pyx_L19_error)
           __Pyx_GOTREF(__pyx_t_14);
           #endif
           __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
         } else {
           Py_ssize_t index = -1;
-          __pyx_t_16 = PyObject_GetIter(__pyx_t_13); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 1022, __pyx_L19_error)
+          __pyx_t_16 = PyObject_GetIter(__pyx_t_13); if (unlikely(!__pyx_t_16)) __PYX_ERR(1, 1018, __pyx_L19_error)
           __Pyx_GOTREF(__pyx_t_16);
           __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
           __pyx_t_15 = Py_TYPE(__pyx_t_16)->tp_iternext;
@@ -34535,7 +34835,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
           __Pyx_GOTREF(__pyx_t_12);
           index = 1; __pyx_t_14 = __pyx_t_15(__pyx_t_16); if (unlikely(!__pyx_t_14)) goto __pyx_L22_unpacking_failed;
           __Pyx_GOTREF(__pyx_t_14);
-          if (__Pyx_IternextUnpackEndCheck(__pyx_t_15(__pyx_t_16), 2) < 0) __PYX_ERR(1, 1022, __pyx_L19_error)
+          if (__Pyx_IternextUnpackEndCheck(__pyx_t_15(__pyx_t_16), 2) < 0) __PYX_ERR(1, 1018, __pyx_L19_error)
           __pyx_t_15 = NULL;
           __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
           goto __pyx_L23_unpacking_done;
@@ -34543,7 +34843,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
           __Pyx_DECREF(__pyx_t_16); __pyx_t_16 = 0;
           __pyx_t_15 = NULL;
           if (__Pyx_IterFinish() == 0) __Pyx_RaiseNeedMoreValuesError(index);
-          __PYX_ERR(1, 1022, __pyx_L19_error)
+          __PYX_ERR(1, 1018, __pyx_L19_error)
           __pyx_L23_unpacking_done:;
         }
         __Pyx_XDECREF_SET(__pyx_8genexpr8__pyx_v_index, __pyx_t_12);
@@ -34551,16 +34851,16 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
         __Pyx_XDECREF_SET(__pyx_8genexpr8__pyx_v_table, __pyx_t_14);
         __pyx_t_14 = 0;
 
-        /* "networkconv.pyx":1021
+        /* "networkconv.pyx":1017
  *         cdef np.ndarray[FLOAT_t, ndim=1] new_data
  *         for i, element in enumerate(padded_sentence[self.word_window_size:], 1):
  *             new_data = np.concatenate([table[index] for             # <<<<<<<<<<<<<<
  *                                        index, table in zip(element, self.feature_tables)])
  * 
  */
-        __pyx_t_13 = __Pyx_PyObject_GetItem(__pyx_8genexpr8__pyx_v_table, __pyx_8genexpr8__pyx_v_index); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 1021, __pyx_L19_error)
+        __pyx_t_13 = __Pyx_PyObject_GetItem(__pyx_8genexpr8__pyx_v_table, __pyx_8genexpr8__pyx_v_index); if (unlikely(!__pyx_t_13)) __PYX_ERR(1, 1017, __pyx_L19_error)
         __Pyx_GOTREF(__pyx_t_13);
-        if (unlikely(__Pyx_ListComp_Append(__pyx_t_5, (PyObject*)__pyx_t_13))) __PYX_ERR(1, 1021, __pyx_L19_error)
+        if (unlikely(__Pyx_ListComp_Append(__pyx_t_5, (PyObject*)__pyx_t_13))) __PYX_ERR(1, 1017, __pyx_L19_error)
         __Pyx_DECREF(__pyx_t_13); __pyx_t_13 = 0;
       }
       __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
@@ -34586,10 +34886,10 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
     __pyx_t_7 = (__pyx_t_9) ? __Pyx_PyObject_Call2Args(__pyx_t_4, __pyx_t_9, __pyx_t_5) : __Pyx_PyObject_CallOneArg(__pyx_t_4, __pyx_t_5);
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1021, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1017, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    if (!(likely(((__pyx_t_7) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_7, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 1021, __pyx_L1_error)
+    if (!(likely(((__pyx_t_7) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_7, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 1017, __pyx_L1_error)
     __pyx_t_17 = ((PyArrayObject *)__pyx_t_7);
     {
       __Pyx_BufFmt_StackElem __pyx_stack[1];
@@ -34606,35 +34906,35 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
         __pyx_t_19 = __pyx_t_20 = __pyx_t_21 = 0;
       }
       __pyx_pybuffernd_new_data.diminfo[0].strides = __pyx_pybuffernd_new_data.rcbuffer->pybuffer.strides[0]; __pyx_pybuffernd_new_data.diminfo[0].shape = __pyx_pybuffernd_new_data.rcbuffer->pybuffer.shape[0];
-      if (unlikely(__pyx_t_18 < 0)) __PYX_ERR(1, 1021, __pyx_L1_error)
+      if (unlikely(__pyx_t_18 < 0)) __PYX_ERR(1, 1017, __pyx_L1_error)
     }
     __pyx_t_17 = 0;
     __Pyx_XDECREF_SET(__pyx_v_new_data, ((PyArrayObject *)__pyx_t_7));
     __pyx_t_7 = 0;
 
-    /* "networkconv.pyx":1025
+    /* "networkconv.pyx":1021
  * 
  *             # slide the window to the next element
  *             input_data = np.concatenate((input_data[self.features_per_token:],             # <<<<<<<<<<<<<<
  *                                          new_data))
  * 
  */
-    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1025, __pyx_L1_error)
+    __Pyx_GetModuleGlobalName(__pyx_t_4, __pyx_n_s_np); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1021, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_concatenate); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 1025, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(__pyx_t_4, __pyx_n_s_concatenate); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 1021, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
-    __pyx_t_4 = __Pyx_PyObject_GetSlice(((PyObject *)__pyx_v_input_data), __pyx_v_self->__pyx_base.features_per_token, 0, NULL, NULL, NULL, 1, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1025, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_PyObject_GetSlice(((PyObject *)__pyx_v_input_data), __pyx_v_self->__pyx_base.features_per_token, 0, NULL, NULL, NULL, 1, 0, 1); if (unlikely(!__pyx_t_4)) __PYX_ERR(1, 1021, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
 
-    /* "networkconv.pyx":1026
+    /* "networkconv.pyx":1022
  *             # slide the window to the next element
  *             input_data = np.concatenate((input_data[self.features_per_token:],
  *                                          new_data))             # <<<<<<<<<<<<<<
  * 
  *             #print(i, input_data)
  */
-    __pyx_t_9 = PyTuple_New(2); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 1025, __pyx_L1_error)
+    __pyx_t_9 = PyTuple_New(2); if (unlikely(!__pyx_t_9)) __PYX_ERR(1, 1021, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_9);
     __Pyx_GIVEREF(__pyx_t_4);
     PyTuple_SET_ITEM(__pyx_t_9, 0, __pyx_t_4);
@@ -34655,29 +34955,29 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
     __pyx_t_7 = (__pyx_t_4) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_4, __pyx_t_9) : __Pyx_PyObject_CallOneArg(__pyx_t_5, __pyx_t_9);
     __Pyx_XDECREF(__pyx_t_4); __pyx_t_4 = 0;
     __Pyx_DECREF(__pyx_t_9); __pyx_t_9 = 0;
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1025, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1021, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "networkconv.pyx":1025
+    /* "networkconv.pyx":1021
  * 
  *             # slide the window to the next element
  *             input_data = np.concatenate((input_data[self.features_per_token:],             # <<<<<<<<<<<<<<
  *                                          new_data))
  * 
  */
-    if (!(likely(((__pyx_t_7) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_7, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 1025, __pyx_L1_error)
+    if (!(likely(((__pyx_t_7) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_7, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(1, 1021, __pyx_L1_error)
     __Pyx_DECREF_SET(__pyx_v_input_data, ((PyArrayObject *)__pyx_t_7));
     __pyx_t_7 = 0;
 
-    /* "networkconv.pyx":1029
+    /* "networkconv.pyx":1025
  * 
  *             #print(i, input_data)
  *             self.convolution_lookup[i] = self.hidden_weights.dot(input_data)             # <<<<<<<<<<<<<<
  *             if training:
  *                 self.input_sent_values[i] = input_data
  */
-    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->__pyx_base.hidden_weights), __pyx_n_s_dot); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 1029, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v_self->__pyx_base.hidden_weights), __pyx_n_s_dot); if (unlikely(!__pyx_t_5)) __PYX_ERR(1, 1025, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_9 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_5))) {
@@ -34691,31 +34991,31 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
     }
     __pyx_t_7 = (__pyx_t_9) ? __Pyx_PyObject_Call2Args(__pyx_t_5, __pyx_t_9, ((PyObject *)__pyx_v_input_data)) : __Pyx_PyObject_CallOneArg(__pyx_t_5, ((PyObject *)__pyx_v_input_data));
     __Pyx_XDECREF(__pyx_t_9); __pyx_t_9 = 0;
-    if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1029, __pyx_L1_error)
+    if (unlikely(!__pyx_t_7)) __PYX_ERR(1, 1025, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_7);
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
-    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_self->convolution_lookup), __pyx_v_i, __pyx_t_7) < 0)) __PYX_ERR(1, 1029, __pyx_L1_error)
+    if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_self->convolution_lookup), __pyx_v_i, __pyx_t_7) < 0)) __PYX_ERR(1, 1025, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_7); __pyx_t_7 = 0;
 
-    /* "networkconv.pyx":1030
+    /* "networkconv.pyx":1026
  *             #print(i, input_data)
  *             self.convolution_lookup[i] = self.hidden_weights.dot(input_data)
  *             if training:             # <<<<<<<<<<<<<<
  *                 self.input_sent_values[i] = input_data
  * 
  */
-    __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_training); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(1, 1030, __pyx_L1_error)
+    __pyx_t_1 = __Pyx_PyObject_IsTrue(__pyx_v_training); if (unlikely(__pyx_t_1 < 0)) __PYX_ERR(1, 1026, __pyx_L1_error)
     if (__pyx_t_1) {
 
-      /* "networkconv.pyx":1031
+      /* "networkconv.pyx":1027
  *             self.convolution_lookup[i] = self.hidden_weights.dot(input_data)
  *             if training:
  *                 self.input_sent_values[i] = input_data             # <<<<<<<<<<<<<<
  * 
  */
-      if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_self->__pyx_base.input_sent_values), __pyx_v_i, ((PyObject *)__pyx_v_input_data)) < 0)) __PYX_ERR(1, 1031, __pyx_L1_error)
+      if (unlikely(PyObject_SetItem(((PyObject *)__pyx_v_self->__pyx_base.input_sent_values), __pyx_v_i, ((PyObject *)__pyx_v_input_data)) < 0)) __PYX_ERR(1, 1027, __pyx_L1_error)
 
-      /* "networkconv.pyx":1030
+      /* "networkconv.pyx":1026
  *             #print(i, input_data)
  *             self.convolution_lookup[i] = self.hidden_weights.dot(input_data)
  *             if training:             # <<<<<<<<<<<<<<
@@ -34724,7 +35024,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
  */
     }
 
-    /* "networkconv.pyx":1020
+    /* "networkconv.pyx":1016
  * 
  *         cdef np.ndarray[FLOAT_t, ndim=1] new_data
  *         for i, element in enumerate(padded_sentence[self.word_window_size:], 1):             # <<<<<<<<<<<<<<
@@ -34735,7 +35035,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_54_create_convol
   __Pyx_DECREF(__pyx_t_3); __pyx_t_3 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "networkconv.pyx":984
+  /* "networkconv.pyx":980
  *         self.pred_convolution_lookup = self.pred_dist_lookup.dot(self.pred_dist_weights)
  * 
  *     def _create_convolution_lookup(self, sentence, training):             # <<<<<<<<<<<<<<
@@ -35840,7 +36140,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_56__reduce_cytho
   /* "(tree fragment)":5
  *     cdef object _dict
  *     cdef bint use_setstate
- *     state = (self.accuracy, self.answer_score, self.convolution_lookup, self.decay_factor, self.error, self.feature_tables, self.features_per_token, self.float_errors, self.half_window, self.hidden2_before_activation, self.hidden2_bias, self.hidden2_gradients, self.hidden2_size, self.hidden2_values, self.hidden2_weights, self.hidden_before_activation, self.hidden_bias, self.hidden_gradients, self.hidden_sent_values, self.hidden_size, self.hidden_values, self.hidden_weights, self.input_deltas, self.input_sent_values, self.input_size, self.input_values, self.layer2_sent_values, self.layer2_values, self.learning_rate, self.learning_rate_features, self.learning_rate_trans, self.max_indices, self.net_gradients, self.network_filename, self.network_text_filename, self.num_sentences, self.num_targets, self.num_tokens, self.output_bias, self.output_size, self.output_weights, self.padding_left, self.padding_right, self.pos_padding, self.pre_padding, self.pred_convolution_lookup, self.pred_dist_deltas, self.pred_dist_lookup, self.pred_dist_offset, self.pred_dist_table, self.pred_dist_weights, self.sentence_accuracy, self.sentence_lookup, self.skips, self.target_convolution_lookup, self.target_dist_deltas, self.target_dist_lookup, self.target_dist_offset, self.target_dist_table, self.target_dist_weights, self.trans_gradients, self.transitions, self.use_learning_rate_decay, self.validation_arguments, self.validation_predicates, self.validation_sentences, self.validation_tags, self.word_window_size)             # <<<<<<<<<<<<<<
+ *     state = (self.accuracy, self.answer_score, self.convolution_lookup, self.decay_factor, self.error, self.feature_tables, self.features_per_token, self.float_errors, self.half_window, self.hidden2_before_activation, self.hidden2_bias, self.hidden2_gradients, self.hidden2_size, self.hidden2_values, self.hidden2_weights, self.hidden_before_activation, self.hidden_bias, self.hidden_gradients, self.hidden_sent_values, self.hidden_size, self.hidden_values, self.hidden_weights, self.input_deltas, self.input_sent_values, self.input_size, self.input_values, self.layer2_sent_values, self.layer2_values, self.learning_rate, self.learning_rate_features, self.learning_rate_trans, self.max_indices, self.net_gradients, self.network_filename, self.network_text_filename, self.num_sentences, self.num_targets, self.num_tokens, self.only_classify, self.output_bias, self.output_size, self.output_weights, self.padding_left, self.padding_right, self.pos_padding, self.pre_padding, self.pred_convolution_lookup, self.pred_dist_deltas, self.pred_dist_lookup, self.pred_dist_offset, self.pred_dist_table, self.pred_dist_weights, self.sentence_accuracy, self.sentence_lookup, self.skips, self.target_convolution_lookup, self.target_dist_deltas, self.target_dist_lookup, self.target_dist_offset, self.target_dist_table, self.target_dist_weights, self.trans_gradients, self.transitions, self.use_learning_rate_decay, self.validation_arguments, self.validation_predicates, self.validation_sentences, self.validation_tags, self.word_window_size)             # <<<<<<<<<<<<<<
  *     _dict = getattr(self, '__dict__', None)
  *     if _dict is not None:
  */
@@ -35888,7 +36188,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_56__reduce_cytho
   __Pyx_GOTREF(__pyx_t_21);
   __pyx_t_22 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.word_window_size); if (unlikely(!__pyx_t_22)) __PYX_ERR(2, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_22);
-  __pyx_t_23 = PyTuple_New(68); if (unlikely(!__pyx_t_23)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __pyx_t_23 = PyTuple_New(69); if (unlikely(!__pyx_t_23)) __PYX_ERR(2, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_23);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_23, 0, __pyx_t_1);
@@ -35988,90 +36288,93 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_56__reduce_cytho
   PyTuple_SET_ITEM(__pyx_t_23, 36, __pyx_t_15);
   __Pyx_GIVEREF(__pyx_t_16);
   PyTuple_SET_ITEM(__pyx_t_23, 37, __pyx_t_16);
+  __Pyx_INCREF(((PyObject *)__pyx_v_self->only_classify));
+  __Pyx_GIVEREF(((PyObject *)__pyx_v_self->only_classify));
+  PyTuple_SET_ITEM(__pyx_t_23, 38, ((PyObject *)__pyx_v_self->only_classify));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.output_bias));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.output_bias));
-  PyTuple_SET_ITEM(__pyx_t_23, 38, ((PyObject *)__pyx_v_self->__pyx_base.output_bias));
+  PyTuple_SET_ITEM(__pyx_t_23, 39, ((PyObject *)__pyx_v_self->__pyx_base.output_bias));
   __Pyx_GIVEREF(__pyx_t_17);
-  PyTuple_SET_ITEM(__pyx_t_23, 39, __pyx_t_17);
+  PyTuple_SET_ITEM(__pyx_t_23, 40, __pyx_t_17);
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.output_weights));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.output_weights));
-  PyTuple_SET_ITEM(__pyx_t_23, 40, ((PyObject *)__pyx_v_self->__pyx_base.output_weights));
+  PyTuple_SET_ITEM(__pyx_t_23, 41, ((PyObject *)__pyx_v_self->__pyx_base.output_weights));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.padding_left));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.padding_left));
-  PyTuple_SET_ITEM(__pyx_t_23, 41, ((PyObject *)__pyx_v_self->__pyx_base.padding_left));
+  PyTuple_SET_ITEM(__pyx_t_23, 42, ((PyObject *)__pyx_v_self->__pyx_base.padding_left));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.padding_right));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.padding_right));
-  PyTuple_SET_ITEM(__pyx_t_23, 42, ((PyObject *)__pyx_v_self->__pyx_base.padding_right));
+  PyTuple_SET_ITEM(__pyx_t_23, 43, ((PyObject *)__pyx_v_self->__pyx_base.padding_right));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.pos_padding));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.pos_padding));
-  PyTuple_SET_ITEM(__pyx_t_23, 43, ((PyObject *)__pyx_v_self->__pyx_base.pos_padding));
+  PyTuple_SET_ITEM(__pyx_t_23, 44, ((PyObject *)__pyx_v_self->__pyx_base.pos_padding));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.pre_padding));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.pre_padding));
-  PyTuple_SET_ITEM(__pyx_t_23, 44, ((PyObject *)__pyx_v_self->__pyx_base.pre_padding));
+  PyTuple_SET_ITEM(__pyx_t_23, 45, ((PyObject *)__pyx_v_self->__pyx_base.pre_padding));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->pred_convolution_lookup));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->pred_convolution_lookup));
-  PyTuple_SET_ITEM(__pyx_t_23, 45, ((PyObject *)__pyx_v_self->pred_convolution_lookup));
+  PyTuple_SET_ITEM(__pyx_t_23, 46, ((PyObject *)__pyx_v_self->pred_convolution_lookup));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->pred_dist_deltas));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->pred_dist_deltas));
-  PyTuple_SET_ITEM(__pyx_t_23, 46, ((PyObject *)__pyx_v_self->pred_dist_deltas));
+  PyTuple_SET_ITEM(__pyx_t_23, 47, ((PyObject *)__pyx_v_self->pred_dist_deltas));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->pred_dist_lookup));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->pred_dist_lookup));
-  PyTuple_SET_ITEM(__pyx_t_23, 47, ((PyObject *)__pyx_v_self->pred_dist_lookup));
+  PyTuple_SET_ITEM(__pyx_t_23, 48, ((PyObject *)__pyx_v_self->pred_dist_lookup));
   __Pyx_GIVEREF(__pyx_t_18);
-  PyTuple_SET_ITEM(__pyx_t_23, 48, __pyx_t_18);
+  PyTuple_SET_ITEM(__pyx_t_23, 49, __pyx_t_18);
   __Pyx_INCREF(((PyObject *)__pyx_v_self->pred_dist_table));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->pred_dist_table));
-  PyTuple_SET_ITEM(__pyx_t_23, 49, ((PyObject *)__pyx_v_self->pred_dist_table));
+  PyTuple_SET_ITEM(__pyx_t_23, 50, ((PyObject *)__pyx_v_self->pred_dist_table));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->pred_dist_weights));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->pred_dist_weights));
-  PyTuple_SET_ITEM(__pyx_t_23, 50, ((PyObject *)__pyx_v_self->pred_dist_weights));
+  PyTuple_SET_ITEM(__pyx_t_23, 51, ((PyObject *)__pyx_v_self->pred_dist_weights));
   __Pyx_GIVEREF(__pyx_t_19);
-  PyTuple_SET_ITEM(__pyx_t_23, 51, __pyx_t_19);
+  PyTuple_SET_ITEM(__pyx_t_23, 52, __pyx_t_19);
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.sentence_lookup));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.sentence_lookup));
-  PyTuple_SET_ITEM(__pyx_t_23, 52, ((PyObject *)__pyx_v_self->__pyx_base.sentence_lookup));
+  PyTuple_SET_ITEM(__pyx_t_23, 53, ((PyObject *)__pyx_v_self->__pyx_base.sentence_lookup));
   __Pyx_GIVEREF(__pyx_t_20);
-  PyTuple_SET_ITEM(__pyx_t_23, 53, __pyx_t_20);
+  PyTuple_SET_ITEM(__pyx_t_23, 54, __pyx_t_20);
   __Pyx_INCREF(((PyObject *)__pyx_v_self->target_convolution_lookup));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->target_convolution_lookup));
-  PyTuple_SET_ITEM(__pyx_t_23, 54, ((PyObject *)__pyx_v_self->target_convolution_lookup));
+  PyTuple_SET_ITEM(__pyx_t_23, 55, ((PyObject *)__pyx_v_self->target_convolution_lookup));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->target_dist_deltas));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->target_dist_deltas));
-  PyTuple_SET_ITEM(__pyx_t_23, 55, ((PyObject *)__pyx_v_self->target_dist_deltas));
+  PyTuple_SET_ITEM(__pyx_t_23, 56, ((PyObject *)__pyx_v_self->target_dist_deltas));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->target_dist_lookup));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->target_dist_lookup));
-  PyTuple_SET_ITEM(__pyx_t_23, 56, ((PyObject *)__pyx_v_self->target_dist_lookup));
+  PyTuple_SET_ITEM(__pyx_t_23, 57, ((PyObject *)__pyx_v_self->target_dist_lookup));
   __Pyx_GIVEREF(__pyx_t_21);
-  PyTuple_SET_ITEM(__pyx_t_23, 57, __pyx_t_21);
+  PyTuple_SET_ITEM(__pyx_t_23, 58, __pyx_t_21);
   __Pyx_INCREF(((PyObject *)__pyx_v_self->target_dist_table));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->target_dist_table));
-  PyTuple_SET_ITEM(__pyx_t_23, 58, ((PyObject *)__pyx_v_self->target_dist_table));
+  PyTuple_SET_ITEM(__pyx_t_23, 59, ((PyObject *)__pyx_v_self->target_dist_table));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->target_dist_weights));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->target_dist_weights));
-  PyTuple_SET_ITEM(__pyx_t_23, 59, ((PyObject *)__pyx_v_self->target_dist_weights));
+  PyTuple_SET_ITEM(__pyx_t_23, 60, ((PyObject *)__pyx_v_self->target_dist_weights));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.trans_gradients));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.trans_gradients));
-  PyTuple_SET_ITEM(__pyx_t_23, 60, ((PyObject *)__pyx_v_self->__pyx_base.trans_gradients));
+  PyTuple_SET_ITEM(__pyx_t_23, 61, ((PyObject *)__pyx_v_self->__pyx_base.trans_gradients));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.transitions));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.transitions));
-  PyTuple_SET_ITEM(__pyx_t_23, 61, ((PyObject *)__pyx_v_self->__pyx_base.transitions));
+  PyTuple_SET_ITEM(__pyx_t_23, 62, ((PyObject *)__pyx_v_self->__pyx_base.transitions));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.use_learning_rate_decay));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.use_learning_rate_decay));
-  PyTuple_SET_ITEM(__pyx_t_23, 62, ((PyObject *)__pyx_v_self->__pyx_base.use_learning_rate_decay));
+  PyTuple_SET_ITEM(__pyx_t_23, 63, ((PyObject *)__pyx_v_self->__pyx_base.use_learning_rate_decay));
   __Pyx_INCREF(__pyx_v_self->validation_arguments);
   __Pyx_GIVEREF(__pyx_v_self->validation_arguments);
-  PyTuple_SET_ITEM(__pyx_t_23, 63, __pyx_v_self->validation_arguments);
+  PyTuple_SET_ITEM(__pyx_t_23, 64, __pyx_v_self->validation_arguments);
   __Pyx_INCREF(__pyx_v_self->validation_predicates);
   __Pyx_GIVEREF(__pyx_v_self->validation_predicates);
-  PyTuple_SET_ITEM(__pyx_t_23, 64, __pyx_v_self->validation_predicates);
+  PyTuple_SET_ITEM(__pyx_t_23, 65, __pyx_v_self->validation_predicates);
   __Pyx_INCREF(__pyx_v_self->__pyx_base.validation_sentences);
   __Pyx_GIVEREF(__pyx_v_self->__pyx_base.validation_sentences);
-  PyTuple_SET_ITEM(__pyx_t_23, 65, __pyx_v_self->__pyx_base.validation_sentences);
+  PyTuple_SET_ITEM(__pyx_t_23, 66, __pyx_v_self->__pyx_base.validation_sentences);
   __Pyx_INCREF(__pyx_v_self->__pyx_base.validation_tags);
   __Pyx_GIVEREF(__pyx_v_self->__pyx_base.validation_tags);
-  PyTuple_SET_ITEM(__pyx_t_23, 66, __pyx_v_self->__pyx_base.validation_tags);
+  PyTuple_SET_ITEM(__pyx_t_23, 67, __pyx_v_self->__pyx_base.validation_tags);
   __Pyx_GIVEREF(__pyx_t_22);
-  PyTuple_SET_ITEM(__pyx_t_23, 67, __pyx_t_22);
+  PyTuple_SET_ITEM(__pyx_t_23, 68, __pyx_t_22);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
   __pyx_t_3 = 0;
@@ -36099,7 +36402,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_56__reduce_cytho
 
   /* "(tree fragment)":6
  *     cdef bint use_setstate
- *     state = (self.accuracy, self.answer_score, self.convolution_lookup, self.decay_factor, self.error, self.feature_tables, self.features_per_token, self.float_errors, self.half_window, self.hidden2_before_activation, self.hidden2_bias, self.hidden2_gradients, self.hidden2_size, self.hidden2_values, self.hidden2_weights, self.hidden_before_activation, self.hidden_bias, self.hidden_gradients, self.hidden_sent_values, self.hidden_size, self.hidden_values, self.hidden_weights, self.input_deltas, self.input_sent_values, self.input_size, self.input_values, self.layer2_sent_values, self.layer2_values, self.learning_rate, self.learning_rate_features, self.learning_rate_trans, self.max_indices, self.net_gradients, self.network_filename, self.network_text_filename, self.num_sentences, self.num_targets, self.num_tokens, self.output_bias, self.output_size, self.output_weights, self.padding_left, self.padding_right, self.pos_padding, self.pre_padding, self.pred_convolution_lookup, self.pred_dist_deltas, self.pred_dist_lookup, self.pred_dist_offset, self.pred_dist_table, self.pred_dist_weights, self.sentence_accuracy, self.sentence_lookup, self.skips, self.target_convolution_lookup, self.target_dist_deltas, self.target_dist_lookup, self.target_dist_offset, self.target_dist_table, self.target_dist_weights, self.trans_gradients, self.transitions, self.use_learning_rate_decay, self.validation_arguments, self.validation_predicates, self.validation_sentences, self.validation_tags, self.word_window_size)
+ *     state = (self.accuracy, self.answer_score, self.convolution_lookup, self.decay_factor, self.error, self.feature_tables, self.features_per_token, self.float_errors, self.half_window, self.hidden2_before_activation, self.hidden2_bias, self.hidden2_gradients, self.hidden2_size, self.hidden2_values, self.hidden2_weights, self.hidden_before_activation, self.hidden_bias, self.hidden_gradients, self.hidden_sent_values, self.hidden_size, self.hidden_values, self.hidden_weights, self.input_deltas, self.input_sent_values, self.input_size, self.input_values, self.layer2_sent_values, self.layer2_values, self.learning_rate, self.learning_rate_features, self.learning_rate_trans, self.max_indices, self.net_gradients, self.network_filename, self.network_text_filename, self.num_sentences, self.num_targets, self.num_tokens, self.only_classify, self.output_bias, self.output_size, self.output_weights, self.padding_left, self.padding_right, self.pos_padding, self.pre_padding, self.pred_convolution_lookup, self.pred_dist_deltas, self.pred_dist_lookup, self.pred_dist_offset, self.pred_dist_table, self.pred_dist_weights, self.sentence_accuracy, self.sentence_lookup, self.skips, self.target_convolution_lookup, self.target_dist_deltas, self.target_dist_lookup, self.target_dist_offset, self.target_dist_table, self.target_dist_weights, self.trans_gradients, self.transitions, self.use_learning_rate_decay, self.validation_arguments, self.validation_predicates, self.validation_sentences, self.validation_tags, self.word_window_size)
  *     _dict = getattr(self, '__dict__', None)             # <<<<<<<<<<<<<<
  *     if _dict is not None:
  *         state += (_dict,)
@@ -36110,7 +36413,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_56__reduce_cytho
   __pyx_t_23 = 0;
 
   /* "(tree fragment)":7
- *     state = (self.accuracy, self.answer_score, self.convolution_lookup, self.decay_factor, self.error, self.feature_tables, self.features_per_token, self.float_errors, self.half_window, self.hidden2_before_activation, self.hidden2_bias, self.hidden2_gradients, self.hidden2_size, self.hidden2_values, self.hidden2_weights, self.hidden_before_activation, self.hidden_bias, self.hidden_gradients, self.hidden_sent_values, self.hidden_size, self.hidden_values, self.hidden_weights, self.input_deltas, self.input_sent_values, self.input_size, self.input_values, self.layer2_sent_values, self.layer2_values, self.learning_rate, self.learning_rate_features, self.learning_rate_trans, self.max_indices, self.net_gradients, self.network_filename, self.network_text_filename, self.num_sentences, self.num_targets, self.num_tokens, self.output_bias, self.output_size, self.output_weights, self.padding_left, self.padding_right, self.pos_padding, self.pre_padding, self.pred_convolution_lookup, self.pred_dist_deltas, self.pred_dist_lookup, self.pred_dist_offset, self.pred_dist_table, self.pred_dist_weights, self.sentence_accuracy, self.sentence_lookup, self.skips, self.target_convolution_lookup, self.target_dist_deltas, self.target_dist_lookup, self.target_dist_offset, self.target_dist_table, self.target_dist_weights, self.trans_gradients, self.transitions, self.use_learning_rate_decay, self.validation_arguments, self.validation_predicates, self.validation_sentences, self.validation_tags, self.word_window_size)
+ *     state = (self.accuracy, self.answer_score, self.convolution_lookup, self.decay_factor, self.error, self.feature_tables, self.features_per_token, self.float_errors, self.half_window, self.hidden2_before_activation, self.hidden2_bias, self.hidden2_gradients, self.hidden2_size, self.hidden2_values, self.hidden2_weights, self.hidden_before_activation, self.hidden_bias, self.hidden_gradients, self.hidden_sent_values, self.hidden_size, self.hidden_values, self.hidden_weights, self.input_deltas, self.input_sent_values, self.input_size, self.input_values, self.layer2_sent_values, self.layer2_values, self.learning_rate, self.learning_rate_features, self.learning_rate_trans, self.max_indices, self.net_gradients, self.network_filename, self.network_text_filename, self.num_sentences, self.num_targets, self.num_tokens, self.only_classify, self.output_bias, self.output_size, self.output_weights, self.padding_left, self.padding_right, self.pos_padding, self.pre_padding, self.pred_convolution_lookup, self.pred_dist_deltas, self.pred_dist_lookup, self.pred_dist_offset, self.pred_dist_table, self.pred_dist_weights, self.sentence_accuracy, self.sentence_lookup, self.skips, self.target_convolution_lookup, self.target_dist_deltas, self.target_dist_lookup, self.target_dist_offset, self.target_dist_table, self.target_dist_weights, self.trans_gradients, self.transitions, self.use_learning_rate_decay, self.validation_arguments, self.validation_predicates, self.validation_sentences, self.validation_tags, self.word_window_size)
  *     _dict = getattr(self, '__dict__', None)
  *     if _dict is not None:             # <<<<<<<<<<<<<<
  *         state += (_dict,)
@@ -36143,12 +36446,12 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_56__reduce_cytho
  *         state += (_dict,)
  *         use_setstate = True             # <<<<<<<<<<<<<<
  *     else:
- *         use_setstate = self.convolution_lookup is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None
+ *         use_setstate = self.convolution_lookup is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.only_classify is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None
  */
     __pyx_v_use_setstate = 1;
 
     /* "(tree fragment)":7
- *     state = (self.accuracy, self.answer_score, self.convolution_lookup, self.decay_factor, self.error, self.feature_tables, self.features_per_token, self.float_errors, self.half_window, self.hidden2_before_activation, self.hidden2_bias, self.hidden2_gradients, self.hidden2_size, self.hidden2_values, self.hidden2_weights, self.hidden_before_activation, self.hidden_bias, self.hidden_gradients, self.hidden_sent_values, self.hidden_size, self.hidden_values, self.hidden_weights, self.input_deltas, self.input_sent_values, self.input_size, self.input_values, self.layer2_sent_values, self.layer2_values, self.learning_rate, self.learning_rate_features, self.learning_rate_trans, self.max_indices, self.net_gradients, self.network_filename, self.network_text_filename, self.num_sentences, self.num_targets, self.num_tokens, self.output_bias, self.output_size, self.output_weights, self.padding_left, self.padding_right, self.pos_padding, self.pre_padding, self.pred_convolution_lookup, self.pred_dist_deltas, self.pred_dist_lookup, self.pred_dist_offset, self.pred_dist_table, self.pred_dist_weights, self.sentence_accuracy, self.sentence_lookup, self.skips, self.target_convolution_lookup, self.target_dist_deltas, self.target_dist_lookup, self.target_dist_offset, self.target_dist_table, self.target_dist_weights, self.trans_gradients, self.transitions, self.use_learning_rate_decay, self.validation_arguments, self.validation_predicates, self.validation_sentences, self.validation_tags, self.word_window_size)
+ *     state = (self.accuracy, self.answer_score, self.convolution_lookup, self.decay_factor, self.error, self.feature_tables, self.features_per_token, self.float_errors, self.half_window, self.hidden2_before_activation, self.hidden2_bias, self.hidden2_gradients, self.hidden2_size, self.hidden2_values, self.hidden2_weights, self.hidden_before_activation, self.hidden_bias, self.hidden_gradients, self.hidden_sent_values, self.hidden_size, self.hidden_values, self.hidden_weights, self.input_deltas, self.input_sent_values, self.input_size, self.input_values, self.layer2_sent_values, self.layer2_values, self.learning_rate, self.learning_rate_features, self.learning_rate_trans, self.max_indices, self.net_gradients, self.network_filename, self.network_text_filename, self.num_sentences, self.num_targets, self.num_tokens, self.only_classify, self.output_bias, self.output_size, self.output_weights, self.padding_left, self.padding_right, self.pos_padding, self.pre_padding, self.pred_convolution_lookup, self.pred_dist_deltas, self.pred_dist_lookup, self.pred_dist_offset, self.pred_dist_table, self.pred_dist_weights, self.sentence_accuracy, self.sentence_lookup, self.skips, self.target_convolution_lookup, self.target_dist_deltas, self.target_dist_lookup, self.target_dist_offset, self.target_dist_table, self.target_dist_weights, self.trans_gradients, self.transitions, self.use_learning_rate_decay, self.validation_arguments, self.validation_predicates, self.validation_sentences, self.validation_tags, self.word_window_size)
  *     _dict = getattr(self, '__dict__', None)
  *     if _dict is not None:             # <<<<<<<<<<<<<<
  *         state += (_dict,)
@@ -36160,9 +36463,9 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_56__reduce_cytho
   /* "(tree fragment)":11
  *         use_setstate = True
  *     else:
- *         use_setstate = self.convolution_lookup is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None             # <<<<<<<<<<<<<<
+ *         use_setstate = self.convolution_lookup is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.only_classify is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None             # <<<<<<<<<<<<<<
  *     if use_setstate:
- *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x796d6c2, None), state
+ *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x8e85e02, None), state
  */
   /*else*/ {
     __pyx_t_24 = (((PyObject *)__pyx_v_self->convolution_lookup) != Py_None);
@@ -36319,170 +36622,177 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_56__reduce_cytho
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.output_bias) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->only_classify) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.output_weights) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.output_bias) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.padding_left) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.output_weights) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.padding_right) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.padding_left) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.pos_padding) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.padding_right) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.pre_padding) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.pos_padding) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->pred_convolution_lookup) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.pre_padding) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->pred_dist_deltas) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->pred_convolution_lookup) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->pred_dist_lookup) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->pred_dist_deltas) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->pred_dist_table) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->pred_dist_lookup) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->pred_dist_weights) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->pred_dist_table) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.sentence_lookup) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->pred_dist_weights) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->target_convolution_lookup) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.sentence_lookup) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->target_dist_deltas) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->target_convolution_lookup) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->target_dist_lookup) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->target_dist_deltas) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->target_dist_table) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->target_dist_lookup) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->target_dist_weights) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->target_dist_table) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.trans_gradients) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->target_dist_weights) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.transitions) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.trans_gradients) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.use_learning_rate_decay) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.transitions) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (__pyx_v_self->validation_arguments != ((PyObject*)Py_None));
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.use_learning_rate_decay) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (__pyx_v_self->validation_predicates != ((PyObject*)Py_None));
+    __pyx_t_26 = (__pyx_v_self->validation_arguments != ((PyObject*)Py_None));
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (__pyx_v_self->__pyx_base.validation_sentences != ((PyObject*)Py_None));
+    __pyx_t_24 = (__pyx_v_self->validation_predicates != ((PyObject*)Py_None));
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (__pyx_v_self->__pyx_base.validation_tags != ((PyObject*)Py_None));
+    __pyx_t_26 = (__pyx_v_self->__pyx_base.validation_sentences != ((PyObject*)Py_None));
     __pyx_t_24 = (__pyx_t_26 != 0);
-    __pyx_t_25 = __pyx_t_24;
+    if (!__pyx_t_24) {
+    } else {
+      __pyx_t_25 = __pyx_t_24;
+      goto __pyx_L4_bool_binop_done;
+    }
+    __pyx_t_24 = (__pyx_v_self->__pyx_base.validation_tags != ((PyObject*)Py_None));
+    __pyx_t_26 = (__pyx_t_24 != 0);
+    __pyx_t_25 = __pyx_t_26;
     __pyx_L4_bool_binop_done:;
     __pyx_v_use_setstate = __pyx_t_25;
   }
@@ -36490,20 +36800,20 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_56__reduce_cytho
 
   /* "(tree fragment)":12
  *     else:
- *         use_setstate = self.convolution_lookup is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None
+ *         use_setstate = self.convolution_lookup is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.only_classify is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None
  *     if use_setstate:             # <<<<<<<<<<<<<<
- *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x796d6c2, None), state
+ *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x8e85e02, None), state
  *     else:
  */
   __pyx_t_25 = (__pyx_v_use_setstate != 0);
   if (__pyx_t_25) {
 
     /* "(tree fragment)":13
- *         use_setstate = self.convolution_lookup is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None
+ *         use_setstate = self.convolution_lookup is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.only_classify is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None
  *     if use_setstate:
- *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x796d6c2, None), state             # <<<<<<<<<<<<<<
+ *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x8e85e02, None), state             # <<<<<<<<<<<<<<
  *     else:
- *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x796d6c2, state)
+ *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x8e85e02, state)
  */
     __Pyx_XDECREF(__pyx_r);
     __Pyx_GetModuleGlobalName(__pyx_t_22, __pyx_n_s_pyx_unpickle_ConvolutionalNetw); if (unlikely(!__pyx_t_22)) __PYX_ERR(2, 13, __pyx_L1_error)
@@ -36513,9 +36823,9 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_56__reduce_cytho
     __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
     __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
     PyTuple_SET_ITEM(__pyx_t_23, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
-    __Pyx_INCREF(__pyx_int_127325890);
-    __Pyx_GIVEREF(__pyx_int_127325890);
-    PyTuple_SET_ITEM(__pyx_t_23, 1, __pyx_int_127325890);
+    __Pyx_INCREF(__pyx_int_149446146);
+    __Pyx_GIVEREF(__pyx_int_149446146);
+    PyTuple_SET_ITEM(__pyx_t_23, 1, __pyx_int_149446146);
     __Pyx_INCREF(Py_None);
     __Pyx_GIVEREF(Py_None);
     PyTuple_SET_ITEM(__pyx_t_23, 2, Py_None);
@@ -36536,17 +36846,17 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_56__reduce_cytho
 
     /* "(tree fragment)":12
  *     else:
- *         use_setstate = self.convolution_lookup is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None
+ *         use_setstate = self.convolution_lookup is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.only_classify is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None
  *     if use_setstate:             # <<<<<<<<<<<<<<
- *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x796d6c2, None), state
+ *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x8e85e02, None), state
  *     else:
  */
   }
 
   /* "(tree fragment)":15
- *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x796d6c2, None), state
+ *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x8e85e02, None), state
  *     else:
- *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x796d6c2, state)             # <<<<<<<<<<<<<<
+ *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x8e85e02, state)             # <<<<<<<<<<<<<<
  * def __setstate_cython__(self, __pyx_state):
  *     __pyx_unpickle_ConvolutionalNetwork__set_state(self, __pyx_state)
  */
@@ -36559,9 +36869,9 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_56__reduce_cytho
     __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
     __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
     PyTuple_SET_ITEM(__pyx_t_23, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
-    __Pyx_INCREF(__pyx_int_127325890);
-    __Pyx_GIVEREF(__pyx_int_127325890);
-    PyTuple_SET_ITEM(__pyx_t_23, 1, __pyx_int_127325890);
+    __Pyx_INCREF(__pyx_int_149446146);
+    __Pyx_GIVEREF(__pyx_int_149446146);
+    PyTuple_SET_ITEM(__pyx_t_23, 1, __pyx_int_149446146);
     __Pyx_INCREF(__pyx_v_state);
     __Pyx_GIVEREF(__pyx_v_state);
     PyTuple_SET_ITEM(__pyx_t_23, 2, __pyx_v_state);
@@ -36622,7 +36932,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_56__reduce_cytho
 
 /* "(tree fragment)":16
  *     else:
- *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x796d6c2, state)
+ *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x8e85e02, state)
  * def __setstate_cython__(self, __pyx_state):             # <<<<<<<<<<<<<<
  *     __pyx_unpickle_ConvolutionalNetwork__set_state(self, __pyx_state)
  */
@@ -36653,7 +36963,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_58__setstate_cyt
   __Pyx_TraceCall("__setstate_cython__", __pyx_f[2], 16, 0, __PYX_ERR(2, 16, __pyx_L1_error));
 
   /* "(tree fragment)":17
- *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x796d6c2, state)
+ *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x8e85e02, state)
  * def __setstate_cython__(self, __pyx_state):
  *     __pyx_unpickle_ConvolutionalNetwork__set_state(self, __pyx_state)             # <<<<<<<<<<<<<<
  */
@@ -36664,7 +36974,7 @@ static PyObject *__pyx_pf_4libs_7network_20ConvolutionalNetwork_58__setstate_cyt
 
   /* "(tree fragment)":16
  *     else:
- *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x796d6c2, state)
+ *         return __pyx_unpickle_ConvolutionalNetwork, (type(self), 0x8e85e02, state)
  * def __setstate_cython__(self, __pyx_state):             # <<<<<<<<<<<<<<
  *     __pyx_unpickle_ConvolutionalNetwork__set_state(self, __pyx_state)
  */
@@ -40736,10 +41046,10 @@ static PyObject *__pyx_pf_4libs_7network_30ConvolutionalDependencyNetwork_20_pri
   __Pyx_GIVEREF(__pyx_t_7);
   PyTuple_SET_ITEM(__pyx_t_2, 6, __pyx_t_7);
   __pyx_t_7 = 0;
-  __Pyx_INCREF(__pyx_kp_u__11);
+  __Pyx_INCREF(__pyx_kp_u__12);
   __pyx_t_4 += 4;
-  __Pyx_GIVEREF(__pyx_kp_u__11);
-  PyTuple_SET_ITEM(__pyx_t_2, 7, __pyx_kp_u__11);
+  __Pyx_GIVEREF(__pyx_kp_u__12);
+  PyTuple_SET_ITEM(__pyx_t_2, 7, __pyx_kp_u__12);
 
   /* "networkdependencyconv.pyx":270
  *                                             self.accuracy,
@@ -43374,7 +43684,7 @@ static PyObject *__pyx_pf_4libs_7network_30ConvolutionalDependencyNetwork_32__re
   /* "(tree fragment)":5
  *     cdef object _dict
  *     cdef bint use_setstate
- *     state = (self.accuracy, self.answer_score, self.convolution_lookup, self.decay_factor, self.dependency_weights, self.error, self.feature_tables, self.features_per_token, self.float_errors, self.half_window, self.hidden2_before_activation, self.hidden2_bias, self.hidden2_gradients, self.hidden2_size, self.hidden2_values, self.hidden2_weights, self.hidden_before_activation, self.hidden_bias, self.hidden_gradients, self.hidden_sent_values, self.hidden_size, self.hidden_values, self.hidden_weights, self.input_deltas, self.input_sent_values, self.input_size, self.input_values, self.layer2_sent_values, self.layer2_values, self.learning_rate, self.learning_rate_features, self.learning_rate_trans, self.max_indices, self.net_gradients, self.network_filename, self.network_text_filename, self.num_sentences, self.num_targets, self.num_tokens, self.output_bias, self.output_size, self.output_weights, self.padding_left, self.padding_right, self.pos_padding, self.pre_padding, self.pred_convolution_lookup, self.pred_dist_deltas, self.pred_dist_lookup, self.pred_dist_offset, self.pred_dist_table, self.pred_dist_weights, self.sentence_accuracy, self.sentence_lookup, self.skips, self.target_convolution_lookup, self.target_dist_deltas, self.target_dist_lookup, self.target_dist_offset, self.target_dist_table, self.target_dist_weights, self.trans_gradients, self.transitions, self.use_learning_rate_decay, self.validation_arguments, self.validation_heads, self.validation_predicates, self.validation_sentences, self.validation_tags, self.word_window_size)             # <<<<<<<<<<<<<<
+ *     state = (self.accuracy, self.answer_score, self.convolution_lookup, self.decay_factor, self.dependency_weights, self.error, self.feature_tables, self.features_per_token, self.float_errors, self.half_window, self.hidden2_before_activation, self.hidden2_bias, self.hidden2_gradients, self.hidden2_size, self.hidden2_values, self.hidden2_weights, self.hidden_before_activation, self.hidden_bias, self.hidden_gradients, self.hidden_sent_values, self.hidden_size, self.hidden_values, self.hidden_weights, self.input_deltas, self.input_sent_values, self.input_size, self.input_values, self.layer2_sent_values, self.layer2_values, self.learning_rate, self.learning_rate_features, self.learning_rate_trans, self.max_indices, self.net_gradients, self.network_filename, self.network_text_filename, self.num_sentences, self.num_targets, self.num_tokens, self.only_classify, self.output_bias, self.output_size, self.output_weights, self.padding_left, self.padding_right, self.pos_padding, self.pre_padding, self.pred_convolution_lookup, self.pred_dist_deltas, self.pred_dist_lookup, self.pred_dist_offset, self.pred_dist_table, self.pred_dist_weights, self.sentence_accuracy, self.sentence_lookup, self.skips, self.target_convolution_lookup, self.target_dist_deltas, self.target_dist_lookup, self.target_dist_offset, self.target_dist_table, self.target_dist_weights, self.trans_gradients, self.transitions, self.use_learning_rate_decay, self.validation_arguments, self.validation_heads, self.validation_predicates, self.validation_sentences, self.validation_tags, self.word_window_size)             # <<<<<<<<<<<<<<
  *     _dict = getattr(self, '__dict__', None)
  *     if _dict is not None:
  */
@@ -43422,7 +43732,7 @@ static PyObject *__pyx_pf_4libs_7network_30ConvolutionalDependencyNetwork_32__re
   __Pyx_GOTREF(__pyx_t_21);
   __pyx_t_22 = __Pyx_PyInt_From_int(__pyx_v_self->__pyx_base.__pyx_base.word_window_size); if (unlikely(!__pyx_t_22)) __PYX_ERR(2, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_22);
-  __pyx_t_23 = PyTuple_New(70); if (unlikely(!__pyx_t_23)) __PYX_ERR(2, 5, __pyx_L1_error)
+  __pyx_t_23 = PyTuple_New(71); if (unlikely(!__pyx_t_23)) __PYX_ERR(2, 5, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_23);
   __Pyx_GIVEREF(__pyx_t_1);
   PyTuple_SET_ITEM(__pyx_t_23, 0, __pyx_t_1);
@@ -43525,93 +43835,96 @@ static PyObject *__pyx_pf_4libs_7network_30ConvolutionalDependencyNetwork_32__re
   PyTuple_SET_ITEM(__pyx_t_23, 37, __pyx_t_15);
   __Pyx_GIVEREF(__pyx_t_16);
   PyTuple_SET_ITEM(__pyx_t_23, 38, __pyx_t_16);
+  __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.only_classify));
+  __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.only_classify));
+  PyTuple_SET_ITEM(__pyx_t_23, 39, ((PyObject *)__pyx_v_self->__pyx_base.only_classify));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.output_bias));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.output_bias));
-  PyTuple_SET_ITEM(__pyx_t_23, 39, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.output_bias));
+  PyTuple_SET_ITEM(__pyx_t_23, 40, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.output_bias));
   __Pyx_GIVEREF(__pyx_t_17);
-  PyTuple_SET_ITEM(__pyx_t_23, 40, __pyx_t_17);
+  PyTuple_SET_ITEM(__pyx_t_23, 41, __pyx_t_17);
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.output_weights));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.output_weights));
-  PyTuple_SET_ITEM(__pyx_t_23, 41, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.output_weights));
+  PyTuple_SET_ITEM(__pyx_t_23, 42, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.output_weights));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.padding_left));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.padding_left));
-  PyTuple_SET_ITEM(__pyx_t_23, 42, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.padding_left));
+  PyTuple_SET_ITEM(__pyx_t_23, 43, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.padding_left));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.padding_right));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.padding_right));
-  PyTuple_SET_ITEM(__pyx_t_23, 43, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.padding_right));
+  PyTuple_SET_ITEM(__pyx_t_23, 44, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.padding_right));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.pos_padding));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.pos_padding));
-  PyTuple_SET_ITEM(__pyx_t_23, 44, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.pos_padding));
+  PyTuple_SET_ITEM(__pyx_t_23, 45, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.pos_padding));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.pre_padding));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.pre_padding));
-  PyTuple_SET_ITEM(__pyx_t_23, 45, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.pre_padding));
+  PyTuple_SET_ITEM(__pyx_t_23, 46, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.pre_padding));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.pred_convolution_lookup));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.pred_convolution_lookup));
-  PyTuple_SET_ITEM(__pyx_t_23, 46, ((PyObject *)__pyx_v_self->__pyx_base.pred_convolution_lookup));
+  PyTuple_SET_ITEM(__pyx_t_23, 47, ((PyObject *)__pyx_v_self->__pyx_base.pred_convolution_lookup));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.pred_dist_deltas));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.pred_dist_deltas));
-  PyTuple_SET_ITEM(__pyx_t_23, 47, ((PyObject *)__pyx_v_self->__pyx_base.pred_dist_deltas));
+  PyTuple_SET_ITEM(__pyx_t_23, 48, ((PyObject *)__pyx_v_self->__pyx_base.pred_dist_deltas));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.pred_dist_lookup));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.pred_dist_lookup));
-  PyTuple_SET_ITEM(__pyx_t_23, 48, ((PyObject *)__pyx_v_self->__pyx_base.pred_dist_lookup));
+  PyTuple_SET_ITEM(__pyx_t_23, 49, ((PyObject *)__pyx_v_self->__pyx_base.pred_dist_lookup));
   __Pyx_GIVEREF(__pyx_t_18);
-  PyTuple_SET_ITEM(__pyx_t_23, 49, __pyx_t_18);
+  PyTuple_SET_ITEM(__pyx_t_23, 50, __pyx_t_18);
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.pred_dist_table));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.pred_dist_table));
-  PyTuple_SET_ITEM(__pyx_t_23, 50, ((PyObject *)__pyx_v_self->__pyx_base.pred_dist_table));
+  PyTuple_SET_ITEM(__pyx_t_23, 51, ((PyObject *)__pyx_v_self->__pyx_base.pred_dist_table));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.pred_dist_weights));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.pred_dist_weights));
-  PyTuple_SET_ITEM(__pyx_t_23, 51, ((PyObject *)__pyx_v_self->__pyx_base.pred_dist_weights));
+  PyTuple_SET_ITEM(__pyx_t_23, 52, ((PyObject *)__pyx_v_self->__pyx_base.pred_dist_weights));
   __Pyx_GIVEREF(__pyx_t_19);
-  PyTuple_SET_ITEM(__pyx_t_23, 52, __pyx_t_19);
+  PyTuple_SET_ITEM(__pyx_t_23, 53, __pyx_t_19);
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.sentence_lookup));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.sentence_lookup));
-  PyTuple_SET_ITEM(__pyx_t_23, 53, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.sentence_lookup));
+  PyTuple_SET_ITEM(__pyx_t_23, 54, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.sentence_lookup));
   __Pyx_GIVEREF(__pyx_t_20);
-  PyTuple_SET_ITEM(__pyx_t_23, 54, __pyx_t_20);
+  PyTuple_SET_ITEM(__pyx_t_23, 55, __pyx_t_20);
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.target_convolution_lookup));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.target_convolution_lookup));
-  PyTuple_SET_ITEM(__pyx_t_23, 55, ((PyObject *)__pyx_v_self->__pyx_base.target_convolution_lookup));
+  PyTuple_SET_ITEM(__pyx_t_23, 56, ((PyObject *)__pyx_v_self->__pyx_base.target_convolution_lookup));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.target_dist_deltas));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.target_dist_deltas));
-  PyTuple_SET_ITEM(__pyx_t_23, 56, ((PyObject *)__pyx_v_self->__pyx_base.target_dist_deltas));
+  PyTuple_SET_ITEM(__pyx_t_23, 57, ((PyObject *)__pyx_v_self->__pyx_base.target_dist_deltas));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.target_dist_lookup));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.target_dist_lookup));
-  PyTuple_SET_ITEM(__pyx_t_23, 57, ((PyObject *)__pyx_v_self->__pyx_base.target_dist_lookup));
+  PyTuple_SET_ITEM(__pyx_t_23, 58, ((PyObject *)__pyx_v_self->__pyx_base.target_dist_lookup));
   __Pyx_GIVEREF(__pyx_t_21);
-  PyTuple_SET_ITEM(__pyx_t_23, 58, __pyx_t_21);
+  PyTuple_SET_ITEM(__pyx_t_23, 59, __pyx_t_21);
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.target_dist_table));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.target_dist_table));
-  PyTuple_SET_ITEM(__pyx_t_23, 59, ((PyObject *)__pyx_v_self->__pyx_base.target_dist_table));
+  PyTuple_SET_ITEM(__pyx_t_23, 60, ((PyObject *)__pyx_v_self->__pyx_base.target_dist_table));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.target_dist_weights));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.target_dist_weights));
-  PyTuple_SET_ITEM(__pyx_t_23, 60, ((PyObject *)__pyx_v_self->__pyx_base.target_dist_weights));
+  PyTuple_SET_ITEM(__pyx_t_23, 61, ((PyObject *)__pyx_v_self->__pyx_base.target_dist_weights));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.trans_gradients));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.trans_gradients));
-  PyTuple_SET_ITEM(__pyx_t_23, 61, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.trans_gradients));
+  PyTuple_SET_ITEM(__pyx_t_23, 62, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.trans_gradients));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.transitions));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.transitions));
-  PyTuple_SET_ITEM(__pyx_t_23, 62, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.transitions));
+  PyTuple_SET_ITEM(__pyx_t_23, 63, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.transitions));
   __Pyx_INCREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.use_learning_rate_decay));
   __Pyx_GIVEREF(((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.use_learning_rate_decay));
-  PyTuple_SET_ITEM(__pyx_t_23, 63, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.use_learning_rate_decay));
+  PyTuple_SET_ITEM(__pyx_t_23, 64, ((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.use_learning_rate_decay));
   __Pyx_INCREF(__pyx_v_self->__pyx_base.validation_arguments);
   __Pyx_GIVEREF(__pyx_v_self->__pyx_base.validation_arguments);
-  PyTuple_SET_ITEM(__pyx_t_23, 64, __pyx_v_self->__pyx_base.validation_arguments);
+  PyTuple_SET_ITEM(__pyx_t_23, 65, __pyx_v_self->__pyx_base.validation_arguments);
   __Pyx_INCREF(__pyx_v_self->validation_heads);
   __Pyx_GIVEREF(__pyx_v_self->validation_heads);
-  PyTuple_SET_ITEM(__pyx_t_23, 65, __pyx_v_self->validation_heads);
+  PyTuple_SET_ITEM(__pyx_t_23, 66, __pyx_v_self->validation_heads);
   __Pyx_INCREF(__pyx_v_self->__pyx_base.validation_predicates);
   __Pyx_GIVEREF(__pyx_v_self->__pyx_base.validation_predicates);
-  PyTuple_SET_ITEM(__pyx_t_23, 66, __pyx_v_self->__pyx_base.validation_predicates);
+  PyTuple_SET_ITEM(__pyx_t_23, 67, __pyx_v_self->__pyx_base.validation_predicates);
   __Pyx_INCREF(__pyx_v_self->__pyx_base.__pyx_base.validation_sentences);
   __Pyx_GIVEREF(__pyx_v_self->__pyx_base.__pyx_base.validation_sentences);
-  PyTuple_SET_ITEM(__pyx_t_23, 67, __pyx_v_self->__pyx_base.__pyx_base.validation_sentences);
+  PyTuple_SET_ITEM(__pyx_t_23, 68, __pyx_v_self->__pyx_base.__pyx_base.validation_sentences);
   __Pyx_INCREF(__pyx_v_self->__pyx_base.__pyx_base.validation_tags);
   __Pyx_GIVEREF(__pyx_v_self->__pyx_base.__pyx_base.validation_tags);
-  PyTuple_SET_ITEM(__pyx_t_23, 68, __pyx_v_self->__pyx_base.__pyx_base.validation_tags);
+  PyTuple_SET_ITEM(__pyx_t_23, 69, __pyx_v_self->__pyx_base.__pyx_base.validation_tags);
   __Pyx_GIVEREF(__pyx_t_22);
-  PyTuple_SET_ITEM(__pyx_t_23, 69, __pyx_t_22);
+  PyTuple_SET_ITEM(__pyx_t_23, 70, __pyx_t_22);
   __pyx_t_1 = 0;
   __pyx_t_2 = 0;
   __pyx_t_3 = 0;
@@ -43639,7 +43952,7 @@ static PyObject *__pyx_pf_4libs_7network_30ConvolutionalDependencyNetwork_32__re
 
   /* "(tree fragment)":6
  *     cdef bint use_setstate
- *     state = (self.accuracy, self.answer_score, self.convolution_lookup, self.decay_factor, self.dependency_weights, self.error, self.feature_tables, self.features_per_token, self.float_errors, self.half_window, self.hidden2_before_activation, self.hidden2_bias, self.hidden2_gradients, self.hidden2_size, self.hidden2_values, self.hidden2_weights, self.hidden_before_activation, self.hidden_bias, self.hidden_gradients, self.hidden_sent_values, self.hidden_size, self.hidden_values, self.hidden_weights, self.input_deltas, self.input_sent_values, self.input_size, self.input_values, self.layer2_sent_values, self.layer2_values, self.learning_rate, self.learning_rate_features, self.learning_rate_trans, self.max_indices, self.net_gradients, self.network_filename, self.network_text_filename, self.num_sentences, self.num_targets, self.num_tokens, self.output_bias, self.output_size, self.output_weights, self.padding_left, self.padding_right, self.pos_padding, self.pre_padding, self.pred_convolution_lookup, self.pred_dist_deltas, self.pred_dist_lookup, self.pred_dist_offset, self.pred_dist_table, self.pred_dist_weights, self.sentence_accuracy, self.sentence_lookup, self.skips, self.target_convolution_lookup, self.target_dist_deltas, self.target_dist_lookup, self.target_dist_offset, self.target_dist_table, self.target_dist_weights, self.trans_gradients, self.transitions, self.use_learning_rate_decay, self.validation_arguments, self.validation_heads, self.validation_predicates, self.validation_sentences, self.validation_tags, self.word_window_size)
+ *     state = (self.accuracy, self.answer_score, self.convolution_lookup, self.decay_factor, self.dependency_weights, self.error, self.feature_tables, self.features_per_token, self.float_errors, self.half_window, self.hidden2_before_activation, self.hidden2_bias, self.hidden2_gradients, self.hidden2_size, self.hidden2_values, self.hidden2_weights, self.hidden_before_activation, self.hidden_bias, self.hidden_gradients, self.hidden_sent_values, self.hidden_size, self.hidden_values, self.hidden_weights, self.input_deltas, self.input_sent_values, self.input_size, self.input_values, self.layer2_sent_values, self.layer2_values, self.learning_rate, self.learning_rate_features, self.learning_rate_trans, self.max_indices, self.net_gradients, self.network_filename, self.network_text_filename, self.num_sentences, self.num_targets, self.num_tokens, self.only_classify, self.output_bias, self.output_size, self.output_weights, self.padding_left, self.padding_right, self.pos_padding, self.pre_padding, self.pred_convolution_lookup, self.pred_dist_deltas, self.pred_dist_lookup, self.pred_dist_offset, self.pred_dist_table, self.pred_dist_weights, self.sentence_accuracy, self.sentence_lookup, self.skips, self.target_convolution_lookup, self.target_dist_deltas, self.target_dist_lookup, self.target_dist_offset, self.target_dist_table, self.target_dist_weights, self.trans_gradients, self.transitions, self.use_learning_rate_decay, self.validation_arguments, self.validation_heads, self.validation_predicates, self.validation_sentences, self.validation_tags, self.word_window_size)
  *     _dict = getattr(self, '__dict__', None)             # <<<<<<<<<<<<<<
  *     if _dict is not None:
  *         state += (_dict,)
@@ -43650,7 +43963,7 @@ static PyObject *__pyx_pf_4libs_7network_30ConvolutionalDependencyNetwork_32__re
   __pyx_t_23 = 0;
 
   /* "(tree fragment)":7
- *     state = (self.accuracy, self.answer_score, self.convolution_lookup, self.decay_factor, self.dependency_weights, self.error, self.feature_tables, self.features_per_token, self.float_errors, self.half_window, self.hidden2_before_activation, self.hidden2_bias, self.hidden2_gradients, self.hidden2_size, self.hidden2_values, self.hidden2_weights, self.hidden_before_activation, self.hidden_bias, self.hidden_gradients, self.hidden_sent_values, self.hidden_size, self.hidden_values, self.hidden_weights, self.input_deltas, self.input_sent_values, self.input_size, self.input_values, self.layer2_sent_values, self.layer2_values, self.learning_rate, self.learning_rate_features, self.learning_rate_trans, self.max_indices, self.net_gradients, self.network_filename, self.network_text_filename, self.num_sentences, self.num_targets, self.num_tokens, self.output_bias, self.output_size, self.output_weights, self.padding_left, self.padding_right, self.pos_padding, self.pre_padding, self.pred_convolution_lookup, self.pred_dist_deltas, self.pred_dist_lookup, self.pred_dist_offset, self.pred_dist_table, self.pred_dist_weights, self.sentence_accuracy, self.sentence_lookup, self.skips, self.target_convolution_lookup, self.target_dist_deltas, self.target_dist_lookup, self.target_dist_offset, self.target_dist_table, self.target_dist_weights, self.trans_gradients, self.transitions, self.use_learning_rate_decay, self.validation_arguments, self.validation_heads, self.validation_predicates, self.validation_sentences, self.validation_tags, self.word_window_size)
+ *     state = (self.accuracy, self.answer_score, self.convolution_lookup, self.decay_factor, self.dependency_weights, self.error, self.feature_tables, self.features_per_token, self.float_errors, self.half_window, self.hidden2_before_activation, self.hidden2_bias, self.hidden2_gradients, self.hidden2_size, self.hidden2_values, self.hidden2_weights, self.hidden_before_activation, self.hidden_bias, self.hidden_gradients, self.hidden_sent_values, self.hidden_size, self.hidden_values, self.hidden_weights, self.input_deltas, self.input_sent_values, self.input_size, self.input_values, self.layer2_sent_values, self.layer2_values, self.learning_rate, self.learning_rate_features, self.learning_rate_trans, self.max_indices, self.net_gradients, self.network_filename, self.network_text_filename, self.num_sentences, self.num_targets, self.num_tokens, self.only_classify, self.output_bias, self.output_size, self.output_weights, self.padding_left, self.padding_right, self.pos_padding, self.pre_padding, self.pred_convolution_lookup, self.pred_dist_deltas, self.pred_dist_lookup, self.pred_dist_offset, self.pred_dist_table, self.pred_dist_weights, self.sentence_accuracy, self.sentence_lookup, self.skips, self.target_convolution_lookup, self.target_dist_deltas, self.target_dist_lookup, self.target_dist_offset, self.target_dist_table, self.target_dist_weights, self.trans_gradients, self.transitions, self.use_learning_rate_decay, self.validation_arguments, self.validation_heads, self.validation_predicates, self.validation_sentences, self.validation_tags, self.word_window_size)
  *     _dict = getattr(self, '__dict__', None)
  *     if _dict is not None:             # <<<<<<<<<<<<<<
  *         state += (_dict,)
@@ -43683,12 +43996,12 @@ static PyObject *__pyx_pf_4libs_7network_30ConvolutionalDependencyNetwork_32__re
  *         state += (_dict,)
  *         use_setstate = True             # <<<<<<<<<<<<<<
  *     else:
- *         use_setstate = self.convolution_lookup is not None or self.dependency_weights is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_heads is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None
+ *         use_setstate = self.convolution_lookup is not None or self.dependency_weights is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.only_classify is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_heads is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None
  */
     __pyx_v_use_setstate = 1;
 
     /* "(tree fragment)":7
- *     state = (self.accuracy, self.answer_score, self.convolution_lookup, self.decay_factor, self.dependency_weights, self.error, self.feature_tables, self.features_per_token, self.float_errors, self.half_window, self.hidden2_before_activation, self.hidden2_bias, self.hidden2_gradients, self.hidden2_size, self.hidden2_values, self.hidden2_weights, self.hidden_before_activation, self.hidden_bias, self.hidden_gradients, self.hidden_sent_values, self.hidden_size, self.hidden_values, self.hidden_weights, self.input_deltas, self.input_sent_values, self.input_size, self.input_values, self.layer2_sent_values, self.layer2_values, self.learning_rate, self.learning_rate_features, self.learning_rate_trans, self.max_indices, self.net_gradients, self.network_filename, self.network_text_filename, self.num_sentences, self.num_targets, self.num_tokens, self.output_bias, self.output_size, self.output_weights, self.padding_left, self.padding_right, self.pos_padding, self.pre_padding, self.pred_convolution_lookup, self.pred_dist_deltas, self.pred_dist_lookup, self.pred_dist_offset, self.pred_dist_table, self.pred_dist_weights, self.sentence_accuracy, self.sentence_lookup, self.skips, self.target_convolution_lookup, self.target_dist_deltas, self.target_dist_lookup, self.target_dist_offset, self.target_dist_table, self.target_dist_weights, self.trans_gradients, self.transitions, self.use_learning_rate_decay, self.validation_arguments, self.validation_heads, self.validation_predicates, self.validation_sentences, self.validation_tags, self.word_window_size)
+ *     state = (self.accuracy, self.answer_score, self.convolution_lookup, self.decay_factor, self.dependency_weights, self.error, self.feature_tables, self.features_per_token, self.float_errors, self.half_window, self.hidden2_before_activation, self.hidden2_bias, self.hidden2_gradients, self.hidden2_size, self.hidden2_values, self.hidden2_weights, self.hidden_before_activation, self.hidden_bias, self.hidden_gradients, self.hidden_sent_values, self.hidden_size, self.hidden_values, self.hidden_weights, self.input_deltas, self.input_sent_values, self.input_size, self.input_values, self.layer2_sent_values, self.layer2_values, self.learning_rate, self.learning_rate_features, self.learning_rate_trans, self.max_indices, self.net_gradients, self.network_filename, self.network_text_filename, self.num_sentences, self.num_targets, self.num_tokens, self.only_classify, self.output_bias, self.output_size, self.output_weights, self.padding_left, self.padding_right, self.pos_padding, self.pre_padding, self.pred_convolution_lookup, self.pred_dist_deltas, self.pred_dist_lookup, self.pred_dist_offset, self.pred_dist_table, self.pred_dist_weights, self.sentence_accuracy, self.sentence_lookup, self.skips, self.target_convolution_lookup, self.target_dist_deltas, self.target_dist_lookup, self.target_dist_offset, self.target_dist_table, self.target_dist_weights, self.trans_gradients, self.transitions, self.use_learning_rate_decay, self.validation_arguments, self.validation_heads, self.validation_predicates, self.validation_sentences, self.validation_tags, self.word_window_size)
  *     _dict = getattr(self, '__dict__', None)
  *     if _dict is not None:             # <<<<<<<<<<<<<<
  *         state += (_dict,)
@@ -43700,9 +44013,9 @@ static PyObject *__pyx_pf_4libs_7network_30ConvolutionalDependencyNetwork_32__re
   /* "(tree fragment)":11
  *         use_setstate = True
  *     else:
- *         use_setstate = self.convolution_lookup is not None or self.dependency_weights is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_heads is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None             # <<<<<<<<<<<<<<
+ *         use_setstate = self.convolution_lookup is not None or self.dependency_weights is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.only_classify is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_heads is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None             # <<<<<<<<<<<<<<
  *     if use_setstate:
- *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0xeb21070, None), state
+ *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0x1a87293, None), state
  */
   /*else*/ {
     __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.convolution_lookup) != Py_None);
@@ -43866,177 +44179,184 @@ static PyObject *__pyx_pf_4libs_7network_30ConvolutionalDependencyNetwork_32__re
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.output_bias) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.only_classify) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.output_weights) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.output_bias) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.padding_left) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.output_weights) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.padding_right) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.padding_left) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.pos_padding) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.padding_right) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.pre_padding) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.pos_padding) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.pred_convolution_lookup) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.pre_padding) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.pred_dist_deltas) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.pred_convolution_lookup) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.pred_dist_lookup) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.pred_dist_deltas) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.pred_dist_table) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.pred_dist_lookup) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.pred_dist_weights) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.pred_dist_table) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.sentence_lookup) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.pred_dist_weights) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.target_convolution_lookup) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.sentence_lookup) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.target_dist_deltas) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.target_convolution_lookup) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.target_dist_lookup) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.target_dist_deltas) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.target_dist_table) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.target_dist_lookup) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.target_dist_weights) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.target_dist_table) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.trans_gradients) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.target_dist_weights) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.transitions) != Py_None);
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.trans_gradients) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.use_learning_rate_decay) != Py_None);
+    __pyx_t_24 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.transitions) != Py_None);
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (__pyx_v_self->__pyx_base.validation_arguments != ((PyObject*)Py_None));
+    __pyx_t_26 = (((PyObject *)__pyx_v_self->__pyx_base.__pyx_base.use_learning_rate_decay) != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (__pyx_v_self->validation_heads != Py_None);
+    __pyx_t_24 = (__pyx_v_self->__pyx_base.validation_arguments != ((PyObject*)Py_None));
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (__pyx_v_self->__pyx_base.validation_predicates != ((PyObject*)Py_None));
+    __pyx_t_26 = (__pyx_v_self->validation_heads != Py_None);
     __pyx_t_24 = (__pyx_t_26 != 0);
     if (!__pyx_t_24) {
     } else {
       __pyx_t_25 = __pyx_t_24;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_24 = (__pyx_v_self->__pyx_base.__pyx_base.validation_sentences != ((PyObject*)Py_None));
+    __pyx_t_24 = (__pyx_v_self->__pyx_base.validation_predicates != ((PyObject*)Py_None));
     __pyx_t_26 = (__pyx_t_24 != 0);
     if (!__pyx_t_26) {
     } else {
       __pyx_t_25 = __pyx_t_26;
       goto __pyx_L4_bool_binop_done;
     }
-    __pyx_t_26 = (__pyx_v_self->__pyx_base.__pyx_base.validation_tags != ((PyObject*)Py_None));
+    __pyx_t_26 = (__pyx_v_self->__pyx_base.__pyx_base.validation_sentences != ((PyObject*)Py_None));
     __pyx_t_24 = (__pyx_t_26 != 0);
-    __pyx_t_25 = __pyx_t_24;
+    if (!__pyx_t_24) {
+    } else {
+      __pyx_t_25 = __pyx_t_24;
+      goto __pyx_L4_bool_binop_done;
+    }
+    __pyx_t_24 = (__pyx_v_self->__pyx_base.__pyx_base.validation_tags != ((PyObject*)Py_None));
+    __pyx_t_26 = (__pyx_t_24 != 0);
+    __pyx_t_25 = __pyx_t_26;
     __pyx_L4_bool_binop_done:;
     __pyx_v_use_setstate = __pyx_t_25;
   }
@@ -44044,20 +44364,20 @@ static PyObject *__pyx_pf_4libs_7network_30ConvolutionalDependencyNetwork_32__re
 
   /* "(tree fragment)":12
  *     else:
- *         use_setstate = self.convolution_lookup is not None or self.dependency_weights is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_heads is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None
+ *         use_setstate = self.convolution_lookup is not None or self.dependency_weights is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.only_classify is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_heads is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None
  *     if use_setstate:             # <<<<<<<<<<<<<<
- *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0xeb21070, None), state
+ *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0x1a87293, None), state
  *     else:
  */
   __pyx_t_25 = (__pyx_v_use_setstate != 0);
   if (__pyx_t_25) {
 
     /* "(tree fragment)":13
- *         use_setstate = self.convolution_lookup is not None or self.dependency_weights is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_heads is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None
+ *         use_setstate = self.convolution_lookup is not None or self.dependency_weights is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.only_classify is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_heads is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None
  *     if use_setstate:
- *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0xeb21070, None), state             # <<<<<<<<<<<<<<
+ *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0x1a87293, None), state             # <<<<<<<<<<<<<<
  *     else:
- *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0xeb21070, state)
+ *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0x1a87293, state)
  */
     __Pyx_XDECREF(__pyx_r);
     __Pyx_GetModuleGlobalName(__pyx_t_22, __pyx_n_s_pyx_unpickle_ConvolutionalDepe); if (unlikely(!__pyx_t_22)) __PYX_ERR(2, 13, __pyx_L1_error)
@@ -44067,9 +44387,9 @@ static PyObject *__pyx_pf_4libs_7network_30ConvolutionalDependencyNetwork_32__re
     __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
     __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
     PyTuple_SET_ITEM(__pyx_t_23, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
-    __Pyx_INCREF(__pyx_int_246550640);
-    __Pyx_GIVEREF(__pyx_int_246550640);
-    PyTuple_SET_ITEM(__pyx_t_23, 1, __pyx_int_246550640);
+    __Pyx_INCREF(__pyx_int_27816595);
+    __Pyx_GIVEREF(__pyx_int_27816595);
+    PyTuple_SET_ITEM(__pyx_t_23, 1, __pyx_int_27816595);
     __Pyx_INCREF(Py_None);
     __Pyx_GIVEREF(Py_None);
     PyTuple_SET_ITEM(__pyx_t_23, 2, Py_None);
@@ -44090,17 +44410,17 @@ static PyObject *__pyx_pf_4libs_7network_30ConvolutionalDependencyNetwork_32__re
 
     /* "(tree fragment)":12
  *     else:
- *         use_setstate = self.convolution_lookup is not None or self.dependency_weights is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_heads is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None
+ *         use_setstate = self.convolution_lookup is not None or self.dependency_weights is not None or self.feature_tables is not None or self.hidden2_before_activation is not None or self.hidden2_bias is not None or self.hidden2_gradients is not None or self.hidden2_values is not None or self.hidden2_weights is not None or self.hidden_before_activation is not None or self.hidden_bias is not None or self.hidden_gradients is not None or self.hidden_sent_values is not None or self.hidden_values is not None or self.hidden_weights is not None or self.input_deltas is not None or self.input_sent_values is not None or self.input_values is not None or self.layer2_sent_values is not None or self.layer2_values is not None or self.max_indices is not None or self.net_gradients is not None or self.network_filename is not None or self.network_text_filename is not None or self.only_classify is not None or self.output_bias is not None or self.output_weights is not None or self.padding_left is not None or self.padding_right is not None or self.pos_padding is not None or self.pre_padding is not None or self.pred_convolution_lookup is not None or self.pred_dist_deltas is not None or self.pred_dist_lookup is not None or self.pred_dist_table is not None or self.pred_dist_weights is not None or self.sentence_lookup is not None or self.target_convolution_lookup is not None or self.target_dist_deltas is not None or self.target_dist_lookup is not None or self.target_dist_table is not None or self.target_dist_weights is not None or self.trans_gradients is not None or self.transitions is not None or self.use_learning_rate_decay is not None or self.validation_arguments is not None or self.validation_heads is not None or self.validation_predicates is not None or self.validation_sentences is not None or self.validation_tags is not None
  *     if use_setstate:             # <<<<<<<<<<<<<<
- *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0xeb21070, None), state
+ *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0x1a87293, None), state
  *     else:
  */
   }
 
   /* "(tree fragment)":15
- *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0xeb21070, None), state
+ *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0x1a87293, None), state
  *     else:
- *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0xeb21070, state)             # <<<<<<<<<<<<<<
+ *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0x1a87293, state)             # <<<<<<<<<<<<<<
  * def __setstate_cython__(self, __pyx_state):
  *     __pyx_unpickle_ConvolutionalDependencyNetwork__set_state(self, __pyx_state)
  */
@@ -44113,9 +44433,9 @@ static PyObject *__pyx_pf_4libs_7network_30ConvolutionalDependencyNetwork_32__re
     __Pyx_INCREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
     __Pyx_GIVEREF(((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
     PyTuple_SET_ITEM(__pyx_t_23, 0, ((PyObject *)Py_TYPE(((PyObject *)__pyx_v_self))));
-    __Pyx_INCREF(__pyx_int_246550640);
-    __Pyx_GIVEREF(__pyx_int_246550640);
-    PyTuple_SET_ITEM(__pyx_t_23, 1, __pyx_int_246550640);
+    __Pyx_INCREF(__pyx_int_27816595);
+    __Pyx_GIVEREF(__pyx_int_27816595);
+    PyTuple_SET_ITEM(__pyx_t_23, 1, __pyx_int_27816595);
     __Pyx_INCREF(__pyx_v_state);
     __Pyx_GIVEREF(__pyx_v_state);
     PyTuple_SET_ITEM(__pyx_t_23, 2, __pyx_v_state);
@@ -44176,7 +44496,7 @@ static PyObject *__pyx_pf_4libs_7network_30ConvolutionalDependencyNetwork_32__re
 
 /* "(tree fragment)":16
  *     else:
- *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0xeb21070, state)
+ *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0x1a87293, state)
  * def __setstate_cython__(self, __pyx_state):             # <<<<<<<<<<<<<<
  *     __pyx_unpickle_ConvolutionalDependencyNetwork__set_state(self, __pyx_state)
  */
@@ -44207,7 +44527,7 @@ static PyObject *__pyx_pf_4libs_7network_30ConvolutionalDependencyNetwork_34__se
   __Pyx_TraceCall("__setstate_cython__", __pyx_f[2], 16, 0, __PYX_ERR(2, 16, __pyx_L1_error));
 
   /* "(tree fragment)":17
- *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0xeb21070, state)
+ *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0x1a87293, state)
  * def __setstate_cython__(self, __pyx_state):
  *     __pyx_unpickle_ConvolutionalDependencyNetwork__set_state(self, __pyx_state)             # <<<<<<<<<<<<<<
  */
@@ -44218,7 +44538,7 @@ static PyObject *__pyx_pf_4libs_7network_30ConvolutionalDependencyNetwork_34__se
 
   /* "(tree fragment)":16
  *     else:
- *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0xeb21070, state)
+ *         return __pyx_unpickle_ConvolutionalDependencyNetwork, (type(self), 0x1a87293, state)
  * def __setstate_cython__(self, __pyx_state):             # <<<<<<<<<<<<<<
  *     __pyx_unpickle_ConvolutionalDependencyNetwork__set_state(self, __pyx_state)
  */
@@ -44335,7 +44655,7 @@ static PyObject *__pyx_pf_4libs_7network___pyx_unpickle_Network(CYTHON_UNUSED Py
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_TraceFrameInit(__pyx_codeobj__12)
+  __Pyx_TraceFrameInit(__pyx_codeobj__13)
   __Pyx_RefNannySetupContext("__pyx_unpickle_Network", 0);
   __Pyx_TraceCall("__pyx_unpickle_Network", __pyx_f[2], 1, 0, __PYX_ERR(2, 1, __pyx_L1_error));
 
@@ -44348,7 +44668,7 @@ static PyObject *__pyx_pf_4libs_7network___pyx_unpickle_Network(CYTHON_UNUSED Py
  */
   __pyx_t_1 = __Pyx_PyInt_From_long(__pyx_v___pyx_checksum); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = (__Pyx_PySequence_ContainsTF(__pyx_t_1, __pyx_tuple__13, Py_NE)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(2, 4, __pyx_L1_error)
+  __pyx_t_2 = (__Pyx_PySequence_ContainsTF(__pyx_t_1, __pyx_tuple__14, Py_NE)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(2, 4, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_3 = (__pyx_t_2 != 0);
   if (__pyx_t_3) {
@@ -45167,29 +45487,29 @@ static PyObject *__pyx_pf_4libs_7network_2__pyx_unpickle_ConvolutionalNetwork(CY
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_TraceFrameInit(__pyx_codeobj__14)
+  __Pyx_TraceFrameInit(__pyx_codeobj__15)
   __Pyx_RefNannySetupContext("__pyx_unpickle_ConvolutionalNetwork", 0);
   __Pyx_TraceCall("__pyx_unpickle_ConvolutionalNetwork", __pyx_f[2], 1, 0, __PYX_ERR(2, 1, __pyx_L1_error));
 
   /* "(tree fragment)":4
  *     cdef object __pyx_PickleError
  *     cdef object __pyx_result
- *     if __pyx_checksum not in (0x796d6c2, 0xd7cf482, 0x316b313):             # <<<<<<<<<<<<<<
+ *     if __pyx_checksum not in (0x8e85e02, 0x2f64fba, 0x8d42e09):             # <<<<<<<<<<<<<<
  *         from pickle import PickleError as __pyx_PickleError
- *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x796d6c2, 0xd7cf482, 0x316b313) = (accuracy, answer_score, convolution_lookup, decay_factor, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
+ *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x8e85e02, 0x2f64fba, 0x8d42e09) = (accuracy, answer_score, convolution_lookup, decay_factor, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, only_classify, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
  */
   __pyx_t_1 = __Pyx_PyInt_From_long(__pyx_v___pyx_checksum); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = (__Pyx_PySequence_ContainsTF(__pyx_t_1, __pyx_tuple__15, Py_NE)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(2, 4, __pyx_L1_error)
+  __pyx_t_2 = (__Pyx_PySequence_ContainsTF(__pyx_t_1, __pyx_tuple__16, Py_NE)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(2, 4, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_3 = (__pyx_t_2 != 0);
   if (__pyx_t_3) {
 
     /* "(tree fragment)":5
  *     cdef object __pyx_result
- *     if __pyx_checksum not in (0x796d6c2, 0xd7cf482, 0x316b313):
+ *     if __pyx_checksum not in (0x8e85e02, 0x2f64fba, 0x8d42e09):
  *         from pickle import PickleError as __pyx_PickleError             # <<<<<<<<<<<<<<
- *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x796d6c2, 0xd7cf482, 0x316b313) = (accuracy, answer_score, convolution_lookup, decay_factor, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
+ *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x8e85e02, 0x2f64fba, 0x8d42e09) = (accuracy, answer_score, convolution_lookup, decay_factor, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, only_classify, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
  *     __pyx_result = ConvolutionalNetwork.__new__(__pyx_type)
  */
     __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 5, __pyx_L1_error)
@@ -45208,9 +45528,9 @@ static PyObject *__pyx_pf_4libs_7network_2__pyx_unpickle_ConvolutionalNetwork(CY
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
     /* "(tree fragment)":6
- *     if __pyx_checksum not in (0x796d6c2, 0xd7cf482, 0x316b313):
+ *     if __pyx_checksum not in (0x8e85e02, 0x2f64fba, 0x8d42e09):
  *         from pickle import PickleError as __pyx_PickleError
- *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x796d6c2, 0xd7cf482, 0x316b313) = (accuracy, answer_score, convolution_lookup, decay_factor, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)             # <<<<<<<<<<<<<<
+ *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x8e85e02, 0x2f64fba, 0x8d42e09) = (accuracy, answer_score, convolution_lookup, decay_factor, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, only_classify, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)             # <<<<<<<<<<<<<<
  *     __pyx_result = ConvolutionalNetwork.__new__(__pyx_type)
  *     if __pyx_state is not None:
  */
@@ -45243,15 +45563,15 @@ static PyObject *__pyx_pf_4libs_7network_2__pyx_unpickle_ConvolutionalNetwork(CY
     /* "(tree fragment)":4
  *     cdef object __pyx_PickleError
  *     cdef object __pyx_result
- *     if __pyx_checksum not in (0x796d6c2, 0xd7cf482, 0x316b313):             # <<<<<<<<<<<<<<
+ *     if __pyx_checksum not in (0x8e85e02, 0x2f64fba, 0x8d42e09):             # <<<<<<<<<<<<<<
  *         from pickle import PickleError as __pyx_PickleError
- *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x796d6c2, 0xd7cf482, 0x316b313) = (accuracy, answer_score, convolution_lookup, decay_factor, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
+ *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x8e85e02, 0x2f64fba, 0x8d42e09) = (accuracy, answer_score, convolution_lookup, decay_factor, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, only_classify, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
  */
   }
 
   /* "(tree fragment)":7
  *         from pickle import PickleError as __pyx_PickleError
- *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x796d6c2, 0xd7cf482, 0x316b313) = (accuracy, answer_score, convolution_lookup, decay_factor, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
+ *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x8e85e02, 0x2f64fba, 0x8d42e09) = (accuracy, answer_score, convolution_lookup, decay_factor, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, only_classify, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
  *     __pyx_result = ConvolutionalNetwork.__new__(__pyx_type)             # <<<<<<<<<<<<<<
  *     if __pyx_state is not None:
  *         __pyx_unpickle_ConvolutionalNetwork__set_state(<ConvolutionalNetwork> __pyx_result, __pyx_state)
@@ -45277,7 +45597,7 @@ static PyObject *__pyx_pf_4libs_7network_2__pyx_unpickle_ConvolutionalNetwork(CY
   __pyx_t_4 = 0;
 
   /* "(tree fragment)":8
- *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x796d6c2, 0xd7cf482, 0x316b313) = (accuracy, answer_score, convolution_lookup, decay_factor, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
+ *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x8e85e02, 0x2f64fba, 0x8d42e09) = (accuracy, answer_score, convolution_lookup, decay_factor, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, only_classify, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
  *     __pyx_result = ConvolutionalNetwork.__new__(__pyx_type)
  *     if __pyx_state is not None:             # <<<<<<<<<<<<<<
  *         __pyx_unpickle_ConvolutionalNetwork__set_state(<ConvolutionalNetwork> __pyx_result, __pyx_state)
@@ -45300,7 +45620,7 @@ static PyObject *__pyx_pf_4libs_7network_2__pyx_unpickle_ConvolutionalNetwork(CY
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
     /* "(tree fragment)":8
- *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x796d6c2, 0xd7cf482, 0x316b313) = (accuracy, answer_score, convolution_lookup, decay_factor, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
+ *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x8e85e02, 0x2f64fba, 0x8d42e09) = (accuracy, answer_score, convolution_lookup, decay_factor, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, only_classify, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
  *     __pyx_result = ConvolutionalNetwork.__new__(__pyx_type)
  *     if __pyx_state is not None:             # <<<<<<<<<<<<<<
  *         __pyx_unpickle_ConvolutionalNetwork__set_state(<ConvolutionalNetwork> __pyx_result, __pyx_state)
@@ -45313,7 +45633,7 @@ static PyObject *__pyx_pf_4libs_7network_2__pyx_unpickle_ConvolutionalNetwork(CY
  *         __pyx_unpickle_ConvolutionalNetwork__set_state(<ConvolutionalNetwork> __pyx_result, __pyx_state)
  *     return __pyx_result             # <<<<<<<<<<<<<<
  * cdef __pyx_unpickle_ConvolutionalNetwork__set_state(ConvolutionalNetwork __pyx_result, tuple __pyx_state):
- *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.error = __pyx_state[4]; __pyx_result.feature_tables = __pyx_state[5]; __pyx_result.features_per_token = __pyx_state[6]; __pyx_result.float_errors = __pyx_state[7]; __pyx_result.half_window = __pyx_state[8]; __pyx_result.hidden2_before_activation = __pyx_state[9]; __pyx_result.hidden2_bias = __pyx_state[10]; __pyx_result.hidden2_gradients = __pyx_state[11]; __pyx_result.hidden2_size = __pyx_state[12]; __pyx_result.hidden2_values = __pyx_state[13]; __pyx_result.hidden2_weights = __pyx_state[14]; __pyx_result.hidden_before_activation = __pyx_state[15]; __pyx_result.hidden_bias = __pyx_state[16]; __pyx_result.hidden_gradients = __pyx_state[17]; __pyx_result.hidden_sent_values = __pyx_state[18]; __pyx_result.hidden_size = __pyx_state[19]; __pyx_result.hidden_values = __pyx_state[20]; __pyx_result.hidden_weights = __pyx_state[21]; __pyx_result.input_deltas = __pyx_state[22]; __pyx_result.input_sent_values = __pyx_state[23]; __pyx_result.input_size = __pyx_state[24]; __pyx_result.input_values = __pyx_state[25]; __pyx_result.layer2_sent_values = __pyx_state[26]; __pyx_result.layer2_values = __pyx_state[27]; __pyx_result.learning_rate = __pyx_state[28]; __pyx_result.learning_rate_features = __pyx_state[29]; __pyx_result.learning_rate_trans = __pyx_state[30]; __pyx_result.max_indices = __pyx_state[31]; __pyx_result.net_gradients = __pyx_state[32]; __pyx_result.network_filename = __pyx_state[33]; __pyx_result.network_text_filename = __pyx_state[34]; __pyx_result.num_sentences = __pyx_state[35]; __pyx_result.num_targets = __pyx_state[36]; __pyx_result.num_tokens = __pyx_state[37]; __pyx_result.output_bias = __pyx_state[38]; __pyx_result.output_size = __pyx_state[39]; __pyx_result.output_weights = __pyx_state[40]; __pyx_result.padding_left = __pyx_state[41]; __pyx_result.padding_right = __pyx_state[42]; __pyx_result.pos_padding = __pyx_state[43]; __pyx_result.pre_padding = __pyx_state[44]; __pyx_result.pred_convolution_lookup = __pyx_state[45]; __pyx_result.pred_dist_deltas = __pyx_state[46]; __pyx_result.pred_dist_lookup = __pyx_state[47]; __pyx_result.pred_dist_offset = __pyx_state[48]; __pyx_result.pred_dist_table = __pyx_state[49]; __pyx_result.pred_dist_weights = __pyx_state[50]; __pyx_result.sentence_accuracy = __pyx_state[51]; __pyx_result.sentence_lookup = __pyx_state[52]; __pyx_result.skips = __pyx_state[53]; __pyx_result.target_convolution_lookup = __pyx_state[54]; __pyx_result.target_dist_deltas = __pyx_state[55]; __pyx_result.target_dist_lookup = __pyx_state[56]; __pyx_result.target_dist_offset = __pyx_state[57]; __pyx_result.target_dist_table = __pyx_state[58]; __pyx_result.target_dist_weights = __pyx_state[59]; __pyx_result.trans_gradients = __pyx_state[60]; __pyx_result.transitions = __pyx_state[61]; __pyx_result.use_learning_rate_decay = __pyx_state[62]; __pyx_result.validation_arguments = __pyx_state[63]; __pyx_result.validation_predicates = __pyx_state[64]; __pyx_result.validation_sentences = __pyx_state[65]; __pyx_result.validation_tags = __pyx_state[66]; __pyx_result.word_window_size = __pyx_state[67]
+ *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.error = __pyx_state[4]; __pyx_result.feature_tables = __pyx_state[5]; __pyx_result.features_per_token = __pyx_state[6]; __pyx_result.float_errors = __pyx_state[7]; __pyx_result.half_window = __pyx_state[8]; __pyx_result.hidden2_before_activation = __pyx_state[9]; __pyx_result.hidden2_bias = __pyx_state[10]; __pyx_result.hidden2_gradients = __pyx_state[11]; __pyx_result.hidden2_size = __pyx_state[12]; __pyx_result.hidden2_values = __pyx_state[13]; __pyx_result.hidden2_weights = __pyx_state[14]; __pyx_result.hidden_before_activation = __pyx_state[15]; __pyx_result.hidden_bias = __pyx_state[16]; __pyx_result.hidden_gradients = __pyx_state[17]; __pyx_result.hidden_sent_values = __pyx_state[18]; __pyx_result.hidden_size = __pyx_state[19]; __pyx_result.hidden_values = __pyx_state[20]; __pyx_result.hidden_weights = __pyx_state[21]; __pyx_result.input_deltas = __pyx_state[22]; __pyx_result.input_sent_values = __pyx_state[23]; __pyx_result.input_size = __pyx_state[24]; __pyx_result.input_values = __pyx_state[25]; __pyx_result.layer2_sent_values = __pyx_state[26]; __pyx_result.layer2_values = __pyx_state[27]; __pyx_result.learning_rate = __pyx_state[28]; __pyx_result.learning_rate_features = __pyx_state[29]; __pyx_result.learning_rate_trans = __pyx_state[30]; __pyx_result.max_indices = __pyx_state[31]; __pyx_result.net_gradients = __pyx_state[32]; __pyx_result.network_filename = __pyx_state[33]; __pyx_result.network_text_filename = __pyx_state[34]; __pyx_result.num_sentences = __pyx_state[35]; __pyx_result.num_targets = __pyx_state[36]; __pyx_result.num_tokens = __pyx_state[37]; __pyx_result.only_classify = __pyx_state[38]; __pyx_result.output_bias = __pyx_state[39]; __pyx_result.output_size = __pyx_state[40]; __pyx_result.output_weights = __pyx_state[41]; __pyx_result.padding_left = __pyx_state[42]; __pyx_result.padding_right = __pyx_state[43]; __pyx_result.pos_padding = __pyx_state[44]; __pyx_result.pre_padding = __pyx_state[45]; __pyx_result.pred_convolution_lookup = __pyx_state[46]; __pyx_result.pred_dist_deltas = __pyx_state[47]; __pyx_result.pred_dist_lookup = __pyx_state[48]; __pyx_result.pred_dist_offset = __pyx_state[49]; __pyx_result.pred_dist_table = __pyx_state[50]; __pyx_result.pred_dist_weights = __pyx_state[51]; __pyx_result.sentence_accuracy = __pyx_state[52]; __pyx_result.sentence_lookup = __pyx_state[53]; __pyx_result.skips = __pyx_state[54]; __pyx_result.target_convolution_lookup = __pyx_state[55]; __pyx_result.target_dist_deltas = __pyx_state[56]; __pyx_result.target_dist_lookup = __pyx_state[57]; __pyx_result.target_dist_offset = __pyx_state[58]; __pyx_result.target_dist_table = __pyx_state[59]; __pyx_result.target_dist_weights = __pyx_state[60]; __pyx_result.trans_gradients = __pyx_state[61]; __pyx_result.transitions = __pyx_state[62]; __pyx_result.use_learning_rate_decay = __pyx_state[63]; __pyx_result.validation_arguments = __pyx_state[64]; __pyx_result.validation_predicates = __pyx_state[65]; __pyx_result.validation_sentences = __pyx_state[66]; __pyx_result.validation_tags = __pyx_state[67]; __pyx_result.word_window_size = __pyx_state[68]
  */
   __Pyx_XDECREF(__pyx_r);
   __Pyx_INCREF(__pyx_v___pyx_result);
@@ -45347,8 +45667,8 @@ static PyObject *__pyx_pf_4libs_7network_2__pyx_unpickle_ConvolutionalNetwork(CY
  *         __pyx_unpickle_ConvolutionalNetwork__set_state(<ConvolutionalNetwork> __pyx_result, __pyx_state)
  *     return __pyx_result
  * cdef __pyx_unpickle_ConvolutionalNetwork__set_state(ConvolutionalNetwork __pyx_result, tuple __pyx_state):             # <<<<<<<<<<<<<<
- *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.error = __pyx_state[4]; __pyx_result.feature_tables = __pyx_state[5]; __pyx_result.features_per_token = __pyx_state[6]; __pyx_result.float_errors = __pyx_state[7]; __pyx_result.half_window = __pyx_state[8]; __pyx_result.hidden2_before_activation = __pyx_state[9]; __pyx_result.hidden2_bias = __pyx_state[10]; __pyx_result.hidden2_gradients = __pyx_state[11]; __pyx_result.hidden2_size = __pyx_state[12]; __pyx_result.hidden2_values = __pyx_state[13]; __pyx_result.hidden2_weights = __pyx_state[14]; __pyx_result.hidden_before_activation = __pyx_state[15]; __pyx_result.hidden_bias = __pyx_state[16]; __pyx_result.hidden_gradients = __pyx_state[17]; __pyx_result.hidden_sent_values = __pyx_state[18]; __pyx_result.hidden_size = __pyx_state[19]; __pyx_result.hidden_values = __pyx_state[20]; __pyx_result.hidden_weights = __pyx_state[21]; __pyx_result.input_deltas = __pyx_state[22]; __pyx_result.input_sent_values = __pyx_state[23]; __pyx_result.input_size = __pyx_state[24]; __pyx_result.input_values = __pyx_state[25]; __pyx_result.layer2_sent_values = __pyx_state[26]; __pyx_result.layer2_values = __pyx_state[27]; __pyx_result.learning_rate = __pyx_state[28]; __pyx_result.learning_rate_features = __pyx_state[29]; __pyx_result.learning_rate_trans = __pyx_state[30]; __pyx_result.max_indices = __pyx_state[31]; __pyx_result.net_gradients = __pyx_state[32]; __pyx_result.network_filename = __pyx_state[33]; __pyx_result.network_text_filename = __pyx_state[34]; __pyx_result.num_sentences = __pyx_state[35]; __pyx_result.num_targets = __pyx_state[36]; __pyx_result.num_tokens = __pyx_state[37]; __pyx_result.output_bias = __pyx_state[38]; __pyx_result.output_size = __pyx_state[39]; __pyx_result.output_weights = __pyx_state[40]; __pyx_result.padding_left = __pyx_state[41]; __pyx_result.padding_right = __pyx_state[42]; __pyx_result.pos_padding = __pyx_state[43]; __pyx_result.pre_padding = __pyx_state[44]; __pyx_result.pred_convolution_lookup = __pyx_state[45]; __pyx_result.pred_dist_deltas = __pyx_state[46]; __pyx_result.pred_dist_lookup = __pyx_state[47]; __pyx_result.pred_dist_offset = __pyx_state[48]; __pyx_result.pred_dist_table = __pyx_state[49]; __pyx_result.pred_dist_weights = __pyx_state[50]; __pyx_result.sentence_accuracy = __pyx_state[51]; __pyx_result.sentence_lookup = __pyx_state[52]; __pyx_result.skips = __pyx_state[53]; __pyx_result.target_convolution_lookup = __pyx_state[54]; __pyx_result.target_dist_deltas = __pyx_state[55]; __pyx_result.target_dist_lookup = __pyx_state[56]; __pyx_result.target_dist_offset = __pyx_state[57]; __pyx_result.target_dist_table = __pyx_state[58]; __pyx_result.target_dist_weights = __pyx_state[59]; __pyx_result.trans_gradients = __pyx_state[60]; __pyx_result.transitions = __pyx_state[61]; __pyx_result.use_learning_rate_decay = __pyx_state[62]; __pyx_result.validation_arguments = __pyx_state[63]; __pyx_result.validation_predicates = __pyx_state[64]; __pyx_result.validation_sentences = __pyx_state[65]; __pyx_result.validation_tags = __pyx_state[66]; __pyx_result.word_window_size = __pyx_state[67]
- *     if len(__pyx_state) > 68 and hasattr(__pyx_result, '__dict__'):
+ *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.error = __pyx_state[4]; __pyx_result.feature_tables = __pyx_state[5]; __pyx_result.features_per_token = __pyx_state[6]; __pyx_result.float_errors = __pyx_state[7]; __pyx_result.half_window = __pyx_state[8]; __pyx_result.hidden2_before_activation = __pyx_state[9]; __pyx_result.hidden2_bias = __pyx_state[10]; __pyx_result.hidden2_gradients = __pyx_state[11]; __pyx_result.hidden2_size = __pyx_state[12]; __pyx_result.hidden2_values = __pyx_state[13]; __pyx_result.hidden2_weights = __pyx_state[14]; __pyx_result.hidden_before_activation = __pyx_state[15]; __pyx_result.hidden_bias = __pyx_state[16]; __pyx_result.hidden_gradients = __pyx_state[17]; __pyx_result.hidden_sent_values = __pyx_state[18]; __pyx_result.hidden_size = __pyx_state[19]; __pyx_result.hidden_values = __pyx_state[20]; __pyx_result.hidden_weights = __pyx_state[21]; __pyx_result.input_deltas = __pyx_state[22]; __pyx_result.input_sent_values = __pyx_state[23]; __pyx_result.input_size = __pyx_state[24]; __pyx_result.input_values = __pyx_state[25]; __pyx_result.layer2_sent_values = __pyx_state[26]; __pyx_result.layer2_values = __pyx_state[27]; __pyx_result.learning_rate = __pyx_state[28]; __pyx_result.learning_rate_features = __pyx_state[29]; __pyx_result.learning_rate_trans = __pyx_state[30]; __pyx_result.max_indices = __pyx_state[31]; __pyx_result.net_gradients = __pyx_state[32]; __pyx_result.network_filename = __pyx_state[33]; __pyx_result.network_text_filename = __pyx_state[34]; __pyx_result.num_sentences = __pyx_state[35]; __pyx_result.num_targets = __pyx_state[36]; __pyx_result.num_tokens = __pyx_state[37]; __pyx_result.only_classify = __pyx_state[38]; __pyx_result.output_bias = __pyx_state[39]; __pyx_result.output_size = __pyx_state[40]; __pyx_result.output_weights = __pyx_state[41]; __pyx_result.padding_left = __pyx_state[42]; __pyx_result.padding_right = __pyx_state[43]; __pyx_result.pos_padding = __pyx_state[44]; __pyx_result.pre_padding = __pyx_state[45]; __pyx_result.pred_convolution_lookup = __pyx_state[46]; __pyx_result.pred_dist_deltas = __pyx_state[47]; __pyx_result.pred_dist_lookup = __pyx_state[48]; __pyx_result.pred_dist_offset = __pyx_state[49]; __pyx_result.pred_dist_table = __pyx_state[50]; __pyx_result.pred_dist_weights = __pyx_state[51]; __pyx_result.sentence_accuracy = __pyx_state[52]; __pyx_result.sentence_lookup = __pyx_state[53]; __pyx_result.skips = __pyx_state[54]; __pyx_result.target_convolution_lookup = __pyx_state[55]; __pyx_result.target_dist_deltas = __pyx_state[56]; __pyx_result.target_dist_lookup = __pyx_state[57]; __pyx_result.target_dist_offset = __pyx_state[58]; __pyx_result.target_dist_table = __pyx_state[59]; __pyx_result.target_dist_weights = __pyx_state[60]; __pyx_result.trans_gradients = __pyx_state[61]; __pyx_result.transitions = __pyx_state[62]; __pyx_result.use_learning_rate_decay = __pyx_state[63]; __pyx_result.validation_arguments = __pyx_state[64]; __pyx_result.validation_predicates = __pyx_state[65]; __pyx_result.validation_sentences = __pyx_state[66]; __pyx_result.validation_tags = __pyx_state[67]; __pyx_result.word_window_size = __pyx_state[68]
+ *     if len(__pyx_state) > 69 and hasattr(__pyx_result, '__dict__'):
  */
 
 static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set_state(struct __pyx_obj_4libs_7network_ConvolutionalNetwork *__pyx_v___pyx_result, PyObject *__pyx_v___pyx_state) {
@@ -45374,9 +45694,9 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
   /* "(tree fragment)":12
  *     return __pyx_result
  * cdef __pyx_unpickle_ConvolutionalNetwork__set_state(ConvolutionalNetwork __pyx_result, tuple __pyx_state):
- *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.error = __pyx_state[4]; __pyx_result.feature_tables = __pyx_state[5]; __pyx_result.features_per_token = __pyx_state[6]; __pyx_result.float_errors = __pyx_state[7]; __pyx_result.half_window = __pyx_state[8]; __pyx_result.hidden2_before_activation = __pyx_state[9]; __pyx_result.hidden2_bias = __pyx_state[10]; __pyx_result.hidden2_gradients = __pyx_state[11]; __pyx_result.hidden2_size = __pyx_state[12]; __pyx_result.hidden2_values = __pyx_state[13]; __pyx_result.hidden2_weights = __pyx_state[14]; __pyx_result.hidden_before_activation = __pyx_state[15]; __pyx_result.hidden_bias = __pyx_state[16]; __pyx_result.hidden_gradients = __pyx_state[17]; __pyx_result.hidden_sent_values = __pyx_state[18]; __pyx_result.hidden_size = __pyx_state[19]; __pyx_result.hidden_values = __pyx_state[20]; __pyx_result.hidden_weights = __pyx_state[21]; __pyx_result.input_deltas = __pyx_state[22]; __pyx_result.input_sent_values = __pyx_state[23]; __pyx_result.input_size = __pyx_state[24]; __pyx_result.input_values = __pyx_state[25]; __pyx_result.layer2_sent_values = __pyx_state[26]; __pyx_result.layer2_values = __pyx_state[27]; __pyx_result.learning_rate = __pyx_state[28]; __pyx_result.learning_rate_features = __pyx_state[29]; __pyx_result.learning_rate_trans = __pyx_state[30]; __pyx_result.max_indices = __pyx_state[31]; __pyx_result.net_gradients = __pyx_state[32]; __pyx_result.network_filename = __pyx_state[33]; __pyx_result.network_text_filename = __pyx_state[34]; __pyx_result.num_sentences = __pyx_state[35]; __pyx_result.num_targets = __pyx_state[36]; __pyx_result.num_tokens = __pyx_state[37]; __pyx_result.output_bias = __pyx_state[38]; __pyx_result.output_size = __pyx_state[39]; __pyx_result.output_weights = __pyx_state[40]; __pyx_result.padding_left = __pyx_state[41]; __pyx_result.padding_right = __pyx_state[42]; __pyx_result.pos_padding = __pyx_state[43]; __pyx_result.pre_padding = __pyx_state[44]; __pyx_result.pred_convolution_lookup = __pyx_state[45]; __pyx_result.pred_dist_deltas = __pyx_state[46]; __pyx_result.pred_dist_lookup = __pyx_state[47]; __pyx_result.pred_dist_offset = __pyx_state[48]; __pyx_result.pred_dist_table = __pyx_state[49]; __pyx_result.pred_dist_weights = __pyx_state[50]; __pyx_result.sentence_accuracy = __pyx_state[51]; __pyx_result.sentence_lookup = __pyx_state[52]; __pyx_result.skips = __pyx_state[53]; __pyx_result.target_convolution_lookup = __pyx_state[54]; __pyx_result.target_dist_deltas = __pyx_state[55]; __pyx_result.target_dist_lookup = __pyx_state[56]; __pyx_result.target_dist_offset = __pyx_state[57]; __pyx_result.target_dist_table = __pyx_state[58]; __pyx_result.target_dist_weights = __pyx_state[59]; __pyx_result.trans_gradients = __pyx_state[60]; __pyx_result.transitions = __pyx_state[61]; __pyx_result.use_learning_rate_decay = __pyx_state[62]; __pyx_result.validation_arguments = __pyx_state[63]; __pyx_result.validation_predicates = __pyx_state[64]; __pyx_result.validation_sentences = __pyx_state[65]; __pyx_result.validation_tags = __pyx_state[66]; __pyx_result.word_window_size = __pyx_state[67]             # <<<<<<<<<<<<<<
- *     if len(__pyx_state) > 68 and hasattr(__pyx_result, '__dict__'):
- *         __pyx_result.__dict__.update(__pyx_state[68])
+ *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.error = __pyx_state[4]; __pyx_result.feature_tables = __pyx_state[5]; __pyx_result.features_per_token = __pyx_state[6]; __pyx_result.float_errors = __pyx_state[7]; __pyx_result.half_window = __pyx_state[8]; __pyx_result.hidden2_before_activation = __pyx_state[9]; __pyx_result.hidden2_bias = __pyx_state[10]; __pyx_result.hidden2_gradients = __pyx_state[11]; __pyx_result.hidden2_size = __pyx_state[12]; __pyx_result.hidden2_values = __pyx_state[13]; __pyx_result.hidden2_weights = __pyx_state[14]; __pyx_result.hidden_before_activation = __pyx_state[15]; __pyx_result.hidden_bias = __pyx_state[16]; __pyx_result.hidden_gradients = __pyx_state[17]; __pyx_result.hidden_sent_values = __pyx_state[18]; __pyx_result.hidden_size = __pyx_state[19]; __pyx_result.hidden_values = __pyx_state[20]; __pyx_result.hidden_weights = __pyx_state[21]; __pyx_result.input_deltas = __pyx_state[22]; __pyx_result.input_sent_values = __pyx_state[23]; __pyx_result.input_size = __pyx_state[24]; __pyx_result.input_values = __pyx_state[25]; __pyx_result.layer2_sent_values = __pyx_state[26]; __pyx_result.layer2_values = __pyx_state[27]; __pyx_result.learning_rate = __pyx_state[28]; __pyx_result.learning_rate_features = __pyx_state[29]; __pyx_result.learning_rate_trans = __pyx_state[30]; __pyx_result.max_indices = __pyx_state[31]; __pyx_result.net_gradients = __pyx_state[32]; __pyx_result.network_filename = __pyx_state[33]; __pyx_result.network_text_filename = __pyx_state[34]; __pyx_result.num_sentences = __pyx_state[35]; __pyx_result.num_targets = __pyx_state[36]; __pyx_result.num_tokens = __pyx_state[37]; __pyx_result.only_classify = __pyx_state[38]; __pyx_result.output_bias = __pyx_state[39]; __pyx_result.output_size = __pyx_state[40]; __pyx_result.output_weights = __pyx_state[41]; __pyx_result.padding_left = __pyx_state[42]; __pyx_result.padding_right = __pyx_state[43]; __pyx_result.pos_padding = __pyx_state[44]; __pyx_result.pre_padding = __pyx_state[45]; __pyx_result.pred_convolution_lookup = __pyx_state[46]; __pyx_result.pred_dist_deltas = __pyx_state[47]; __pyx_result.pred_dist_lookup = __pyx_state[48]; __pyx_result.pred_dist_offset = __pyx_state[49]; __pyx_result.pred_dist_table = __pyx_state[50]; __pyx_result.pred_dist_weights = __pyx_state[51]; __pyx_result.sentence_accuracy = __pyx_state[52]; __pyx_result.sentence_lookup = __pyx_state[53]; __pyx_result.skips = __pyx_state[54]; __pyx_result.target_convolution_lookup = __pyx_state[55]; __pyx_result.target_dist_deltas = __pyx_state[56]; __pyx_result.target_dist_lookup = __pyx_state[57]; __pyx_result.target_dist_offset = __pyx_state[58]; __pyx_result.target_dist_table = __pyx_state[59]; __pyx_result.target_dist_weights = __pyx_state[60]; __pyx_result.trans_gradients = __pyx_state[61]; __pyx_result.transitions = __pyx_state[62]; __pyx_result.use_learning_rate_decay = __pyx_state[63]; __pyx_result.validation_arguments = __pyx_state[64]; __pyx_result.validation_predicates = __pyx_state[65]; __pyx_result.validation_sentences = __pyx_state[66]; __pyx_result.validation_tags = __pyx_state[67]; __pyx_result.word_window_size = __pyx_state[68]             # <<<<<<<<<<<<<<
+ *     if len(__pyx_state) > 69 and hasattr(__pyx_result, '__dict__'):
+ *         __pyx_result.__dict__.update(__pyx_state[69])
  */
   if (unlikely(__pyx_v___pyx_state == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
@@ -45792,6 +46112,18 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
   }
   __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 38, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
+  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_7cpython_4bool_bool))))) __PYX_ERR(2, 12, __pyx_L1_error)
+  __Pyx_GIVEREF(__pyx_t_1);
+  __Pyx_GOTREF(__pyx_v___pyx_result->only_classify);
+  __Pyx_DECREF(((PyObject *)__pyx_v___pyx_result->only_classify));
+  __pyx_v___pyx_result->only_classify = ((PyBoolObject *)__pyx_t_1);
+  __pyx_t_1 = 0;
+  if (unlikely(__pyx_v___pyx_state == Py_None)) {
+    PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
+    __PYX_ERR(2, 12, __pyx_L1_error)
+  }
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 39, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
   __Pyx_GOTREF(__pyx_v___pyx_result->__pyx_base.output_bias);
@@ -45802,7 +46134,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 39, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 40, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_3 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_3 == (int)-1) && PyErr_Occurred())) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -45811,7 +46143,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 40, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 41, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -45823,7 +46155,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 41, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 42, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -45835,7 +46167,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 42, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 43, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -45847,7 +46179,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 43, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 44, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -45859,7 +46191,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 44, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 45, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -45871,7 +46203,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 45, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 46, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -45883,7 +46215,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 46, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 47, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -45895,7 +46227,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 47, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 48, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -45907,7 +46239,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 48, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 49, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_3 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_3 == (int)-1) && PyErr_Occurred())) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -45916,7 +46248,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 49, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 50, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -45928,7 +46260,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 50, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 51, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -45940,7 +46272,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 51, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 52, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = __pyx_PyFloat_AsFloat(__pyx_t_1); if (unlikely((__pyx_t_2 == (float)-1) && PyErr_Occurred())) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -45949,7 +46281,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 52, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 53, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -45961,7 +46293,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 53, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 54, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_3 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_3 == (int)-1) && PyErr_Occurred())) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -45970,7 +46302,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 54, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 55, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -45982,7 +46314,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 55, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 56, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -45994,7 +46326,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 56, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 57, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -46006,7 +46338,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 57, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 58, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_3 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_3 == (int)-1) && PyErr_Occurred())) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -46015,7 +46347,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 58, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 59, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -46027,7 +46359,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 59, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 60, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -46039,7 +46371,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 60, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 61, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -46051,7 +46383,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 61, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 62, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -46063,7 +46395,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 62, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 63, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_7cpython_4bool_bool))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -46075,7 +46407,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 63, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 64, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(PyList_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "list", Py_TYPE(__pyx_t_1)->tp_name), 0))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -46087,7 +46419,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 64, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 65, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(PyList_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "list", Py_TYPE(__pyx_t_1)->tp_name), 0))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -46099,7 +46431,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 65, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 66, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(PyList_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "list", Py_TYPE(__pyx_t_1)->tp_name), 0))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -46111,7 +46443,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 66, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 67, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(PyList_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "list", Py_TYPE(__pyx_t_1)->tp_name), 0))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -46123,7 +46455,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 67, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 68, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_3 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_3 == (int)-1) && PyErr_Occurred())) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -46131,16 +46463,16 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
 
   /* "(tree fragment)":13
  * cdef __pyx_unpickle_ConvolutionalNetwork__set_state(ConvolutionalNetwork __pyx_result, tuple __pyx_state):
- *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.error = __pyx_state[4]; __pyx_result.feature_tables = __pyx_state[5]; __pyx_result.features_per_token = __pyx_state[6]; __pyx_result.float_errors = __pyx_state[7]; __pyx_result.half_window = __pyx_state[8]; __pyx_result.hidden2_before_activation = __pyx_state[9]; __pyx_result.hidden2_bias = __pyx_state[10]; __pyx_result.hidden2_gradients = __pyx_state[11]; __pyx_result.hidden2_size = __pyx_state[12]; __pyx_result.hidden2_values = __pyx_state[13]; __pyx_result.hidden2_weights = __pyx_state[14]; __pyx_result.hidden_before_activation = __pyx_state[15]; __pyx_result.hidden_bias = __pyx_state[16]; __pyx_result.hidden_gradients = __pyx_state[17]; __pyx_result.hidden_sent_values = __pyx_state[18]; __pyx_result.hidden_size = __pyx_state[19]; __pyx_result.hidden_values = __pyx_state[20]; __pyx_result.hidden_weights = __pyx_state[21]; __pyx_result.input_deltas = __pyx_state[22]; __pyx_result.input_sent_values = __pyx_state[23]; __pyx_result.input_size = __pyx_state[24]; __pyx_result.input_values = __pyx_state[25]; __pyx_result.layer2_sent_values = __pyx_state[26]; __pyx_result.layer2_values = __pyx_state[27]; __pyx_result.learning_rate = __pyx_state[28]; __pyx_result.learning_rate_features = __pyx_state[29]; __pyx_result.learning_rate_trans = __pyx_state[30]; __pyx_result.max_indices = __pyx_state[31]; __pyx_result.net_gradients = __pyx_state[32]; __pyx_result.network_filename = __pyx_state[33]; __pyx_result.network_text_filename = __pyx_state[34]; __pyx_result.num_sentences = __pyx_state[35]; __pyx_result.num_targets = __pyx_state[36]; __pyx_result.num_tokens = __pyx_state[37]; __pyx_result.output_bias = __pyx_state[38]; __pyx_result.output_size = __pyx_state[39]; __pyx_result.output_weights = __pyx_state[40]; __pyx_result.padding_left = __pyx_state[41]; __pyx_result.padding_right = __pyx_state[42]; __pyx_result.pos_padding = __pyx_state[43]; __pyx_result.pre_padding = __pyx_state[44]; __pyx_result.pred_convolution_lookup = __pyx_state[45]; __pyx_result.pred_dist_deltas = __pyx_state[46]; __pyx_result.pred_dist_lookup = __pyx_state[47]; __pyx_result.pred_dist_offset = __pyx_state[48]; __pyx_result.pred_dist_table = __pyx_state[49]; __pyx_result.pred_dist_weights = __pyx_state[50]; __pyx_result.sentence_accuracy = __pyx_state[51]; __pyx_result.sentence_lookup = __pyx_state[52]; __pyx_result.skips = __pyx_state[53]; __pyx_result.target_convolution_lookup = __pyx_state[54]; __pyx_result.target_dist_deltas = __pyx_state[55]; __pyx_result.target_dist_lookup = __pyx_state[56]; __pyx_result.target_dist_offset = __pyx_state[57]; __pyx_result.target_dist_table = __pyx_state[58]; __pyx_result.target_dist_weights = __pyx_state[59]; __pyx_result.trans_gradients = __pyx_state[60]; __pyx_result.transitions = __pyx_state[61]; __pyx_result.use_learning_rate_decay = __pyx_state[62]; __pyx_result.validation_arguments = __pyx_state[63]; __pyx_result.validation_predicates = __pyx_state[64]; __pyx_result.validation_sentences = __pyx_state[65]; __pyx_result.validation_tags = __pyx_state[66]; __pyx_result.word_window_size = __pyx_state[67]
- *     if len(__pyx_state) > 68 and hasattr(__pyx_result, '__dict__'):             # <<<<<<<<<<<<<<
- *         __pyx_result.__dict__.update(__pyx_state[68])
+ *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.error = __pyx_state[4]; __pyx_result.feature_tables = __pyx_state[5]; __pyx_result.features_per_token = __pyx_state[6]; __pyx_result.float_errors = __pyx_state[7]; __pyx_result.half_window = __pyx_state[8]; __pyx_result.hidden2_before_activation = __pyx_state[9]; __pyx_result.hidden2_bias = __pyx_state[10]; __pyx_result.hidden2_gradients = __pyx_state[11]; __pyx_result.hidden2_size = __pyx_state[12]; __pyx_result.hidden2_values = __pyx_state[13]; __pyx_result.hidden2_weights = __pyx_state[14]; __pyx_result.hidden_before_activation = __pyx_state[15]; __pyx_result.hidden_bias = __pyx_state[16]; __pyx_result.hidden_gradients = __pyx_state[17]; __pyx_result.hidden_sent_values = __pyx_state[18]; __pyx_result.hidden_size = __pyx_state[19]; __pyx_result.hidden_values = __pyx_state[20]; __pyx_result.hidden_weights = __pyx_state[21]; __pyx_result.input_deltas = __pyx_state[22]; __pyx_result.input_sent_values = __pyx_state[23]; __pyx_result.input_size = __pyx_state[24]; __pyx_result.input_values = __pyx_state[25]; __pyx_result.layer2_sent_values = __pyx_state[26]; __pyx_result.layer2_values = __pyx_state[27]; __pyx_result.learning_rate = __pyx_state[28]; __pyx_result.learning_rate_features = __pyx_state[29]; __pyx_result.learning_rate_trans = __pyx_state[30]; __pyx_result.max_indices = __pyx_state[31]; __pyx_result.net_gradients = __pyx_state[32]; __pyx_result.network_filename = __pyx_state[33]; __pyx_result.network_text_filename = __pyx_state[34]; __pyx_result.num_sentences = __pyx_state[35]; __pyx_result.num_targets = __pyx_state[36]; __pyx_result.num_tokens = __pyx_state[37]; __pyx_result.only_classify = __pyx_state[38]; __pyx_result.output_bias = __pyx_state[39]; __pyx_result.output_size = __pyx_state[40]; __pyx_result.output_weights = __pyx_state[41]; __pyx_result.padding_left = __pyx_state[42]; __pyx_result.padding_right = __pyx_state[43]; __pyx_result.pos_padding = __pyx_state[44]; __pyx_result.pre_padding = __pyx_state[45]; __pyx_result.pred_convolution_lookup = __pyx_state[46]; __pyx_result.pred_dist_deltas = __pyx_state[47]; __pyx_result.pred_dist_lookup = __pyx_state[48]; __pyx_result.pred_dist_offset = __pyx_state[49]; __pyx_result.pred_dist_table = __pyx_state[50]; __pyx_result.pred_dist_weights = __pyx_state[51]; __pyx_result.sentence_accuracy = __pyx_state[52]; __pyx_result.sentence_lookup = __pyx_state[53]; __pyx_result.skips = __pyx_state[54]; __pyx_result.target_convolution_lookup = __pyx_state[55]; __pyx_result.target_dist_deltas = __pyx_state[56]; __pyx_result.target_dist_lookup = __pyx_state[57]; __pyx_result.target_dist_offset = __pyx_state[58]; __pyx_result.target_dist_table = __pyx_state[59]; __pyx_result.target_dist_weights = __pyx_state[60]; __pyx_result.trans_gradients = __pyx_state[61]; __pyx_result.transitions = __pyx_state[62]; __pyx_result.use_learning_rate_decay = __pyx_state[63]; __pyx_result.validation_arguments = __pyx_state[64]; __pyx_result.validation_predicates = __pyx_state[65]; __pyx_result.validation_sentences = __pyx_state[66]; __pyx_result.validation_tags = __pyx_state[67]; __pyx_result.word_window_size = __pyx_state[68]
+ *     if len(__pyx_state) > 69 and hasattr(__pyx_result, '__dict__'):             # <<<<<<<<<<<<<<
+ *         __pyx_result.__dict__.update(__pyx_state[69])
  */
   if (unlikely(__pyx_v___pyx_state == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "object of type 'NoneType' has no len()");
     __PYX_ERR(2, 13, __pyx_L1_error)
   }
   __pyx_t_5 = PyTuple_GET_SIZE(__pyx_v___pyx_state); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(2, 13, __pyx_L1_error)
-  __pyx_t_6 = ((__pyx_t_5 > 68) != 0);
+  __pyx_t_6 = ((__pyx_t_5 > 69) != 0);
   if (__pyx_t_6) {
   } else {
     __pyx_t_4 = __pyx_t_6;
@@ -46153,9 +46485,9 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
   if (__pyx_t_4) {
 
     /* "(tree fragment)":14
- *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.error = __pyx_state[4]; __pyx_result.feature_tables = __pyx_state[5]; __pyx_result.features_per_token = __pyx_state[6]; __pyx_result.float_errors = __pyx_state[7]; __pyx_result.half_window = __pyx_state[8]; __pyx_result.hidden2_before_activation = __pyx_state[9]; __pyx_result.hidden2_bias = __pyx_state[10]; __pyx_result.hidden2_gradients = __pyx_state[11]; __pyx_result.hidden2_size = __pyx_state[12]; __pyx_result.hidden2_values = __pyx_state[13]; __pyx_result.hidden2_weights = __pyx_state[14]; __pyx_result.hidden_before_activation = __pyx_state[15]; __pyx_result.hidden_bias = __pyx_state[16]; __pyx_result.hidden_gradients = __pyx_state[17]; __pyx_result.hidden_sent_values = __pyx_state[18]; __pyx_result.hidden_size = __pyx_state[19]; __pyx_result.hidden_values = __pyx_state[20]; __pyx_result.hidden_weights = __pyx_state[21]; __pyx_result.input_deltas = __pyx_state[22]; __pyx_result.input_sent_values = __pyx_state[23]; __pyx_result.input_size = __pyx_state[24]; __pyx_result.input_values = __pyx_state[25]; __pyx_result.layer2_sent_values = __pyx_state[26]; __pyx_result.layer2_values = __pyx_state[27]; __pyx_result.learning_rate = __pyx_state[28]; __pyx_result.learning_rate_features = __pyx_state[29]; __pyx_result.learning_rate_trans = __pyx_state[30]; __pyx_result.max_indices = __pyx_state[31]; __pyx_result.net_gradients = __pyx_state[32]; __pyx_result.network_filename = __pyx_state[33]; __pyx_result.network_text_filename = __pyx_state[34]; __pyx_result.num_sentences = __pyx_state[35]; __pyx_result.num_targets = __pyx_state[36]; __pyx_result.num_tokens = __pyx_state[37]; __pyx_result.output_bias = __pyx_state[38]; __pyx_result.output_size = __pyx_state[39]; __pyx_result.output_weights = __pyx_state[40]; __pyx_result.padding_left = __pyx_state[41]; __pyx_result.padding_right = __pyx_state[42]; __pyx_result.pos_padding = __pyx_state[43]; __pyx_result.pre_padding = __pyx_state[44]; __pyx_result.pred_convolution_lookup = __pyx_state[45]; __pyx_result.pred_dist_deltas = __pyx_state[46]; __pyx_result.pred_dist_lookup = __pyx_state[47]; __pyx_result.pred_dist_offset = __pyx_state[48]; __pyx_result.pred_dist_table = __pyx_state[49]; __pyx_result.pred_dist_weights = __pyx_state[50]; __pyx_result.sentence_accuracy = __pyx_state[51]; __pyx_result.sentence_lookup = __pyx_state[52]; __pyx_result.skips = __pyx_state[53]; __pyx_result.target_convolution_lookup = __pyx_state[54]; __pyx_result.target_dist_deltas = __pyx_state[55]; __pyx_result.target_dist_lookup = __pyx_state[56]; __pyx_result.target_dist_offset = __pyx_state[57]; __pyx_result.target_dist_table = __pyx_state[58]; __pyx_result.target_dist_weights = __pyx_state[59]; __pyx_result.trans_gradients = __pyx_state[60]; __pyx_result.transitions = __pyx_state[61]; __pyx_result.use_learning_rate_decay = __pyx_state[62]; __pyx_result.validation_arguments = __pyx_state[63]; __pyx_result.validation_predicates = __pyx_state[64]; __pyx_result.validation_sentences = __pyx_state[65]; __pyx_result.validation_tags = __pyx_state[66]; __pyx_result.word_window_size = __pyx_state[67]
- *     if len(__pyx_state) > 68 and hasattr(__pyx_result, '__dict__'):
- *         __pyx_result.__dict__.update(__pyx_state[68])             # <<<<<<<<<<<<<<
+ *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.error = __pyx_state[4]; __pyx_result.feature_tables = __pyx_state[5]; __pyx_result.features_per_token = __pyx_state[6]; __pyx_result.float_errors = __pyx_state[7]; __pyx_result.half_window = __pyx_state[8]; __pyx_result.hidden2_before_activation = __pyx_state[9]; __pyx_result.hidden2_bias = __pyx_state[10]; __pyx_result.hidden2_gradients = __pyx_state[11]; __pyx_result.hidden2_size = __pyx_state[12]; __pyx_result.hidden2_values = __pyx_state[13]; __pyx_result.hidden2_weights = __pyx_state[14]; __pyx_result.hidden_before_activation = __pyx_state[15]; __pyx_result.hidden_bias = __pyx_state[16]; __pyx_result.hidden_gradients = __pyx_state[17]; __pyx_result.hidden_sent_values = __pyx_state[18]; __pyx_result.hidden_size = __pyx_state[19]; __pyx_result.hidden_values = __pyx_state[20]; __pyx_result.hidden_weights = __pyx_state[21]; __pyx_result.input_deltas = __pyx_state[22]; __pyx_result.input_sent_values = __pyx_state[23]; __pyx_result.input_size = __pyx_state[24]; __pyx_result.input_values = __pyx_state[25]; __pyx_result.layer2_sent_values = __pyx_state[26]; __pyx_result.layer2_values = __pyx_state[27]; __pyx_result.learning_rate = __pyx_state[28]; __pyx_result.learning_rate_features = __pyx_state[29]; __pyx_result.learning_rate_trans = __pyx_state[30]; __pyx_result.max_indices = __pyx_state[31]; __pyx_result.net_gradients = __pyx_state[32]; __pyx_result.network_filename = __pyx_state[33]; __pyx_result.network_text_filename = __pyx_state[34]; __pyx_result.num_sentences = __pyx_state[35]; __pyx_result.num_targets = __pyx_state[36]; __pyx_result.num_tokens = __pyx_state[37]; __pyx_result.only_classify = __pyx_state[38]; __pyx_result.output_bias = __pyx_state[39]; __pyx_result.output_size = __pyx_state[40]; __pyx_result.output_weights = __pyx_state[41]; __pyx_result.padding_left = __pyx_state[42]; __pyx_result.padding_right = __pyx_state[43]; __pyx_result.pos_padding = __pyx_state[44]; __pyx_result.pre_padding = __pyx_state[45]; __pyx_result.pred_convolution_lookup = __pyx_state[46]; __pyx_result.pred_dist_deltas = __pyx_state[47]; __pyx_result.pred_dist_lookup = __pyx_state[48]; __pyx_result.pred_dist_offset = __pyx_state[49]; __pyx_result.pred_dist_table = __pyx_state[50]; __pyx_result.pred_dist_weights = __pyx_state[51]; __pyx_result.sentence_accuracy = __pyx_state[52]; __pyx_result.sentence_lookup = __pyx_state[53]; __pyx_result.skips = __pyx_state[54]; __pyx_result.target_convolution_lookup = __pyx_state[55]; __pyx_result.target_dist_deltas = __pyx_state[56]; __pyx_result.target_dist_lookup = __pyx_state[57]; __pyx_result.target_dist_offset = __pyx_state[58]; __pyx_result.target_dist_table = __pyx_state[59]; __pyx_result.target_dist_weights = __pyx_state[60]; __pyx_result.trans_gradients = __pyx_state[61]; __pyx_result.transitions = __pyx_state[62]; __pyx_result.use_learning_rate_decay = __pyx_state[63]; __pyx_result.validation_arguments = __pyx_state[64]; __pyx_result.validation_predicates = __pyx_state[65]; __pyx_result.validation_sentences = __pyx_state[66]; __pyx_result.validation_tags = __pyx_state[67]; __pyx_result.word_window_size = __pyx_state[68]
+ *     if len(__pyx_state) > 69 and hasattr(__pyx_result, '__dict__'):
+ *         __pyx_result.__dict__.update(__pyx_state[69])             # <<<<<<<<<<<<<<
  */
     __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v___pyx_result), __pyx_n_s_dict); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 14, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
@@ -46166,7 +46498,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
       __PYX_ERR(2, 14, __pyx_L1_error)
     }
-    __pyx_t_8 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 68, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 14, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 69, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 14, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __pyx_t_10 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_9))) {
@@ -46188,9 +46520,9 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
 
     /* "(tree fragment)":13
  * cdef __pyx_unpickle_ConvolutionalNetwork__set_state(ConvolutionalNetwork __pyx_result, tuple __pyx_state):
- *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.error = __pyx_state[4]; __pyx_result.feature_tables = __pyx_state[5]; __pyx_result.features_per_token = __pyx_state[6]; __pyx_result.float_errors = __pyx_state[7]; __pyx_result.half_window = __pyx_state[8]; __pyx_result.hidden2_before_activation = __pyx_state[9]; __pyx_result.hidden2_bias = __pyx_state[10]; __pyx_result.hidden2_gradients = __pyx_state[11]; __pyx_result.hidden2_size = __pyx_state[12]; __pyx_result.hidden2_values = __pyx_state[13]; __pyx_result.hidden2_weights = __pyx_state[14]; __pyx_result.hidden_before_activation = __pyx_state[15]; __pyx_result.hidden_bias = __pyx_state[16]; __pyx_result.hidden_gradients = __pyx_state[17]; __pyx_result.hidden_sent_values = __pyx_state[18]; __pyx_result.hidden_size = __pyx_state[19]; __pyx_result.hidden_values = __pyx_state[20]; __pyx_result.hidden_weights = __pyx_state[21]; __pyx_result.input_deltas = __pyx_state[22]; __pyx_result.input_sent_values = __pyx_state[23]; __pyx_result.input_size = __pyx_state[24]; __pyx_result.input_values = __pyx_state[25]; __pyx_result.layer2_sent_values = __pyx_state[26]; __pyx_result.layer2_values = __pyx_state[27]; __pyx_result.learning_rate = __pyx_state[28]; __pyx_result.learning_rate_features = __pyx_state[29]; __pyx_result.learning_rate_trans = __pyx_state[30]; __pyx_result.max_indices = __pyx_state[31]; __pyx_result.net_gradients = __pyx_state[32]; __pyx_result.network_filename = __pyx_state[33]; __pyx_result.network_text_filename = __pyx_state[34]; __pyx_result.num_sentences = __pyx_state[35]; __pyx_result.num_targets = __pyx_state[36]; __pyx_result.num_tokens = __pyx_state[37]; __pyx_result.output_bias = __pyx_state[38]; __pyx_result.output_size = __pyx_state[39]; __pyx_result.output_weights = __pyx_state[40]; __pyx_result.padding_left = __pyx_state[41]; __pyx_result.padding_right = __pyx_state[42]; __pyx_result.pos_padding = __pyx_state[43]; __pyx_result.pre_padding = __pyx_state[44]; __pyx_result.pred_convolution_lookup = __pyx_state[45]; __pyx_result.pred_dist_deltas = __pyx_state[46]; __pyx_result.pred_dist_lookup = __pyx_state[47]; __pyx_result.pred_dist_offset = __pyx_state[48]; __pyx_result.pred_dist_table = __pyx_state[49]; __pyx_result.pred_dist_weights = __pyx_state[50]; __pyx_result.sentence_accuracy = __pyx_state[51]; __pyx_result.sentence_lookup = __pyx_state[52]; __pyx_result.skips = __pyx_state[53]; __pyx_result.target_convolution_lookup = __pyx_state[54]; __pyx_result.target_dist_deltas = __pyx_state[55]; __pyx_result.target_dist_lookup = __pyx_state[56]; __pyx_result.target_dist_offset = __pyx_state[57]; __pyx_result.target_dist_table = __pyx_state[58]; __pyx_result.target_dist_weights = __pyx_state[59]; __pyx_result.trans_gradients = __pyx_state[60]; __pyx_result.transitions = __pyx_state[61]; __pyx_result.use_learning_rate_decay = __pyx_state[62]; __pyx_result.validation_arguments = __pyx_state[63]; __pyx_result.validation_predicates = __pyx_state[64]; __pyx_result.validation_sentences = __pyx_state[65]; __pyx_result.validation_tags = __pyx_state[66]; __pyx_result.word_window_size = __pyx_state[67]
- *     if len(__pyx_state) > 68 and hasattr(__pyx_result, '__dict__'):             # <<<<<<<<<<<<<<
- *         __pyx_result.__dict__.update(__pyx_state[68])
+ *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.error = __pyx_state[4]; __pyx_result.feature_tables = __pyx_state[5]; __pyx_result.features_per_token = __pyx_state[6]; __pyx_result.float_errors = __pyx_state[7]; __pyx_result.half_window = __pyx_state[8]; __pyx_result.hidden2_before_activation = __pyx_state[9]; __pyx_result.hidden2_bias = __pyx_state[10]; __pyx_result.hidden2_gradients = __pyx_state[11]; __pyx_result.hidden2_size = __pyx_state[12]; __pyx_result.hidden2_values = __pyx_state[13]; __pyx_result.hidden2_weights = __pyx_state[14]; __pyx_result.hidden_before_activation = __pyx_state[15]; __pyx_result.hidden_bias = __pyx_state[16]; __pyx_result.hidden_gradients = __pyx_state[17]; __pyx_result.hidden_sent_values = __pyx_state[18]; __pyx_result.hidden_size = __pyx_state[19]; __pyx_result.hidden_values = __pyx_state[20]; __pyx_result.hidden_weights = __pyx_state[21]; __pyx_result.input_deltas = __pyx_state[22]; __pyx_result.input_sent_values = __pyx_state[23]; __pyx_result.input_size = __pyx_state[24]; __pyx_result.input_values = __pyx_state[25]; __pyx_result.layer2_sent_values = __pyx_state[26]; __pyx_result.layer2_values = __pyx_state[27]; __pyx_result.learning_rate = __pyx_state[28]; __pyx_result.learning_rate_features = __pyx_state[29]; __pyx_result.learning_rate_trans = __pyx_state[30]; __pyx_result.max_indices = __pyx_state[31]; __pyx_result.net_gradients = __pyx_state[32]; __pyx_result.network_filename = __pyx_state[33]; __pyx_result.network_text_filename = __pyx_state[34]; __pyx_result.num_sentences = __pyx_state[35]; __pyx_result.num_targets = __pyx_state[36]; __pyx_result.num_tokens = __pyx_state[37]; __pyx_result.only_classify = __pyx_state[38]; __pyx_result.output_bias = __pyx_state[39]; __pyx_result.output_size = __pyx_state[40]; __pyx_result.output_weights = __pyx_state[41]; __pyx_result.padding_left = __pyx_state[42]; __pyx_result.padding_right = __pyx_state[43]; __pyx_result.pos_padding = __pyx_state[44]; __pyx_result.pre_padding = __pyx_state[45]; __pyx_result.pred_convolution_lookup = __pyx_state[46]; __pyx_result.pred_dist_deltas = __pyx_state[47]; __pyx_result.pred_dist_lookup = __pyx_state[48]; __pyx_result.pred_dist_offset = __pyx_state[49]; __pyx_result.pred_dist_table = __pyx_state[50]; __pyx_result.pred_dist_weights = __pyx_state[51]; __pyx_result.sentence_accuracy = __pyx_state[52]; __pyx_result.sentence_lookup = __pyx_state[53]; __pyx_result.skips = __pyx_state[54]; __pyx_result.target_convolution_lookup = __pyx_state[55]; __pyx_result.target_dist_deltas = __pyx_state[56]; __pyx_result.target_dist_lookup = __pyx_state[57]; __pyx_result.target_dist_offset = __pyx_state[58]; __pyx_result.target_dist_table = __pyx_state[59]; __pyx_result.target_dist_weights = __pyx_state[60]; __pyx_result.trans_gradients = __pyx_state[61]; __pyx_result.transitions = __pyx_state[62]; __pyx_result.use_learning_rate_decay = __pyx_state[63]; __pyx_result.validation_arguments = __pyx_state[64]; __pyx_result.validation_predicates = __pyx_state[65]; __pyx_result.validation_sentences = __pyx_state[66]; __pyx_result.validation_tags = __pyx_state[67]; __pyx_result.word_window_size = __pyx_state[68]
+ *     if len(__pyx_state) > 69 and hasattr(__pyx_result, '__dict__'):             # <<<<<<<<<<<<<<
+ *         __pyx_result.__dict__.update(__pyx_state[69])
  */
   }
 
@@ -46198,8 +46530,8 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalNetwork__set
  *         __pyx_unpickle_ConvolutionalNetwork__set_state(<ConvolutionalNetwork> __pyx_result, __pyx_state)
  *     return __pyx_result
  * cdef __pyx_unpickle_ConvolutionalNetwork__set_state(ConvolutionalNetwork __pyx_result, tuple __pyx_state):             # <<<<<<<<<<<<<<
- *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.error = __pyx_state[4]; __pyx_result.feature_tables = __pyx_state[5]; __pyx_result.features_per_token = __pyx_state[6]; __pyx_result.float_errors = __pyx_state[7]; __pyx_result.half_window = __pyx_state[8]; __pyx_result.hidden2_before_activation = __pyx_state[9]; __pyx_result.hidden2_bias = __pyx_state[10]; __pyx_result.hidden2_gradients = __pyx_state[11]; __pyx_result.hidden2_size = __pyx_state[12]; __pyx_result.hidden2_values = __pyx_state[13]; __pyx_result.hidden2_weights = __pyx_state[14]; __pyx_result.hidden_before_activation = __pyx_state[15]; __pyx_result.hidden_bias = __pyx_state[16]; __pyx_result.hidden_gradients = __pyx_state[17]; __pyx_result.hidden_sent_values = __pyx_state[18]; __pyx_result.hidden_size = __pyx_state[19]; __pyx_result.hidden_values = __pyx_state[20]; __pyx_result.hidden_weights = __pyx_state[21]; __pyx_result.input_deltas = __pyx_state[22]; __pyx_result.input_sent_values = __pyx_state[23]; __pyx_result.input_size = __pyx_state[24]; __pyx_result.input_values = __pyx_state[25]; __pyx_result.layer2_sent_values = __pyx_state[26]; __pyx_result.layer2_values = __pyx_state[27]; __pyx_result.learning_rate = __pyx_state[28]; __pyx_result.learning_rate_features = __pyx_state[29]; __pyx_result.learning_rate_trans = __pyx_state[30]; __pyx_result.max_indices = __pyx_state[31]; __pyx_result.net_gradients = __pyx_state[32]; __pyx_result.network_filename = __pyx_state[33]; __pyx_result.network_text_filename = __pyx_state[34]; __pyx_result.num_sentences = __pyx_state[35]; __pyx_result.num_targets = __pyx_state[36]; __pyx_result.num_tokens = __pyx_state[37]; __pyx_result.output_bias = __pyx_state[38]; __pyx_result.output_size = __pyx_state[39]; __pyx_result.output_weights = __pyx_state[40]; __pyx_result.padding_left = __pyx_state[41]; __pyx_result.padding_right = __pyx_state[42]; __pyx_result.pos_padding = __pyx_state[43]; __pyx_result.pre_padding = __pyx_state[44]; __pyx_result.pred_convolution_lookup = __pyx_state[45]; __pyx_result.pred_dist_deltas = __pyx_state[46]; __pyx_result.pred_dist_lookup = __pyx_state[47]; __pyx_result.pred_dist_offset = __pyx_state[48]; __pyx_result.pred_dist_table = __pyx_state[49]; __pyx_result.pred_dist_weights = __pyx_state[50]; __pyx_result.sentence_accuracy = __pyx_state[51]; __pyx_result.sentence_lookup = __pyx_state[52]; __pyx_result.skips = __pyx_state[53]; __pyx_result.target_convolution_lookup = __pyx_state[54]; __pyx_result.target_dist_deltas = __pyx_state[55]; __pyx_result.target_dist_lookup = __pyx_state[56]; __pyx_result.target_dist_offset = __pyx_state[57]; __pyx_result.target_dist_table = __pyx_state[58]; __pyx_result.target_dist_weights = __pyx_state[59]; __pyx_result.trans_gradients = __pyx_state[60]; __pyx_result.transitions = __pyx_state[61]; __pyx_result.use_learning_rate_decay = __pyx_state[62]; __pyx_result.validation_arguments = __pyx_state[63]; __pyx_result.validation_predicates = __pyx_state[64]; __pyx_result.validation_sentences = __pyx_state[65]; __pyx_result.validation_tags = __pyx_state[66]; __pyx_result.word_window_size = __pyx_state[67]
- *     if len(__pyx_state) > 68 and hasattr(__pyx_result, '__dict__'):
+ *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.error = __pyx_state[4]; __pyx_result.feature_tables = __pyx_state[5]; __pyx_result.features_per_token = __pyx_state[6]; __pyx_result.float_errors = __pyx_state[7]; __pyx_result.half_window = __pyx_state[8]; __pyx_result.hidden2_before_activation = __pyx_state[9]; __pyx_result.hidden2_bias = __pyx_state[10]; __pyx_result.hidden2_gradients = __pyx_state[11]; __pyx_result.hidden2_size = __pyx_state[12]; __pyx_result.hidden2_values = __pyx_state[13]; __pyx_result.hidden2_weights = __pyx_state[14]; __pyx_result.hidden_before_activation = __pyx_state[15]; __pyx_result.hidden_bias = __pyx_state[16]; __pyx_result.hidden_gradients = __pyx_state[17]; __pyx_result.hidden_sent_values = __pyx_state[18]; __pyx_result.hidden_size = __pyx_state[19]; __pyx_result.hidden_values = __pyx_state[20]; __pyx_result.hidden_weights = __pyx_state[21]; __pyx_result.input_deltas = __pyx_state[22]; __pyx_result.input_sent_values = __pyx_state[23]; __pyx_result.input_size = __pyx_state[24]; __pyx_result.input_values = __pyx_state[25]; __pyx_result.layer2_sent_values = __pyx_state[26]; __pyx_result.layer2_values = __pyx_state[27]; __pyx_result.learning_rate = __pyx_state[28]; __pyx_result.learning_rate_features = __pyx_state[29]; __pyx_result.learning_rate_trans = __pyx_state[30]; __pyx_result.max_indices = __pyx_state[31]; __pyx_result.net_gradients = __pyx_state[32]; __pyx_result.network_filename = __pyx_state[33]; __pyx_result.network_text_filename = __pyx_state[34]; __pyx_result.num_sentences = __pyx_state[35]; __pyx_result.num_targets = __pyx_state[36]; __pyx_result.num_tokens = __pyx_state[37]; __pyx_result.only_classify = __pyx_state[38]; __pyx_result.output_bias = __pyx_state[39]; __pyx_result.output_size = __pyx_state[40]; __pyx_result.output_weights = __pyx_state[41]; __pyx_result.padding_left = __pyx_state[42]; __pyx_result.padding_right = __pyx_state[43]; __pyx_result.pos_padding = __pyx_state[44]; __pyx_result.pre_padding = __pyx_state[45]; __pyx_result.pred_convolution_lookup = __pyx_state[46]; __pyx_result.pred_dist_deltas = __pyx_state[47]; __pyx_result.pred_dist_lookup = __pyx_state[48]; __pyx_result.pred_dist_offset = __pyx_state[49]; __pyx_result.pred_dist_table = __pyx_state[50]; __pyx_result.pred_dist_weights = __pyx_state[51]; __pyx_result.sentence_accuracy = __pyx_state[52]; __pyx_result.sentence_lookup = __pyx_state[53]; __pyx_result.skips = __pyx_state[54]; __pyx_result.target_convolution_lookup = __pyx_state[55]; __pyx_result.target_dist_deltas = __pyx_state[56]; __pyx_result.target_dist_lookup = __pyx_state[57]; __pyx_result.target_dist_offset = __pyx_state[58]; __pyx_result.target_dist_table = __pyx_state[59]; __pyx_result.target_dist_weights = __pyx_state[60]; __pyx_result.trans_gradients = __pyx_state[61]; __pyx_result.transitions = __pyx_state[62]; __pyx_result.use_learning_rate_decay = __pyx_state[63]; __pyx_result.validation_arguments = __pyx_state[64]; __pyx_result.validation_predicates = __pyx_state[65]; __pyx_result.validation_sentences = __pyx_state[66]; __pyx_result.validation_tags = __pyx_state[67]; __pyx_result.word_window_size = __pyx_state[68]
+ *     if len(__pyx_state) > 69 and hasattr(__pyx_result, '__dict__'):
  */
 
   /* function exit code */
@@ -46317,29 +46649,29 @@ static PyObject *__pyx_pf_4libs_7network_4__pyx_unpickle_ConvolutionalDependency
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
-  __Pyx_TraceFrameInit(__pyx_codeobj__16)
+  __Pyx_TraceFrameInit(__pyx_codeobj__17)
   __Pyx_RefNannySetupContext("__pyx_unpickle_ConvolutionalDependencyNetwork", 0);
   __Pyx_TraceCall("__pyx_unpickle_ConvolutionalDependencyNetwork", __pyx_f[2], 1, 0, __PYX_ERR(2, 1, __pyx_L1_error));
 
   /* "(tree fragment)":4
  *     cdef object __pyx_PickleError
  *     cdef object __pyx_result
- *     if __pyx_checksum not in (0xeb21070, 0x72312ae, 0x5bb78a3):             # <<<<<<<<<<<<<<
+ *     if __pyx_checksum not in (0x1a87293, 0xca52c1e, 0x8b21fc2):             # <<<<<<<<<<<<<<
  *         from pickle import PickleError as __pyx_PickleError
- *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0xeb21070, 0x72312ae, 0x5bb78a3) = (accuracy, answer_score, convolution_lookup, decay_factor, dependency_weights, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_heads, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
+ *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x1a87293, 0xca52c1e, 0x8b21fc2) = (accuracy, answer_score, convolution_lookup, decay_factor, dependency_weights, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, only_classify, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_heads, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
  */
   __pyx_t_1 = __Pyx_PyInt_From_long(__pyx_v___pyx_checksum); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 4, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __pyx_t_2 = (__Pyx_PySequence_ContainsTF(__pyx_t_1, __pyx_tuple__17, Py_NE)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(2, 4, __pyx_L1_error)
+  __pyx_t_2 = (__Pyx_PySequence_ContainsTF(__pyx_t_1, __pyx_tuple__18, Py_NE)); if (unlikely(__pyx_t_2 < 0)) __PYX_ERR(2, 4, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __pyx_t_3 = (__pyx_t_2 != 0);
   if (__pyx_t_3) {
 
     /* "(tree fragment)":5
  *     cdef object __pyx_result
- *     if __pyx_checksum not in (0xeb21070, 0x72312ae, 0x5bb78a3):
+ *     if __pyx_checksum not in (0x1a87293, 0xca52c1e, 0x8b21fc2):
  *         from pickle import PickleError as __pyx_PickleError             # <<<<<<<<<<<<<<
- *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0xeb21070, 0x72312ae, 0x5bb78a3) = (accuracy, answer_score, convolution_lookup, decay_factor, dependency_weights, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_heads, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
+ *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x1a87293, 0xca52c1e, 0x8b21fc2) = (accuracy, answer_score, convolution_lookup, decay_factor, dependency_weights, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, only_classify, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_heads, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
  *     __pyx_result = ConvolutionalDependencyNetwork.__new__(__pyx_type)
  */
     __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 5, __pyx_L1_error)
@@ -46358,9 +46690,9 @@ static PyObject *__pyx_pf_4libs_7network_4__pyx_unpickle_ConvolutionalDependency
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
     /* "(tree fragment)":6
- *     if __pyx_checksum not in (0xeb21070, 0x72312ae, 0x5bb78a3):
+ *     if __pyx_checksum not in (0x1a87293, 0xca52c1e, 0x8b21fc2):
  *         from pickle import PickleError as __pyx_PickleError
- *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0xeb21070, 0x72312ae, 0x5bb78a3) = (accuracy, answer_score, convolution_lookup, decay_factor, dependency_weights, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_heads, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)             # <<<<<<<<<<<<<<
+ *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x1a87293, 0xca52c1e, 0x8b21fc2) = (accuracy, answer_score, convolution_lookup, decay_factor, dependency_weights, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, only_classify, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_heads, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)             # <<<<<<<<<<<<<<
  *     __pyx_result = ConvolutionalDependencyNetwork.__new__(__pyx_type)
  *     if __pyx_state is not None:
  */
@@ -46393,15 +46725,15 @@ static PyObject *__pyx_pf_4libs_7network_4__pyx_unpickle_ConvolutionalDependency
     /* "(tree fragment)":4
  *     cdef object __pyx_PickleError
  *     cdef object __pyx_result
- *     if __pyx_checksum not in (0xeb21070, 0x72312ae, 0x5bb78a3):             # <<<<<<<<<<<<<<
+ *     if __pyx_checksum not in (0x1a87293, 0xca52c1e, 0x8b21fc2):             # <<<<<<<<<<<<<<
  *         from pickle import PickleError as __pyx_PickleError
- *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0xeb21070, 0x72312ae, 0x5bb78a3) = (accuracy, answer_score, convolution_lookup, decay_factor, dependency_weights, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_heads, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
+ *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x1a87293, 0xca52c1e, 0x8b21fc2) = (accuracy, answer_score, convolution_lookup, decay_factor, dependency_weights, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, only_classify, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_heads, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
  */
   }
 
   /* "(tree fragment)":7
  *         from pickle import PickleError as __pyx_PickleError
- *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0xeb21070, 0x72312ae, 0x5bb78a3) = (accuracy, answer_score, convolution_lookup, decay_factor, dependency_weights, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_heads, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
+ *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x1a87293, 0xca52c1e, 0x8b21fc2) = (accuracy, answer_score, convolution_lookup, decay_factor, dependency_weights, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, only_classify, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_heads, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
  *     __pyx_result = ConvolutionalDependencyNetwork.__new__(__pyx_type)             # <<<<<<<<<<<<<<
  *     if __pyx_state is not None:
  *         __pyx_unpickle_ConvolutionalDependencyNetwork__set_state(<ConvolutionalDependencyNetwork> __pyx_result, __pyx_state)
@@ -46427,7 +46759,7 @@ static PyObject *__pyx_pf_4libs_7network_4__pyx_unpickle_ConvolutionalDependency
   __pyx_t_4 = 0;
 
   /* "(tree fragment)":8
- *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0xeb21070, 0x72312ae, 0x5bb78a3) = (accuracy, answer_score, convolution_lookup, decay_factor, dependency_weights, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_heads, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
+ *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x1a87293, 0xca52c1e, 0x8b21fc2) = (accuracy, answer_score, convolution_lookup, decay_factor, dependency_weights, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, only_classify, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_heads, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
  *     __pyx_result = ConvolutionalDependencyNetwork.__new__(__pyx_type)
  *     if __pyx_state is not None:             # <<<<<<<<<<<<<<
  *         __pyx_unpickle_ConvolutionalDependencyNetwork__set_state(<ConvolutionalDependencyNetwork> __pyx_result, __pyx_state)
@@ -46450,7 +46782,7 @@ static PyObject *__pyx_pf_4libs_7network_4__pyx_unpickle_ConvolutionalDependency
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
     /* "(tree fragment)":8
- *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0xeb21070, 0x72312ae, 0x5bb78a3) = (accuracy, answer_score, convolution_lookup, decay_factor, dependency_weights, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_heads, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
+ *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0x1a87293, 0xca52c1e, 0x8b21fc2) = (accuracy, answer_score, convolution_lookup, decay_factor, dependency_weights, error, feature_tables, features_per_token, float_errors, half_window, hidden2_before_activation, hidden2_bias, hidden2_gradients, hidden2_size, hidden2_values, hidden2_weights, hidden_before_activation, hidden_bias, hidden_gradients, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_deltas, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, max_indices, net_gradients, network_filename, network_text_filename, num_sentences, num_targets, num_tokens, only_classify, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, pred_convolution_lookup, pred_dist_deltas, pred_dist_lookup, pred_dist_offset, pred_dist_table, pred_dist_weights, sentence_accuracy, sentence_lookup, skips, target_convolution_lookup, target_dist_deltas, target_dist_lookup, target_dist_offset, target_dist_table, target_dist_weights, trans_gradients, transitions, use_learning_rate_decay, validation_arguments, validation_heads, validation_predicates, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
  *     __pyx_result = ConvolutionalDependencyNetwork.__new__(__pyx_type)
  *     if __pyx_state is not None:             # <<<<<<<<<<<<<<
  *         __pyx_unpickle_ConvolutionalDependencyNetwork__set_state(<ConvolutionalDependencyNetwork> __pyx_result, __pyx_state)
@@ -46463,7 +46795,7 @@ static PyObject *__pyx_pf_4libs_7network_4__pyx_unpickle_ConvolutionalDependency
  *         __pyx_unpickle_ConvolutionalDependencyNetwork__set_state(<ConvolutionalDependencyNetwork> __pyx_result, __pyx_state)
  *     return __pyx_result             # <<<<<<<<<<<<<<
  * cdef __pyx_unpickle_ConvolutionalDependencyNetwork__set_state(ConvolutionalDependencyNetwork __pyx_result, tuple __pyx_state):
- *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.dependency_weights = __pyx_state[4]; __pyx_result.error = __pyx_state[5]; __pyx_result.feature_tables = __pyx_state[6]; __pyx_result.features_per_token = __pyx_state[7]; __pyx_result.float_errors = __pyx_state[8]; __pyx_result.half_window = __pyx_state[9]; __pyx_result.hidden2_before_activation = __pyx_state[10]; __pyx_result.hidden2_bias = __pyx_state[11]; __pyx_result.hidden2_gradients = __pyx_state[12]; __pyx_result.hidden2_size = __pyx_state[13]; __pyx_result.hidden2_values = __pyx_state[14]; __pyx_result.hidden2_weights = __pyx_state[15]; __pyx_result.hidden_before_activation = __pyx_state[16]; __pyx_result.hidden_bias = __pyx_state[17]; __pyx_result.hidden_gradients = __pyx_state[18]; __pyx_result.hidden_sent_values = __pyx_state[19]; __pyx_result.hidden_size = __pyx_state[20]; __pyx_result.hidden_values = __pyx_state[21]; __pyx_result.hidden_weights = __pyx_state[22]; __pyx_result.input_deltas = __pyx_state[23]; __pyx_result.input_sent_values = __pyx_state[24]; __pyx_result.input_size = __pyx_state[25]; __pyx_result.input_values = __pyx_state[26]; __pyx_result.layer2_sent_values = __pyx_state[27]; __pyx_result.layer2_values = __pyx_state[28]; __pyx_result.learning_rate = __pyx_state[29]; __pyx_result.learning_rate_features = __pyx_state[30]; __pyx_result.learning_rate_trans = __pyx_state[31]; __pyx_result.max_indices = __pyx_state[32]; __pyx_result.net_gradients = __pyx_state[33]; __pyx_result.network_filename = __pyx_state[34]; __pyx_result.network_text_filename = __pyx_state[35]; __pyx_result.num_sentences = __pyx_state[36]; __pyx_result.num_targets = __pyx_state[37]; __pyx_result.num_tokens = __pyx_state[38]; __pyx_result.output_bias = __pyx_state[39]; __pyx_result.output_size = __pyx_state[40]; __pyx_result.output_weights = __pyx_state[41]; __pyx_result.padding_left = __pyx_state[42]; __pyx_result.padding_right = __pyx_state[43]; __pyx_result.pos_padding = __pyx_state[44]; __pyx_result.pre_padding = __pyx_state[45]; __pyx_result.pred_convolution_lookup = __pyx_state[46]; __pyx_result.pred_dist_deltas = __pyx_state[47]; __pyx_result.pred_dist_lookup = __pyx_state[48]; __pyx_result.pred_dist_offset = __pyx_state[49]; __pyx_result.pred_dist_table = __pyx_state[50]; __pyx_result.pred_dist_weights = __pyx_state[51]; __pyx_result.sentence_accuracy = __pyx_state[52]; __pyx_result.sentence_lookup = __pyx_state[53]; __pyx_result.skips = __pyx_state[54]; __pyx_result.target_convolution_lookup = __pyx_state[55]; __pyx_result.target_dist_deltas = __pyx_state[56]; __pyx_result.target_dist_lookup = __pyx_state[57]; __pyx_result.target_dist_offset = __pyx_state[58]; __pyx_result.target_dist_table = __pyx_state[59]; __pyx_result.target_dist_weights = __pyx_state[60]; __pyx_result.trans_gradients = __pyx_state[61]; __pyx_result.transitions = __pyx_state[62]; __pyx_result.use_learning_rate_decay = __pyx_state[63]; __pyx_result.validation_arguments = __pyx_state[64]; __pyx_result.validation_heads = __pyx_state[65]; __pyx_result.validation_predicates = __pyx_state[66]; __pyx_result.validation_sentences = __pyx_state[67]; __pyx_result.validation_tags = __pyx_state[68]; __pyx_result.word_window_size = __pyx_state[69]
+ *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.dependency_weights = __pyx_state[4]; __pyx_result.error = __pyx_state[5]; __pyx_result.feature_tables = __pyx_state[6]; __pyx_result.features_per_token = __pyx_state[7]; __pyx_result.float_errors = __pyx_state[8]; __pyx_result.half_window = __pyx_state[9]; __pyx_result.hidden2_before_activation = __pyx_state[10]; __pyx_result.hidden2_bias = __pyx_state[11]; __pyx_result.hidden2_gradients = __pyx_state[12]; __pyx_result.hidden2_size = __pyx_state[13]; __pyx_result.hidden2_values = __pyx_state[14]; __pyx_result.hidden2_weights = __pyx_state[15]; __pyx_result.hidden_before_activation = __pyx_state[16]; __pyx_result.hidden_bias = __pyx_state[17]; __pyx_result.hidden_gradients = __pyx_state[18]; __pyx_result.hidden_sent_values = __pyx_state[19]; __pyx_result.hidden_size = __pyx_state[20]; __pyx_result.hidden_values = __pyx_state[21]; __pyx_result.hidden_weights = __pyx_state[22]; __pyx_result.input_deltas = __pyx_state[23]; __pyx_result.input_sent_values = __pyx_state[24]; __pyx_result.input_size = __pyx_state[25]; __pyx_result.input_values = __pyx_state[26]; __pyx_result.layer2_sent_values = __pyx_state[27]; __pyx_result.layer2_values = __pyx_state[28]; __pyx_result.learning_rate = __pyx_state[29]; __pyx_result.learning_rate_features = __pyx_state[30]; __pyx_result.learning_rate_trans = __pyx_state[31]; __pyx_result.max_indices = __pyx_state[32]; __pyx_result.net_gradients = __pyx_state[33]; __pyx_result.network_filename = __pyx_state[34]; __pyx_result.network_text_filename = __pyx_state[35]; __pyx_result.num_sentences = __pyx_state[36]; __pyx_result.num_targets = __pyx_state[37]; __pyx_result.num_tokens = __pyx_state[38]; __pyx_result.only_classify = __pyx_state[39]; __pyx_result.output_bias = __pyx_state[40]; __pyx_result.output_size = __pyx_state[41]; __pyx_result.output_weights = __pyx_state[42]; __pyx_result.padding_left = __pyx_state[43]; __pyx_result.padding_right = __pyx_state[44]; __pyx_result.pos_padding = __pyx_state[45]; __pyx_result.pre_padding = __pyx_state[46]; __pyx_result.pred_convolution_lookup = __pyx_state[47]; __pyx_result.pred_dist_deltas = __pyx_state[48]; __pyx_result.pred_dist_lookup = __pyx_state[49]; __pyx_result.pred_dist_offset = __pyx_state[50]; __pyx_result.pred_dist_table = __pyx_state[51]; __pyx_result.pred_dist_weights = __pyx_state[52]; __pyx_result.sentence_accuracy = __pyx_state[53]; __pyx_result.sentence_lookup = __pyx_state[54]; __pyx_result.skips = __pyx_state[55]; __pyx_result.target_convolution_lookup = __pyx_state[56]; __pyx_result.target_dist_deltas = __pyx_state[57]; __pyx_result.target_dist_lookup = __pyx_state[58]; __pyx_result.target_dist_offset = __pyx_state[59]; __pyx_result.target_dist_table = __pyx_state[60]; __pyx_result.target_dist_weights = __pyx_state[61]; __pyx_result.trans_gradients = __pyx_state[62]; __pyx_result.transitions = __pyx_state[63]; __pyx_result.use_learning_rate_decay = __pyx_state[64]; __pyx_result.validation_arguments = __pyx_state[65]; __pyx_result.validation_heads = __pyx_state[66]; __pyx_result.validation_predicates = __pyx_state[67]; __pyx_result.validation_sentences = __pyx_state[68]; __pyx_result.validation_tags = __pyx_state[69]; __pyx_result.word_window_size = __pyx_state[70]
  */
   __Pyx_XDECREF(__pyx_r);
   __Pyx_INCREF(__pyx_v___pyx_result);
@@ -46497,8 +46829,8 @@ static PyObject *__pyx_pf_4libs_7network_4__pyx_unpickle_ConvolutionalDependency
  *         __pyx_unpickle_ConvolutionalDependencyNetwork__set_state(<ConvolutionalDependencyNetwork> __pyx_result, __pyx_state)
  *     return __pyx_result
  * cdef __pyx_unpickle_ConvolutionalDependencyNetwork__set_state(ConvolutionalDependencyNetwork __pyx_result, tuple __pyx_state):             # <<<<<<<<<<<<<<
- *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.dependency_weights = __pyx_state[4]; __pyx_result.error = __pyx_state[5]; __pyx_result.feature_tables = __pyx_state[6]; __pyx_result.features_per_token = __pyx_state[7]; __pyx_result.float_errors = __pyx_state[8]; __pyx_result.half_window = __pyx_state[9]; __pyx_result.hidden2_before_activation = __pyx_state[10]; __pyx_result.hidden2_bias = __pyx_state[11]; __pyx_result.hidden2_gradients = __pyx_state[12]; __pyx_result.hidden2_size = __pyx_state[13]; __pyx_result.hidden2_values = __pyx_state[14]; __pyx_result.hidden2_weights = __pyx_state[15]; __pyx_result.hidden_before_activation = __pyx_state[16]; __pyx_result.hidden_bias = __pyx_state[17]; __pyx_result.hidden_gradients = __pyx_state[18]; __pyx_result.hidden_sent_values = __pyx_state[19]; __pyx_result.hidden_size = __pyx_state[20]; __pyx_result.hidden_values = __pyx_state[21]; __pyx_result.hidden_weights = __pyx_state[22]; __pyx_result.input_deltas = __pyx_state[23]; __pyx_result.input_sent_values = __pyx_state[24]; __pyx_result.input_size = __pyx_state[25]; __pyx_result.input_values = __pyx_state[26]; __pyx_result.layer2_sent_values = __pyx_state[27]; __pyx_result.layer2_values = __pyx_state[28]; __pyx_result.learning_rate = __pyx_state[29]; __pyx_result.learning_rate_features = __pyx_state[30]; __pyx_result.learning_rate_trans = __pyx_state[31]; __pyx_result.max_indices = __pyx_state[32]; __pyx_result.net_gradients = __pyx_state[33]; __pyx_result.network_filename = __pyx_state[34]; __pyx_result.network_text_filename = __pyx_state[35]; __pyx_result.num_sentences = __pyx_state[36]; __pyx_result.num_targets = __pyx_state[37]; __pyx_result.num_tokens = __pyx_state[38]; __pyx_result.output_bias = __pyx_state[39]; __pyx_result.output_size = __pyx_state[40]; __pyx_result.output_weights = __pyx_state[41]; __pyx_result.padding_left = __pyx_state[42]; __pyx_result.padding_right = __pyx_state[43]; __pyx_result.pos_padding = __pyx_state[44]; __pyx_result.pre_padding = __pyx_state[45]; __pyx_result.pred_convolution_lookup = __pyx_state[46]; __pyx_result.pred_dist_deltas = __pyx_state[47]; __pyx_result.pred_dist_lookup = __pyx_state[48]; __pyx_result.pred_dist_offset = __pyx_state[49]; __pyx_result.pred_dist_table = __pyx_state[50]; __pyx_result.pred_dist_weights = __pyx_state[51]; __pyx_result.sentence_accuracy = __pyx_state[52]; __pyx_result.sentence_lookup = __pyx_state[53]; __pyx_result.skips = __pyx_state[54]; __pyx_result.target_convolution_lookup = __pyx_state[55]; __pyx_result.target_dist_deltas = __pyx_state[56]; __pyx_result.target_dist_lookup = __pyx_state[57]; __pyx_result.target_dist_offset = __pyx_state[58]; __pyx_result.target_dist_table = __pyx_state[59]; __pyx_result.target_dist_weights = __pyx_state[60]; __pyx_result.trans_gradients = __pyx_state[61]; __pyx_result.transitions = __pyx_state[62]; __pyx_result.use_learning_rate_decay = __pyx_state[63]; __pyx_result.validation_arguments = __pyx_state[64]; __pyx_result.validation_heads = __pyx_state[65]; __pyx_result.validation_predicates = __pyx_state[66]; __pyx_result.validation_sentences = __pyx_state[67]; __pyx_result.validation_tags = __pyx_state[68]; __pyx_result.word_window_size = __pyx_state[69]
- *     if len(__pyx_state) > 70 and hasattr(__pyx_result, '__dict__'):
+ *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.dependency_weights = __pyx_state[4]; __pyx_result.error = __pyx_state[5]; __pyx_result.feature_tables = __pyx_state[6]; __pyx_result.features_per_token = __pyx_state[7]; __pyx_result.float_errors = __pyx_state[8]; __pyx_result.half_window = __pyx_state[9]; __pyx_result.hidden2_before_activation = __pyx_state[10]; __pyx_result.hidden2_bias = __pyx_state[11]; __pyx_result.hidden2_gradients = __pyx_state[12]; __pyx_result.hidden2_size = __pyx_state[13]; __pyx_result.hidden2_values = __pyx_state[14]; __pyx_result.hidden2_weights = __pyx_state[15]; __pyx_result.hidden_before_activation = __pyx_state[16]; __pyx_result.hidden_bias = __pyx_state[17]; __pyx_result.hidden_gradients = __pyx_state[18]; __pyx_result.hidden_sent_values = __pyx_state[19]; __pyx_result.hidden_size = __pyx_state[20]; __pyx_result.hidden_values = __pyx_state[21]; __pyx_result.hidden_weights = __pyx_state[22]; __pyx_result.input_deltas = __pyx_state[23]; __pyx_result.input_sent_values = __pyx_state[24]; __pyx_result.input_size = __pyx_state[25]; __pyx_result.input_values = __pyx_state[26]; __pyx_result.layer2_sent_values = __pyx_state[27]; __pyx_result.layer2_values = __pyx_state[28]; __pyx_result.learning_rate = __pyx_state[29]; __pyx_result.learning_rate_features = __pyx_state[30]; __pyx_result.learning_rate_trans = __pyx_state[31]; __pyx_result.max_indices = __pyx_state[32]; __pyx_result.net_gradients = __pyx_state[33]; __pyx_result.network_filename = __pyx_state[34]; __pyx_result.network_text_filename = __pyx_state[35]; __pyx_result.num_sentences = __pyx_state[36]; __pyx_result.num_targets = __pyx_state[37]; __pyx_result.num_tokens = __pyx_state[38]; __pyx_result.only_classify = __pyx_state[39]; __pyx_result.output_bias = __pyx_state[40]; __pyx_result.output_size = __pyx_state[41]; __pyx_result.output_weights = __pyx_state[42]; __pyx_result.padding_left = __pyx_state[43]; __pyx_result.padding_right = __pyx_state[44]; __pyx_result.pos_padding = __pyx_state[45]; __pyx_result.pre_padding = __pyx_state[46]; __pyx_result.pred_convolution_lookup = __pyx_state[47]; __pyx_result.pred_dist_deltas = __pyx_state[48]; __pyx_result.pred_dist_lookup = __pyx_state[49]; __pyx_result.pred_dist_offset = __pyx_state[50]; __pyx_result.pred_dist_table = __pyx_state[51]; __pyx_result.pred_dist_weights = __pyx_state[52]; __pyx_result.sentence_accuracy = __pyx_state[53]; __pyx_result.sentence_lookup = __pyx_state[54]; __pyx_result.skips = __pyx_state[55]; __pyx_result.target_convolution_lookup = __pyx_state[56]; __pyx_result.target_dist_deltas = __pyx_state[57]; __pyx_result.target_dist_lookup = __pyx_state[58]; __pyx_result.target_dist_offset = __pyx_state[59]; __pyx_result.target_dist_table = __pyx_state[60]; __pyx_result.target_dist_weights = __pyx_state[61]; __pyx_result.trans_gradients = __pyx_state[62]; __pyx_result.transitions = __pyx_state[63]; __pyx_result.use_learning_rate_decay = __pyx_state[64]; __pyx_result.validation_arguments = __pyx_state[65]; __pyx_result.validation_heads = __pyx_state[66]; __pyx_result.validation_predicates = __pyx_state[67]; __pyx_result.validation_sentences = __pyx_state[68]; __pyx_result.validation_tags = __pyx_state[69]; __pyx_result.word_window_size = __pyx_state[70]
+ *     if len(__pyx_state) > 71 and hasattr(__pyx_result, '__dict__'):
  */
 
 static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNetwork__set_state(struct __pyx_obj_4libs_7network_ConvolutionalDependencyNetwork *__pyx_v___pyx_result, PyObject *__pyx_v___pyx_state) {
@@ -46524,9 +46856,9 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
   /* "(tree fragment)":12
  *     return __pyx_result
  * cdef __pyx_unpickle_ConvolutionalDependencyNetwork__set_state(ConvolutionalDependencyNetwork __pyx_result, tuple __pyx_state):
- *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.dependency_weights = __pyx_state[4]; __pyx_result.error = __pyx_state[5]; __pyx_result.feature_tables = __pyx_state[6]; __pyx_result.features_per_token = __pyx_state[7]; __pyx_result.float_errors = __pyx_state[8]; __pyx_result.half_window = __pyx_state[9]; __pyx_result.hidden2_before_activation = __pyx_state[10]; __pyx_result.hidden2_bias = __pyx_state[11]; __pyx_result.hidden2_gradients = __pyx_state[12]; __pyx_result.hidden2_size = __pyx_state[13]; __pyx_result.hidden2_values = __pyx_state[14]; __pyx_result.hidden2_weights = __pyx_state[15]; __pyx_result.hidden_before_activation = __pyx_state[16]; __pyx_result.hidden_bias = __pyx_state[17]; __pyx_result.hidden_gradients = __pyx_state[18]; __pyx_result.hidden_sent_values = __pyx_state[19]; __pyx_result.hidden_size = __pyx_state[20]; __pyx_result.hidden_values = __pyx_state[21]; __pyx_result.hidden_weights = __pyx_state[22]; __pyx_result.input_deltas = __pyx_state[23]; __pyx_result.input_sent_values = __pyx_state[24]; __pyx_result.input_size = __pyx_state[25]; __pyx_result.input_values = __pyx_state[26]; __pyx_result.layer2_sent_values = __pyx_state[27]; __pyx_result.layer2_values = __pyx_state[28]; __pyx_result.learning_rate = __pyx_state[29]; __pyx_result.learning_rate_features = __pyx_state[30]; __pyx_result.learning_rate_trans = __pyx_state[31]; __pyx_result.max_indices = __pyx_state[32]; __pyx_result.net_gradients = __pyx_state[33]; __pyx_result.network_filename = __pyx_state[34]; __pyx_result.network_text_filename = __pyx_state[35]; __pyx_result.num_sentences = __pyx_state[36]; __pyx_result.num_targets = __pyx_state[37]; __pyx_result.num_tokens = __pyx_state[38]; __pyx_result.output_bias = __pyx_state[39]; __pyx_result.output_size = __pyx_state[40]; __pyx_result.output_weights = __pyx_state[41]; __pyx_result.padding_left = __pyx_state[42]; __pyx_result.padding_right = __pyx_state[43]; __pyx_result.pos_padding = __pyx_state[44]; __pyx_result.pre_padding = __pyx_state[45]; __pyx_result.pred_convolution_lookup = __pyx_state[46]; __pyx_result.pred_dist_deltas = __pyx_state[47]; __pyx_result.pred_dist_lookup = __pyx_state[48]; __pyx_result.pred_dist_offset = __pyx_state[49]; __pyx_result.pred_dist_table = __pyx_state[50]; __pyx_result.pred_dist_weights = __pyx_state[51]; __pyx_result.sentence_accuracy = __pyx_state[52]; __pyx_result.sentence_lookup = __pyx_state[53]; __pyx_result.skips = __pyx_state[54]; __pyx_result.target_convolution_lookup = __pyx_state[55]; __pyx_result.target_dist_deltas = __pyx_state[56]; __pyx_result.target_dist_lookup = __pyx_state[57]; __pyx_result.target_dist_offset = __pyx_state[58]; __pyx_result.target_dist_table = __pyx_state[59]; __pyx_result.target_dist_weights = __pyx_state[60]; __pyx_result.trans_gradients = __pyx_state[61]; __pyx_result.transitions = __pyx_state[62]; __pyx_result.use_learning_rate_decay = __pyx_state[63]; __pyx_result.validation_arguments = __pyx_state[64]; __pyx_result.validation_heads = __pyx_state[65]; __pyx_result.validation_predicates = __pyx_state[66]; __pyx_result.validation_sentences = __pyx_state[67]; __pyx_result.validation_tags = __pyx_state[68]; __pyx_result.word_window_size = __pyx_state[69]             # <<<<<<<<<<<<<<
- *     if len(__pyx_state) > 70 and hasattr(__pyx_result, '__dict__'):
- *         __pyx_result.__dict__.update(__pyx_state[70])
+ *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.dependency_weights = __pyx_state[4]; __pyx_result.error = __pyx_state[5]; __pyx_result.feature_tables = __pyx_state[6]; __pyx_result.features_per_token = __pyx_state[7]; __pyx_result.float_errors = __pyx_state[8]; __pyx_result.half_window = __pyx_state[9]; __pyx_result.hidden2_before_activation = __pyx_state[10]; __pyx_result.hidden2_bias = __pyx_state[11]; __pyx_result.hidden2_gradients = __pyx_state[12]; __pyx_result.hidden2_size = __pyx_state[13]; __pyx_result.hidden2_values = __pyx_state[14]; __pyx_result.hidden2_weights = __pyx_state[15]; __pyx_result.hidden_before_activation = __pyx_state[16]; __pyx_result.hidden_bias = __pyx_state[17]; __pyx_result.hidden_gradients = __pyx_state[18]; __pyx_result.hidden_sent_values = __pyx_state[19]; __pyx_result.hidden_size = __pyx_state[20]; __pyx_result.hidden_values = __pyx_state[21]; __pyx_result.hidden_weights = __pyx_state[22]; __pyx_result.input_deltas = __pyx_state[23]; __pyx_result.input_sent_values = __pyx_state[24]; __pyx_result.input_size = __pyx_state[25]; __pyx_result.input_values = __pyx_state[26]; __pyx_result.layer2_sent_values = __pyx_state[27]; __pyx_result.layer2_values = __pyx_state[28]; __pyx_result.learning_rate = __pyx_state[29]; __pyx_result.learning_rate_features = __pyx_state[30]; __pyx_result.learning_rate_trans = __pyx_state[31]; __pyx_result.max_indices = __pyx_state[32]; __pyx_result.net_gradients = __pyx_state[33]; __pyx_result.network_filename = __pyx_state[34]; __pyx_result.network_text_filename = __pyx_state[35]; __pyx_result.num_sentences = __pyx_state[36]; __pyx_result.num_targets = __pyx_state[37]; __pyx_result.num_tokens = __pyx_state[38]; __pyx_result.only_classify = __pyx_state[39]; __pyx_result.output_bias = __pyx_state[40]; __pyx_result.output_size = __pyx_state[41]; __pyx_result.output_weights = __pyx_state[42]; __pyx_result.padding_left = __pyx_state[43]; __pyx_result.padding_right = __pyx_state[44]; __pyx_result.pos_padding = __pyx_state[45]; __pyx_result.pre_padding = __pyx_state[46]; __pyx_result.pred_convolution_lookup = __pyx_state[47]; __pyx_result.pred_dist_deltas = __pyx_state[48]; __pyx_result.pred_dist_lookup = __pyx_state[49]; __pyx_result.pred_dist_offset = __pyx_state[50]; __pyx_result.pred_dist_table = __pyx_state[51]; __pyx_result.pred_dist_weights = __pyx_state[52]; __pyx_result.sentence_accuracy = __pyx_state[53]; __pyx_result.sentence_lookup = __pyx_state[54]; __pyx_result.skips = __pyx_state[55]; __pyx_result.target_convolution_lookup = __pyx_state[56]; __pyx_result.target_dist_deltas = __pyx_state[57]; __pyx_result.target_dist_lookup = __pyx_state[58]; __pyx_result.target_dist_offset = __pyx_state[59]; __pyx_result.target_dist_table = __pyx_state[60]; __pyx_result.target_dist_weights = __pyx_state[61]; __pyx_result.trans_gradients = __pyx_state[62]; __pyx_result.transitions = __pyx_state[63]; __pyx_result.use_learning_rate_decay = __pyx_state[64]; __pyx_result.validation_arguments = __pyx_state[65]; __pyx_result.validation_heads = __pyx_state[66]; __pyx_result.validation_predicates = __pyx_state[67]; __pyx_result.validation_sentences = __pyx_state[68]; __pyx_result.validation_tags = __pyx_state[69]; __pyx_result.word_window_size = __pyx_state[70]             # <<<<<<<<<<<<<<
+ *     if len(__pyx_state) > 71 and hasattr(__pyx_result, '__dict__'):
+ *         __pyx_result.__dict__.update(__pyx_state[71])
  */
   if (unlikely(__pyx_v___pyx_state == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
@@ -46954,6 +47286,18 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
   }
   __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 39, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
+  if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_7cpython_4bool_bool))))) __PYX_ERR(2, 12, __pyx_L1_error)
+  __Pyx_GIVEREF(__pyx_t_1);
+  __Pyx_GOTREF(__pyx_v___pyx_result->__pyx_base.only_classify);
+  __Pyx_DECREF(((PyObject *)__pyx_v___pyx_result->__pyx_base.only_classify));
+  __pyx_v___pyx_result->__pyx_base.only_classify = ((PyBoolObject *)__pyx_t_1);
+  __pyx_t_1 = 0;
+  if (unlikely(__pyx_v___pyx_state == Py_None)) {
+    PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
+    __PYX_ERR(2, 12, __pyx_L1_error)
+  }
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 40, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
   __Pyx_GOTREF(__pyx_v___pyx_result->__pyx_base.__pyx_base.output_bias);
@@ -46964,7 +47308,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 40, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 41, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_3 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_3 == (int)-1) && PyErr_Occurred())) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -46973,7 +47317,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 41, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 42, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -46985,7 +47329,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 42, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 43, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -46997,7 +47341,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 43, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 44, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47009,7 +47353,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 44, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 45, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47021,7 +47365,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 45, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 46, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47033,7 +47377,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 46, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 47, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47045,7 +47389,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 47, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 48, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47057,7 +47401,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 48, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 49, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47069,7 +47413,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 49, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 50, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_3 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_3 == (int)-1) && PyErr_Occurred())) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -47078,7 +47422,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 50, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 51, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47090,7 +47434,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 51, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 52, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47102,7 +47446,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 52, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 53, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_2 = __pyx_PyFloat_AsFloat(__pyx_t_1); if (unlikely((__pyx_t_2 == (float)-1) && PyErr_Occurred())) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -47111,7 +47455,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 53, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 54, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47123,7 +47467,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 54, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 55, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_3 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_3 == (int)-1) && PyErr_Occurred())) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -47132,7 +47476,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 55, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 56, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47144,7 +47488,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 56, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 57, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47156,7 +47500,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 57, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 58, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47168,7 +47512,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 58, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 59, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_3 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_3 == (int)-1) && PyErr_Occurred())) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -47177,7 +47521,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 59, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 60, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47189,7 +47533,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 60, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 61, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47201,7 +47545,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 61, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 62, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47213,7 +47557,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 62, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 63, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_5numpy_ndarray))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47225,7 +47569,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 63, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 64, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(((__pyx_t_1) == Py_None) || likely(__Pyx_TypeTest(__pyx_t_1, __pyx_ptype_7cpython_4bool_bool))))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47237,7 +47581,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 64, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 65, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(PyList_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "list", Py_TYPE(__pyx_t_1)->tp_name), 0))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47249,7 +47593,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 65, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 66, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __Pyx_GIVEREF(__pyx_t_1);
   __Pyx_GOTREF(__pyx_v___pyx_result->validation_heads);
@@ -47260,7 +47604,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 66, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 67, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(PyList_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "list", Py_TYPE(__pyx_t_1)->tp_name), 0))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47272,7 +47616,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 67, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 68, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(PyList_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "list", Py_TYPE(__pyx_t_1)->tp_name), 0))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47284,7 +47628,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 68, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 69, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   if (!(likely(PyList_CheckExact(__pyx_t_1))||((__pyx_t_1) == Py_None)||(PyErr_Format(PyExc_TypeError, "Expected %.16s, got %.200s", "list", Py_TYPE(__pyx_t_1)->tp_name), 0))) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GIVEREF(__pyx_t_1);
@@ -47296,7 +47640,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
     PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
     __PYX_ERR(2, 12, __pyx_L1_error)
   }
-  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 69, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 70, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_1)) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
   __pyx_t_3 = __Pyx_PyInt_As_int(__pyx_t_1); if (unlikely((__pyx_t_3 == (int)-1) && PyErr_Occurred())) __PYX_ERR(2, 12, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
@@ -47304,16 +47648,16 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
 
   /* "(tree fragment)":13
  * cdef __pyx_unpickle_ConvolutionalDependencyNetwork__set_state(ConvolutionalDependencyNetwork __pyx_result, tuple __pyx_state):
- *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.dependency_weights = __pyx_state[4]; __pyx_result.error = __pyx_state[5]; __pyx_result.feature_tables = __pyx_state[6]; __pyx_result.features_per_token = __pyx_state[7]; __pyx_result.float_errors = __pyx_state[8]; __pyx_result.half_window = __pyx_state[9]; __pyx_result.hidden2_before_activation = __pyx_state[10]; __pyx_result.hidden2_bias = __pyx_state[11]; __pyx_result.hidden2_gradients = __pyx_state[12]; __pyx_result.hidden2_size = __pyx_state[13]; __pyx_result.hidden2_values = __pyx_state[14]; __pyx_result.hidden2_weights = __pyx_state[15]; __pyx_result.hidden_before_activation = __pyx_state[16]; __pyx_result.hidden_bias = __pyx_state[17]; __pyx_result.hidden_gradients = __pyx_state[18]; __pyx_result.hidden_sent_values = __pyx_state[19]; __pyx_result.hidden_size = __pyx_state[20]; __pyx_result.hidden_values = __pyx_state[21]; __pyx_result.hidden_weights = __pyx_state[22]; __pyx_result.input_deltas = __pyx_state[23]; __pyx_result.input_sent_values = __pyx_state[24]; __pyx_result.input_size = __pyx_state[25]; __pyx_result.input_values = __pyx_state[26]; __pyx_result.layer2_sent_values = __pyx_state[27]; __pyx_result.layer2_values = __pyx_state[28]; __pyx_result.learning_rate = __pyx_state[29]; __pyx_result.learning_rate_features = __pyx_state[30]; __pyx_result.learning_rate_trans = __pyx_state[31]; __pyx_result.max_indices = __pyx_state[32]; __pyx_result.net_gradients = __pyx_state[33]; __pyx_result.network_filename = __pyx_state[34]; __pyx_result.network_text_filename = __pyx_state[35]; __pyx_result.num_sentences = __pyx_state[36]; __pyx_result.num_targets = __pyx_state[37]; __pyx_result.num_tokens = __pyx_state[38]; __pyx_result.output_bias = __pyx_state[39]; __pyx_result.output_size = __pyx_state[40]; __pyx_result.output_weights = __pyx_state[41]; __pyx_result.padding_left = __pyx_state[42]; __pyx_result.padding_right = __pyx_state[43]; __pyx_result.pos_padding = __pyx_state[44]; __pyx_result.pre_padding = __pyx_state[45]; __pyx_result.pred_convolution_lookup = __pyx_state[46]; __pyx_result.pred_dist_deltas = __pyx_state[47]; __pyx_result.pred_dist_lookup = __pyx_state[48]; __pyx_result.pred_dist_offset = __pyx_state[49]; __pyx_result.pred_dist_table = __pyx_state[50]; __pyx_result.pred_dist_weights = __pyx_state[51]; __pyx_result.sentence_accuracy = __pyx_state[52]; __pyx_result.sentence_lookup = __pyx_state[53]; __pyx_result.skips = __pyx_state[54]; __pyx_result.target_convolution_lookup = __pyx_state[55]; __pyx_result.target_dist_deltas = __pyx_state[56]; __pyx_result.target_dist_lookup = __pyx_state[57]; __pyx_result.target_dist_offset = __pyx_state[58]; __pyx_result.target_dist_table = __pyx_state[59]; __pyx_result.target_dist_weights = __pyx_state[60]; __pyx_result.trans_gradients = __pyx_state[61]; __pyx_result.transitions = __pyx_state[62]; __pyx_result.use_learning_rate_decay = __pyx_state[63]; __pyx_result.validation_arguments = __pyx_state[64]; __pyx_result.validation_heads = __pyx_state[65]; __pyx_result.validation_predicates = __pyx_state[66]; __pyx_result.validation_sentences = __pyx_state[67]; __pyx_result.validation_tags = __pyx_state[68]; __pyx_result.word_window_size = __pyx_state[69]
- *     if len(__pyx_state) > 70 and hasattr(__pyx_result, '__dict__'):             # <<<<<<<<<<<<<<
- *         __pyx_result.__dict__.update(__pyx_state[70])
+ *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.dependency_weights = __pyx_state[4]; __pyx_result.error = __pyx_state[5]; __pyx_result.feature_tables = __pyx_state[6]; __pyx_result.features_per_token = __pyx_state[7]; __pyx_result.float_errors = __pyx_state[8]; __pyx_result.half_window = __pyx_state[9]; __pyx_result.hidden2_before_activation = __pyx_state[10]; __pyx_result.hidden2_bias = __pyx_state[11]; __pyx_result.hidden2_gradients = __pyx_state[12]; __pyx_result.hidden2_size = __pyx_state[13]; __pyx_result.hidden2_values = __pyx_state[14]; __pyx_result.hidden2_weights = __pyx_state[15]; __pyx_result.hidden_before_activation = __pyx_state[16]; __pyx_result.hidden_bias = __pyx_state[17]; __pyx_result.hidden_gradients = __pyx_state[18]; __pyx_result.hidden_sent_values = __pyx_state[19]; __pyx_result.hidden_size = __pyx_state[20]; __pyx_result.hidden_values = __pyx_state[21]; __pyx_result.hidden_weights = __pyx_state[22]; __pyx_result.input_deltas = __pyx_state[23]; __pyx_result.input_sent_values = __pyx_state[24]; __pyx_result.input_size = __pyx_state[25]; __pyx_result.input_values = __pyx_state[26]; __pyx_result.layer2_sent_values = __pyx_state[27]; __pyx_result.layer2_values = __pyx_state[28]; __pyx_result.learning_rate = __pyx_state[29]; __pyx_result.learning_rate_features = __pyx_state[30]; __pyx_result.learning_rate_trans = __pyx_state[31]; __pyx_result.max_indices = __pyx_state[32]; __pyx_result.net_gradients = __pyx_state[33]; __pyx_result.network_filename = __pyx_state[34]; __pyx_result.network_text_filename = __pyx_state[35]; __pyx_result.num_sentences = __pyx_state[36]; __pyx_result.num_targets = __pyx_state[37]; __pyx_result.num_tokens = __pyx_state[38]; __pyx_result.only_classify = __pyx_state[39]; __pyx_result.output_bias = __pyx_state[40]; __pyx_result.output_size = __pyx_state[41]; __pyx_result.output_weights = __pyx_state[42]; __pyx_result.padding_left = __pyx_state[43]; __pyx_result.padding_right = __pyx_state[44]; __pyx_result.pos_padding = __pyx_state[45]; __pyx_result.pre_padding = __pyx_state[46]; __pyx_result.pred_convolution_lookup = __pyx_state[47]; __pyx_result.pred_dist_deltas = __pyx_state[48]; __pyx_result.pred_dist_lookup = __pyx_state[49]; __pyx_result.pred_dist_offset = __pyx_state[50]; __pyx_result.pred_dist_table = __pyx_state[51]; __pyx_result.pred_dist_weights = __pyx_state[52]; __pyx_result.sentence_accuracy = __pyx_state[53]; __pyx_result.sentence_lookup = __pyx_state[54]; __pyx_result.skips = __pyx_state[55]; __pyx_result.target_convolution_lookup = __pyx_state[56]; __pyx_result.target_dist_deltas = __pyx_state[57]; __pyx_result.target_dist_lookup = __pyx_state[58]; __pyx_result.target_dist_offset = __pyx_state[59]; __pyx_result.target_dist_table = __pyx_state[60]; __pyx_result.target_dist_weights = __pyx_state[61]; __pyx_result.trans_gradients = __pyx_state[62]; __pyx_result.transitions = __pyx_state[63]; __pyx_result.use_learning_rate_decay = __pyx_state[64]; __pyx_result.validation_arguments = __pyx_state[65]; __pyx_result.validation_heads = __pyx_state[66]; __pyx_result.validation_predicates = __pyx_state[67]; __pyx_result.validation_sentences = __pyx_state[68]; __pyx_result.validation_tags = __pyx_state[69]; __pyx_result.word_window_size = __pyx_state[70]
+ *     if len(__pyx_state) > 71 and hasattr(__pyx_result, '__dict__'):             # <<<<<<<<<<<<<<
+ *         __pyx_result.__dict__.update(__pyx_state[71])
  */
   if (unlikely(__pyx_v___pyx_state == Py_None)) {
     PyErr_SetString(PyExc_TypeError, "object of type 'NoneType' has no len()");
     __PYX_ERR(2, 13, __pyx_L1_error)
   }
   __pyx_t_5 = PyTuple_GET_SIZE(__pyx_v___pyx_state); if (unlikely(__pyx_t_5 == ((Py_ssize_t)-1))) __PYX_ERR(2, 13, __pyx_L1_error)
-  __pyx_t_6 = ((__pyx_t_5 > 70) != 0);
+  __pyx_t_6 = ((__pyx_t_5 > 71) != 0);
   if (__pyx_t_6) {
   } else {
     __pyx_t_4 = __pyx_t_6;
@@ -47326,9 +47670,9 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
   if (__pyx_t_4) {
 
     /* "(tree fragment)":14
- *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.dependency_weights = __pyx_state[4]; __pyx_result.error = __pyx_state[5]; __pyx_result.feature_tables = __pyx_state[6]; __pyx_result.features_per_token = __pyx_state[7]; __pyx_result.float_errors = __pyx_state[8]; __pyx_result.half_window = __pyx_state[9]; __pyx_result.hidden2_before_activation = __pyx_state[10]; __pyx_result.hidden2_bias = __pyx_state[11]; __pyx_result.hidden2_gradients = __pyx_state[12]; __pyx_result.hidden2_size = __pyx_state[13]; __pyx_result.hidden2_values = __pyx_state[14]; __pyx_result.hidden2_weights = __pyx_state[15]; __pyx_result.hidden_before_activation = __pyx_state[16]; __pyx_result.hidden_bias = __pyx_state[17]; __pyx_result.hidden_gradients = __pyx_state[18]; __pyx_result.hidden_sent_values = __pyx_state[19]; __pyx_result.hidden_size = __pyx_state[20]; __pyx_result.hidden_values = __pyx_state[21]; __pyx_result.hidden_weights = __pyx_state[22]; __pyx_result.input_deltas = __pyx_state[23]; __pyx_result.input_sent_values = __pyx_state[24]; __pyx_result.input_size = __pyx_state[25]; __pyx_result.input_values = __pyx_state[26]; __pyx_result.layer2_sent_values = __pyx_state[27]; __pyx_result.layer2_values = __pyx_state[28]; __pyx_result.learning_rate = __pyx_state[29]; __pyx_result.learning_rate_features = __pyx_state[30]; __pyx_result.learning_rate_trans = __pyx_state[31]; __pyx_result.max_indices = __pyx_state[32]; __pyx_result.net_gradients = __pyx_state[33]; __pyx_result.network_filename = __pyx_state[34]; __pyx_result.network_text_filename = __pyx_state[35]; __pyx_result.num_sentences = __pyx_state[36]; __pyx_result.num_targets = __pyx_state[37]; __pyx_result.num_tokens = __pyx_state[38]; __pyx_result.output_bias = __pyx_state[39]; __pyx_result.output_size = __pyx_state[40]; __pyx_result.output_weights = __pyx_state[41]; __pyx_result.padding_left = __pyx_state[42]; __pyx_result.padding_right = __pyx_state[43]; __pyx_result.pos_padding = __pyx_state[44]; __pyx_result.pre_padding = __pyx_state[45]; __pyx_result.pred_convolution_lookup = __pyx_state[46]; __pyx_result.pred_dist_deltas = __pyx_state[47]; __pyx_result.pred_dist_lookup = __pyx_state[48]; __pyx_result.pred_dist_offset = __pyx_state[49]; __pyx_result.pred_dist_table = __pyx_state[50]; __pyx_result.pred_dist_weights = __pyx_state[51]; __pyx_result.sentence_accuracy = __pyx_state[52]; __pyx_result.sentence_lookup = __pyx_state[53]; __pyx_result.skips = __pyx_state[54]; __pyx_result.target_convolution_lookup = __pyx_state[55]; __pyx_result.target_dist_deltas = __pyx_state[56]; __pyx_result.target_dist_lookup = __pyx_state[57]; __pyx_result.target_dist_offset = __pyx_state[58]; __pyx_result.target_dist_table = __pyx_state[59]; __pyx_result.target_dist_weights = __pyx_state[60]; __pyx_result.trans_gradients = __pyx_state[61]; __pyx_result.transitions = __pyx_state[62]; __pyx_result.use_learning_rate_decay = __pyx_state[63]; __pyx_result.validation_arguments = __pyx_state[64]; __pyx_result.validation_heads = __pyx_state[65]; __pyx_result.validation_predicates = __pyx_state[66]; __pyx_result.validation_sentences = __pyx_state[67]; __pyx_result.validation_tags = __pyx_state[68]; __pyx_result.word_window_size = __pyx_state[69]
- *     if len(__pyx_state) > 70 and hasattr(__pyx_result, '__dict__'):
- *         __pyx_result.__dict__.update(__pyx_state[70])             # <<<<<<<<<<<<<<
+ *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.dependency_weights = __pyx_state[4]; __pyx_result.error = __pyx_state[5]; __pyx_result.feature_tables = __pyx_state[6]; __pyx_result.features_per_token = __pyx_state[7]; __pyx_result.float_errors = __pyx_state[8]; __pyx_result.half_window = __pyx_state[9]; __pyx_result.hidden2_before_activation = __pyx_state[10]; __pyx_result.hidden2_bias = __pyx_state[11]; __pyx_result.hidden2_gradients = __pyx_state[12]; __pyx_result.hidden2_size = __pyx_state[13]; __pyx_result.hidden2_values = __pyx_state[14]; __pyx_result.hidden2_weights = __pyx_state[15]; __pyx_result.hidden_before_activation = __pyx_state[16]; __pyx_result.hidden_bias = __pyx_state[17]; __pyx_result.hidden_gradients = __pyx_state[18]; __pyx_result.hidden_sent_values = __pyx_state[19]; __pyx_result.hidden_size = __pyx_state[20]; __pyx_result.hidden_values = __pyx_state[21]; __pyx_result.hidden_weights = __pyx_state[22]; __pyx_result.input_deltas = __pyx_state[23]; __pyx_result.input_sent_values = __pyx_state[24]; __pyx_result.input_size = __pyx_state[25]; __pyx_result.input_values = __pyx_state[26]; __pyx_result.layer2_sent_values = __pyx_state[27]; __pyx_result.layer2_values = __pyx_state[28]; __pyx_result.learning_rate = __pyx_state[29]; __pyx_result.learning_rate_features = __pyx_state[30]; __pyx_result.learning_rate_trans = __pyx_state[31]; __pyx_result.max_indices = __pyx_state[32]; __pyx_result.net_gradients = __pyx_state[33]; __pyx_result.network_filename = __pyx_state[34]; __pyx_result.network_text_filename = __pyx_state[35]; __pyx_result.num_sentences = __pyx_state[36]; __pyx_result.num_targets = __pyx_state[37]; __pyx_result.num_tokens = __pyx_state[38]; __pyx_result.only_classify = __pyx_state[39]; __pyx_result.output_bias = __pyx_state[40]; __pyx_result.output_size = __pyx_state[41]; __pyx_result.output_weights = __pyx_state[42]; __pyx_result.padding_left = __pyx_state[43]; __pyx_result.padding_right = __pyx_state[44]; __pyx_result.pos_padding = __pyx_state[45]; __pyx_result.pre_padding = __pyx_state[46]; __pyx_result.pred_convolution_lookup = __pyx_state[47]; __pyx_result.pred_dist_deltas = __pyx_state[48]; __pyx_result.pred_dist_lookup = __pyx_state[49]; __pyx_result.pred_dist_offset = __pyx_state[50]; __pyx_result.pred_dist_table = __pyx_state[51]; __pyx_result.pred_dist_weights = __pyx_state[52]; __pyx_result.sentence_accuracy = __pyx_state[53]; __pyx_result.sentence_lookup = __pyx_state[54]; __pyx_result.skips = __pyx_state[55]; __pyx_result.target_convolution_lookup = __pyx_state[56]; __pyx_result.target_dist_deltas = __pyx_state[57]; __pyx_result.target_dist_lookup = __pyx_state[58]; __pyx_result.target_dist_offset = __pyx_state[59]; __pyx_result.target_dist_table = __pyx_state[60]; __pyx_result.target_dist_weights = __pyx_state[61]; __pyx_result.trans_gradients = __pyx_state[62]; __pyx_result.transitions = __pyx_state[63]; __pyx_result.use_learning_rate_decay = __pyx_state[64]; __pyx_result.validation_arguments = __pyx_state[65]; __pyx_result.validation_heads = __pyx_state[66]; __pyx_result.validation_predicates = __pyx_state[67]; __pyx_result.validation_sentences = __pyx_state[68]; __pyx_result.validation_tags = __pyx_state[69]; __pyx_result.word_window_size = __pyx_state[70]
+ *     if len(__pyx_state) > 71 and hasattr(__pyx_result, '__dict__'):
+ *         __pyx_result.__dict__.update(__pyx_state[71])             # <<<<<<<<<<<<<<
  */
     __pyx_t_8 = __Pyx_PyObject_GetAttrStr(((PyObject *)__pyx_v___pyx_result), __pyx_n_s_dict); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 14, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
@@ -47339,7 +47683,7 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
       PyErr_SetString(PyExc_TypeError, "'NoneType' object is not subscriptable");
       __PYX_ERR(2, 14, __pyx_L1_error)
     }
-    __pyx_t_8 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 70, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 14, __pyx_L1_error)
+    __pyx_t_8 = __Pyx_GetItemInt_Tuple(__pyx_v___pyx_state, 71, long, 1, __Pyx_PyInt_From_long, 0, 0, 1); if (unlikely(!__pyx_t_8)) __PYX_ERR(2, 14, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_8);
     __pyx_t_10 = NULL;
     if (CYTHON_UNPACK_METHODS && likely(PyMethod_Check(__pyx_t_9))) {
@@ -47361,9 +47705,9 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
 
     /* "(tree fragment)":13
  * cdef __pyx_unpickle_ConvolutionalDependencyNetwork__set_state(ConvolutionalDependencyNetwork __pyx_result, tuple __pyx_state):
- *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.dependency_weights = __pyx_state[4]; __pyx_result.error = __pyx_state[5]; __pyx_result.feature_tables = __pyx_state[6]; __pyx_result.features_per_token = __pyx_state[7]; __pyx_result.float_errors = __pyx_state[8]; __pyx_result.half_window = __pyx_state[9]; __pyx_result.hidden2_before_activation = __pyx_state[10]; __pyx_result.hidden2_bias = __pyx_state[11]; __pyx_result.hidden2_gradients = __pyx_state[12]; __pyx_result.hidden2_size = __pyx_state[13]; __pyx_result.hidden2_values = __pyx_state[14]; __pyx_result.hidden2_weights = __pyx_state[15]; __pyx_result.hidden_before_activation = __pyx_state[16]; __pyx_result.hidden_bias = __pyx_state[17]; __pyx_result.hidden_gradients = __pyx_state[18]; __pyx_result.hidden_sent_values = __pyx_state[19]; __pyx_result.hidden_size = __pyx_state[20]; __pyx_result.hidden_values = __pyx_state[21]; __pyx_result.hidden_weights = __pyx_state[22]; __pyx_result.input_deltas = __pyx_state[23]; __pyx_result.input_sent_values = __pyx_state[24]; __pyx_result.input_size = __pyx_state[25]; __pyx_result.input_values = __pyx_state[26]; __pyx_result.layer2_sent_values = __pyx_state[27]; __pyx_result.layer2_values = __pyx_state[28]; __pyx_result.learning_rate = __pyx_state[29]; __pyx_result.learning_rate_features = __pyx_state[30]; __pyx_result.learning_rate_trans = __pyx_state[31]; __pyx_result.max_indices = __pyx_state[32]; __pyx_result.net_gradients = __pyx_state[33]; __pyx_result.network_filename = __pyx_state[34]; __pyx_result.network_text_filename = __pyx_state[35]; __pyx_result.num_sentences = __pyx_state[36]; __pyx_result.num_targets = __pyx_state[37]; __pyx_result.num_tokens = __pyx_state[38]; __pyx_result.output_bias = __pyx_state[39]; __pyx_result.output_size = __pyx_state[40]; __pyx_result.output_weights = __pyx_state[41]; __pyx_result.padding_left = __pyx_state[42]; __pyx_result.padding_right = __pyx_state[43]; __pyx_result.pos_padding = __pyx_state[44]; __pyx_result.pre_padding = __pyx_state[45]; __pyx_result.pred_convolution_lookup = __pyx_state[46]; __pyx_result.pred_dist_deltas = __pyx_state[47]; __pyx_result.pred_dist_lookup = __pyx_state[48]; __pyx_result.pred_dist_offset = __pyx_state[49]; __pyx_result.pred_dist_table = __pyx_state[50]; __pyx_result.pred_dist_weights = __pyx_state[51]; __pyx_result.sentence_accuracy = __pyx_state[52]; __pyx_result.sentence_lookup = __pyx_state[53]; __pyx_result.skips = __pyx_state[54]; __pyx_result.target_convolution_lookup = __pyx_state[55]; __pyx_result.target_dist_deltas = __pyx_state[56]; __pyx_result.target_dist_lookup = __pyx_state[57]; __pyx_result.target_dist_offset = __pyx_state[58]; __pyx_result.target_dist_table = __pyx_state[59]; __pyx_result.target_dist_weights = __pyx_state[60]; __pyx_result.trans_gradients = __pyx_state[61]; __pyx_result.transitions = __pyx_state[62]; __pyx_result.use_learning_rate_decay = __pyx_state[63]; __pyx_result.validation_arguments = __pyx_state[64]; __pyx_result.validation_heads = __pyx_state[65]; __pyx_result.validation_predicates = __pyx_state[66]; __pyx_result.validation_sentences = __pyx_state[67]; __pyx_result.validation_tags = __pyx_state[68]; __pyx_result.word_window_size = __pyx_state[69]
- *     if len(__pyx_state) > 70 and hasattr(__pyx_result, '__dict__'):             # <<<<<<<<<<<<<<
- *         __pyx_result.__dict__.update(__pyx_state[70])
+ *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.dependency_weights = __pyx_state[4]; __pyx_result.error = __pyx_state[5]; __pyx_result.feature_tables = __pyx_state[6]; __pyx_result.features_per_token = __pyx_state[7]; __pyx_result.float_errors = __pyx_state[8]; __pyx_result.half_window = __pyx_state[9]; __pyx_result.hidden2_before_activation = __pyx_state[10]; __pyx_result.hidden2_bias = __pyx_state[11]; __pyx_result.hidden2_gradients = __pyx_state[12]; __pyx_result.hidden2_size = __pyx_state[13]; __pyx_result.hidden2_values = __pyx_state[14]; __pyx_result.hidden2_weights = __pyx_state[15]; __pyx_result.hidden_before_activation = __pyx_state[16]; __pyx_result.hidden_bias = __pyx_state[17]; __pyx_result.hidden_gradients = __pyx_state[18]; __pyx_result.hidden_sent_values = __pyx_state[19]; __pyx_result.hidden_size = __pyx_state[20]; __pyx_result.hidden_values = __pyx_state[21]; __pyx_result.hidden_weights = __pyx_state[22]; __pyx_result.input_deltas = __pyx_state[23]; __pyx_result.input_sent_values = __pyx_state[24]; __pyx_result.input_size = __pyx_state[25]; __pyx_result.input_values = __pyx_state[26]; __pyx_result.layer2_sent_values = __pyx_state[27]; __pyx_result.layer2_values = __pyx_state[28]; __pyx_result.learning_rate = __pyx_state[29]; __pyx_result.learning_rate_features = __pyx_state[30]; __pyx_result.learning_rate_trans = __pyx_state[31]; __pyx_result.max_indices = __pyx_state[32]; __pyx_result.net_gradients = __pyx_state[33]; __pyx_result.network_filename = __pyx_state[34]; __pyx_result.network_text_filename = __pyx_state[35]; __pyx_result.num_sentences = __pyx_state[36]; __pyx_result.num_targets = __pyx_state[37]; __pyx_result.num_tokens = __pyx_state[38]; __pyx_result.only_classify = __pyx_state[39]; __pyx_result.output_bias = __pyx_state[40]; __pyx_result.output_size = __pyx_state[41]; __pyx_result.output_weights = __pyx_state[42]; __pyx_result.padding_left = __pyx_state[43]; __pyx_result.padding_right = __pyx_state[44]; __pyx_result.pos_padding = __pyx_state[45]; __pyx_result.pre_padding = __pyx_state[46]; __pyx_result.pred_convolution_lookup = __pyx_state[47]; __pyx_result.pred_dist_deltas = __pyx_state[48]; __pyx_result.pred_dist_lookup = __pyx_state[49]; __pyx_result.pred_dist_offset = __pyx_state[50]; __pyx_result.pred_dist_table = __pyx_state[51]; __pyx_result.pred_dist_weights = __pyx_state[52]; __pyx_result.sentence_accuracy = __pyx_state[53]; __pyx_result.sentence_lookup = __pyx_state[54]; __pyx_result.skips = __pyx_state[55]; __pyx_result.target_convolution_lookup = __pyx_state[56]; __pyx_result.target_dist_deltas = __pyx_state[57]; __pyx_result.target_dist_lookup = __pyx_state[58]; __pyx_result.target_dist_offset = __pyx_state[59]; __pyx_result.target_dist_table = __pyx_state[60]; __pyx_result.target_dist_weights = __pyx_state[61]; __pyx_result.trans_gradients = __pyx_state[62]; __pyx_result.transitions = __pyx_state[63]; __pyx_result.use_learning_rate_decay = __pyx_state[64]; __pyx_result.validation_arguments = __pyx_state[65]; __pyx_result.validation_heads = __pyx_state[66]; __pyx_result.validation_predicates = __pyx_state[67]; __pyx_result.validation_sentences = __pyx_state[68]; __pyx_result.validation_tags = __pyx_state[69]; __pyx_result.word_window_size = __pyx_state[70]
+ *     if len(__pyx_state) > 71 and hasattr(__pyx_result, '__dict__'):             # <<<<<<<<<<<<<<
+ *         __pyx_result.__dict__.update(__pyx_state[71])
  */
   }
 
@@ -47371,8 +47715,8 @@ static PyObject *__pyx_f_4libs_7network___pyx_unpickle_ConvolutionalDependencyNe
  *         __pyx_unpickle_ConvolutionalDependencyNetwork__set_state(<ConvolutionalDependencyNetwork> __pyx_result, __pyx_state)
  *     return __pyx_result
  * cdef __pyx_unpickle_ConvolutionalDependencyNetwork__set_state(ConvolutionalDependencyNetwork __pyx_result, tuple __pyx_state):             # <<<<<<<<<<<<<<
- *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.dependency_weights = __pyx_state[4]; __pyx_result.error = __pyx_state[5]; __pyx_result.feature_tables = __pyx_state[6]; __pyx_result.features_per_token = __pyx_state[7]; __pyx_result.float_errors = __pyx_state[8]; __pyx_result.half_window = __pyx_state[9]; __pyx_result.hidden2_before_activation = __pyx_state[10]; __pyx_result.hidden2_bias = __pyx_state[11]; __pyx_result.hidden2_gradients = __pyx_state[12]; __pyx_result.hidden2_size = __pyx_state[13]; __pyx_result.hidden2_values = __pyx_state[14]; __pyx_result.hidden2_weights = __pyx_state[15]; __pyx_result.hidden_before_activation = __pyx_state[16]; __pyx_result.hidden_bias = __pyx_state[17]; __pyx_result.hidden_gradients = __pyx_state[18]; __pyx_result.hidden_sent_values = __pyx_state[19]; __pyx_result.hidden_size = __pyx_state[20]; __pyx_result.hidden_values = __pyx_state[21]; __pyx_result.hidden_weights = __pyx_state[22]; __pyx_result.input_deltas = __pyx_state[23]; __pyx_result.input_sent_values = __pyx_state[24]; __pyx_result.input_size = __pyx_state[25]; __pyx_result.input_values = __pyx_state[26]; __pyx_result.layer2_sent_values = __pyx_state[27]; __pyx_result.layer2_values = __pyx_state[28]; __pyx_result.learning_rate = __pyx_state[29]; __pyx_result.learning_rate_features = __pyx_state[30]; __pyx_result.learning_rate_trans = __pyx_state[31]; __pyx_result.max_indices = __pyx_state[32]; __pyx_result.net_gradients = __pyx_state[33]; __pyx_result.network_filename = __pyx_state[34]; __pyx_result.network_text_filename = __pyx_state[35]; __pyx_result.num_sentences = __pyx_state[36]; __pyx_result.num_targets = __pyx_state[37]; __pyx_result.num_tokens = __pyx_state[38]; __pyx_result.output_bias = __pyx_state[39]; __pyx_result.output_size = __pyx_state[40]; __pyx_result.output_weights = __pyx_state[41]; __pyx_result.padding_left = __pyx_state[42]; __pyx_result.padding_right = __pyx_state[43]; __pyx_result.pos_padding = __pyx_state[44]; __pyx_result.pre_padding = __pyx_state[45]; __pyx_result.pred_convolution_lookup = __pyx_state[46]; __pyx_result.pred_dist_deltas = __pyx_state[47]; __pyx_result.pred_dist_lookup = __pyx_state[48]; __pyx_result.pred_dist_offset = __pyx_state[49]; __pyx_result.pred_dist_table = __pyx_state[50]; __pyx_result.pred_dist_weights = __pyx_state[51]; __pyx_result.sentence_accuracy = __pyx_state[52]; __pyx_result.sentence_lookup = __pyx_state[53]; __pyx_result.skips = __pyx_state[54]; __pyx_result.target_convolution_lookup = __pyx_state[55]; __pyx_result.target_dist_deltas = __pyx_state[56]; __pyx_result.target_dist_lookup = __pyx_state[57]; __pyx_result.target_dist_offset = __pyx_state[58]; __pyx_result.target_dist_table = __pyx_state[59]; __pyx_result.target_dist_weights = __pyx_state[60]; __pyx_result.trans_gradients = __pyx_state[61]; __pyx_result.transitions = __pyx_state[62]; __pyx_result.use_learning_rate_decay = __pyx_state[63]; __pyx_result.validation_arguments = __pyx_state[64]; __pyx_result.validation_heads = __pyx_state[65]; __pyx_result.validation_predicates = __pyx_state[66]; __pyx_result.validation_sentences = __pyx_state[67]; __pyx_result.validation_tags = __pyx_state[68]; __pyx_result.word_window_size = __pyx_state[69]
- *     if len(__pyx_state) > 70 and hasattr(__pyx_result, '__dict__'):
+ *     __pyx_result.accuracy = __pyx_state[0]; __pyx_result.answer_score = __pyx_state[1]; __pyx_result.convolution_lookup = __pyx_state[2]; __pyx_result.decay_factor = __pyx_state[3]; __pyx_result.dependency_weights = __pyx_state[4]; __pyx_result.error = __pyx_state[5]; __pyx_result.feature_tables = __pyx_state[6]; __pyx_result.features_per_token = __pyx_state[7]; __pyx_result.float_errors = __pyx_state[8]; __pyx_result.half_window = __pyx_state[9]; __pyx_result.hidden2_before_activation = __pyx_state[10]; __pyx_result.hidden2_bias = __pyx_state[11]; __pyx_result.hidden2_gradients = __pyx_state[12]; __pyx_result.hidden2_size = __pyx_state[13]; __pyx_result.hidden2_values = __pyx_state[14]; __pyx_result.hidden2_weights = __pyx_state[15]; __pyx_result.hidden_before_activation = __pyx_state[16]; __pyx_result.hidden_bias = __pyx_state[17]; __pyx_result.hidden_gradients = __pyx_state[18]; __pyx_result.hidden_sent_values = __pyx_state[19]; __pyx_result.hidden_size = __pyx_state[20]; __pyx_result.hidden_values = __pyx_state[21]; __pyx_result.hidden_weights = __pyx_state[22]; __pyx_result.input_deltas = __pyx_state[23]; __pyx_result.input_sent_values = __pyx_state[24]; __pyx_result.input_size = __pyx_state[25]; __pyx_result.input_values = __pyx_state[26]; __pyx_result.layer2_sent_values = __pyx_state[27]; __pyx_result.layer2_values = __pyx_state[28]; __pyx_result.learning_rate = __pyx_state[29]; __pyx_result.learning_rate_features = __pyx_state[30]; __pyx_result.learning_rate_trans = __pyx_state[31]; __pyx_result.max_indices = __pyx_state[32]; __pyx_result.net_gradients = __pyx_state[33]; __pyx_result.network_filename = __pyx_state[34]; __pyx_result.network_text_filename = __pyx_state[35]; __pyx_result.num_sentences = __pyx_state[36]; __pyx_result.num_targets = __pyx_state[37]; __pyx_result.num_tokens = __pyx_state[38]; __pyx_result.only_classify = __pyx_state[39]; __pyx_result.output_bias = __pyx_state[40]; __pyx_result.output_size = __pyx_state[41]; __pyx_result.output_weights = __pyx_state[42]; __pyx_result.padding_left = __pyx_state[43]; __pyx_result.padding_right = __pyx_state[44]; __pyx_result.pos_padding = __pyx_state[45]; __pyx_result.pre_padding = __pyx_state[46]; __pyx_result.pred_convolution_lookup = __pyx_state[47]; __pyx_result.pred_dist_deltas = __pyx_state[48]; __pyx_result.pred_dist_lookup = __pyx_state[49]; __pyx_result.pred_dist_offset = __pyx_state[50]; __pyx_result.pred_dist_table = __pyx_state[51]; __pyx_result.pred_dist_weights = __pyx_state[52]; __pyx_result.sentence_accuracy = __pyx_state[53]; __pyx_result.sentence_lookup = __pyx_state[54]; __pyx_result.skips = __pyx_state[55]; __pyx_result.target_convolution_lookup = __pyx_state[56]; __pyx_result.target_dist_deltas = __pyx_state[57]; __pyx_result.target_dist_lookup = __pyx_state[58]; __pyx_result.target_dist_offset = __pyx_state[59]; __pyx_result.target_dist_table = __pyx_state[60]; __pyx_result.target_dist_weights = __pyx_state[61]; __pyx_result.trans_gradients = __pyx_state[62]; __pyx_result.transitions = __pyx_state[63]; __pyx_result.use_learning_rate_decay = __pyx_state[64]; __pyx_result.validation_arguments = __pyx_state[65]; __pyx_result.validation_heads = __pyx_state[66]; __pyx_result.validation_predicates = __pyx_state[67]; __pyx_result.validation_sentences = __pyx_state[68]; __pyx_result.validation_tags = __pyx_state[69]; __pyx_result.word_window_size = __pyx_state[70]
+ *     if len(__pyx_state) > 71 and hasattr(__pyx_result, '__dict__'):
  */
 
   /* function exit code */
@@ -47969,7 +48313,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
  * 
  * cdef inline int import_umath() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__18, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(4, 944, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__19, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(4, 944, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -48104,7 +48448,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
  * 
  * cdef inline int import_ufunc() except -1:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__19, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(4, 950, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__20, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(4, 950, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -48239,7 +48583,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
  * 
  * cdef extern from *:
  */
-      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__19, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(4, 956, __pyx_L5_except_error)
+      __pyx_t_8 = __Pyx_PyObject_Call(__pyx_builtin_ImportError, __pyx_tuple__20, NULL); if (unlikely(!__pyx_t_8)) __PYX_ERR(4, 956, __pyx_L5_except_error)
       __Pyx_GOTREF(__pyx_t_8);
       __Pyx_Raise(__pyx_t_8, 0, 0, 0);
       __Pyx_DECREF(__pyx_t_8); __pyx_t_8 = 0;
@@ -49126,6 +49470,7 @@ static PyObject *__pyx_tp_new_4libs_7network_ConvolutionalNetwork(PyTypeObject *
   p->hidden_before_activation = ((PyArrayObject *)Py_None); Py_INCREF(Py_None);
   p->convolution_lookup = ((PyArrayObject *)Py_None); Py_INCREF(Py_None);
   p->max_indices = ((PyArrayObject *)Py_None); Py_INCREF(Py_None);
+  p->only_classify = ((PyBoolObject *)Py_None); Py_INCREF(Py_None);
   p->hidden_gradients = ((PyArrayObject *)Py_None); Py_INCREF(Py_None);
   p->hidden2_gradients = ((PyArrayObject *)Py_None); Py_INCREF(Py_None);
   p->input_deltas = ((PyArrayObject *)Py_None); Py_INCREF(Py_None);
@@ -49159,6 +49504,7 @@ static void __pyx_tp_dealloc_4libs_7network_ConvolutionalNetwork(PyObject *o) {
   Py_CLEAR(p->hidden_before_activation);
   Py_CLEAR(p->convolution_lookup);
   Py_CLEAR(p->max_indices);
+  Py_CLEAR(p->only_classify);
   Py_CLEAR(p->hidden_gradients);
   Py_CLEAR(p->hidden2_gradients);
   Py_CLEAR(p->input_deltas);
@@ -49222,6 +49568,9 @@ static int __pyx_tp_traverse_4libs_7network_ConvolutionalNetwork(PyObject *o, vi
   }
   if (p->max_indices) {
     e = (*v)(((PyObject *)p->max_indices), a); if (e) return e;
+  }
+  if (p->only_classify) {
+    e = (*v)(((PyObject *)p->only_classify), a); if (e) return e;
   }
   if (p->hidden_gradients) {
     e = (*v)(((PyObject *)p->hidden_gradients), a); if (e) return e;
@@ -49295,6 +49644,9 @@ static int __pyx_tp_clear_4libs_7network_ConvolutionalNetwork(PyObject *o) {
   Py_XDECREF(tmp);
   tmp = ((PyObject*)p->max_indices);
   p->max_indices = ((PyArrayObject *)Py_None); Py_INCREF(Py_None);
+  Py_XDECREF(tmp);
+  tmp = ((PyObject*)p->only_classify);
+  p->only_classify = ((PyBoolObject *)Py_None); Py_INCREF(Py_None);
   Py_XDECREF(tmp);
   tmp = ((PyObject*)p->hidden_gradients);
   p->hidden_gradients = ((PyArrayObject *)Py_None); Py_INCREF(Py_None);
@@ -50918,6 +51270,7 @@ static struct PyModuleDef __pyx_moduledef = {
 static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_u_, __pyx_k_, sizeof(__pyx_k_), 0, 1, 0, 0},
   {&__pyx_kp_u_Accuracy, __pyx_k_Accuracy, sizeof(__pyx_k_Accuracy), 0, 1, 0, 0},
+  {&__pyx_kp_u_Confidence_measure_not_implement, __pyx_k_Confidence_measure_not_implement, sizeof(__pyx_k_Confidence_measure_not_implement), 0, 1, 0, 0},
   {&__pyx_kp_u_Convolution_layer_size, __pyx_k_Convolution_layer_size, sizeof(__pyx_k_Convolution_layer_size), 0, 1, 0, 0},
   {&__pyx_n_s_ConvolutionalDependencyNetwork, __pyx_k_ConvolutionalDependencyNetwork, sizeof(__pyx_k_ConvolutionalDependencyNetwork), 0, 0, 1, 1},
   {&__pyx_n_s_ConvolutionalNetwork, __pyx_k_ConvolutionalNetwork, sizeof(__pyx_k_ConvolutionalNetwork), 0, 0, 1, 1},
@@ -50933,6 +51286,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_u_Input_layer_size, __pyx_k_Input_layer_size, sizeof(__pyx_k_Input_layer_size), 0, 1, 0, 0},
   {&__pyx_n_u_Logger, __pyx_k_Logger, sizeof(__pyx_k_Logger), 0, 1, 0, 1},
   {&__pyx_n_s_Network, __pyx_k_Network, sizeof(__pyx_k_Network), 0, 0, 1, 1},
+  {&__pyx_n_s_NotImplementedError, __pyx_k_NotImplementedError, sizeof(__pyx_k_NotImplementedError), 0, 0, 1, 1},
   {&__pyx_kp_u_Output_size, __pyx_k_Output_size, sizeof(__pyx_k_Output_size), 0, 1, 0, 0},
   {&__pyx_n_s_PickleError, __pyx_k_PickleError, sizeof(__pyx_k_PickleError), 0, 0, 1, 1},
   {&__pyx_kp_u_Saved_model, __pyx_k_Saved_model, sizeof(__pyx_k_Saved_model), 0, 1, 0, 0},
@@ -50942,7 +51296,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_u_Token_accuracy, __pyx_k_Token_accuracy, sizeof(__pyx_k_Token_accuracy), 0, 1, 0, 0},
   {&__pyx_kp_u_Training_for_up_to_d_epochs, __pyx_k_Training_for_up_to_d_epochs, sizeof(__pyx_k_Training_for_up_to_d_epochs), 0, 1, 0, 0},
   {&__pyx_kp_u_Word_window_size, __pyx_k_Word_window_size, sizeof(__pyx_k_Word_window_size), 0, 1, 0, 0},
-  {&__pyx_kp_u__11, __pyx_k__11, sizeof(__pyx_k__11), 0, 1, 0, 0},
+  {&__pyx_kp_u__12, __pyx_k__12, sizeof(__pyx_k__12), 0, 1, 0, 0},
   {&__pyx_kp_u__2, __pyx_k__2, sizeof(__pyx_k__2), 0, 1, 0, 0},
   {&__pyx_kp_u__7, __pyx_k__7, sizeof(__pyx_k__7), 0, 1, 0, 0},
   {&__pyx_n_s_add, __pyx_k_add, sizeof(__pyx_k_add), 0, 0, 1, 1},
@@ -51173,6 +51527,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedBuiltins(void) {
   __pyx_builtin_zip = __Pyx_GetBuiltinName(__pyx_n_s_zip); if (!__pyx_builtin_zip) __PYX_ERR(0, 370, __pyx_L1_error)
   __pyx_builtin_FloatingPointError = __Pyx_GetBuiltinName(__pyx_n_s_FloatingPointError); if (!__pyx_builtin_FloatingPointError) __PYX_ERR(0, 689, __pyx_L1_error)
   __pyx_builtin_super = __Pyx_GetBuiltinName(__pyx_n_s_super); if (!__pyx_builtin_super) __PYX_ERR(1, 126, __pyx_L1_error)
+  __pyx_builtin_NotImplementedError = __Pyx_GetBuiltinName(__pyx_n_s_NotImplementedError); if (!__pyx_builtin_NotImplementedError) __PYX_ERR(1, 564, __pyx_L1_error)
   __pyx_builtin_ImportError = __Pyx_GetBuiltinName(__pyx_n_s_ImportError); if (!__pyx_builtin_ImportError) __PYX_ERR(4, 944, __pyx_L1_error)
   return 0;
   __pyx_L1_error:;
@@ -51227,30 +51582,41 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
 
-  /* "networkconv.pyx":834
+  /* "networkconv.pyx":564
+ *             if logprob:
+ *                 if self.only_classify:
+ *                     raise NotImplementedError('Confidence measure not implemented for argument classifying')             # <<<<<<<<<<<<<<
+ * 
+ *                 all_scores = self._calculate_all_scores(token_scores)
+ */
+  __pyx_tuple__8 = PyTuple_Pack(1, __pyx_kp_u_Confidence_measure_not_implement); if (unlikely(!__pyx_tuple__8)) __PYX_ERR(1, 564, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__8);
+  __Pyx_GIVEREF(__pyx_tuple__8);
+
+  /* "networkconv.pyx":830
  *             pre_deltas = dist_deltas.take(np.arange(pre_dist), 0).sum(0)
  *             pos_deltas = dist_deltas.take(np.arange(-pos_dist, 0), 0).sum(0)
  *             self.target_dist_table[1:-1, :] += dist_deltas[pre_dist : -pos_dist]             # <<<<<<<<<<<<<<
  *             self.target_dist_table[0] += pre_deltas
  *             self.target_dist_table[-1] += pos_deltas
  */
-  __pyx_slice__8 = PySlice_New(__pyx_int_1, __pyx_int_neg_1, Py_None); if (unlikely(!__pyx_slice__8)) __PYX_ERR(1, 834, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_slice__8);
-  __Pyx_GIVEREF(__pyx_slice__8);
-  __pyx_tuple__9 = PyTuple_Pack(2, __pyx_slice__8, __pyx_slice__3); if (unlikely(!__pyx_tuple__9)) __PYX_ERR(1, 834, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__9);
-  __Pyx_GIVEREF(__pyx_tuple__9);
+  __pyx_slice__9 = PySlice_New(__pyx_int_1, __pyx_int_neg_1, Py_None); if (unlikely(!__pyx_slice__9)) __PYX_ERR(1, 830, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_slice__9);
+  __Pyx_GIVEREF(__pyx_slice__9);
+  __pyx_tuple__10 = PyTuple_Pack(2, __pyx_slice__9, __pyx_slice__3); if (unlikely(!__pyx_tuple__10)) __PYX_ERR(1, 830, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__10);
+  __Pyx_GIVEREF(__pyx_tuple__10);
 
-  /* "networkconv.pyx":903
+  /* "networkconv.pyx":899
  *         path_scores[0] = scores[0] + self.transitions[-1]
  * 
  *         for i, token in enumerate(scores[1:], 1):             # <<<<<<<<<<<<<<
  * 
  *             # each line contains the score until each tag t plus the transition to each other tag t'
  */
-  __pyx_slice__10 = PySlice_New(__pyx_int_1, Py_None, Py_None); if (unlikely(!__pyx_slice__10)) __PYX_ERR(1, 903, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_slice__10);
-  __Pyx_GIVEREF(__pyx_slice__10);
+  __pyx_slice__11 = PySlice_New(__pyx_int_1, Py_None, Py_None); if (unlikely(!__pyx_slice__11)) __PYX_ERR(1, 899, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_slice__11);
+  __Pyx_GIVEREF(__pyx_slice__11);
 
   /* "(tree fragment)":4
  *     cdef object __pyx_PickleError
@@ -51259,15 +51625,15 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *         from pickle import PickleError as __pyx_PickleError
  *         raise __pyx_PickleError("Incompatible checksums (0x%x vs (0xc0e08fa, 0x72479d4, 0xd248f0d) = (accuracy, answer_score, decay_factor, error, feature_tables, features_per_token, float_errors, hidden_bias, hidden_sent_values, hidden_size, hidden_values, hidden_weights, input_sent_values, input_size, input_values, layer2_sent_values, layer2_values, learning_rate, learning_rate_features, learning_rate_trans, net_gradients, network_filename, network_text_filename, num_tokens, output_bias, output_size, output_weights, padding_left, padding_right, pos_padding, pre_padding, sentence_accuracy, sentence_lookup, skips, trans_gradients, transitions, use_learning_rate_decay, validation_sentences, validation_tags, word_window_size))" % __pyx_checksum)
  */
-  __pyx_tuple__13 = PyTuple_Pack(3, __pyx_int_202246394, __pyx_int_119830996, __pyx_int_220499725); if (unlikely(!__pyx_tuple__13)) __PYX_ERR(2, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__13);
-  __Pyx_GIVEREF(__pyx_tuple__13);
-  __pyx_tuple__15 = PyTuple_Pack(3, __pyx_int_127325890, __pyx_int_226292866, __pyx_int_51819283); if (unlikely(!__pyx_tuple__15)) __PYX_ERR(2, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__15);
-  __Pyx_GIVEREF(__pyx_tuple__15);
-  __pyx_tuple__17 = PyTuple_Pack(3, __pyx_int_246550640, __pyx_int_119739054, __pyx_int_96172195); if (unlikely(!__pyx_tuple__17)) __PYX_ERR(2, 4, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__17);
-  __Pyx_GIVEREF(__pyx_tuple__17);
+  __pyx_tuple__14 = PyTuple_Pack(3, __pyx_int_202246394, __pyx_int_119830996, __pyx_int_220499725); if (unlikely(!__pyx_tuple__14)) __PYX_ERR(2, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__14);
+  __Pyx_GIVEREF(__pyx_tuple__14);
+  __pyx_tuple__16 = PyTuple_Pack(3, __pyx_int_149446146, __pyx_int_49696698, __pyx_int_148123145); if (unlikely(!__pyx_tuple__16)) __PYX_ERR(2, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__16);
+  __Pyx_GIVEREF(__pyx_tuple__16);
+  __pyx_tuple__18 = PyTuple_Pack(3, __pyx_int_27816595, __pyx_int_212151326, __pyx_int_145891266); if (unlikely(!__pyx_tuple__18)) __PYX_ERR(2, 4, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__18);
+  __Pyx_GIVEREF(__pyx_tuple__18);
 
   /* "../../../Library/Python/3.9/lib/python/site-packages/numpy/__init__.pxd":944
  *         __pyx_import_array()
@@ -51276,9 +51642,9 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * cdef inline int import_umath() except -1:
  */
-  __pyx_tuple__18 = PyTuple_Pack(1, __pyx_kp_u_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__18)) __PYX_ERR(4, 944, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__18);
-  __Pyx_GIVEREF(__pyx_tuple__18);
+  __pyx_tuple__19 = PyTuple_Pack(1, __pyx_kp_u_numpy_core_multiarray_failed_to); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(4, 944, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__19);
+  __Pyx_GIVEREF(__pyx_tuple__19);
 
   /* "../../../Library/Python/3.9/lib/python/site-packages/numpy/__init__.pxd":950
  *         _import_umath()
@@ -51287,27 +51653,27 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  * 
  * cdef inline int import_ufunc() except -1:
  */
-  __pyx_tuple__19 = PyTuple_Pack(1, __pyx_kp_u_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__19)) __PYX_ERR(4, 950, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__19);
-  __Pyx_GIVEREF(__pyx_tuple__19);
+  __pyx_tuple__20 = PyTuple_Pack(1, __pyx_kp_u_numpy_core_umath_failed_to_impor); if (unlikely(!__pyx_tuple__20)) __PYX_ERR(4, 950, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__20);
+  __Pyx_GIVEREF(__pyx_tuple__20);
 
   /* "(tree fragment)":1
  * def __pyx_unpickle_Network(__pyx_type, long __pyx_checksum, __pyx_state):             # <<<<<<<<<<<<<<
  *     cdef object __pyx_PickleError
  *     cdef object __pyx_result
  */
-  __pyx_tuple__20 = PyTuple_Pack(5, __pyx_n_s_pyx_type, __pyx_n_s_pyx_checksum, __pyx_n_s_pyx_state, __pyx_n_s_pyx_PickleError, __pyx_n_s_pyx_result); if (unlikely(!__pyx_tuple__20)) __PYX_ERR(2, 1, __pyx_L1_error)
-  __Pyx_GOTREF(__pyx_tuple__20);
-  __Pyx_GIVEREF(__pyx_tuple__20);
-  __pyx_codeobj__12 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__20, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_Network, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__12)) __PYX_ERR(2, 1, __pyx_L1_error)
   __pyx_tuple__21 = PyTuple_Pack(5, __pyx_n_s_pyx_type, __pyx_n_s_pyx_checksum, __pyx_n_s_pyx_state, __pyx_n_s_pyx_PickleError, __pyx_n_s_pyx_result); if (unlikely(!__pyx_tuple__21)) __PYX_ERR(2, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__21);
   __Pyx_GIVEREF(__pyx_tuple__21);
-  __pyx_codeobj__14 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__21, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_ConvolutionalNetw, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__14)) __PYX_ERR(2, 1, __pyx_L1_error)
+  __pyx_codeobj__13 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__21, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_Network, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__13)) __PYX_ERR(2, 1, __pyx_L1_error)
   __pyx_tuple__22 = PyTuple_Pack(5, __pyx_n_s_pyx_type, __pyx_n_s_pyx_checksum, __pyx_n_s_pyx_state, __pyx_n_s_pyx_PickleError, __pyx_n_s_pyx_result); if (unlikely(!__pyx_tuple__22)) __PYX_ERR(2, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_tuple__22);
   __Pyx_GIVEREF(__pyx_tuple__22);
-  __pyx_codeobj__16 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_ConvolutionalDepe, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__16)) __PYX_ERR(2, 1, __pyx_L1_error)
+  __pyx_codeobj__15 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_ConvolutionalNetw, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__15)) __PYX_ERR(2, 1, __pyx_L1_error)
+  __pyx_tuple__23 = PyTuple_Pack(5, __pyx_n_s_pyx_type, __pyx_n_s_pyx_checksum, __pyx_n_s_pyx_state, __pyx_n_s_pyx_PickleError, __pyx_n_s_pyx_result); if (unlikely(!__pyx_tuple__23)) __PYX_ERR(2, 1, __pyx_L1_error)
+  __Pyx_GOTREF(__pyx_tuple__23);
+  __Pyx_GIVEREF(__pyx_tuple__23);
+  __pyx_codeobj__17 = (PyObject*)__Pyx_PyCode_New(3, 0, 5, 0, CO_OPTIMIZED|CO_NEWLOCALS, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__23, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_stringsource, __pyx_n_s_pyx_unpickle_ConvolutionalDepe, 1, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__17)) __PYX_ERR(2, 1, __pyx_L1_error)
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;
@@ -51325,15 +51691,15 @@ static CYTHON_SMALL_CODE int __Pyx_InitGlobals(void) {
   __pyx_int_0 = PyInt_FromLong(0); if (unlikely(!__pyx_int_0)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_1 = PyInt_FromLong(1); if (unlikely(!__pyx_int_1)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_2 = PyInt_FromLong(2); if (unlikely(!__pyx_int_2)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_51819283 = PyInt_FromLong(51819283L); if (unlikely(!__pyx_int_51819283)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_96172195 = PyInt_FromLong(96172195L); if (unlikely(!__pyx_int_96172195)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_119739054 = PyInt_FromLong(119739054L); if (unlikely(!__pyx_int_119739054)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_int_27816595 = PyInt_FromLong(27816595L); if (unlikely(!__pyx_int_27816595)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_int_49696698 = PyInt_FromLong(49696698L); if (unlikely(!__pyx_int_49696698)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_119830996 = PyInt_FromLong(119830996L); if (unlikely(!__pyx_int_119830996)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_127325890 = PyInt_FromLong(127325890L); if (unlikely(!__pyx_int_127325890)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_int_145891266 = PyInt_FromLong(145891266L); if (unlikely(!__pyx_int_145891266)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_int_148123145 = PyInt_FromLong(148123145L); if (unlikely(!__pyx_int_148123145)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_int_149446146 = PyInt_FromLong(149446146L); if (unlikely(!__pyx_int_149446146)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_202246394 = PyInt_FromLong(202246394L); if (unlikely(!__pyx_int_202246394)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_int_212151326 = PyInt_FromLong(212151326L); if (unlikely(!__pyx_int_212151326)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_220499725 = PyInt_FromLong(220499725L); if (unlikely(!__pyx_int_220499725)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_226292866 = PyInt_FromLong(226292866L); if (unlikely(!__pyx_int_226292866)) __PYX_ERR(0, 1, __pyx_L1_error)
-  __pyx_int_246550640 = PyInt_FromLong(246550640L); if (unlikely(!__pyx_int_246550640)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_neg_1 = PyInt_FromLong(-1); if (unlikely(!__pyx_int_neg_1)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_neg_2 = PyInt_FromLong(-2); if (unlikely(!__pyx_int_neg_2)) __PYX_ERR(0, 1, __pyx_L1_error)
   __pyx_int_neg_1000 = PyInt_FromLong(-1000); if (unlikely(!__pyx_int_neg_1000)) __PYX_ERR(0, 1, __pyx_L1_error)
@@ -55139,6 +55505,165 @@ static CYTHON_INLINE PyObject *__Pyx_PyIter_Next2(PyObject* iterator, PyObject* 
     PyErr_Format(PyExc_UnboundLocalError, "local variable '%s' referenced before assignment", varname);
 }
 
+/* RaiseException */
+      #if PY_MAJOR_VERSION < 3
+static void __Pyx_Raise(PyObject *type, PyObject *value, PyObject *tb,
+                        CYTHON_UNUSED PyObject *cause) {
+    __Pyx_PyThreadState_declare
+    Py_XINCREF(type);
+    if (!value || value == Py_None)
+        value = NULL;
+    else
+        Py_INCREF(value);
+    if (!tb || tb == Py_None)
+        tb = NULL;
+    else {
+        Py_INCREF(tb);
+        if (!PyTraceBack_Check(tb)) {
+            PyErr_SetString(PyExc_TypeError,
+                "raise: arg 3 must be a traceback or None");
+            goto raise_error;
+        }
+    }
+    if (PyType_Check(type)) {
+#if CYTHON_COMPILING_IN_PYPY
+        if (!value) {
+            Py_INCREF(Py_None);
+            value = Py_None;
+        }
+#endif
+        PyErr_NormalizeException(&type, &value, &tb);
+    } else {
+        if (value) {
+            PyErr_SetString(PyExc_TypeError,
+                "instance exception may not have a separate value");
+            goto raise_error;
+        }
+        value = type;
+        type = (PyObject*) Py_TYPE(type);
+        Py_INCREF(type);
+        if (!PyType_IsSubtype((PyTypeObject *)type, (PyTypeObject *)PyExc_BaseException)) {
+            PyErr_SetString(PyExc_TypeError,
+                "raise: exception class must be a subclass of BaseException");
+            goto raise_error;
+        }
+    }
+    __Pyx_PyThreadState_assign
+    __Pyx_ErrRestore(type, value, tb);
+    return;
+raise_error:
+    Py_XDECREF(value);
+    Py_XDECREF(type);
+    Py_XDECREF(tb);
+    return;
+}
+#else
+static void __Pyx_Raise(PyObject *type, PyObject *value, PyObject *tb, PyObject *cause) {
+    PyObject* owned_instance = NULL;
+    if (tb == Py_None) {
+        tb = 0;
+    } else if (tb && !PyTraceBack_Check(tb)) {
+        PyErr_SetString(PyExc_TypeError,
+            "raise: arg 3 must be a traceback or None");
+        goto bad;
+    }
+    if (value == Py_None)
+        value = 0;
+    if (PyExceptionInstance_Check(type)) {
+        if (value) {
+            PyErr_SetString(PyExc_TypeError,
+                "instance exception may not have a separate value");
+            goto bad;
+        }
+        value = type;
+        type = (PyObject*) Py_TYPE(value);
+    } else if (PyExceptionClass_Check(type)) {
+        PyObject *instance_class = NULL;
+        if (value && PyExceptionInstance_Check(value)) {
+            instance_class = (PyObject*) Py_TYPE(value);
+            if (instance_class != type) {
+                int is_subclass = PyObject_IsSubclass(instance_class, type);
+                if (!is_subclass) {
+                    instance_class = NULL;
+                } else if (unlikely(is_subclass == -1)) {
+                    goto bad;
+                } else {
+                    type = instance_class;
+                }
+            }
+        }
+        if (!instance_class) {
+            PyObject *args;
+            if (!value)
+                args = PyTuple_New(0);
+            else if (PyTuple_Check(value)) {
+                Py_INCREF(value);
+                args = value;
+            } else
+                args = PyTuple_Pack(1, value);
+            if (!args)
+                goto bad;
+            owned_instance = PyObject_Call(type, args, NULL);
+            Py_DECREF(args);
+            if (!owned_instance)
+                goto bad;
+            value = owned_instance;
+            if (!PyExceptionInstance_Check(value)) {
+                PyErr_Format(PyExc_TypeError,
+                             "calling %R should have returned an instance of "
+                             "BaseException, not %R",
+                             type, Py_TYPE(value));
+                goto bad;
+            }
+        }
+    } else {
+        PyErr_SetString(PyExc_TypeError,
+            "raise: exception class must be a subclass of BaseException");
+        goto bad;
+    }
+    if (cause) {
+        PyObject *fixed_cause;
+        if (cause == Py_None) {
+            fixed_cause = NULL;
+        } else if (PyExceptionClass_Check(cause)) {
+            fixed_cause = PyObject_CallObject(cause, NULL);
+            if (fixed_cause == NULL)
+                goto bad;
+        } else if (PyExceptionInstance_Check(cause)) {
+            fixed_cause = cause;
+            Py_INCREF(fixed_cause);
+        } else {
+            PyErr_SetString(PyExc_TypeError,
+                            "exception causes must derive from "
+                            "BaseException");
+            goto bad;
+        }
+        PyException_SetCause(value, fixed_cause);
+    }
+    PyErr_SetObject(type, value);
+    if (tb) {
+#if CYTHON_COMPILING_IN_PYPY
+        PyObject *tmp_type, *tmp_value, *tmp_tb;
+        PyErr_Fetch(&tmp_type, &tmp_value, &tmp_tb);
+        Py_INCREF(tb);
+        PyErr_Restore(tmp_type, tmp_value, tb);
+        Py_XDECREF(tmp_tb);
+#else
+        PyThreadState *tstate = __Pyx_PyThreadState_Current;
+        PyObject* tmp_tb = tstate->curexc_traceback;
+        if (tb != tmp_tb) {
+            Py_INCREF(tb);
+            tstate->curexc_traceback = tb;
+            Py_XDECREF(tmp_tb);
+        }
+#endif
+    }
+bad:
+    Py_XDECREF(owned_instance);
+    return;
+}
+#endif
+
 /* PyIntCompare */
       static CYTHON_INLINE PyObject* __Pyx_PyInt_NeObjC(PyObject *op1, PyObject *op2, CYTHON_UNUSED long intval, CYTHON_UNUSED long inplace) {
     if (op1 == op2) {
@@ -55450,165 +55975,6 @@ bad:
     }
     return value;
 }
-
-/* RaiseException */
-      #if PY_MAJOR_VERSION < 3
-static void __Pyx_Raise(PyObject *type, PyObject *value, PyObject *tb,
-                        CYTHON_UNUSED PyObject *cause) {
-    __Pyx_PyThreadState_declare
-    Py_XINCREF(type);
-    if (!value || value == Py_None)
-        value = NULL;
-    else
-        Py_INCREF(value);
-    if (!tb || tb == Py_None)
-        tb = NULL;
-    else {
-        Py_INCREF(tb);
-        if (!PyTraceBack_Check(tb)) {
-            PyErr_SetString(PyExc_TypeError,
-                "raise: arg 3 must be a traceback or None");
-            goto raise_error;
-        }
-    }
-    if (PyType_Check(type)) {
-#if CYTHON_COMPILING_IN_PYPY
-        if (!value) {
-            Py_INCREF(Py_None);
-            value = Py_None;
-        }
-#endif
-        PyErr_NormalizeException(&type, &value, &tb);
-    } else {
-        if (value) {
-            PyErr_SetString(PyExc_TypeError,
-                "instance exception may not have a separate value");
-            goto raise_error;
-        }
-        value = type;
-        type = (PyObject*) Py_TYPE(type);
-        Py_INCREF(type);
-        if (!PyType_IsSubtype((PyTypeObject *)type, (PyTypeObject *)PyExc_BaseException)) {
-            PyErr_SetString(PyExc_TypeError,
-                "raise: exception class must be a subclass of BaseException");
-            goto raise_error;
-        }
-    }
-    __Pyx_PyThreadState_assign
-    __Pyx_ErrRestore(type, value, tb);
-    return;
-raise_error:
-    Py_XDECREF(value);
-    Py_XDECREF(type);
-    Py_XDECREF(tb);
-    return;
-}
-#else
-static void __Pyx_Raise(PyObject *type, PyObject *value, PyObject *tb, PyObject *cause) {
-    PyObject* owned_instance = NULL;
-    if (tb == Py_None) {
-        tb = 0;
-    } else if (tb && !PyTraceBack_Check(tb)) {
-        PyErr_SetString(PyExc_TypeError,
-            "raise: arg 3 must be a traceback or None");
-        goto bad;
-    }
-    if (value == Py_None)
-        value = 0;
-    if (PyExceptionInstance_Check(type)) {
-        if (value) {
-            PyErr_SetString(PyExc_TypeError,
-                "instance exception may not have a separate value");
-            goto bad;
-        }
-        value = type;
-        type = (PyObject*) Py_TYPE(value);
-    } else if (PyExceptionClass_Check(type)) {
-        PyObject *instance_class = NULL;
-        if (value && PyExceptionInstance_Check(value)) {
-            instance_class = (PyObject*) Py_TYPE(value);
-            if (instance_class != type) {
-                int is_subclass = PyObject_IsSubclass(instance_class, type);
-                if (!is_subclass) {
-                    instance_class = NULL;
-                } else if (unlikely(is_subclass == -1)) {
-                    goto bad;
-                } else {
-                    type = instance_class;
-                }
-            }
-        }
-        if (!instance_class) {
-            PyObject *args;
-            if (!value)
-                args = PyTuple_New(0);
-            else if (PyTuple_Check(value)) {
-                Py_INCREF(value);
-                args = value;
-            } else
-                args = PyTuple_Pack(1, value);
-            if (!args)
-                goto bad;
-            owned_instance = PyObject_Call(type, args, NULL);
-            Py_DECREF(args);
-            if (!owned_instance)
-                goto bad;
-            value = owned_instance;
-            if (!PyExceptionInstance_Check(value)) {
-                PyErr_Format(PyExc_TypeError,
-                             "calling %R should have returned an instance of "
-                             "BaseException, not %R",
-                             type, Py_TYPE(value));
-                goto bad;
-            }
-        }
-    } else {
-        PyErr_SetString(PyExc_TypeError,
-            "raise: exception class must be a subclass of BaseException");
-        goto bad;
-    }
-    if (cause) {
-        PyObject *fixed_cause;
-        if (cause == Py_None) {
-            fixed_cause = NULL;
-        } else if (PyExceptionClass_Check(cause)) {
-            fixed_cause = PyObject_CallObject(cause, NULL);
-            if (fixed_cause == NULL)
-                goto bad;
-        } else if (PyExceptionInstance_Check(cause)) {
-            fixed_cause = cause;
-            Py_INCREF(fixed_cause);
-        } else {
-            PyErr_SetString(PyExc_TypeError,
-                            "exception causes must derive from "
-                            "BaseException");
-            goto bad;
-        }
-        PyException_SetCause(value, fixed_cause);
-    }
-    PyErr_SetObject(type, value);
-    if (tb) {
-#if CYTHON_COMPILING_IN_PYPY
-        PyObject *tmp_type, *tmp_value, *tmp_tb;
-        PyErr_Fetch(&tmp_type, &tmp_value, &tmp_tb);
-        Py_INCREF(tb);
-        PyErr_Restore(tmp_type, tmp_value, tb);
-        Py_XDECREF(tmp_tb);
-#else
-        PyThreadState *tstate = __Pyx_PyThreadState_Current;
-        PyObject* tmp_tb = tstate->curexc_traceback;
-        if (tb != tmp_tb) {
-            Py_INCREF(tb);
-            tstate->curexc_traceback = tb;
-            Py_XDECREF(tmp_tb);
-        }
-#endif
-    }
-bad:
-    Py_XDECREF(owned_instance);
-    return;
-}
-#endif
 
 /* HasAttr */
       static CYTHON_INLINE int __Pyx_HasAttr(PyObject *o, PyObject *n) {

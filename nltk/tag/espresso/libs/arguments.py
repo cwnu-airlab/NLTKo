@@ -119,7 +119,7 @@ def get_args():
 		parser_pos.add_argument('--prefix_size', type=int, default=5,
 														help='Use prefixes up to this size (in characters, default 5). '\
 														'Only used if --suffix is supplied')
-		defaults['pos'] = dict(window=7, hidden=300, iterations=20, 
+		defaults['pos'] = dict(window=9, hidden=300, iterations=20, 
 													 learning_rate=0.001, learning_rate_features=0.001,
 													 learning_rate_transitions=0.001 )
 

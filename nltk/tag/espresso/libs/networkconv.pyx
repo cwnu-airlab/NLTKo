@@ -33,7 +33,7 @@ cdef class ConvolutionalNetwork(Network):
     # number of targets (all tokens in a sentence or the provided arguments)
     # and variables for argument classifying
     cdef int num_targets
-    #cdef bool only_classify
+    cdef bool only_classify
     
     # for faster access 
     cdef int half_window
@@ -286,7 +286,7 @@ Output size: %d
         """
         self.num_sentences = len(sentences)
         self.num_tokens = sum(len(sent) for sent in sentences)
-        #self.only_classify = arguments is not None
+        self.only_classify = arguments is not None
         
         logger = logging.getLogger("Logger")
         logger.info("Training for up to %d epochs" % epochs)
@@ -393,7 +393,7 @@ Output size: %d
         :param allow_repeats: a boolean indicating whether to allow repeated
             argument classes (only for separate argument classification).
         """
-        #self.only_classify = arguments is not None
+        self.only_classify = arguments is not None
         return self._tag_sentence(sentence, predicates, argument_blocks=arguments, 
                                   logprob=logprob, allow_repeats=allow_repeats)
     
@@ -545,7 +545,7 @@ Output size: %d
         cdef np.ndarray[FLOAT_t, ndim=2] token_scores
         
         for i, predicate in enumerate(predicates):
-            #pred_arguments = None if not self.only_classify else argument_blocks[i]
+            pred_arguments = None if not self.only_classify else argument_blocks[i]
             pred_arguments = argument_blocks[i]
             
             token_scores = self._sentence_convolution(sentence, predicate, pred_arguments, training)
@@ -560,8 +560,8 @@ Output size: %d
                     self._adjust_features(sentence, predicate)
             
             if logprob:
-                #if self.only_classify:
-                #    raise NotImplementedError('Confidence measure not implemented for argument classifying')
+                if self.only_classify:
+                    raise NotImplementedError('Confidence measure not implemented for argument classifying')
                 
                 all_scores = self._calculate_all_scores(token_scores)
                 last_token = len(sentence) - 1
@@ -608,11 +608,10 @@ Output size: %d
     
     def _calculate_gradients(self, tags, scores):
         """Delegates the call to the appropriate function."""
-        #if self.only_classify:
-        #    return self._calculate_gradients_classify(tags, scores)
-        #else:
-        #    return self._calculate_gradients_sll(tags, scores)
-        return self._calculate_gradients_classify(tags, scores)
+        if self.only_classify:
+            return self._calculate_gradients_classify(tags, scores)
+        else:
+            return self._calculate_gradients_sll(tags, scores)
     
     def _calculate_gradients_classify(self, tags, scores):
         """
@@ -737,8 +736,7 @@ Output size: %d
         self.hidden_bias += self.hidden_gradients.sum(0) * self.learning_rate
         
         # Adjusts the transition scores table with the calculated gradients.
-        #if not self.only_classify and self.transitions is not None:
-        if self.transitions is not None:
+        if not self.only_classify and self.transitions is not None:
             self.transitions += self.trans_gradients * self.learning_rate_trans
             
     @cython.boundscheck(False)
@@ -769,13 +767,11 @@ Output size: %d
             # for this target
             convolution_max = self.max_indices[target]
             
-            #if not self.only_classify:
-            #    target_dists = convolution_max - target
-            #else:
-            #    argument = arguments[target]
-            #    target_dists = self.argument_distances(convolution_max, argument)
-            argument = arguments[target]
-            target_dists = self.argument_distances(convolution_max, argument)
+            if not self.only_classify:
+                target_dists = convolution_max - target
+            else:
+                argument = arguments[target]
+                target_dists = self.argument_distances(convolution_max, argument)
             
             target_dists = np.clip(target_dists + self.target_dist_offset, 0,
                                    self.target_dist_lookup.shape[0] - 1)

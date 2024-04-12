@@ -14,7 +14,7 @@ try:
     import torch
     from transformers import AutoModel, AutoTokenizer
 except ImportError:
-    requirement = ['torch', 'faiss-cpu>=1.7.3', 'tqdm>=4.40.0', 'scikit-learn>=0.22.1', 'transformers>=4.8.2']
+    requirement = ['torch', 'faiss-cpu>=1.7.3', 'tqdm>=4.40.0', 'scikit-learn>=0.22.1', 'transformers>=4.8.2', 'protobuf', 'sentencepiece']
     file_path = make_requirement(requirement)
     raise Exception(f"""
     Need to install Libraries, please pip install below libraries
@@ -23,6 +23,8 @@ except ImportError:
     \t pip install tqdm>=4.40.0
     \t pip install scikit-learn>=0.22.1
     \t pip install transformers>=4.8.2
+    \t pip install protobuf
+    \t pip install sentencepiece
     Or, use pip install requirement.txt
     \t  pip install -r {file_path}
     """)

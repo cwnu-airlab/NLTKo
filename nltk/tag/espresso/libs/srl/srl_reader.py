@@ -268,9 +268,9 @@ class SRLReader(reader.TaggerReader):
 			 
 		self.converter.add_extractor(word_lookup)
 		
-		if self.md.use_caps:
-			caps_lookup = lambda t: attributes.get_capitalization(t.word)
-			self.converter.add_extractor(caps_lookup)
+		#if self.md.use_caps:
+		#	caps_lookup = lambda t: attributes.get_capitalization(t.word)
+		#	self.converter.add_extractor(caps_lookup)
 		
 		if self.md.use_pos:
 			with open(self.md.paths['pos_tag_dict']) as f:

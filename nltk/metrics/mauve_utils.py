@@ -6,8 +6,8 @@ import time
 from tqdm.auto import tqdm as tqdm_original
 
 import torch
-from transformers import AutoModel, AutoTokenizer
-from nltk.search.kobert_tokenizer import KoBERTTokenizer
+from transformers import AutoModel, AutoTokenizer, XLNetTokenizer
+# from nltk.search.kobert_tokenizer import KoBERTTokenizer
 
 CPU_DEVICE = torch.device('cpu')
 tqdm = lambda *args, **kwargs: tqdm_original(
@@ -34,7 +34,8 @@ def get_model(model_name, tokenizer, device_id):
 def get_tokenizer(model_name='skt/kobert-base-v1'):
     if 'gpt2' in model_name or "bert" in model_name:
         if model_name == 'skt/kobert-base-v1':
-            tokenizer = KoBERTTokenizer.from_pretrained(model_name)
+            # tokenizer = KoBERTTokenizer.from_pretrained(model_name)
+            tokenizer = XLNetTokenizer.from_pretrained(model_name)
         else:
             tokenizer = AutoTokenizer.from_pretrained(model_name)
     else:

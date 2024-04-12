@@ -40,11 +40,12 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 from nltk.make_requirement import make_requirement
 try:
     import torch
-    from transformers import AutoTokenizer, AutoModel
+    from transformers import AutoTokenizer, AutoModel, XLNetTokenizer
     import pandas as pd
     from datasets import Dataset
+    # import protobuf
 except ImportError:
-    requirment = ['torch', 'transformers>=4.8.2', 'pandas', 'datasets']
+    requirment = ['torch', 'transformers>=4.8.2', 'pandas', 'datasets', "protobuf", 'sentencepiece']
     file_path = make_requirement(requirment)
     raise Exception(f"""
     Need to install Libraries, please pip install below libraries
@@ -52,11 +53,13 @@ except ImportError:
     \t pip install torch
     \t pip install pandas
     \t pip install datasets
+    \t pip install protobuf
+    \t pip install sentencepiece
     Or, use pip install requirement.txt
     \t  pip install -r {file_path}
     """)
 
-from nltk.search.kobert_tokenizer import KoBERTTokenizer
+# from nltk.search.kobert_tokenizer import KoBERTTokenizer
 
 
 
@@ -109,7 +112,8 @@ class FaissSearch:
 
         # Load the tokenizer
         if tokenizer_name_or_path == 'skt/kobert-base-v1':
-            self.tokenizer = KoBERTTokenizer.from_pretrained(tokenizer_name_or_path)
+            # self.tokenizer = KoBERTTokenizer.from_pretrained(tokenizer_name_or_path)
+            self.tokenizer = XLNetTokenizer.from_pretrained(tokenizer_name_or_path)
         else:
             self.tokenizer = AutoTokenizer.from_pretrained(tokenizer_name_or_path)
 

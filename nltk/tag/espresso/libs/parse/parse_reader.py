@@ -260,7 +260,7 @@ class DependencyReader(reader.TaggerReader):
 		"""
 		This function overrides the TextReader's one in order to deal with Token
 		objects instead of raw strings. It also allows POS as an attribute.
-		여기 순서와 utils.creatre_feature_table의 순서가 같아야 한다. 
+		여기 순서와 utils.create_feature_table의 순서가 같아야 한다. 
 		"""
 		#f = lambda token: self.word_dict[token.morph_h]
 		self.converter = attributes.TokenConverter()

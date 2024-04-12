@@ -27,10 +27,10 @@ def load_network(md):
 		"""
 		Loads the network from the default file and returns it.
 		"""
-		# logger = logging.getLogger("Logger")
+		logger = logging.getLogger("Logger")
 		is_srl = md.task == 'srl'
 		
-		# logger.info('Loading network')
+		logger.info('Loading network')
 		if is_srl :
 				net_class = ConvolutionalNetwork
 		elif md.task.endswith('dependency'):
@@ -40,7 +40,7 @@ def load_network(md):
 		
 		nn = net_class.load_from_file(md.paths[md.network])
 		
-		# logger.info('Done')
+		logger.info('Done')
 		return nn
 
 
@@ -51,8 +51,8 @@ def create_reader(md, gold_file=None):
 		:param gold_file: path to a file with gold standard data, if
 				the reader will be used for testing.
 		"""
-		# logger = logging.getLogger('Logger')
-		# logger.info('Loading text reader...')
+		logger = logging.getLogger('Logger')
+		logger.info('Loading text reader...')
 		
 		if md.task == 'pos':
 				tr = POSReader(md, filename=gold_file)
@@ -73,24 +73,25 @@ def create_reader(md, gold_file=None):
 		else:
 				raise ValueError("Unknown task: %s" % md.task)
 		
-		# logger.info('Done')
+		logger.info('Done')
 		return tr
 
-def _group_arguments(tokens, predicate_positions, boundaries, labels):
+def _group_arguments(tokens, predicate_positions, arg_tokens, labels):
 		"""
 		Groups words pertaining to each argument and returns a dictionary for each predicate.
 		"""
+		print(tokens, predicate_positions, arg_tokens, labels)
 		arg_structs = []
 		
-		for predicate_position, pred_boundaries, pred_labels in zip(predicate_positions,
-																																 boundaries,
+		for predicate_position, pred_arg_tokens, pred_labels in zip(predicate_positions,
+																																 arg_tokens,
 																																 labels):
 				structure = {}
 
-				for token, boundary_tag in zip(tokens, pred_boundaries):
-					argument_tokens = [token]
-					tag = pred_labels.pop(0)
-					structure[tag] = [token]
+				for tag, arg_token in zip(pred_labels, pred_arg_tokens):
+					#argument_tokens = [token]
+					#tag = pred_labels.pop(0)
+					structure[tag] = [arg_token]
 
 				predicate = tokens[predicate_position-1]
 				arg_structs.append((predicate, structure))
@@ -228,26 +229,6 @@ class SRLTagger(Tagger):
 
 		def _load_data(self):
 				"""Loads data for SRL"""
-				# load boundary identification network and reader
-#				md_boundary = Metadata.load_from_file('srl_boundary', self.paths)
-#				self.boundary_nn = load_network(md_boundary)
-#				self.boundary_reader = create_reader(md_boundary)
-#				self.boundary_reader.create_converter()
-#				self.boundary_itd = self.boundary_reader.get_inverse_tag_dictionary()
-#				
-#				# same for arg classification
-#				md_classify = Metadata.load_from_file('srl_classify', self.paths)
-#				self.classify_nn = load_network(md_classify)
-#				self.classify_reader = create_reader(md_classify)
-#				self.classify_reader.create_converter()
-#				self.classify_itd = self.classify_reader.get_inverse_tag_dictionary()
-#				
-#				# predicate detection
-#				md_pred = Metadata.load_from_file('srl_predicates', self.paths)
-#				self.pred_nn = load_network(md_pred)
-#				self.pred_reader = create_reader(md_pred)
-#				self.pred_reader.create_converter()
-
 				md_srl = Metadata.load_from_file('srl', self.paths)
 				self.nn = load_network(md_srl)
 				self.reader = create_reader(md_srl)
@@ -264,15 +245,12 @@ class SRLTagger(Tagger):
 				:param tokens: a list of attribute.Token elements
 				:returns: the indices of predicate tokens
 				"""
-				#sent_codified = np.array([self.pred_reader.converter.convert(token)
-				#													for token in tokens])
-				#answer = np.array(self.pred_nn.tag_sentence(sent_codified))
 				answer = []
 				for i, token in enumerate(tokens):
-					if token[0] == 'V': answer.append(i+1)
+					if token[0] == 'V' and tokens[i-1][0] != 'V': answer.append(i+1)
 				return np.array(answer)
 		
-		def find_arguments(self, token_obj, predL, headL):
+		def find_arguments(self, token_obj, predL, headL, relL):
 				"""
 				Finds out which tokens are predicates.
 
@@ -283,11 +261,20 @@ class SRLTagger(Tagger):
 				for p in predL: 
 					pred_arg_token = []; pred_arg = []
 					for j, h in enumerate(headL):
-						if p == h: 
+						if p == h and relL[j][0] == 'N': 
 							pred_arg_token.append(token_obj[j])
-							pred_arg.append(np.array([j, j+1]))
+							pred_arg.append(np.array([j, j]))
+
+					#TODO
+					# predicate의 header
+					#if headL[p-1] != 0: # 마지막 제외
+					#	pred_arg_token.append(token_obj[headL[p-1]-1])
+					#	pred_arg.append(np.array([headL[p-1]-1, headL[p-1]]))
+
 					answer_token.append(pred_arg_token)
 					answer.append(pred_arg)
+				#print(answer_token)
+				#print(answer)
 				return answer_token, answer
 
 		def tag(self, text, mode='standard'):
@@ -326,35 +313,23 @@ class SRLTagger(Tagger):
 					token = attributes.Token(w, hm, hp, tm, tp, r)
 					tokens_obj.append(token)
 
-				#if self.language == 'en':
-				#		tokens_obj = [attributes.Token(utils.clean_text(t, False)) for t in tokens]
-				#else:
-				#		tokens_obj = [attributes.Token(t) for t in tokenL]
-				
-				#converted_bound = np.array([self.boundary_reader.converter.convert(t) 
-				#														for t in tokens_obj])
 				converted_class = np.array([self.reader.converter.convert(t)
 																		for t in tokens_obj])
 				pred_positions = self.find_predicates(relL)
 				
-				# first, argument boundary detection
-				# the answer includes all predicates
-				#answers = self.nn.tag_sentence(converted_bound, pred_positions)
-				#boundaries = [[self.itd[x] for x in pred_answer]
-				#							for pred_answer in answers]
-				#arg_limits = [utils.boundaries_to_arg_limits(pred_boundaries)
-				#							for pred_boundaries in boundaries]
-
-				boundaries, arg_limits = self.find_arguments(wordL, pred_positions, headL)
+				arg_tokens, arg_limits = self.find_arguments(wordL, pred_positions, headL, relL)
+				print(arg_tokens)
+				print(pred_positions)
+				print(arg_limits)
 				
 				# now, argument classification
 				answers = self.nn.tag_sentence(converted_class,
 																								pred_positions, arg_limits,
 																								allow_repeats=not no_repeats)
-				arguments = [[self.itd[x] for x in pred_answer]
+				labels = [[self.itd[x] for x in pred_answer]
 										 for pred_answer in answers]
 				
-				structures = _group_arguments(wordL, pred_positions, boundaries, arguments)
+				structures = _group_arguments(wordL, pred_positions, arg_tokens, labels)
 				return SRLAnnotatedSentence(wordL, structures)
 
 class DependencyParser(Tagger):
@@ -423,9 +398,11 @@ class DependencyParser(Tagger):
 				eojeols, eojeol_features = self.pos_tagger.tag_tokens_for_parser(tokens, return_tokens=True)
 				#print("**", eojeols)
 				#print(eojeol_features)
+			#print(tokens, eojeols)
 			
 			for word, feature in zip(eojeols, eojeol_features):
 				m_h, t_h, m_t, t_t = feature
+				#udep_tokens_obj.append(attributes.Token(word, morph_h=m_h, pos_h=t_h, morph_t=m_t, pos_t=t_t))
 				udep_tokens_obj.append(attributes.Token(word, pos_h=t_h, morph_t=m_t, pos_t=t_t))
 				ldep_tokens_obj.append(attributes.Token(word, pos_h=t_h, morph_t=m_t, pos_t=t_t))
 			
@@ -571,7 +548,7 @@ class NERTagger(Tagger):
 			pos_tagged = filter(lambda x : x != (' ', 'SP'), pos_tagged) # 공백 제거
 			unzipped_pos_tagged = zip(*pos_tagged) 
 			morphs, morph_pos_tags = list(unzipped_pos_tagged)
-			print(morphs, morph_pos_tags)
+			#print(morphs, morph_pos_tags)
 
 			converter = self.reader.converter
 			converted_tokens = np.array([converter.convert(token) for token in morphs])
@@ -740,10 +717,34 @@ class POSTagger(Tagger):
 				else:
 					eumjeol.append(tokens[idx])
 					eumjeol_tags.append(tags[idx])
-			print(eumjeol)
-			print(eumjeol_tags)
+			#print(eumjeol)
+			#print(eumjeol_tags)
 
 			return eumjeol, eumjeol_tags
+		
+		def get_eojeol(self, tokens, tags):
+			"""
+			음절 토큰으로 처리.
+			'CO'를 앞 형태소에 붙이고 품사는 앞의 것을 따름 
+			새로운 -> 새/VB+로운/CO -> 새로운/VB
+
+			:param tokens: a list of strings
+			:param tags: a list of tags of each string
+			:return: a list of (eumjeol, tag)
+			"""
+			eojeols = []
+			eumjeol = []
+			#print(tokens)
+			for t in tokens:
+				if t == ' ':
+					eojeols.append(''.join(eumjeol))
+					eumjeol = []
+				else:
+					eumjeol.append(t)
+			eojeols.append(''.join(eumjeol))
+			#print(eojeols)
+
+			return eojeols
 		
 
 
@@ -754,18 +755,19 @@ class POSTagger(Tagger):
 			param tokens: eumjeol token list
 			param tags: pos tag list of each token
 			"""
-			morphs, morph_tags = self._get_morph_tokens(tokens, tags)
+			_morphs, _morph_tags = self._get_morph_tokens(tokens, tags)
 			#print('2---', morphs, morph_tags) # 원형 복원 전  
 			
 			if mode=='eumjeol':
-				eumjeols, eumjeol_tags = self.get_eumjeol_tokens(morphs, morph_tags)
+				eumjeols, eumjeol_tags = self.get_eumjeol_tokens(_morphs, _morph_tags)
 				return eumjeols, eumjeol_tags
 
-			morphs, morph_tags = self.handling_co_tags(morphs, morph_tags)
+			morphs, morph_tags = self.handling_co_tags(_morphs, _morph_tags)
 			#print("3", morphs, morph_tags)  # 원형복원 
 
 			if mode=='verb':
-				return morphs, morph_tags # 수정할 것
+				eojeols = self.get_eojeol(_morphs, _morph_tags)
+				return eojeols, morphs, morph_tags 
 
 
 			return morphs, morph_tags
@@ -818,13 +820,13 @@ class POSTagger(Tagger):
 						morphs.append(_morphs[i])
 						morph_tags.append('NN')
 						continue
-					#print(l)
+					#print(morphs, morph_tags, l, flush=True)
 					if len(l) == 1: # 후보가 하나일 경우
 						x_ = l[0].split('+')
 						for _x_ in x_:
 							_m_ = _x_.split('/')[0]
 							_t_ = _x_.split('/')[1]
-							if morph_tags[-1] == _t_:
+							if len(morph_tags)>1 and morph_tags[-1] == _t_:
 								morphs.append(morphs.pop()+_m_)
 							else:
 								morphs.append(_m_)
@@ -837,7 +839,7 @@ class POSTagger(Tagger):
 					co_morphs = [re.findall('(.+?)/([A-Z][A-Z])', x)[0][0] for x in max_list]
 					co_morph_tags = [re.findall('(.+?)/([A-Z][A-Z])', x)[0][1] for x in max_list]
 					#print(morphs, morph_tags, co_morphs, co_morph_tags, flush=True)
-					if morph_tags[-2] == co_morph_tags[0] :
+					if len(morph_tags)>1 and morph_tags[-2] == co_morph_tags[0] :
 						morphs.insert(-2, morphs.pop(-2) + co_morphs[0])
 						morphs = morphs[:-1] + co_morphs[1:]
 						morph_tags = morph_tags[:-1] + co_morph_tags[1:]
@@ -876,24 +878,27 @@ class POSTagger(Tagger):
 			param tokens : 음절
 			param tags   : 품사 
 			"""
-			morphs, morph_tags = self.get_morph_tokens(tokens, tags, mode="eumjeol")
-			eojeols = []
-			eoj = []
+			eojeols, morphs, morph_tags = self.get_morph_tokens(tokens, tags, mode)
 			eojeol_features = []
+			#print(morphs, morph_tags)
 			for i in range(len(morphs)):
-				m = morphs[i]
 				t = morph_tags[i]
-				#print(m, t)
+				#print(i, len(morphs), t)
 				# 어절 마지막
-				if m == ' ' or i == len(morphs)-1:
+				if t == 'SP':
 					## tail feature of last eojeol
 					tail_m = morphs[i-2] if (morph_tags[i-1] == 'SY' and morphs[i-1]!=',') else morphs[i-1]
 					tail_t = morph_tags[i-2] if (morph_tags[i-1] == 'SY' and morphs[i-1]!=',') else morph_tags[i-1]
-					#eojeol_features.append((head_t, tail_m, tail_t))
 					eojeol_features.append((head_m, head_t, tail_m, tail_t))
 
-					eojeols.append(''.join(eoj))
-					eoj = []
+					continue
+
+				if i == len(morphs)-1:
+					## tail feature of last eojeol
+					tail_m = morphs[i-1] if (morph_tags[i] == 'SY' and morphs[i]!=',') else morphs[i]
+					tail_t = morph_tags[i-1] if (morph_tags[i] == 'SY' and morphs[i]!=',') else morph_tags[i]
+					eojeol_features.append((head_m, head_t, tail_m, tail_t))
+
 					continue
 
 				# 어절 처음 
@@ -902,8 +907,6 @@ class POSTagger(Tagger):
 					head_t = morph_tags[i+1] if morph_tags[i] == 'SY' else morph_tags[i]
 					idx = 2 if morph_tags[i] == 'SY' else 1
 					head_t += morph_tags[i+idx] if morph_tags[i+idx] in ['XV', 'VB'] else ''
-
-				eoj.append(m)
 
 			return eojeols, eojeol_features
 
