@@ -122,21 +122,8 @@ NLTKor는 한국어를 위한 NLTK이며 기존의 영어에서 사용하는 Wor
 해당 라이브러리를 설치하기 위해서 아래와 동일하게 명령어 라인에서 입력하여 다운로드 받을 때, 사용자의 2가지 정보가 필요하다. 'modi.changwon.ac.kr' 내 사용하는 **사용자의 ID와 PW를 입력**해주어야만 다운로드가 가능하다.
 
 ```h
-$ git config --global http.sslVerify false
-$ pip install git+https://modi.changwon.ac.kr/air_cwnu/nlp_tool/nltk_ko
+$ pip install nltkor
 
-Collecting git+https://modi.changwon.ac.kr/air_cwnu/nlp_tool/nltk_ko.git
-Cloning https://modi.changwon.ac.kr/air_cwnu/nlp_tool/nltk_ko.git to /tmp/pip-req-build-1dychja8
-Username for 'https://modi.changwon.ac.kr': seongtae (gitlab의 사용자 ID)
-Password for 'https://seongtae@modi.changwon.ac.kr': (gitlab의 사용자 PW)
-Requirement already satisfied: regex==2020.7.14 in ./mac/lib/python3.6/site-packages (from nltk==1.0.1) (2020.7.14)
-Building wheels for collected packages: nltk
-  Building wheel for nltk (setup.py) ... done
-  Created wheel for nltk: filename=nltk-1.0.1-py3-none-any.whl size=47028553 sha256=bd14c5ee5672a27557ac92965b6c2a639fe4e595b1777dadf4aee35b3384a947
-  Stored in directory: /tmp/pip-ephem-wheel-cache-4otqpoux/wheels/9e/cc/cc/96c8c07aaef3aee9a5168e352fdc588a7d120da6236501ef61
-Successfully built nltk
-Installing collected packages: nltk
-Successfully installed nltk-1.0.1
 ```
 
 ##### 2.1.1. 설치 도중 오류 발생시 해결 방법
