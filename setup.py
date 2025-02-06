@@ -13,17 +13,17 @@ def package_files(directory):
         for filename in filenames:
             paths.append(os.path.join('..', path, filename))
     return paths
-  
-extra_files = package_files('nltk/sejong')
-extra_files = extra_files+package_files('nltk/tag')
 
-module1 = Extension("nltk.tag.espresso.libs.network", 
-                               ["nltk/tag/espresso/libs/network.c"],
+extra_files = package_files('nltkor/sejong')
+extra_files = extra_files+package_files('nltk_kor/tag')
+
+module1 = Extension("nltkor.tag.libs.network",
+                               ["nltkor/tag/libs/network.c"],
                                include_dirs=['.', np.get_include()])
 
 setup(
-  name='nltk',
-  version='1.2.10',
+  name='nltkor',
+  version='1.2.0',
 	url='https://modi.changwon.ac.kr/air_cwnu/nlp_tool/nltk_ko.git',
   packages=find_packages(exclude=[]),
   python_requires='>=3.7',
@@ -31,10 +31,21 @@ setup(
     'regex',
     'tqdm>=4.40.0',
     'joblib',
-    'numpy==1.23',
+    'numpy==1.23.0',
     'requests',
+    'nltk > 3.0',
+    'pyarrow ==14.0.0',
     'beautifulSoup4',
-    'lazy_import',
+    'faiss-cpu>=1.7.3',
+    'datasets',
+    'torch',
+    'scikit-learn>=0.22.1',
+    'transformers>=4.8.2',
+    'protobuf',
+    'sentencepiece',
+    'pandas',
+    'bert_score',
+    'fasttext==0.9.2'
     ],
   package_data={'': extra_files},
 	ext_modules=[module1],
