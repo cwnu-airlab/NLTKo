@@ -23,7 +23,7 @@ module1 = Extension("nltkor.tag.libs.network",
 
 setup(
   name='nltkor',
-  version='1.2.0',
+  version='1.2.3',
 	url='https://modi.changwon.ac.kr/air_cwnu/nlp_tool/nltk_ko.git',
   packages=find_packages(exclude=[]),
   python_requires='>=3.7',
