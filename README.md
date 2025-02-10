@@ -45,6 +45,7 @@
   - [5.7 세종형식 품사태깅 결과 평가](#57-세종형식-품사태깅-결과-평가)
   - [5.8 WER/CER](#58-wercer)
   - [5.9 BLEU](#59-bleu)
+  - [5.9.1 BLEU for tensor](#591-bleu-for-tensor)
   - [5.10 ROUGE](#510-rouge)
   - [5.11 CIDER](#511-cider)
   - [5.12 METEOR](#512-meteor)
